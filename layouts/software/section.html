@@ -140,6 +140,11 @@
       <div class="content">
         {{ .body | markdownify }}
       </div>
+      {{ with .cta }}
+      <div class="cta">
+        <a href="{{ .url }}">{{ .title }}</a>
+      </div>
+      {{ end }}
     </div>
     <div class="column is-image">
       <figure class="image">

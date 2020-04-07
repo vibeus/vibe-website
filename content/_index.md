@@ -101,6 +101,7 @@ trust:
   title: Trusted across the world
   testimonials:
     - author:
+        # logo: img/testimonials/sandler.png
         name: |
           Shelly Starks
 
@@ -108,8 +109,8 @@ trust:
       body: |
         The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
         suggestions into the most recent software update. This type of co-collaboration makes working with Vibe
-        a premier experience. Absolutely would recommend to anyone in the market for a digital white-board!
-      url: '#'
+        a premier experience. Absolutely would recommend it to anyone in the market for a digital white-board!
+      url: '/customer/'
     - author:
         name: |
           Karen L. Brady
@@ -119,8 +120,9 @@ trust:
         The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
         I am a long-time user of electronic whiteboards, but the interactive and digital features of the Vibe board
         have exponentially increased both efficiency and the "wow" factor in client meetings.
-      url: '#'
+      url: '/customer/'
     - author:
+        # logo: img/testimonials/kenmore.png
         name: |
           Rob Karlinsey
 
@@ -130,8 +132,9 @@ trust:
         Vibe will save each board automatically, so I can always pull a board back up during any meeting to show
         people what we’ve discussed. Even better, we like how you can invite remote coworkers in to collaborate
         on the board in real time from other devices. Vibe is a gamechanger.
-      url: '#'
+      url: '/customer/'
     - author:
+        # logo: img/testimonials/azularc.png
         name: |
           Kate Womick
 
@@ -141,8 +144,9 @@ trust:
         everything saved in one place so you can easily pick up where you left off.
         As a UX designer, I like how easy Vibe is to pick up a stylus and sketch on. And for big projects we can
         even have several people working on a single canvas at once - even from remote locations.
-      url: '#'
+      url: '/customer/'
     - author:
+        # logo: img/testimonials/capgemini.png
         name: |
           Peter T. Maloof
 
@@ -151,8 +155,9 @@ trust:
         We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
         and communication amongst our team. It also feels very seamless using the Vibe board and app across various
         devices.
-      url: '#'
+      url: '/customer/'
     - author:
+        # logo: img/testimonials/csi.png
         name: |
           Henry Sal, Jr.
 
@@ -162,7 +167,7 @@ trust:
         meetings – administrative tasks to software design sessions.
         Incredible device, saves us time and money and allows us to build our AI software products faster!
         Great job VIBE team, congratulations on a game changer!
-      url: '#'
+      url: '/customer/'
 
 bottom_cta:
   title: Experience Vibe for yourself

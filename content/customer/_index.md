@@ -136,6 +136,7 @@ stories:
     employees: 1—50
     region: Kenmore, WA
     cover: img/testimonials/cover-kenmore.jpg
+    caption: Kenmore City Hall
     logo:
       figure: img/testimonials/kenmore.png
       width: 78

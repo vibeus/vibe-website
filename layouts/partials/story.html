@@ -26,6 +26,9 @@
   <figure class="image">
     {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "1980x" "tablet" "1440x" "mobile" "750x") }}
   </figure>
+  {{ with .caption }}
+  <p class="caption">{{ . }}</p>
+  {{ end }}
 
   <h2 class="title">{{ .title }}</h2>
   <h3 class="subtitle">Key Factors</h3>

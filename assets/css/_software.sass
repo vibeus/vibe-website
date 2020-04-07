@@ -22,6 +22,7 @@
       font-size: 20px
       width: 230px
       height: 58px
+      border-width: 3px
 
 .section.is-hero-image
   padding-top: 64px
@@ -53,6 +54,9 @@
     display: flex
     flex-direction: column
     align-items: center
+    +mobile
+      &:not(:first-child)
+        margin-top: 32px
     .image
       max-width: 210px
     .item-title
@@ -61,7 +65,10 @@
       font-family: $vibe-family-heading
       font-weight: $vibe-bold
       text-align: center
+      margin-top: 48px
       margin-bottom: 30px
+      +mobile
+        margin-top: 16px
     .content
       max-width: 300px
       text-align: center
@@ -162,10 +169,16 @@
   .title.is-section-title
     text-align: left
     padding-right: 20px
-  .title.is-section-title, .content
+  .title.is-section-title, .content, .cta
     +tablet
       max-width: 500px
       margin-left: auto
+  .cta a
+    font-weight: $vibe-bold
+    &:hover
+      color: $primary
+    &:not(:hover)
+      color: $vibe-teal
   .column.is-image
     align-self: flex-end
   .image
@@ -181,6 +194,8 @@
 
 .section.is-video
   background-color: $vibe-white
+  .title.is-section-title
+    text-align: left
 
 .hero, .section
   +tablet
