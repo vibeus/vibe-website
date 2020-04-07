@@ -12,9 +12,9 @@ matchers:
   - pattern: "^.+\\.(js|css|svg|ttf)$"
     cacheControl: 'max-age=31536000, no-transform, public'
     gzip: true
-  - pattern: "^.+\\.(png|jpg|jpeg)$"
+  - pattern: "^.+\\.(png|jpg|jpeg|gif)$"
     cacheControl: 'max-age=31536000, no-transform, public'
-    gzip: true
+    gzip: false
   - pattern: "^.+\\.(html|xml|json)$"
     cacheControl: 'max-age=86400, no-transform, public'
     gzip: true

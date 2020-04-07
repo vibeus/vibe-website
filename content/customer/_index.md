@@ -1,4 +1,6 @@
 ---
+stylesPath: css/customer.sass
+
 hero:
   title: Customers love Vibe
   body: |

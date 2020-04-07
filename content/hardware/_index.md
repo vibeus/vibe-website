@@ -1,4 +1,6 @@
 ---
+stylesPath: css/hardware.sass
+
 hero:
   title: Unleash your potential
   body: |

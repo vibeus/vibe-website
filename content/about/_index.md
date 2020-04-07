@@ -1,4 +1,6 @@
 ---
+stylesPath: css/about.sass
+
 title: About us
 
 hero:

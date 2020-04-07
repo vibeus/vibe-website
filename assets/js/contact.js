@@ -3,7 +3,6 @@
 */
 import {
   toggleActive,
-  getHubspotUtk,
   setupForm,
 } from '{{ $src.RelPermalink }}';
 

@@ -1,4 +1,6 @@
 ---
+stylesPath: css/software.sass
+
 hero:
   title: Collaboration software for however you work
   body: |

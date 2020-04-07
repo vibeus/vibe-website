@@ -1,4 +1,7 @@
 ---
+cascade:
+  stylesPath: css/comparison.sass
+
 title: What sets Vibe apart
 
 hero:

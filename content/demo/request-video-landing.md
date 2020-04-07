@@ -1,4 +1,5 @@
 ---
+stylesPath: css/request-video-landing.sass
 layout: request-video-landing
 
 video_hero:

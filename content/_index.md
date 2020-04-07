@@ -1,4 +1,7 @@
 ---
+
+stylesPath: css/home.sass
+
 hero:
   title: Collaboration lives here
   body: With Vibe's powerful, intuitive technology, teams can innovate, ideate, and collaborate like never before.

@@ -1,4 +1,6 @@
 ---
+stylesPath: css/order.sass
+
 title: Order your Vibe
 
 is_order: true

@@ -1,4 +1,6 @@
 ---
+stylesPath: css/career.sass
+
 title: Work with us
 
 hero:

@@ -1,4 +1,6 @@
 ---
+stylesPath: css/security.sass
+
 title: Security
 
 hero:

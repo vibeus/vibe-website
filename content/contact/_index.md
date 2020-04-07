@@ -1,4 +1,6 @@
 ---
+stylesPath: css/contact.sass
+
 hero:
   title: Contact us
   body: Send us a message and we will get back to you as soon as we can.
