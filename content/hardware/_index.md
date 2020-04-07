@@ -1,4 +1,5 @@
 ---
+title: Unleash your potential
 stylesPath: css/hardware.sass
 
 hero:

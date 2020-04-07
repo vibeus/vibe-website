@@ -1,5 +1,6 @@
 ---
 
+title: Collaboration lives here
 stylesPath: css/home.sass
 
 hero:
@@ -14,12 +15,12 @@ hero:
     - title: Already using Vibe?
       link:
         text: 'Log in →'
-        url: '#'
+        url: 'https://app.vibe.us/login'
     - title: Already using Vibe?
       class: is-logged-in
       link:
         text: 'Open your boards →'
-        url: '#'
+        url: 'https://app.vibe.us/'
 
 what_is_vibe:
   title: What is Vibe?

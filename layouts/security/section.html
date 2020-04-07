@@ -56,7 +56,7 @@
         </div>
         {{ with .cta }}
         <div class="cta">
-          <a class="button{{ with .class }} {{ . }}{{ end }}" href="">
+          <a class="button{{ with .class }} {{ . }}{{ end }}" href="{{ .url }}" target="_blank">
             {{ .title }}
           </a>
         </div>

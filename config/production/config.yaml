@@ -1,5 +1,4 @@
 baseURL: https://vibe.us
-enableRobotsTXT: true
 buildDrafts: false
 buildExpired: false
 buildFuture: false

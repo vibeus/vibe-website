@@ -1,7 +1,6 @@
 ---
-stylesPath: css/career.sass
-
 title: Work with us
+stylesPath: css/career.sass
 
 hero:
   title: Work with us

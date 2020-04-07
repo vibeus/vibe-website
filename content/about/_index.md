@@ -1,7 +1,6 @@
 ---
-stylesPath: css/about.sass
-
 title: About us
+stylesPath: css/about.sass
 
 hero:
   title: Vibe’s mission is to help humanity thrive by enabling all teams to work together effortlessly

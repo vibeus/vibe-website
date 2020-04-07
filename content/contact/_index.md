@@ -1,4 +1,5 @@
 ---
+title: Contact us
 stylesPath: css/contact.sass
 
 hero:

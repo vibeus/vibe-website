@@ -1,4 +1,5 @@
 ---
+title: Collaboration software for however you work
 stylesPath: css/software.sass
 
 hero:

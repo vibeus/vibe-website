@@ -1,4 +1,5 @@
 ---
+title: Thanks for requesting our demo video.
 stylesPath: css/request-video-landing.sass
 layout: request-video-landing
 

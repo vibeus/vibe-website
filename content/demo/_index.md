@@ -1,4 +1,5 @@
 ---
+title: Sign up for a live demo
 stylesPath: css/demo.sass
 
 hero:

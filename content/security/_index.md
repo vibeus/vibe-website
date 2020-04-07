@@ -1,7 +1,7 @@
 ---
 stylesPath: css/security.sass
 
-title: Security
+title: Vibe security overview
 
 hero:
   title: Vibe security overview
@@ -50,6 +50,7 @@ specs:
   cta:
     title: Get Security Specs
     class: is-black is-outlined is-rounded is-inverted
+    url: /resources/Vibe_Security_Specs.pdf
   items:
     - Compliance to various security standards
     - Single-sign-on via industry standard authentication protocols

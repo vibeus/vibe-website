@@ -1,6 +1,6 @@
 ---
+title: Use your favorite apps
 stylesPath: css/android-app-store.sass
-title: App Store
 
 hero:
   title: Use your favorite apps

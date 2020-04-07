@@ -3,7 +3,8 @@ languageCode: en-us
 title: Vibe
 log: true
 verbose: true
-enableRobotsTXT: false
+enableRobotsTXT: true
+enableGitInfo: true
 disableKinds:
   - taxonomy
   - taxonomyTerm
