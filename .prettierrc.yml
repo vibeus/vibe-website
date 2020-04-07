@@ -1,0 +1,5 @@
+trailingComma: es5
+singleQuote: true
+overrides:
+  - files: _index.md
+    parser: yaml

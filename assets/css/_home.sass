@@ -1,0 +1,179 @@
+.hero
+  position: relative
+  font-size: 18px
+  +mobile
+    font-size: 16px
+  .image.is-hero-bg
+    +absolute-fill
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      +mobile
+        object-position: 62% 50%
+  .container
+    +fullhd
+      max-width: 1100px
+  .title-text
+    max-width: 428px
+    margin-bottom: 72px
+    +mobile
+      max-width: 250px
+    .title
+      font-size: 64px
+      line-height: 73px
+      +mobile
+        font-size: 32px
+        line-height: 40px
+    p
+      max-width: 387px
+      +mobile
+        max-width: 200px
+  .cta
+    .button.is-hero-cta
+      font-size: 24px
+      +mobile
+        font-size: 18px
+      font-weight: $vibe-bold
+      &:not(:last-child)
+        margin-right: 20px
+  .subcta
+    margin-top: 20px
+    &.is-logged-in
+      display: none
+    +mobile
+      display: none
+    a
+      font-weight: 500
+      color: $primary
+      margin-left: 18px
+
+.section.is-feature
+  padding: 3rem 1.5rem
+  &.is-feature-1
+    padding-top: 120px
+    +mobile
+      padding-top: 64px
+  &.is-feature-2
+    padding-bottom: 90px
+  &.is-feature-3
+    +mobile
+      padding-bottom: 0
+  &.is-feature-1, &.is-feature-3, &.is-feature-5
+    .columns
+      flex-direction: row-reverse
+  +tablet
+    &.is-feature-2, &.is-feature-4
+      .column.is-text
+        margin-left: 64px
+  font-size: 18px
+  +mobile
+    font-size: 16px
+  .container
+    max-width: 1224px
+  .column.is-text
+    max-width: 500px
+  .column.is-image
+    position: relative
+    +tablet
+      .image
+        position: absolute
+  .cta
+    font-weight: $vibe-bold
+    a
+      display: flex
+      align-items: center
+      color: $vibe-purple
+      &:hover
+        color: $primary
+      &:hover svg
+        fill: $primary
+      span.icon
+        margin-left: 12px
+  &.is-feature-3
+    background-color: $vibe-teal
+  +tablet
+    &.is-feature-1
+      .column.is-image
+        height: 473px
+      .image
+        width: 774px
+        right: 0
+        +widescreen
+          right: 120px
+    &.is-feature-2
+      .column.is-image
+        height: 492px
+      .image
+        width: 782px
+        left: 0
+        +widescreen
+          left: 160px
+    &.is-feature-3
+      position: relative
+      padding-top: 120px - 12px
+      min-height: 810px
+      .container, .column.is-image
+        position: static
+      .column.is-text
+        z-index: 1
+      .image
+        width: 993px
+        bottom: 0
+        left: -300px
+        +from(1024px)
+          left: -150px
+        +from(1344px)
+          left: 0
+        +from(1920px)
+          left: auto
+          right: 50%
+    &.is-feature-4
+      .column.is-image
+        height: 566px
+      .image
+        width: 820px
+        left: 0
+        +widescreen
+          left: 160px
+    &.is-feature-5
+      padding-bottom: 0
+      .column.is-image
+        height: 659px
+      .image
+        width: 707px
+        right: 0
+        +widescreen
+          right: 120px
+
+.section.is-trust
+  background-color: $vibe-white
+  .title
+    text-align: center
+  .testimonials
+    .glide
+      background-color: $vibe-yellow
+      +tablet
+        box-shadow: -100px 100px 0 white
+    +from(900px)
+      .glide-nav
+        display: inherit
+    +tablet
+      max-width: 768px
+    +widescreen
+      max-width: 905px
+    margin: 76px auto 0 auto
+    .testimonial
+      padding: 72px 72px 24px 60px
+      +mobile
+        padding: 16px
+      .content, .author
+        padding-left: 90px
+        +mobile
+          padding-left: 16px
+      .author
+        justify-content: flex-start
+  .columns.is-customers
+    margin-top: 106px + 100px
+    +mobile
+      margin-top: 50px

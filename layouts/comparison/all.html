@@ -1,0 +1,21 @@
+{{ define "main" }}<main class="comparison">
+
+{{ with .Params.hero }}
+<section class="section is-hero-all">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">{{ .body | markdownify }}</div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section is-comparison is-all">
+  <div class="container">
+    {{ partial "comparison" (dict "features" $.Site.Data.comparison.features "brands" $.Site.Data.comparison.brands "images" true) }}
+  </div>
+</section>
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+</main>{{ end }}

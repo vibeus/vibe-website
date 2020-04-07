@@ -1,0 +1,11 @@
+{{ with .Site.Data.customers.customers }}
+<div class="columns is-multiline is-customers is-mobile">
+  {{ range . }}
+  <div class="column is-one-quarter-tablet is-half-mobile">
+    <figure class="image is-logo">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .icon) "desktop" "440x" "options" "jpg q95 #f4f4f4") }}
+    </figure>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

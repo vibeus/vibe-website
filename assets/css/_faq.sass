@@ -1,0 +1,39 @@
+.section.is-faq
+  background-color: $vibe-yellow
+
+  .container
+    max-width: 1120px
+    +tablet
+      font-size: 18px
+  .faq-section-title
+    margin-bottom: 32px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .title.is-section-title
+      margin: 0
+  .faq-items
+    border-top: 1px solid $vibe-black
+    border-bottom: 1px solid $vibe-black
+  .faq-item:not(:last-child)
+    border-bottom: 1px solid $vibe-black
+  .faq-item
+    overflow: hidden
+    height: 92px
+    &.is-active
+      height: auto
+      .icon.is-chevron
+        transform: rotate(180deg)
+    .faq-title
+      font-size: 21px
+      line-height: 90px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      cursor: pointer
+      span
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+    .content
+      margin-bottom: 32px

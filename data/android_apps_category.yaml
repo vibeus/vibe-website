@@ -1,0 +1,31 @@
+use_cases:
+  - id: remote
+    name: Remote collaboration
+  - id: presentation
+    name: Presentation
+  - id: project
+    name: Project management
+
+types:
+  - id: browser
+    name: Web Browser
+  - id: design
+    name: Design and Creativity
+  - id: communication
+    name: Communication
+  - id: av
+    name: Voice and Video
+  - id: productivity
+    name: Productivity
+  - id: file
+    name: File Management
+  - id: project
+    name: Project Management
+  - id: education
+    name: Education
+  - id: data_viz
+    name: Data Visualization
+  - id: construction
+    name: Construction
+  - id: other
+    name: Other

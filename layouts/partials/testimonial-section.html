@@ -1,0 +1,12 @@
+<section class="section is-testimonial">
+  <div class="container">
+    {{ $glide := gt (len .testimonials) 1 }}
+    {{ if $glide }}
+      {{ partial "testimonial-glide" .testimonials }}
+    {{ else }}
+      {{ range .testimonials }}
+      {{ partial "testimonial" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

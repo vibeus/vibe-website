@@ -1,0 +1,66 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/react.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/react-dom.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="android-app-store">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div>
+        <h1 class="title">{{ .title }}</h1>
+        <div class="content">{{ .body | markdownify }}</div>
+      </div>
+      <figure class="image is-hidden-mobile">
+        {{ partial "common/srcset" (dict "resource" (resources.Get "/img/android-app-store/hero.png") "desktop" "474x" "mobile" "1x") }}
+      </figure>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section is-app-store">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-side-bar">
+        {{ with .Params.side_bar }}
+        <h2 class="title">{{ .title }}</h2>
+        {{ end }}
+
+        <h3 class="subtitle">Category</h3>
+        {{ range .Site.Data.android_apps_category.use_cases }}
+        <div>
+          <a class="side-bar-link is-use-case" href="#" data-id="{{ .id }}">{{ .name }}</a>
+        </div>
+        {{ end }}
+        <h3 class="subtitle">Type of tool</h3>
+        {{ range .Site.Data.android_apps_category.types }}
+        <div>
+          <a class="side-bar-link is-type" href="#" data-id="{{ .id }}">{{ .name }}</a>
+        </div>
+        {{ end }}
+      </div>
+      <div class="column is-app-root">
+        <div id="app-root">
+        </div>
+        {{ with .Params.bottom_cta }}
+        <div class="bottom-cta">
+          <h2 class="title">{{ .title }}</h2>
+          <div class="content">{{ .body | markdownify }}</div>
+          {{ with .cta }}
+          <div class="cta">
+            <a class="button is-black is-rounded is-large" href="{{ .url }}">{{ .title }}</a>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "common/template-script" (dict "asset" "js/android-app-store.js" "context" .) }}
+</main>{{ end }}

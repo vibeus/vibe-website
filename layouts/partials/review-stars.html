@@ -1,0 +1,21 @@
+{{ $value := math.Round (mul . 2.0) }}
+{{ $full := math.Floor (div $value 2) }}
+{{ $half := mod $value 2 }}
+{{ $empty := sub (sub 5 $full) $half }}
+<div class="review-stars">
+  {{ range seq $full }}
+  <span class="icon is-medium">
+    {{ partial "common/mdi" "star" }}
+  </span>
+  {{ end }}
+  {{ range seq $half }}
+  <span class="icon is-medium">
+    {{ partial "common/mdi" "star-half" }}
+  </span>
+  {{ end }}
+  {{ range seq $empty }}
+  <span class="icon is-medium">
+    {{ partial "common/mdi" "star-outline" }}
+  </span>
+  {{ end }}
+</div>

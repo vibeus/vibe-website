@@ -1,0 +1,36 @@
+<div class="testimonial">
+  <div class="content">
+    {{ .body | markdownify }}
+    <div class="quote-mark is-left">
+      {{ (resources.Get "img/testimonials/quote.svg").Content | safeHTML }}
+    </div>
+    <div class="quote-mark is-right">
+      {{ (resources.Get "img/testimonials/quote.svg").Content | safeHTML }}
+    </div>
+  </div>
+
+  {{ with .author }}
+  <div class="author">
+    <div class="logo-name">
+      {{ if .name }}
+      <div class="name">
+        {{ .name | markdownify }}
+      </div>
+      {{ end }}
+      {{ if .logo }}
+      <div class="logo">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "420x" "mobile" "420x") }}
+        </figure>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{ with .url }}
+  <div class="more">
+    <a href="{{ . }}">Read more →</a>
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,19 @@
+{{ with .Site.Data.locations.locations }}
+<section class="section is-locations">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-multiline is-mobile">
+      {{ range .cities }}
+      <div class="column is-one-third">
+        <div class="city">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "350x" "options" "jpg #f4f4f4") }}
+          </figure>
+          <p class="name">{{ .name }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

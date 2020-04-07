@@ -1,0 +1,71 @@
+<table class="table is-comparison is-fullwidth">
+  <thead>
+    {{ if .images }}
+    <tr>
+      <th></th>
+      {{ range .brands }}
+      <th>
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
+        </figure>
+      </th>
+      {{ end }}
+    </tr>
+    {{ end }}
+    <tr>
+      <th class="is-sticky">Compare Brands</th>
+      {{ range .brands }}
+      <th class="is-sticky is-brand-name">{{ .name }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  {{ range .features }}
+  <tbody>
+    {{ $feature := .id }}
+    <tr class="is-section">
+      <th colspan="{{ add 1 (len $.brands) }}" class="is-sticky">
+        <div class="color is-{{ .id }}"></div>
+        <p>{{ .title }}</p>
+      </th>
+    </tr>
+    {{ range .items }}
+    {{ $sub := .id }}
+    <tr>
+      <th>{{ .title }}</th>
+      {{ range $.brands }}
+      <td>{{ index (index . $feature) $sub | markdownify }}</td>
+      {{ end }} <!-- brands -->
+    </tr>
+    {{ end }} <!-- items -->
+  </tbody>
+  {{ end }} <!-- features -->
+</table>
+
+<div class="table-mobile is-comparison">
+  {{ range .features }}
+  {{ $feature := .id }}
+  <div>
+    <div class="feature is-section is-{{ .id }}">
+      {{ .title }}
+    </div>
+    {{ range .items }}
+    {{ $sub := .id }}
+    <div class="feature is-item">
+      {{ .title }}
+    </div>
+    <div>
+      {{ range $.brands }}
+      <div class="columns is-mobile is-vcentered">
+        <div class="column is-brand-name">
+          {{ .name }}
+        </div>
+        <div class="column">
+          {{ index (index . $feature) $sub | markdownify }}
+        </div>
+      </div>
+      {{ end }} <!-- brands -->
+    </div>
+    {{ end }} <!-- items -->
+  </div>
+  {{ end }} <!-- features -->
+</div>

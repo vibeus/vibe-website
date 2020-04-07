@@ -1,0 +1,40 @@
+.section.is-video-hero
+  padding-top: 80px
+  padding-bottom: 80px
+  .video-hero-bg
+    margin-top: -210px
+
+.hero
+  background-color: $vibe-teal
+  .container
+    max-width: 1110px
+  .column.is-text
+    .title
+      +mobile
+        font-size: 32px
+        line-height: 40px
+      +tablet
+        font-size: 40px
+        line-height: 50px
+      +desktop
+        font-size: 50px
+        line-height: 60px
+    .content
+      max-width: 500px
+  .column.is-image
+    max-width: 490px + 24px
+    +desktop
+      margin-right: -80px
+  .cta
+    font-weight: $vibe-bold
+    a:not(:hover)
+      color: $vibe-purple
+    a:hover svg
+      stroke: $primary
+
+.section.is-bottom-cta
+  background-color: $vibe-yellow
+
+.hero, .section
+  +tablet
+    font-size: 18px

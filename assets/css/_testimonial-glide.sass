@@ -1,0 +1,23 @@
+.testimonials
+  position: relative
+
+.testimonials .glide-dots
+  margin-top: 24px
+  text-align: center
+  .icon
+    cursor: pointer
+    opacity: 0.2
+    &.is-active
+      opacity: 0.6
+
+.testimonials .glide-nav
+  position: absolute
+  display: none
+  top: 50%
+  margin-top: -24px
+  cursor: pointer
+  &.is-left
+    left: -60px
+    transform: rotate(180deg)
+  &.is-right
+    right: -60px

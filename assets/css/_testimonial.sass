@@ -1,0 +1,48 @@
+.testimonial
+  .content
+    position: relative
+    +tablet
+      font-size: 22px
+    font-family: $vibe-family-heading
+    padding: 40px 80px 60px 120px
+    +mobile
+      padding: 50px 32px 60px 32px
+  .quote-mark
+    position: absolute
+    &.is-left
+      top: 0
+      left: 0
+    &.is-right
+      right: 0
+      bottom: 0
+  .author
+    display: flex
+    justify-content: center
+    margin-top: 46px
+    .logo-name
+      display: flex
+      flex-direction: row-reverse
+      align-items: center
+      +mobile
+        display: block
+      .image
+        max-width: 210px
+        +mobile
+          max-width: 120px
+          margin-top: 32px
+      .name
+        font-family: $vibe-family-heading
+        p:first-child
+          font-weight: $vibe-bold
+          margin-bottom: 8px
+        +tablet
+          font-size: 18px
+          line-height: 32px
+          margin-left: 55px
+  .more
+    font-family: $vibe-family-heading
+    font-weight: $vibe-bold
+    margin-top: 42px
+    text-align: right
+    +tablet
+      font-size: 18px

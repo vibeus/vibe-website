@@ -1,0 +1,28 @@
+<section class="section is-video-hero">
+  <div class="container">
+    <div class="video-hero-bg">
+      {{ (resources.Get "img/shared/outline-logo.svg").Content | safeHTML }}
+    </div>
+    {{ with .title }}
+    <h1 class="title is-section-title">{{ . }}</h1>
+    {{ end }}
+    {{ with .subtitle }}
+    <h2 class="subtitle is-section-title">{{ . }}</h2>
+    {{ end }}
+    {{ with .body }}
+    <div class="content">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
+    {{ with .video }}
+    <div class="video-launcher" data-target="hero-video">
+      <figure class="image" id="hero-video">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .placeholder) "desktop" "2380x" "tablet" "1440x" "mobile" "750x" "options" "jpg") }}
+        <div id="hero-video-iframe">
+        </div>
+      </figure>
+    </div>
+    {{ partial "common/video-player" (dict "playerId" "hero-video" "videoId" .id "triggerClass" ".video-launcher" "isInplace" true) }}
+    {{ end }}
+  </div>
+</section>

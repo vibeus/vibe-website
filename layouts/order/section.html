@@ -1,0 +1,222 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/react.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/react-dom.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="order">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-desktop is-vcentered">
+        <div class="column is-gallery">
+          <!--
+            glidejs does not support container in a flex box so we need some tricks here.
+            1. column is a flex box, with thubmains on the left, fixed width, and product-gallery on the right, flex=1
+            2. product-gallery makes sure its aspect ratio is same as actual images.
+            3. inside product-gallery, an absolute fill wrapper wraps glide, so that glide can determine correct size.
+            https://github.com/glidejs/glide/issues/233#issuecomment-609361003
+          -->
+          <div class="product-gallery">
+            <div class="aspect-ratio-keeper">
+              <div class="glide-wrapper">
+                <div class="glide">
+                  <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                      {{ range .gallery }}
+                      <li class="glide__slide">
+                        <figure class="image">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+                        </figure>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnails">
+            {{ range .gallery }}
+            <figure class="image">
+              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "160x" "options" "jpg q95 #FFFFFF") }}
+            </figure>
+            {{ end }}
+          </div>
+        </div>
+        <div class="column is-text">
+          <h1 class="title">{{ .title }}</h1>
+          <div class="content">{{ .body | markdownify }}</div>
+          <div class="item-price">${{ .price | lang.NumFmt (default 0 .precision) }}</div>
+          <div class="content is-shipping">
+            {{ .shipping | markdownify }}
+            <p>Check our <a href="https://order.vibe.us/14495744064/policies/6190628928.html" target="_blank">Refund policy</a>.</p>
+          </div>
+          <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
+            <div class="control is-count has-icons-left has-icons-right">
+              <input class="input is-medium is-rounded is-black" type="number" value="1">
+              <span class="icon is-small is-left">
+                {{ partial "common/mdi" "minus" }}
+              </span>
+              <span class="icon is-small is-right">
+                {{ partial "common/mdi" "plus" }}
+              </span>
+            </div>
+            <div class="control is-add-cart">
+              <button class="button is-medium is-primary is-rounded is-fullwidth">Add to Cart</button>
+              {{ with .amazon }}
+              <div class="content is-amazon">
+                Also available on <a href="{{ . }}" target="_blank">Amazon</a>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.accessories }}
+<section class="section is-accessories">
+  <div class="container">
+    <h2 class="title is-section-title">{{ .title }}</h2>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+        </figure>
+        <h3 class="title">{{ .title }}</h3>
+        <p class="price">${{ .price | lang.NumFmt (default 0 .precision) }}</p>
+        <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
+          <div class="control is-count has-icons-left has-icons-right">
+            <input class="input is-rounded is-black" type="number" value="1" />
+            <span class="icon is-small is-left">
+              {{ partial "common/mdi" "minus" }}
+            </span>
+            <span class="icon is-small is-right">
+              {{ partial "common/mdi" "plus" }}
+            </span>
+          </div>
+          <div class="control is-add-cart">
+            <button class="button is-primary is-rounded is-fullwidth">Add to Cart</button>
+            {{ with .amazon }}
+            <div class="content is-amazon">
+              Also available on <a href="{{ . }}" target="_blank">Amazon</a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+{{ partial "faq" . }}
+{{ end }}
+
+{{ with .Params.reviews }}
+<section class="section is-reviews">
+  <div class="container">
+    <h2 class="title is-section-title">{{ .title }}</h2>
+    <div class="columns is-vcentered is-mobile">
+      <div class="column is-stars">
+        {{ $total := 0 }}
+        {{ range .items }}
+        {{ $total = add $total .stars }}
+        {{ end }}
+        {{ partial "review-stars" (div $total (len .items)) }}
+      </div>
+      <div class="column">
+        Based on {{ len .items }} {{ if eq 1 (len .items) }}review{{ else }}reviews{{ end }}
+      </div>
+    </div>
+    {{ range .items }}
+    <div class="columns is-review">
+      <div class="column is-stars is-review">
+        <div class="author">
+          {{ .author }}
+        </div>
+        <div class="channel">
+          {{ .channel }}
+        </div>
+        {{ partial "review-stars" .stars }}
+        <div class="date">
+          {{ .date }}
+        </div>
+      </div>
+      <div class="column">
+        <div class="content is-review">
+          {{ .review | markdownify }}
+        </div>
+        <div class="full-review">
+          <a href="{{ .url }}" target="_blank">Read full review →</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+<div class="modal is-cart" id="cart">
+  <div class="modal-background" data-target="cart"></div>
+  <div class="modal-content">
+    <div class="level is-cart-head is-mobile">
+      <div class="level-left">
+        <div class="level-item">
+          <span class="icon is-large is-close" data-target="cart">
+            {{ partial "common/mdi" "chevron-right:24" }}
+          </span>
+        </div>
+        <div class="level-item">
+          <p class="cart-title">My Cart</p>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <p class="item-count">1 item</p>
+        </div>
+      </div>
+    </div>
+    <div class="cart-items" id="app-root">
+    </div>
+    <div class="cart-bottom">
+      <div class="level is-cart-total is-mobile">
+        <div class="level-left">
+          <div class="level-item">
+            <p class="title">Subtotal</p>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <p class="title is-amount">$2,999.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <p>We provide complimentary shipping in continental U.S.</p>
+      </div>
+      <div class="checkout">
+        <a class="button is-checkout is-large is-primary is-rounded is-fullwidth"
+           href="#">Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
+</main>{{ end }}

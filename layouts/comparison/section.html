@@ -1,0 +1,53 @@
+{{ define "main" }}<main class="comparison">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="bg-logo">
+    {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+      <div class="content">{{ .body | markdownify }}</div>
+      {{ with .cta }}
+      <div class="cta">
+        <a href="{{ .url }}">{{ .title }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.competitors }}
+<section class="section is-competitors">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range . }}
+      <div class="column is-half-tablet is-one-third-desktop">
+        <a href="{{ .url }}">
+          <div class="card">
+            <div class="card-content">
+              <h2 class="title">{{ .name }}</h2>
+              <p class="subtitle">vs Vibe</p>
+              <figure class="image">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x") }}
+              </figure>
+              <div class="more">
+                <span>Read more →</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+</main>{{ end }}

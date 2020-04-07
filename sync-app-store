@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+import json
+import os
+import requests
+import yaml
+
+app_list_json = "https://dl.vibe.us/configs/whitelist/vibe.json"
+app_list_yaml = "./data/android_apps.yaml"
+black_list = ["com.android.rk"]
+
+
+def main():
+    resp = requests.get(app_list_json)
+    remote_list = resp.json()
+
+    local_map = {}
+    if os.path.exists(app_list_yaml):
+        with open(app_list_yaml, "r") as f:
+            apps = yaml.safe_load(f)
+            local_list = apps.get("apps", [])
+            for obj in local_list:
+                obj_id = obj.get("id", "")
+                if obj_id:
+                    local_map[obj_id] = obj
+
+    new_map = {}
+    for app in remote_list:
+        app_id = app.get("package", "")
+        remote_icon = app.get("icon", "")
+        if not app_id or app_id in black_list or not remote_icon:
+            print("Ignore app: {}".format(app_id))
+            continue
+        local_icon = "assets/img/android-app-store/icons/{}.png".format(app_id)
+        icon_resp = requests.get(remote_icon)
+        with open(local_icon, "wb") as f:
+            f.write(icon_resp.content)
+        app_obj = local_map.get(app_id, {})
+        if app_id in local_map:
+            del local_map[app_id]
+        app_obj["name"] = app.get("name", "")
+        app_obj["id"] = app_id
+        new_map[app_id] = app_obj
+
+    apps_to_save = []
+    for v in new_map.values():
+        apps_to_save.append(v)
+
+    apps_to_save.sort(key=lambda x: x["id"])
+    with open(app_list_yaml, "w") as f:
+        apps = {"apps": apps_to_save}
+        yaml.dump(apps, f)
+
+    print(
+        "Saved {} apps, removed {} existing apps.".format(
+            len(apps_to_save), len(local_map)
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

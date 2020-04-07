@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="columns is-header is-desktop is-vcentered">
+    <div class="column">
+      <figure class="image" style="width: {{ .logo.modal_width }}px">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .logo.figure) "desktop" "524x") }}
+      </figure>
+    </div>
+    <div class="column is-profile">
+      <div class="columns is-mobile">
+        <div class="column">
+          <p>Industry</p>
+          <p>{{ .industry }}</p>
+        </div>
+        <div class="column">
+          <p>Employees</p>
+          <p>{{ .employees }}</p>
+        </div>
+        <div class="column">
+          <p>Region</p>
+          <p>{{ .region }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <figure class="image">
+    {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "1980x" "tablet" "1440x" "mobile" "750x") }}
+  </figure>
+
+  <h2 class="title">{{ .title }}</h2>
+  <h3 class="subtitle">Key Factors</h3>
+
+  <div class="columns is-mobile is-key-factor">
+    {{ range .key_factors }}
+    <div class="column">
+      <div class="key-factor">
+        <p>{{ . }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ with .testimonial }}
+  {{ partial "testimonial" . }}
+  {{ end }}
+
+  {{ range .testimonials }}
+  {{ partial "testimonial" . }}
+  {{ end }}
+</div>

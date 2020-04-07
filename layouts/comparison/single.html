@@ -1,0 +1,49 @@
+{{ define "main" }}<main class="comparison">
+
+{{ with .Params.hero }}
+<section class="section is-hero-single">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">{{ .body | markdownify }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.difference }}
+<section class="section is-difference">
+  <div class="container">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2688x" "tablet" "1520x" "mobile" "750x") }}
+    </figure>
+    <div class="title-content">
+      <h1 class="title">{{ .title }}</h1>
+      <div class="content">{{ .body | markdownify }}</div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.compare }}
+<section class="section is-comparison is-single">
+  <div class="container">
+    {{ $left := index (where $.Site.Data.comparison.brands "id" .left) 0 }}
+    {{ $right := index (where $.Site.Data.comparison.brands "id" .right) 0 }}
+    {{ partial "comparison" (dict "features" $.Site.Data.comparison.features "brands" (slice $left $right) "images" false) }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.why }}
+<section class="section is-why">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">{{ .body | markdownify }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+</main>{{ end }}

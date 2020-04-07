@@ -1,0 +1,168 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="about">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="bg-logo">
+    {{ (resources.Get "img/shared/outline-logo.svg").Content | safeHTML }}
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.hello }}
+<section class="section is-hello">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column">
+        <h2 class="title is-section-title">{{ .title }}</h2>
+        <div class="content">{{ .body | markdownify }}</div>
+        {{ with .cta }}
+        <div class="cta">
+          <a href="{{ .url }}">{{ .title }}</a>
+        </div>
+        {{ end }}
+      </div>
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get "img/about/hello.png") "desktop" "1494x" "mobile" "750x") }}
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.team }}
+<section class="section is-team">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">{{ .body | markdownify }}</div>
+    <div class="columns is-multiline is-mobile">
+      {{ range .members }}
+      <div class="column is-one-quarter-tablet is-half-mobile">
+        <div class="profile">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "360x" "options" "jpg") }}
+          </figure>
+          <p class="name">{{ .name }}</p>
+          <p>{{ .title }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    {{ with .photos }}
+    <div class="photo-gallery">
+      <div class="glide is-photos">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            {{ range . }}
+            <li class="glide__slide">
+              <figure class="image">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1800x" "mobile" "750x") }}
+              </figure>
+              <div class="caption">
+                {{ .title }}
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+      <div class="glide-dots">
+        {{ range .}}
+        <span class="icon is-small">
+          <svg width="8" height="8" viewBox="0 0 8 8" fill="#111111" xmlns="http://www.w3.org/2000/svg">
+            <circle r="3.8" transform="matrix(1 0 0 -1 3.8 3.8001)" />
+          </svg>
+        </span>
+        {{ end }}
+      </div>
+
+      <span class="icon is-large glide-nav is-left is-hidden-mobile">
+        {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+      </span>
+      <span class="icon is-large glide-nav is-right is-hidden-mobile">
+        {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+      </span>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}
+
+{{ partial "vibe-locations" . }}
+
+{{ with .Params.investors }}
+<section class="section is-investors">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-multiline is-mobile">
+      {{ range .items }}
+      <div class="column is-one-quarter-tablet is-half-mobile">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "520x") }}
+        </figure>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.touch }}
+<section class="section is-get-touch">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns">
+      <div class="column is-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.610468885599!2d-122.20319588388924!3d47.61426349544098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c87b4e2f915%3A0x7d3508c77858df2b!2s10400%20NE%204th%20St%2C%20Bellevue%2C%20WA%2098004!5e0!3m2!1sen!2sus!4v1585860828528!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="column is-contact is-one-third-desktop is-two-fifths-tablet">
+        <div class="contact">
+          {{ with .city }}
+          <h2 class="title">{{ .name }}</h2>
+          {{ range .items }}
+          <div class="content">
+            <span class="icon">
+              {{ partial "common/mdi" (print .icon ":24") }}
+            </span>
+            {{ .text | markdownify }}
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+
+        {{ with $.Site.Data.common.foot.socials }}
+        <div class="social">
+          {{ range . }}
+          <a href="{{ .url }}" target="_blank">
+            <span class="icon is-medium">
+              {{ partial "common/mdi" (print .icon ":16") }}
+            </span>
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/about.js") }}
+</main>{{ end }}

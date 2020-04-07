@@ -1,0 +1,46 @@
+.hero
+  background-color: $vibe-yellow
+  .hero-body
+    padding-top: 80px
+    padding-bottom: 32px
+  .title
+    font-size: 64px
+    +mobile
+      font-size: 32px
+  .title, .content
+    text-align: center
+
+.section.is-contact
+  background: linear-gradient(to bottom, $vibe-yellow 220px, $vibe-white 220px)
+  padding-bottom: 80px
+  .container
+    &.is-form
+      background-color: white
+      max-width: 760px
+      padding: 64px 72px
+      .privacy
+        text-align: center
+    &.is-support
+      margin-top: 40px
+  .columns.is-buttons .control
+    text-align: center
+    .button
+      width: 224px
+  .title
+    font-size: 24px
+  .title, .content
+    text-align: center
+  .container.is-support
+    a
+      font-weight: $vibe-bold
+      text-decoration: underline
+  .container.is-form.is-submitted
+    .form
+      visibility: hidden
+      .submitted
+        display: flex
+        visibility: visible
+
+.hero, .section
+  +tablet
+    font-size: 18px

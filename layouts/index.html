@@ -1,0 +1,104 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="home">
+
+{{ with .Params.hero }}
+<section class="hero is-fullheight-with-navbar is-home">
+  <figure class="image is-hero-bg">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+  </figure>
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h1 class="title">
+          {{ .title }}
+        </h1>
+        <p>
+        {{ .body | markdownify }}
+        </p>
+      </div>
+
+      {{ with .cta }}
+      <div class="cta">
+        <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}">
+          {{ .title }}
+        </a>
+      </div>
+      {{ end }}
+      {{ range .subcta }}
+      <div class="subcta{{ with .class }} {{ . }}{{ end }}">
+        <span>{{ .title }}</span>
+        {{ with .link }}
+        <a href="{{ .url }}">{{ .text }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.what_is_vibe }}
+{{ partial "video-hero" . }}
+{{ end }}
+
+{{ with .Params.testimonial_section }}
+{{ partial "testimonial-section" . }}
+{{ end }}
+
+{{ range .Params.features }}
+<section class="section is-feature{{ with .class }} {{ . }}{{ end }}">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-text">
+        <h1 class="title is-section-title">{{ .title }}</h1>
+        <h2 class="subtitle is-section-title">{{ .subtitle }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+        {{ with .cta }}
+        <div class="cta">
+          {{ if .url }}
+          <a href="{{ .url }}">{{ .title }}</a>
+          {{ end }}
+          {{ if .video }}
+          <a href="https://youtu.be/{{ .video }}" class="video-launcher-popup" target="_blank" data-target="demo-video-popup">
+            {{ .title }}
+            <span class="icon">
+              {{ (resources.Get "img/shared/play-icon.svg").Content | safeHTML }}
+            </span>
+          </a>
+          {{ partial "common/video-player" (dict "playerId" "demo-video-popup" "videoId" .video "triggerClass" ".video-launcher-popup" "isInplace" false) }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="column is-image">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg q95 " (default "#ffffff" .jpg_background))) }}
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.trust }}
+<section class="section is-trust">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    {{ partial "testimonial-glide" .testimonials }}
+    {{ partial "customers" $.Page }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/testimonials.js") }}
+</main>{{ end }}

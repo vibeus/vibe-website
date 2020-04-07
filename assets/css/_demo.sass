@@ -1,0 +1,77 @@
+.hero
+  background-color: $vibe-yellow
+  .container
+    max-width: 1110px
+  .column.is-text
+    .title
+      +mobile
+        font-size: 32px
+        line-height: 40px
+      +tablet
+        font-size: 48px
+        line-height: 60px
+      +desktop
+        font-size: 64px
+        line-height: 76px
+    .content
+      max-width: 500px
+      h2
+        font-size: 30px
+        +mobile
+          font-size: 24px
+  .column.is-image
+    max-width: 490px + 24px
+    +desktop
+      margin-right: -80px
+
+.section.is-demo
+  background-color: $vibe-white
+  .container
+    max-width: 1110px
+    > .columns
+      flex-direction: row-reverse
+  ul.icon-list
+    span svg
+      fill: $vibe-teal
+    li
+      margin-left: 36px
+  ul.icon-list, .content
+    +desktop
+      max-width: 500px
+  ul.icon-list
+    margin-bottom: 96px
+  .title
+    font-size: 30px
+    +mobile
+      font-size: 24px
+  .column.is-text
+    padding-top: calc(120px - 2.25rem)
+  .column.is-form
+    +desktop
+      background-color: white
+      margin-top: -2.25rem
+      margin-bottom: -2.25rem
+      padding: 72px 60px
+    +widescreen
+      margin-right: -100px
+    .title
+      font-size: 36px
+      line-height: 50px
+      +mobile
+        font-size: 24px
+        line-height: 40px
+      max-width: 468px
+    .submitted
+      bottom: 80px
+    &.is-submitted
+      .form
+        .columns, .privacy, button[data-name='request-video']
+          visibility: hidden
+        .columns.is-buttons
+          visibility: visible
+      .submitted
+        display: flex
+
+.hero, .section
+  +tablet
+    font-size: 18px

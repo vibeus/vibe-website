@@ -1,0 +1,59 @@
+{{ define "main" }}<main class="demo">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-text">
+          <h1 class="title">{{ .title }}</h1>
+          <div class="content">{{ .body | markdownify }}</div>
+        </div>
+        <div class="column is-image">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get "img/demo/hero.jpg") "desktop" "980x" "tablet" "980x" "mobile" "750x") }}
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.demo }}
+<section class="section is-demo">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-form">
+        {{ with .form }}
+        {{ partial "common/form" . }}
+        {{ end }}
+      </div>
+      <div class="column is-text">
+        {{ with .expect }}
+        <h2 class="title">{{ .title }}</h2>
+        {{ partial "common/icon-list" .items }}
+        {{ end }}
+
+        {{ with .how }}
+        <h2 class="title">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ $modalId := "schedule-demo-modal" }}
+
+<div class="modal is-iframe-modal" id="{{ $modalId }}">
+  <div class="modal-background" data-target="{{ $modalId }}"></div>
+  <div class="modal-content" id="{{ $modalId }}-iframe"></div>
+  <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/demo.js" "modalId" $modalId) }}
+</main>{{ end }}

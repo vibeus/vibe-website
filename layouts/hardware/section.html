@@ -1,0 +1,203 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="hardware">
+
+{{ with .Params.hero }}
+<section class="hero is-fullheight-with-navbar is-hardware">
+  <figure class="image is-hero-bg">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/hardware/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+  </figure>
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h1 class="title">
+          {{ .title }}
+        </h1>
+        <p>
+        {{ .body | markdownify }}
+        </p>
+      </div>
+
+      <div class="cta">
+        {{ with .cta }}
+        <a class="button is-hero-cta{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}"
+           {{ if .target }} target="_blank" {{ end }}
+           >
+          <span>{{ .title }}</span>
+          {{ with .icon }}
+          <span class="icon">
+            {{ (resources.Get .).Content | safeHTML }}
+          </span>
+          {{ end }}
+        </a>
+        {{ end }}
+        <button class="button is-hero-cta is-black is-outlined is-rounded is-photo-gallery"
+                data-target="gallery">
+          <span>Photo Gallery</span>
+          <span class="icon">
+            {{ (resources.Get "img/hardware/icon-gallery.svg").Content | safeHTML }}
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  {{ with .gallery }}
+  <div class="modal is-gallery" id="gallery">
+    <div class="modal-background" data-target="gallery"></div>
+    <div class="modal-content">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            {{ range . }}
+            <li class="glide__slide">
+              <figure class="image">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2360x" "tablet" "1920x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+              </figure>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="glide-control is-left is-hidden-mobile" data-direction="<">
+      {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+    </div>
+    <div class="glide-control is-right is-hidden-mobile" data-direction=">">
+      {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+    </div>
+    <button class="modal-close is-large" aria-label="close" data-target="gallery"></button>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.testimonial_section }}
+{{ partial "testimonial-section" . }}
+{{ end }}
+
+{{ with .Params.feature_set_1 }}
+<section class="section is-overview is-upper">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+
+    {{ range .features }}
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+      <div class="column is-text">
+        <h2 class="title">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      <div class="column is-image">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x") }}
+        </figure>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.spec }}
+<section class="section is-spec">
+  <div class="container">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/hardware/explode.png") "desktop" "2070x" "tablet" "1440x" "mobile" "750x" "options" "jpg q95 #66cccc") }}
+    </figure>
+    <div class="level is-overview is-mobile">
+      {{ range .banner }}
+      <div class="level-item">
+        <div>
+          <p class="title">{{ .title }}</p>
+          <p class="body">{{ .body }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div id="specs">
+      <div class="columns">
+        {{ range .columns }}
+        <div class="column">
+          {{ range . }}
+          <div class="spec-table">
+            <h2 class="title">{{ .title }}</h2>
+            <table class="table is-fullwidth">
+              <tbody>
+                {{ range .items }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .value | markdownify }}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ with .cta }}
+      <div class="cta">
+        <a class="button{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}"
+           target="_blank">
+          {{ .title }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="title is-view-specs">{{ .title }}</div>
+    <button class="button is-specs-chevron toggle-specs" data-target="specs">
+      <span class="icon">
+        <svg width="100%" height="100%" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.3714 8.37137L11.6289 14.1138L5.88644 8.37137" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+    </button>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_set_2 }}
+<section class="section is-overview is-lower">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+
+    {{ range .features }}
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+      <div class="column is-text">
+        <h2 class="title">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      <div class="column is-image">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x") }}
+        </figure>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+{{ partial "faq" . }}
+{{ end }}
+
+{{ with .Params.video_section }}
+{{ partial "video-section" . }}
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
+{{ partial "common/template-script" (dict "asset" "js/testimonials.js") }}
+</main>{{ end }}

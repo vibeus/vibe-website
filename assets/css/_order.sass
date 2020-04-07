@@ -1,0 +1,257 @@
+.hero
+  .hero-body
+    padding-top: 120px
+    padding-bottom: 120px
+    +mobile
+      padding-top: 64px
+      padding-bottom: 64px
+  .container
+    max-width: 1200px
+  .content
+    margin-bottom: 0
+    p
+      margin-bottom: 0
+    a
+      font-weight: $vibe-bold
+      text-decoration: underline
+  .column.is-text
+    max-width: 500px
+    margin: auto
+  .item-price
+    margin-top: 16px
+    margin-bottom: 32px
+    font-size: 30px
+    font-weight: $vibe-bold
+    font-family: $vibe-family-heading
+    color: $vibe-purple
+  .field.is-grouped
+    margin-top: 24px
+    > .control:not(:last-child)
+      margin-right: 24px
+      +mobile
+        margin-right: 4px
+  .control.is-count
+    font-size: 18px
+    width: 128px
+  .control.is-add-cart
+    flex: 1
+    max-width: 269px
+  .content.is-amazon
+    text-align: center
+    margin-top: 8px
+    font-size: 18px
+  .column.is-gallery
+    display: flex
+    flex-direction: row-reverse
+    +mobile
+      display: block
+    align-items: center
+    .thumbnails
+      +mobile
+        margin-top: 16px
+        text-align: center
+      +tablet
+        margin-right: 16px
+      .image
+        width: 64px
+        cursor: pointer
+        +tablet-only
+          width: 80px
+        +widescreen
+          width: 80px
+        +mobile
+          display: inline-block
+        &:not(:last-child)
+          +tablet
+            margin-bottom: 6px
+        img
+          border: 1px solid transparent
+          border-radius: 4px
+          &:hover
+            border-color: change-color($vibe-purple, $alpha: 0.4)
+        &.is-active img
+          border-color: $vibe-purple
+  .product-gallery
+    flex: 1
+    .aspect-ratio-keeper
+      position: relative
+      height: 0
+      padding-top: 64%
+    .glide-wrapper
+      +absolute-fill
+
+input[type=number]
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+  -moz-appearance: textfield
+  text-align: center
+
+.control.is-count .icon
+  pointer-events: all
+  cursor: pointer
+  &:hover svg
+    fill: $primary
+
+.control.is-add-cart .button
+  font-weight: $vibe-bold
+
+.section.is-accessories
+  padding-top: 0
+  padding-bottom: 120px
+  +mobile
+    padding-bottom: 64px
+  .container
+    max-width: 1150px
+  .title.is-section-title
+    text-align: center
+    margin-bottom: 56px
+  .column .title
+    font-size: 24px
+    text-align: center
+    margin-bottom: 12px
+  .price
+    font-size: 20px
+    font-family: $vibe-family-heading
+    font-weight: $vibe-bold
+    text-align: center
+  .field.is-grouped
+    margin-top: 24px
+    justify-content: center
+    > .control:not(:last-child)
+      margin-right: 16px
+  .control.is-count
+    width: 100px
+  .control.is-add-cart
+    width: 142px
+
+.section.is-reviews
+  padding-top: 120px
+  padding-bottom: 120px
+  +mobile
+    padding-top: 64px
+    padding-bottom: 64px
+  .container
+    max-width: 1120px
+  .title.is-section-title
+    text-align: center
+    +desktop
+      margin-bottom: 88px
+  .column.is-stars
+    max-width: 270px
+    &.is-review
+      display: flex
+      flex-direction: column
+      .review-stars
+        flex: 1
+  .columns.is-review
+    border-top: 1px solid $vibe-black
+    .column
+      padding-top: 40px
+      padding-bottom: 40px
+      +mobile
+        padding-top: 16px
+        padding-bottom: 16px
+  .author
+    font-weight: $vibe-bold
+  .channel
+    font-size: 14px
+  .content.is-review
+    margin-bottom: 56px
+    +mobile
+      margin-bottom: 24px
+    strong
+      font-weight: $vibe-bold
+    p:first-child
+      margin-bottom: 23px
+  .full-review
+    a
+      font-weight: $vibe-bold
+    a:not(:hover)
+      color: $vibe-purple
+
+.modal.is-cart
+  .modal-background
+    background: rgba(136, 136, 136, 0.69)
+    backdrop-filter: blur(10px)
+  .modal-content
+    margin: 0 0 0 auto
+    max-height: initial
+    height: 100vh
+    display: flex
+    flex-direction: column
+    max-width: 560px
+  .level.is-cart-head
+    background-color: white
+    z-index: 1
+    height: 80px
+    box-shadow: 0px -1px 10px rgba(55, 55, 55, 0.1)
+    padding: 0 30px
+    margin-bottom: 0
+    font-family: $vibe-family-heading
+    .icon
+      border: 1px solid $vibe-black
+      border-radius: 50%
+      cursor: pointer
+      &:hover
+        border-color: $primary
+        svg
+          fill: $primary
+    .cart-title
+      font-weight: $vibe-bold
+  .cart-items
+    background-color: $vibe-white
+    flex: 1
+    overflow: scroll
+    .cart-line-item
+      background-color: white
+      display: flex
+      align-items: center
+      padding: 16px 32px
+      +mobile
+        padding: 16px
+      &:not(:last-child)
+        border-bottom: 1px solid #dbdbdb
+      .image.is-item
+        margin-right: 16px
+        max-width: 180px
+        +mobile
+          max-width: 96px
+      .line-item-desc
+        flex: 1
+        font-family: $vibe-family-heading
+      .product-title, .product-price
+        font-weight: $vibe-bold
+      .product-title
+        margin-bottom: 24px
+      .price-count
+        display: flex
+        align-items: center
+        justify-content: space-between
+        max-width: 190px
+        .product-price
+          font-size: 16px
+          color: $vibe-purple
+        .control
+          max-width: 75px
+          .icon.is-small img
+            width: 14px
+      .icon.is-delete
+        cursor: pointer
+  .cart-bottom
+    background-color: white
+    z-index: 1
+    box-shadow: 0px 1px 10px rgba(55, 55, 55, 0.1)
+    padding: 24px 32px
+    .level.is-cart-total
+      .title
+        font-size: 24px
+    .content
+      font-size: 16px
+    .checkout .button
+      font-weight: $vibe-bold
+
+.hero, .section, .modal
+  +tablet
+    font-size: 18px

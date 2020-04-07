@@ -1,0 +1,21 @@
+.section.is-video
+  +tablet
+    font-size: 18px
+  .container
+    max-width: 1200px
+    margin: auto
+  .column.is-image
+    .image
+      cursor: pointer
+      max-width: 628px
+      position: relative
+
+      iframe
+        +absolute-fill
+
+  .column.is-text
+    max-width: 488px
+    a
+      font-weight: bold
+      &:not(:hover)
+        color: $vibe-purple

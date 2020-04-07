@@ -1,0 +1,166 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="software">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+      <div class="content">{{ .body | markdownify }}</div>
+      {{ with .cta }}
+      <div class="cta">
+        <a class="button{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}">
+          {{ .title }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section is-hero-image">
+  <div class="bg-logo">
+    {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+  </div>
+  <div class="container">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/hero.png") "desktop" "2380x" "tablet" "1920x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+    </figure>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_overall }}
+<section class="section is-overall">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "420x" "mobile" "420x") }}
+        </figure>
+        <h2 class="item-title">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_collaboration }}
+<section class="section is-collaboration">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-vcentered">
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/collaboration.png") "desktop" "1300x" "mobile" "750x" "options" "jpg #ffcc00") }}
+          {{ $gif := resources.Get "img/software/collaboration-overlay.gif" | resources.Fingerprint }}
+          <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+        </figure>
+      </div>
+      <div class="column">
+        <h2 class="title is-subtitle">{{ .subtitle }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_presentation }}
+<section class="section is-presentation">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    {{ range .items }}
+    <div class="columns is-vcentered is-index-{{ .index }}">
+      <div class="column is-image">
+        <figure class="image">
+          {{ if .animated }}
+          {{ $gif := resources.Get .figure | resources.Fingerprint }}
+          <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+          {{ else }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x" "options" "jpg #ffffff") }}
+          {{ end }}
+        </figure>
+      </div>
+      <div class="column">
+        <h2 class="title is-subtitle">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_apps }}
+<section class="section is-apps">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
+        </figure>
+        <h2 class="item-title">{{ .title }}</h2>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a href="{{ .url }}">{{ .title }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.security }}
+<section class="section is-security">
+  <div class="columns">
+    <div class="column">
+      <h1 class="title is-section-title">{{ .title }}</h1>
+      <div class="content">
+        {{ .body | markdownify }}
+      </div>
+    </div>
+    <div class="column is-image">
+      <figure class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/security.png") "desktop" "1380x" "mobile" "750x" "options" "jpg #111111") }}
+      </figure>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.testimonial_section }}
+{{ partial "testimonial-section" . }}
+{{ end }}
+
+{{ with .Params.video_section }}
+{{ partial "video-section" . }}
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/testimonials.js") }}
+</main>{{ end }}

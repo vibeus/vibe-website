@@ -1,0 +1,214 @@
+.hero
+  position: relative
+  background-color: $vibe-yellow
+  .bg-logo
+    width: 661px
+    position: absolute
+    left: -200px
+    top: 47px
+  .hero-body
+    padding-top: 80px
+    padding-bottom: 80px
+  .title
+    text-align: center
+    +tablet
+      font-size: 64px
+  .content
+    max-width: 880px
+    margin: auto
+    text-align: center
+  .cta
+    margin-top: 16px
+    text-align: center
+    font-weight: $vibe-bold
+
+.section.is-competitors
+  .container
+    max-width: 1170px
+  .columns
+    justify-content: center
+    align-items: stretch
+    +tablet
+      margin: -36px -30px 
+  .column
+    +tablet
+      max-width: 350px + 30px * 2
+      padding: 36px 30px
+  .card
+    border: 2px solid #F4F4F4
+    border-radius: 10px
+    box-shadow: none
+    cursor: pointer
+    &:hover
+      box-shadow: -11px 11px 28px rgba(0, 0, 0, 0.06)
+  .card, .card-content
+    height: 100%
+  .card-content
+    display: flex
+    flex-direction: column
+  .title
+    font-size: 24px
+  .subtitle
+    flex: 1
+    font-size: 18px
+    font-weight: normal
+  .more
+    margin-top: 16px
+    font-weight: $vibe-bold
+    font-family: $vibe-family-heading
+    color: $vibe-purple
+    &:hover
+      color: $primary
+
+.section.is-hero-all,
+.section.is-hero-single
+  padding-top: 80px
+  padding-bottom: 80px
+  .title
+    text-align: center
+  .content
+    text-align: center
+    margin: auto
+
+.section.is-hero-single .content
+  max-width: 560px
+.section.is-hero-all .content
+  max-width: 880px
+
+.section.is-difference
+  padding-top: 0
+  padding-bottom: 80px
+  .title-content
+    margin-top: 78px
+    margin-left: auto
+    margin-right: auto
+    max-width: 725px
+  .title
+    max-width: 500px
+
+// required for position: sticky to work
+.section.is-comparison
+  overflow: visible
+  padding-left: 0
+  padding-right: 0
+  .container
+    position: static
+
+.section.is-comparison.is-single,
+.section.is-comparison.is-all
+  padding-top: 0
+  padding-bottom: 0
+
+.section.is-comparison.is-single
+  .container
+    max-width: 1099px
+  .column.is-brand-name
+    max-width: 138px + 12px * 2
+  .table.is-comparison
+    border: 1px solid $vibe-white
+  +mobile
+    .table
+      display: none
+  +tablet
+    .table-mobile
+      display: none
+
+.section.is-comparison.is-all
+  padding-bottom: 80px
+  +touch
+    .table
+      display: none
+  +desktop
+    .table-mobile
+      display: none
+  th.is-brand-name
+    +desktop
+      font-size: 16px
+    +widescreen
+      font-size: 18px
+  thead th
+    background-color: $vibe-white
+  tr.is-section th
+    top: calc(#{$navbar-height} + 71px)
+    background-color: $vibe-black
+    color: white
+    .color
+      height: 8px
+      margin: -0.5em -0.75em 8px
+      background-color: $vibe-teal
+      &.is-price
+        background-color: $primary
+      &.is-hardware
+        background-color: $vibe-purple
+      &.is-service
+        background-color: $vibe-yellow
+  tbody tr:nth-child(even)
+    background-color: $vibe-white
+
+.section.is-why
+  padding-top: 80px
+  padding-bottom: 80px
+  .container
+    max-width: 725px
+  .title
+    font-size: 30px
+    margin-bottom: 48px
+  .content
+    a
+      text-decoration: underline
+
+.table.is-comparison
+  font-size: 16px
+  .is-sticky
+    position: sticky
+  td, th
+    border-color: #fafafa
+    &:not(:last-child)
+      border-right: 1px solid #fafafa
+  thead tr, tr.is-section
+    font-size: 18px
+  thead th
+    background-color: white
+    top: calc(#{$navbar-height} - 1px)
+    height: 72px
+    vertical-align: middle
+  tr.is-section th
+    background-color: $vibe-white
+    top: $navbar-height + 4rem
+  td
+    max-width: 330px
+  ul
+    list-style: disc
+    margin-left: 1em
+
+.table-mobile.is-comparison
+  font-size: 14px
+  .feature
+    font-size: 16px
+    font-weight: $vibe-bold
+    line-height: 32px
+    padding: 8px 12px
+    &.is-section
+      position: sticky
+      top: $navbar-height
+      background-color: $vibe-teal
+      &.is-price
+        background-color: $primary
+      &.is-hardware
+        background-color: $vibe-purple
+      &.is-service
+        background-color: $vibe-yellow
+    &.is-item
+      background-color: $vibe-black
+      color: white
+  .columns
+    margin: 0
+    min-height: 62px
+    &:nth-child(odd)
+      background-color: $vibe-white
+  .column.is-brand-name
+    font-weight: $vibe-bold
+
+.hero, .section
+  +tablet
+    font-size: 18px

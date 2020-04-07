@@ -1,0 +1,25 @@
+.section.is-video-hero
+  background-color: $vibe-white
+  .video-hero-bg
+    position: absolute
+    width: 724px
+    height: 654px
+    right: -450px
+    top: 50%
+    margin-top: -250px
+  .title, .subtitle, .content
+    text-align: center
+  .subtitle
+    margin-bottom: 40px
+  .content
+    font-size: 18px
+    +mobile
+      font-size: 16px
+    max-width: 800px
+    margin: auto
+  .video-launcher
+    cursor: pointer
+    max-width: 1190px
+    margin: 60px auto 0 auto
+    .image iframe
+      +absolute-fill

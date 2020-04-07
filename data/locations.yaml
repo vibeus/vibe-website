@@ -1,0 +1,13 @@
+locations:
+  title: Vibe locations
+  cities:
+    - name: Seattle
+      logo: img/locations/logo-seattle.png
+    - name: Bellevue
+      logo: img/locations/logo-bellevue.png
+    - name: Hangzhou
+      logo: img/locations/logo-hangzhou.png
+    - name: Shenzhen
+      logo: img/locations/logo-shenzhen.png
+    - name: Shanghai
+      logo: img/locations/logo-shanghai.png

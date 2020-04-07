@@ -1,0 +1,83 @@
+.hero
+  background-color: $vibe-yellow
+  .hero-body
+    padding-top: 100px
+  .container
+    max-width: 960px
+  .title
+    font-size: 64px
+    line-height: 78px
+    text-align: center
+    margin-bottom: 48px
+    +mobile
+      font-size: 32px
+      line-height: 40px
+  .testimonial
+    .content
+      padding-left: 100px
+    .author
+      text-align: center
+
+.section.is-hero-image
+  padding-top: 0
+  padding-bottom: 0
+  background: linear-gradient(to bottom, $vibe-yellow 50%, white 50%)
+  .container
+    max-width: 760px
+
+.section.is-values
+  .container
+    max-width: 1000px
+  .title
+    text-align: center
+  .columns
+    justify-content: space-around
+  .column
+    margin-top: 72px
+    max-width: 400px + 24px
+  .image
+    max-width: 100px
+    margin-bottom: 16px
+  .content
+    h2
+      font-size: 24px
+
+.section.is-who
+  position: relative
+  background-color: $vibe-teal
+  .who-bg
+    position: absolute
+    top: -55px
+    right: 50%
+    margin-right: -120px
+    .image
+      width: 896px
+  .container
+    max-width: 852px
+  .title
+    text-align: center
+
+.section.is-work
+  .container
+    max-width: 1000px
+  .title
+    text-align: center
+  .columns
+    justify-content: space-around
+  .column
+    margin-top: 72px
+    max-width: 400px + 24px
+  .content
+    h2
+      font-size: 24px
+
+.section.is-join
+  .container
+    text-align: center
+
+.section.is-bottom-cta
+  background-color: $vibe-yellow
+
+.hero, .section
+  +tablet
+    font-size: 18px

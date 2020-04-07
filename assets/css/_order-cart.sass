@@ -1,0 +1,23 @@
+.navbar
+  .button.is-cart-icon
+    position: relative
+    padding: 0
+    width: 45px
+    height: 45px
+    span
+      position: absolute
+      background-color: $vibe-yellow
+      color: $vibe-black
+      font-size: 11px
+      line-height: 17px
+      min-width: 17px
+      border-radius: 50%
+      display: none
+      top: -3px
+      right: -3px
+  .navbar-brand .button.is-in-brand-mobile.is-cart-icon
+    +mobile
+      margin-top: -22.5px
+  +until($navbar-breakpoint)
+    .navbar-menu .navbar-end .button.is-cart-icon
+      display: none

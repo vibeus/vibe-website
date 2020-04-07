@@ -1,0 +1,27 @@
+<section class="section is-video">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-image">
+        <div class="video-section-launcher" data-target="video-section-player">
+          <figure class="image" id="video-section-player">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .video.placeholder) "desktop" "1280x" "tablet" "9600x" "mobile" "750x" "options" "jpg") }}
+            <div id="video-section-player-iframe">
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="column is-text">
+        <h1 class="title is-section-title">{{ .title }}</h1>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+        {{ with .cta }}
+        <div class="cta">
+          <a href="{{ .url }}">{{ .title }}</a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ partial "common/video-player" (dict "playerId" "video-section-player" "videoId" .video.id "triggerClass" ".video-section-launcher" "isInplace" true) }}
+</section>

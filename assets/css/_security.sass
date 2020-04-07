@@ -1,0 +1,111 @@
+.hero
+  background-color: $vibe-teal
+  .bg-logo
+    position: absolute
+    width: 535px
+    top: -100px
+    right: -240px
+  .container
+    max-width: 1096px
+  .title
+    font-size: 64px
+    line-height: 78px
+    +mobile
+      font-size: 32px
+      line-height: 40px
+  .content
+    max-width: 600px
+
+.section.is-trust
+  background-color: $vibe-white
+  .title
+    text-align: center
+    margin-bottom: 72px
+
+.section.is-features
+  .container
+    max-width: 1000px
+  .title
+    text-align: center
+  .columns
+    justify-content: space-around
+  .column
+    margin-top: 72px
+    max-width: 400px + 24px
+  .image
+    max-width: 100px
+    margin-bottom: 16px
+  .content
+    h2
+      font-size: 24px
+
+.section.is-specs
+  background-color: $vibe-black
+  .container
+    max-width: 1244px
+  .column.is-text
+    *
+      color: white
+  .title
+    font-size: 30px
+    margin-bottom: 48px
+  .content
+    max-width: 500px
+  .cta
+    margin-top: 80px
+    .button
+      font-size: 20px
+      font-weight: $vibe-bold
+  .spec-item
+    position: relative
+    background-color: $vibe-teal
+    padding: 20px
+    padding-left: 80px
+    display: flex
+    align-items: center
+    +tablet
+      min-height: 92px
+      font-size: 20px
+    &:not(:last-child)
+      margin-bottom: 8px
+    .icon
+      position: absolute
+      left: 32px
+      margin-top: 2px
+
+.section.is-privacy
+  background-color: $vibe-white
+  .container
+    max-width: 1220px
+  .title.is-section-title
+    text-align: center
+    max-width: 800px
+    margin: 0 auto 28px auto
+  .image
+    max-width: 450px
+  .column.is-text
+    max-width: 500px + 24px
+  .content
+    h2
+      font-size: 30px
+      margin-bottom: 48px
+
+.section.is-bottom-cta
+  background-color: $vibe-yellow
+  .container
+    max-width: 1096px
+    +tablet
+      text-align: left
+      display: flex
+      align-items: center
+      justify-content: space-between
+  .title, .content
+    max-width: 800px
+  .content
+    font-size: 20px
+    +mobile
+      margin-bottom: 32px
+
+.hero, .section
+  +tablet
+    font-size: 18px

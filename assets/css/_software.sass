@@ -1,0 +1,189 @@
+.hero
+  background-color: $vibe-teal
+  .hero-body
+    padding-bottom: 0
+  .title, .content
+    max-width: 874px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+  .title
+    font-size: 64px
+    +mobile
+      font-size: 32px
+    margin-bottom: 24px
+  .content
+    margin-bottom: 72px
+  .cta
+    text-align: center
+    .button
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      font-size: 20px
+      width: 230px
+      height: 58px
+
+.section.is-hero-image
+  padding-top: 64px
+  padding-bottom: 64px
+  background: linear-gradient(to bottom, $vibe-teal 50%, #FFFFFF 50%)
+  overflow: visible
+  position: relative
+  .bg-logo
+    position: absolute
+    width: 661px
+    height: 434px
+    right: 66%
+    bottom: 50%
+    overflow: hidden
+    svg
+      width: 661px
+      height: 596px
+  .container
+    max-width: 1190px
+  .image
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3)
+
+.section.is-overall
+  padding-top: 76px
+  padding-bottom: 120px
+  .title
+    margin-bottom: 90px
+  .column
+    display: flex
+    flex-direction: column
+    align-items: center
+    .image
+      max-width: 210px
+    .item-title
+      font-size: 30px
+      line-height: 38px
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      text-align: center
+      margin-bottom: 30px
+    .content
+      max-width: 300px
+      text-align: center
+
+.section.is-collaboration
+  background-color: $vibe-yellow
+  .container
+    max-width: 1240px
+  .image .overlay
+    +absolute-fill
+  .title.is-section-title
+    +tablet
+      margin-bottom: 84px
+  .title.is-subtitle, .content
+    +tablet
+      max-width: 500px
+      margin-left: auto
+  .title.is-subtitle
+    font-size: 30px
+    line-height: 38px
+    margin-bottom: 48px
+
+.section.is-presentation
+  .title.is-section-title
+    +tablet
+      margin-bottom: 100px
+  .columns
+    position: relative
+    margin-left: auto
+    margin-right: auto
+    +tablet
+      .image
+        position: absolute
+        top: 0
+  .title.is-subtitle, .content
+    +tablet
+      max-width: 500px
+  .columns.is-index-1
+    flex-direction: row-reverse
+    max-width: 1108px
+    min-height: 465px
+    +tablet
+      .image
+        margin-left: 60px
+        width: 730px
+    +mobile
+      margin-bottom: 64px
+  .columns.is-index-2
+    max-width: 1220px
+    min-height: 412px
+    .image
+      box-shadow: 10px 10px 0px $vibe-purple
+      +tablet
+        width: 567px
+        right: 50%
+        margin-right: 32px
+    .title.is-subtitle, .content
+      +tablet
+        margin-left: auto
+
+.section.is-apps
+  background-color: $vibe-white
+  .title
+    margin-bottom: 90px
+  .column
+    display: flex
+    flex-direction: column
+    align-items: center
+    .image
+      max-width: 270px
+      margin-bottom: 48px
+    .item-title
+      max-width: 284px
+      font-size: 30px
+      line-height: 38px
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      text-align: center
+      margin-bottom: 30px
+    .content
+      max-width: 300px
+      text-align: center
+  .cta
+    margin-top: 32px
+    text-align: center
+    +tablet
+      font-weight: $vibe-bold
+
+    a:not(:hover)
+      color: $vibe-purple
+
+.section.is-security
+  position: relative
+  padding-bottom: 3rem
+  background-color: $vibe-black
+  *
+    color: white
+  .title.is-section-title
+    text-align: left
+    padding-right: 20px
+  .title.is-section-title, .content
+    +tablet
+      max-width: 500px
+      margin-left: auto
+  .column.is-image
+    align-self: flex-end
+  .image
+    max-width: 690px
+    margin-left: auto
+    margin-right: -1.5rem
+    margin-bottom: -3rem
+
+.section.is-testimonial
+  background-color: white
+  .quote-mark svg
+    fill: $vibe-yellow
+
+.section.is-video
+  background-color: $vibe-white
+
+.hero, .section
+  +tablet
+    font-size: 18px
+.section .title.is-section-title
+  text-align: center

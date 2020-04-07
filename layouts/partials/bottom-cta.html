@@ -1,0 +1,21 @@
+<section class="section is-bottom-cta">
+  <div class="container">
+    <div class="bottom-bg">
+      {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+    </div>
+    <div>
+      <h1 class="title is-section-title">{{ .title }}</h1>
+      {{ with .body }}
+      <div class="content">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a class="button is-rounded is-black"
+         href="{{ default "/demo/" .url }}">
+        {{ .title }}
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,21 @@
+<div class="card" data-target="story" data-start-at="{{ .index }}">
+  <div class="card-image">
+    <figure class="image is-3by2">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "800x" "tablet" "600x") }}
+    </figure>
+  </div>
+
+  <div class="card-content">
+    <div class="logo">
+      <figure class="image" style="width: {{ .logo.width }}px">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .logo.figure) "desktop" "200x") }}
+      </figure>
+    </div>
+
+    <h2 class="title">{{ .title }}</h2>
+
+    <div class="cta">
+      <span>Read more →</span>
+    </div>
+  </div>
+</div>

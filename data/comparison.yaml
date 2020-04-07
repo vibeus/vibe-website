@@ -1,0 +1,389 @@
+brands:
+  - id: vibe
+    name: Vibe Interactive Whiteboard
+    head_figure: img/comparison/vibe-g.jpg
+    price:
+      board: $2,999
+      stand: $500
+      accessories: |
+        $11.99 (stylus)
+      software: |
+        Complimentary
+    hardware:
+      screen: 4K
+      touch: 10 Touchpoints
+      refresh: 60Hz
+      os: VibeOS based on Android 7.1
+      connections: |
+        - HDMI In&Out
+        - USB 2.0, 3.0
+        - Debug
+        - Ethernet
+      wireless: 2.4G/5G Wifi
+      processor: |
+        Rockchip 3399
+
+        Dual-core Cortex-A72 up to 1.8 Hz
+
+        Quad-core Cortex-A53 up to 1.4 Hz
+      box: |
+        - Whiteboard
+        - Two stylus
+        - Power cord
+        - User manuel
+        - Warranty registration card
+      weight: 60.6lb (27.49kg)
+      camera: Optional
+    whiteboard:
+      remote: true
+      app: true
+      smart: true
+      platforms: true
+    sharing:
+      wireless: |
+        Airplay / Chromecast / Eshare
+      annotation: true
+      control: true
+      cloud: true
+    app:
+      store: 40+ Apps
+      browser: true
+      drives: true
+      vc: |
+        Skype, Zoom, Go to meeting, Cisco Webex, Ringcentral
+    service:
+      warranty: 1-year
+  - id: surface-hub
+    name: Microsoft Surface Hub II
+    head_figure: img/comparison/surface-hub-g.jpg
+    price:
+      board: $8,999
+      stand: $1,499
+      accessories: |
+        $249 (wall mount)
+
+        $169.99 (Surface Pen)
+
+        $219.99 (camera)
+      software: |
+        Based on subscription for Microsoft Office 365
+    hardware:
+      screen: 4K+
+      touch: 100 Touchpoints
+      refresh: 120Hz
+      os: Windows 10 Team Operating System
+      connections: |
+        - USB-A
+        - Mini-DisplayPort  video output
+        - RJ45 gigabit ethernet
+        - HDMI video input
+        - USB-C® with displayPort input
+        - (4) USB-C
+      wireless: |
+        Wi-Fi 5 (IEEE 802.11 a/b/g/n/ac compatible)
+
+        Bluetooth Wireless 4.1 technology
+      processor: |
+        Intel Core i5
+      box: |
+        - Surface Hub 2S
+        - Pen
+        - Camera
+        - 3m AC power cable
+        - Quick start guide
+      weight: 61.6 lbs (28 kg)
+      camera: Built-in
+    whiteboard:
+      remote: true
+      app: true
+      smart: false
+      platforms: true
+    sharing:
+      wireless: |
+        Miracast or Continum
+      annotation: true
+      control: true
+      cloud: true
+    app:
+      store: Microsoft app store
+      browser: true
+      drives: false
+      vc: |
+        Skype for business
+    service:
+      warranty: 1-year
+  - id: jamboard
+    name: Google Jamboard
+    head_figure: img/comparison/jamboard-g.jpg
+    price:
+      board: $4,999
+      stand: $1,349
+      accessories: |
+        $69 (eraser)
+
+        $109 (stylus)
+      software: |
+        $600 management and support, Based on subscription for G suite
+    hardware:
+      screen: 4K+
+      touch: 16 Touchpoints
+      refresh: 60Hz
+      os: Android 6.0 Marshmallow
+      connections: |
+        - HDMI 2.0
+        - USB Type C 
+        - Two USB 3.0
+        - 1 Gigabyte Ethernet
+      wireless: |
+        WIFI 802.11ac 2x2, NFC
+      processor: |
+        An Nvidia Jetson TX1 embedded computer
+      box: |
+        - Jamboard
+        - Two stylus
+        - One eraser
+        - Wall mount
+      weight: 109.6 lb (49.7 kg)
+      camera: Built-in
+    whiteboard:
+      remote: true
+      app: false
+      smart: true
+      platforms: true
+    sharing:
+      wireless: |
+        Google Cast
+      annotation: true
+      control: false
+      cloud: true
+    app:
+      store: false
+      browser: true
+      drives: false
+      vc: |
+        Google hangouts
+    service:
+      warranty: 1-year
+  - id: flip
+    name: Samsung Flip
+    head_figure: img/comparison/flip-g.jpg
+    price:
+      board: $2,699
+      stand: $799
+      accessories: |
+        $233 (wall mount)
+      software:
+    hardware:
+      screen: 4K
+      touch: 4 Touchpoints
+      refresh: 60Hz
+      os: Tizen 3.0
+      connections: |
+        - HDMI 1
+        - USB 2 (ver 2.0 x2, Side 1, Sensor Assy 1)
+        - Touch Out 1 (Side, USB Upstream Type) 
+        - Touch Input, RJ45 (not for User Control)
+      wireless: |
+        RS232C, LAN, WiFi / BT
+      processor: |
+        CA72 Quad(1.7GHz)
+      box: |
+        - Flip board
+        - Two Flipboard passive pen
+        - Power cable
+        - Touch out cable (USB upstream)
+      weight: 63.7 lb (28.9 kg)
+      camera:
+    whiteboard:
+      remote: false
+      app: false
+      smart: false
+      platforms: true
+    sharing:
+      wireless: |
+        Miracast
+      annotation: true
+      control: false
+      cloud: false
+    app:
+      store: false
+      browser: false
+      drives: false
+      vc:
+    service:
+      warranty: 3-year
+  - id: webex
+    name: Cisco Webex Board
+    head_figure: img/comparison/webex-g.jpg
+    price:
+      board: $4,990
+      stand: |
+        $3,290 (Floor stand)
+
+        $1,590 (wall stand)
+      accessories: |
+        $449 (wall mount)
+      software: |
+        $199 per month for cloud service
+    hardware:
+      screen: 4K
+      touch: 2 Touchpoints
+      refresh:
+      os: Cisco Webex Board OS
+      connections: |
+        - HDMI IN
+        - Home button
+        - 3.5-mm mini jack audio out (line out)
+        - Two USB 3.0 (for serviceability)
+      wireless: |
+        Wi-Fi 802.11a/b/g/n; 802.11ac (2.4 and 5 GHz)
+      processor:
+      box: |
+        - LED display
+        - 4K camera
+        - 12-microphone array
+        - Speakers 
+        - Whitebording pen
+      weight: 87.7 lb (39.8 kg)
+      camera: Built-in
+    whiteboard:
+      remote: true
+      app: false
+      smart: false
+      platforms: true
+    sharing:
+      wireless: |
+        Cisco Teams App
+      annotation: true
+      control: true
+      cloud: false
+    app:
+      store: false
+      browser: false
+      drives: false
+      vc: Cisco webex meeting
+    service:
+      warranty: 90 days
+  - id: smart
+    name: Smart Board 6000 Series
+    head_figure: img/comparison/smart-g.jpg
+    price:
+      board: $4,999
+      stand: |
+        No stand
+      accessories:
+      software: |
+        Based on Subscription (SMART meeting pro/ SMART TeamWorks)
+    hardware:
+      screen: 4K
+      touch: 8 Touchpoints
+      refresh: 60Hz
+      os: Android 7.1 Nougat
+      connections: |
+        - HDMI 1.4 out
+        - Two USB 3.0 type-A 
+        - RJ45 gigabit ethernet
+      wireless: |
+        Bluetooth 4.1 802.11A/B/G/N/Ac
+      processor: |
+        RK3399, Dual-core A72 + Quad-core A53, 64 bits, 2GHz
+      box: |
+        - SMART board
+        - iQ appliance 8' 
+        - country-specific power cable 16' 5" 
+        - USB cable
+        - Two pen
+      weight: 134 lb. (60.9 kg)
+      camera: Optional
+    whiteboard:
+      remote: false
+      app: false
+      smart: true
+      platforms: true
+    sharing:
+      wireless: |
+        Airplay/ Google cast / Miracast
+      annotation: true
+      control: false
+      cloud: true
+    app:
+      store: false
+      browser: true
+      drives: false
+      vc: Zoom, Skype, Go to meeting, Webex
+    service:
+      warranty: 3-year
+
+features:
+  - id: price
+    title: Price
+    items:
+      - id: board
+        title: Cost of Board
+      - id: stand
+        title: Cost of Stand
+      - id: accessories
+        title: Accessories
+      - id: software
+        title: Software
+  - id: hardware
+    title: Hardware
+    items:
+      - id: screen
+        title: Screen
+      - id: touch
+        title: Touch Sensor
+      - id: refresh
+        title: Refresh Rate
+      - id: os
+        title: OS Support
+      - id: connections
+        title: Connections
+      - id: wireless
+        title: Wireless
+      - id: processor
+        title: Processor
+      - id: box
+        title: What's in the Box
+      - id: weight
+        title: Board Weight
+      - id: camera
+        title: Camera & Mic
+  - id: whiteboard
+    title: Whiteboarding
+    items:
+      - id: remote
+        title: Multi-user Realtime Whiteboard
+      - id: app
+        title: Simultaneous App Usage
+      - id: smart
+        title: Smart Drawing
+      - id: platforms
+        title: Multi Platform Support
+  - id: sharing
+    title: Sharing
+    items:
+      - id: wireless
+        title: Wireless Screen Share
+      - id: annotation
+        title: Annotation
+      - id: control
+        title: Remote Control
+      - id: cloud
+        title: Cloud Storage
+  - id: app
+    title: App Integration
+    items:
+      - id: store
+        title: App Store
+      - id: browser
+        title: Web Browser
+      - id: drives
+        title: Dropbox, Google Drive, One Drive
+      - id: vc
+        title: Video Conferencing Software
+  - id: service
+    title: Service
+    items:
+      - id: warranty
+        title: Warranty

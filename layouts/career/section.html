@@ -1,0 +1,94 @@
+{{ define "main" }}<main class="career">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+      {{ partial "testimonial" .testimonial }}
+    </div>
+  </div>
+</section>
+{{ with .photo }}
+<section class="section is-hero-image">
+  <div class="container">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1520x" "mobile" "750x") }}
+    </figure>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.values }}
+<section class="section is-values">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-multiline">
+      {{ range .items }}
+      <div class="column is-half">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
+        </figure>
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.who }}
+<section class="section is-who">
+  <div class="who-bg">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/career/world-map-dots.png") "desktop" "1792x" "mobile" "750x" "options" "jpg #66cccc") }}
+    </figure>
+  </div>
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">
+      {{ .body | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.work }}
+<section class="section is-work">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-multiline">
+      {{ range .items }}
+      <div class="column is-half">
+        <div class="content">
+          {{ .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "vibe-locations" . }}
+
+{{ with .Params.join }}
+<section class="section is-join">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="content">
+      {{ .body | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/about.js") }}
+</main>{{ end }}
