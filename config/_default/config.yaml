@@ -4,3 +4,10 @@ title: Vibe
 log: true
 verbose: true
 enableRobotsTXT: false
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+buildDrafts: true
+buildExpired: true
+buildFuture: true

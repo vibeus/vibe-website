@@ -1,0 +1,37 @@
+{{ define "title" }}
+Page not found &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "stylesheets" }}
+{{ $sass := resources.Get "css/404.sass" }}
+{{ $style := $sass | resources.ToCSS (dict "outputStyle" "compressed" "includePaths" (slice "node_modules" "assets/css/common")) }}
+<style>
+{{ $style.Content | safeCSS }}
+</style>
+{{ end }}
+{{ define "main"}}
+<section class="hero is-warning">
+  <div class="hero-body">
+    <div class="container">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div>
+              <h1 class="title">oops!</h1>
+              <p>Page not found.</p>
+              <p>This is not the web page you are looking for.</p>
+            </div>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <svg width="293" height="293" viewBox="0 0 293 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M234.457 210.547L230.519 214.486L207.453 191.42C245.428 145.569 242.896 77.2148 199.858 34.177C154.289 -11.3923 80.0277 -11.3923 34.177 34.177C-11.3923 79.7464 -11.3923 154.008 34.177 199.858C56.9617 222.643 87.06 234.176 116.877 234.176C143.319 234.176 169.76 225.175 191.42 207.453L214.486 230.519L210.547 234.457L268.212 292.122L272.15 288.184L288.184 272.15L292.122 268.212L234.457 210.547ZM49.9294 183.825C13.0801 146.975 13.0801 86.7787 49.9294 49.9294C68.4947 31.6454 92.6859 22.3628 116.877 22.3628C141.068 22.3628 165.259 31.6454 183.825 49.9294C220.674 86.7787 220.674 146.975 183.825 183.825C146.975 220.674 86.7787 220.674 49.9294 183.825Z" fill="black" fill-opacity="0.1"/>
+              <path d="M127.004 134.88L126.722 138.255H107.876V133.754C107.876 112.095 129.816 105.906 129.816 92.4045C129.816 85.3721 125.316 81.7153 117.44 81.7153C110.126 81.7153 104.219 85.9347 104.219 96.9051V101.125H83.4032V94.6548C83.4032 72.9953 99.4369 62.3062 117.721 62.3062C136.849 62.3062 150.913 72.714 150.913 91.5606C150.632 113.501 127.566 116.877 127.004 134.88ZM105.907 164.978C105.907 158.789 110.97 153.445 117.44 153.445C123.909 153.445 128.973 158.508 128.973 164.978C128.973 171.448 123.909 176.511 117.44 176.511C110.97 176.511 105.907 171.166 105.907 164.978Z" fill="black" fill-opacity="0.1"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

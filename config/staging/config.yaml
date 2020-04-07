@@ -1,2 +1,5 @@
 baseURL: https://vibe-beta.com
 enableRobotsTXT: false
+buildDrafts: true
+buildExpired: false
+buildFuture: true
