@@ -54,37 +54,50 @@ faq:
   title: FAQs
   see_all:
     title: See more
-    url: '#'
+    url: 'https://knowledge.vibe.us/buyers-faq'
   items:
-    - title: Is Vibe compatible with any wall mount?
+    - title: Could Vibe be mounted on the wall?
       body: |
         Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts
         or stands which support at least 65 lbs.
-    - title: Are there any HDMI input?
+    - title: Does Vibe come with a warranty or maintenance support?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        **Yes**.
+
+        Vibe boards purchased through our website come with a one-year warranty.
+        See the warranty card in your Vibe package for more information.
+    - title: Is vibe compatible with any webcam?
+      body: |
+        Vibe is compatible with most USB connected cameras.
+
+        If you are in the market for a new camera that you would want to use with your Vibe board, our team has
+        tested the following cameras and can confirm their compatibility with Vibe.
+        - Logitech 920
+        - Logitech 930
+        - Logitech BRIO
+        - Logitech Conference Cam Bcc950
+        - Logitech Meetup
+        - Owl camera
+        - Polycom Studio 
+
+        If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
+        please contact support at <support@vibe.us> to start a support ticket.
+    - title: How long does shipping usually take?
+      body: |
+        Depending on where you are located, shipping can take anywhere from 3-5 business days.
+        (Our warehouses are located in Southern California)
     - title: What are the product dimensions?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-    - title: Which cameras work with Vibe?
-      body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-    - title: Are there any other accessories available with Vibe?
-      body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-    - title: How is the Vibe board powered?
-      body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        **Vibe board dimensions:**
+        - Diagonal screen size: 55"
+        - Product dimensions: 50.6" (width) x 29.1"(height) x 2.9" (depth)
+        - Product weight: 60.6 lbs
+        - Package size: 56.7" (width) x 37"(height) x 8.8" (depth)
+        - VESA Mount: 200 x 200 mm
+
+        **Vibe stand dimensions:**
+        - Stand size: 50.4" (width) x 50.9" (height) x 26" (depth)
+        - Weight: 33 lbs
 
 reviews:
   title: Customer reviews

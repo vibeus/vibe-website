@@ -268,29 +268,44 @@ faq:
         or stands which support at least 65 lbs.
     - title: Are there any HDMI input?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Yes. Vibe support both HDMI input and output.
     - title: What are the product dimensions?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        **Vibe board dimensions:**
+        - Diagonal screen size: 55"
+        - Product dimensions: 50.6" (width) x 29.1"(height) x 2.9" (depth)
+        - Product weight: 60.6 lbs
+        - Package size: 56.7" (width) x 37"(height) x 8.8" (depth)
+        - VESA Mount: 200 x 200 mm
+
+        **Vibe stand dimensions:**
+        - Stand size: 50.4" (width) x 50.9" (height) x 26" (depth)
+        - Weight: 33 lbs
     - title: Which cameras work with Vibe?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Vibe is compatible with most USB connected cameras.
+
+        If you are in the market for a new camera that you would want to use with your Vibe board, our team has
+        tested the following cameras and can confirm their compatibility with Vibe.
+        - Logitech 920
+        - Logitech 930
+        - Logitech BRIO
+        - Logitech Conference Cam Bcc950
+        - Logitech Meetup
+        - Owl camera
+        - Polycom Studio 
+
+        If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
+        please contact support at <support@vibe.us> to start a support ticket.
     - title: Are there any other accessories available with Vibe?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        We currently only offer Vibe stands and additional styluses.
     - title: How is the Vibe board powered?
       body: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Vibe is powered through a detachable power cord that comes with your purchase. 
+        - Power Supply: AC100-240V - 50/60Hz
+
+        We do not offer a battery option at this time.
 
 video_section:
   title: Vibe is more than hardware
