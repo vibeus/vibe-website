@@ -38,6 +38,17 @@ jobs:
           rm -f $HUGO_ZIP
       - name: Yarn install
         run: yarn install
+      - name: Sync blogs
+        if: github.event_name == 'deployment' && github.event.deployment.task == 'sync-blogs'
+        env:
+          VIBE_CMS_TOKEN: ${{ secrets.VIBE_CMS_TOKEN }}
+        run: |
+          ./sync-blogs
+          git config user.name '${{ github.event.deployment.creator.login }} via GitHub Actions'
+          git config user.email '${{ github.event.deployment.creator.login }}@users.noreply.github.com'
+          if git commit -am "Sync blogs using ./sync-blogs command"; then
+            git push
+          fi
       - name: Hugo build and deploy staging
         if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event_name == 'deployment' && github.event.deployment.environment == 'staging')
         env:
