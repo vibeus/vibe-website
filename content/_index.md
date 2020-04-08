@@ -85,7 +85,7 @@ features:
     figure: img/home/feature-cus.png
     cta:
       title: See Vibe integrations →
-      url: '#'
+      url: '/android-app-store/'
     class: is-feature-4
   - title: Simplify
     subtitle: Easy does it

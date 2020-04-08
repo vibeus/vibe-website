@@ -1,5 +1,6 @@
 ---
 title: Google Jamboard vs Vibe
+slug: vibe-vs-google-jamboard
 
 hero:
   title: Google Jamboard vs Vibe

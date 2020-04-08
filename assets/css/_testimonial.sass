@@ -25,6 +25,10 @@
       align-items: center
       +mobile
         display: block
+      +tablet
+        &.has-logo
+          .name
+            margin-left: 55px
       .image
         max-width: 210px
         +mobile
@@ -38,7 +42,6 @@
         +tablet
           font-size: 18px
           line-height: 32px
-          margin-left: 55px
   .more
     font-family: $vibe-family-heading
     font-weight: $vibe-bold

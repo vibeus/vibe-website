@@ -11,7 +11,7 @@
 
   {{ with .author }}
   <div class="author">
-    <div class="logo-name">
+    <div class="logo-name{{ if .name }} has-name{{ end }}{{ if .logo }} has-logo{{ end }}">
       {{ if .name }}
       <div class="name">
         {{ .name | markdownify }}

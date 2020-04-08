@@ -1,5 +1,6 @@
 ---
 title: Cisco Webex Board vs Vibe
+slug: vibe-vs-cisco-webex-board
 
 hero:
   title: Cisco Webex Board vs Vibe

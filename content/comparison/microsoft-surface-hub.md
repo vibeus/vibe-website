@@ -1,5 +1,6 @@
 ---
 title: Microsoft Surface Hub vs Vibe
+slug: vibe-vs-microsoft-surface-hub
 
 hero:
   title: Microsoft Surface Hub vs Vibe

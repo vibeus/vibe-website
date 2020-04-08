@@ -1,5 +1,6 @@
 ---
 title: Samsung Flip vs Vibe
+slug: vibe-vs-samsung-flip
 
 hero:
   title: Samsung Flip vs Vibe

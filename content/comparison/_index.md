@@ -17,19 +17,19 @@ hero:
 competitors:
   - name: Microsoft Surface Hub
     figure: img/comparison/surface-hub-w.jpg
-    url: /comparison/microsoft-surface-hub/
+    url: /comparison/vibe-vs-microsoft-surface-hub/
   - name: Google Jamboard
     figure: img/comparison/jamboard-w.jpg
-    url: /comparison/google-jamboard/
+    url: /comparison/vibe-vs-google-jamboard/
   - name: Samsung Flip
     figure: img/comparison/flip-w.jpg
-    url: /comparison/samsung-flip/
+    url: /comparison/vibe-vs-samsung-flip/
   - name: Cisco WebEx Board
     figure: img/comparison/webex-w.jpg
-    url: /comparison/cisco-webex-board/
+    url: /comparison/vibe-vs-cisco-webex-board/
   - name: SMART board
     figure: img/comparison/smart-w.jpg
-    url: /comparison/smart-board/
+    url: /comparison/vibe-vs-smart-board/
 
 bottom_cta:
   title: Experience Vibe for yourself

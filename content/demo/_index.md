@@ -45,9 +45,20 @@ demo:
       - - name: jobtitle
           placeholder: Job Title
           dropdown:
-            - Title 1
-            - Title 2
-            - Title 3
+            - Executive
+            - Financial services
+            - IT
+            - Engineer
+            - Marketing
+            - Sales
+            - Trainer
+            - Project manager
+            - UI/UX designer
+            - Lawyer
+            - Teacher
+            - Government
+            - Health
+            - Sports
     buttons:
       - type: submit
         title: Schedule a Live Demo

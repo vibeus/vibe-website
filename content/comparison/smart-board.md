@@ -1,5 +1,6 @@
 ---
 title: SMART Board vs Vibe
+slug: vibe-vs-smart-board
 
 hero:
   title: SMART Board vs Vibe

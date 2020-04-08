@@ -30,9 +30,20 @@ contact:
         - name: jobtitle
           placeholder: Job Title
           dropdown:
-            - Title 1
-            - Title 2
-            - Title 3
+            - Executive
+            - Financial services
+            - IT
+            - Engineer
+            - Marketing
+            - Sales
+            - Trainer
+            - Project manager
+            - UI/UX designer
+            - Lawyer
+            - Teacher
+            - Government
+            - Health
+            - Sports
       - - name: message
           placeholder: Message
           type: textarea
