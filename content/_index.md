@@ -1,5 +1,4 @@
 ---
-
 title: Collaboration lives here
 stylesPath: css/home.sass
 

@@ -11,21 +11,21 @@ TAKING ANY STEP TO SET-UP, USE OR INSTALL THE PRODUCT CONSTITUTES YOUR ASSENT TO
 
 **1. DEFINITIONS**
 
-**&quot;Affiliate&quot;**  means any legal entity (i) directly or indirectly owning or controlling You; (ii) under the same direct or indirect ownership or control as You; or (iii) directly or indirectly controlled by You. Ownership or control shall exist through direct or indirect ownership of more than fifty percent (50%) of the nominal value of the issued equity share capital or of more than fifty percent (50%) of the voting rights.
+**&quot;Affiliate&quot;** means any legal entity (i) directly or indirectly owning or controlling You; (ii) under the same direct or indirect ownership or control as You; or (iii) directly or indirectly controlled by You. Ownership or control shall exist through direct or indirect ownership of more than fifty percent (50%) of the nominal value of the issued equity share capital or of more than fifty percent (50%) of the voting rights.
 
-**&quot;Licensed Configuration&quot;**  means to the extent applicable, as indicated on the License Key, the choice of features and the maximum number of users, devices or nodes (an internal computing device with an IP address) on the trusted side of the network or that is trying to traverse the firewall, and the numbers of cores, or the maximum throughput capacity stated, or the code generated from the master installation, or any other hardware or software specifications, as declared by You in Your purchase order, or request for License Key, and upon which the licensing fee was based. If the Product purchased by You does not come with a License Key then the Licensed Configuration shall be the minimum configuration allowed for the Product by Vibe upon which the licensing fee was based.
+**&quot;Licensed Configuration&quot;** means to the extent applicable, as indicated on the License Key, the choice of features and the maximum number of users, devices or nodes (an internal computing device with an IP address) on the trusted side of the network or that is trying to traverse the firewall, and the numbers of cores, or the maximum throughput capacity stated, or the code generated from the master installation, or any other hardware or software specifications, as declared by You in Your purchase order, or request for License Key, and upon which the licensing fee was based. If the Product purchased by You does not come with a License Key then the Licensed Configuration shall be the minimum configuration allowed for the Product by Vibe upon which the licensing fee was based.
 
-** &quot;License Key&quot;**  means the code provided to You by Vibe, which enables the Product to operate on the Licensed-server or appliance for the specified Licensed Configuration.
+** &quot;License Key&quot;** means the code provided to You by Vibe, which enables the Product to operate on the Licensed-server or appliance for the specified Licensed Configuration.
 
-**&quot;Product&quot;**  means the object code copy of the software program, including Third Party Software, provided to You in association with this Agreement, together with the associated original electronic media and/or associated hardware devices (&quot;Hardware Products&quot;) and all accompanying manuals and other documentation, if available, and together with all enhancements, upgrades, and extensions thereto that may be provided by Vibe to You from time to time.
+**&quot;Product&quot;** means the object code copy of the software program, including Third Party Software, provided to You in association with this Agreement, together with the associated original electronic media and/or associated hardware devices (&quot;Hardware Products&quot;) and all accompanying manuals and other documentation, if available, and together with all enhancements, upgrades, and extensions thereto that may be provided by Vibe to You from time to time.
 
-**&quot;Managed Service Provider&quot;**  means (a) You are in the regular business of managing the functionality of the Product for a fee, to entities that are not Your Affiliates (each a &quot;Service Customer&quot;); or if You are a company that provides such managed services to Standard Users that are a part of your corporation or of your Affiliates or (b) You indicated in Your purchase order or in requesting the License Key, that You intend to use the Products on behalf of Service Customers, and (c) You purchased the managed service provider package, if applicable.
+**&quot;Managed Service Provider&quot;** means (a) You are in the regular business of managing the functionality of the Product for a fee, to entities that are not Your Affiliates (each a &quot;Service Customer&quot;); or if You are a company that provides such managed services to Standard Users that are a part of your corporation or of your Affiliates or (b) You indicated in Your purchase order or in requesting the License Key, that You intend to use the Products on behalf of Service Customers, and (c) You purchased the managed service provider package, if applicable.
 
-**&quot;Standard User&quot;**  means You indicated in Your purchase order or in requesting the License Key that You intend to use the Products on Your own behalf, or You obtained the products from a Managed Service Provider, reseller, vendor or any other intermediate supplier.
+**&quot;Standard User&quot;** means You indicated in Your purchase order or in requesting the License Key that You intend to use the Products on Your own behalf, or You obtained the products from a Managed Service Provider, reseller, vendor or any other intermediate supplier.
 
-**&quot;Third Party Software&quot;**  means any software programs provided by third parties contained in the Product.
+**&quot;Third Party Software&quot;** means any software programs provided by third parties contained in the Product.
 
-**&quot;Third Party Software Provider&quot;**  means the third party that has the right to provide and grant licenses for the use of Third Party Software.
+**&quot;Third Party Software Provider&quot;** means the third party that has the right to provide and grant licenses for the use of Third Party Software.
 
 **2. LICENSE AND RESTRICTIONS**
 
@@ -134,7 +134,7 @@ c. Inform Vibe or its partner of changes in the Hardware Product physical locati
 
 6.6. You shall ship the faulty Hardware Product once TAC approves the RMA and provide the courier name and tracking number to TAC before Vibe processes the RMA.
 
-6.7. If you are a customer who has purchased the support plan with Vibe covering  **Advanced Replacement**  Service, You will ship the faulty Hardware Product within five (5) business days of the arrival of the RMA, or pay the standard Vibe list price of replacement Hardware Product.
+6.7. If you are a customer who has purchased the support plan with Vibe covering **Advanced Replacement** Service, You will ship the faulty Hardware Product within five (5) business days of the arrival of the RMA, or pay the standard Vibe list price of replacement Hardware Product.
 
 6.8. To securely erase from any Hardware Product you return to Vibe for any reason all programs and data not provided by Vibe with the Hardware Product. You acknowledge that in order to perform its responsibilities under this Limited Hardware Warranty, Vibe may ship all or part of the Hardware Product or its software to third party locations around the world, and you authorize Vibe to do so.
 

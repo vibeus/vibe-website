@@ -97,7 +97,7 @@ by you will meet your expectations, or that any errors in the Service will be co
 # SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION
 
 We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities
-purchased per person, per household or per order. These restrictions may include orders placed by or under the same 
+purchased per person, per household or per order. These restrictions may include orders placed by or under the same
 customer account, the same credit card, and/or orders that use the same billing and/or shipping address.
 In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e‑mail and/or
 billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders

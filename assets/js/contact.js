@@ -1,10 +1,7 @@
 /*
 {{ $src := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
 */
-import {
-  toggleActive,
-  setupForm,
-} from '{{ $src.RelPermalink }}';
+import { toggleActive, setupForm } from '{{ $src.RelPermalink }}';
 
 const scheduleModal = document.getElementById('{{ .modalId }}');
 
