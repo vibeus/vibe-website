@@ -36,6 +36,9 @@ jobs:
           curl -OL https://github.com/gohugoio/hugo/releases/download/v$HUGO_VER/$HUGO_ZIP
           sudo tar xf $HUGO_ZIP -C /usr/local/bin hugo
           rm -f $HUGO_ZIP
+      - name: Pip install
+        run: |
+          pip3 install -r requirements.txt
       - name: Yarn install
         run: yarn install
       - name: Sync blogs
@@ -43,7 +46,7 @@ jobs:
         env:
           VIBE_CMS_TOKEN: ${{ secrets.VIBE_CMS_TOKEN }}
         run: |
-          ./sync-blogs
+          python3 sync-blogs
           git config user.name '${{ github.event.deployment.creator.login }} via GitHub Actions'
           git config user.email '${{ github.event.deployment.creator.login }}@users.noreply.github.com'
           if git commit -am "Sync blogs using ./sync-blogs command"; then
