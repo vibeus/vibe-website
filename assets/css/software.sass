@@ -14,23 +14,29 @@
     max-width: 874px
     margin-left: auto
     margin-right: auto
-    text-align: center
+    +tablet
+      text-align: center
   .title
     font-size: 64px
     +mobile
-      font-size: 32px
+      font-size: 50px
     margin-bottom: 24px
   .content
     margin-bottom: 72px
+    +mobile
+      margin-bottom: 32px
   .cta
     text-align: center
     .button
       font-family: $vibe-family-heading
       font-weight: $vibe-bold
       font-size: 20px
-      width: 230px
-      height: 58px
       border-width: 3px
+      +tablet
+        width: 230px
+        height: 58px
+      +mobile
+        width: 100%
 
 .section.is-hero-image
   +vertical-padding(64px)
@@ -97,6 +103,10 @@
     font-size: 30px
     line-height: 38px
     margin-bottom: 48px
+    +mobile
+      font-size: 20px
+      line-height: 1.5
+      margin-bottom: 16px
 
 .section.is-presentation
   +vertical-padding(120px)
@@ -105,15 +115,18 @@
       margin-bottom: 100px
   .columns
     position: relative
-    margin-left: auto
-    margin-right: auto
     +tablet
+      margin-left: auto
+      margin-right: auto
       .image
         position: absolute
         top: 0
   .title.is-subtitle, .content
     +tablet
       max-width: 500px
+  .title.is-subtitle
+    +mobile
+      font-size: 20px
   .columns.is-index-1
     flex-direction: row-reverse
     max-width: 1108px

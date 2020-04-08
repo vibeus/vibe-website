@@ -20,6 +20,9 @@
       object-fit: cover
       +mobile
         object-position: 48% 50%
+  +mobile
+    .hero-body
+      padding-bottom: 0
   .container
     +fullhd
       max-width: 1100px
@@ -27,18 +30,20 @@
     max-width: 428px
     margin-bottom: 72px
     +mobile
-      max-width: 250px
+      margin-bottom: 32px
     .title
       font-size: 64px
       line-height: 73px
       +mobile
-        font-size: 32px
-        line-height: 40px
+        font-size: 50px
+        line-height: 60px
     p
       max-width: 411px
-      +mobile
-        max-width: 200px
   .cta
+    +mobile
+      display: flex
+      flex-direction: column
+      margin-bottom: 24px
     +tablet
       margin-left: -8px
     .button.is-hero-cta
@@ -49,7 +54,10 @@
       &.is-photo-gallery
         border-width: 3px
       &:not(:last-child)
-        margin-right: 16px
+        +mobile
+          margin-bottom: 8px
+        +tablet
+          margin-right: 16px
     +tablet
       a
         width: 190px
@@ -60,6 +68,8 @@
   .button.is-hero-cta:focus
     svg
       fill: $vibe-white
+  .image.is-hero
+    +mobile-full-width
   .modal-content
     overflow: hidden
     +tablet

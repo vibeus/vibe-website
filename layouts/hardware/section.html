@@ -6,7 +6,7 @@
 
 {{ with .Params.hero }}
 <section class="hero is-fullheight-with-navbar is-hardware">
-  <figure class="image is-hero-bg">
+  <figure class="image is-hero-bg is-hidden-mobile">
     {{ partial "common/srcset" (dict "resource" (resources.Get "img/hardware/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
   </figure>
   <div class="hero-body">
@@ -42,6 +42,11 @@
           </span>
         </button>
       </div>
+
+      <figure class="image is-hero is-hidden-tablet">
+        {{ $src := resources.Get "img/hardware/hero-mobile.jpg" | resources.Fingerprint }}
+        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+      </figure>
     </div>
   </div>
   {{ with .gallery }}

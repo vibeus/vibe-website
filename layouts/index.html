@@ -6,7 +6,7 @@
 
 {{ with .Params.hero }}
 <section class="hero is-fullheight-with-navbar is-home">
-  <figure class="image is-hero-bg">
+  <figure class="image is-hero-bg is-hidden-mobile">
     {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
   </figure>
   <div class="hero-body">
@@ -19,7 +19,6 @@
         {{ .body | markdownify }}
         </p>
       </div>
-
       {{ with .cta }}
       <div class="cta">
         <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
@@ -36,6 +35,11 @@
         {{ end }}
       </div>
       {{ end }}
+
+      <figure class="image is-hero is-hidden-tablet">
+        {{ $src := resources.Get "img/home/hero-mobile.jpg" | resources.Fingerprint }}
+        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+      </figure>
     </div>
   </div>
 </section>
