@@ -12,3 +12,5 @@ disableKinds:
 buildDrafts: true
 buildExpired: true
 buildFuture: true
+minify:
+  disableSVG: true

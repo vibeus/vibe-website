@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v1
         with:
           python-version: '3.7'
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
         with:
           lfs: true
       - uses: actions/setup-node@v1
@@ -29,9 +29,9 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
-      - name: Setup Hugo 0.64.1
+      - name: Setup Hugo 0.68.3
         run: |
-          HUGO_VER=0.64.1
+          HUGO_VER=0.68.3
           HUGO_ZIP=hugo_extended_${HUGO_VER}_Linux-64bit.tar.gz
           curl -OL https://github.com/gohugoio/hugo/releases/download/v$HUGO_VER/$HUGO_ZIP
           sudo tar xf $HUGO_ZIP -C /usr/local/bin hugo
