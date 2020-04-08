@@ -71,7 +71,7 @@ const AppItem = ({ item }) => {
     ),
     e(
       'div',
-      null,
+      { className: 'app-desc' },
       e(
         'p',
         {

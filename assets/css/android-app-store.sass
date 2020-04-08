@@ -3,8 +3,7 @@
 .hero
   background-color: $vibe-white
   .hero-body
-    padding-top: 73px
-    padding-bottom: 73px
+    +vertical-padding(72px, 72px, 48px, 48px)
   .container
     max-width: 1100px
     +tablet
@@ -21,8 +20,7 @@
     max-width: 237px
 
 .section.is-app-store
-  padding-top: 48px
-  padding-bottom: 64px
+  +vertical-padding(48px, 64px, 48px, 48px)
   .container
     max-width: 1200px
     > .columns
@@ -55,6 +53,10 @@
   .image.is-app-icon
     width: 60px
     margin-right: 16px
+  .app-desc, .app-name, .app-type
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
   .app-name
     font-weight: $vibe-bold
     margin-bottom: 8px
@@ -74,7 +76,3 @@
     .button
       font-size: 24px
       font-weight: $vibe-bold
-
-.hero, .section
-  +tablet
-    font-size: 18px

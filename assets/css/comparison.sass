@@ -1,16 +1,16 @@
 @import "_shared.sass"
+@import "_bottom-cta.sass"
 
 .hero
   position: relative
   background-color: $vibe-yellow
+  .hero-body
+    +vertical-padding(80px)
   .bg-logo
     width: 661px
     position: absolute
     left: -200px
     top: 47px
-  .hero-body
-    padding-top: 80px
-    padding-bottom: 80px
   .title
     text-align: center
     +tablet
@@ -25,6 +25,7 @@
     font-weight: $vibe-bold
 
 .section.is-competitors
+  +vertical-padding(120px)
   .container
     max-width: 1170px
   .columns
@@ -64,8 +65,7 @@
 
 .section.is-hero-all,
 .section.is-hero-single
-  padding-top: 80px
-  padding-bottom: 80px
+  +vertical-padding(80px)
   .title
     text-align: center
   .content
@@ -78,8 +78,7 @@
   max-width: 880px
 
 .section.is-difference
-  padding-top: 0
-  padding-bottom: 80px
+  +vertical-padding(0, 80px)
   .title-content
     margin-top: 78px
     margin-left: auto
@@ -98,8 +97,7 @@
 
 .section.is-comparison.is-single,
 .section.is-comparison.is-all
-  padding-top: 0
-  padding-bottom: 0
+  +vertical-padding(0)
 
 .section.is-comparison.is-single
   .container
@@ -148,8 +146,7 @@
     background-color: $vibe-white
 
 .section.is-why
-  padding-top: 80px
-  padding-bottom: 80px
+  +vertical-padding(80px)
   .container
     max-width: 725px
   .title
@@ -210,7 +207,3 @@
       background-color: $vibe-white
   .column.is-brand-name
     font-weight: $vibe-bold
-
-.hero, .section
-  +tablet
-    font-size: 18px

@@ -4,11 +4,12 @@
 @import "_testimonial-glide.sass"
 @import "_testimonial-section.sass"
 @import "_testimonial.sass"
+@import "_bottom-cta.sass"
 
 .hero
   background-color: $vibe-teal
   .hero-body
-    padding-bottom: 0
+    +vertical-padding(120px, 0)
   .title, .content
     max-width: 874px
     margin-left: auto
@@ -32,8 +33,7 @@
       border-width: 3px
 
 .section.is-hero-image
-  padding-top: 64px
-  padding-bottom: 64px
+  +vertical-padding(64px)
   background: linear-gradient(to bottom, $vibe-teal 50%, #FFFFFF 50%)
   overflow: visible
   position: relative
@@ -53,8 +53,7 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3)
 
 .section.is-overall
-  padding-top: 76px
-  padding-bottom: 120px
+  +vertical-padding(76px, 120px)
   .title
     margin-bottom: 90px
   .column
@@ -81,6 +80,7 @@
       text-align: center
 
 .section.is-collaboration
+  +vertical-padding(120px, 100px)
   background-color: $vibe-yellow
   .container
     max-width: 1240px
@@ -99,6 +99,7 @@
     margin-bottom: 48px
 
 .section.is-presentation
+  +vertical-padding(120px)
   .title.is-section-title
     +tablet
       margin-bottom: 100px
@@ -137,6 +138,7 @@
         margin-left: auto
 
 .section.is-apps
+  +vertical-padding(120px)
   background-color: $vibe-white
   .title
     margin-bottom: 90px
@@ -169,7 +171,7 @@
 
 .section.is-security
   position: relative
-  padding-bottom: 3rem
+  +vertical-padding(120px, 48px, 60px, 48px)
   background-color: $vibe-black
   *
     color: white
@@ -201,11 +203,11 @@
 
 .section.is-video
   background-color: $vibe-white
-  .title.is-section-title
-    text-align: left
 
-.hero, .section
-  +tablet
-    font-size: 18px
-.section .title.is-section-title
-  text-align: center
+.section
+  &.is-overall,
+  &.is-collaboration,
+  &.is-presentation,
+  &.is-apps
+  .title.is-section-title
+    text-align: center

@@ -1,10 +1,8 @@
 targets:
   - name: aws-staging
-    # Use a separate bucket before cms is merged into main site.
     URL: 's3://vibe-beta.com?region=us-west-2'
     cloudFrontDistributionID: ENEIH6240I3TC
   - name: aws-production
-    # Use a separate bucket before cms is merged into main site.
     URL: 's3://vibe.us?region=us-west-2'
     cloudFrontDistributionID: E1NS42WYS2Q8OI
 

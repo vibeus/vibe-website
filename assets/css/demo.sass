@@ -3,8 +3,7 @@
 .hero
   background-color: $vibe-yellow
   .hero-body
-    padding-top: 0
-    padding-bottom: 0
+    +vertical-padding(0)
   .container
     max-width: 1110px
   .column.is-text
@@ -32,7 +31,6 @@
 
 .section.is-demo
   background-color: $vibe-white
-  padding: 3rem 1.5rem
   .container
     max-width: 1110px
     > .columns
@@ -78,7 +76,3 @@
           visibility: visible
       .submitted
         display: flex
-
-.hero, .section
-  +tablet
-    font-size: 18px

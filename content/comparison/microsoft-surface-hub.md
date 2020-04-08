@@ -50,7 +50,7 @@ why:
 
     Vibe is the perfect match for everyday presenters, designers, project managers and remote workers.
 
-    [Contact us](/contact/) to learn more.
+    **[Contact us](/contact/) to learn more.**
 
 bottom_cta:
   title: Experience Vibe for yourself

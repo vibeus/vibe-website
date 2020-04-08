@@ -1,8 +1,11 @@
 @import "_shared.sass"
 @import "_customers.sass"
+@import "_bottom-cta.sass"
 
 .hero
   background-color: $vibe-teal
+  .hero-body
+    +vertical-padding(120px)
   .bg-logo
     position: absolute
     width: 535px
@@ -20,12 +23,14 @@
     max-width: 600px
 
 .section.is-trust
+  +vertical-padding(120px, 103px)
   background-color: $vibe-white
   .title
     text-align: center
     margin-bottom: 72px
 
 .section.is-features
+  +vertical-padding(120px)
   .container
     max-width: 1000px
   .title
@@ -43,6 +48,7 @@
       font-size: 24px
 
 .section.is-specs
+  +vertical-padding(120px)
   background-color: $vibe-black
   .container
     max-width: 1244px
@@ -77,6 +83,7 @@
       margin-top: 2px
 
 .section.is-privacy
+  +vertical-padding(120px, 70px)
   background-color: $vibe-white
   .container
     max-width: 1220px
@@ -108,7 +115,3 @@
     font-size: 20px
     +mobile
       margin-bottom: 32px
-
-.hero, .section
-  +tablet
-    font-size: 18px

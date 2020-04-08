@@ -1,10 +1,13 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 @import "_shared.sass"
 @import "_vibe-locations.sass"
+@import "_bottom-cta.sass"
 
 .hero
   position: relative
   background-color: $vibe-teal
+  .hero-body
+    +vertical-padding(120px)
   .bg-logo
     position: absolute
     left: 50%
@@ -43,11 +46,9 @@
     color: $vibe-purple
 
 .section.is-team
-  padding-top: 115px
-  padding-bottom: 225px
-  +mobile
-    padding-top: 64px
-    padding-bottom: 64px
+  // bottom padding should start from dots, not from the box shadow.
+  // there is no box shadow in mobile so need to adjust.
+  +vertical-padding(114px, 195px, 60px, 60px)
   .container
     max-width: 1080px
   .title, .content
@@ -100,6 +101,7 @@
         right: 0
 
 .section.is-investors
+  +vertical-padding(120px)
   background-color: $vibe-purple
   .container
     max-width: 1120px
@@ -112,6 +114,7 @@
     margin: auto
 
 .section.is-get-touch
+  +vertical-padding(120px)
   .container
     max-width: 1160px
   .title.is-section-title
@@ -162,7 +165,3 @@
   background-color: $vibe-yellow
   .cta .button
     width: 200px
-
-.hero, .section
-  +tablet
-    font-size: 18px

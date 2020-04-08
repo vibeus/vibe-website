@@ -3,14 +3,11 @@
 @import "_faq.sass"
 @import "_review-stars.sass"
 @import "_order-cart.sass"
+@import "_bottom-cta.sass"
 
 .hero
   .hero-body
-    padding-top: 120px
-    padding-bottom: 120px
-    +mobile
-      padding-top: 64px
-      padding-bottom: 64px
+    +vertical-padding(120px)
   .container
     max-width: 1200px
   .content
@@ -104,10 +101,7 @@ input[type=number]
   font-weight: $vibe-bold
 
 .section.is-accessories
-  padding-top: 0
-  padding-bottom: 120px
-  +mobile
-    padding-bottom: 64px
+  +vertical-padding(0, 120px)
   .container
     max-width: 1150px
   .title.is-section-title
@@ -133,11 +127,7 @@ input[type=number]
     width: 142px
 
 .section.is-reviews
-  padding-top: 120px
-  padding-bottom: 120px
-  +mobile
-    padding-top: 64px
-    padding-bottom: 64px
+  +vertical-padding(120px)
   .container
     max-width: 1120px
   .title.is-section-title
@@ -154,11 +144,7 @@ input[type=number]
   .columns.is-review
     border-top: 1px solid $vibe-black
     .column
-      padding-top: 40px
-      padding-bottom: 40px
-      +mobile
-        padding-top: 16px
-        padding-bottom: 16px
+      +vertical-padding(40px, 40px, 16px, 16px)
   .author
     font-weight: $vibe-bold
   .channel
@@ -257,7 +243,3 @@ input[type=number]
       font-size: 16px
     .checkout .button
       font-weight: $vibe-bold
-
-.hero, .section, .modal
-  +tablet
-    font-size: 18px

@@ -1,10 +1,10 @@
 @import "_shared.sass"
 @import "_compare.sass"
 @import "_video-hero.sass"
+@import "_bottom-cta.sass"
 
 .section.is-video-hero
-  padding-top: 80px
-  padding-bottom: 80px
+  +vertical-padding(80px)
   .video-hero-bg
     margin-top: -210px
   .title
@@ -40,7 +40,3 @@
 
 .section.is-bottom-cta
   background-color: $vibe-yellow
-
-.hero, .section
-  +tablet
-    font-size: 18px

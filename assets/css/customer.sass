@@ -3,10 +3,13 @@
 @import "_testimonial-glide.sass"
 @import "_testimonial-section.sass"
 @import "_testimonial.sass"
+@import "_bottom-cta.sass"
 
 .hero
   position: relative
   background-color: $vibe-yellow
+  .hero-body
+    +vertical-padding(120px)
   .container
     max-width: 1100px
   .title
@@ -28,6 +31,7 @@
     text-align: center
 
 .section.is-story
+  +vertical-padding(120px)
   .columns
     justify-content: center
   .column
@@ -152,7 +156,3 @@
       transform: rotate(180deg)
     &.is-right
       right: 16px
-
-.hero, .section, .modal
-  +tablet
-    font-size: 18px

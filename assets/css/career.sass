@@ -1,11 +1,12 @@
 @import "_shared.sass"
 @import "_vibe-locations.sass"
 @import "_testimonial.sass"
+@import "_bottom-cta.sass"
 
 .hero
   background-color: $vibe-yellow
   .hero-body
-    padding-top: 100px
+    +vertical-padding(103px, 72px)
   .container
     max-width: 960px
   .title
@@ -23,13 +24,13 @@
       text-align: center
 
 .section.is-hero-image
-  padding-top: 0
-  padding-bottom: 0
+  +vertical-padding(0)
   background: linear-gradient(to bottom, $vibe-yellow 50%, white 50%)
   .container
     max-width: 760px
 
 .section.is-values
+  +vertical-padding(120px)
   .container
     max-width: 1000px
   .title
@@ -47,6 +48,7 @@
       font-size: 24px
 
 .section.is-who
+  +vertical-padding(120px)
   position: relative
   background-color: $vibe-teal
   .who-bg
@@ -62,6 +64,7 @@
     text-align: center
 
 .section.is-work
+  +vertical-padding(120px)
   .container
     max-width: 1000px
   .title
@@ -76,6 +79,7 @@
       font-size: 24px
 
 .section.is-join
+  +vertical-padding(120px)
   .container
     text-align: center
   .content a
@@ -83,7 +87,3 @@
 
 .section.is-bottom-cta
   background-color: $vibe-yellow
-
-.hero, .section
-  +tablet
-    font-size: 18px
