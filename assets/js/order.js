@@ -338,6 +338,7 @@ function addToCart(productId, count) {
   if (count > 0) {
     const value = (cart[productId] || 0) + count;
     setCartCount(productId, value);
+    document.querySelector('.button.is-cart-icon').click();
   }
 }
 

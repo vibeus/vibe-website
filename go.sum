@@ -1,4 +1,4 @@
-github.com/vibeus/hugo-common v1.0.1-0.20200408190947-7d2c88c1d621 h1:eVBg3oiibKVwBLcU/8XMzQkMlWInS/CMqf+JZAo3fv4=
-github.com/vibeus/hugo-common v1.0.1-0.20200408190947-7d2c88c1d621/go.mod h1:4G98No0CyurLjRLhERGgAomTUQdtNynInoCUwIgE9C0=
-github.com/vibeus/vibe-cms v0.0.0-20200407221003-66a7051e7441 h1:SKOilvxe19/KqCFjmYkwO9oEaZB2z27wyjT3JVdrvuA=
-github.com/vibeus/vibe-cms v0.0.0-20200407221003-66a7051e7441/go.mod h1:kvWvN3Q4IgVHWMTe3NZCUexhbgvjQ7eTtJr0KEf1NdY=
+github.com/vibeus/hugo-common v1.0.1-0.20200408203828-d379e636d9f4 h1:ZxhM7snwKGX8l8kj73GWf5bRZ/i+1U+PC8bN/zWJh+0=
+github.com/vibeus/hugo-common v1.0.1-0.20200408203828-d379e636d9f4/go.mod h1:4G98No0CyurLjRLhERGgAomTUQdtNynInoCUwIgE9C0=
+github.com/vibeus/vibe-cms v0.0.0-20200408203924-ed083f4bbbf5 h1:kne2Uw1xewKjWjftLyxhN2q8dz1nUPfHeVFQpHdYJvI=
+github.com/vibeus/vibe-cms v0.0.0-20200408203924-ed083f4bbbf5/go.mod h1:6zJQR+C1kbGCa+Nu4qWiGNMkxuPCD/WE7Vo0QHSNjuw=

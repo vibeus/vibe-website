@@ -172,7 +172,7 @@ brands:
       stand: $799
       accessories: |
         $233 (wall mount)
-      software:
+      software: "\\-"
     hardware:
       screen: 4K
       touch: 4 Touchpoints
@@ -193,7 +193,7 @@ brands:
         - Power cable
         - Touch out cable (USB upstream)
       weight: 63.7 lb (28.9 kg)
-      camera:
+      camera: "\\-"
     whiteboard:
       remote: false
       app: false
@@ -209,7 +209,7 @@ brands:
       store: false
       browser: false
       drives: false
-      vc:
+      vc: "\\-"
     service:
       warranty: 3-year
   - id: webex
@@ -228,7 +228,7 @@ brands:
     hardware:
       screen: 4K
       touch: 2 Touchpoints
-      refresh:
+      refresh: "\\-"
       os: Cisco Webex Board OS
       connections: |
         - HDMI IN
@@ -237,7 +237,7 @@ brands:
         - Two USB 3.0 (for serviceability)
       wireless: |
         Wi-Fi 802.11a/b/g/n; 802.11ac (2.4 and 5 GHz)
-      processor:
+      processor: "\\-"
       box: |
         - LED display
         - 4K camera
@@ -271,7 +271,7 @@ brands:
       board: $4,999
       stand: |
         No stand
-      accessories:
+      accessories: "\\-"
       software: |
         Based on Subscription (SMART meeting pro/ SMART TeamWorks)
     hardware:
@@ -354,32 +354,43 @@ features:
     items:
       - id: remote
         title: Multi-user Realtime Whiteboard
+        type: icon
       - id: app
         title: Simultaneous App Usage
+        type: icon
       - id: smart
         title: Smart Drawing
+        type: icon
       - id: platforms
         title: Multi Platform Support
+        type: icon
   - id: sharing
     title: Sharing
     items:
       - id: wireless
         title: Wireless Screen Share
+        type: icon
       - id: annotation
         title: Annotation
+        type: icon
       - id: control
         title: Remote Control
+        type: icon
       - id: cloud
         title: Cloud Storage
+        type: icon
   - id: app
     title: App Integration
     items:
       - id: store
         title: App Store
+        type: icon_text
       - id: browser
         title: Web Browser
+        type: icon
       - id: drives
         title: Dropbox, Google Drive, One Drive
+        type: icon
       - id: vc
         title: Video Conferencing Software
   - id: service

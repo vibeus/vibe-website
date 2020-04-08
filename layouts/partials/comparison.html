@@ -27,10 +27,25 @@
   </tr>
   {{ range .items }}
   {{ $sub := .id }}
+  {{ $type := default "text" .type }}
   <tr class="tbody">
     <th>{{ .title }}</th>
     {{ range $.brands }}
-    <td>{{ index (index . $feature) $sub | markdownify }}</td>
+    <td>
+      {{ $value := index (index . $feature) $sub }}
+
+      {{ if and $value (or (eq "icon" $type) (eq "icon_text" $type)) }}
+      <span class="icon">
+        <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 7.11236L9.17482 15L21 2" stroke="#66CCCC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      {{ end }}
+
+      {{ if and $value (not (eq "icon" $type)) }}
+      {{ $value | markdownify }}
+      {{ end }}
+    </td>
     {{ end }} <!-- brands -->
   </tr>
   {{ end }} <!-- items -->
@@ -46,6 +61,7 @@
     </div>
     {{ range .items }}
     {{ $sub := .id }}
+    {{ $type := default "text" .type }}
     <div class="feature is-item">
       {{ .title }}
     </div>
@@ -56,7 +72,18 @@
           {{ .name }}
         </div>
         <div class="column">
-          {{ index (index . $feature) $sub | markdownify }}
+          {{ $value := index (index . $feature) $sub }}
+          {{ if and $value (or (eq "icon" $type) (eq "icon_text" $type)) }}
+          <span class="icon">
+            <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 7.11236L9.17482 15L21 2" stroke="#66CCCC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          {{ end }}
+
+          {{ if and $value (not (eq "icon" $type)) }}
+          {{ $value | markdownify }}
+          {{ end }}
         </div>
       </div>
       {{ end }} <!-- brands -->

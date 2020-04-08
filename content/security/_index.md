@@ -16,17 +16,17 @@ trust:
   title: Trusted by 200+ top industry leaders
 
 features:
-  title: Security Features
+  title: Security features
   items:
     - body: |
         ## Identity Management
         Vibe ensures that only the right people and approved devices can access user’s or team’s content
-        in Vibe cloud with SAML based Single sign-on. Vibe also support OAuth sign in from trusted
+        in Vibe cloud with **SAML based Single sign-on**. Vibe also support OAuth sign in from trusted
         identity providers like Google, Microsoft and Slack.
       figure: img/security/idm.png
     - body: |
         ## Data Protection
-        Vibe encrypts all customer data both in transit and at rest using industry standards like SSL
+        Vibe **encrypts all customer data** both in transit and at rest using industry standards like SSL
         v2 and AES-256 alongside Amazon’s Key Management Service (AWS KMS). Deleted user content
         is permanently removed across all back end servers to ensure data governance policy.
       figure: img/security/data.png

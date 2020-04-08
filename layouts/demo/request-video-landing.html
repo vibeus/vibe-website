@@ -14,7 +14,7 @@
           <div class="content">{{ .body | markdownify }}</div>
           {{ with .cta }}
           <div class="cta">
-            <a href="{{ .url }}">
+            <a href="{{ .url }}" target="_blank">
               <span>{{ .title }}</span>
               {{ with .icon }}
               <span class="icon is-small">

@@ -7,7 +7,7 @@
 
 .hero
   .hero-body
-    +vertical-padding(120px)
+    +vertical-padding(80px, 120px)
   .container
     max-width: 1200px
   .content
@@ -20,6 +20,7 @@
   .column.is-text
     max-width: 500px
     margin: auto
+    padding-left: 23px
   .item-price
     margin-top: 16px
     margin-bottom: 32px
@@ -44,6 +45,7 @@
     margin-top: 8px
     font-size: 18px
   .column.is-gallery
+    padding-right: 23px
     display: flex
     flex-direction: row-reverse
     +mobile
@@ -153,8 +155,6 @@ input[type=number]
     margin-bottom: 56px
     +mobile
       margin-bottom: 24px
-    strong
-      font-weight: $vibe-bold
     p:first-child
       margin-bottom: 23px
   .full-review

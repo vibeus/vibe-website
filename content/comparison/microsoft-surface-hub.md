@@ -32,6 +32,7 @@ difference:
 compare:
   left: vibe
   right: surface-hub
+  note: \*Please note that all technical specifications are taken directly from Surface Hub’s website.
 
 why:
   title: Why Vibe?

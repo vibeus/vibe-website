@@ -29,6 +29,11 @@
     {{ $left := index (where $.Site.Data.comparison.brands "id" .left) 0 }}
     {{ $right := index (where $.Site.Data.comparison.brands "id" .right) 0 }}
     {{ partial "comparison" (dict "features" $.Site.Data.comparison.features "brands" (slice $left $right) "images" false) }}
+    {{ with .note }}
+    <div class="compare-note">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

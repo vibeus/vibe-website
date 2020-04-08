@@ -257,7 +257,7 @@ spec:
   cta:
     title: Download Tech Specs
     class: is-black is-outlined is-rounded
-    url: '#'
+    url: '/resources/Vibe_Tech_Specs.pdf'
 
 faq:
   title: Hardware FAQs

@@ -32,13 +32,13 @@
 
         <h3 class="subtitle">Category</h3>
         {{ range .Site.Data.android_apps_category.use_cases }}
-        <div>
+        <div class="use-case-item">
           <a class="side-bar-link is-use-case" href="#" data-id="{{ .id }}">{{ .name }}</a>
         </div>
         {{ end }}
         <h3 class="subtitle">Type of tool</h3>
         {{ range .Site.Data.android_apps_category.types }}
-        <div>
+        <div class="type-item">
           <a class="side-bar-link is-type" href="#" data-id="{{ .id }}">{{ .name }}</a>
         </div>
         {{ end }}

@@ -15,7 +15,7 @@ hero:
   cta:
     title: Download product brochure
     icon: img/shared/download.svg
-    url: '#'
+    url: '/resources/Vibe_Brochure.pdf'
 
 compare:
   title: Why Vibe?
