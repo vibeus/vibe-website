@@ -128,7 +128,7 @@
       font-size: 16px
     +widescreen
       font-size: 18px
-  thead th
+  tr.thead th
     background-color: $vibe-white
   tr.is-section th
     top: calc(#{$navbar-height} + 71px)
@@ -144,7 +144,7 @@
         background-color: $vibe-purple
       &.is-service
         background-color: $vibe-yellow
-  tbody tr:nth-child(even)
+  tr.tbody:nth-child(even)
     background-color: $vibe-white
 
 .section.is-why
@@ -167,9 +167,9 @@
     border-color: #fafafa
     &:not(:last-child)
       border-right: 1px solid #fafafa
-  thead tr, tr.is-section
+  tr.thead, tr.is-section
     font-size: 18px
-  thead th
+  tr.thead th
     background-color: white
     top: calc(#{$navbar-height} - 1px)
     height: 72px

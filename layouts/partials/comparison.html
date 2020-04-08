@@ -1,43 +1,39 @@
 <table class="table is-comparison is-fullwidth">
-  <thead>
-    {{ if .images }}
-    <tr>
-      <th></th>
-      {{ range .brands }}
-      <th>
-        <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
-        </figure>
-      </th>
-      {{ end }}
-    </tr>
+  {{ if .images }}
+  <tr class="thead">
+    <th></th>
+    {{ range .brands }}
+    <th>
+      <figure class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
+      </figure>
+    </th>
     {{ end }}
-    <tr>
-      <th class="is-sticky">Compare Brands</th>
-      {{ range .brands }}
-      <th class="is-sticky is-brand-name">{{ .name }}</th>
-      {{ end }}
-    </tr>
-  </thead>
+  </tr>
+  {{ end }}
+  <tr class="thead">
+    <th class="is-sticky">Compare Brands</th>
+    {{ range .brands }}
+    <th class="is-sticky is-brand-name">{{ .name }}</th>
+    {{ end }}
+  </tr>
   {{ range .features }}
-  <tbody>
-    {{ $feature := .id }}
-    <tr class="is-section">
-      <th colspan="{{ add 1 (len $.brands) }}" class="is-sticky">
-        <div class="color is-{{ .id }}"></div>
-        <p>{{ .title }}</p>
-      </th>
-    </tr>
-    {{ range .items }}
-    {{ $sub := .id }}
-    <tr>
-      <th>{{ .title }}</th>
-      {{ range $.brands }}
-      <td>{{ index (index . $feature) $sub | markdownify }}</td>
-      {{ end }} <!-- brands -->
-    </tr>
-    {{ end }} <!-- items -->
-  </tbody>
+  {{ $feature := .id }}
+  <tr class="tbody is-section">
+    <th colspan="{{ add 1 (len $.brands) }}" class="is-sticky">
+      <div class="color is-{{ .id }}"></div>
+      <p>{{ .title }}</p>
+    </th>
+  </tr>
+  {{ range .items }}
+  {{ $sub := .id }}
+  <tr class="tbody">
+    <th>{{ .title }}</th>
+    {{ range $.brands }}
+    <td>{{ index (index . $feature) $sub | markdownify }}</td>
+    {{ end }} <!-- brands -->
+  </tr>
+  {{ end }} <!-- items -->
   {{ end }} <!-- features -->
 </table>
 
