@@ -2,6 +2,23 @@
 {{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
+
+{{ define "nav" }}
+<div class="before-nav">
+  <p class="cta">
+  <a href="/demo/work-from-home/">
+    Working from home due to Coronavirus? See how can we help →
+  </a>
+  </p>
+
+  <p class="body">
+  Vibe was designed to bring people together. Now more than ever, we know the importance
+  of teamwork and community. We’re offering complimentary use of our software through May 2020.
+  </p>
+</div>
+{{ partial "common/nav" . }}
+{{ end }}
+
 {{ define "main" }}<main class="home">
 
 {{ with .Params.hero }}

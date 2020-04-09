@@ -1,0 +1,219 @@
+@import "_shared.sass"
+@import "_bottom-cta.sass"
+@import "_testimonial-section.sass"
+@import "_testimonial.sass"
+@import "_story-card.sass"
+
+.hero
+  background-color: $vibe-teal
+  .hero-body
+    +vertical-padding(120px, 45px)
+  .title, .content
+    margin-left: auto
+    margin-right: auto
+    +tablet
+      text-align: center
+  .title
+    max-width: 608px
+    margin-bottom: 24px
+    font-size: 64px
+    +mobile
+      font-size: 32px
+  .content
+    max-width: 780px
+
+.section.is-hero-image
+  +vertical-padding(0)
+  background: linear-gradient(to bottom, $vibe-teal 40%, #FFFFFF 40%)
+  .image
+    max-width: 1100px
+    margin: auto
+
+.section.is-use-cases
+  +vertical-padding(80px)
+  .container
+    max-width: 910px
+  .title.is-section-title
+    text-align: center
+  .columns
+    justify-content: space-between
+  .column
+    padding-top: 72px
+    +mobile
+      padding-top: 24px
+    max-width: 400px
+    display: flex
+    align-items: center
+    .image
+      max-width: 90px
+      margin-right: 32px
+
+.section.is-features
+  background-color: $vibe-white
+  +vertical-padding(100px, 0)
+  .container
+    max-width: 1200px
+  +tablet
+    .columns
+      position: relative
+      &.is-index-0
+        min-height: 400px
+        +widescreen
+          .column.is-text
+            margin-left: 64px
+        .image
+          width: 704px
+          left: 50%
+          margin-left: 24px
+          +widescreen
+            margin-left: 100px
+      &.is-index-1
+        min-height: 511px
+        flex-direction: row-reverse
+        .image
+          width: 669px
+          right: 50%
+          margin-right: 32px
+      .image
+        position: absolute
+        top: 0
+  .column.is-text
+    max-width: 500px
+    .cta
+      font-weight: $vibe-bold
+      .button
+        border-width: 2px
+
+.section.is-playbooks
+  +vertical-padding(120px)
+  background-color: $vibe-white
+  position: relative
+  .container
+    max-width: 1296px
+  .title.is-section-title
+    max-width: 668px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+    margin-bottom: 72px
+  .columns
+    +tablet
+      .image.is-main
+        height: 100%
+        img
+          height: 100%
+          object-fit: cover
+    +mobile
+      .column
+        padding: 0
+  .image.is-logo
+    position: absolute
+    top: 44px
+    left: 52px
+    svg
+      width: 100%
+    +touch
+      width: 120px
+      top: 24px
+      left: 32px
+    +mobile
+      top: 12px
+      left: 24px
+  .column.is-image
+    position: relative
+  .column.is-list
+    max-width: 560px
+    display: flex
+    flex-direction: column
+    .playbook-item
+      min-height: 148px
+      padding-left: 40px
+      padding-right: 32px
+      flex: 1
+      display: flex
+      flex-direction: column
+      justify-content: center
+      cursor: pointer
+      background-color: white
+      box-shadow: -11px 11px 28px rgba(0, 0, 0, 0.06)
+      &:hover
+        box-shadow: -11px 11px 35px rgba(0, 0, 0, 0.25)
+      &:not(:last-child)
+        margin-bottom: 20px
+        +mobile
+          margin-bottom: 5px
+      +mobile
+        padding-left: 32px
+    .item-title
+      font-size: 24px
+      font-weight: $vibe-bold
+    .item-text
+      font-size: 18px
+      max-width: 343px
+    .item-link
+      font-size: 18px
+      font-weight: $vibe-bold
+      line-height: 21px
+      text-align: right
+      color: $vibe-purple
+  .form-bg
+    &.is-active
+      display: flex
+    background: rgba(196, 196, 196, 0.5);
+    backdrop-filter: blur(4px);
+    +absolute-fill
+    display: none
+    align-items: center
+    justify-content: center
+    padding-left: 12px
+    padding-right: 12px
+    .form-container
+      padding: 64px
+      &.is-submitted
+        .form
+          visibility: hidden
+        .submitted
+          display: flex
+          visibility: visible
+      +mobile
+        padding-left: 24px
+        padding-right: 24px
+        align-self: flex-end
+        margin-bottom: 32px
+        &.is-submitted
+          align-self: center
+          margin-bottom: 0
+      background-color: #FFFFFF
+      max-width: 569px
+      position: relative
+    .title
+      font-size: 36px
+      line-height: 44px
+      max-width: 400px
+      margin: 0 0 40px 0
+      +mobile
+        font-size: 30px
+        line-height: 40px
+    .icon.is-close-icon
+      position: absolute
+      top: 8px
+      right: 8px
+      cursor: pointer
+    .button
+      width: 182px
+      +mobile
+        width: 100%
+
+.section.is-blogs
+  +vertical-padding(120px)
+  .container
+    max-width: 1230px
+  .title.is-section-title
+    text-align: center
+    margin-bottom: 72px
+    +mobile
+      margin-bottom: 32px
+  .columns
+    align-items: stretch
+  .card .title
+    margin-top: 24px

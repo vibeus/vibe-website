@@ -1,0 +1,134 @@
+{{ define "main" }}<main class="work-from-home">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+      <div class="content">{{ .body | markdownify }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-hero-image">
+  <div class="container">
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2380x" "tablet" "1920x" "mobile" "750x") }}
+    </figure>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.use_cases }}
+<section class="section is-use-cases">
+  <div class="container">
+    <h1 class="title is-section-title">{{ .title }}</h1>
+    <div class="columns is-multiline">
+      {{ range .items }}
+      <div class="column is-half">
+        <figure class="image">
+          {{ $src := resources.Get .icon | resources.Minify }}
+          {{ $src.Content | safeHTML }}
+        </figure>
+        <div class="content">
+          {{ .text | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.features }}
+<section class="section is-features">
+  <div class="container">
+    {{ range $idx, $it := . }}
+    <div class="columns is-vcentered is-index-{{ $idx }}">
+      <div class="column is-text">
+        <h2 class="title">{{ .title }}</h2>
+        <div class="content">{{ .body | markdownify }}</div>
+        {{ with .cta }}
+        <div class="cta">
+          <a href="{{ .url }}"
+             class="button is-rounded is-black is-outlined"
+             {{ with .target }}target="{{ . }}"{{ end }}
+             >
+             {{ .title }}
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1400x" "tablet" "1000x" "mobile" "750x" "options" "jpg q95 #f4f4f4") }}
+        </figure>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.testimonial_section }}
+{{ partial "testimonial-section" . }}
+{{ end }}
+
+{{ with .Params.playbooks }}
+<section class="section is-playbooks">
+  <div class="container">
+    <h2 class="title is-section-title">{{ .title }}</h2>
+    <div class="columns">
+      <div class="column is-image">
+      <figure class="image is-main">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .image) "desktop" "1450x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+      </figure>
+      <figure class="image is-logo">
+        {{ (resources.Get "img/demo/wfh/playbook-logo.svg").Content | safeHTML }}
+      </figure>
+      </div>
+      <div class="column is-list">
+        {{ range .items }}
+        <div class="playbook-item" data-target="playbook-target" data-form_id="{{ .form_id }}">
+          <div class="item-title">{{ .title | markdownify }}</div>
+          <div class="item-text">{{ .text | markdownify }}</div>
+          <div class="item-link">Download →</div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="form-bg" id="playbook-target" data-target="playbook-target">
+    <div class="form-container">
+      <span class="icon is-medium is-close-icon" data-target="playbook-target">
+        {{ (resources.Get "img/demo/wfh/form-close.svg").Content | safeHTML }}
+      </span>
+      {{ partial "common/form" .form }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.blogs }}
+<section class="section is-blogs">
+  <div class="container">
+    <h2 class="title is-section-title">{{ .title }}</h2>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <a href="{{ .link }}">
+          {{ partial "story-card" . }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/work-from-home.js") }}
+</main>{{ end }}

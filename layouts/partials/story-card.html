@@ -1,4 +1,11 @@
-<div class="card" data-target="story" data-start-at="{{ .index }}">
+<div class="card is-story"
+     {{ if .target }}
+     data-target="{{ .target }}"
+     {{ if .index }}
+     data-start-at="{{ .index }}"
+     {{ end }}
+     {{ end }}
+     >
   <div class="card-image">
     <figure class="image is-3by2">
       {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "800x" "tablet" "600x") }}
@@ -6,11 +13,13 @@
   </div>
 
   <div class="card-content">
+    {{ with .logo }}
     <div class="logo">
-      <figure class="image" style="width: {{ .logo.width }}px">
-        {{ partial "common/srcset" (dict "resource" (resources.Get .logo.figure) "desktop" "200x") }}
+      <figure class="image" style="width: {{ .width }}px">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
       </figure>
     </div>
+    {{ end }}
 
     <h2 class="title">{{ .title }}</h2>
 

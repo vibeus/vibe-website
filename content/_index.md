@@ -1,6 +1,7 @@
 ---
 title: Collaboration lives here
 stylesPath: css/home.sass
+noFixedNavbar: true
 
 hero:
   title: Collaboration lives here
