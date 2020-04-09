@@ -30,43 +30,61 @@
   .author
     text-align: center
 
+=card-hovered
+  z-index: 1
+  padding: 0
+  .card-image
+    margin-top: -10px
+  .card-content
+    padding: 0 30px 0 30px
+  .cta
+    bottom: 30px
+
 .section.is-story
   +vertical-padding(120px)
   .columns
     justify-content: center
+    +mobile
+      margin-left: 0
+      margin-right: 0
   .column
     max-width: 400px
     padding: 0
+    +mobile
+      margin-left: auto
+      margin-right: auto
   .card
     padding: 30px
     height: 100%
     cursor: pointer
     .image img
       object-fit: cover
+    .card-content
+      padding: 0
     .logo
       height: 60px
       display: flex
       align-items: center
     .title
       font-size: 24px
-      margin-bottom: 82px
+      padding-bottom: 82px
     .cta
       position: absolute
       bottom: 40px
-
+      font-weight: $vibe-bold
+      color: $vibe-purple
     // hover effect
-    .card-content
-      padding: 0
-    &:not(:hover)
+    // treat always hover in mobile, but without shadow
+    +mobile
+      +card-hovered
       box-shadow: none
-    &:hover
-      padding: 0
-      .card-image
-        margin-top: -10px
-      .card-content
-        padding: 0 30px 0 30px
       .cta
-        bottom: 30px
+        bottom: 16px
+    +tablet
+      &:not(:hover)
+        box-shadow: none
+      &:hover
+        +card-hovered
 
 .modal.is-story
   .modal-background

@@ -10,7 +10,7 @@ hero:
     to activate meetings, training sessions and presentations.
 
   cta:
-    title: Get Started
+    title: Request a Demo
     class: is-primary is-rounded
     url: /demo/
 

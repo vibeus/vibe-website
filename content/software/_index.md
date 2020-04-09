@@ -9,9 +9,9 @@ hero:
     alongside your team members, conducting a training session, or presenting in a client meeting, Vibe’s
     collaboration software makes it easy to share ideas.
   cta:
-    title: Learn More
+    title: Start Free Trial
     class: is-black is-rounded is-outlined
-    url: '#'
+    url: https://app.vibe.us/login?auth_type=guest
 
 feature_overall:
   title: Create great ideas with your team

@@ -11,7 +11,7 @@ hero:
 stories:
   - title: CSI activates meetings and collaboration
     industry: Software Technology
-    employees: 11—50
+    employees: 11-50
     region: Florida, USA
     cover: img/testimonials/cover-csi.jpg
     logo:
@@ -61,7 +61,7 @@ stories:
 
   - title: Sandler Training unites its training course with Vibe
     industry: Professional Training
-    employees: 500—1000
+    employees: 500-1000
     region: Baltimore, MD
     cover: img/testimonials/cover-sandler.jpg
     logo:
@@ -109,7 +109,7 @@ stories:
 
   - title: Azul Arc unleashes creativity and levels up client presentations
     industry: Professional Service
-    employees: 11—50
+    employees: 11-50
     region: Atlanta, GA
     cover: img/testimonials/cover-azularc.jpg
     logo:
@@ -136,7 +136,7 @@ stories:
 
   - title: The City of Kenmore uses Vibe for easy collaboration on complex projects
     industry: Government
-    employees: 1—50
+    employees: 1-50
     region: Kenmore, WA
     cover: img/testimonials/cover-kenmore.jpg
     caption: Kenmore City Hall

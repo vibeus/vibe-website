@@ -3,7 +3,8 @@
 .hero
   background-color: $vibe-yellow
   .hero-body
-    +vertical-padding(0)
+    +tablet
+      +vertical-padding(0)
   .container
     max-width: 1110px
   .column.is-text
@@ -40,6 +41,8 @@
       fill: $vibe-teal
     li
       margin-left: 36px
+      &:not(:last-child)
+        margin-bottom: 16px
   ul.icon-list, .content
     +desktop
       max-width: 500px
@@ -68,6 +71,11 @@
       max-width: 468px
     .submitted
       bottom: 80px
+      .content
+        max-width: 460px
+        font-size: 36px
+        font-family: $vibe-family-heading
+        font-weight: $vibe-bold
     &.is-submitted
       .form
         .columns, .privacy, button[data-name='request-video']

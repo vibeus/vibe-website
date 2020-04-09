@@ -72,6 +72,9 @@
   &.is-feature-3
     +mobile
       padding-bottom: 0
+  &.is-feature-4
+    +tablet
+      padding-top: 108px
   &.is-feature-1, &.is-feature-3, &.is-feature-5
     .columns
       flex-direction: row-reverse
@@ -158,6 +161,9 @@
         right: 0
         +widescreen
           right: 120px
+  +mobile
+    &.is-feature-5
+      padding-bottom: 0
 
 .section.is-trust
   +vertical-padding(120px, 114px, 60px, 60px)
