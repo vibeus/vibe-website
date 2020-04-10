@@ -23,8 +23,8 @@ products:
     figure: img/order/accessory-stand-r.png
   - &stylus
     product_id: '31815737016371'
-    price: 11.99
-    title: Vibe Touch Stylus
+    price: 15
+    title: Vibe Touch Stylus x 2
     figure: img/order/accessory-stylus.png
 
 hero:

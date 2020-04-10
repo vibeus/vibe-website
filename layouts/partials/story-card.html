@@ -15,7 +15,7 @@
   <div class="card-content">
     {{ with .logo }}
     <div class="logo">
-      <figure class="image" style="width: {{ .width }}px">
+      <figure class="image">
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
       </figure>
     </div>

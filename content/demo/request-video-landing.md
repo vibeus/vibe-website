@@ -2,12 +2,19 @@
 title: Thanks for requesting our demo video.
 stylesPath: css/request-video-landing.sass
 layout: request-video-landing
+url: /demo/video-demo/
+aliases:
+  - /demo/request-video-landing/
 
 video_hero:
-  title: Thanks for requesting our demo video.
+  title: Vibe Demo
   video:
     placeholder: img/shared/video.png
     id: 8smgeWyvlAc
+  share_buttons:
+    title: Watch Vibe demo
+    url: "https://vibe.us/demo/video-demo/"
+    copy_link: true
 
 hero:
   title: Vibe is built for teams

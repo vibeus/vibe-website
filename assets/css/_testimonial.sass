@@ -34,10 +34,19 @@
           .name
             margin-left: 55px
       .image
-        max-width: 210px
+        width: 210px
+        height: 64px
+        img
+          width: 100%
+          height: 100%
+          object-fit: contain
+          object-position: right
         +mobile
-          max-width: 120px
+          width: 120px
+          height: 36px
           margin-top: 32px
+          img
+            object-position: left
       .name
         font-family: $vibe-family-heading
         p:first-child

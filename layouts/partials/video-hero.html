@@ -24,5 +24,9 @@
     </div>
     {{ partial "common/video-player" (dict "playerId" "hero-video" "videoId" .id "triggerClass" ".video-launcher" "isInplace" true) }}
     {{ end }}
+
+    {{ with .share_buttons }}
+    {{ partial "common/share-buttons" . }}
+    {{ end }}
   </div>
 </section>

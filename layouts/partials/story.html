@@ -1,7 +1,7 @@
 <div class="container">
   <div class="columns is-header is-desktop is-vcentered">
     <div class="column">
-      <figure class="image" style="width: {{ .logo.modal_width }}px">
+      <figure class="image">
         {{ partial "common/srcset" (dict "resource" (resources.Get .logo.figure) "desktop" "524x") }}
       </figure>
     </div>

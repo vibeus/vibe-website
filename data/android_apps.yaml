@@ -11,7 +11,8 @@ apps:
 - id: com.adobe.sparklerandroid
   name: Adobe XD
   type: design
-- id: com.android.chrome
+- featured: true
+  id: com.android.chrome
   name: Chrome
   type: browser
 - id: com.asana.app
@@ -176,7 +177,8 @@ apps:
   name: Blue Mail
   type: productivity
   use_case: remote
-- id: us.zoom.videomeetings
+- featured: true
+  id: us.zoom.videomeetings
   name: Zoom
   type: av
   use_case: remote
