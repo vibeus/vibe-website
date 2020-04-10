@@ -98,17 +98,16 @@ testimonial_section:
       # url: '/customer/'
 
 feature_set_1:
-  title: A touchscreen computer built for a common workspace
+  title: A touchscreen whiteboard built for the modern workspace
   features:
-    - title: Vibe’s all-in-one modern design transforms your office into a flexible teamwork space
+    - title: Vibe’s all-in-one modern design transforms your office into a flexible collaborative space
       body: |
-        Ditch the cables, mouse and keyboard clutter. With Vibe’s portable stand, any office can be morphed
-        into a dynamic meeting space.
+        Ditch the cables, mouse and keyboard clutter. With Vibe’s portable stand, any room becomes a dynamic meeting space.
       figure: img/hardware/feature-1.png
       class: is-feature-1
     - title: A 55” 4K UHD touch screen and stylus
       body: |
-        Vibe’s advanced drawing kit features an IR sensor that makes the stylus- to-touchscreen experience natural
+        Vibe’s advanced drawing kit features an IR sensor that makes the stylus-to-touchscreen experience natural
         and familiar, like a marker on a traditional whiteboard.
       figure: img/hardware/feature-2.png
       class: is-feature-2
@@ -122,10 +121,10 @@ feature_set_2:
         It’s less of a learning curve and more of a homecoming.
       figure: img/hardware/feature-3.png
       class: is-feature-3
-    - title: Easy to install, easy to set up. Wall mount supported.
+    - title: Easy to install, easy to set up
       body: |
-        Vibe adds touchscreen intuition to all of your teams’ activities for an extra level of ease.
-        It’s less of a learning curve and more of a homecoming.
+        Installation couldn’t be simpler. Vibe takes less than five minutes to install. Just put it on the stand,
+        fasten a few screws, turn it on, and get started. Vibe also wall mounts.
       figure: img/hardware/feature-4.png
       class: is-feature-4
 
@@ -187,7 +186,7 @@ spec:
         items:
           - name: Product Size
             value: 50.6(W) x 29.1(H) x 2.9(D) in
-          - name: Package size
+          - name: Package Size
             value: 56.7(W) x 37(H) x 8.8(D) in
           - name: Product Weight
             value: 60.6 lb
@@ -248,7 +247,7 @@ spec:
         items:
           - name: Product Size
             value: 50.4(W) x 50.9(H) x 26(D) in
-          - name: Package size
+          - name: Package Size
             value: 57(W) x 37(H) x 9(D) in
           - name: Product Weight
             value: 45 lb

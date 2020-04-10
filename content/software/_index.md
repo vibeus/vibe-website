@@ -28,7 +28,7 @@ feature_overall:
 
 feature_collaboration:
   title: Collaboration has never been easier
-  subtitle: Compatible with the devices you already own, Edit in real time
+  subtitle: Edit in real-time on your choice of device
   body: |
     Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC,
     or on your mobile device. Seamlessly collaborate in real time on whichever devices work best for your team.
