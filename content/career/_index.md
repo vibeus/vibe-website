@@ -71,7 +71,7 @@ work:
 join:
   title: Join our team
   body: |
-    Interested in working for Vibe? Drop us a line at [careers@vibe.us](mailto:careers@vibe.us)
+    Interested in working for Vibe? Drop us a line at <careers@vibe.us>
 
 bottom_cta:
   title: Learn more about Vibe

@@ -1,0 +1,36 @@
+@import "../_shared.sass"
+@import "../_bottom-cta.sass"
+
+.hero
+  .image
+    margin: auto
+  .title, .content
+    text-align: center
+  .title
+    font-size: 3rem
+    margin-top: 64px
+  .content
+    font-size: 1.5rem
+
+.section.is-integration
+  .content
+    h2
+      font-size: 18px
+  +desktop
+    .columns
+      min-height: 994px
+    .column.is-text
+      max-width: 400px + 12px * 2
+    .image
+      position: absolute
+      width: 1600px
+      top: 0
+
+.section.is-how
+  +vertical-padding(120px)
+  background-color: $vibe-white
+  .container.is-text
+    max-width: 832px
+    margin-bottom: 48px
+  .content a
+    text-decoration: underline
