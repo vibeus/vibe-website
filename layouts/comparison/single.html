@@ -4,7 +4,7 @@
 <section class="section is-hero-single">
   <div class="container">
     <h1 class="title is-section-title">{{ .title }}</h1>
-    <div class="content">{{ .body | markdownify }}</div>
+    <div class="content{{ with .small_body_width }} is-small-body{{ end }}">{{ .body | markdownify }}</div>
   </div>
 </section>
 {{ end }}

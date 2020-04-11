@@ -8,3 +8,4 @@ layouts/
 node_modules/
 public/
 resources/
+static/

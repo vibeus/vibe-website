@@ -72,10 +72,11 @@
     text-align: center
     margin: auto
 
-.section.is-hero-single .content
-  max-width: 560px
+.section.is-hero-single .content,
 .section.is-hero-all .content
   max-width: 880px
+.section.is-hero-single .content.is-small-body
+  max-width: 560px
 
 .section.is-difference
   +vertical-padding(0, 80px)
@@ -84,8 +85,9 @@
     margin-left: auto
     margin-right: auto
     max-width: 725px
-  .title
-    max-width: 500px
+  .content
+    h2
+      font-size: 18px
 
 // required for position: sticky to work
 .section.is-comparison

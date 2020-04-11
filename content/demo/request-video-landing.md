@@ -13,7 +13,7 @@ video_hero:
     id: 8smgeWyvlAc
   share_buttons:
     title: Watch Vibe demo
-    url: "https://vibe.us/demo/video-demo/"
+    url: 'https://vibe.us/demo/video-demo/'
     copy_link: true
 
 hero:

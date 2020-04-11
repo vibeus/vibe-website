@@ -5,29 +5,56 @@ slug: vibe-vs-microsoft-surface-hub
 hero:
   title: Microsoft Surface Hub vs Vibe
   body: |
-    Microsoft is one of the originators of digital whiteboard technology, and their Surface Hub is a popular
-    choice in this space.
+    As one of the first products made for the digital whiteboard space, Microsoft’s Surface Hub made its debut
+    in 2015. With the 2019 release of the Surface Hub 2S, this interactive whiteboard continues to establish its
+    presence in the business world.
 
 difference:
   figure: img/comparison/vs-surface-hub.jpg
-  title: What’s the difference between Surface Hub and Vibe?
+  title: Surface Hub Overview
   body: |
-    The Vibe Board and Surface Hub both offer built-in technology for meetings and whiteboarding sessions.
-    Both solutions provide a large digital display enabling real-time creation on the same canvas and screen
-    sharing with your colleges.
+    ## Key Takeaway:
+    Finding the right product comes down to balancing features and capabilities with budget. Priced at $2,999
+    (vs. the $8,999 price tag of the Surface Hub) Vibe offers a cost effective solution for small- to mid- sized
+    marketing and design agencies, startups, and tech firms.
 
-    Surface Hub is optimized for video conferencing. However, it is heavily reliant on the Universal Windows 10
-    application ecosystem. Offices that don’t run predominantly on Microsoft software will find connectivity to
-    be a challenge. For example, connecting via Skype requires an Exchange Server or an Office 365 for Business
-    account along with Skype for Business. Calling non-Skype users — e.g. most of your freelancers and remote
-    employees — isn’t easy.
+    ## Microsoft Surface Hub 2S Pricing
+    The Surface Hub S2 is just under $9,000 for the 50” model. The wall mount costs $249, the mobile stand costs
+    $1,450, and the battery expansion will run you an additional $1,400.
 
-    Vibe is developed on a more open android ecosystem. Wireless screencast and powerful annotation features
-    (annotation includes PDF, Image, Screen, HDMI, etc ) bring more creativity to your presentation. There are
-    more than 40 app third party integrations in the vibe smart board, such as Google Drive, One Drive, Slack,
-    Asana and etc.
+    ## Microsoft Surface Hub 2S Highlights
+    Like most digital whiteboards, the Surface Hub 2S features built-in technology for video conferences and
+    whiteboarding sessions. The responsive touchscreen is designed to feel as natural as drawing on a traditional
+    whiteboard.
 
-    Here we provide a feature comparison between Vibe and Surface Hub.
+    The Surface Hub 2S’s 4K digital display enables real-time creation so you can work alongside your colleagues
+    on projects. Screen sharing allows your team to access the canvas and share Office 365 files.
+
+    While the original Surface Hub was optimized for meetings, the new edition goes a step further in upping its
+    video conferencing game by including a modular 4K camera. Users can select from a few different plug-in
+    locations to find their ideal camera angle.
+
+    Another notable feature of the S2 is the battery expansion. The battery holds a two-hour charge 
+    and takes 90 minutes to fully charge. This, combined with the board’s slimmed down design (weighing 40 percent
+    less than the previous model), gives users the option to make meetings mobile.
+
+    ## What’s Missing
+    Like its predecessor, the Surface Hub S2 is heavily reliant on the Universal Windows 10 application system,
+    which creates an issue for companies who don’t run primarily on Microsoft software.
+
+    For instance, connecting to a video conference via Skype requires an Exchange Server or an Office 365 for
+    Business account along with Skype for Business. In this situation, calling non-Skype users isn’t easy, and
+    is just one example to consider when hiring freelancers, contract workers, or creating future remote work
+    opportunities.
+
+    The S2 runs on the software of the previous Surface Hub, so the sleeker hardware is the most notable change
+    with the update. Microsoft’s goal is for companies to be able to switch out the central processing unit with
+    future updates, but without knowing how long it’ll be before that’s possible, purchasing the S2 is a big
+    investment.
+
+    Another major (and expensive) drawback: all of the useful accessories cost extra. So on top of paying around
+    $9,000 for the board, the wall mount costs $249, the mobile stand costs $1,450, and the battery expansion
+    will run you an additional $1,400.
 
 compare:
   left: vibe
@@ -35,21 +62,18 @@ compare:
   note: \*Please note that all technical specifications are taken directly from Surface Hub’s website.
 
 why:
-  title: Why Vibe?
+  title: How It Compares to Vibe
   body: |
-    Vibe offers a more cost effective solution for small- to mid- sized marketing and design agencies, startups,
-    and tech firms. While Surface hub costs nearly $9, 000 per unit, vibe only costs $2,999. Finding the right
-    product comes down to balancing features and capabilities with budget.
+    There are more than 40 third-party app integrations in the Vibe board, and that includes Microsoft Teams,
+    One Drive, and the most popular Office components. Combine the vast integration opportunities with wireless
+    screencasting and you can bring more creativity to your presentations without limiting which apps you can use.
 
-    The Vibe smart board integrates an infinite canvas for whiteboarding, wireless screencast and more than 40
-    third app integrations into one collaboration hub. With Vibe, sharing ideas with collaborators — in-house,
-    across town, or around the globe — has never been easier. Vibe is the perfect addition to any collaborative
-    workspace. For companies that thrive thanks to a network of remote collaborators, it’s a must-have device.
+    With Vibe, sharing ideas with collaborators — in-house, across town, or around the world — is intuitive and
+    easy, making it a must-have device for any company that thrives thanks to a network of remote workers.
 
-    One less obvious advantage Vibe has over its competitors is it’s small production and development team. Vibe
-    offers white-glove customer support, and their team consistently makes changes to VibeOS based on user requests.
-
-    Vibe is the perfect match for everyday presenters, designers, project managers and remote workers.
+    One less obvious advantage Vibe has over its competitors is its small production and development team. They
+    offer free customer support and consistently make changes to the VibeOS based on user requests, making it
+    the perfect match for everyday presenters, designers, project managers, and remote workers.
 
     **[Contact us](/contact/) to learn more.**
 

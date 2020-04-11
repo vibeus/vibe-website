@@ -1,5 +1,5 @@
 ---
-title: "Slack x Vibe: Organize Vibe boards with Slack channels and access them without leaving Slack."
+title: 'Slack x Vibe: Organize Vibe boards with Slack channels and access them without leaving Slack.'
 stylesPath: css/apps/slack.sass
 layout: slack
 
@@ -42,5 +42,4 @@ bottom_cta:
   cta:
     title: Learn more
     url: /
-
 ---

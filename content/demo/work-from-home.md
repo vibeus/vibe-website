@@ -36,7 +36,7 @@ features:
     figure: img/demo/wfh/feature-1.png
     cta:
       title: Get Started
-      url: "https://app.vibe.us/login?auth_type=guest"
+      url: 'https://app.vibe.us/login?auth_type=guest'
       target: _blank
   - title: Level up collaboration with the Vibe Board
     body: |

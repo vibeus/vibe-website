@@ -9,7 +9,9 @@ setupForm(form);
 toggleActive('.playbook-item,.icon.is-close-icon', false, (isActive, el) => {
   if (isActive) {
     const formId = el.dataset.form_id;
-    const formUrl = 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/' + formId;
+    const formUrl =
+      'https://api.hsforms.com/submissions/v3/integration/submit/5698963/' +
+      formId;
     form.action = formUrl;
   } else {
     const container = document.querySelector('.form-container');
