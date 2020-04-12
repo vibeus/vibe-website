@@ -33,7 +33,7 @@ what_is_vibe:
     Take conference calls beyond the dial tone. Get engaged user participation from any device.
   video:
     placeholder: img/shared/video.png
-    id: 8smgeWyvlAc
+    id: Ccd4cVrtHTk
 
 testimonial_section:
   testimonials:

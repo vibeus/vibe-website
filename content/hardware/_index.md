@@ -312,7 +312,7 @@ video_section:
     Vibe is a complete collaboration solution, with hardware and software that work together to uplevel
     your meetings and presentations.
   video:
-    id: 8smgeWyvlAc
+    id: Ccd4cVrtHTk
     placeholder: img/shared/video.png
   cta:
     title: Check out the software →

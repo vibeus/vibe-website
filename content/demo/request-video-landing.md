@@ -10,7 +10,7 @@ video_hero:
   title: Vibe Demo
   video:
     placeholder: img/shared/video.png
-    id: 8smgeWyvlAc
+    id: gsJI0jcRyLk
   share_buttons:
     title: Watch Vibe demo
     url: 'https://vibe.us/demo/video-demo/'
