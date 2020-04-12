@@ -17,7 +17,16 @@
     {{ with .video }}
     <div class="video-launcher" data-target="hero-video">
       <figure class="image" id="hero-video">
+        {{ if .preview }}
+        <div class="preview">
+          <video autoplay loop muted playsinline>
+            {{ $src := resources.Get .preview | resources.Fingerprint }}
+            <source src="{{ $src.RelPermalink }}" type="video/mp4">
+          </video>
+        </div>
+        {{ else if .placeholder }}
         {{ partial "common/srcset" (dict "resource" (resources.Get .placeholder) "desktop" "2380x" "tablet" "1440x" "mobile" "750x" "options" "jpg") }}
+        {{ end }}
         <div id="hero-video-iframe">
         </div>
       </figure>

@@ -34,6 +34,7 @@ what_is_vibe:
   video:
     placeholder: img/shared/video.png
     id: Ccd4cVrtHTk
+    preview: video/intro/vibe-intro.mp4
 
 testimonial_section:
   testimonials:
