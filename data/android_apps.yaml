@@ -47,16 +47,13 @@ apps:
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
-  use_case: presentation
 - id: com.google.android.calculator
   name: Calculator
   type: productivity
 - id: com.google.android.youtube
   name: YouTube
   type: av
-  use_case:
-  - remote
-  - presentation
+  use_case: presentation
 - id: com.google.earth
   name: Earth
   type: other
@@ -78,7 +75,6 @@ apps:
 - id: com.microsoft.office.excel
   name: Microsoft Excel
   type: productivity
-  use_case: presentation
 - id: com.microsoft.office.lync15
   name: Skype for Business
   type: av
@@ -86,10 +82,9 @@ apps:
 - id: com.microsoft.office.onenote
   name: Microsoft OneNote
   type: productivity
-  use_case: presentation
 - id: com.microsoft.office.outlook
   name: Outlook
-  type: productivity
+  type: communication
   use_case: remote
 - id: com.microsoft.office.powerpoint
   name: Microsoft PowerPoint
@@ -98,7 +93,6 @@ apps:
 - id: com.microsoft.office.word
   name: Microsoft Word
   type: productivity
-  use_case: presentation
 - id: com.microsoft.powerbim
   name: Power BI
   type: data_viz
@@ -115,23 +109,22 @@ apps:
   use_case: remote
 - id: com.microsoft.todos
   name: To Do
-  type: productivity
+  type: project
   use_case: project
 - id: com.microsoft.windowsintune.companyportal
   name: Company Portal
   type: productivity
 - id: com.monday.monday
   name: Monday
-  type: productivity
+  type: project
   use_case: project
 - id: com.my.mail
   name: myMail
-  type: productivity
+  type: communication
   use_case: remote
 - id: com.netflix.mediaclient
   name: Netflix
-  type: av
-  use_case: remote
+  type: entertainment
 - id: com.opera.browser
   name: Opera
   type: browser
@@ -141,13 +134,14 @@ apps:
 - id: com.realtimeboard
   name: Miro
   type: productivity
+  use_case: presentation
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
   type: av
   use_case: remote
 - id: com.skype.m2
   name: Skype Lite
-  type: communication
+  type: av
   use_case: remote
 - featured: true
   id: com.slack
@@ -165,6 +159,7 @@ apps:
 - id: com.uberconference
   name: Uber Conference
   type: av
+  use_case: remote
 - id: com.wrike
   name: Wrike
   type: project
@@ -175,7 +170,7 @@ apps:
   use_case: project
 - id: me.bluemail.mail
   name: Blue Mail
-  type: productivity
+  type: communication
   use_case: remote
 - featured: true
   id: us.zoom.videomeetings

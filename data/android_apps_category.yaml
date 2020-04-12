@@ -23,6 +23,8 @@ types:
     name: Project Management
   - id: education
     name: Education
+  - id: entertainment
+    name: Entertainment
   - id: data_viz
     name: Data Visualization
   - id: construction
