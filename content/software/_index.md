@@ -12,6 +12,7 @@ hero:
     title: Start Free Trial
     class: is-black is-rounded is-outlined
     url: https://app.vibe.us/login?auth_type=guest
+  video_id: 4ZTSV1o-cLU
 
 feature_overall:
   title: Create great ideas with your team

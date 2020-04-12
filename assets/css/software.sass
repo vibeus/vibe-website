@@ -56,7 +56,20 @@
   .container
     max-width: 1190px
   .image
+    position: relative
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3)
+    cursor: pointer
+    .preview
+      position: absolute
+      left: 2.941%
+      right: 2.941%
+      top: 4.076%
+      bottom: 3.965%
+      video
+        width: 100%
+        height: 100%
+      iframe
+        +absolute-fill
 
 .section.is-overall
   +vertical-padding(76px, 120px)

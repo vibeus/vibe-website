@@ -27,11 +27,19 @@
     {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
   </div>
   <div class="container">
-    <figure class="image">
+    <figure class="image video-launcher" data-target="hero-video">
       {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/hero.png") "desktop" "2380x" "tablet" "1920x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+      <div class="preview" id="hero-video">
+        <video autoplay loop muted playsinline>
+          {{ $src := resources.Get "video/software/hero-preview.mp4" | resources.Fingerprint }}
+          <source src="{{ $src.RelPermalink }}" type="video/mp4">
+        </video>
+        <div id="hero-video-iframe"></div>
+      </div>
     </figure>
   </div>
 </section>
+{{ partial "common/video-player" (dict "playerId" "hero-video" "videoId" .video_id "triggerClass" ".video-launcher" "isInplace" true) }}
 {{ end }}
 
 {{ with .Params.feature_overall }}
