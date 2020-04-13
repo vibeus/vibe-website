@@ -9,7 +9,7 @@ hero:
   body: |
     The interactive whiteboard is the latest, greatest way to bring your vision to life, but how do you know if Vibe
     is right for you? We've made comparisons as objective and complete as possible, with all details verified at
-    quartlerly intervals.
+    quarterly intervals.
   cta:
     title: Compare all →
     url: /comparison/all/
