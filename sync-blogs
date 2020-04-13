@@ -10,6 +10,8 @@ import re
 from PIL import Image
 from io import BytesIO
 
+MAX_PNG_SIZE = 3 * 1024 * 1024
+
 if sys.version_info.major < 3 or sys.version_info.minor < 7:
     print('Python 3.7+ is required.')
     sys.exit(1)
@@ -94,6 +96,8 @@ def download_images(content, directory):
                 if not url in images:
                     resp = requests.get(url)
                     ext = get_image_file_ext(resp.headers['Content-Type'])
+                    if ext == '.png' and len(resp.content) > MAX_PNG_SIZE:
+                        raise RuntimeError('PNG file size {} bytes exceeds limit of {}.'.format(len(resp.content), MAX_PNG_SIZE))
                     basename = 'image-{}'.format(index) if has_content else 'cover'
                     if basename == 'cover':
                         with Image.open(BytesIO(resp.content)) as img:
