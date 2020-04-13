@@ -26,3 +26,17 @@
       margin: 60px -1.5rem 0 -1.5rem
     .image iframe
       +absolute-fill
+    .preview
+      position: relative
+      .mask
+        +absolute-fill
+        background-color: black
+        opacity: 0.25
+        display: flex
+        align-items: center
+        justify-content: center
+      .image.is-mask-play
+        +mobile
+          svg
+            width: 64px
+            height: 64px

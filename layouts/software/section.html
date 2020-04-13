@@ -34,6 +34,11 @@
           {{ $src := resources.Get "video/software/hero-preview.mp4" | resources.Fingerprint }}
           <source src="{{ $src.RelPermalink }}" type="video/mp4">
         </video>
+        <div class="mask">
+          <figure class="image is-mask-play">
+            {{ (resources.Get "img/shared/video-preview-play.svg").Content | safeHTML }}
+          </figure>
+        </div>
         <div id="hero-video-iframe"></div>
       </div>
     </figure>

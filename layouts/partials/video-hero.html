@@ -23,6 +23,11 @@
             {{ $src := resources.Get .preview | resources.Fingerprint }}
             <source src="{{ $src.RelPermalink }}" type="video/mp4">
           </video>
+          <div class="mask">
+            <figure class="image is-mask-play">
+              {{ (resources.Get "img/shared/video-preview-play.svg").Content | safeHTML }}
+            </figure>
+          </div>
         </div>
         {{ else if .placeholder }}
         {{ partial "common/srcset" (dict "resource" (resources.Get .placeholder) "desktop" "2380x" "tablet" "1440x" "mobile" "750x" "options" "jpg") }}

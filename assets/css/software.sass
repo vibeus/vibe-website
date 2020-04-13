@@ -55,7 +55,7 @@
       height: 596px
   .container
     max-width: 1190px
-  .image
+  .image.video-launcher
     position: relative
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3)
     cursor: pointer
@@ -70,6 +70,18 @@
         height: 100%
       iframe
         +absolute-fill
+      .mask
+        +absolute-fill
+        background-color: black
+        opacity: 0.25
+        display: flex
+        align-items: center
+        justify-content: center
+      .image.is-mask-play
+        +mobile
+          svg
+            width: 64px
+            height: 64px
 
 .section.is-overall
   +vertical-padding(76px, 120px)
