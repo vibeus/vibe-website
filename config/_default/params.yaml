@@ -2,3 +2,4 @@ defaultDescription: Vibe packs digital whiteboard technology, video conferencing
 appURL: https://app.vibe-beta.com/
 apiURL: https://api.vibe-beta.com/v1/
 allowIndex: false
+microsoftIdentityAssociation: "e11766e4-36e3-426a-80fb-b357f1a8bbfc"

@@ -7,7 +7,7 @@ hero:
   body: |
     Vibe’s interactive digital whiteboard connects you to coworkers and clients like never before.
     Designed by teams, for teams, Vibe combines an intuitive touchscreen with a keynote-worthy display
-    to activate meetings, training sessions and presentations.
+    to activate meetings, training sessions, and presentations.
 
   cta:
     title: Request a Demo
@@ -265,9 +265,9 @@ faq:
       body: |
         Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts
         or stands which support at least 65 lbs.
-    - title: Are there any HDMI input?
+    - title: Does Vibe have HDMI ports?
       body: |
-        Yes. Vibe support both HDMI input and output.
+        Yes. Vibe supports both HDMI input and output.
     - title: What are the product dimensions?
       body: |
         **Vibe board dimensions:**
