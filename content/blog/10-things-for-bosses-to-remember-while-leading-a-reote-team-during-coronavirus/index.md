@@ -5,7 +5,7 @@ author: Vibe team
 date: 2020-03-26
 tags: ["remote work", "remote team", "collaborate", "Coronavirus"]
 draft: false
-isfeatured: true
+isfeatured: false
 ---
 
 
