@@ -102,7 +102,7 @@ feature_set_1:
   features:
     - title: Vibe’s all-in-one modern design transforms your office into a flexible collaborative space
       body: |
-        Ditch the cables, mouse and keyboard clutter. With Vibe’s portable stand, any room becomes a dynamic meeting space.
+        Ditch the mouse and keyboard clutter. With Vibe’s portable stand, any room becomes a dynamic meeting space.
       figure: img/hardware/feature-1.png
       class: is-feature-1
     - title: A 55” 4K UHD touch screen and stylus

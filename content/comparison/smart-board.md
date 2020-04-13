@@ -1,9 +1,9 @@
 ---
-title: SMART Board vs Vibe
+title: &title Vibe vs SMART Board
 slug: vibe-vs-smart-board
 
 hero:
-  title: SMART Board vs Vibe
+  title: *title
   body: |
     Released by SMART Technology, SMART Board is an educational collaboration tool for classrooms and workplaces.
   small_body_width: true

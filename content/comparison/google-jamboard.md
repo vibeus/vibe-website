@@ -1,9 +1,9 @@
 ---
-title: Google Jamboard vs Vibe
+title: &title Vibe vs Google Jamboard
 slug: vibe-vs-google-jamboard
 
 hero:
-  title: Google Jamboard vs Vibe
+  title: *title
   body: |
     The Jamboard is a 55” cloud-based digital whiteboard designed for businesses and education programs.
     Launched by Google in 2017, the Jamboard was designed as a direct competitor to the Microsoft Surface Hub.

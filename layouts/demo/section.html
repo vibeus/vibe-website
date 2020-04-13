@@ -30,16 +30,9 @@
         {{ end }}
       </div>
       <div class="column is-text">
-        {{ with .expect }}
+        {{ range .expect }}
         <h2 class="title">{{ .title }}</h2>
         {{ partial "common/icon-list" .items }}
-        {{ end }}
-
-        {{ with .how }}
-        <h2 class="title">{{ .title }}</h2>
-        <div class="content">
-          {{ .body | markdownify }}
-        </div>
         {{ end }}
       </div>
     </div>

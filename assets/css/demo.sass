@@ -46,7 +46,7 @@
   ul.icon-list, .content
     +desktop
       max-width: 500px
-  ul.icon-list
+  ul.icon-list:not(:last-child)
     margin-bottom: 96px
   .title
     font-size: 30px
@@ -54,7 +54,11 @@
       font-size: 24px
   .column.is-text
     padding-top: calc(120px - 2.25rem)
+    padding-bottom: calc(120px - 2.25rem)
   .column.is-form
+    display: flex
+    flex-direction: column
+    justify-content: center
     +desktop
       background-color: white
       margin-top: -2.25rem

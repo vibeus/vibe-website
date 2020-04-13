@@ -23,8 +23,8 @@ feature_overall:
     - title: Smart Drawing
       body: Keep things neat with smart drawing for AI text and smart objects.
       figure: img/software/smart-drawing.png
-    - title: Templates
-      body: Start your work faster with pre-built templates.
+    - title: Import Documents
+      body: Start your work faster by importing documents or images.
       figure: img/software/templates.png
 
 feature_collaboration:
@@ -32,7 +32,7 @@ feature_collaboration:
   subtitle: Edit in real-time on your choice of device
   body: |
     Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC,
-    or on your mobile device. Seamlessly collaborate in real time on whichever devices work best for your team.
+    or tablet (Mobile app is view-only). Seamlessly collaborate in real time on whichever devices work best for your team.
 
 feature_presentation:
   title: Kick boring presentations to the curb
@@ -46,9 +46,9 @@ feature_presentation:
       index: 1
     - title: Leave your mark, again and again
       body: |
-        Activate meetings when you supplement with sketches, comments, and digital sticky notes.
-        Annotate the canvas to add context to **PDFs, documents, videos, screenshots, and images.**
-        Modify, erase or move your additions with a swipe of your hand.
+        Import **PDFs, documents, screenshots, and images** into the board's canvas and use whiteboarding features
+        on top of your documents—dynamically editing or annotating in real time during your meeting.
+        Afterwards, easily export your board to PDF so your team has an action plan and digital record.
       figure: img/software/presentation-2.gif
       animated: true
       index: 2
@@ -57,10 +57,10 @@ feature_apps:
   title: All of your favorite apps included
   items:
     - title: Folders linked with Cloud Drive
-      body: Easily access your Google Drive or One Drive files straight from the Vibe board.
+      body: Easily access your Google Drive, OneDrive, Dropbox, and Box files straight from the Vibe board.
       figure: img/software/apps-1.png
     - title: Over 40 integrated apps
-      body: Streamline your workflow with integrations to Slack, Jira, Asana,  Zoom, Microsoft Offices, and more.
+      body: Streamline your workflow with integrations to Slack, Jira, Asana, Zoom, Microsoft Office, and more.
       figure: img/software/apps-2.png
     - title: Video conferencing apps
       body: Join or start meetings with the apps your team loves. Use Zoom, Skype, WebEx to connect around the world.

@@ -28,9 +28,9 @@ brands:
         Quad-core Cortex-A53 up to 1.4 Hz
       box: |
         - Whiteboard
-        - Two stylus
+        - Two styluses
         - Power cord
-        - User manuel
+        - User manual
         - Warranty registration card
       weight: 60.6lb (27.49kg)
       camera: Optional
@@ -50,7 +50,7 @@ brands:
       browser: true
       drives: true
       vc: |
-        Skype, Zoom, Go to meeting, Cisco Webex, Ringcentral
+        Zoom, GoToMeeting, Cisco Webex, RingCentral, Skype, Skype for Business
     service:
       warranty: 1-year
   - id: surface-hub

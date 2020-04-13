@@ -24,7 +24,7 @@ products:
   - &stylus
     product_id: '31815737016371'
     price: 15
-    title: Vibe Touch Stylus x 2
+    title: Vibe Touch Styluses (2)
     figure: img/order/accessory-stylus.png
 
 hero:
@@ -66,7 +66,7 @@ faq:
 
         Vibe boards purchased through our website come with a one-year warranty.
         See the warranty card in your Vibe package for more information.
-    - title: Is vibe compatible with any webcam?
+    - title: Is Vibe compatible with any webcam?
       body: |
         Vibe is compatible with most USB connected cameras.
 

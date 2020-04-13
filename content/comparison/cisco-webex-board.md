@@ -1,9 +1,9 @@
 ---
-title: Cisco Webex Board vs Vibe
+title: &title Vibe vs Cisco Webex Board
 slug: vibe-vs-cisco-webex-board
 
 hero:
-  title: Cisco Webex Board vs Vibe
+  title: *title
   body: |
     The Cisco Webex Board is a digital whiteboard launched by Cisco to meet the collaboration needs of businesses.
     Originally called the Spark Board, the Webex is currently available in 55”, 70”, and 85” screens.

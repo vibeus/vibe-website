@@ -1,9 +1,9 @@
 ---
-title: Microsoft Surface Hub vs Vibe
+title: &title Vibe vs Microsoft Surface Hub
 slug: vibe-vs-microsoft-surface-hub
 
 hero:
-  title: Microsoft Surface Hub vs Vibe
+  title: *title
   body: |
     As one of the first products made for the digital whiteboard space, Microsoft’s Surface Hub made its debut
     in 2015. With the 2019 release of the Surface Hub 2S, this interactive whiteboard continues to establish its
@@ -17,6 +17,9 @@ difference:
     Finding the right product comes down to balancing features and capabilities with budget. Priced at $2,999
     (vs. the $8,999 price tag of the Surface Hub) Vibe offers a cost effective solution for small- to mid- sized
     marketing and design agencies, startups, and tech firms.
+
+    The Surface Hub is a good choice if you only need to use Microsoft applications and are interested in a device
+    that has a battery pack option.
 
     ## Microsoft Surface Hub 2S Pricing
     The Surface Hub S2 is just under $9,000 for the 50” model. The wall mount costs $249, the mobile stand costs
@@ -71,7 +74,7 @@ why:
     With Vibe, sharing ideas with collaborators — in-house, across town, or around the world — is intuitive and
     easy, making it a must-have device for any company that thrives thanks to a network of remote workers.
 
-    One less obvious advantage Vibe has over its competitors is its small production and development team. They
+    One less obvious advantage Vibe has over its competitors is its dedication to customers of all sizes. They
     offer free customer support and consistently make changes to the VibeOS based on user requests, making it
     the perfect match for everyday presenters, designers, project managers, and remote workers.
 

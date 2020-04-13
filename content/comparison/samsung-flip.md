@@ -1,9 +1,9 @@
 ---
-title: Samsung Flip vs Vibe
+title: &title Vibe vs Samsung Flip 2
 slug: vibe-vs-samsung-flip
 
 hero:
-  title: Samsung Flip vs Vibe
+  title: *title
   body: |
     The Samsung Flip 2 is a budget-friendly digital whiteboard that brings more collaboration to standard
     presentations. Designed to replace traditional flipcharts and marker-only whiteboards, the Flip 2 works best for
@@ -11,7 +11,7 @@ hero:
 
 difference:
   figure: img/comparison/vs-flip.jpg
-  title: Samsung Flip Overview
+  title: Samsung Flip 2 Overview
   body: |
     ## Key Takeaway
     The Samsung Flip 2 is a practical and reliable way to engage same-location teams in creative collaborations.
@@ -58,12 +58,13 @@ why:
   body: |
     Compatible with any USB webcam, Vibe allows teams to video conference using third-party apps
     (like Zoom, Skype, GoToMeeting, and Webex) and share the whiteboard screen in real time.
-    Whether you’re using a mobile phone, laptop, tablet, or Vibe board, you can easily join a meeting with
-    your work-from-home colleagues and seamlessly collaborate.
+    Whether you’re using a mobile phone, laptop, tablet, or Vibe board (Mobile app is view-only), you can easily
+    join a meeting with your work-from-home colleagues and seamlessly collaborate.
 
     The Vibe whiteboarding experience includes an infinite canvas with an AI text converter for handwriting,
     highlighter for document annotation, lasso tool for edits, sticky notes, and much more. These writing and
-    drawing options let you design, edit, and continue to refine your work.
+    drawing options let you design, edit, and continue to refine your work and Vibe offers 10 simultaneous
+    touchpoints, vs the Flip 2 can only accommodate 4.
 
     And because it’s likely that remote team members are working on a variety of tech products, Vibe supports
     screencasting from computers and mobile devices to the Vibe board regardless of the device’s manufacturer.

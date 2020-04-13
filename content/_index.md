@@ -5,7 +5,7 @@ noFixedNavbar: true
 
 hero:
   title: Collaboration lives here
-  body: With Vibe's powerful, intuitive technology, teams can innovate, ideate, and collaborate like never before.
+  body: With Vibe's powerful & intuitive technology, teams can innovate, ideate, and collaborate like never before.
   cta:
     title: Request a Demo
     class: is-primary is-rounded
@@ -50,7 +50,7 @@ features:
     subtitle: Bring teams closer
     body: |
       Build a launchpad for high-performing teams with a platform that facilitates sharing knowledge,
-      insights and ideas.
+      insights, and ideas.
 
       Connect remote employees like never before by providing them with technology that’s on par with
       an in-office experience.
@@ -95,7 +95,7 @@ features:
       Using Vibe is as simple as using a traditional whiteboard. Set up takes minutes and you can get going
       fast with our intuitive touchscreen interface. 
 
-      With an all-in-one design that eliminates cables, Vibe is as simple and easy to install as a TV.
+      With an all-in-one design, Vibe is as simple and easy to install as a TV.
     figure: img/home/feature-sim.png
     cta:
       title: See how it works

@@ -108,7 +108,7 @@ stories:
             President of Sandler Training, Greater Tampa, FL
 
   - title: Azul Arc unleashes creativity and levels up client presentations
-    industry: Professional Service
+    industry: Professional Services
     employees: 11-50
     region: Atlanta, GA
     cover: img/testimonials/cover-azularc.jpg
