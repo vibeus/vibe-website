@@ -203,8 +203,6 @@ spec:
             value: Infrared Touch
           - name: Touch Points
             value: 10 Simultaneous Touch Points
-          - name: Plug and Play
-            value: HID Compliant
           - name: Protection Glass
             value: 3 mm Tempered Glass
           - name: Refresh Rate
@@ -229,6 +227,8 @@ spec:
             value: 2.0, 3.0, Debug
           - name: Network
             value: 2.4G/5G Wifi, Ethernet
+          - name: Audio
+            value: 3.5mm Audio out
       - title: Speaker
         items:
           - name: Impedance
@@ -243,7 +243,7 @@ spec:
             value: 7% Max
           - name: THD@Rated power
             value: THD<7%
-      - title: Stand
+      - title: Stand (optional)
         items:
           - name: Product Size
             value: 50.4(W) x 50.9(H) x 26(D) in
