@@ -1,0 +1,7 @@
+{
+  "associatedApplications": [
+    {
+      "applicationId": "{{ .Site.Params.microsoftIdentityAssociation }}"
+    }
+  ]
+}
