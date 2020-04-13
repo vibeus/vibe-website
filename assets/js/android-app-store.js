@@ -240,6 +240,29 @@ const App = ({ useCase, type }) => {
 
 const root = document.getElementById('app-root');
 
+function scrollIntoView(selector, offsetTop) {
+  const el = document.querySelector(selector);
+  if (!el) {
+    return;
+  }
+
+  offsetTop = offsetTop || 0;
+
+  let top = el.offsetTop;
+  let p = el.offsetParent;
+  while (p) {
+    top += p.offsetTop;
+    p = p.offsetParent;
+  }
+
+  const min = window.scrollY + offsetTop;
+  const max = window.scrollY + window.innerHeight;
+
+  if (top < min || top > max) {
+    window.scrollTo({ top: top - offsetTop, behavior: 'smooth' });
+  }
+}
+
 function appInUseCase(app, useCase) {
   if (!app.use_case) {
     return false;
@@ -269,6 +292,7 @@ function setState({ useCase, type }) {
 
   history.pushState(state, null, url);
   renderApp(state);
+  scrollIntoView('.control.is-search-box', 72);
 }
 
 function main() {
