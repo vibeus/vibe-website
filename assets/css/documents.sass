@@ -1,9 +1,38 @@
 @import "_shared.sass"
 
+.hero .container,
+.section .container
+  max-width: 1100px
+
+.hero .content,
+.section .content
+  max-width: 750px
+
+.hero
+  position: relative
+  background-color: $vibe-teal
+  .bg-logo
+    width: 963px
+    position: absolute
+    left: 50%
+    top: 75px
+    margin-left: -128px
+  .hero-body
+    +vertical-padding(120px)
+  .title
+    +tablet
+      font-size: 64px
+
 .section
+  +vertical-padding(80px)
   .title
     font-size: 48px
   .content
+    h1, h2
+      font-size: 24px
+      margin-bottom: 24px
+      &:not(:first-child)
+        margin-top: 48px
     a
       text-decoration: underline
       font-weight: $vibe-bold

@@ -1,9 +1,16 @@
 ---
 url: /warranty/
-title: LIMITED HARDWARE WARRANTY AND SUPPORT TERMS
+title: &title LIMITED HARDWARE WARRANTY AND SUPPORT TERMS
+hero:
+  title: *title
+  summary: |
+    Thank you for purchasing Vibe Products. The warranties provided by Vibe inc. (Vibe) in this Limited Hardware
+    Warranty apply only to Hardware Products you purchase for your use, and not for resale. The term
+    “Hardware Product” means a computing device with a specific function and limited configuration ability.
+    The Hardware Product is sold by Vibe for the purpose of executing the specific Vibe Software supplied with it.
+    NOTHING IN THIS STATEMENT OF LIMITED WARRANTY AFFECTS ANY STATUTORY RIGHTS OF CONSUMERS THAT CANNOT BE WAIVED
+    OR LIMITED BY CONTRACT.
 ---
-
-Thank you for purchasing Vibe Products. The warranties provided by Vibe inc. (Vibe) in this Limited Hardware Warranty apply only to Hardware Products you purchase for your use, and not for resale. The term “Hardware Product” means a computing device with a specific function and limited configuration ability. The Hardware Product is sold by Vibe for the purpose of executing the specific Vibe Software supplied with it. NOTHING IN THIS STATEMENT OF LIMITED WARRANTY AFFECTS ANY STATUTORY RIGHTS OF CONSUMERS THAT CANNOT BE WAIVED OR LIMITED BY CONTRACT.
 
 # LIMITED HARDWARE WARRANTY
 

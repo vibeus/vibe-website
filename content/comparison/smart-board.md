@@ -12,15 +12,15 @@ difference:
   figure: img/comparison/vs-smart.jpg
   title: What’s the difference between SMART Board and Vibe?
   body: |
-    ## Key Takeaway:
+    ## Key Takeaway
     SMART Boards have been a popular choice for school districts, but they offer tiered functionality that requires
     multiple subscriptions or licenses. Make sure that you have a full understanding of the functionality that you’re
     getting with the included software.
 
-    ## SMART Board Pricing:
+    ## SMART Board Pricing
     $4,999 for the 6000 series boards, additional software costs.
 
-    ## SMART Board Highlights:
+    ## SMART Board Highlights
     SMART boards are available in a range of sizes with varying functionalities. Depending on whether you’re using
     the board in a business or education setting, users can select from the MX, 6000, or 7000 series for boards with
     interactive touchscreen displays.

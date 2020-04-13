@@ -1,10 +1,29 @@
-{{ define "main" }}
+{{ define "main" }}<main class="document">
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="bg-logo">
+    {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ .title }}</h1>
+      <div class="content">
+        {{ .summary | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <section class="section">
   <div class="container">
+    {{ if not .Params.hero }}
     <h1 class="title">{{ .Title }}</h1>
+    {{ end }}
     <div class="content">
       {{ .Content }}
     </div>
   </div>
 </section>
-{{ end }}
+
+</main>{{ end }}

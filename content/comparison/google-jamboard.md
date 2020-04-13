@@ -12,11 +12,11 @@ difference:
   figure: img/comparison/vs-jamboard.jpg
   title: Google Jamboard Overview
   body: |
-    ## Key Takeaway:
+    ## Key Takeaway
     Google Jamboard is a great fit if your business runs primarily on G Suite. But if you need the flexibility
     to use applications outside of the Google ecosystem (at almost half the price) it’s time to check out Vibe.
 
-    ## Jamboard Pricing:
+    ## Jamboard Pricing
     Google Jamboard starts at $4,999 and comes standard with a wall mount, with additional charges after purchase.
     Jamboard users pay an annual $600 subscription and support fee, as well as $12/month for access to a GSuite
     Business account. The Jamboard’s mobile stand is $1,349 and is sold separately.

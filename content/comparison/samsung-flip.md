@@ -13,15 +13,15 @@ difference:
   figure: img/comparison/vs-flip.jpg
   title: Samsung Flip Overview
   body: |
-    ## Key Takeaway:
+    ## Key Takeaway
     The Samsung Flip 2 is a practical and reliable way to engage same-location teams in creative collaborations.
     But Vibe gives your business more ways to grow, share, and work together for just a little bigger investment,
     and we think that’s worth it.
 
-    ## Samsung Flip 2 Pricing:
+    ## Samsung Flip 2 Pricing
     The Flip 2’s 55” model costs $2,199 and is sold separately from the mobile stand ($499).
 
-    ## Samsung Flip 2 Highlights:
+    ## Samsung Flip 2 Highlights
     The most distinct feature of the Flip 2—in fact, the feature that gives the board its name— is its ability to
     flip from a horizontal to vertical position, just as you would be able to do with a standard paper flipchart.
     (Though it’s important to note that this is only possible with the 55” model.)

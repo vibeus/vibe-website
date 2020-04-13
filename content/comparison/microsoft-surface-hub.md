@@ -13,7 +13,7 @@ difference:
   figure: img/comparison/vs-surface-hub.jpg
   title: Surface Hub Overview
   body: |
-    ## Key Takeaway:
+    ## Key Takeaway
     Finding the right product comes down to balancing features and capabilities with budget. Priced at $2,999
     (vs. the $8,999 price tag of the Surface Hub) Vibe offers a cost effective solution for small- to mid- sized
     marketing and design agencies, startups, and tech firms.

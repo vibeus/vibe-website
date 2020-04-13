@@ -12,7 +12,7 @@ difference:
   figure: img/comparison/vs-webex.jpg
   title: Cisco Webex Overview
   body: |
-    ## Key Takeaway:
+    ## Key Takeaway
     The Cisco Webex Board offers comprehensive video conferencing capabilities at a correspondingly high price point.
     This board is locked into the Cisco Webex ecosystem and does not integrate with other video conferencing software.
 

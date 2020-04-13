@@ -1,14 +1,18 @@
 ---
 url: /privacy/
-title: Vibe Privacy Policy
+title: &title Vibe Privacy Policy
+
+hero:
+  title: *title
+  summary: |
+    At Vibe Inc., we value your privacy and the protection of your personal data. We use your
+    Personal Information only for improving Vibe Services. By using the Vibe product, you
+    agree to the collection and use of information in accordance with this policy.
+
+    This Privacy Policy describes how your personal information is collected, used, and shared when you visit or
+    make a purchase from vibe.us (the “Site”).
+
 ---
-
-At Vibe Inc., we value your privacy and the protection of your personal data. We use your
-Personal Information only for improving Vibe Services. By using the Vibe product, you
-agree to the collection and use of information in accordance with this policy.
-
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit or
-make a purchase from vibe.us (the “Site”).
 
 # Personal Information We Collect
 
