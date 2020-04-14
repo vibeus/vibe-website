@@ -3,6 +3,7 @@ title: Vibe Term of Use
 url: /term-of-use/
 aliases:
   - /term/
+  - /term-of-use/
 ---
 
 # OVERVIEW

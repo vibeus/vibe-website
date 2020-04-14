@@ -1,6 +1,8 @@
 ---
 url: /warranty/
 title: &title LIMITED HARDWARE WARRANTY AND SUPPORT TERMS
+aliases:
+  - /documents/warranty/
 hero:
   title: *title
   summary: |

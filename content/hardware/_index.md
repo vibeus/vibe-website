@@ -1,6 +1,8 @@
 ---
 title: Unleash your potential
 stylesPath: css/hardware.sass
+aliases:
+  - /product/
 
 hero:
   title: Unleash your potential

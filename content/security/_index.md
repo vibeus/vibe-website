@@ -1,10 +1,11 @@
 ---
 stylesPath: css/security.sass
-
-title: Vibe security overview
+title: &title Vibe security overview
+aliases:
+  - /documents/security/
 
 hero:
-  title: Vibe security overview
+  title: *title
   body: |
     More than 200 customers–spanning highly competitive industries like Technology, Consulting, Aerospace
     and Higher Education–all trust Vibe to securely manage their high priority projects.

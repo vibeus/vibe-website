@@ -1,6 +1,8 @@
 ---
 title: Software License Agreement & Hardware Warranty
 url: /eula/
+aliases:
+  - /documents/eula/
 ---
 
 # PART I – SOFTWARE LICENSE AGREEMENT

@@ -2,6 +2,8 @@
 title: Collaboration lives here
 stylesPath: css/home.sass
 noFixedNavbar: true
+aliases:
+  - /r/install/
 
 hero:
   title: Collaboration lives here

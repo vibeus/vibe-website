@@ -1,6 +1,8 @@
 ---
 url: /privacy/
 title: &title Vibe Privacy Policy
+aliases:
+  - /documents/privacy/
 
 hero:
   title: *title

@@ -1,6 +1,8 @@
 ---
 title: Customers love Vibe
 stylesPath: css/customer.sass
+aliases:
+  - /use-cases/
 
 hero:
   title: Customers love Vibe
