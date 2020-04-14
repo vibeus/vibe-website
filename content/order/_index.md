@@ -30,7 +30,7 @@ products:
 hero:
   <<: *vibe_board
   body: |
-    The Vibe Board is a interactive digital whiteboard that enhances collaboration with a
+    The Vibe Board is an interactive digital whiteboard that enhances collaboration with a
     4K 55” screen and built in speakers.
   shipping: |
     Complimentary U.S. Shipping + 30-Day Returns
