@@ -112,13 +112,13 @@
               Add to Cart
               {{ end }}
             </button>
-            {{ with .amazon }}
-            <div class="content is-amazon">
-              Also available on <a href="{{ . }}" target="_blank">Amazon</a>
-            </div>
-            {{ end }}
           </div>
         </div>
+        {{ if .sold_out }}
+        <div class="content is-sold-out">
+          Temporarily unavailable. <a href="/contact/" target="_blank">Let us know</a> if you want to be contacted when this item becomes available again.
+        </div>
+        {{ end }}
       </div>
       {{ end }}
     </div>
