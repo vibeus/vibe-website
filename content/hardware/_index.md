@@ -189,14 +189,14 @@ spec:
           - name: Product Size
             value: 50.6(W) x 29.1(H) x 2.9(D) in
           - name: Package Size
-            value: 56.7(W) x 37(H) x 8.8(D) in
+            value: 56.7(W) x 37(H) x 9.1(D) in
           - name: Product Weight
-            value: 60.6 lb
+            value: 54.1 lb
           - name: Accessories
             value: |
               Power Cord, Passive Stylus x 2   
 
-              Manual, Warranty Card
+              Manual, Warranty Card, Wiping Cloth
           - name: VESA Mount
             value: 200 X 200 mm
     - - title: Touch
@@ -248,11 +248,11 @@ spec:
       - title: Stand (optional)
         items:
           - name: Product Size
-            value: 50.4(W) x 50.9(H) x 26(D) in
+            value: 50.9(W) x 55.2(H) x 26(D) in
           - name: Package Size
-            value: 57(W) x 37(H) x 9(D) in
+            value: 57(W) x 29(H) x 10.2(D) in
           - name: Product Weight
-            value: 45 lb
+            value: 33.1 lb
           - name: Accessories
             value: Installation manual
   cta:
@@ -275,13 +275,13 @@ faq:
         **Vibe board dimensions:**
         - Diagonal screen size: 55"
         - Product dimensions: 50.6" (width) x 29.1"(height) x 2.9" (depth)
-        - Product weight: 60.6 lbs
-        - Package size: 56.7" (width) x 37"(height) x 8.8" (depth)
+        - Product weight: 54.1 lbs
+        - Package size: 56.7" (width) x 37"(height) x 9.1" (depth)
         - VESA Mount: 200 x 200 mm
 
         **Vibe stand dimensions:**
-        - Stand size: 50.4" (width) x 50.9" (height) x 26" (depth)
-        - Weight: 33 lbs
+        - Stand size: 50.9" (width) x 55.2" (height) x 26" (depth)
+        - Weight: 33.1 lbs
     - title: Which cameras work with Vibe?
       body: |
         Vibe is compatible with most USB connected cameras.
