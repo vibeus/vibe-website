@@ -16,6 +16,7 @@ products:
     price: 500
     title: White Portable Stand
     figure: img/order/accessory-stand-w.png
+    sold_out: true
   - &red_stand
     product_id: '31815731609651'
     price: 500

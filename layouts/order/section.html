@@ -95,8 +95,8 @@
         <h3 class="title">{{ .title }}</h3>
         <p class="price">${{ .price | lang.NumFmt (default 0 .precision) }}</p>
         <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
-          <div class="control is-count has-icons-left has-icons-right">
-            <input class="input is-rounded is-black" type="number" value="1" />
+          <div class="control is-count has-icons-left has-icons-right{{ if .sold_out }} is-disabled{{ end }}">
+            <input class="input is-rounded is-black" type="number" value="1" {{ if .sold_out }}disabled{{ end }} />
             <span class="icon is-small is-left">
               {{ partial "common/mdi" "minus" }}
             </span>
@@ -105,7 +105,13 @@
             </span>
           </div>
           <div class="control is-add-cart">
-            <button class="button is-primary is-rounded is-fullwidth">Add to Cart</button>
+            <button class="button is-primary is-rounded is-fullwidth" {{ if .sold_out }}disabled{{ end }}>
+              {{ if .sold_out }}
+              Sold Out
+              {{ else }}
+              Add to Cart
+              {{ end }}
+            </button>
             {{ with .amazon }}
             <div class="content is-amazon">
               Also available on <a href="{{ . }}" target="_blank">Amazon</a>

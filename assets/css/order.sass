@@ -95,11 +95,14 @@ input[type=number]
   -moz-appearance: textfield
   text-align: center
 
-.control.is-count .icon
-  pointer-events: all
-  cursor: pointer
-  &:hover svg
-    fill: $primary
+.control.is-count
+  .icon
+    pointer-events: all
+    cursor: pointer
+    &:hover svg
+      fill: $primary
+  &.is-disabled .icon
+    pointer-events: none
 
 .control.is-add-cart .button
   font-weight: $vibe-bold
