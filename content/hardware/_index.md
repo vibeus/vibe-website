@@ -147,7 +147,7 @@ spec:
           - name: Optimum Resolution
             value: 3840(H) X 2160 (V) @ 60Hz
           - name: Brightness
-            value: 300 cd/m²
+            value: 300-350 cd/m²
           - name: Contrast Ratio(Typical)
             value: '1200 : 1'
           - name: Response Time(Typical)
@@ -159,7 +159,7 @@ spec:
           - name: Aspect Ratio
             value: '16 : 9'
           - name: Color Depth
-            value: 16.7M
+            value: 1.07G
           - name: Viewing Angle
             value: 178(H) / 178(V)
           - name: Analog
@@ -218,9 +218,9 @@ spec:
           - name: Power Source
             value: AC 100 - 240V, 50 - 60 Hz
           - name: Consumption (Typical)
-            value: ≤ 240 W
+            value: ≤ 120 W
           - name: Consumption (Standby)
-            value: ≤ 0.5W
+            value: ≤ 15 W
       - title: Connections
         items:
           - name: HDMI
