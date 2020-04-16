@@ -24,7 +24,7 @@ products:
   - &stylus
     product_id: '31815737016371'
     price: 15
-    title: Vibe Touch Styluses (2)
+    title: Additional Touch Styluses (2)
     figure: img/order/accessory-stylus.png
 
 hero:
