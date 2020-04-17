@@ -42,7 +42,8 @@ setupForm(document.querySelector('.form.is-vibe-form'), {
         params.append(pair[0], pair[1]);
       }
 
-      url.search = params.toString();
+      // Hubspot does not decode `+` to space, so we need to hack here.
+      url.search = params.toString().replace(/\+/g, '%20');
       iframe.src = url.toString();
     }
 
