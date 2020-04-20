@@ -15,9 +15,9 @@ stories:
     industry: Software Technology
     employees: 11-50
     region: Florida, USA
-    cover: img/testimonials/cover-csi.jpg
+    cover: img/common/testimonials/cover-csi.jpg
     logo:
-      figure: img/testimonials/csi.png
+      figure: img/common/testimonials/csi.png
       width: 96
       modal_width: 262
     key_factors:
@@ -41,9 +41,9 @@ stories:
     industry: Consulting
     employees: 10,000+
     region: USA
-    cover: img/testimonials/cover-capgemini.jpg
+    cover: img/common/testimonials/cover-capgemini.jpg
     logo:
-      figure: img/testimonials/capgemini.png
+      figure: img/common/testimonials/capgemini.png
       width: 96
       modal_width: 246
     key_factors:
@@ -65,9 +65,9 @@ stories:
     industry: Professional Training
     employees: 500-1000
     region: Baltimore, MD
-    cover: img/testimonials/cover-sandler.jpg
+    cover: img/common/testimonials/cover-sandler.jpg
     logo:
-      figure: img/testimonials/sandler.png
+      figure: img/common/testimonials/sandler.png
       width: 112
       modal_width: 260
     key_factors:
@@ -113,9 +113,9 @@ stories:
     industry: Professional Services
     employees: 11-50
     region: Atlanta, GA
-    cover: img/testimonials/cover-azularc.jpg
+    cover: img/common/testimonials/cover-azularc.jpg
     logo:
-      figure: img/testimonials/azularc.png
+      figure: img/common/testimonials/azularc.png
       width: 94
       modal_width: 201
     key_factors:
@@ -140,10 +140,10 @@ stories:
     industry: Government
     employees: 1-50
     region: Kenmore, WA
-    cover: img/testimonials/cover-kenmore.jpg
+    cover: img/common/testimonials/cover-kenmore.jpg
     caption: Kenmore City Hall
     logo:
-      figure: img/testimonials/kenmore.png
+      figure: img/common/testimonials/kenmore.png
       width: 78
       modal_width: 144
     key_factors:

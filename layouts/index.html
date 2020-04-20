@@ -1,5 +1,5 @@
 {{ define "scripts"}}
-{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
@@ -58,11 +58,11 @@
 {{ end }}
 
 {{ with .Params.what_is_vibe }}
-{{ partial "video-hero" . }}
+{{ partial "common/video-hero" . }}
 {{ end }}
 
 {{ with .Params.testimonial_section }}
-{{ partial "testimonial-section" . }}
+{{ partial "common/testimonial-section" . }}
 {{ end }}
 
 {{ range .Params.features }}
@@ -106,7 +106,7 @@
 <section class="section is-trust">
   <div class="container">
     <h1 class="title is-section-title">{{ .title }}</h1>
-    {{ partial "testimonial-glide" .testimonials }}
+    {{ partial "common/testimonial-glide" .testimonials }}
     {{ partial "customers" $.Page }}
   </div>
 </section>
@@ -116,5 +116,5 @@
 {{ partial "bottom-cta" . }}
 {{ end }}
 
-{{ partial "common/template-script" (dict "asset" "js/testimonials.js") }}
+{{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
 </main>{{ end }}

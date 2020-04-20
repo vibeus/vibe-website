@@ -51,7 +51,7 @@ features:
 testimonial_section:
   testimonials:
     - author:
-        logo: img/testimonials/azularc.png
+        logo: img/common/testimonials/azularc.png
         name: |
           Kate Womick
 
