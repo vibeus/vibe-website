@@ -96,14 +96,19 @@ def download_images(content, directory):
                 if not url in images:
                     resp = requests.get(url)
                     ext = get_image_file_ext(resp.headers['Content-Type'])
-                    if ext == '.png' and len(resp.content) > MAX_PNG_SIZE:
-                        raise RuntimeError('PNG file size {} bytes exceeds limit of {}.'.format(len(resp.content), MAX_PNG_SIZE))
                     basename = 'image-{}'.format(index) if has_content else 'cover'
                     if basename == 'cover':
                         with Image.open(BytesIO(resp.content)) as img:
                             width, height = img.size
                             if width / height > 1.95:
                                 basename = 'cover-fullwidth'
+
+                    if ext == '.png' and len(resp.content) > MAX_PNG_SIZE:
+                        raise RuntimeError('{}: Image [{}] size {} bytes exceeds limit of {}.'.format(
+                            os.path.basename(directory),
+                            basename + ext,
+                            len(resp.content),
+                            MAX_PNG_SIZE))
 
                     # only accept one cover image per blog post.
                     if basename == 'cover' and has_cover:
