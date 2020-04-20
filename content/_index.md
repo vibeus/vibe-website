@@ -34,14 +34,13 @@ what_is_vibe:
 
     Take conference calls beyond the dial tone. Get engaged user participation from any device.
   video:
-    placeholder: img/shared/video.png
     id: Ccd4cVrtHTk
-    preview: video/intro/vibe-intro.mp4
+    preview: video/common/vibe-intro.mp4
 
 testimonial_section:
   testimonials:
     - author:
-        logo: img/testimonials/capgemini.png
+        logo: img/common/testimonials/capgemini.png
       body: |
         We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
         and communication amongst our team. It also feels very seamless using the Vibe board and app across various
@@ -108,7 +107,7 @@ trust:
   title: Trusted across the world
   testimonials:
     - author:
-        # logo: img/testimonials/sandler.png
+        # logo: img/common/testimonials/sandler.png
         name: |
           Shelly Starks
 
@@ -129,7 +128,7 @@ trust:
         have exponentially increased both efficiency and the "wow" factor in client meetings.
       url: '/customer/'
     - author:
-        # logo: img/testimonials/kenmore.png
+        # logo: img/common/testimonials/kenmore.png
         name: |
           Rob Karlinsey
 
@@ -141,7 +140,7 @@ trust:
         on the board in real time from other devices. Vibe is a gamechanger.
       url: '/customer/'
     - author:
-        # logo: img/testimonials/azularc.png
+        # logo: img/common/testimonials/azularc.png
         name: |
           Kate Womick
 
@@ -153,7 +152,7 @@ trust:
         even have several people working on a single canvas at once - even from remote locations.
       url: '/customer/'
     - author:
-        # logo: img/testimonials/capgemini.png
+        # logo: img/common/testimonials/capgemini.png
         name: |
           Peter T. Maloof
 
@@ -164,7 +163,7 @@ trust:
         devices.
       url: '/customer/'
     - author:
-        # logo: img/testimonials/csi.png
+        # logo: img/common/testimonials/csi.png
         name: |
           Henry Sal, Jr.
 

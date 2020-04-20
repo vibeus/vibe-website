@@ -44,10 +44,10 @@
   </div>
 
   {{ with .testimonial }}
-  {{ partial "testimonial" . }}
+  {{ partial "common/testimonial" . }}
   {{ end }}
 
   {{ range .testimonials }}
-  {{ partial "testimonial" . }}
+  {{ partial "common/testimonial" . }}
   {{ end }}
 </div>

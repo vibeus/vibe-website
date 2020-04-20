@@ -81,7 +81,7 @@ security:
 testimonial_section:
   testimonials:
     - author:
-        logo: img/testimonials/sandler.png
+        logo: img/common/testimonials/sandler.png
         name: |
           Shelly Starks
 
@@ -102,7 +102,7 @@ testimonial_section:
         have exponentially increased both efficiency and the "wow" factor in client meetings.
       # url: '/customer/'
     - author:
-        logo: img/testimonials/kenmore.png
+        logo: img/common/testimonials/kenmore.png
         name: |
           Rob Karlinsey
 
@@ -114,7 +114,7 @@ testimonial_section:
         on the board in real time from other devices. Vibe is a gamechanger.
       # url: '/customer/'
     - author:
-        logo: img/testimonials/azularc.png
+        logo: img/common/testimonials/azularc.png
         name: |
           Kate Womick
 
@@ -126,7 +126,7 @@ testimonial_section:
         even have several people working on a single canvas at once - even from remote locations.
       # url: '/customer/'
     - author:
-        logo: img/testimonials/capgemini.png
+        logo: img/common/testimonials/capgemini.png
         name: |
           Peter T. Maloof
 
@@ -137,7 +137,7 @@ testimonial_section:
         devices.
       # url: '/customer/'
     - author:
-        logo: img/testimonials/csi.png
+        logo: img/common/testimonials/csi.png
         name: |
           Henry Sal, Jr.
 

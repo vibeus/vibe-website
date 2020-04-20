@@ -1,5 +1,5 @@
 {{ define "scripts"}}
-{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 {{ define "main" }}<main class="about">
@@ -7,7 +7,7 @@
 {{ with .Params.hero }}
 <section class="hero">
   <div class="bg-logo">
-    {{ (resources.Get "img/shared/outline-logo.svg").Content | safeHTML }}
+    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
   </div>
   <div class="hero-body">
     <div class="container">
@@ -89,10 +89,10 @@
       </div>
 
       <span class="icon is-large glide-nav is-left is-hidden-mobile">
-        {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+        {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
       </span>
       <span class="icon is-large glide-nav is-right is-hidden-mobile">
-        {{ (resources.Get "img/shared/nav-icon.svg").Content | safeHTML }}
+        {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
       </span>
     </div>
     {{ end }}

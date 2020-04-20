@@ -1,5 +1,5 @@
 {{ define "scripts"}}
-{{ $src := resources.Get "js/glide.min.js" | resources.Fingerprint }}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 {{ define "main" }}<main class="software">
@@ -37,7 +37,7 @@
         </video>
         <div class="mask">
           <figure class="image is-mask-play">
-            {{ (resources.Get "img/shared/video-preview-play.svg").Content | safeHTML }}
+            {{ (resources.Get "img/common/video-preview-play.svg").Content | safeHTML }}
           </figure>
         </div>
         <div id="hero-video-iframe"></div>
@@ -170,7 +170,7 @@
 {{ end }}
 
 {{ with .Params.testimonial_section }}
-{{ partial "testimonial-section" . }}
+{{ partial "common/testimonial-section" . }}
 {{ end }}
 
 {{ with .Params.video_section }}
@@ -181,5 +181,5 @@
 {{ partial "bottom-cta" . }}
 {{ end }}
 
-{{ partial "common/template-script" (dict "asset" "js/testimonials.js") }}
+{{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
 </main>{{ end }}

@@ -1,7 +1,7 @@
 {{ define "main" }}<main class="reqest-video-landing">
 
 {{ with .Params.video_hero }}
-{{ partial "video-hero" . }}
+{{ partial "common/video-hero" . }}
 {{ end }}
 
 {{ with .Params.hero }}
@@ -37,7 +37,7 @@
 {{ end }}
 
 {{ with .Params.compare }}
-{{ partial "compare" . }}
+{{ partial "common/compare" (merge . (dict "Site" $.Site)) }}
 {{ end }}
 
 {{ with .Params.bottom_cta }}
