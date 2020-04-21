@@ -6,7 +6,7 @@ date: 2020-04-13
 tags: ["meetings", "brainstorm", "remote"]
 draft: false
 isfeatured: false
-summary: Some remote workers might feel a little self conscious to brainstorm during an actual meeting. Luckily, there's a variety of different ways you can brainstorm with your team. Here are a few ideas. 
+summary: Some remote workers might feel a bit self conscious to brainstorm during an actual meeting. Luckily, there's a variety of different ways you can brainstorm with your team. Here are a few ideas. 
 ---
 
 
