@@ -1,3 +1,8 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/sha1.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+
 {{ define "main" }}<main class="demo">
 
 {{ with .Params.hero }}
@@ -48,5 +53,5 @@
   <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
 </div>
 
-{{ partial "common/template-script" (dict "asset" "js/demo.js" "modalId" $modalId) }}
+{{ partial "common/template-script" (dict "asset" "js/demo.js" "modalId" $modalId "blacklist" .Site.Data.common.blacklist.emails) }}
 </main>{{ end }}
