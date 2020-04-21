@@ -10,8 +10,6 @@ blogHeroMask: 0.05
 ---
 
 
-
-
 # Why called Vibe? 
 
 The idea for [Vibe](http://vibe.us/) came from the things that inspired me as a child.
