@@ -6,14 +6,14 @@ date: 2020-04-13
 tags: ["meetings", "brainstorm", "remote"]
 draft: false
 isfeatured: false
-summary: Some remote workers might feel a little conscious to brainstorm during an actual meeting.Luckily, there's a variety of different ways you can brainstorm with your team. Here are a few ideas. 
+summary: Some remote workers might feel a little self conscious to brainstorm during an actual meeting. Luckily, there's a variety of different ways you can brainstorm with your team. Here are a few ideas. 
 ---
 
 
 
 
 
-Some remote workers might feel a little conscious to brainstorm during an actual meeting. And, there's a lot of reasons why. For one, they may feel like they're on display. It's often hard to think up ideas if you're worried about what your fellow remote workers think of your living space, especially during times like these. There's also a chance that the lag, or fear of talking over someone else, might discourage an employee from speaking up.
+Some remote workers might feel a little self conscious to brainstorm during an actual meeting. And, there's a lot of reasons why. For one, they may feel like they're on display. It's often hard to think up ideas if you're worried about what your fellow remote workers think of your living space, especially during times like these. There's also a chance that the lag, or fear of talking over someone else, might discourage an employee from speaking up.
  
 Luckily, there's a variety of different ways you can brainstorm with your team. Here are a few ideas.
  
@@ -32,7 +32,7 @@ Some people articulate better by text. If you "continue" the meeting through ema
 
 ## Use a digital whiteboard to help employees jot their ideas down during their own time. 
 
-Vibe's whiteboard is an excellent tool that all of your remote workers will easily be able to access. If your employees need to jot down some notes, or perhaps explain an idea with a quick chart or graph, they'll be able to reach everyone in the meeting. Vibe's board is also great since it supplies an endless amount of canvas. Plus, content can be erased for employees who need some time to fully express their thoughts.
+Vibe's whiteboard is an excellent tool that all of your remote workers will easily be able to access. If your employees need to jot down some notes, or perhaps explain an idea with a quick chart or graph, they'll be able to reach everyone in the meeting. Vibe's board is also great since it supplies an endless amount of canvas. Plus, since Vibe boards are saved automatically to the cloud, employees can come back and work on a board later if they need more time to fully express their thoughts.
  
 
 ## Don't downplay any idea. 
