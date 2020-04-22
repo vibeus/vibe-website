@@ -19,7 +19,7 @@
 {{ with .Params.hero }}
 <section class="hero is-fullheight-with-navbar is-home">
   <figure class="image is-hero-bg is-hidden-mobile">
-    {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
   </figure>
   <div class="hero-body">
     <div class="container">
@@ -93,7 +93,7 @@
       </div>
       <div class="column is-image">
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg q95 " (default "#ffffff" .jpg_background))) }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg " (default "#ffffff" .jpg_background))) }}
         </figure>
       </div>
     </div>

@@ -29,7 +29,7 @@
   </div>
   <div class="container">
     <figure class="image video-launcher" data-target="hero-video">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/hero.png") "desktop" "2380x" "tablet" "1920x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/hero.png") "desktop" "2380x" "tablet" "1920x" "mobile" "750x" "options" "jpg #FFFFFF") }}
       <div class="preview" id="hero-video">
         <video autoplay loop muted playsinline>
           {{ $src := resources.Get "video/software/hero-preview.mp4" | resources.Fingerprint }}

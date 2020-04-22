@@ -30,7 +30,7 @@
                       {{ range .gallery }}
                       <li class="glide__slide">
                         <figure class="image">
-                          {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
                         </figure>
                       </li>
                       {{ end }}
@@ -43,7 +43,7 @@
           <div class="thumbnails">
             {{ range .gallery }}
             <figure class="image">
-              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "160x" "options" "jpg q95 #FFFFFF") }}
+              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "160x" "options" "jpg #FFFFFF") }}
             </figure>
             {{ end }}
           </div>
@@ -90,7 +90,7 @@
       {{ range .items }}
       <div class="column">
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x" "mobile" "750x" "options" "jpg q95 #FFFFFF") }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x" "mobile" "750x" "options" "jpg #FFFFFF") }}
         </figure>
         <h3 class="title">{{ .title }}</h3>
         <p class="price">${{ .price | lang.NumFmt (default 0 .precision) }}</p>
