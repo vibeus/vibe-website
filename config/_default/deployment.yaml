@@ -7,10 +7,10 @@ targets:
     cloudFrontDistributionID: E1NS42WYS2Q8OI
 
 matchers:
-  - pattern: "^.+\\.(js|css|svg|ttf)$"
+  - pattern: "^.+\\.(js|css|svg|ttf|woff)$"
     cacheControl: 'max-age=31536000, no-transform, public'
     gzip: true
-  - pattern: "^.+\\.(png|jpg|jpeg|gif)$"
+  - pattern: "^.+\\.(png|jpg|jpeg|gif|mp4)$"
     cacheControl: 'max-age=31536000, no-transform, public'
     gzip: false
   - pattern: "^.+\\.(html|xml|json)$"
