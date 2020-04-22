@@ -49,8 +49,7 @@
       {{ end }}
 
       <figure class="image is-hero is-hidden-tablet">
-        {{ $src := resources.Get "img/home/hero-mobile.jpg" | resources.Fingerprint }}
-        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+        {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero-mobile.jpg") "desktop" "750x") }}
       </figure>
     </div>
   </div>
