@@ -1,7 +1,7 @@
 ---
 title: "Hello world.~We are Vibe."
 slug: we-are-vibe
-author: Chao Yang
+author: Charles Yang
 date: 2019-03-04
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smartboard Collaboration"]
