@@ -55,6 +55,12 @@
           <div class="content is-shipping">
             {{ .shipping | markdownify }}
             <p>Check our <a href="/refund/" target="_blank">Refund policy</a>.</p>
+            <p class="affirm">
+            Buy now, pay later with
+            <a href="https://www.affirm.com/how-it-works" target="_blank">
+              {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
+            </a>
+            </p>
           </div>
           <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
             <div class="control is-count has-icons-left has-icons-right">

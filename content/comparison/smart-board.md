@@ -71,13 +71,13 @@ why:
     Vibe gives you access to over 40 third-party apps so you can use whichever programs meet your needs.
 
     There are no subscriptions, licenses, or confusing mix-and-match software requirements to get what you want.
-    Any device with the Vibe app, regardless of location, can access the infinite canvas, files, video conference,
-    or whatever you need to access that day.
+    You can access the Vibe app from any device to go back to your boards, and can collaborate in real time from
+    other locations from a computer browser or tablet.
 
-    Vibe users can also seamlessly collaborate in real time through the Vibe board, Mac, PC, or mobile device.
-    Once you leave the physical meeting room, it’s easy to switch to your handy devices and pick up where you left
-    off. Vibe also supports screencasting from computers and mobile devices to the board, regardless of the device’s
-    manufacturer.
+    Vibe users can also seamlessly collaborate in real time through the Vibe board, Mac, PC, or tablets
+    (the mobile app is view-only). Once you leave the physical meeting room, it’s easy to switch to your handy devices
+    and pick up where you left off. Vibe also supports screencasting from computers and mobile devices to the board,
+    regardless of the device’s manufacturer.
 
     Another big selling point? The price. At $2,999, Vibe is less than half the price of the SMART Board 6000 series.
 

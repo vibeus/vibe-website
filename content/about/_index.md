@@ -8,15 +8,15 @@ hero:
 hello:
   title: Hello world, we’re Vibe.
   body: |
-    Vibe was created so that our global team could work better together. 
+    Vibe was founded in 2016 by former Microsoft developers looking for a better way to collaborate globally.
 
-    We were all feeling the strain of working with team members across different locations.
-    Even with video conferencing, productivity and workflow apps, and a commitment to a distributed team,
-    it was difficult to accomplish what could be done simply face-to-face. We still felt disconnected.
+    Even with video conferencing, productivity and workflow apps, and a commitment to a distributed team,
+    it was difficult to accomplish what could be acheived simply when face-to-face. We knew that there had to be a
+    better way. So we built Vibe.
 
-    We knew that there had to be a better way. So we built Vibe. 
+    Headquartered in Seattle, WA, Vibe is fully funded and has 35+ employees.
   cta:
-    title: Read more →
+    title: Read more, from Vibe CEO Charles Yang →
     url: /blog/we-are-vibe/
 
 team:
