@@ -5,7 +5,7 @@ author: Megan Snyder
 date: 2020-04-18
 tags: ["meetings", "SWOT analysis", "template"]
 draft: false
-isfeatured: True
+isfeatured: false
 summary: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years.
 ---
 

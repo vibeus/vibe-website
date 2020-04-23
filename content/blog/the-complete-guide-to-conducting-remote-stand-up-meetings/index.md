@@ -5,7 +5,8 @@ author: Tanya Xu
 date: 2020-04-20
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
-isfeatured: false
+isfeatured: True
+summary: You already know how beneficial stand-up meetings can be for your team, but what if your team is distributed across multiple offices?
 ---
 
 
