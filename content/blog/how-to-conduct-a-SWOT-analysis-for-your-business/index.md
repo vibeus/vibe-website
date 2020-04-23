@@ -11,8 +11,6 @@ summary: Conducting a proper S.W.O.T. analysis helps to inform business owners o
 
 
 
-
-
 On any given day, business owners have a lot to keep track of. And while they’re working to propel the business forward, it can be easy to get overwhelmed by so much information. That’s why it’s essential to create a simple strategy to focus their attention and make smart plans for the future.
 
 Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years. We’ll cover what goes into a S.W.O.T. analysis, why it makes sense for every business, and how to complete one with your team.
