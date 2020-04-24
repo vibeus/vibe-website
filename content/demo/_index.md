@@ -62,5 +62,5 @@ demo:
       body: |
         ## We’ve sent you an email with the video link. Enjoy!
 
-        Can't wait? [Watch now](https://vibe.us/demo/video-demo/).
+        Can't wait? [Watch now](/demo/video-demo/).
 ---
