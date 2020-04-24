@@ -59,5 +59,8 @@ demo:
         class: button is-rounded is-primary is-outlined is-fullwidth
         name: request-video
     submitted:
-      body: We’ve sent you an email with the video link. Enjoy!
+      body: |
+        ## We’ve sent you an email with the video link. Enjoy!
+
+        Can't wait? [Watch now](https://vibe.us/demo/video-demo/).
 ---

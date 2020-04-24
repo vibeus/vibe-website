@@ -1,4 +1,4 @@
 github.com/vibeus/hugo-common/v2 v2.0.1-0.20200424162846-c52af45110c1 h1:SG62Sadi2gSPX6nKz+5D93Slxa7AZ+NHiWwH9xwW47o=
 github.com/vibeus/hugo-common/v2 v2.0.1-0.20200424162846-c52af45110c1/go.mod h1:BV2Id6B7n27onuS0tNKYTtwEn4IkLXhMTYWPaknbLfs=
-github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200418185205-b1a65eb81e36 h1:5JI0BCJ2/BJcoETrWBgR+ejtG37L/GfB9usG3fY+lhI=
-github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200418185205-b1a65eb81e36/go.mod h1:oFnbFFJZjEKjsAtVWk29+ePc417uQiygB6lNvTpdu2s=
+github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200424201601-a588c5a6a1d7 h1:YlGTZ9ZWPMW8LgSTesDQBmOQ9dn2NDSeTQXGtfJRQc4=
+github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200424201601-a588c5a6a1d7/go.mod h1:DAZSqOCnYLKnUHYYahkxPx6NSIuN4+T+PGVasig1CGQ=
