@@ -72,4 +72,4 @@ After a team brainstorming session, the owner is able to see that his well-train
 
 Running through this kind of evaluation gives him an honest assessment of where the business stands and where he and his staff can direct their attention next. And with practice, a S.W.O.T. analysis can give your team this kind of insight, too.
 
-Get the most out of your next S.W.O.T. analysis, brainstorming session, or group project by checking out Vibe’s collaboration templates at vibe.us.
+Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysis, brainstorming session, or group project by checking out [vibe.us](http://vibe.us/).
