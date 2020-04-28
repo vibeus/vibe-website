@@ -22,6 +22,7 @@ products:
     price: 500
     title: Red Portable Stand
     figure: img/order/accessory-stand-r.png
+    sold_out: true
   - &stylus
     product_id: '31815737016371'
     price: 15
