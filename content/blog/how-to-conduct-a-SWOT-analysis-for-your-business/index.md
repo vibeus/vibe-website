@@ -17,7 +17,7 @@ Conducting a proper S.W.O.T. analysis helps to inform business owners on the cur
 
 
 ## What Is a S.W.O.T. Analysis?
-{{< common/srcset "image-1.png" "" >}}
+{{< common/srcset "image-1.jpg" "" >}}
 
 
 A S.W.O.T. analysis determines the **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats of a business, a marketing campaign, a client proposal—really, any number of business decisions can benefit from a S.W.O.T. analysis. It’s an effective way to get a handle on the current scope of the company and make more strategic plans.
@@ -27,7 +27,6 @@ Strengths are what your company does well or is known for in a positive way, whi
 The opportunities and threats to a company are influenced by external factors. Opportunities are places for growth within the business, where your team can envision possibilities. Threats are points you’ll need to contend with, such as a competitor opening a new storefront in your neighborhood or the rising cost of materials in your field.
 
 Each item on the list should be based on facts and actual data. Your team’s customer retention percentage might seem like a strength based on day-to-day activity, but being able to confirm that hunch with data is what makes the analysis truly beneficial. Otherwise you’re potentially missing out on a chance to strengthen that part of your business.
-
 
 ## When Is a S.W.O.T. Analysis Helpful?
 
@@ -65,7 +64,7 @@ Once everyone’s had their say, you’ll hopefully see a few patterns. Notice w
 Let’s take a look at how a small business might use a S.W.O.T. analysis. This locally owned shoe store has a well-established customer base. In general, things are going well and the company is able to cover their costs, but with the ongoing popularity of online shopping, it’s time to think of new ways to attract and retain customers.
 
 
-{{< common/srcset "image-2.png" "S.W.O.T. analysis with Vibe Template" >}}
+{{< common/srcset "image-2.jpg" "" >}}
 
 
 After a team brainstorming session, the owner is able to see that his well-trained staff and good location could help to set his business apart from the competition and make hosting community events a strong possibility for attracting more customers. Launching an online store would also make the store’s inventory more widely available and could increase his sales over the competition.
