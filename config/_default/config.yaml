@@ -1,5 +1,6 @@
 baseURL: http://localhost:1313
 languageCode: en-us
+defaultContentLanguage: en
 title: Vibe
 log: true
 verbose: true

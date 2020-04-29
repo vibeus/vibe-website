@@ -26,6 +26,9 @@
       +mobile
         font-size: 14px
 
+  +lang-override(".lang-zh")
+    display: none
+
 .navbar
   position: sticky
   top: 0
@@ -51,15 +54,21 @@
       margin-bottom: 32px
     +tablet
       max-width: 428px
+      +lang-override(".lang-zh")
+        max-width: 400px
       margin-bottom: 72px
     .title
       font-size: 64px
-      line-height: 73px
+      line-height: 74px
+      +lang-override(".lang-zh")
+        font-size: 50px
       +mobile
         font-size: 50px
         line-height: 60px
     p
       max-width: 435px
+      +lang-override(".lang-zh")
+        display: none
   .cta
     .button.is-hero-cta
       +mobile

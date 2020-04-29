@@ -2,3 +2,4 @@ baseURL: https://vibe.us
 buildDrafts: false
 buildExpired: false
 buildFuture: false
+disableLanguages: ['zh']

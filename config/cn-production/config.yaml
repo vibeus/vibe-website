@@ -1,0 +1,7 @@
+baseURL: https://vibe.cn
+defaultContentLanguage: zh
+languageCode: zh-cn
+buildDrafts: false
+buildExpired: false
+buildFuture: false
+disableLanguages: ['en']

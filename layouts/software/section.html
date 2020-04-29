@@ -8,12 +8,12 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">{{ .title }}</h1>
+      <h1 class="title">{{ .title | markdownify }}</h1>
       <div class="content">{{ .body | markdownify }}</div>
       {{ with .cta }}
       <div class="cta">
         <a class="button{{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url }}"
+           href="{{ .url | relLangURL }}"
            target="_blank">
           {{ .title }}
         </a>
@@ -139,7 +139,7 @@
     </div>
     {{ with .cta }}
     <div class="cta">
-      <a href="{{ .url }}">{{ .title }}</a>
+      <a href="{{ .url | relLangURL}}">{{ .title }}</a>
     </div>
     {{ end }}
   </div>
@@ -156,7 +156,7 @@
       </div>
       {{ with .cta }}
       <div class="cta">
-        <a href="{{ .url }}">{{ .title }}</a>
+        <a href="{{ .url | relLangURL }}">{{ .title }}</a>
       </div>
       {{ end }}
     </div>

@@ -17,7 +17,7 @@
         </div>
         {{ with .cta }}
         <div class="cta">
-          <a href="{{ .url }}">{{ .title }}</a>
+          <a href="{{ .url | relLangURL }}">{{ .title }}</a>
         </div>
         {{ end }}
       </div>

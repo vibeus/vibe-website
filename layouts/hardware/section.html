@@ -13,7 +13,7 @@
     <div class="container">
       <div class="title-text">
         <h1 class="title">
-          {{ .title }}
+          {{ .title | markdownify }}
         </h1>
         <p>
         {{ .body | markdownify }}
@@ -23,7 +23,7 @@
       <div class="cta">
         {{ with .cta }}
         <a class="button is-hero-cta{{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url }}"
+           href="{{ .url | relLangURL }}"
            {{ if .target }} target="_blank" {{ end }}
            >
           <span>{{ .title }}</span>
@@ -34,13 +34,16 @@
           {{ end }}
         </a>
         {{ end }}
+
+        {{ if .gallery }}
         <button class="button is-hero-cta is-black is-outlined is-rounded is-photo-gallery"
                 data-target="gallery">
-          <span>Photo Gallery</span>
+          <span>{{ .gallery.cta }}</span>
           <span class="icon">
             {{ (resources.Get "img/hardware/icon-gallery.svg").Content | safeHTML }}
           </span>
         </button>
+        {{ end }}
       </div>
 
       <figure class="image is-hero is-hidden-tablet">
@@ -49,7 +52,7 @@
       </figure>
     </div>
   </div>
-  {{ with .gallery }}
+  {{ with .gallery.items }}
   <div class="modal is-gallery" id="gallery">
     <div class="modal-background" data-target="gallery"></div>
     <div class="modal-content">
@@ -86,12 +89,12 @@
 {{ with .Params.feature_set_1 }}
 <section class="section is-overview is-upper">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    {{ with .title }}<h1 class="title is-section-title">{{ . }}</h1>{{ end }}
 
     {{ range .features }}
     <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
       <div class="column is-text">
-        <h2 class="title">{{ .title }}</h2>
+        <h2 class="title">{{ .title | markdownify }}</h2>
         <div class="content">
           {{ .body | markdownify }}
         </div>
@@ -148,7 +151,7 @@
       {{ with .cta }}
       <div class="cta">
         <a class="button{{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url }}"
+           href="{{ .url | relLangURL}}"
            target="_blank">
           {{ .title }}
         </a>
@@ -170,12 +173,12 @@
 {{ with .Params.feature_set_2 }}
 <section class="section is-overview is-lower">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    {{ with .title }}<h1 class="title is-section-title">{{ . }}</h1>{{ end }}
 
     {{ range .features }}
     <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
       <div class="column is-text">
-        <h2 class="title">{{ .title }}</h2>
+        <h2 class="title">{{ .title | markdownify }}</h2>
         <div class="content">
           {{ .body | markdownify }}
         </div>

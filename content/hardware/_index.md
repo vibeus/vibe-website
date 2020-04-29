@@ -17,16 +17,18 @@ hero:
     url: /demo/
 
   gallery:
-    - img/hardware/gallery/gallery-1.png
-    - img/hardware/gallery/gallery-2.png
-    - img/hardware/gallery/gallery-3.png
-    - img/hardware/gallery/gallery-4.png
-    - img/hardware/gallery/gallery-5.png
-    - img/hardware/gallery/gallery-6.png
-    - img/hardware/gallery/gallery-7.png
-    - img/hardware/gallery/gallery-8.png
-    - img/hardware/gallery/gallery-9.png
-    - img/hardware/gallery/gallery-10.png
+    cta: Photo Gallery
+    items:
+      - img/hardware/gallery/gallery-1.png
+      - img/hardware/gallery/gallery-2.png
+      - img/hardware/gallery/gallery-3.png
+      - img/hardware/gallery/gallery-4.png
+      - img/hardware/gallery/gallery-5.png
+      - img/hardware/gallery/gallery-6.png
+      - img/hardware/gallery/gallery-7.png
+      - img/hardware/gallery/gallery-8.png
+      - img/hardware/gallery/gallery-9.png
+      - img/hardware/gallery/gallery-10.png
 
 testimonial_section:
   testimonials:
@@ -170,9 +172,9 @@ spec:
             value: Rockchip 3399
           - name: CPU
             value: |
-              Dual-core Cortex-A72 up to 1.8 Hz
+              Dual-core Cortex-A72 up to 1.8G Hz
 
-              Quad-core Cortex-A53 up to 1.4 Hz
+              Quad-core Cortex-A53 up to 1.4G Hz
           - name: GPU
             value: Mali-T864 GPU
           - name: RAM
@@ -194,7 +196,7 @@ spec:
             value: 54.1 lb
           - name: Accessories
             value: |
-              Power Cord, Passive Stylus x 2   
+              Power Cord, Passive Stylus x 2
 
               Manual, Warranty Card, Wiping Cloth
           - name: VESA Mount
@@ -234,7 +236,7 @@ spec:
       - title: Speaker
         items:
           - name: Impedance
-            value: 6Ω±15%（At 1000HZ，1.0V with LMS）
+            value: 6Ω±15% (At 1000HZ, 1.0V with LMS)
           - name: Resonant Frequency
             value: 'FB: 140Hz±20%'
           - name: Sound Pressure Level

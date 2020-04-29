@@ -34,7 +34,7 @@
       {{ with .cta }}
       <div class="cta">
         <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url }}">
+           href="{{ .url | relLangURL }}">
           {{ .title }}
         </a>
       </div>
@@ -43,7 +43,7 @@
       <div class="subcta{{ with .class }} {{ . }}{{ end }}">
         <span>{{ .title }}</span>
         {{ with .link }}
-        <a href="{{ .url }}">{{ .text }}</a>
+        <a href="{{ .url | relLangURL }}">{{ .text }}</a>
         {{ end }}
       </div>
       {{ end }}
@@ -77,7 +77,7 @@
         {{ with .cta }}
         <div class="cta">
           {{ if .url }}
-          <a href="{{ .url }}">{{ .title }}</a>
+          <a href="{{ .url | relLangURL }}">{{ .title }}</a>
           {{ end }}
           {{ if .video }}
           <a href="https://youtu.be/{{ .video }}" class="video-launcher-popup" target="_blank" data-target="demo-video-popup">
