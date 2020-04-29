@@ -180,11 +180,13 @@ brands:
       os: Tizen 3.0
       connections: |
         - HDMI 1
+        - RS232C 1
         - USB 2 (ver 2.0 x2, Side 1, Sensor Assy 1)
         - Touch Out 1 (Side, USB Upstream Type) 
         - Touch Input, RJ45 (not for User Control)
+        - Ethernet
       wireless: |
-        RS232C, LAN, WiFi / BT
+        WiFi / BT
       processor: |
         CA72 Quad(1.7GHz)
       box: |
