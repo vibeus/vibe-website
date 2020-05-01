@@ -6,6 +6,18 @@
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
+
+{{ define "nav" }}
+<div class="before-nav">
+  <p class="cta">
+  <a href="https://knowledge.vibe.us/may-2020-shipping-update" target="_blank">
+    Stands are currently backordered, due to increased demand. Get details here →
+  </a>
+  </p>
+</div>
+{{ partial "common/nav" . }}
+{{ end }}
+
 {{ define "main" }}<main class="order">
 
 {{ with .Params.hero }}
@@ -122,7 +134,12 @@
         </div>
         {{ if .sold_out }}
         <div class="content is-sold-out">
-          Temporarily unavailable. <a href="/contact/" target="_blank">Let us know</a> if you want to be contacted when this item becomes available again.
+          {{ .sold_out.item_notice | markdownify }}
+        </div>
+        {{ end }}
+        {{ if .backorder }}
+        <div class="content is-backorder">
+          {{ .backorder.item_notice | markdownify }}
         </div>
         {{ end }}
       </div>

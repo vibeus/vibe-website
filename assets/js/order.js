@@ -81,6 +81,21 @@ const LineItem = ({ productId, count }) => {
     return null;
   }
 
+  let notice = null;
+  if (product.sold_out) {
+    notice = e(
+      'p',
+      { className: 'product-notice' },
+      product.sold_out.cart_notice
+    );
+  } else if (product.backorder) {
+    notice = e(
+      'p',
+      { className: 'product-notice' },
+      product.backorder.cart_notice
+    );
+  }
+
   return e(
     'div',
     {
@@ -107,6 +122,7 @@ const LineItem = ({ productId, count }) => {
         },
         product.title
       ),
+      notice,
       e(
         'div',
         {

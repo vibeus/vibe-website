@@ -4,6 +4,7 @@
 @import "_review-stars.sass"
 @import "_order-cart.sass"
 @import "_bottom-cta.sass"
+@import "_before-nav.sass"
 
 .hero
   .hero-body
@@ -109,13 +110,16 @@ input[type=number]
 .control.is-add-cart .button
   font-weight: $vibe-bold
 
-.content.is-sold-out
-  max-width: 300px
-  margin: auto
-  font-size: 12px
-  a
-    text-decoration: underline
-    font-weight: $vibe-bold
+.content
+  &.is-sold-out, &.is-backorder
+    max-width: 300px
+    margin: auto
+    font-size: 12px
+    a
+      text-decoration: underline
+      font-weight: $vibe-bold
+  &.is-backorder
+    text-align: center
 
 .section.is-accessories
   +vertical-padding(0, 120px)
@@ -232,6 +236,11 @@ input[type=number]
         font-weight: $vibe-bold
       .product-title
         margin-bottom: 24px
+      .product-notice
+        margin-top: -24px
+        margin-bottom: 24px
+        font-size: 12px
+        color: $vibe-pink
       .price-count
         display: flex
         align-items: center

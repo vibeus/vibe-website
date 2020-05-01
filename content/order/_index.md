@@ -1,9 +1,16 @@
 ---
 stylesPath: css/order.sass
-
 title: Order your Vibe
-
+noFixedNavbar: true
 is_order: true
+
+product_notices:
+  sold_out: &sold_out
+    item_notice: 'Temporarily unavailable. [Let us know](/contact/) if you want to be contacted when this item becomes available again.'
+    cart_notice: 'Temporarily unavailable.'
+  backorder: &backorder
+    item_notice: '**Backordered.** Expected delivery of May 25.'
+    cart_notice: 'Backordered. Expected delivery of May 25.'
 
 products:
   - &vibe_board
@@ -16,18 +23,22 @@ products:
     price: 500
     title: White Portable Stand
     figure: img/order/accessory-stand-w.png
-    sold_out: true
+    sold_out: false
+    backorder: *backorder
   - &red_stand
     product_id: '31815731609651'
     price: 500
     title: Red Portable Stand
     figure: img/order/accessory-stand-r.png
-    sold_out: true
+    sold_out: false
+    backorder: *backorder
   - &stylus
     product_id: '31815737016371'
     price: 15
     title: Additional Touch Styluses (2)
     figure: img/order/accessory-stylus.png
+    sold_out: false
+    backorder: false
 
 hero:
   <<: *vibe_board

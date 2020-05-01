@@ -1,0 +1,25 @@
+.before-nav
+  background-color: $vibe-purple
+  padding: 14px 24px
+  color: white
+  +tablet
+    text-align: center
+  a
+    color: white
+    &:hover
+      text-decoration: underline
+  p
+    max-width: 770px
+    margin: auto
+    &.cta
+      font-weight: $vibe-bold
+    &.body
+      +mobile
+        font-size: 14px
+
+  +lang-override(".lang-zh")
+    display: none
+
+.navbar
+  position: sticky
+  top: 0
