@@ -9,8 +9,8 @@ product_notices:
     item_notice: 'Temporarily unavailable. [Let us know](/contact/) if you want to be contacted when this item becomes available again.'
     cart_notice: 'Temporarily unavailable.'
   backorder: &backorder
-    item_notice: '**Backordered.** Expected delivery of May 25.'
-    cart_notice: 'Backordered. Expected delivery of May 25.'
+    item_notice: '**Backordered.** Expected delivery of May 20.'
+    cart_notice: 'Backordered. Expected delivery of May 20.'
 
 products:
   - &vibe_board
@@ -31,7 +31,9 @@ products:
     title: Red Portable Stand
     figure: img/order/accessory-stand-r.png
     sold_out: false
-    backorder: *backorder
+    backorder:
+      item_notice: '**Backordered.** Expected delivery of Jun 1.'
+      cart_notice: 'Backordered. Expected delivery of Jun 1.'
   - &stylus
     product_id: '31815737016371'
     price: 15
