@@ -44,6 +44,9 @@ demo:
           placeholder: Email Address
           type: email
           required: true
+        - name: phone
+          placeholder: Phone Number
+          type: tel
       - - name: company
           placeholder: Company Name
       - - name: anything_else_we_should_know_

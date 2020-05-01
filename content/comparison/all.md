@@ -12,5 +12,5 @@ hero:
 bottom_cta:
   title: Experience Vibe for yourself
   cta:
-    title: Request a Demo
+    title: See a Demo
 ---

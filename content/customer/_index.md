@@ -179,5 +179,5 @@ testimonial_section:
 bottom_cta:
   title: Try Vibe with your team
   cta:
-    title: Request a Demo
+    title: See a Demo
 ---
