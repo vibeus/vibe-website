@@ -9,7 +9,7 @@ hero:
   title: Collaboration lives here
   body: With Vibe's powerful & intuitive technology, teams can innovate, ideate, and collaborate like never before.
   cta:
-    title: Request a Demo
+    title: See a Demo
     class: is-primary is-rounded
     url: /demo/
 
