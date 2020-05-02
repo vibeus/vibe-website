@@ -12,7 +12,8 @@ Enter following command to Slack #bot-github channel.
 
 - Select branch `master`
 - Set Environment `production` to deploy to https://vibe.us, or `staging` to deploy to https://vibe-beta.com
-- Set Task `sync-blogs` if you want to sync latest changes from Dropbox Paper before deployment
+- Set Task `sync-blogs` if you want to sync latest blogs from Dropbox Paper before deployment
+- Set Task `sync-videos` if you want to sync latest video tutorials from Dropbox Paper before deployment
 
 Click `Create` to create a deployment.
 
