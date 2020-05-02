@@ -46,10 +46,21 @@ jobs:
         env:
           VIBE_CMS_TOKEN: ${{ secrets.VIBE_CMS_TOKEN }}
         run: |
-          python3 sync-blogs
+          python3 sync-cms blog
           git config user.name '${{ github.event.deployment.creator.login }} via GitHub Actions'
           git config user.email '${{ github.event.deployment.creator.login }}@users.noreply.github.com'
-          if git add -A && git commit -m "Sync blogs using ./sync-blogs command"; then
+          if git add -A && git commit -m "Sync blogs using ./sync-cms command"; then
+            git push
+          fi
+      - name: Sync video tutorials
+        if: github.event_name == 'deployment' && github.event.deployment.task == 'sync-videos'
+        env:
+          VIBE_CMS_TOKEN: ${{ secrets.VIBE_CMS_TOKEN }}
+        run: |
+          python3 sync-cms video
+          git config user.name '${{ github.event.deployment.creator.login }} via GitHub Actions'
+          git config user.email '${{ github.event.deployment.creator.login }}@users.noreply.github.com'
+          if git add -A && git commit -m "Sync videos using ./sync-cms command"; then
             git push
           fi
       - name: Hugo build and deploy staging

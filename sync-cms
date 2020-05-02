@@ -180,7 +180,36 @@ def download_images(content, directory, allow_large_image):
     return "\n".join(lines)
 
 
-def process_doc(doc_id, is_dev, allow_large_image):
+# capture youtube video links and convert into thumbnail urls.
+def process_video_links(content):
+    lines = []
+    video_ids = []
+
+    for line in content.splitlines():
+        for match in re.finditer(
+            "https://www\\.youtube.com/watch\\?v=([a-zA-Z0-9_-]+)", line
+        ):
+            if match:
+                video_id = match.group(1)
+                video_ids.append(video_id)
+                print(
+                    Style.DIM
+                    + "  Detected Youtube video {}".format(video_id)
+                    + Style.RESET_ALL
+                )
+                line = line.replace(
+                    match.group(0),
+                    "![](https://i3.ytimg.com/vi/{}/maxresdefault.jpg)".format(
+                        video_id
+                    ),
+                )
+
+        lines.append(line)
+
+    return "\n".join(lines), video_ids
+
+
+def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     content = get_doc(doc_id)
 
     title = get_line_value(content, "^# (.+)$")
@@ -199,9 +228,14 @@ def process_doc(doc_id, is_dev, allow_large_image):
     if is_dev:
         slug = "dev-" + slug
 
-    md_path = os.path.join(git_root, "content", "blog", slug, "index.md")
+    subfolder = "blog"
+    if cms_type == "video":
+        subfolder = "video-tutorial"
+
+    md_path = os.path.join(git_root, "content", subfolder, slug, "index.md")
     os.makedirs(os.path.dirname(md_path), exist_ok=True)
 
+    body, video_ids = process_video_links(body)
     body = download_images(body, os.path.dirname(md_path), allow_large_image)
 
     with open(md_path, "w") as f:
@@ -209,6 +243,14 @@ def process_doc(doc_id, is_dev, allow_large_image):
         f.write('title: "{}"\n'.format(title.replace('"', '\\"')))
         f.write("slug: {}\n".format(slug))
         f.write(fm)
+        if cms_type == "video" and len(video_ids) > 0:
+            f.write("\nvideoId: {}".format(video_ids[0]))
+            f.write(
+                "\nallowIndex: false"
+            )  # for now simply redirect to youtube so hide single page.
+            f.write(
+                "\nno_sitemap: true"
+            )  # for now simply redirect to youtube so hide single page.
         if is_dev:
             f.write(
                 "\nexpiryDate: 2018-01-01 # This makes post only show in dev environment\n"
@@ -223,10 +265,10 @@ def process_doc(doc_id, is_dev, allow_large_image):
 def main():
     global access_token
 
-    parser = argparse.ArgumentParser(description="Sync blog posts from Dropbox Paper.")
-    parser.add_argument(
-        "--manifest", default="XWvIYMXhbzTYauPlxCd7j", help="The blog list doc."
+    parser = argparse.ArgumentParser(
+        description="Sync blog posts or video tutorials from Dropbox Paper."
     )
+    parser.add_argument("--manifest", help="The manifest doc.")
     parser.add_argument("--token", help="Dropbox access token")
     parser.add_argument("--dev", action="store_true", help="download as dev post")
     parser.add_argument(
@@ -238,6 +280,12 @@ def main():
         action="store_true",
         help="Allow large image file.",
     )
+    parser.add_argument(
+        "cms_type",
+        choices=["blog", "video"],
+        default="blog",
+        help="which content to sync.",
+    )
     args = parser.parse_args()
 
     if args.token:
@@ -247,7 +295,16 @@ def main():
         print("VIBE_CMS_TOKEN is required")
         sys.exit(1)
 
-    manifest_content = get_doc(args.manifest)
+    manifest_id = args.manifest
+    if not manifest_id:
+        if args.cms_type == "blog":
+            manifest_id = "XWvIYMXhbzTYauPlxCd7j"
+        elif args.cms_type == "video":
+            manifest_id = "YL42N69s4TbdFo30n1hUd"
+        else:
+            print("Cannot guess manifest id.")
+
+    manifest_content = get_doc(manifest_id)
     count = 0
     for doc in parse_doc_list(manifest_content):
         doc_id = doc[0]
@@ -262,7 +319,7 @@ def main():
             )
             continue
         print("Processing doc {}: {}".format(doc_id, doc_name))
-        process_doc(doc_id, args.dev, args.allow_large_image)
+        process_doc(doc_id, args.dev, args.allow_large_image, args.cms_type)
         count += 1
 
     print(
