@@ -1,8 +1,10 @@
 ---
 title: "Using Templates"
 slug: using-templates
-s://www.youtube.com/watch?v=pmyEFVa-kw8
-
-
+date: 2020-04-10
+draft: true
+videoId: pmyEFVa-kw8
+allowIndex: false
+no_sitemap: true
 ---
 
