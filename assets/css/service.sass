@@ -1,0 +1,49 @@
+@import "_shared.sass"
+@import "_get-in-touch.sass"
+@import "_bottom-cta.sass"
+
+.hero.is-section
+  background-color: $vibe-white
+  .hero-body
+    +vertical-padding(72px, 38px)
+    .content
+      max-width: 430px
+    .cta
+      a:not(:hover)
+        color: $vibe-purple
+      a:hover svg
+        stroke: $vibe-pink
+
+.section.is-commitments
+  +vertical-padding(120px)
+  .container
+    max-width: 838px
+  .title
+    text-align: center
+    margin-bottom: 40px
+  .content
+    max-width: 796px
+    margin: auto
+    text-align: center
+  .columns
+    margin-top: 20px + 24px
+    margin-bottom: 72px
+  .column
+    margin-top: 80px - 24px
+    text-align: center
+    .text
+      font-weight: $vibe-bold
+  .cta
+    text-align: center
+    .button
+      font-weight: $vibe-bold
+      border-width: 2px
+
+.section.is-get-touch
+  background-color: $vibe-white
+  .column.is-contact
+    background-color: white
+
+.section.is-content
+  .container
+    max-width: 1024px

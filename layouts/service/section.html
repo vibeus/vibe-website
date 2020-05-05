@@ -1,0 +1,70 @@
+{{ define "main" }}<main class="service">
+
+{{ with .Params.hero }}
+<section class="hero is-section">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1120x" "mobile" "750x" "options" "jpg #f4f4f4") }}
+          </figure>
+        </div>
+        <div class="column">
+          <h1 class="title is-section-title">{{ T .title | markdownify }}</h1>
+          <div class="content">{{ T .body | markdownify }}</div>
+          {{ with .cta }}
+          <div class="cta">
+            <a class="{{ with .class }} {{ . }}{{ end }}"
+               href="{{ .url }}"
+               target="_blank">
+              {{ T .title }}
+              {{ with .icon }}
+              <span class="icon is-small">
+                {{ (resources.Get .).Content | safeHTML }}
+              </span>
+              {{ end }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.commitments }}
+<section class="section is-commitments">
+  <div class="container">
+    <div class="title is-section-title">{{ T .title }}</div>
+    <div class="content">{{ T .body | markdownify }}</div>
+    <div class="columns is-multiline">
+      {{ range .items }}
+      <div class="column is-one-third-tablet is-one-half-mobile">
+        <figure class="image">
+          {{ (resources.Get .figure).Content | safeHTML }}
+        </figure>
+        <div class="text">
+          {{ T .title }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a class="button is-medium{{ with .class }} {{ . }}{{ end }}"
+         href="{{ .url | relLangURL }}">{{ T .title }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ partial "get-in-touch" . }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+</main>{{ end }}

@@ -52,18 +52,6 @@ investors:
     - img/about/logo-unity.png
     - img/about/logo-innolinks.png
     - img/about/logo-challengers.png
-touch:
-  title: i18n-content-about-_index-touch-title
-  map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.610468885599!2d-122.20319588388924!3d47.61426349544098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c87b4e2f915%3A0x7d3508c77858df2b!2s10400%20NE%204th%20St%2C%20Bellevue%2C%20WA%2098004!5e0!3m2!1sen!2sus!4v1585860828528!5m2!1sen!2sus
-  city:
-    name: i18n-content-about-_index-touch-city-name
-    items:
-      - icon: map-marker
-        text: i18n-content-about-_index-touch-city-items-i_0-text
-      - icon: email
-        text: i18n-content-about-_index-touch-city-items-i_1-text
-      - icon: phone
-        text: i18n-content-about-_index-touch-city-items-i_2-text
 bottom_cta:
   title: i18n-content-about-_index-bottom_cta-title
   cta:

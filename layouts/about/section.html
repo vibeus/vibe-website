@@ -150,52 +150,7 @@
 </section>
 {{ end }}
 
-{{ with .Params.touch }}
-<section class="section is-get-touch" id="contact">
-  <div class="container">
-    <h1 class="title is-section-title">{{ T .title }}</h1>
-    <div class="columns">
-      <div class="column is-map">
-        {{ with .map }}
-        <iframe src="{{ . }}" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        {{ end }}
-      </div>
-      <div class="column is-contact is-one-third-desktop is-two-fifths-tablet">
-        <div class="contact">
-          {{ with .city }}
-          <h2 class="title">{{ T .name }}</h2>
-          {{ range .items }}
-          <div class="content">
-            <span class="icon">
-              {{ partial "common/mdi" (print .icon ":24") }}
-            </span>
-            {{ T .text | markdownify }}
-          </div>
-          {{ with .figure }}
-          <figure class="image{{ with .class }} {{ . }}{{ end }}">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .asset) "desktop" "190x") }}
-          </figure>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </div>
-
-        {{ with $.Site.Data.common.foot.socials }}
-        <div class="social">
-          {{ range . }}
-          <a href="{{ .url }}" target="_blank">
-            <span class="icon is-medium">
-              {{ partial "common/mdi" (print .icon ":16") }}
-            </span>
-          </a>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
+{{ partial "get-in-touch" . }}
 
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}

@@ -1234,21 +1234,6 @@ other = "西雅图团队 - 新年 Party"
 [i18n-content-about-_index-investors-title]
 other = "我们的投资者"
 
-[i18n-content-about-_index-touch-title]
-other = "联系我们"
-
-[i18n-content-about-_index-touch-city-name]
-other = "杭州"
-
-[i18n-content-about-_index-touch-city-items-i_0-text]
-other = "杭州市余杭区天时科创园3幢902"
-
-[i18n-content-about-_index-touch-city-items-i_1-text]
-other = "<info@vize.com.cn>"
-
-[i18n-content-about-_index-touch-city-items-i_2-text]
-other = "扫码在线咨询"
-
 [i18n-content-about-_index-hello-title]
 other = "Hello world, we’re Vibe."
 
@@ -1932,6 +1917,55 @@ other = "Experience Vibe for yourself"
 [i18n-content-comparison-_index-bottom_cta-cta-title]
 other = "Request a Demo"
 
+[i18n-content-service-_index-zh-title]
+other = "服务支持"
+
+[i18n-content-service-_index-zh-hero-title]
+other = "Vize 智能平板"
+
+[i18n-content-service-_index-zh-hero-body]
+other = "Vize是一款为协作而生的交互式智能白板，搭载了4K 55英寸屏幕和内置扬声器。"
+
+[i18n-content-service-_index-zh-hero-cta-title]
+other = "下载用户说明书"
+
+[i18n-content-service-_index-zh-commitments-title]
+other = "服务承诺"
+
+[i18n-content-service-_index-zh-commitments-body]
+other = """Vize 服务承诺严格执行国家三包法，遵守行业准则，并充分尊重消费者权益，为消费者提供全方位服务保障和
+郑重承诺。Vize 承诺负责修理、更换、退货，Vize授权服务中心需参照本政策开展工作。"""
+
+[i18n-content-service-_index-zh-commitments-items-i_0-title]
+other = "一年质保"
+
+[i18n-content-service-_index-zh-commitments-items-i_1-title]
+other = "7 天无理由退换"
+
+[i18n-content-service-_index-zh-commitments-items-i_2-title]
+other = "质量问题，30天换新"
+
+[i18n-content-service-_index-zh-commitments-items-i_3-title]
+other = "上门安装"
+
+[i18n-content-service-_index-zh-commitments-items-i_4-title]
+other = "100+ 家服务网点"
+
+[i18n-content-service-_index-zh-commitments-items-i_5-title]
+other = "48 小时上门服务"
+
+[i18n-content-service-_index-zh-commitments-cta-title]
+other = "查看服务政策"
+
+[i18n-content-service-_index-zh-bottom_cta-title]
+other = "开启全新合作体验"
+
+[i18n-content-service-_index-zh-bottom_cta-cta-buttons-i_0-title]
+other = "演示视频"
+
+[i18n-content-service-_index-zh-bottom_cta-cta-buttons-i_1-title]
+other = "立即购买"
+
 [i18n-content-customer-_index-title]
 other = "Vize 改变了他们的工作"
 
@@ -2177,6 +2211,21 @@ other = "Construction"
 
 [i18n-data-android_apps_category-base-types-i_11-name]
 other = "Other"
+
+[i18n-content-about-_index-touch-title]
+other = "联系我们"
+
+[i18n-content-about-_index-touch-city-name]
+other = "杭州"
+
+[i18n-content-about-_index-touch-city-items-i_0-text]
+other = "杭州市余杭区天时科创园3幢902"
+
+[i18n-content-about-_index-touch-city-items-i_1-text]
+other = "<info@vize.com.cn>"
+
+[i18n-content-about-_index-touch-city-items-i_2-text]
+other = "扫码在线咨询"
 
 [i18n-manual-story-industry]
 other = "行业"

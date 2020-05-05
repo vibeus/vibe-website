@@ -2,6 +2,9 @@ content/apps/**/*.md
 content/blog/**/*.md
 content/demo/work-from-home.md
 content/documents/**/*.md
+content/service/install*.md
+content/service/stores*.md
+content/service/warranty*.md
 content/video-tutorial/**/*.md
 content/well-known/**/*.md
 data/android_apps.yaml
