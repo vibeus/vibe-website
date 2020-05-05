@@ -5,6 +5,12 @@
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 {{ define "main" }}<main class="android-app-store">
+{{ $category := merge .Site.Data.android_apps_category.base (default (dict) (index .Site.Data.android_apps_category .Site.Language.Lang)) }}
+{{ $apps := slice }}
+{{ range cond (eq .Site.Language.Lang "zh") .Site.Data.android_apps_zh.apps .Site.Data.android_apps.apps }}
+{{ $src := resources.Get (print "img/android-app-store/icons/" .id ".png" ) | resources.Fingerprint }}
+{{ $apps = $apps | append (merge . (dict "icon" $src.RelPermalink)) }}
+{{ end }}
 
 {{ with .Params.hero }}
 <section class="hero">
@@ -30,16 +36,16 @@
         <h2 class="title">{{ T .title }}</h2>
         {{ end }}
 
-        <h3 class="subtitle">Category</h3>
-        {{ range .Site.Data.android_apps_category.use_cases }}
+        <h3 class="subtitle">{{ T "i18n-manual-android-app-store-category" }}</h3>
+        {{ range $category.use_cases }}
         <div class="use-case-item">
-          <a class="side-bar-link is-use-case" href="#" data-id="{{ .id }}">{{ .name }}</a>
+          <a class="side-bar-link is-use-case" href="#" data-id="{{ .id }}">{{ T .name }}</a>
         </div>
         {{ end }}
-        <h3 class="subtitle">Type of tool</h3>
-        {{ range .Site.Data.android_apps_category.types }}
+        <h3 class="subtitle">{{ T "i18n-manual-android-app-store-type-of-tool" }}</h3>
+        {{ range $category.types }}
         <div class="type-item">
-          <a class="side-bar-link is-type" href="#" data-id="{{ .id }}">{{ .name }}</a>
+          <a class="side-bar-link is-type" href="#" data-id="{{ .id }}">{{ T .name }}</a>
         </div>
         {{ end }}
       </div>
@@ -52,7 +58,7 @@
           <div class="content">{{ T .body | markdownify }}</div>
           {{ with .cta }}
           <div class="cta">
-            <a class="button is-black is-rounded is-large" href="{{ .url }}">{{ T .title }}</a>
+            <a class="button is-black is-rounded is-large" href="{{ .url | relLangURL }}">{{ T .title }}</a>
           </div>
           {{ end }}
         </div>
@@ -62,5 +68,5 @@
   </div>
 </section>
 
-{{ partial "common/template-script" (dict "asset" "js/android-app-store.js" "context" .) }}
+{{ partial "common/template-script" (dict "asset" "js/android-app-store.js" "context" . "category" $category "apps" $apps) }}
 </main>{{ end }}

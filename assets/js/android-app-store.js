@@ -1,17 +1,23 @@
 /*
-{{ $apps := slice }}
-{{ range .context.Site.Data.android_apps.apps }}
-{{ $src := resources.Get (print "img/android-app-store/icons/" .id ".png" ) | resources.Fingerprint }}
-{{ $apps = $apps | append (merge . (dict "icon" $src.RelPermalink)) }}
-{{ end }}
 {{ $searchIcon := resources.Get "mdi/svg/magnify.svg" | resources.Fingerprint }}
 */
 
-const category = JSON.parse(
-  '{{ .context.Site.Data.android_apps_category | jsonify }}'
-);
-const apps = JSON.parse('{{ $apps | jsonify }}');
+const category = JSON.parse('{{ .category | jsonify }}');
+const apps = JSON.parse('{{ .apps | jsonify }}');
 const searchIcon = '{{ $searchIcon.RelPermalink }}';
+const i18n = {};
+// {{ range .category.use_cases }}
+i18n['{{ .name }}'] = '{{ T .name }}';
+// {{ end }}
+// {{ range .category.types }}
+i18n['{{ .name }}'] = '{{ T .name }}';
+// {{ end }}
+i18n['i18n-manual-android-app-store-see-all'] =
+  '{{ T "i18n-manual-android-app-store-see-all" }}';
+i18n['i18n-manual-android-app-store-clear-filter'] =
+  '{{ T "i18n-manual-android-app-store-clear-filter" }}';
+i18n['i18n-manual-android-app-store-featured-apps'] =
+  '{{ T "i18n-manual-android-app-store-featured-apps" }}';
 
 apps.sort((x, y) => {
   const lx = x.name.toLowerCase();
@@ -84,7 +90,7 @@ const AppItem = ({ item }) => {
         {
           className: 'app-type',
         },
-        category.types.find((x) => x.id === item.type).name
+        i18n[category.types.find((x) => x.id === item.type).name]
       )
     )
   );
@@ -147,7 +153,7 @@ const ListHeader = ({ title, onSeeAllClick }) => {
                   onSeeAllClick && onSeeAllClick();
                 },
               },
-              'See All'
+              i18n['i18n-manual-android-app-store-see-all']
             )
           )
         )
@@ -172,12 +178,12 @@ const DefaultView = () => {
       className: 'default-view',
     },
     e(AppListWithHeader, {
-      title: 'Featured apps',
+      title: i18n['i18n-manual-android-app-store-featured-apps'],
       apps: apps.filter((x) => x.featured).slice(0, 6),
     }),
     category.use_cases.map((u) =>
       e(AppListWithHeader, {
-        title: u.name,
+        title: i18n[u.name],
         apps: apps.filter((x) => x.use_case === u.id).slice(0, 6),
         onSeeAllClick: () => setState({ useCase: u.id }),
       })
@@ -197,7 +203,7 @@ const ClearFilter = () => {
         className: 'button is-rounded is-black is-outlined',
         onClick: () => setState({}),
       },
-      'Clear Filter'
+      i18n['i18n-manual-android-app-store-clear-filter']
     )
   );
 };

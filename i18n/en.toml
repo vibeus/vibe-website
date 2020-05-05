@@ -2203,6 +2203,51 @@ other = "Shenzhen"
 [i18n-data-locations-locations-cities-i_4-name]
 other = "Shanghai"
 
+[i18n-data-android_apps_category-base-use_cases-i_0-name]
+other = "Remote collaboration"
+
+[i18n-data-android_apps_category-base-use_cases-i_1-name]
+other = "Presentation"
+
+[i18n-data-android_apps_category-base-use_cases-i_2-name]
+other = "Project management"
+
+[i18n-data-android_apps_category-base-types-i_0-name]
+other = "Web Browser"
+
+[i18n-data-android_apps_category-base-types-i_1-name]
+other = "Design and Creativity"
+
+[i18n-data-android_apps_category-base-types-i_2-name]
+other = "Communication"
+
+[i18n-data-android_apps_category-base-types-i_3-name]
+other = "Voice and Video"
+
+[i18n-data-android_apps_category-base-types-i_4-name]
+other = "Productivity"
+
+[i18n-data-android_apps_category-base-types-i_5-name]
+other = "File Management"
+
+[i18n-data-android_apps_category-base-types-i_6-name]
+other = "Project Management"
+
+[i18n-data-android_apps_category-base-types-i_7-name]
+other = "Education"
+
+[i18n-data-android_apps_category-base-types-i_8-name]
+other = "Entertainment"
+
+[i18n-data-android_apps_category-base-types-i_9-name]
+other = "Data Visualization"
+
+[i18n-data-android_apps_category-base-types-i_10-name]
+other = "Construction"
+
+[i18n-data-android_apps_category-base-types-i_11-name]
+other = "Other"
+
 [i18n-manual-story-industry]
 other = "Industry"
 
@@ -2217,3 +2262,18 @@ other = "Key Factors"
 
 [i18n-manual-story-read_more]
 other = "Read more →"
+
+[i18n-manual-android-app-store-see-all]
+other = "See All"
+
+[i18n-manual-android-app-store-clear-filter]
+other = "Clear Filter"
+
+[i18n-manual-android-app-store-featured-apps]
+other = "Featured Apps"
+
+[i18n-manual-android-app-store-category]
+other = "Category"
+
+[i18n-manual-android-app-store-type-of-tool]
+other = "Type of tool"

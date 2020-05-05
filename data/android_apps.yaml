@@ -11,18 +11,27 @@ apps:
 - id: com.adobe.sparklerandroid
   name: Adobe XD
   type: design
-- featured: true
-  id: com.android.chrome
+- id: com.amazon.avod.thirdpartyclient
+  name: Prime Video
+  type: entertainment
+- id: com.android.chrome
   name: Chrome
   type: browser
+  featured: true
 - id: com.asana.app
   name: Asana
-  type: project
   use_case: project
+  type: project
 - id: com.atlassian.android.jira.core
   name: Jira Cloud
-  type: project
   use_case: project
+  type: project
+- id: com.att.tv
+  name: AT&T TV
+  type: entertainment
+- id: com.att.tv.watchtv
+  name: AT&T WatchTV
+  type: entertainment
 - id: com.blackboard.android.bbstudent
   name: Blackboard
   type: education
@@ -31,16 +40,16 @@ apps:
   type: construction
 - id: com.cisco.webex.meetings
   name: Webex
-  type: av
   use_case: remote
+  type: av
 - id: com.citrix.Receiver
   name: Workspace
   type: productivity
-- featured: true
-  id: com.dropbox.android
+- id: com.dropbox.android
   name: DropBox
-  type: file
   use_case: presentation
+  type: file
+  featured: true
 - id: com.dropbox.paper
   name: DropBox Paper
   type: productivity
@@ -52,76 +61,76 @@ apps:
   type: productivity
 - id: com.google.android.youtube
   name: YouTube
-  type: av
   use_case: presentation
+  type: av
 - id: com.google.earth
   name: Earth
   type: other
 - id: com.gotomeeting
   name: GoToMeeting
-  type: av
   use_case: remote
+  type: av
 - id: com.instructure.candroid
   name: Canvas
   type: education
 - id: com.logmein.gotowebinar
   name: GoToWebinar
-  type: av
   use_case: remote
+  type: av
 - id: com.lucidchart.android.chart
   name: Lucidchart
-  type: productivity
   use_case: presentation
+  type: productivity
 - id: com.microsoft.office.excel
   name: Microsoft Excel
   type: productivity
 - id: com.microsoft.office.lync15
   name: Skype for Business
-  type: av
   use_case: remote
+  type: av
 - id: com.microsoft.office.onenote
   name: Microsoft OneNote
   type: productivity
 - id: com.microsoft.office.outlook
   name: Outlook
-  type: communication
   use_case: remote
+  type: communication
 - id: com.microsoft.office.powerpoint
   name: Microsoft PowerPoint
-  type: productivity
   use_case: presentation
+  type: productivity
 - id: com.microsoft.office.word
   name: Microsoft Word
   type: productivity
 - id: com.microsoft.powerbim
   name: Power BI
+  use_case: presentation
   type: data_viz
-  use_case: presentation
-- featured: true
-  id: com.microsoft.skydrive
+- id: com.microsoft.skydrive
   name: OneDrive
-  type: file
   use_case: presentation
-- featured: true
-  id: com.microsoft.teams
+  type: file
+  featured: true
+- id: com.microsoft.teams
   name: Microsoft Teams
-  type: communication
   use_case: remote
+  type: communication
+  featured: true
 - id: com.microsoft.todos
   name: To Do
-  type: project
   use_case: project
+  type: project
 - id: com.microsoft.windowsintune.companyportal
   name: Company Portal
   type: productivity
 - id: com.monday.monday
   name: Monday
-  type: project
   use_case: project
+  type: project
 - id: com.my.mail
   name: myMail
-  type: communication
   use_case: remote
+  type: communication
 - id: com.netflix.mediaclient
   name: Netflix
   type: entertainment
@@ -133,47 +142,47 @@ apps:
   type: education
 - id: com.realtimeboard
   name: Miro
-  type: productivity
   use_case: presentation
+  type: productivity
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
-  type: av
   use_case: remote
+  type: av
 - id: com.skype.m2
   name: Skype Lite
+  use_case: remote
   type: av
-  use_case: remote
-- featured: true
-  id: com.slack
+- id: com.slack
   name: Slack
-  type: communication
   use_case: remote
+  type: communication
+  featured: true
 - id: com.teamviewer.teamviewer.market.mobile
   name: TeamViewer
-  type: productivity
   use_case: remote
+  type: productivity
 - id: com.trello
   name: Trello
-  type: project
   use_case: project
+  type: project
 - id: com.uberconference
   name: Uber Conference
-  type: av
   use_case: remote
+  type: av
 - id: com.wrike
   name: Wrike
-  type: project
   use_case: project
+  type: project
 - id: com.zoho.projects
   name: Zoho Projects
-  type: project
   use_case: project
+  type: project
 - id: me.bluemail.mail
   name: Blue Mail
+  use_case: remote
   type: communication
-  use_case: remote
-- featured: true
-  id: us.zoom.videomeetings
+- id: us.zoom.videomeetings
   name: Zoom
-  type: av
   use_case: remote
+  type: av
+  featured: true

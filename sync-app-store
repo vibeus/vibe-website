@@ -3,13 +3,10 @@ import json
 import os
 import requests
 import yaml
-
-app_list_json = "https://dl.vibe.us/configs/whitelist/vibe.json"
-app_list_yaml = "./data/android_apps.yaml"
-black_list = ["com.android.rk"]
+from colorama import Fore, Style
 
 
-def main():
+def sync_apps(app_list_json, app_list_yaml, black_list):
     resp = requests.get(app_list_json)
     remote_list = resp.json()
 
@@ -28,7 +25,7 @@ def main():
         app_id = app.get("package", "")
         remote_icon = app.get("icon", "")
         if not app_id or app_id in black_list or not remote_icon:
-            print("Ignore app: {}".format(app_id))
+            print(Style.DIM + "Ignore app: {}".format(app_id) + Style.RESET_ALL)
             continue
         local_icon = "assets/img/android-app-store/icons/{}.png".format(app_id)
         icon_resp = requests.get(remote_icon)
@@ -37,23 +34,60 @@ def main():
         app_obj = local_map.get(app_id, {})
         if app_id in local_map:
             del local_map[app_id]
-        app_obj["name"] = app.get("name", "")
         app_obj["id"] = app_id
+        app_obj["name"] = app.get("name", "")
         new_map[app_id] = app_obj
 
     apps_to_save = []
+    featured_count = 0
     for v in new_map.values():
         apps_to_save.append(v)
+        if "use_case" not in v:
+            print(
+                Fore.YELLOW
+                + "WARNING: app [{}] does not have use_case.".format(v["id"])
+                + Style.RESET_ALL
+            )
+        if "type" not in v:
+            print(
+                Fore.RED
+                + "ERROR: app [{}] does not have type.".format(v["id"])
+                + Style.RESET_ALL
+            )
+        if v.get("featured", False):
+            featured_count += 1
+
+    if featured_count != 6:
+        print(
+            Fore.YELLOW
+            + "WARNING: there should be 6 featured apps but {} found.".format(
+                featured_count
+            )
+            + Style.RESET_ALL
+        )
 
     apps_to_save.sort(key=lambda x: x["id"])
     with open(app_list_yaml, "w") as f:
         apps = {"apps": apps_to_save}
-        yaml.dump(apps, f)
+        yaml.dump(apps, f, allow_unicode=True, sort_keys=False)
 
     print(
         "Saved {} apps, removed {} existing apps.".format(
             len(apps_to_save), len(local_map)
         )
+    )
+
+
+def main():
+    sync_apps(
+        "https://dl.vibe.cn/configs/whitelist/vibe.json",
+        "./data/android_apps_zh.yaml",
+        ["com.android.rk"],
+    )
+    sync_apps(
+        "https://dl.vibe.us/configs/whitelist/vibe.json",
+        "./data/android_apps.yaml",
+        ["com.android.rk"],
     )
 
 

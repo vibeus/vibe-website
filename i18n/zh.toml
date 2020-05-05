@@ -465,27 +465,25 @@ other = "Login Failed"
 other = "Login to vibe failed"
 
 [i18n-content-android-app-store-_index-title]
-other = "Use your favorite apps"
+other = "你惯用的 App 都在这里"
 
 [i18n-content-android-app-store-_index-hero-title]
-other = "Use your favorite apps"
+other = "你惯用的 App 都在这里"
 
 [i18n-content-android-app-store-_index-hero-body]
-other = "Vibe’s open ecosystem allows you to use the apps that your team already knows and loves."
+other = "Vize 的开放式智能系统使您可以使用团队已经了解和喜爱的应用程序。"
 
 [i18n-content-android-app-store-_index-side_bar-title]
-other = "Marketplace"
+other = "应用市场"
 
 [i18n-content-android-app-store-_index-bottom_cta-title]
-other = "Want something else?"
+other = "想要使用其他的 App? "
 
 [i18n-content-android-app-store-_index-bottom_cta-body]
-other = """We’re constantly adding new apps.
-
-Let us know what you need."""
+other = "我们会持续的加入新的 App，请告诉我们你的需求。"
 
 [i18n-content-android-app-store-_index-bottom_cta-cta-title]
-other = "Contact us"
+other = "联系我们"
 
 [i18n-content-contact-_index-title]
 other = "Contact us"
@@ -2135,6 +2133,51 @@ other = "深圳"
 [i18n-data-locations-locations-cities-i_4-name]
 other = "上海"
 
+[i18n-data-android_apps_category-base-use_cases-i_0-name]
+other = "远程协作"
+
+[i18n-data-android_apps_category-base-use_cases-i_1-name]
+other = "内容生产"
+
+[i18n-data-android_apps_category-base-use_cases-i_2-name]
+other = "文件管理"
+
+[i18n-data-android_apps_category-base-types-i_0-name]
+other = "浏览器"
+
+[i18n-data-android_apps_category-base-types-i_1-name]
+other = "设计工具"
+
+[i18n-data-android_apps_category-base-types-i_2-name]
+other = "商务沟通"
+
+[i18n-data-android_apps_category-base-types-i_3-name]
+other = "视频会议"
+
+[i18n-data-android_apps_category-base-types-i_4-name]
+other = "文档编辑"
+
+[i18n-data-android_apps_category-base-types-i_5-name]
+other = "文件管理"
+
+[i18n-data-android_apps_category-base-types-i_6-name]
+other = "项目管理"
+
+[i18n-data-android_apps_category-base-types-i_7-name]
+other = "教育"
+
+[i18n-data-android_apps_category-base-types-i_8-name]
+other = "娱乐"
+
+[i18n-data-android_apps_category-base-types-i_9-name]
+other = "Data Visualization"
+
+[i18n-data-android_apps_category-base-types-i_10-name]
+other = "Construction"
+
+[i18n-data-android_apps_category-base-types-i_11-name]
+other = "Other"
+
 [i18n-manual-story-industry]
 other = "行业"
 
@@ -2150,5 +2193,17 @@ other = "关键词"
 [i18n-manual-story-read_more]
 other = "了解更多 →"
 
-[i18n-content-video-tutorial-_index-title]
-other = "Vibe Tutorials"
+[i18n-manual-android-app-store-see-all]
+other = "查看全部"
+
+[i18n-manual-android-app-store-clear-filter]
+other = "重置"
+
+[i18n-manual-android-app-store-featured-apps]
+other = "精选应用"
+
+[i18n-manual-android-app-store-category]
+other = "应用场景"
+
+[i18n-manual-android-app-store-type-of-tool]
+other = "工具类型"

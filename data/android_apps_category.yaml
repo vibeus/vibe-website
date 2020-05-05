@@ -1,33 +1,60 @@
-use_cases:
-  - id: remote
-    name: Remote collaboration
-  - id: presentation
-    name: Presentation
-  - id: project
-    name: Project management
-
-types:
-  - id: browser
-    name: Web Browser
-  - id: design
-    name: Design and Creativity
-  - id: communication
-    name: Communication
-  - id: av
-    name: Voice and Video
-  - id: productivity
-    name: Productivity
-  - id: file
-    name: File Management
-  - id: project
-    name: Project Management
-  - id: education
-    name: Education
-  - id: entertainment
-    name: Entertainment
-  - id: data_viz
-    name: Data Visualization
-  - id: construction
-    name: Construction
-  - id: other
-    name: Other
+base:
+  use_cases:
+    - id: remote
+      name: i18n-data-android_apps_category-base-use_cases-i_0-name
+    - id: presentation
+      name: i18n-data-android_apps_category-base-use_cases-i_1-name
+    - id: project
+      name: i18n-data-android_apps_category-base-use_cases-i_2-name
+  types:
+    - id: browser
+      name: i18n-data-android_apps_category-base-types-i_0-name
+    - id: design
+      name: i18n-data-android_apps_category-base-types-i_1-name
+    - id: communication
+      name: i18n-data-android_apps_category-base-types-i_2-name
+    - id: av
+      name: i18n-data-android_apps_category-base-types-i_3-name
+    - id: productivity
+      name: i18n-data-android_apps_category-base-types-i_4-name
+    - id: file
+      name: i18n-data-android_apps_category-base-types-i_5-name
+    - id: project
+      name: i18n-data-android_apps_category-base-types-i_6-name
+    - id: education
+      name: i18n-data-android_apps_category-base-types-i_7-name
+    - id: entertainment
+      name: i18n-data-android_apps_category-base-types-i_8-name
+    - id: data_viz
+      name: i18n-data-android_apps_category-base-types-i_9-name
+    - id: construction
+      name: i18n-data-android_apps_category-base-types-i_10-name
+    - id: other
+      name: i18n-data-android_apps_category-base-types-i_11-name
+zh:
+  use_cases:
+    - id: remote
+      name: i18n-data-android_apps_category-base-use_cases-i_0-name
+    - id: content
+      name: i18n-data-android_apps_category-base-use_cases-i_1-name
+    - id: file
+      name: i18n-data-android_apps_category-base-use_cases-i_2-name
+  types:
+    - id: browser
+      name: i18n-data-android_apps_category-base-types-i_0-name
+    - id: design
+      name: i18n-data-android_apps_category-base-types-i_1-name
+    - id: communication
+      name: i18n-data-android_apps_category-base-types-i_2-name
+    - id: av
+      name: i18n-data-android_apps_category-base-types-i_3-name
+    - id: productivity
+      name: i18n-data-android_apps_category-base-types-i_4-name
+    - id: file
+      name: i18n-data-android_apps_category-base-types-i_5-name
+    - id: project
+      name: i18n-data-android_apps_category-base-types-i_6-name
+    - id: education
+      name: i18n-data-android_apps_category-base-types-i_7-name
+    - id: entertainment
+      name: i18n-data-android_apps_category-base-types-i_8-name
