@@ -11,8 +11,8 @@
   <div class="hero-body">
     <div class="container">
       <div>
-        <h1 class="title">{{ .title }}</h1>
-        <div class="content">{{ .body | markdownify }}</div>
+        <h1 class="title">{{ T .title }}</h1>
+        <div class="content">{{ T .body | markdownify }}</div>
       </div>
       <figure class="image is-hidden-mobile">
         {{ partial "common/srcset" (dict "resource" (resources.Get "/img/android-app-store/hero.png") "desktop" "474x" "mobile" "1x") }}
@@ -27,7 +27,7 @@
     <div class="columns">
       <div class="column is-side-bar">
         {{ with .Params.side_bar }}
-        <h2 class="title">{{ .title }}</h2>
+        <h2 class="title">{{ T .title }}</h2>
         {{ end }}
 
         <h3 class="subtitle">Category</h3>
@@ -48,11 +48,11 @@
         </div>
         {{ with .Params.bottom_cta }}
         <div class="bottom-cta">
-          <h2 class="title">{{ .title }}</h2>
-          <div class="content">{{ .body | markdownify }}</div>
+          <h2 class="title">{{ T .title }}</h2>
+          <div class="content">{{ T .body | markdownify }}</div>
           {{ with .cta }}
           <div class="cta">
-            <a class="button is-black is-rounded is-large" href="{{ .url }}">{{ .title }}</a>
+            <a class="button is-black is-rounded is-large" href="{{ .url }}">{{ T .title }}</a>
           </div>
           {{ end }}
         </div>

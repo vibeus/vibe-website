@@ -1,168 +1,99 @@
 ---
-title: Collaboration software for however you work
+title: i18n-content-software-_index-title
 stylesPath: css/software.sass
-
 hero:
-  title: Collaboration software for however you work
-  body: |
-    Do your best work with the freedom to communicate and create interactively. Whether you’re building a project
-    alongside your team members, conducting a training session, or presenting in a client meeting, Vibe’s
-    collaboration software makes it easy to share ideas.
+  title: i18n-content-software-_index-hero-title
+  body: i18n-content-software-_index-hero-body
   cta:
-    title: Start Free Trial
+    title: i18n-content-software-_index-hero-cta-title
     class: is-black is-rounded is-outlined
     url: https://app.vibe.us/login?auth_type=guest
   video_id: jCbQM95PA9U
-
 feature_overall:
-  title: Create great ideas with your team
+  title: i18n-content-software-_index-feature_overall-title
   items:
-    - title: Infinite Canvas
-      body: Unleash your creativity on an unlimited, partitioned canvas.
+    - title: i18n-content-software-_index-feature_overall-items-i_0-title
+      body: i18n-content-software-_index-feature_overall-items-i_0-body
       figure: img/software/infinite-canvas.png
-    - title: Smart Drawing
-      body: Keep things neat with smart drawing for AI text and smart objects.
+    - title: i18n-content-software-_index-feature_overall-items-i_1-title
+      body: i18n-content-software-_index-feature_overall-items-i_1-body
       figure: img/software/smart-drawing.png
-    - title: Import Documents
-      body: Start your work faster by importing documents or images.
+    - title: i18n-content-software-_index-feature_overall-items-i_2-title
+      body: i18n-content-software-_index-feature_overall-items-i_2-body
       figure: img/software/templates.png
-
 feature_collaboration:
-  title: Collaboration has never been easier
-  subtitle: Edit in real-time on your choice of device
-  body: |
-    Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC,
-    or tablet (Mobile app is view-only). Seamlessly collaborate in real time on whichever devices work best for your team.
-
+  title: i18n-content-software-_index-feature_collaboration-title
+  subtitle: i18n-content-software-_index-feature_collaboration-subtitle
+  body: i18n-content-software-_index-feature_collaboration-body
 feature_presentation:
-  title: Kick boring presentations to the curb
+  title: i18n-content-software-_index-feature_presentation-title
   items:
-    - title: Screencast enhanced with touch
-      body: |
-        Fluidly bring content to Vibe by wirelessly casting your screen to Vibe or by connecting in via HDMI.
-        With your screen cast, you can annotate as needed, share via video conferencing, or pin screenshots.
-        It's like a 2nd monitor enhanced with touch.
+    - title: i18n-content-software-_index-feature_presentation-items-i_0-title
+      body: i18n-content-software-_index-feature_presentation-items-i_0-body
       figure: img/software/presentation-1.png
       index: 1
-    - title: Leave your mark, again and again
-      body: |
-        Import **PDFs, documents, screenshots, and images** into the board's canvas and use whiteboarding features
-        on top of your documents—dynamically editing or annotating in real time during your meeting.
-        Afterwards, easily export your board to PDF so your team has an action plan and digital record.
+    - title: i18n-content-software-_index-feature_presentation-items-i_1-title
+      body: i18n-content-software-_index-feature_presentation-items-i_1-body
       figure: img/software/presentation-2.gif
       animated: true
       index: 2
-
 feature_apps:
-  title: All of your favorite apps included
+  title: i18n-content-software-_index-feature_apps-title
   items:
-    - title: Folders linked with Cloud Drive
-      body: Easily access your Google Drive, OneDrive, Dropbox, and Box files straight from the Vibe board.
+    - title: i18n-content-software-_index-feature_apps-items-i_0-title
+      body: i18n-content-software-_index-feature_apps-items-i_0-body
       figure: img/software/apps-1.png
-    - title: Over 40 integrated apps
-      body: Streamline your workflow with integrations to Slack, Jira, Asana, Zoom, Microsoft Office, and more.
+    - title: i18n-content-software-_index-feature_apps-items-i_1-title
+      body: i18n-content-software-_index-feature_apps-items-i_1-body
       figure: img/software/apps-2.png
-    - title: Video conferencing apps
-      body: Join or start meetings with the apps your team loves. Use Zoom, Skype, WebEx to connect around the world.
+    - title: i18n-content-software-_index-feature_apps-items-i_2-title
+      body: i18n-content-software-_index-feature_apps-items-i_2-body
       figure: img/software/apps-3.png
   cta:
-    title: See all integrated apps →
-    url: '/android-app-store/'
-
+    title: i18n-content-software-_index-feature_apps-cta-title
+    url: /android-app-store/
 security:
-  title: We are serious about security
-  body: |
-    Carefully vetted security apps, remotely-stored personal information, trusted identity providers,
-    AES-256 encryption and AWS S3 storage work together to keep your intellectual property safe and secure.
+  title: i18n-content-software-_index-security-title
+  body: i18n-content-software-_index-security-body
   cta:
-    title: Learn more →
-    url: '/security/'
-
+    title: i18n-content-software-_index-security-cta-title
+    url: /security/
 testimonial_section:
   testimonials:
     - author:
         logo: img/common/testimonials/sandler.png
-        name: |
-          Shelly Starks
-
-          Associate Partner at Sandler Training, Greater Tampa, FL
-      body: |
-        The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
-        suggestions into the most recent software update. This type of co-collaboration makes working with Vibe
-        a premier experience. Absolutely would recommend it to anyone in the market for a digital white-board!
-      # url: '/customer/'
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_0-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_0-body
     - author:
-        name: |
-          Karen L. Brady
-
-          Estate Planning Attorney, Arvada, Colorado
-      body: |
-        The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-        I am a long-time user of electronic whiteboards, but the interactive and digital features of the Vibe board
-        have exponentially increased both efficiency and the "wow" factor in client meetings.
-      # url: '/customer/'
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_1-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_1-body
     - author:
         logo: img/common/testimonials/kenmore.png
-        name: |
-          Rob Karlinsey
-
-          City Manager at City of Kenmore, Washington
-      body: |
-        With Vibe, I can now just hit “send” after a meeting and share that board with whoever I want.
-        Vibe will save each board automatically, so I can always pull a board back up during any meeting to show
-        people what we’ve discussed. Even better, we like how you can invite remote coworkers in to collaborate
-        on the board in real time from other devices. Vibe is a gamechanger.
-      # url: '/customer/'
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_2-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_2-body
     - author:
         logo: img/common/testimonials/azularc.png
-        name: |
-          Kate Womick
-
-          Product Manager at Azul Arc
-      body: |
-        Vibe’s collaboration factor has been huge. When juggling multiple clients, it’s incredibly helpful to have
-        everything saved in one place so you can easily pick up where you left off.
-        As a UX designer, I like how easy Vibe is to pick up a stylus and sketch on. And for big projects we can
-        even have several people working on a single canvas at once - even from remote locations.
-      # url: '/customer/'
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_3-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_3-body
     - author:
         logo: img/common/testimonials/capgemini.png
-        name: |
-          Peter T. Maloof
-
-          Vice President at Capgemini America
-      body: |
-        We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
-        and communication amongst our team. It also feels very seamless using the Vibe board and app across various
-        devices.
-      # url: '/customer/'
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_4-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_4-body
     - author:
         logo: img/common/testimonials/csi.png
-        name: |
-          Henry Sal, Jr.
-
-          President of Computing System Innovations
-      body: |
-        Best collaboration device we have at our office for memorializing any and all types of
-        meetings – administrative tasks to software design sessions.
-        Incredible device, saves us time and money and allows us to build our AI software products faster!
-        Great job VIBE team, congratulations on a game changer!
-      # url: '/customer/'
-
+        name: i18n-content-software-_index-testimonial_section-testimonials-i_5-author-name
+      body: i18n-content-software-_index-testimonial_section-testimonials-i_5-body
 video_section:
-  title: Vibe is more than software
-  body: |
-    Vibe is a complete collaboration solution, with hardware and software that work together to uplevel
-    your meetings and presentations.
+  title: i18n-content-software-_index-video_section-title
+  body: i18n-content-software-_index-video_section-body
   video:
     id: Ccd4cVrtHTk
     placeholder: img/shared/video.png
   cta:
-    title: Check out the Vibe board →
+    title: i18n-content-software-_index-video_section-cta-title
     url: /hardware/
-
 bottom_cta:
-  title: Experience Vibe for yourself
+  title: i18n-content-software-_index-bottom_cta-title
   cta:
-    title: See a Demo
+    title: i18n-content-software-_index-bottom_cta-cta-title
 ---

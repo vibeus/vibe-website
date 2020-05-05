@@ -1,38 +1,31 @@
 ---
 cascade:
   stylesPath: css/comparison.sass
-
-title: What sets Vibe apart
-
+title: i18n-content-comparison-_index-title
 hero:
-  title: What sets Vibe apart?
-  body: |
-    The interactive whiteboard is the latest, greatest way to bring your vision to life, but how do you know if Vibe
-    is right for you? We've made comparisons as objective and complete as possible, with all details verified at
-    quarterly intervals.
+  title: i18n-content-comparison-_index-hero-title
+  body: i18n-content-comparison-_index-hero-body
   cta:
-    title: Compare all →
+    title: i18n-content-comparison-_index-hero-cta-title
     url: /comparison/all/
-
 competitors:
-  - name: Microsoft Surface Hub
+  - name: i18n-content-comparison-_index-competitors-i_0-name
     figure: img/comparison/surface-hub-w.jpg
     url: /comparison/vibe-vs-microsoft-surface-hub/
-  - name: Google Jamboard
+  - name: i18n-content-comparison-_index-competitors-i_1-name
     figure: img/comparison/jamboard-w.jpg
     url: /comparison/vibe-vs-google-jamboard/
-  - name: Samsung Flip
+  - name: i18n-content-comparison-_index-competitors-i_2-name
     figure: img/comparison/flip-w.jpg
     url: /comparison/vibe-vs-samsung-flip/
-  - name: Cisco WebEx Board
+  - name: i18n-content-comparison-_index-competitors-i_3-name
     figure: img/comparison/webex-w.jpg
     url: /comparison/vibe-vs-cisco-webex-board/
-  - name: SMART board
+  - name: i18n-content-comparison-_index-competitors-i_4-name
     figure: img/comparison/smart-w.jpg
     url: /comparison/vibe-vs-smart-board/
-
 bottom_cta:
-  title: Experience Vibe for yourself
+  title: i18n-content-comparison-_index-bottom_cta-title
   cta:
-    title: Request a Demo
+    title: i18n-content-comparison-_index-bottom_cta-cta-title
 ---

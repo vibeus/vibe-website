@@ -1,5 +1,7 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 @import "_shared.sass"
+@import "_testimonial-section.sass"
+@import "_testimonial.sass"
 @import "_vibe-locations.sass"
 @import "_bottom-cta.sass"
 
@@ -45,6 +47,17 @@
   a:not(:hover)
     color: $vibe-purple
 
+.section.is-testimonial
+  background-color: $vibe-white
+  .content
+    text-align: center
+    padding-top: 12px
+    padding-bottom: 12px
+  .quote-mark svg
+    fill: $vibe-yellow
+  .author
+    text-align: center
+
 .section.is-team
   // bottom padding should start from dots, not from the box shadow.
   // there is no box shadow in mobile so need to adjust.
@@ -70,6 +83,10 @@
     .name
       font-size: 24px
       font-weight: $vibe-bold
+    .desc
+      margin-top: 24px
+      max-width: 240px
+      font-size: 14px
   .photo-gallery
     position: relative
     margin-top: 40px
@@ -97,6 +114,25 @@
         left: 0
       &.is-right
         right: 0
+
+.section.is-values
+  background-color: $vibe-white
+  +vertical-padding(120px)
+  .container
+    max-width: 1000px
+  .title
+    text-align: center
+  .columns
+    justify-content: space-around
+  .column
+    margin-top: 72px
+    max-width: 400px + 24px
+  .image
+    max-width: 100px
+    margin-bottom: 16px
+  .content
+    h2
+      font-size: 24px
 
 .section.is-investors
   +vertical-padding(120px)
@@ -143,6 +179,9 @@
         margin-bottom: 4px
       .icon
         display: block
+    .image.is-qr-support
+      margin-top: -8px
+      max-width: 95px
   .social
     margin-top: 32px
     > a

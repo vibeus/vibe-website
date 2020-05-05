@@ -1,8 +1,6 @@
 ---
 title: i18n-content-customer-_index-title
 stylesPath: css/customer.sass
-aliases:
-  - /use-cases/
 hero:
   title: i18n-content-customer-_index-hero-title
   body: i18n-content-customer-_index-hero-body

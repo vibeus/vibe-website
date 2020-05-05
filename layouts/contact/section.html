@@ -4,8 +4,8 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">{{ .title }}</h1>
-      <div class="content">{{ .body | markdownify }}</div>
+      <h1 class="title">{{ T .title }}</h1>
+      <div class="content">{{ T .body | markdownify }}</div>
     </div>
   </div>
 </section>
@@ -21,9 +21,9 @@
 
   <div class="container is-support">
     {{ with .support }}
-    <h2 class="title">{{ .title }}</h2>
+    <h2 class="title">{{ T .title }}</h2>
     <div class="content">
-      {{ .body | markdownify }}
+      {{ T .body | markdownify }}
     </div>
     {{ end }}
   </div>

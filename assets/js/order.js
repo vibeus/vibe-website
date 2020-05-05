@@ -15,6 +15,12 @@ import { toggleActive } from '{{ $js.RelPermalink }}';
 const e = React.createElement;
 const { useState, useEffect } = React;
 const products = JSON.parse('{{ $products | jsonify }}');
+const products_i18n = {};
+// {{ range $idx, $it := $products }}
+// {{ $i18nKey := $it.title }}
+// {{ $i18nValue := T $it.title }}
+products_i18n['{{ $i18nKey }}'] = '{{ $i18nValue }}';
+// {{ end }}
 const storageKey = 'order/cart';
 const moneyFmt = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -120,7 +126,7 @@ const LineItem = ({ productId, count }) => {
         {
           className: 'product-title',
         },
-        product.title
+        products_i18n[product.title]
       ),
       notice,
       e(

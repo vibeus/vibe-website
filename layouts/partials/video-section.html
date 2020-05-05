@@ -11,13 +11,13 @@
         </div>
       </div>
       <div class="column is-text">
-        <h1 class="title is-section-title">{{ .title }}</h1>
+        <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ default .body (T .body) | markdownify }}
         </div>
         {{ with .cta }}
         <div class="cta">
-          <a href="{{ .url | relLangURL }}">{{ .title }}</a>
+          <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
         </div>
         {{ end }}
       </div>

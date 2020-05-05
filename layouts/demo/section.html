@@ -11,8 +11,8 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-text">
-          <h1 class="title">{{ .title }}</h1>
-          <div class="content">{{ .body | markdownify }}</div>
+          <h1 class="title">{{ T .title }}</h1>
+          <div class="content">{{ T .body | markdownify }}</div>
         </div>
         <div class="column is-image">
           <figure class="image">
@@ -36,7 +36,7 @@
       </div>
       <div class="column is-text">
         {{ range .expect }}
-        <h2 class="title">{{ .title }}</h2>
+        <h2 class="title">{{ T .title }}</h2>
         {{ partial "common/icon-list" .items }}
         {{ end }}
       </div>

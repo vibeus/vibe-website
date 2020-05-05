@@ -4,7 +4,7 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">{{ .title }}</h1>
+      <h1 class="title">{{ T .title }}</h1>
       {{ partial "common/testimonial" .testimonial }}
     </div>
   </div>
@@ -23,7 +23,7 @@
 {{ with .Params.values }}
 <section class="section is-values">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-multiline">
       {{ range .items }}
       <div class="column is-half">
@@ -31,7 +31,7 @@
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
         </figure>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
       {{ end }}
@@ -48,9 +48,9 @@
     </figure>
   </div>
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="content">
-      {{ .body | markdownify }}
+      {{ T .body | markdownify }}
     </div>
   </div>
 </section>
@@ -59,12 +59,12 @@
 {{ with .Params.work }}
 <section class="section is-work">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-multiline">
       {{ range .items }}
       <div class="column is-half">
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
       {{ end }}
@@ -78,9 +78,9 @@
 {{ with .Params.join }}
 <section class="section is-join">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="content">
-      {{ .body | markdownify }}
+      {{ T .body | markdownify }}
     </div>
   </div>
 </section>

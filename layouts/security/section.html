@@ -7,9 +7,9 @@
       <div class="bg-logo">
         {{ (resources.Get "img/security/security-bg.svg").Content | safeHTML }}
       </div>
-      <h1 class="title">{{ .title }}</h1>
+      <h1 class="title">{{ T .title }}</h1>
       <div class="content">
-        {{ .body | markdownify }}
+        {{ T .body | markdownify }}
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@
 {{ with .Params.trust }}
 <section class="section is-trust">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     {{ partial "customers" $.Page }}
   </div>
 </section>
@@ -28,7 +28,7 @@
 {{ with .Params.features }}
 <section class="section is-features">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-multiline">
       {{ range .items }}
       <div class="column is-half">
@@ -36,7 +36,7 @@
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
         </figure>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
       {{ end }}
@@ -50,14 +50,14 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-text is-half">
-        <h1 class="title">{{ .title }}</h1>
+        <h1 class="title">{{ T .title }}</h1>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
         {{ with .cta }}
         <div class="cta">
           <a class="button{{ with .class }} {{ . }}{{ end }}" href="{{ .url }}" target="_blank">
-            {{ .title }}
+            {{ T .title }}
           </a>
         </div>
         {{ end }}
@@ -69,7 +69,7 @@
             <span class="icon">
               {{ partial "common/mdi" "check:24" }}
             </span>
-            <span>{{ . }}</span>
+            <span>{{ T . }}</span>
           </div>
         </div>
         {{ end }}
@@ -82,7 +82,7 @@
 {{ with .Params.privacy }}
 <section class="section is-privacy">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-vcentered">
       <div class="column">
         <figure class="image">
@@ -91,7 +91,7 @@
       </div>
       <div class="column is-text">
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
     </div>

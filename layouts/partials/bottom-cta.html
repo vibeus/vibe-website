@@ -4,9 +4,9 @@
       {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
     </div>
     <div>
-      <h1 class="title is-section-title">{{ .title }}</h1>
+      <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
       {{ with .body }}
-      <div class="content">{{ . | markdownify }}</div>
+      <div class="content">{{ default . (T .) | markdownify }}</div>
       {{ end }}
     </div>
     {{ with .cta }}
@@ -14,13 +14,13 @@
       {{ if .title }}
       <a class="button is-rounded is-black is-outlined"
          href="{{ (default "/demo/" .url) | relLangURL }}">
-        {{ .title }}
+        {{ default .title (T .title) }}
       </a>
       {{ end }}
       {{ range .buttons }}
       <a class="button is-rounded {{ default "is-black is-outlined" .class }}"
          href="{{ .url | relLangURL }}">
-        {{ .title }}
+        {{ default .title (T .title) }}
       </a>
       {{ end }}
     </div>

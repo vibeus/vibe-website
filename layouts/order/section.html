@@ -61,8 +61,8 @@
           </div>
         </div>
         <div class="column is-text">
-          <h1 class="title">{{ .title }}</h1>
-          <div class="content">{{ .body | markdownify }}</div>
+          <h1 class="title">{{ T .title }}</h1>
+          <div class="content">{{ T .body | markdownify }}</div>
           <div class="item-price">${{ .price | lang.NumFmt (default 0 .precision) }}</div>
           <div class="content is-shipping">
             {{ .shipping | markdownify }}
@@ -103,14 +103,14 @@
 {{ with .Params.accessories }}
 <section class="section is-accessories">
   <div class="container">
-    <h2 class="title is-section-title">{{ .title }}</h2>
+    <h2 class="title is-section-title">{{ T .title }}</h2>
     <div class="columns">
       {{ range .items }}
       <div class="column">
         <figure class="image">
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x" "mobile" "750x" "options" "jpg #FFFFFF") }}
         </figure>
-        <h3 class="title">{{ .title }}</h3>
+        <h3 class="title">{{ T .title }}</h3>
         <p class="price">${{ .price | lang.NumFmt (default 0 .precision) }}</p>
         <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
           <div class="control is-count has-icons-left has-icons-right{{ if .sold_out }} is-disabled{{ end }}">
@@ -157,7 +157,7 @@
 {{ with .Params.reviews }}
 <section class="section is-reviews">
   <div class="container">
-    <h2 class="title is-section-title">{{ .title }}</h2>
+    <h2 class="title is-section-title">{{ T .title }}</h2>
     <div class="columns is-vcentered is-mobile">
       <div class="column is-stars">
         {{ $total := 0 }}

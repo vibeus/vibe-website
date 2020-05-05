@@ -8,16 +8,16 @@
     <div class="column is-profile">
       <div class="columns is-mobile">
         <div class="column">
-          <p>Industry</p>
-          <p>{{ .industry }}</p>
+          <p>{{ T "i18n-manual-story-industry" }}</p>
+          <p>{{ T .industry }}</p>
         </div>
         <div class="column">
-          <p>Employees</p>
+          <p>{{ T "i18n-manual-story-employees" }}</p>
           <p>{{ .employees }}</p>
         </div>
         <div class="column">
-          <p>Region</p>
-          <p>{{ .region }}</p>
+          <p>{{ T "i18n-manual-story-region" }}</p>
+          <p>{{ T .region }}</p>
         </div>
       </div>
     </div>
@@ -27,17 +27,17 @@
     {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "1980x" "tablet" "1440x" "mobile" "750x") }}
   </figure>
   {{ with .caption }}
-  <p class="caption">{{ . }}</p>
+  <p class="caption">{{ T . }}</p>
   {{ end }}
 
-  <h2 class="title">{{ .title }}</h2>
-  <h3 class="subtitle">Key Factors</h3>
+  <h2 class="title">{{ T .title }}</h2>
+  <h3 class="subtitle">{{ T "i18n-manual-story-key_factors" }}</h3>
 
   <div class="columns is-mobile is-key-factor">
     {{ range .key_factors }}
     <div class="column">
       <div class="key-factor">
-        <p>{{ . }}</p>
+        <p>{{ T . }}</p>
       </div>
     </div>
     {{ end }}

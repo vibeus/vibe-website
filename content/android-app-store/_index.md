@@ -1,21 +1,15 @@
 ---
-title: Use your favorite apps
+title: i18n-content-android-app-store-_index-title
 stylesPath: css/android-app-store.sass
-
 hero:
-  title: Use your favorite apps
-  body: Vibe’s open ecosystem allows you to use the apps that your team already knows and loves.
-
+  title: i18n-content-android-app-store-_index-hero-title
+  body: i18n-content-android-app-store-_index-hero-body
 side_bar:
-  title: Marketplace
-
+  title: i18n-content-android-app-store-_index-side_bar-title
 bottom_cta:
-  title: Want something else?
-  body: |
-    We’re constantly adding new apps. 
-
-    Let us know what you need.
+  title: i18n-content-android-app-store-_index-bottom_cta-title
+  body: i18n-content-android-app-store-_index-bottom_cta-body
   cta:
-    title: Contact us
-    url: '/contact/'
+    title: i18n-content-android-app-store-_index-bottom_cta-cta-title
+    url: /contact/
 ---

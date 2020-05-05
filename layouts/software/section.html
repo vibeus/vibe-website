@@ -8,14 +8,14 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">{{ .title | markdownify }}</h1>
-      <div class="content">{{ .body | markdownify }}</div>
+      <h1 class="title">{{ T .title | markdownify }}</h1>
+      <div class="content">{{ T .body | markdownify }}</div>
       {{ with .cta }}
       <div class="cta">
         <a class="button{{ with .class }} {{ . }}{{ end }}"
            href="{{ .url | relLangURL }}"
            target="_blank">
-          {{ .title }}
+          {{ T .title }}
         </a>
       </div>
       {{ end }}
@@ -51,16 +51,16 @@
 {{ with .Params.feature_overall }}
 <section class="section is-overall">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns">
       {{ range .items }}
       <div class="column">
         <figure class="image">
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "420x" "mobile" "420x") }}
         </figure>
-        <h2 class="item-title">{{ .title }}</h2>
+        <h2 class="item-title">{{ T .title }}</h2>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
       {{ end }}
@@ -72,7 +72,7 @@
 {{ with .Params.feature_collaboration }}
 <section class="section is-collaboration">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-vcentered">
       <div class="column">
         <figure class="image">
@@ -82,9 +82,9 @@
         </figure>
       </div>
       <div class="column">
-        <h2 class="title is-subtitle">{{ .subtitle }}</h2>
+        <h2 class="title is-subtitle">{{ T .subtitle }}</h2>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
 {{ with .Params.feature_presentation }}
 <section class="section is-presentation">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     {{ range .items }}
     <div class="columns is-vcentered is-index-{{ .index }}">
       <div class="column is-image">
@@ -109,9 +109,9 @@
         </figure>
       </div>
       <div class="column">
-        <h2 class="title is-subtitle">{{ .title }}</h2>
+        <h2 class="title is-subtitle">{{ T .title }}</h2>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
     </div>
@@ -123,23 +123,23 @@
 {{ with .Params.feature_apps }}
 <section class="section is-apps">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns">
       {{ range .items }}
       <div class="column">
         <figure class="image">
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
         </figure>
-        <h2 class="item-title">{{ .title }}</h2>
+        <h2 class="item-title">{{ T .title }}</h2>
         <div class="content">
-          {{ .body | markdownify }}
+          {{ T .body | markdownify }}
         </div>
       </div>
       {{ end }}
     </div>
     {{ with .cta }}
     <div class="cta">
-      <a href="{{ .url | relLangURL}}">{{ .title }}</a>
+      <a href="{{ .url | relLangURL}}">{{ T .title }}</a>
     </div>
     {{ end }}
   </div>
@@ -150,13 +150,13 @@
 <section class="section is-security">
   <div class="columns is-vcentered">
     <div class="column">
-      <h1 class="title is-section-title">{{ .title }}</h1>
+      <h1 class="title is-section-title">{{ T .title }}</h1>
       <div class="content">
-        {{ .body | markdownify }}
+        {{ T .body | markdownify }}
       </div>
       {{ with .cta }}
       <div class="cta">
-        <a href="{{ .url | relLangURL }}">{{ .title }}</a>
+        <a href="{{ .url | relLangURL }}">{{ T .title }}</a>
       </div>
       {{ end }}
     </div>

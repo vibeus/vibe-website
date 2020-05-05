@@ -1,7 +1,7 @@
 {{ with .Site.Data.locations.locations }}
 <section class="section is-locations">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-multiline is-mobile">
       {{ range .cities }}
       <div class="column is-one-third">
@@ -9,7 +9,7 @@
           <figure class="image">
             {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "500x") }}
           </figure>
-          <p class="name">{{ .name }}</p>
+          <p class="name">{{ T .name }}</p>
         </div>
       </div>
       {{ end }}

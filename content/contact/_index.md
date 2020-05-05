@@ -1,34 +1,32 @@
 ---
-title: Contact us
+title: i18n-content-contact-_index-title
 stylesPath: css/contact.sass
-
 hero:
-  title: Contact us
-  body: Send us a message and we will get back to you as soon as we can.
-
+  title: i18n-content-contact-_index-hero-title
+  body: i18n-content-contact-_index-hero-body
 contact:
   form:
-    action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/eda833da-394c-4d3c-8a66-c8b854d7ee77'
+    action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/eda833da-394c-4d3c-8a66-c8b854d7ee77
     controls:
       - - name: firstname
-          placeholder: First Name
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_0-i_0-placeholder
           required: true
         - name: lastname
-          placeholder: Last Name
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_0-i_1-placeholder
           required: true
       - - name: email
-          placeholder: Work Email
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_1-i_0-placeholder
           type: email
           required: true
         - name: phone
-          placeholder: Phone Number
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_1-i_1-placeholder
           type: tel
           required: true
       - - name: company
-          placeholder: Company Name
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_0-placeholder
           required: true
         - name: jobtitle
-          placeholder: Job Title
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder
           dropdown:
             - Executive
             - Financial services
@@ -45,22 +43,21 @@ contact:
             - Health
             - Sports
       - - name: message
-          placeholder: Message
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder
           type: textarea
           required: true
     buttons:
       - type: submit
-        title: Submit
+        title: i18n-content-contact-_index-contact-form-buttons-i_0-title
         class: button is-rounded is-primary
     submitted:
-      title: Thanks!
-      body: We will get back to you as soon as we can.
+      title: i18n-content-contact-_index-contact-form-submitted-title
+      body: i18n-content-contact-_index-contact-form-submitted-body
   support:
-    title: We’re here to help!
-    body: If you have technical issues, please [contact support](mailto:support@vibe.us).
-
+    title: i18n-content-contact-_index-contact-support-title
+    body: i18n-content-contact-_index-contact-support-body
 bottom_cta:
-  title: Experience Vibe for yourself
+  title: i18n-content-contact-_index-bottom_cta-title
   cta:
-    title: See a Demo
+    title: i18n-content-contact-_index-bottom_cta-cta-title
 ---

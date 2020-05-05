@@ -21,10 +21,10 @@
     </div>
     {{ end }}
 
-    <h2 class="title">{{ .title }}</h2>
+    <h2 class="title">{{ default .title (T .title) }}</h2>
 
     <div class="cta">
-      <span>Read more →</span>
+      <span>{{ T "i18n-manual-story-read_more" }}</span>
     </div>
   </div>
 </div>

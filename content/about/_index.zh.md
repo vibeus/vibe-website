@@ -3,40 +3,47 @@ title: i18n-content-about-_index-title
 stylesPath: css/about.sass
 hero:
   title: i18n-content-about-_index-hero-title
-  body: null
-hello:
-  title: i18n-content-about-_index-hello-title
-  body: i18n-content-about-_index-hello-body
-  cta:
-    title: i18n-content-about-_index-hello-cta-title
-    url: /blog/we-are-vibe/
+  body: i18n-content-about-_index-zh-hero-body
+testimonial_section:
+  testimonials:
+    - author:
+        name: i18n-content-about-_index-zh-testimonial_section-testimonials-i_0-author-name
+      body: i18n-content-about-_index-zh-testimonial_section-testimonials-i_0-body
 team:
   title: i18n-content-about-_index-team-title
   body: i18n-content-about-_index-team-body
   members:
     - name: i18n-content-about-_index-team-members-i_0-name
       title: i18n-content-about-_index-team-members-i_0-title
+      body: i18n-content-about-_index-zh-team-members-i_0-body
       figure: img/about/charles.png
     - name: i18n-content-about-_index-team-members-i_1-name
       title: i18n-content-about-_index-team-members-i_1-title
+      body: i18n-content-about-_index-zh-team-members-i_1-body
       figure: img/about/jian.png
     - name: i18n-content-about-_index-team-members-i_2-name
       title: i18n-content-about-_index-team-members-i_2-title
+      body: i18n-content-about-_index-zh-team-members-i_2-body
       figure: img/about/jiulong.png
     - name: i18n-content-about-_index-team-members-i_3-name
       title: i18n-content-about-_index-team-members-i_3-title
+      body: i18n-content-about-_index-zh-team-members-i_3-body
       figure: img/about/susie.png
     - name: i18n-content-about-_index-team-members-i_4-name
       title: i18n-content-about-_index-team-members-i_4-title
+      body: i18n-content-about-_index-zh-team-members-i_4-body
       figure: img/about/palmer.png
     - name: i18n-content-about-_index-team-members-i_5-name
       title: i18n-content-about-_index-team-members-i_5-title
+      body: i18n-content-about-_index-zh-team-members-i_5-body
       figure: img/about/katie.png
     - name: i18n-content-about-_index-team-members-i_6-name
       title: i18n-content-about-_index-team-members-i_6-title
+      body: i18n-content-about-_index-zh-team-members-i_6-body
       figure: img/about/laura.png
     - name: i18n-content-about-_index-team-members-i_7-name
       title: i18n-content-about-_index-team-members-i_7-title
+      body: i18n-content-about-_index-zh-team-members-i_7-body
       figure: img/about/jiandong.png
   photos:
     - title: i18n-content-about-_index-team-photos-i_0-title
@@ -45,6 +52,17 @@ team:
       figure: img/about/team-2.jpg
     - title: i18n-content-about-_index-team-photos-i_2-title
       figure: img/about/team-3.jpg
+values:
+  title: i18n-content-career-_index-values-title
+  items:
+    - body: i18n-content-career-_index-values-items-i_0-body
+      figure: img/career/customer.png
+    - body: i18n-content-career-_index-values-items-i_1-body
+      figure: img/career/integrity.png
+    - body: i18n-content-career-_index-values-items-i_2-body
+      figure: img/career/open.png
+    - body: i18n-content-career-_index-values-items-i_3-body
+      figure: img/career/passion.png
 investors:
   title: i18n-content-about-_index-investors-title
   items:
@@ -54,7 +72,9 @@ investors:
     - img/about/logo-challengers.png
 touch:
   title: i18n-content-about-_index-touch-title
-  map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.610468885599!2d-122.20319588388924!3d47.61426349544098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c87b4e2f915%3A0x7d3508c77858df2b!2s10400%20NE%204th%20St%2C%20Bellevue%2C%20WA%2098004!5e0!3m2!1sen!2sus!4v1585860828528!5m2!1sen!2sus
+  map:
+    "https://m.amap.com/navi/?dest=119.982614,30.27599&destName=\u5929\u65F6\u79D1\
+    \u521B\u56ED&hideRouteIcon=1&key=a625e46c3d654ee870e2e7920e23b3a7"
   city:
     name: i18n-content-about-_index-touch-city-name
     items:
@@ -64,9 +84,7 @@ touch:
         text: i18n-content-about-_index-touch-city-items-i_1-text
       - icon: phone
         text: i18n-content-about-_index-touch-city-items-i_2-text
-bottom_cta:
-  title: i18n-content-about-_index-bottom_cta-title
-  cta:
-    title: i18n-content-about-_index-bottom_cta-cta-title
-    url: /career/
+        figure:
+          asset: img/about/qr_support.png
+          class: is-qr-support
 ---
