@@ -5,4 +5,5 @@ content/documents/**/*.md
 content/video-tutorial/**/*.md
 content/well-known/**/*.md
 data/android_apps.yaml
+data/android_apps_zh.yaml
 data/comparison.yaml
