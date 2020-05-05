@@ -187,6 +187,36 @@ other = "An all-in-one collaboration hub"
 [i18n-content-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
+[i18n-content-demo-request-video-landing-title]
+other = "Thanks for requesting our demo video."
+
+[i18n-content-demo-request-video-landing-video_hero-title]
+other = "Vibe Demo"
+
+[i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
+other = "Watch Vibe demo"
+
+[i18n-content-demo-request-video-landing-hero-title]
+other = "Vibe is built for teams"
+
+[i18n-content-demo-request-video-landing-hero-body]
+other = "Vibe’s mission is to help humanity thrive by enabling all teams to work together effortlessly."
+
+[i18n-content-demo-request-video-landing-hero-cta-title]
+other = "Download product brochure"
+
+[i18n-content-demo-request-video-landing-compare-title]
+other = "Why Vibe?"
+
+[i18n-content-demo-request-video-landing-compare-cta-title]
+other = "Order Now"
+
+[i18n-content-demo-request-video-landing-bottom_cta-title]
+other = "Still have questions?"
+
+[i18n-content-demo-request-video-landing-bottom_cta-cta-title]
+other = "Contact us"
+
 [i18n-content-demo-_index-title]
 other = "Sign up for a live demo"
 
@@ -439,6 +469,24 @@ other = "Learn more about Vibe"
 
 [i18n-content-career-_index-bottom_cta-cta-title]
 other = "See the product"
+
+[i18n-content-landing-login-success-title]
+other = "Login Succeeded"
+
+[i18n-content-landing-login-success-hero-title]
+other = "Successfully signed in to Vibe"
+
+[i18n-content-landing-login-not-found-title]
+other = "Login Failed"
+
+[i18n-content-landing-login-not-found-hero-title]
+other = "Login request is not valid"
+
+[i18n-content-landing-login-error-title]
+other = "Login Failed"
+
+[i18n-content-landing-login-error-hero-title]
+other = "Login to vibe failed"
 
 [i18n-content-android-app-store-_index-title]
 other = "Use your favorite apps"
@@ -1038,9 +1086,6 @@ other = "A touchscreen whiteboard built for the modern workspace"
 [i18n-content-hardware-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
-[i18n-content-video-tutorial-_index-title]
-other = "Vibe Tutorials"
-
 [i18n-content-security-_index-title]
 other = "Vibe security overview"
 
@@ -1451,6 +1496,453 @@ other = "演示视频"
 other = "立即购买"
 
 [i18n-content-software-_index-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-samsung-flip-title]
+other = "Vibe vs Samsung Flip 2"
+
+[i18n-content-comparison-samsung-flip-hero-title]
+other = "Vibe vs Samsung Flip 2"
+
+[i18n-content-comparison-samsung-flip-hero-body]
+other = """The Samsung Flip 2 is a budget-friendly digital whiteboard that brings more collaboration to standard
+presentations. Designed to replace traditional flipcharts and marker-only whiteboards, the Flip 2 works best for
+small to mid-sized businesses."""
+
+[i18n-content-comparison-samsung-flip-difference-title]
+other = "Samsung Flip 2 Overview"
+
+[i18n-content-comparison-samsung-flip-difference-body]
+other = """## Key Takeaway
+The Samsung Flip 2 is a practical and reliable way to engage same-location teams in creative collaborations.
+But Vibe gives your business more ways to grow, share, and work together for just a little bigger investment,
+and we think that’s worth it.
+
+## Samsung Flip 2 Pricing
+The Flip 2’s 55” model costs $2,199 and is sold separately from the mobile stand ($499).
+
+## Samsung Flip 2 Highlights
+The most distinct feature of the Flip 2—in fact, the feature that gives the board its name— is its ability to
+flip from a horizontal to vertical position, just as you would be able to do with a standard paper flipchart.
+(Though it’s important to note that this is only possible with the 55” model.)
+
+Also similar to a paper flipchart is the Flip 2’s natural drawing and annotating abilities. Up to four people
+can draw on the board simultaneously, which is ideal for a team brainstorming session. The board was also
+designed with efficiency in mind, so the editing tools are quick and easy to use.
+
+Users can wirelessly connect to the board and changes will be reflected across all connected devices. With the
+Flip 2, team members can share Microsoft Office files, brainstorming sessions, drawings and more via email,
+screenshare, thumb drive, or printed sheets.
+
+## What’s Missing
+The Flip 2 is a good business tool, but the limited access to third-party apps keeps it from being the best
+option for collaboration. Users can view PDFs and open files from Microsoft Office, but  the ability to
+integrate a large variety of apps doesn’t exist.
+
+Because video conferencing apps like GoToMeeting and Zoom are inaccessible on the Flip 2 (and the board doesn’t
+have a built-in camera), your team’s meeting, training, or brainstorming session is limited to whoever is in the
+same room. Any business with remote workers would need to find another solution for keeping the team on the same
+page.
+
+On the subject of pages, it’s important to note that work sessions on the Flip 2 are limited to 20 pages. This
+could be plenty of space for some users and smaller projects; however, knowing that other digital whiteboards
+have an infinite canvas makes the 20-page limit seem restrictive."""
+
+[i18n-content-comparison-samsung-flip-why-title]
+other = "How It Compares to Vibe"
+
+[i18n-content-comparison-samsung-flip-why-body]
+other = """Compatible with any USB webcam, Vibe allows teams to video conference using third-party apps
+(like Zoom, Skype, GoToMeeting, and Webex) and share the whiteboard screen in real time.
+Whether you’re using a mobile phone, laptop, tablet, or Vibe board (Mobile app is view-only), you can easily
+join a meeting with your work-from-home colleagues and seamlessly collaborate.
+
+The Vibe whiteboarding experience includes an infinite canvas with an AI text converter for handwriting,
+highlighter for document annotation, lasso tool for edits, sticky notes, and much more. These writing and
+drawing options let you design, edit, and continue to refine your work and Vibe offers 10 simultaneous
+touchpoints, vs the Flip 2 can only accommodate 4.
+
+And because it’s likely that remote team members are working on a variety of tech products, Vibe supports
+screencasting from computers and mobile devices to the Vibe board regardless of the device’s manufacturer.
+
+**[Contact us](/contact/) to learn more.**"""
+
+[i18n-content-comparison-samsung-flip-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-samsung-flip-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-microsoft-surface-hub-title]
+other = "Vibe vs Microsoft Surface Hub"
+
+[i18n-content-comparison-microsoft-surface-hub-hero-title]
+other = "Vibe vs Microsoft Surface Hub"
+
+[i18n-content-comparison-microsoft-surface-hub-hero-body]
+other = """As one of the first products made for the digital whiteboard space, Microsoft’s Surface Hub made its debut
+in 2015. With the 2019 release of the Surface Hub 2S, this interactive whiteboard continues to establish its
+presence in the business world."""
+
+[i18n-content-comparison-microsoft-surface-hub-difference-title]
+other = "Surface Hub Overview"
+
+[i18n-content-comparison-microsoft-surface-hub-difference-body]
+other = """## Key Takeaway
+Finding the right product comes down to balancing features and capabilities with budget. Priced at $2,999
+(vs. the $8,999 price tag of the Surface Hub) Vibe offers a cost effective solution for small- to mid- sized
+marketing and design agencies, startups, and tech firms.
+
+The Surface Hub is a good choice if you only need to use Microsoft applications and are interested in a device
+that has a battery pack option.
+
+## Microsoft Surface Hub 2S Pricing
+The Surface Hub S2 is just under $9,000 for the 50” model. The wall mount costs $249, the mobile stand costs
+$1,450, and the battery expansion will run you an additional $1,400.
+
+## Microsoft Surface Hub 2S Highlights
+Like most digital whiteboards, the Surface Hub 2S features built-in technology for video conferences and
+whiteboarding sessions. The responsive touchscreen is designed to feel as natural as drawing on a traditional
+whiteboard.
+
+The Surface Hub 2S’s 4K digital display enables real-time creation so you can work alongside your colleagues
+on projects. Screen sharing allows your team to access the canvas and share Office 365 files.
+
+While the original Surface Hub was optimized for meetings, the new edition goes a step further in upping its
+video conferencing game by including a modular 4K camera. Users can select from a few different plug-in
+locations to find their ideal camera angle.
+
+Another notable feature of the S2 is the battery expansion. The battery holds a two-hour charge 
+and takes 90 minutes to fully charge. This, combined with the board’s slimmed down design (weighing 40 percent
+less than the previous model), gives users the option to make meetings mobile.
+
+## What’s Missing
+Like its predecessor, the Surface Hub S2 is heavily reliant on the Universal Windows 10 application system,
+which creates an issue for companies who don’t run primarily on Microsoft software.
+
+For instance, connecting to a video conference via Skype requires an Exchange Server or an Office 365 for
+Business account along with Skype for Business. In this situation, calling non-Skype users isn’t easy, and
+is just one example to consider when hiring freelancers, contract workers, or creating future remote work
+opportunities.
+
+The S2 runs on the software of the previous Surface Hub, so the sleeker hardware is the most notable change
+with the update. Microsoft’s goal is for companies to be able to switch out the central processing unit with
+future updates, but without knowing how long it’ll be before that’s possible, purchasing the S2 is a big
+investment.
+
+Another major (and expensive) drawback: all of the useful accessories cost extra. So on top of paying around
+$9,000 for the board, the wall mount costs $249, the mobile stand costs $1,450, and the battery expansion
+will run you an additional $1,400."""
+
+[i18n-content-comparison-microsoft-surface-hub-why-title]
+other = "How It Compares to Vibe"
+
+[i18n-content-comparison-microsoft-surface-hub-why-body]
+other = """There are more than 40 third-party app integrations in the Vibe board, and that includes Microsoft Teams,
+One Drive, and the most popular Office components. Combine the vast integration opportunities with wireless
+screencasting and you can bring more creativity to your presentations without limiting which apps you can use.
+
+With Vibe, sharing ideas with collaborators\u200a—\u200ain-house, across town, or around the world\u200a—\u200ais intuitive and
+easy, making it a must-have device for any company that thrives thanks to a network of remote workers.
+
+One less obvious advantage Vibe has over its competitors is its dedication to customers of all sizes. They
+offer free customer support and consistently make changes to the VibeOS based on user requests, making it
+the perfect match for everyday presenters, designers, project managers, and remote workers.
+
+**[Contact us](/contact/) to learn more.**"""
+
+[i18n-content-comparison-microsoft-surface-hub-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-microsoft-surface-hub-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-cisco-webex-board-title]
+other = "Vibe vs Cisco Webex Board"
+
+[i18n-content-comparison-cisco-webex-board-hero-title]
+other = "Vibe vs Cisco Webex Board"
+
+[i18n-content-comparison-cisco-webex-board-hero-body]
+other = """The Cisco Webex Board is a digital whiteboard launched by Cisco to meet the collaboration needs of businesses.
+Originally called the Spark Board, the Webex is currently available in 55”, 70”, and 85” screens."""
+
+[i18n-content-comparison-cisco-webex-board-difference-title]
+other = "Cisco Webex Overview"
+
+[i18n-content-comparison-cisco-webex-board-difference-body]
+other = """## Key Takeaway
+The Cisco Webex Board offers comprehensive video conferencing capabilities at a correspondingly high price point.
+This board is locked into the Cisco Webex ecosystem and does not integrate with other video conferencing software.
+
+## Cisco Webex Pricing
+The 55” model starts at $4,990, with an additional $199 per month for cloud service. Stands range from $1,590
+(wall) to $3,290 (floor) and mounts are $449.
+
+## Cisco Webex Highlights
+With the Webex Board, users can wirelessly connect to other Cisco devices using the Webex Teams app. Team members
+can join a meeting by screen sharing the whiteboard, which allows remote workers to annotate on the same canvas as
+their colleagues in a different location. Anyone using a device registered in the Cisco Webex cloud can save their
+work and access it later for convenience and efficiency.
+
+The board’s 4K camera responds to movement in the room, making it easy to open a video conference. The multi-point
+microphone system responds to voice commands and is able to focus on and amplify the speaker’s voice in a team
+meeting with up to 10 people in one room.
+
+The board’s advanced video conferencing features and easy-to-use collaborative tools make the Cisco Webex a good
+choice for educational purposes. Universities use the Webex to facilitate both in-classroom and online learning.
+
+## What’s Missing
+Offices that don’t run predominantly on Webex Teams will find this subscription requirement to be a challenge.
+Connecting non-Webex users—for example, anyone using Zoom, GoToMeeting, or other popular online video conferencing
+tools—would be a problem. This would primarily be a concern for businesses with a large contingency of remote or
+freelance workers.
+
+To get the most out of your Cisco Webex board, your office must purchase monthly or yearly Webex subscriptions.
+Without this, the board can only be used for in-room presentations. It’s also worth noting that although a floor
+stand is available for the board, the stand itself isn’t mobile, largely confining the board to one location.
+
+Another less obvious drawback is the amount of Webex hardware and software combinations that exist. Sorting
+through the various pieces of tech, subscription plans, and software programs is a confusing process, and it’s
+hard to know if you’re paying for equipment and programs you’ll actually use or if you’ll be overpaying for
+underutilized items."""
+
+[i18n-content-comparison-cisco-webex-board-why-title]
+other = "How It Compares to Vibe"
+
+[i18n-content-comparison-cisco-webex-board-why-body]
+other = """The Vibe board opens up your meeting options. Compatible with any USB webcam, Vibe allows teams to video
+conference with third-party apps and share the whiteboard screen in real-time. This gives remote teams the
+option to use Webex Meetings, GoToMeeting, Google Hangouts, or a selection of other video conferencing
+tools—whichever works best for the team.
+
+The Vibe board also features a portable, wheeled stand so you can easily move the meeting location and keep
+your equipment with you. And once you leave the meeting room, it’s easy to switch to your mobile device and
+pick up where you left off by using the Vibe app.
+
+With a suite of built-in integrations that includes Google Drive, Dropbox, OneDrive, Slack, Microsoft Teams,
+Asana, and more, users will find that Vibe slots in nicely with existing workflows. Need to present to clients?
+You can easily drag the PowerPoint from OneDrive and screencast it from your laptop or using an HDMI connection.
+Then remove the PowerPoint and write down your client’s feedback on Vibe’s infinite canvas.
+
+At $2,999.00, Vibe costs significantly less than the Cisco Webex board. There is no subscription fee and the
+pricing and options are straightforward. 
+
+**[Contact us](/contact/) to learn more** about how Vibe can simplify your workflow and amplify your team’s
+collaboration."""
+
+[i18n-content-comparison-cisco-webex-board-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-cisco-webex-board-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-smart-board-title]
+other = "Vibe vs SMART Board"
+
+[i18n-content-comparison-smart-board-hero-title]
+other = "Vibe vs SMART Board"
+
+[i18n-content-comparison-smart-board-hero-body]
+other = "Released by SMART Technology, SMART Board is an educational collaboration tool for classrooms and workplaces.\n"
+
+[i18n-content-comparison-smart-board-difference-title]
+other = "What’s the difference between SMART Board and Vibe?"
+
+[i18n-content-comparison-smart-board-difference-body]
+other = """## Key Takeaway
+SMART Boards have been a popular choice for school districts, but they offer tiered functionality that requires
+multiple subscriptions or licenses. Make sure that you have a full understanding of the functionality that you’re
+getting with the included software.
+
+## SMART Board Pricing
+$4,999 for the 6000 series boards, additional software costs.
+
+## SMART Board Highlights
+SMART boards are available in a range of sizes with varying functionalities. Depending on whether you’re using
+the board in a business or education setting, users can select from the MX, 6000, or 7000 series for boards with
+interactive touchscreen displays.
+
+Multiple people can work together directly on the board. SMART Technology’s 6000 series board responds to up to
+eight touchpoints and can detect whether the user is drawing with a stylus or erasing by hand. You can connect up
+to eight devices simultaneously for screen sharing. SMART Technology puts a lot of emphasis on the board as an
+educational tool, which makes the free one-year subscription to the SMART Learning Suite software with the
+purchase of a board a nice bonus for educators.
+
+Business users can make the most of their board’s capabilities with features like Meeting Pro and TeamWorks,
+which provide access to a limited number of apps, such as Microsoft 365 and most video conferencing apps.
+
+## What’s Missing
+The SMART Board has many interesting and useful capabilities; however, nearly all of the best features that set
+the SMART Board apart from other digital whiteboards require several subscriptions or licenses.
+
+For businesses, the SMART TeamWorks software enables groups to meet and collaborate, but there are different
+levels of access.
+
+- The Rooms edition allows you to work with people in the same room, and you can screen share with up to eight
+  devices, but those devices can’t contribute to a shared workspace.
+- The next level up, Connected, lets other devices contribute to the workspace but they all have to be on the
+  same network.
+- Users have to add a Server subscription to the Connected edition before they can allow remote workers to
+  join in.
+
+As previously mentioned, classrooms receive a one-year subscription to the SMART Learning Suite service with
+purchase of a board but will have to pay for Learning Suite access after that year. The basic plan still has
+nice features, but without the Learning Suite the board’s functionality (primarily the collaboration tools)
+feels incomplete.
+
+Another missed opportunity for the SMART Board is the ability to save your work to the cloud. Users need to
+email or save a PDF of their whiteboard content if they plan on sharing it."""
+
+[i18n-content-comparison-smart-board-why-title]
+other = "How It Compares to Vibe"
+
+[i18n-content-comparison-smart-board-why-body]
+other = """The Vibe board is designed to easily work with popular educational apps like Blackboard, Canvas,
+and Panapto to encourage creative learning. But users aren’t limited to just a handful of app integrations.
+Vibe gives you access to over 40 third-party apps so you can use whichever programs meet your needs.
+
+There are no subscriptions, licenses, or confusing mix-and-match software requirements to get what you want.
+You can access the Vibe app from any device to go back to your boards, and can collaborate in real time from
+other locations from a computer browser or tablet.
+
+Vibe users can also seamlessly collaborate in real time through the Vibe board, Mac, PC, or tablets
+(the mobile app is view-only). Once you leave the physical meeting room, it’s easy to switch to your handy devices
+and pick up where you left off. Vibe also supports screencasting from computers and mobile devices to the board,
+regardless of the device’s manufacturer.
+
+Another big selling point? The price. At $2,999, Vibe is less than half the price of the SMART Board 6000 series.
+
+**[Contact us](/contact/) to learn more.**"""
+
+[i18n-content-comparison-smart-board-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-smart-board-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-all-title]
+other = "Compare all"
+
+[i18n-content-comparison-all-hero-title]
+other = "Compare all"
+
+[i18n-content-comparison-all-hero-body]
+other = """The interactive whiteboard is the latest, greatest way to bring your vision to life, but how do you know if Vibe
+is right for you? We've made comparisons as objective and complete as possible, with all details verified at
+quartlerly intervals."""
+
+[i18n-content-comparison-all-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-all-bottom_cta-cta-title]
+other = "See a Demo"
+
+[i18n-content-comparison-google-jamboard-title]
+other = "Vibe vs Google Jamboard"
+
+[i18n-content-comparison-google-jamboard-hero-title]
+other = "Vibe vs Google Jamboard"
+
+[i18n-content-comparison-google-jamboard-hero-body]
+other = """The Jamboard is a 55” cloud-based digital whiteboard designed for businesses and education programs.
+Launched by Google in 2017, the Jamboard was designed as a direct competitor to the Microsoft Surface Hub."""
+
+[i18n-content-comparison-google-jamboard-difference-title]
+other = "Google Jamboard Overview"
+
+[i18n-content-comparison-google-jamboard-difference-body]
+other = """## Key Takeaway
+Google Jamboard is a great fit if your business runs primarily on G Suite. But if you need the flexibility
+to use applications outside of the Google ecosystem (at almost half the price) it’s time to check out Vibe.
+
+## Jamboard Pricing
+Google Jamboard starts at $4,999 and comes standard with a wall mount, with additional charges after purchase.
+Jamboard users pay an annual $600 subscription and support fee, as well as $12/month for access to a GSuite
+Business account. The Jamboard’s mobile stand is $1,349 and is sold separately.
+
+## Jamboard Highlights
+The Jamboard has 4K display and a built-in camera and microphone, making it easy to run a Google Hangout video
+conference with your team or customers from the device. 
+
+Each board comes with 2 styluses, which you can use to draw during whiteboarding sessions. You can also draw
+on the touchscreen with your finger, as well as erase with your hand or use the board’s physical eraser.
+
+For users who aren’t directly interacting with the Jamboard, whiteboard content can be accessed using Android
+and iOS apps on a range of personal mobile devices. (Depending on how you join the session, though, your ability
+to contribute to the session may be limited.)
+
+Anyone who starts a session on the Jamboard can invite other users to join as long as those users have a Gmail
+account or are registered with your business’s G Suite account. Team members participating through the smartphone
+app can add files to the session through Google Drive and a selection of Google Images, but they can’t directly
+annotate on the canvas.
+
+When your session is done or needs to move to a new location, it is saved to the cloud so you can share with
+other users and refer back to the saved session.
+
+## What’s Missing
+While using the Jamboard is fairly intuitive, it doesn’t allow all users to access the whiteboarding sessions
+equally. People who access the session through a tablet-based app can contribute to the session by adding files
+and notes from their Drive, but users who don't have the Jamboard app can only participate in view-only mode.
+
+Many projects require using more than one app, and the Jamboard doesn’t support simultaneous app usage.
+This severely limits versatility for brainstorming sessions with multiple people using the board at the same time.
+
+Users can get a lot accomplished with G Suite, but it doesn’t include some of today’s most popular business,
+video conferencing, and workflow apps. Jamboard’s limited suite of integrations could mean that your office will
+have to adjust the way projects are completed, which could cost you valuable time."""
+
+[i18n-content-comparison-google-jamboard-why-title]
+other = "How It Compares to Vibe"
+
+[i18n-content-comparison-google-jamboard-why-body]
+other = """Vibe also has a 55” touchscreen with 4K resolution. Vibe boards come with digital whiteboard software built
+in, and features an infinite canvas so your ideas and brainstorming sessions are never limited.
+With robust writing and drawing options, Vibe comes out with new software features every 2-3 weeks. 
+
+Some of the tools you can use through the intuitive touchscreen include:
+
+- Import images and documents from Google Drive, Dropbox or OneDrive
+- Background colors and grid options
+- AI text convertor (converts handwriting into text)
+- highlighter for document annotation
+- laser pointer for presentations
+- 2 split screen options so you can whiteboard next to 40+ 3rd party applications
+- Colorful sticky notes
+- Software apps for computers and tablets to help your team stay connected in real time
+- and more!
+
+All Vibe users can edit the canvas in real time through the Vibe board, Mac, PC, or tablet devices when you
+share a link to that board. So whether you’re in the office or working remotely, you can collaborate seamlessly
+with your team.
+
+Vibe users also have access to over 40 third-party app integrations. This includes Google Drive as well as the
+Microsoft Office Suite, Slack, Asana, Zoom, and many more. Your team can use the tools you’ve already invested
+time and money in without having to learn a new system.
+
+Wirelessly screencast from any device using Airplay, Chromecast, or eShare, or use an HDMI cable. Annotate on
+anything - while screencasting or using 3rd party apps, you can easily annotate and save screenshots to your
+board. 
+
+Work on your project without interruption, because Vibe lets you run multiple apps at the same time. For example,
+if you want to give a presentation to your teams or clients, you can easily access the PowerPoint from OneDrive
+on your Vibe board or screencast it from your laptop.
+
+Compatible with most USB webcams, Vibe can be used in tandem with 3rd party video conference apps so you can
+share the whiteboard screen with remote participants and get the most from your meetings and brainstorming
+sessions. 
+
+At $2,999, Vibe is almost half the price of the Google Jamboard, but with more functionality and collaboration
+with other applications. Vibe is compatible with standard wall mounts and also offers an optional mobile stand
+for only $500. Best of all, Vibe’s software is included in your hardware purchase.  Vibe has detailed Help Center
+resources and offers ongoing customer support by phone and email at no extra charge. 
+
+**[Contact us](/contact/) to learn more.**"""
+
+[i18n-content-comparison-google-jamboard-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-google-jamboard-bottom_cta-cta-title]
 other = "See a Demo"
 
 [i18n-content-comparison-_index-title]

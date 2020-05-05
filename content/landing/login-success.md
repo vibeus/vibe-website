@@ -1,6 +1,6 @@
 ---
-title: Login Succeeded
+title: i18n-content-landing-login-success-title
 hero:
-  title: Successfully signed in to Vibe
+  title: i18n-content-landing-login-success-hero-title
   class: is-success
 ---

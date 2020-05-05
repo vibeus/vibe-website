@@ -3,8 +3,8 @@
 {{ with .Params.hero }}
 <section class="section is-hero-all">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
-    <div class="content">{{ .body | markdownify }}</div>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
+    <div class="content">{{ T .body | markdownify }}</div>
   </div>
 </section>
 {{ end }}

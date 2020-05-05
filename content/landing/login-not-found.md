@@ -1,6 +1,6 @@
 ---
-title: Login Failed
+title: i18n-content-landing-login-not-found-title
 hero:
-  title: Login request is not valid
+  title: i18n-content-landing-login-not-found-hero-title
   class: is-warning
 ---

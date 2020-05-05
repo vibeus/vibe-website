@@ -1,6 +1,6 @@
 ---
 stylesPath: css/blog/styles.sass
-title: i18n-content-video-tutorial-_index-title
+title: Vibe Tutorials
 no_sitemap: true
 
 ---

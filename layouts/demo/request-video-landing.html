@@ -10,12 +10,12 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-text">
-          <h1 class="title">{{ .title }}</h1>
-          <div class="content">{{ .body | markdownify }}</div>
+          <h1 class="title">{{ T .title }}</h1>
+          <div class="content">{{ T .body | markdownify }}</div>
           {{ with .cta }}
           <div class="cta">
             <a href="{{ .url }}" target="_blank">
-              <span>{{ .title }}</span>
+              <span>{{ T .title }}</span>
               {{ with .icon }}
               <span class="icon is-small">
                 {{ (resources.Get .).Content | safeHTML }}

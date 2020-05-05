@@ -1,6 +1,6 @@
 ---
-title: Login Failed
+title: i18n-content-landing-login-error-title
 hero:
-  title: Login to vibe failed
+  title: i18n-content-landing-login-error-hero-title
   class: is-danger
 ---

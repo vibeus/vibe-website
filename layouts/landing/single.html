@@ -2,7 +2,7 @@
 {{ with .Params.hero }}
 <section class="hero{{ with .class }} {{ . }}{{ end }}">
   <div class="hero-body">
-    <h1 class="title">{{ .title }}</h1>
+    <h1 class="title">{{ T .title }}</h1>
   </div>
 </section>
 {{ end }}

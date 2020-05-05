@@ -1,16 +1,11 @@
 ---
-title: Compare all
+title: i18n-content-comparison-all-title
 layout: all
-
 hero:
-  title: Compare all
-  body: |
-    The interactive whiteboard is the latest, greatest way to bring your vision to life, but how do you know if Vibe
-    is right for you? We've made comparisons as objective and complete as possible, with all details verified at
-    quartlerly intervals.
-
+  title: i18n-content-comparison-all-hero-title
+  body: i18n-content-comparison-all-hero-body
 bottom_cta:
-  title: Experience Vibe for yourself
+  title: i18n-content-comparison-all-bottom_cta-title
   cta:
-    title: See a Demo
+    title: i18n-content-comparison-all-bottom_cta-cta-title
 ---

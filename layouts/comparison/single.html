@@ -3,8 +3,8 @@
 {{ with .Params.hero }}
 <section class="section is-hero-single">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
-    <div class="content{{ with .small_body_width }} is-small-body{{ end }}">{{ .body | markdownify }}</div>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
+    <div class="content{{ with .small_body_width }} is-small-body{{ end }}">{{ T .body | markdownify }}</div>
   </div>
 </section>
 {{ end }}
@@ -16,8 +16,8 @@
       {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2688x" "tablet" "1520x" "mobile" "750x") }}
     </figure>
     <div class="title-content">
-      <h1 class="title">{{ .title }}</h1>
-      <div class="content">{{ .body | markdownify }}</div>
+      <h1 class="title">{{ T .title }}</h1>
+      <div class="content">{{ T .body | markdownify }}</div>
     </div>
   </div>
 </section>
@@ -41,8 +41,8 @@
 {{ with .Params.why }}
 <section class="section is-why">
   <div class="container">
-    <h1 class="title is-section-title">{{ .title }}</h1>
-    <div class="content">{{ .body | markdownify }}</div>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
+    <div class="content">{{ T .body | markdownify }}</div>
   </div>
 </section>
 {{ end }}
