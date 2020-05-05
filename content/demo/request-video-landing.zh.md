@@ -11,7 +11,7 @@ video_hero:
     placeholder: img/shared/video.png
     id: gsJI0jcRyLk
   footnote:
-    text: "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
+    text: i18n-content-demo-request-video-landing-zh-video_hero-footnote-text
 hero:
   title: i18n-content-demo-request-video-landing-hero-title
   body: i18n-content-demo-request-video-landing-hero-body

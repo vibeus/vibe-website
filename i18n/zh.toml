@@ -194,6 +194,9 @@ other = "和你的团队一起 Vize！"
 [i18n-content-demo-request-video-landing-bottom_cta-cta-title]
 other = "立即购买"
 
+[i18n-content-demo-request-video-landing-zh-video_hero-footnote-text]
+other = "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
+
 [i18n-content-demo-_index-title]
 other = "Sign up for a live demo"
 
