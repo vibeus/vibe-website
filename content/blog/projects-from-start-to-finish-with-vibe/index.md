@@ -78,4 +78,3 @@ Vibe is more than just a device — it’s a member of your team, cultivatin
 Ready to take your collaboration to the next level? Our team is ready to chat!
 
 [Request a Demo](https://landing.vibe.us/request-demo)
-

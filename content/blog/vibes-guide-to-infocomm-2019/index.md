@@ -77,4 +77,3 @@ Millions flock to Orlando every year for a reason. Orlando is one of the country
 So, in short, we’re excited for InfoComm. Are you?
 
 Keep up with us at InfoComm 2019 by following Vibe on [Twitter](https://twitter.com/thevibeboard).
-

@@ -88,4 +88,3 @@ No one said your daily sync had to be dull. Make stand-up meetings more dynamic 
 
 
 {{< common/srcset "image-4.jpg" "" >}}
-
