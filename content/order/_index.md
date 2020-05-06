@@ -4,48 +4,51 @@ title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
 product_notices:
-  sold_out:
+  sold_out: &sold_out
     item_notice:
       Temporarily unavailable. [Let us know](/contact/) if you want to
       be contacted when this item becomes available again.
     cart_notice: Temporarily unavailable.
-  backorder: &id001
+  backorder: &backorder
     item_notice: '**Backordered.** Expected delivery of May 20.'
-    cart_notice: Backordered. Expected delivery of May 20.
+    cart_notice: 'Backordered. Expected delivery of May 20.'
 products:
-  - product_id: '31815758250035'
+  - &vibe_board
+    product_id: '31815758250035'
     price: 2999
     title: i18n-content-order-_index-products-i_0-title
     figure: img/order/product-gallery-1.png
-  - product_id: '31815731576883'
+    sold_out: false
+    backorder:
+      item_notice: '**Backordered.** Expected delivery of May 18.'
+      cart_notice: 'Backordered. Expected delivery of May 18.'
+  - &white_stand
+    product_id: '31815731576883'
     price: 500
     title: i18n-content-order-_index-products-i_1-title
     figure: img/order/accessory-stand-w.png
     sold_out: false
-    backorder: *id001
-  - product_id: '31815731609651'
+    backorder: *backorder
+  - &red_stand
+    product_id: '31815731609651'
     price: 500
     title: i18n-content-order-_index-products-i_2-title
     figure: img/order/accessory-stand-r.png
     sold_out: false
-    backorder: &id002
+    backorder:
       item_notice: '**Backordered.** Expected delivery of Jun 1.'
-      cart_notice: Backordered. Expected delivery of Jun 1.
-  - product_id: '31815737016371'
+      cart_notice: 'Backordered. Expected delivery of Jun 1.'
+  - &stylus
+    product_id: '31815737016371'
     price: 15
     title: i18n-content-order-_index-products-i_3-title
     figure: img/order/accessory-stylus.png
     sold_out: false
     backorder: false
 hero:
-  product_id: '31815758250035'
-  price: 2999
-  title: i18n-content-order-_index-hero-title
-  figure: img/order/product-gallery-1.png
+  <<: *vibe_board
   body: i18n-content-order-_index-hero-body
-  shipping: 'Complimentary U.S. Shipping + 30-Day Returns
-
-    '
+  shipping: 'Complimentary U.S. Shipping + 30-Day Returns'
   amazon: https://www.amazon.com/Vibe
   gallery:
     - img/order/product-gallery-1.png
@@ -56,24 +59,9 @@ hero:
 accessories:
   title: i18n-content-order-_index-accessories-title
   items:
-    - product_id: '31815731576883'
-      price: 500
-      title: i18n-content-order-_index-accessories-items-i_0-title
-      figure: img/order/accessory-stand-w.png
-      sold_out: false
-      backorder: *id001
-    - product_id: '31815731609651'
-      price: 500
-      title: i18n-content-order-_index-accessories-items-i_1-title
-      figure: img/order/accessory-stand-r.png
-      sold_out: false
-      backorder: *id002
-    - product_id: '31815737016371'
-      price: 15
-      title: i18n-content-order-_index-accessories-items-i_2-title
-      figure: img/order/accessory-stylus.png
-      sold_out: false
-      backorder: false
+    - <<: *white_stand
+    - <<: *red_stand
+    - <<: *stylus
       precision: 2
 faq:
   title: i18n-content-order-_index-faq-title
@@ -98,11 +86,12 @@ reviews:
       channel: Amazon Buyer
       stars: 5
       date: Jan. 2020
-      review:
-        "**Best digital whiteboard I\u2019ve used**\n\nThere are a few options\
-        \ out there for digital/collaboration boards.\nI originally purchased the Samsung\
-        \ Flip 2 and had to return it due to its lack of cloud collaboration\nand Samsung-only\
-        \ browser that did not allow for browser-based tools...\n"
+      review: |
+        **Best digital whiteboard I've used**
+
+        There are a few options out there for digital/collaboration boards.
+        I originally purchased the Samsung Flip 2 and had to return it due to its lack of cloud collaboration
+        and Samsung-only browser that did not allow for browser-based tools...
       url: https://www.amazon.com/gp/customer-reviews/R24TBM6GLRVDRL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B081LPL772
 bottom_cta:
   title: i18n-content-order-_index-bottom_cta-title

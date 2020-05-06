@@ -10,9 +10,9 @@
 {{ define "nav" }}
 <div class="before-nav">
   <p class="cta">
-  <a href="https://knowledge.vibe.us/may-2020-shipping-update" target="_blank">
-    Stands are currently backordered, due to increased demand. Get details here →
-  </a>
+  Boards & Stands are currently backordered until appx May 20th due to demand.<br />
+  Purchase now to reserve your order in the next arrival, or
+  <a href="https://landing.vibe.us/backorder-notification" target="_blank">have us notify you when they're back in stock</a>.
   </p>
 </div>
 {{ partial "common/nav" . }}
@@ -89,6 +89,12 @@
               {{ with .amazon }}
               <div class="content is-amazon">
                 Also available on <a href="{{ . }}" target="_blank">Amazon</a>
+              </div>
+              {{ end }}
+              {{ if .backorder }}
+              <div class="content is-backorder">
+                {{ .backorder.item_notice | markdownify }}
+                <p><a href="https://knowledge.vibe.us/may-2020-shipping-update" target="_blank">See options →</a></p>
               </div>
               {{ end }}
             </div>
