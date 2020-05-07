@@ -1,8 +1,8 @@
 [i18n-content-_index-title]
-other = "Vize 智能平板，让远程协作更简单"
+other = "Vize 智能平板，让合作更简单"
 
 [i18n-content-_index-hero-title]
-other = "Vize 智能平板，让远程协作更简单"
+other = "Vize 智能平板，让合作更简单"
 
 [i18n-content-_index-hero-body]
 other = "With Vibe's powerful & intuitive technology, teams can innovate, ideate, and collaborate like never before."
@@ -26,7 +26,7 @@ other = "Open your boards →"
 other = "什么是Vize?"
 
 [i18n-content-_index-what_is_vibe-body]
-other = """Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备多人实时协作、
+other = """Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备智能白板、多人实时协作、
 视频会议、无限画布等强大功能。不论会议、培训、提报，Vize 都能通过多种互动方式，全面提升合作体验。"""
 
 [i18n-content-_index-testimonial_section-testimonials-i_0-body]
@@ -67,11 +67,11 @@ other = "兼容各大 App"
 other = "你无需改变工作习惯"
 
 [i18n-content-_index-features-i_3-body]
-other = """办公: 钉钉，企业微信，飞书
+other = """办公: 企业微信，飞书，QQ邮箱
 
 文档：石墨文档，坚果云，百度网盘
 
-视频：Zoom，腾讯会议，好视通"""
+视频：钉钉，腾讯会议，Zoom"""
 
 [i18n-content-_index-features-i_3-cta-title]
 other = "兼容App列表 →"
@@ -83,7 +83,7 @@ other = "一体式极简设计"
 other = "装卸简单"
 
 [i18n-content-_index-features-i_4-body]
-other = "无线，无鼠标，无键盘，无任何累赘。装卸方便，迅速上手，无需学习专业 IT 知识"
+other = "无鼠标，无键盘，无任何累赘。装卸方便，迅速上手，无需学习专业 IT 知识"
 
 [i18n-content-_index-features-i_4-cta-title]
 other = "观看视频"
@@ -97,8 +97,8 @@ other = """Shelly Starks
 Sandler Training 合伙人, 美国, 佛罗里达"""
 
 [i18n-content-_index-trust-testimonials-i_0-body]
-other = """Vibe团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vibe 合作的感觉很赞。
-我会向任何需要智能白板的人推赞 Vibe。"""
+other = """Vize团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vize 合作的感觉很赞。
+我会向任何需要智能白板的人推赞 Vize。"""
 
 [i18n-content-_index-trust-testimonials-i_1-author-name]
 other = """Karen L. Brady
@@ -106,7 +106,7 @@ other = """Karen L. Brady
 信托律师, 美国, 科罗拉多"""
 
 [i18n-content-_index-trust-testimonials-i_1-body]
-other = """不论线上线下，Vibe 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vibe 强大的交互功能依然
+other = """不论线上线下，Vize 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vize 强大的交互功能依然
 让我的工作效率有了指数级提升，更是让我常常在客户面前能有惊艳表现。"""
 
 [i18n-content-_index-trust-testimonials-i_2-author-name]
@@ -115,8 +115,8 @@ other = """Rob Karlinsey
 肯莫尔市经理, 美国, 华盛顿"""
 
 [i18n-content-_index-trust-testimonials-i_2-body]
-other = """有了Vibe，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vibe 能够自动储存白板，所以我能在会上向人们
-展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vibe 改变了一切。"""
+other = """有了Vize，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vize 能够自动储存白板，所以我能在会上向人们
+展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vize 改变了一切。"""
 
 [i18n-content-_index-trust-testimonials-i_3-author-name]
 other = """Kate Womick
@@ -124,9 +124,9 @@ other = """Kate Womick
 Azul Arc 产品经理, 美国, 佛罗里达"""
 
 [i18n-content-_index-trust-testimonials-i_3-body]
-other = """Vibe 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
+other = """Vize 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
 我们不必为了去其他地方查看笔记而中断工作。去当我疲于应对多个客户时，我可以把所有东西保存在一个地方，
-这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vibe 上涂涂画画的感觉。
+这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vize 上涂涂画画的感觉。
 对于大型项目，我们甚至可以让相距遥远的几人同时在一块白板上作业。"""
 
 [i18n-content-_index-trust-testimonials-i_4-author-name]
@@ -135,7 +135,7 @@ other = """Peter T. Maloof
 凯捷咨询公司副总裁, 美国"""
 
 [i18n-content-_index-trust-testimonials-i_4-body]
-other = """我们喜欢用Vibe智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vibe 硬件或其他设备登录
+other = """我们喜欢用Vize智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vize 硬件或其他设备登录
 白板，实现无缝转换。"""
 
 [i18n-content-_index-trust-testimonials-i_5-author-name]
@@ -558,8 +558,8 @@ other = """Shelly Starks
 Sandler Training 合伙人, 美国, 佛罗里达"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body]
-other = """Vibe团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vibe 合作的感觉很赞。
-我会向任何需要智能白板的人推赞 Vibe。"""
+other = """Vize团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vize 合作的感觉很赞。
+我会向任何需要智能白板的人推赞 Vize。"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name]
 other = """Karen L. Brady
@@ -567,7 +567,7 @@ other = """Karen L. Brady
 信托律师, 美国, 科罗拉多"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body]
-other = """不论线上线下，Vibe 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vibe 强大的交互功能依然
+other = """不论线上线下，Vize 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vize 强大的交互功能依然
 让我的工作效率有了指数级提升，更是让我常常在客户面前能有惊艳表现。"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name]
@@ -576,8 +576,8 @@ other = """Rob Karlinsey
 肯莫尔市经理, 美国, 华盛顿"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body]
-other = """有了Vibe，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vibe 能够自动储存白板，所以我能在会上向人们
-展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vibe 改变了一切。"""
+other = """有了Vize，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vize 能够自动储存白板，所以我能在会上向人们
+展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vize 改变了一切。"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-name]
 other = """Kate Womick
@@ -585,9 +585,9 @@ other = """Kate Womick
 Azul Arc 产品经理, 美国, 佛罗里达"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-body]
-other = """Vibe 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
+other = """Vize 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
 我们不必为了去其他地方查看笔记而中断工作。去当我疲于应对多个客户时，我可以把所有东西保存在一个地方，
-这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vibe 上涂涂画画的感觉。
+这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vize 上涂涂画画的感觉。
 对于大型项目，我们甚至可以让相距遥远的几人同时在一块白板上作业。"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name]
@@ -596,7 +596,7 @@ other = """Peter T. Maloof
 凯捷咨询公司副总裁, 美国"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body]
-other = """我们喜欢用Vibe智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vibe 硬件或其他设备登录
+other = """我们喜欢用Vize智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vize 硬件或其他设备登录
 白板，实现无缝转换。"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name]
@@ -606,7 +606,7 @@ Computing System Innovations 总裁, 美国, 佛罗里达"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body]
 other = """它是我们用过最好用的合作设备, 可以应对任何类型的会议 – 从任务管理到软件设计会议。不可思议的设备, 帮我们
-省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vibe，你们改变了一切！"""
+省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vize，你们改变了一切！"""
 
 [i18n-content-hardware-_index-feature_set_1-features-i_0-title]
 other = "一体式极简设计"
@@ -972,7 +972,7 @@ other = "常见问题"
 other = "Vize 支持挂壁式支架吗？"
 
 [i18n-content-hardware-_index-faq-items-i_0-body]
-other = "Vize 支持 VESA 标准 200×200 支架，它能安装在任何适配的挂壁式支架或其他承重至少 65 磅的支架上。"
+other = "Vize 支持 VESA 标准 200×200 支架，它能安装在任何适配的挂壁式支架或其他承重至少 29.5kg 的支架上。"
 
 [i18n-content-hardware-_index-faq-items-i_1-title]
 other = "Vize 支持 HDMI 输入吗？"
@@ -1364,8 +1364,8 @@ other = """Shelly Starks
 Sandler Training 合伙人, 美国, 佛罗里达"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_0-body]
-other = """Vibe团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vibe 合作的感觉很赞。
-我会向任何需要智能白板的人推赞 Vibe。"""
+other = """Vize团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。用 Vize 合作的感觉很赞。
+我会向任何需要智能白板的人推赞 Vize。"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_1-author-name]
 other = """Karen L. Brady
@@ -1373,7 +1373,7 @@ other = """Karen L. Brady
 信托律师, 美国, 科罗拉多"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_1-body]
-other = """不论线上线下，Vibe 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vibe 强大的交互功能依然
+other = """不论线上线下，Vize 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vize 强大的交互功能依然
 让我的工作效率有了指数级提升，更是让我常常在客户面前能有惊艳表现。"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_2-author-name]
@@ -1382,8 +1382,8 @@ other = """Rob Karlinsey
 肯莫尔市经理, 美国, 华盛顿"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_2-body]
-other = """有了Vibe，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vibe 能够自动储存白板，所以我能在会上向人们
-展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vibe 改变了一切。"""
+other = """有了Vize，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vize 能够自动储存白板，所以我能在会上向人们
+展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vize 改变了一切。"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_3-author-name]
 other = """Kate Womick
@@ -1391,9 +1391,9 @@ other = """Kate Womick
 Azul Arc 产品经理, 美国, 佛罗里达"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_3-body]
-other = """Vibe 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
+other = """Vize 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，
 我们不必为了去其他地方查看笔记而中断工作。去当我疲于应对多个客户时，我可以把所有东西保存在一个地方，
-这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vibe 上涂涂画画的感觉。
+这样我就能轻松继续之前的工作。作为一个 UX 设计师，我喜欢拿起触控笔在 Vize 上涂涂画画的感觉。
 对于大型项目，我们甚至可以让相距遥远的几人同时在一块白板上作业。"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_4-author-name]
@@ -1402,7 +1402,7 @@ other = """Peter T. Maloof
 凯捷咨询公司副总裁, 美国"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_4-body]
-other = """我们喜欢用Vibe智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vibe 硬件或其他设备登录
+other = """我们喜欢用Vize智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vize 硬件或其他设备登录
 白板，实现无缝转换。"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_5-author-name]
@@ -1994,9 +1994,9 @@ other = "任务管理"
 other = "设计讨论"
 
 [i18n-content-customer-_index-stories-i_0-testimonial-body]
-other = """我最初只预订了一台，但很快发现 Vibe 实在太好用了，我们马上把所有的智能白板都 Vibe。它是我们用过最好用
+other = """我最初只预订了一台，但很快发现 Vize 实在太好用了，我们马上把所有的智能白板都 Vize。它是我们用过最好用
 的合作设备, 可以应对任何类型的会议 – 从任务管理到软件设计会议。不可思议的设备, 帮我们省下了大量的时间和成本，让我
-们能够更快地打造自己的 AI 软件！恭喜 Vibe，你们改变了一切！"""
+们能够更快地打造自己的 AI 软件！恭喜 Vize，你们改变了一切！"""
 
 [i18n-content-customer-_index-stories-i_0-testimonial-author-name]
 other = """Henry Sal Jr.
@@ -2022,7 +2022,7 @@ other = "信息分享"
 other = "头脑风暴"
 
 [i18n-content-customer-_index-stories-i_1-testimonial-body]
-other = """我们喜欢用Vibe智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vibe 硬件
+other = """我们喜欢用Vize智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。我们可以用 Vize 硬件
 或其他设备登录白板，实现无缝转换。"""
 
 [i18n-content-customer-_index-stories-i_1-testimonial-author-name]
@@ -2031,7 +2031,7 @@ other = """Peter T. Maloof
 凯捷咨询公司副总裁"""
 
 [i18n-content-customer-_index-stories-i_2-title]
-other = "通过 Vibe 汇集所有培训课程"
+other = "通过 Vize 汇集所有培训课程"
 
 [i18n-content-customer-_index-stories-i_2-industry]
 other = "专业培训"
@@ -2049,8 +2049,8 @@ other = "降低运营成本"
 other = "多地合作办公"
 
 [i18n-content-customer-_index-stories-i_2-testimonials-i_0-body]
-other = """Vibe团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。
-用 Vibe 合作的感觉很赞。我会向任何需要智能白板的人推赞 Vibe。"""
+other = """Vize团队乐于接受任何能让产品变得更好的新想法，甚至在最近的更新中已将一些建议付诸实践。
+用 Vize 合作的感觉很赞。我会向任何需要智能白板的人推赞 Vize。"""
 
 [i18n-content-customer-_index-stories-i_2-testimonials-i_0-author-name]
 other = """Shelly Starks
@@ -2058,17 +2058,17 @@ other = """Shelly Starks
 Sandler Training合伙人"""
 
 [i18n-content-customer-_index-stories-i_2-testimonials-i_1-body]
-other = """在我们的公共培训中心，我们通过 Vibe 与个人、小公司、客户通过。我们的选择标准包括以下四点：
+other = """在我们的公共培训中心，我们通过 Vize 与个人、小公司、客户通过。我们的选择标准包括以下四点：
 
-**性能强大** （通过 Vibe，我们作笔记、练习、保存并发送文档、与办公室或远程伙伴合作。）
+**性能强大** （通过 Vize，我们作笔记、练习、保存并发送文档、与办公室或远程伙伴合作。）
 
-**售后支持** (Vibe 团队提供优质的售后支持和培训。）
+**售后支持** (Vize 团队提供优质的售后支持和培训。）
 
 **操作简单** （从收到，打开，组装到使用只用了不到 40 分钟…绝对简单好用。）
 
-**成本较低** （Vibe 提供强大的功能和很高的使用价值，并且无需持续的认证或年费。）
+**成本较低** （Vize 提供强大的功能和很高的使用价值，并且无需持续的认证或年费。）
 
-Vibe 就是实时智能白板市场上的“最佳品种”！"""
+Vize 就是实时智能白板市场上的“最佳选择”！"""
 
 [i18n-content-customer-_index-stories-i_2-testimonials-i_1-author-name]
 other = """Robert Howard
@@ -2076,7 +2076,7 @@ other = """Robert Howard
 Sandler Training总裁"""
 
 [i18n-content-customer-_index-stories-i_3-title]
-other = "用 Vibe 释放创造力，升级提案表现"
+other = "用 Vize 释放创造力，升级提案表现"
 
 [i18n-content-customer-_index-stories-i_3-industry]
 other = "设计"
@@ -2094,9 +2094,9 @@ other = "项目组织"
 other = "远程合作"
 
 [i18n-content-customer-_index-stories-i_3-testimonial-body]
-other = """Vibe 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，我们不必为了去其他地方查
+other = """Vize 的合作功能太强大了。它帮助团队将一个项目的调研、笔记和和截屏整合在一块白板上，我们不必为了去其他地方查
 看笔记而中断工作。去当我疲于应对多个客户时，我可以把所有东西保存在一个地方，这样我就能轻松继续之前的工作。作为一个 UX
-设计师，我喜欢拿起触控笔在 Vibe 上涂涂画画的感觉。对于大型项目，我们甚至可以让相距遥远的几人同时在一块白板上作业。"""
+设计师，我喜欢拿起触控笔在 Vize 上涂涂画画的感觉。对于大型项目，我们甚至可以让相距遥远的几人同时在一块白板上作业。"""
 
 [i18n-content-customer-_index-stories-i_3-testimonial-author-name]
 other = """Kate Womick
@@ -2104,7 +2104,7 @@ other = """Kate Womick
 Azul Arc产品经理"""
 
 [i18n-content-customer-_index-stories-i_4-title]
-other = "Vibe 将项目化繁为简"
+other = "Vize 将项目化繁为简"
 
 [i18n-content-customer-_index-stories-i_4-industry]
 other = "政府"
@@ -2126,8 +2126,8 @@ other = "远程协作"
 
 [i18n-content-customer-_index-stories-i_4-testimonial-body]
 other = """作为一个资深白板用户——同事们老拿这事儿吐槽我——和别人转述刚讨论好的方案真是一件痛苦的事……你得拍张照或
-者让人帮你记下来记下来。有了Vibe，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vibe 能够自动储存
-白板，所以我能在会上向人们展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vibe 改变了一切。"""
+者让人帮你记下来记下来。有了Vize，我只需要在会后敲一下“发送”就能把我的白板分享给任何人。Vize 能够自动储存
+白板，所以我能在会上向人们展示我们之前讨论的结果。我们还能远程邀请同事通过其他设备加入白板。Vize 改变了一切。"""
 
 [i18n-content-customer-_index-stories-i_4-testimonial-author-name]
 other = """Rob Karlinsey
@@ -2140,7 +2140,7 @@ other = """Karen L. Brady
 Estate Planning Attorney, Arvada, Colorado"""
 
 [i18n-content-customer-_index-testimonial_section-testimonials-i_0-body]
-other = """不论线上线下，Vibe 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vibe 强大的交互
+other = """不论线上线下，Vize 都彻底改变了我们和客户沟通的方式。我其实一直在使用电子白板，但是 Vize 强大的交互
 功能依然让我的工作效率有了指数级提升，更是让我常常在客户面前能有惊艳表现。"""
 
 [i18n-content-customer-_index-bottom_cta-title]
