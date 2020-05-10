@@ -186,14 +186,3 @@ apps:
   use_case: remote
   type: av
   featured: true
-- id: io.screencloud.player
-  name: ScreenCloud Player
-  type: other
-- id: com.prezi.android
-  name: Prezi
-  use_case: presentation
-  type: productivity
-- id: com.bluejeansnet.Base
-  name: BlueJeans
-  use_case: remote
-  type: av
