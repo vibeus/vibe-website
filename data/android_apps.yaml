@@ -38,6 +38,10 @@ apps:
 - id: com.bluebeam.drawings
   name: Drawings
   type: construction
+- id: com.bluejeansnet.Base
+  name: BlueJeans
+  use_case: remote
+  type: av
 - id: com.cisco.webex.meetings
   name: Webex
   use_case: remote
@@ -140,6 +144,10 @@ apps:
 - id: com.panopto.androidapp
   name: Panapto
   type: education
+- id: com.prezi.android
+  name: Prezi
+  use_case: presentation
+  type: productivity
 - id: com.realtimeboard
   name: Miro
   use_case: presentation
@@ -169,6 +177,8 @@ apps:
   name: Uber Conference
   use_case: remote
   type: av
+- id: com.ubnt.easyunifi
+  name: UniFi Network
 - id: com.wrike
   name: Wrike
   use_case: project
@@ -177,6 +187,9 @@ apps:
   name: Zoho Projects
   use_case: project
   type: project
+- id: io.screencloud.player
+  name: ScreenCloud Player
+  type: other
 - id: me.bluemail.mail
   name: Blue Mail
   use_case: remote
