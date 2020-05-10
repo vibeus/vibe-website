@@ -179,6 +179,7 @@ apps:
   type: av
 - id: com.ubnt.easyunifi
   name: UniFi Network
+  type: other
 - id: com.wrike
   name: Wrike
   use_case: project
