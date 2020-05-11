@@ -64,7 +64,7 @@ features:
     figure: img/home/feature-sim.png
     cta:
       title: i18n-content-_index-features-i_4-cta-title
-      video: hCgKwXDMZfM
+      video: //dl.vibe.us/assets/video/vibe-install-time-lapse.mp4
     class: is-feature-5
 trust:
   title: i18n-content-_index-trust-title

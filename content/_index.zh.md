@@ -23,8 +23,9 @@ what_is_vibe:
   title: i18n-content-_index-what_is_vibe-title
   body: i18n-content-_index-what_is_vibe-body
   video:
-    id: Ccd4cVrtHTk
+    url: //dl.vibe.cn/assets/video/vibe-intro-full.mp4
     preview: video/common/vibe-intro.mp4
+    isVideoJS: true
 testimonial_section:
   testimonials:
     - author:
@@ -61,7 +62,7 @@ features:
     figure: img/home/feature-sim.png
     cta:
       title: i18n-content-_index-features-i_4-cta-title
-      video: hCgKwXDMZfM
+      video: //dl.vibe.cn/assets/video/vibe-install-time-lapse.mp4
     class: is-feature-5
 trust:
   title: i18n-content-_index-trust-title

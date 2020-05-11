@@ -8,8 +8,9 @@ aliases:
 video_hero:
   title: i18n-content-demo-request-video-landing-video_hero-title
   video:
+    url: //dl.vibe.cn/assets/video/video-demo-full.mp4
     placeholder: img/shared/video.png
-    id: gsJI0jcRyLk
+    isVideoJS: true
   footnote:
     text: i18n-content-demo-request-video-landing-zh-video_hero-footnote-text
 hero:

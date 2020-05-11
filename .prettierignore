@@ -1,7 +1,6 @@
 assets/js/glide.min.js
 assets/js/react-dom.production.min.js
 assets/js/react.production.min.js
-assets/js/shopify-buy-sdk.min.js
 content/blog/
 content/video-tutorial/
 data/android_apps.yaml

@@ -8,7 +8,8 @@ hero:
     title: i18n-content-software-_index-hero-cta-title
     class: is-black is-rounded is-outlined
     url: https://app.vibe.cn/login?auth_type=guest
-  video_id: jCbQM95PA9U
+  video_url: //dl.vibe.cn/assets/video/vibe-software-full.mp4
+  isVideoJS: true
 feature_overall:
   title: i18n-content-software-_index-feature_overall-title
   items:

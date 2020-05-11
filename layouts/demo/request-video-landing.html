@@ -1,3 +1,10 @@
+{{ define "stylesheets" }}
+{{ if eq .Site.Language.Lang "zh" }}
+<style>
+{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
+</style>
+{{ end }}
+{{ end }}
 {{ define "main" }}<main class="reqest-video-landing">
 
 {{ with .Params.video_hero }}
