@@ -4,8 +4,12 @@ slug: the-whiteboard-for-cooperative-learning
 author: Vibe Team
 date: 2020-05-11
 tags: ["interactive whiteboard", "the whiteboard", "cooperative learning"]
-draft: true
+draft: false
 ---
+
+
+
+
 
 In education, learning and working together is becoming more important than ever. At Vibe, learning and teamwork are at the core of everything we do. We believe that cooperative learning and collaborative working lead to successes and discoveries that one person alone could never have imagined.
 
@@ -13,14 +17,11 @@ As a company that looks to the future, cooperative learning has always been a so
 
 The Vibe interactive whiteboard aims to modernize education and give teachers the tools they need to nurture a generation of bright, informed, innovative thinkers who excel at working together.
 
-{{< common/srcset "image-0.jpg" "Student writing on an interactive whiteboard" >}}
-
-
 **Interactive Whiteboard in the Classroom**
 
 [According to the Yale School of Education](https://poorvucenter.yale.edu/ActiveLearning), active learning is defined as “anything that involves students in doing things and thinking about the things they are doing.” This type of learning prepares students to apply their knowledge in real-world situations, by engaging their brains in mindful actions rather than passive observation or memorization.
 
-Vibe’s interactive whiteboard brings active learning to life in the classroom for both teachers and students. [According to Yale, teachers who use a variety of visual tools and technologies typically have more active and engaged classes. Even the combination of a low-tech whiteboard and a PowerPoint projector is more effective than one of these alone,](https://poorvucenter.yale.edu/WhiteboardsChalkboards) but the interactive whiteboard goes beyond just displaying lecture notes, offering endless possibilities for in-class projects and activities.
+Vibe’s interactive whiteboard brings active learning to life in the classroom for both teachers and students. According to Yale, [teachers who use a variety of visual tools and technologies typically have more active and engaged classes](https://poorvucenter.yale.edu/WhiteboardsChalkboards). Even the combination of a low-tech whiteboard and a PowerPoint projector is more effective than one of these alone, but the interactive whiteboard goes beyond just displaying lecture notes, offering endless possibilities for in-class projects and activities.
 
 Simple tools are available on the interactive whiteboard, like screen capture and sharing, which also make it easier to recap each class and share lecture notes quickly, leaving more class time open for more engaging activities.
 
