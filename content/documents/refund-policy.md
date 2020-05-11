@@ -13,8 +13,10 @@ hero:
 Our policy lasts 30 days. If 30 days have gone by since you received your purchase, unfortunately we can’t offer you
 a refund or exchange.
 
-To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be
-in the original packaging.
+Please keep all original packaging in case you need to do a return within the first 30 days of your purchase.
+Product must not be damaged, and must be shipped back to Vibe's headquarters with all the included accessories and
+original packaging in order to be eligible for a full refund.
+Vibe will need to inspect the product before we can issue a refund.
 
 We also accept return items if they are defective or damaged on arrival.
 
