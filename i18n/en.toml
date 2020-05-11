@@ -300,24 +300,12 @@ other = "Red Portable Stand"
 [i18n-content-order-_index-products-i_3-title]
 other = "Additional Touch Styluses (2)"
 
-[i18n-content-order-_index-hero-title]
-other = "Vibe Board"
-
 [i18n-content-order-_index-hero-body]
 other = """The Vibe Board is an interactive digital whiteboard that enhances collaboration with a
 4K 55” screen and built in speakers."""
 
 [i18n-content-order-_index-accessories-title]
 other = "Related accessories"
-
-[i18n-content-order-_index-accessories-items-i_0-title]
-other = "White Portable Stand"
-
-[i18n-content-order-_index-accessories-items-i_1-title]
-other = "Red Portable Stand"
-
-[i18n-content-order-_index-accessories-items-i_2-title]
-other = "Additional Touch Styluses (2)"
 
 [i18n-content-order-_index-faq-title]
 other = "FAQs"
@@ -1318,6 +1306,24 @@ other = "Start Free Trial"
 [i18n-content-software-_index-feature_overall-title]
 other = "Create great ideas with your team"
 
+[i18n-content-software-_index-feature_overall-items-i_3-title]
+other = "大小可调的橡皮擦"
+
+[i18n-content-software-_index-feature_overall-items-i_3-body]
+other = "橡皮擦可随手势移动幅度增大缩小。"
+
+[i18n-content-software-_index-feature_overall-items-i_4-title]
+other = "自定义白板背景"
+
+[i18n-content-software-_index-feature_overall-items-i_4-body]
+other = "提供多种白板背景，可自定义颜色和网格。"
+
+[i18n-content-software-_index-feature_overall-items-i_5-title]
+other = "任选笔画颜色粗细"
+
+[i18n-content-software-_index-feature_overall-items-i_5-body]
+other = "12 种颜色、不同粗细笔画，让你的创作更加多样。"
+
 [i18n-content-software-_index-feature_overall-items-i_0-title]
 other = "Infinite Canvas"
 
@@ -1339,12 +1345,23 @@ other = "Start your work faster by importing documents or images."
 [i18n-content-software-_index-feature_collaboration-title]
 other = "Collaboration has never been easier"
 
-[i18n-content-software-_index-feature_collaboration-subtitle]
+[i18n-content-software-_index-feature_collaboration-items-i_0-subtitle]
 other = "Edit in real-time on your choice of device"
 
-[i18n-content-software-_index-feature_collaboration-body]
+[i18n-content-software-_index-feature_collaboration-items-i_0-body]
 other = """Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC,
 or tablet (Mobile app is view-only). Seamlessly collaborate in real time on whichever devices work best for your team."""
+
+[i18n-content-software-_index-feature_collaboration-items-i_1-subtitle]
+other = """多种分享方式
+
+让信息流通无阻"""
+
+[i18n-content-software-_index-feature_collaboration-items-i_1-body]
+other = """- 微信扫一扫，轻轻松松将白板内容分享给远程同事。
+- 可邀请远程同事加入白板一起创作，也可设置权限为只读仅供浏览。
+- 支持第三方 App 分享，如钉钉、百度网盘。
+- 一键输出白板内容，生成PDF，自动发送至邮箱。"""
 
 [i18n-content-software-_index-feature_presentation-title]
 other = "Kick boring presentations to the curb"

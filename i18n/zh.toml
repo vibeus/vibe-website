@@ -67,7 +67,7 @@ other = "兼容各大 App"
 other = "你无需改变工作习惯"
 
 [i18n-content-_index-features-i_3-body]
-other = """办公: 企业微信，飞书，QQ邮箱
+other = """办公：企业微信，飞书，QQ邮箱
 
 文档：石墨文档，坚果云，百度网盘
 
@@ -83,7 +83,7 @@ other = "一体式极简设计"
 other = "装卸简单"
 
 [i18n-content-_index-features-i_4-body]
-other = "无鼠标，无键盘，无任何累赘。装卸方便，迅速上手，无需学习专业 IT 知识"
+other = "无线，无鼠标，无键盘，无任何累赘。装卸方便，迅速上手，无需学习专业 IT 知识"
 
 [i18n-content-_index-features-i_4-cta-title]
 other = "观看视频"
@@ -277,24 +277,12 @@ other = "Red Portable Stand"
 [i18n-content-order-_index-products-i_3-title]
 other = "Additional Touch Styluses (2)"
 
-[i18n-content-order-_index-hero-title]
-other = "Vibe Board"
-
 [i18n-content-order-_index-hero-body]
 other = """The Vibe Board is an interactive digital whiteboard that enhances collaboration with a
 4K 55” screen and built in speakers."""
 
 [i18n-content-order-_index-accessories-title]
 other = "Related accessories"
-
-[i18n-content-order-_index-accessories-items-i_0-title]
-other = "White Portable Stand"
-
-[i18n-content-order-_index-accessories-items-i_1-title]
-other = "Red Portable Stand"
-
-[i18n-content-order-_index-accessories-items-i_2-title]
-other = "Additional Touch Styluses (2)"
 
 [i18n-content-order-_index-faq-title]
 other = "FAQs"
@@ -1272,6 +1260,24 @@ other = "线上白板试用"
 [i18n-content-software-_index-feature_overall-title]
 other = "智能高效的书写体验"
 
+[i18n-content-software-_index-feature_overall-items-i_3-title]
+other = "大小可调的橡皮擦"
+
+[i18n-content-software-_index-feature_overall-items-i_3-body]
+other = "橡皮擦可随手势移动幅度增大缩小。"
+
+[i18n-content-software-_index-feature_overall-items-i_4-title]
+other = "自定义白板背景"
+
+[i18n-content-software-_index-feature_overall-items-i_4-body]
+other = "提供多种白板背景，可自定义颜色和网格。"
+
+[i18n-content-software-_index-feature_overall-items-i_5-title]
+other = "任选笔画颜色粗细"
+
+[i18n-content-software-_index-feature_overall-items-i_5-body]
+other = "12 种颜色、不同粗细笔画，让你的创作更加多样。"
+
 [i18n-content-software-_index-feature_overall-items-i_0-title]
 other = "无限画布"
 
@@ -1293,16 +1299,27 @@ other = "你想要的模板这里都有，让效率更进。"
 [i18n-content-software-_index-feature_collaboration-title]
 other = "合作从未如此简单"
 
-[i18n-content-software-_index-feature_collaboration-subtitle]
+[i18n-content-software-_index-feature_collaboration-items-i_0-subtitle]
 other = """多人多平台登录白板
 
 创造随时随地"""
 
-[i18n-content-software-_index-feature_collaboration-body]
+[i18n-content-software-_index-feature_collaboration-items-i_0-body]
 other = """- 合作不受限于一块屏幕，不论通过智能白板、电脑、手机或平板电脑，都能毫秒级同步，让你随时随地开启合作。
 - 多人在线协作编辑白板，告别多次传输的繁复。
 - 白板历史内容自动保存，随时返回继续创作。
 - 在视频会议中分享白板内容，远程协作更简单。"""
+
+[i18n-content-software-_index-feature_collaboration-items-i_1-subtitle]
+other = """多种分享方式
+
+让信息流通无阻"""
+
+[i18n-content-software-_index-feature_collaboration-items-i_1-body]
+other = """- 微信扫一扫，轻轻松松将白板内容分享给远程同事。
+- 可邀请远程同事加入白板一起创作，也可设置权限为只读仅供浏览。
+- 支持第三方 App 分享，如钉钉、百度网盘。
+- 一键输出白板内容，生成PDF，自动发送至邮箱。"""
 
 [i18n-content-software-_index-feature_presentation-title]
 other = "告别无聊提案"

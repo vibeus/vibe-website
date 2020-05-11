@@ -74,14 +74,14 @@
 <section class="section is-overall">
   <div class="container">
     <h1 class="title is-section-title">{{ T .title }}</h1>
-    <div class="columns">
+    <div class="columns{{ if eq $.Site.Language.Lang "zh" }} is-mobile is-multiline{{ end }}">
       {{ range .items }}
-      <div class="column">
+      <div class="column{{ if eq $.Site.Language.Lang "zh" }} is-one-third-tablet is-half-mobile{{ end }}">
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "420x" "mobile" "420x") }}
+          {{ (resources.Get .figure).Content | safeHTML }}
         </figure>
         <h2 class="item-title">{{ T .title }}</h2>
-        <div class="content">
+        <div class="content" {{ with .max_content_width }}style="max-width: {{ . }}"{{ end }}>
           {{ T .body | markdownify }}
         </div>
       </div>
@@ -95,13 +95,19 @@
 <section class="section is-collaboration">
   <div class="container">
     <h1 class="title is-section-title">{{ T .title }}</h1>
-    <div class="columns is-vcentered">
+    {{ range .items }}
+    <div class="columns is-vcentered{{ if .reversed }} is-reversed{{ end }}{{ with .class }} {{ . }}{{ end }}">
       <div class="column">
+        {{ with .figure }}
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get "img/software/collaboration.png") "desktop" "1300x" "mobile" "750x" "options" "jpg #ffcc00") }}
-          {{ $gif := resources.Get "img/software/collaboration-overlay.gif" | resources.Fingerprint }}
+          {{ $bgColor := cond (eq $.Site.Language.Lang "zh") "#f4f4f4" "#ffcc00" }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .base) "desktop" "1300x" "mobile" "750x" "options" (print "jpg " $bgColor)) }}
+          {{ if .overlay }}
+          {{ $gif := resources.Get .overlay | resources.Fingerprint }}
           <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+          {{ end }}
         </figure>
+        {{ end }}
       </div>
       <div class="column">
         <h2 class="title is-subtitle">{{ T .subtitle }}</h2>
@@ -110,6 +116,7 @@
         </div>
       </div>
     </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

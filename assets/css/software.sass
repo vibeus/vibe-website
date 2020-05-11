@@ -92,23 +92,25 @@
 .section.is-overall
   +vertical-padding(76px, 120px)
   .title
-    margin-bottom: 90px
+    margin-bottom: 30px
   .column
     display: flex
     flex-direction: column
     align-items: center
-    +mobile
-      &:not(:first-child)
-        margin-top: 32px
+    margin-top: 60px
     .image
       max-width: 210px
+      height: 200px
+      svg
+        width: 100%
+        height: 100%
     .item-title
       font-size: 30px
       line-height: 38px
       font-family: $vibe-family-heading
       font-weight: $vibe-bold
       text-align: center
-      margin-top: 48px
+      margin-top: 36px
       margin-bottom: 30px
       +mobile
         margin-top: 16px
@@ -119,6 +121,8 @@
 .section.is-collaboration
   +vertical-padding(120px, 100px)
   background-color: $vibe-yellow
+  +lang-override(".lang-zh")
+    background-color: $vibe-white
   .container
     max-width: 1240px
   .image .overlay
@@ -138,6 +142,11 @@
       font-size: 20px
       line-height: 1.5
       margin-bottom: 16px
+  .columns.is-reversed
+    flex-direction: row-reverse
+    .title.is-subtitle, .content
+      +tablet
+        margin-right: auto
 
 .section.is-presentation
   +vertical-padding(120px)

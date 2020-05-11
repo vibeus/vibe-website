@@ -41,6 +41,8 @@
         line-height: 60px
     p
       max-width: 411px
+      +lang-override(".lang-zh")
+        font-size: 20px
   .cta
     +mobile
       display: flex
@@ -114,7 +116,7 @@
   .columns
     justify-content: center
   .column.is-text
-    max-width: 500px
+    max-width: 500px + 12px * 2
     font-size: 18px
     .title
       font-size: 30px

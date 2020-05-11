@@ -13,19 +13,44 @@ hero:
 feature_overall:
   title: i18n-content-software-_index-feature_overall-title
   items:
+    - title: i18n-content-software-_index-feature_overall-items-i_3-title
+      body: i18n-content-software-_index-feature_overall-items-i_3-body
+      figure: img/software/eraser-size.svg
+      max_content_width: 192px
+    - title: i18n-content-software-_index-feature_overall-items-i_4-title
+      body: i18n-content-software-_index-feature_overall-items-i_4-body
+      figure: img/software/canvas-background.svg
+      max_content_width: 220px
+    - title: i18n-content-software-_index-feature_overall-items-i_5-title
+      body: i18n-content-software-_index-feature_overall-items-i_5-body
+      figure: img/software/stroke-colors.svg
+      max_content_width: 226px
     - title: i18n-content-software-_index-feature_overall-items-i_0-title
       body: i18n-content-software-_index-feature_overall-items-i_0-body
-      figure: img/software/infinite-canvas.png
+      figure: img/software/infinite-canvas.svg
+      max_content_width: 200px
     - title: i18n-content-software-_index-feature_overall-items-i_1-title
       body: i18n-content-software-_index-feature_overall-items-i_1-body
-      figure: img/software/smart-drawing.png
+      figure: img/software/smart-drawing.svg
+      max_content_width: 206px
     - title: i18n-content-software-_index-feature_overall-items-i_2-title
       body: i18n-content-software-_index-feature_overall-items-i_2-body
-      figure: img/software/templates.png
+      figure: img/software/templates.svg
+      max_content_width: 200px
 feature_collaboration:
   title: i18n-content-software-_index-feature_collaboration-title
-  subtitle: i18n-content-software-_index-feature_collaboration-subtitle
-  body: i18n-content-software-_index-feature_collaboration-body
+  items:
+    - subtitle: i18n-content-software-_index-feature_collaboration-items-i_0-subtitle
+      body: i18n-content-software-_index-feature_collaboration-items-i_0-body
+      figure:
+        base: img/software/collaboration.png
+        overlay: img/software/collaboration-overlay.gif
+      reversed: true
+    - subtitle: i18n-content-software-_index-feature_collaboration-items-i_1-subtitle
+      class: is-zh-collab-2
+      body: i18n-content-software-_index-feature_collaboration-items-i_1-body
+      figure:
+        base: img/software/collaboration-2-zh.png
 feature_presentation:
   title: i18n-content-software-_index-feature_presentation-title
   items:
