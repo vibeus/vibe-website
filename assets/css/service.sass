@@ -44,6 +44,26 @@
   .column.is-contact
     background-color: white
 
+.hero.is-single
+  background-color: $vibe-teal
+  .hero-body
+    +vertical-padding(120px)
+  .title
+    text-align: center
+
 .section.is-content
+  +vertical-padding(80px)
   .container
-    max-width: 1024px
+    max-width: 1004px
+  .tabs
+    margin-bottom: 56px
+    ul
+      justify-content: space-between
+      font-size: 30px
+      font-weight: $vibe-bold
+  .content
+    h2
+      font-size: 24px
+    table
+      background-color: $vibe-white
+      margin-bottom: 32px

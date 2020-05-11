@@ -1,11 +1,36 @@
 {{ define "main" }}<main class="service-doc">
 
+<section class="hero is-single">
+  <div class="hero-body">
+    <div class="container">
+      <div class="title is-section-title">
+        {{ .Title }}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section is-content">
   <div class="container">
+    <div class="tabs">
+      <ul>
+        {{ range sort .CurrentSection.Pages "Params.tab.order" }}
+        {{ $active := eq . $.Page }}
+        <li {{ if $active }}class="is-active"{{ end }}>
+          <a href="{{ .RelPermalink }}">{{ .Params.tab.title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
     <div class="content">
       {{ .Content }}
     </div>
   </div>
 </section>
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
 
 </main>{{ end }}
