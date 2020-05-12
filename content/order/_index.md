@@ -10,8 +10,8 @@ product_notices:
       be contacted when this item becomes available again.
     cart_notice: Temporarily unavailable.
   backorder: &backorder
-    item_notice: '**Backordered.** Expected delivery of May 20.'
-    cart_notice: 'Backordered. Expected delivery of May 20.'
+    item_notice: '**Backordered.** Expected delivery of Jun 1.'
+    cart_notice: 'Backordered. Expected delivery of Jun 1.'
 products:
   - &vibe_board
     product_id: '31815758250035'
@@ -19,25 +19,21 @@ products:
     title: i18n-content-order-_index-products-i_0-title
     figure: img/order/product-gallery-1.png
     sold_out: false
-    backorder:
-      item_notice: '**Backordered.** Expected delivery of May 18.'
-      cart_notice: 'Backordered. Expected delivery of May 18.'
+    backorder: false
   - &white_stand
     product_id: '31815731576883'
     price: 500
     title: i18n-content-order-_index-products-i_1-title
     figure: img/order/accessory-stand-w.png
     sold_out: false
-    backorder: *backorder
+    backorder: false
   - &red_stand
     product_id: '31815731609651'
     price: 500
     title: i18n-content-order-_index-products-i_2-title
     figure: img/order/accessory-stand-r.png
     sold_out: false
-    backorder:
-      item_notice: '**Backordered.** Expected delivery of Jun 1.'
-      cart_notice: 'Backordered. Expected delivery of Jun 1.'
+    backorder: *backorder
   - &stylus
     product_id: '31815737016371'
     price: 15
