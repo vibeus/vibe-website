@@ -4,7 +4,7 @@ slug: how-i-vibe-robyn-mother-of-four-and-homeschool-expert
 author: Vibe Team
 date: 2020-05-14
 tags: ["homeschool", "collaboative learning", "digital whiteboard", "teaching"]
-isfeatured: True
+isfeatured: true
 draft: false
 summary: Robyn Cooper, a mother of four children, has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
 ---
