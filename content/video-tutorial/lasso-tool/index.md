@@ -1,12 +1,10 @@
 ---
-title: "Microsoft Teams Overview"
+title: "Lasso Tool"
 slug: lasso-tool
-date: 2020-05-08
+date: 2020-04-24
 draft: false
-videoId: hRNAZdKkcaM
+videoId: EPJAzFtQbWw
 allowIndex: false
 no_sitemap: true
 ---
-
-
 
