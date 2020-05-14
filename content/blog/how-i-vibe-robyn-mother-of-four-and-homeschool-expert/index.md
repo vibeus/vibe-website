@@ -2,11 +2,11 @@
 title: "How I Vibe: Robyn C., Mother of Four and Homeschool Expert"
 slug: how-i-vibe-robyn-mother-of-four-and-homeschool-expert
 author: Vibe Team
-date: 2020-05-13
+date: 2020-05-14
 tags: ["homeschool", "collaboative learning", "digital whiteboard", "teaching"]
-isfeatured:True
+isfeatured: True
 draft: false
-summary: \
+summary: Robyn Cooper, a mother of four children, has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
 ---
 
 
@@ -25,6 +25,8 @@ Let’s take a look at how the family uses the board on a typical school day.
 
 
 ## Handwriting Tips Using the Template
+
+
 
 When asked about her favorite feature of the Vibe board, Robyn quickly replied, “I love the template feature.” And because Vibe provides a selection of templates as well as the option to create your own, Robyn is able to customize templates for specific lesson plans, including handwriting for her younger children.
 
