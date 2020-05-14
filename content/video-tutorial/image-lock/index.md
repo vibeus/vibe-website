@@ -2,7 +2,8 @@
 title: "Image Lock"
 slug: image-lock
 date: 2020-04-17
-draft: true
+draft: false
+isfeatured: false
 videoId: D9Q0EjzTnLg
 allowIndex: false
 no_sitemap: true

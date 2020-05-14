@@ -2,7 +2,7 @@
 title: "AI Text Converter"
 slug: ai-text-converter
 date: 2020-03-06
-draft: true
+draft: false
 videoId: EY0O4NVAx-U
 allowIndex: false
 no_sitemap: true

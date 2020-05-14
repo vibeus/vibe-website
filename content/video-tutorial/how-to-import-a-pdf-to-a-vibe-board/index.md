@@ -2,7 +2,7 @@
 title: "How to import a PDF to a Vibe board"
 slug: how-to-import-a-pdf-to-a-vibe-board
 date: 2020-02-24
-draft: true
+draft: false
 videoId: dqFyFakRp8M
 allowIndex: false
 no_sitemap: true

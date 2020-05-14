@@ -2,7 +2,7 @@
 title: "Erasing Options"
 slug: erasing-options
 date: 2020-04-03
-draft: true
+draft: false
 videoId: fNFU75b30w0
 allowIndex: false
 no_sitemap: true
