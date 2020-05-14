@@ -5,6 +5,9 @@ targets:
   - name: aws-production
     URL: 's3://vibe.us?region=us-west-2'
     cloudFrontDistributionID: E1NS42WYS2Q8OI
+  - name: aws-cn-production
+    URL: 's3://vibe.cn?region=cn-northwest-1'
+    cloudFrontDistributionID: E10VE47GZ51NZB
 
 matchers:
   - pattern: "^.+\\.(js|css|svg|ttf|woff)$"
