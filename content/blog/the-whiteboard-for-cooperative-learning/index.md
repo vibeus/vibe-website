@@ -17,7 +17,8 @@ As a company that looks to the future, cooperative learning has always been a so
 
 The Vibe interactive whiteboard aims to modernize education and give teachers the tools they need to nurture a generation of bright, informed, innovative thinkers who excel at working together.
 
-**Interactive Whiteboard in the Classroom**
+
+## Interactive Whiteboard in the Classroom
 
 [According to the Yale School of Education](https://poorvucenter.yale.edu/ActiveLearning), active learning is defined as “anything that involves students in doing things and thinking about the things they are doing.” This type of learning prepares students to apply their knowledge in real-world situations, by engaging their brains in mindful actions rather than passive observation or memorization.
 
@@ -39,7 +40,8 @@ Being able to do this together, whether to make a quick point, or to flesh out a
 *-- University of Minnesota* 
 
 
-**Advantages to Collaborative Learning**
+
+## Advantages to Collaborative Learning
 
 As [Dr. Debra Mashek of Harvey Mudd College](https://www.psychologytoday.com/us/blog/relationships-intimate-and-more/201602/collaboration-its-not-what-you-think) puts it, “Cooperating additionally involves information and resource sharing (e.g., human, financial, space, technology) for mutual benefit and to achieve a common purpose. More formal than Coordinating, Cooperating requires increased organizational commitment and alteration of individual activities.” 
 
