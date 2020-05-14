@@ -6,7 +6,7 @@ date: 2020-05-14
 tags: ["homeschool", "collaboative learning", "digital whiteboard", "teaching"]
 isfeatured: true
 draft: false
-summary: Robyn Cooper, a mother of four children, has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
+summary: Robyn Cooper has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
 ---
 
 
@@ -26,13 +26,15 @@ Let’s take a look at how the family uses the board on a typical school day.
 
 ## Handwriting Tips Using the Template
 
-
-
 When asked about her favorite feature of the Vibe board, Robyn quickly replied, “I love the template feature.” And because Vibe provides a selection of templates as well as the option to create your own, Robyn is able to customize templates for specific lesson plans, including handwriting for her younger children.
 
 “You recall that handwriting for young students requires them to learn the appropriate height of letters? Some letters reach the top line, other letters only reach the midline. I was able to make a template for my eight year-old where the bottom half of each line was yellow, and the top half of each line was white. It turns out, this is an amazing visual separator for him,” she said. “For example he could see where the curved part of the letter d goes and how much taller the straight part of the letter should stretch. The template makes handwriting a million times easier.”
 
 She explained that her family’s style of homeschooling focuses on building upon the previous day’s lessons, likening it to building a castle. “You start with teaching the foundation a brick at a time, and then you build layers, brick by brick. So the template is a phenomenal tool because you can add to what you’ve already done. Adding the layers of learning to what’s already there is amazing. One page gives us our review, plus our new material. This only works because I can cut and move objects.
+
+
+
+
 
 
 ## History Class on an Infinite Canvas
@@ -60,7 +62,7 @@ When it’s time for geography, Robyn’s kids can interact with maps in several
 
 
 ## Involve the Whole Family
-****
+
 One of the things Robyn appreciates most about the Vibe board is that the whole family can use it. Her children range in age from 1 to 8 years old, and they all learn by interacting with the board. Her husband uses the Vibe as well, especially when he needs to explain advanced concepts. “He’ll get up and write on the board for them, and then they understand him better. I’ve turned the board on before, to see some algebra, a vocabulary word, or a drawing explaining Fibonacci’s sequence”.
 
 “We are both in agreement that the Vibe board is a worthwhile investment, and we use it during school time, but also during dinner time when Dad is giving the children character training,” says Robyn.
