@@ -57,7 +57,6 @@ feature_set_1:
       figure: img/hardware/feature-2.png
       class: is-feature-2
 feature_set_2:
-  title: i18n-content-hardware-_index-feature_set_2-title
   features:
     - title: i18n-content-hardware-_index-feature_set_2-features-i_0-title
       body: i18n-content-hardware-_index-feature_set_2-features-i_0-body
