@@ -17,8 +17,8 @@ products:
     figure: img/order/product-gallery-1.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected delivery of May 25.'
-      cart_notice: 'Backordered. Expected delivery of May 25.'
+      item_notice: '**Backordered.** Expected to ship on May 26th.'
+      cart_notice: 'Backordered. Expected to ship on May 26th.'
   - &white_stand
     product_id: '31815731576883'
     price: 500
@@ -26,8 +26,8 @@ products:
     figure: img/order/accessory-stand-w.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected delivery of May 25.'
-      cart_notice: 'Backordered. Expected delivery of May 25.'
+      item_notice: '**Backordered.** Expected to ship on May 26th.'
+      cart_notice: 'Backordered. Expected to ship on May 26th.'
   - &red_stand
     product_id: '31815731609651'
     price: 500
@@ -35,8 +35,8 @@ products:
     figure: img/order/accessory-stand-r.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected delivery of Jun 5.'
-      cart_notice: 'Backordered. Expected delivery of Jun 5.'
+      item_notice: '**Backordered.** Expected to ship on Jun 5th.'
+      cart_notice: 'Backordered. Expected to ship on Jun 5th.'
   - &stylus
     product_id: '31815737016371'
     price: 15
