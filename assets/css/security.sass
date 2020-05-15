@@ -6,10 +6,14 @@
   background-color: $vibe-teal
   .hero-body
     +vertical-padding(120px)
+    +lang-override(".lang-zh")
+      +vertical-padding(155px)
   .bg-logo
     position: absolute
     width: 535px
     top: -100px
+    +lang-override(".lang-zh")
+      top: -135px
     right: -240px
   .container
     max-width: 1096px
