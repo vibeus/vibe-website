@@ -11,5 +11,3 @@ no_sitemap: true
 
 
 Need to annotate on PDFs during your presentation or team discussion?
-
-This video walks through how to import a PDF from Google Drive into Vibe's interactive digital whiteboard. You can then annotate and save back to PDF.

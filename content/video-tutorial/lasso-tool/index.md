@@ -8,3 +8,6 @@ allowIndex: false
 no_sitemap: true
 ---
 
+
+
+The Lasso tool makes organizing your ideas even easier. You can move a group of objects all at once on your Vibe board.

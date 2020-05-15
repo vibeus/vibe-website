@@ -12,6 +12,4 @@ no_sitemap: true
 
 
 
-Bad handwriting? No worries! We're here to help you.
-
 Vibe's AI Text Converter feature can convert handwriting to text on your digital whiteboard solution.

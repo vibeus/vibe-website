@@ -8,3 +8,6 @@ allowIndex: false
 no_sitemap: true
 ---
 
+
+
+Wondering how to log in and out? Here is how to easily access your account.

@@ -8,3 +8,6 @@ allowIndex: false
 no_sitemap: true
 ---
 
+
+
+Working from home? Join a Zoom video call through Vibe and share the whiteboard screen in real-time for better collaboration. 
