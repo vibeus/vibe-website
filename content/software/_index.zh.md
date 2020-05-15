@@ -81,6 +81,7 @@ feature_apps:
 security:
   title: i18n-content-software-_index-security-title
   body: i18n-content-software-_index-security-body
+  figure: img/software/security-zh.png
   cta:
     title: i18n-content-software-_index-security-cta-title
     url: /security/
