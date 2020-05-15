@@ -59,6 +59,11 @@
         {{ else }}
         <div id="hero-video-iframe"></div>
         {{ end }}
+        {{ with .footnote }}
+        <div class="content is-footnote">
+          {{ default .text (T .text) | markdownify }}
+        </div>
+        {{ end }}
       </div>
     </figure>
   </div>

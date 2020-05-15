@@ -10,6 +10,8 @@ hero:
     url: https://app.vibe.cn/login?auth_type=guest
   video_url: //dl.vibe.cn/assets/video/vibe-software-full.mp4
   isVideoJS: true
+  footnote:
+    text: i18n-content-_index-hero-footnote
 feature_overall:
   title: i18n-content-software-_index-feature_overall-title
   items:

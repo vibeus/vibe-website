@@ -26,6 +26,8 @@ what_is_vibe:
     url: //dl.vibe.cn/assets/video/vibe-intro-full.mp4
     preview: video/common/vibe-intro.mp4
     isVideoJS: true
+  footnote:
+    text: i18n-content-_index-what_is_vibe-footnote
 testimonial_section:
   testimonials:
     - author:
