@@ -67,11 +67,11 @@ other = "兼容各大 App"
 other = "你无需改变工作习惯"
 
 [i18n-content-_index-features-i_3-body]
-other = """办公：企业微信，飞书，QQ邮箱
+other = """**办公**：企业微信，飞书，QQ邮箱
 
-文档：石墨文档，坚果云，百度网盘
+**文档**：石墨文档，坚果云，百度网盘
 
-视频：钉钉，腾讯会议，Zoom"""
+**视频**：钉钉，腾讯会议，Zoom"""
 
 [i18n-content-_index-features-i_3-cta-title]
 other = "兼容App列表 →"
