@@ -3,7 +3,7 @@ title: 服务政策
 stylesPath: css/service.sass
 tab:
   title: 服务网点
-  order: 30
+  order: 40
 bottom_cta:
   title: i18n-content-service-_index-zh-bottom_cta-title
   cta:
@@ -15,4 +15,4 @@ bottom_cta:
         url: https://www.jd.com
 ---
 
-TBD
+{{< service-outlets-zh >}}
