@@ -12,4 +12,4 @@ no_sitemap: true
 
 
 
-Vibe's AI Text Converter feature can convert handwriting to text on your digital whiteboard solution.
+Vibe's AI Text Converter feature can convert handwriting to text on your digital whiteboard. 

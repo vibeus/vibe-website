@@ -11,4 +11,4 @@ no_sitemap: true
 
 
 
-Get frustrated when image moves in your drawing? Now you have the choice to lock the image!
+Get frustrated when image moves in drawing? Now you have the choice to lock the image!
