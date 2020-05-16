@@ -20,8 +20,12 @@
       height: 900px
   .container
     max-width: 1096px
+    +lang-override(".lang-zh")
+      max-width: 843px
   .title
     font-size: 64px
+    +lang-override(".lang-zh")
+      font-size: 50px
     line-height: 78px
     max-width: 1015px
     +mobile
@@ -50,6 +54,8 @@
 
 .section.is-testimonial
   background-color: $vibe-white
+  +lang-override(".lang-zh")
+    +vertical-padding(70px)
   .content
     text-align: center
     padding-top: 12px
@@ -87,6 +93,8 @@
     .desc
       margin-top: 24px
       max-width: 240px
+      +lang-override(".lang-zh")
+        font-size: 18px
       font-size: 14px
   .photo-gallery
     position: relative
