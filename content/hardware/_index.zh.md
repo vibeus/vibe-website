@@ -205,8 +205,9 @@ video_section:
   title: i18n-content-hardware-_index-video_section-title
   body: i18n-content-hardware-_index-video_section-body
   video:
-    id: Ccd4cVrtHTk
+    url: //dl.vibe.cn/assets/video/vibe-intro-full.mp4
     placeholder: img/shared/video.png
+    isVideoJS: true
   cta:
     title: i18n-content-hardware-_index-video_section-cta-title
     url: /software/

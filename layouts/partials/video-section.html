@@ -2,11 +2,20 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-image">
-        <div class="video-section-launcher" data-target="video-section-player">
-          <figure class="image" id="video-section-player">
+        <div class="video-section-launcher" data-target="video-section">
+          <figure class="image" id="video-section">
             {{ partial "common/srcset" (dict "resource" (resources.Get .video.placeholder) "desktop" "1280x" "tablet" "9600x" "mobile" "750x" "options" "jpg") }}
-            <div id="video-section-player-iframe">
-            </div>
+            {{ if .video.isVideoJS }}
+            <video id="video-section-player" class="video-js vjs-fluid" controls preload="auto" playsinline>
+              <source src="{{ .video.url }}" type="video/mp4" />
+              <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+            {{ else }}
+            <div id="video-section-iframe"></div>
+            {{ end }}
           </figure>
         </div>
       </div>
@@ -23,5 +32,9 @@
       </div>
     </div>
   </div>
-  {{ partial "common/video-player" (dict "playerId" "video-section-player" "videoId" .video.id "triggerClass" ".video-section-launcher" "isInplace" true) }}
+  {{ if .video.isVideoJS }}
+  {{ partial "common/video-player" (dict "playerId" "video-section" "triggerClass" ".video-section-launcher" "isInplace" true "isVideoJS" true) }}
+  {{ else }}
+  {{ partial "common/video-player" (dict "playerId" "video-section" "videoId" .video.id "triggerClass" ".video-section-launcher" "isInplace" true) }}
+  {{ end }}
 </section>
