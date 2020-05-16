@@ -1,9 +1,29 @@
-{{ with .Site.Data.locations.locations }}
+{{ if eq $.Site.Language.Lang "zh" }}
+{{ $loc := .Site.Data.locations_zh.locations }}
 <section class="section is-locations">
   <div class="container">
-    <h1 class="title is-section-title">{{ T .title }}</h1>
+    <h1 class="title is-section-title">{{ T $loc.title }}</h1>
     <div class="columns is-multiline is-mobile">
-      {{ range .cities }}
+      {{ range $loc.cities }}
+      <div class="column is-one-third">
+        <div class="city">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "500x") }}
+          </figure>
+          <p class="name">{{ T .name }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ else }}
+{{ $loc := .Site.Data.locations.locations }}
+<section class="section is-locations">
+  <div class="container">
+    <h1 class="title is-section-title">{{ T $loc.title }}</h1>
+    <div class="columns is-multiline is-mobile">
+      {{ range $loc.cities }}
       <div class="column is-one-third">
         <div class="city">
           <figure class="image">
