@@ -100,8 +100,37 @@
 {{ end }}
 
 {{ with .Params.bottom_cta }}
-{{ partial "bottom-cta" . }}
+<section class="section is-bottom-cta">
+  <div class="container">
+    <div class="bottom-bg">
+      {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+    </div>
+    <div>
+      <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
+      {{ with .body }}
+      <div class="content">{{ default . (T .) | markdownify }}</div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta" data-target="contact">
+      {{ if .title }}
+      <a class="button is-rounded is-black is-outlined">
+        {{ default .title (T .title) }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ with .figure}}
+    <div class="is-contact" id="contact">
+      <figure class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "400x") }}
+      </figure>
+    </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}
 
 {{ partial "common/template-script" (dict "asset" "js/about.js") }}
+{{ partial "common/template-script" (dict "asset" "js/show-cn-content.js") }}
 </main>{{ end }}

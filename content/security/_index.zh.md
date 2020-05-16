@@ -39,5 +39,5 @@ bottom_cta:
   body: i18n-content-security-_index-bottom_cta-body
   cta:
     title: i18n-content-security-_index-bottom_cta-cta-title
-    url: /contact/
+  figure: img/security/contact.png
 ---
