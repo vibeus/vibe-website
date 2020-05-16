@@ -128,6 +128,15 @@
   background-color: $vibe-yellow
   +lang-override(".lang-zh")
     background-color: $vibe-white
+    li
+      list-style-type: none
+      margin-bottom: 24px
+    li::before
+      content: ''
+      position: absolute
+      border: 6px solid $vibe-yellow
+      border-radius: 50%
+      transform: translate(-33px, 60%)
   .container
     max-width: 1240px
   .image .overlay
@@ -141,6 +150,8 @@
       margin-left: auto
   .title.is-subtitle
     font-size: 30px
+    +lang-override(".lang-zh")
+      line-height: 44px
     line-height: 38px
     margin-bottom: 48px
     +mobile
@@ -155,6 +166,16 @@
 
 .section.is-presentation
   +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    li
+      list-style-type: none
+      margin-bottom: 24px
+    li::before
+      content: ''
+      position: absolute
+      border: 6px solid $vibe-purple
+      border-radius: 50%
+      transform: translate(-33px, 60%)
   .title.is-section-title
     +tablet
       margin-bottom: 100px
@@ -170,6 +191,9 @@
     +tablet
       max-width: 500px
   .title.is-subtitle
+    +lang-override(".lang-zh")
+      line-height: 44px
+      margin-bottom: 48px
     +mobile
       font-size: 20px
   .columns.is-index-1

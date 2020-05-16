@@ -1340,7 +1340,9 @@ other = """- 支持 HDMI，以及 Airplay，Chromecast，Eshare 等多种方式�
 - 边投屏，边通过触屏操作丰富方案呈现，为你的提报加分。"""
 
 [i18n-content-software-_index-feature_presentation-items-i_1-title]
-other = "多类文件皆可注解 沟通不受格式所限"
+other = """多类文件皆可注解 
+
+沟通不受格式所限"""
 
 [i18n-content-software-_index-feature_presentation-items-i_1-body]
 other = """- 兼容各类文档编辑管理工具，如 WPS 文档、Office 365、石墨文档、百度云盘等等。

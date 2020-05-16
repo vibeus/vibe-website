@@ -115,7 +115,7 @@
         {{ end }}
       </div>
       <div class="column">
-        <h2 class="title is-subtitle">{{ T .subtitle }}</h2>
+        <h2 class="title is-subtitle">{{ T .subtitle | markdownify}}</h2>
         <div class="content">
           {{ T .body | markdownify }}
         </div>
@@ -143,7 +143,7 @@
         </figure>
       </div>
       <div class="column">
-        <h2 class="title is-subtitle">{{ T .title }}</h2>
+        <h2 class="title is-subtitle">{{ T .title | markdownify}} </h2>
         <div class="content">
           {{ T .body | markdownify }}
         </div>
