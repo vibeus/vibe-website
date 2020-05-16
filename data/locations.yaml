@@ -1,13 +1,28 @@
-locations:
-  title: i18n-data-locations-locations-title
-  cities:
-    - name: i18n-data-locations-locations-cities-i_0-name
-      logo: img/locations/logo-seattle.png
-    - name: i18n-data-locations-locations-cities-i_2-name
-      logo: img/locations/logo-hangzhou.png
-    - name: i18n-data-locations-locations-cities-i_1-name
-      logo: img/locations/logo-bellevue.png
-    - name: i18n-data-locations-locations-cities-i_3-name
-      logo: img/locations/logo-shenzhen.png
-    - name: i18n-data-locations-locations-cities-i_4-name
-      logo: img/locations/logo-shanghai.png
+base:
+  locations:
+    title: i18n-data-locations-locations-title
+    cities:
+      - name: i18n-data-locations-locations-cities-i_0-name
+        logo: img/locations/logo-seattle.png
+      - name: i18n-data-locations-locations-cities-i_2-name
+        logo: img/locations/logo-hangzhou.png
+      - name: i18n-data-locations-locations-cities-i_1-name
+        logo: img/locations/logo-bellevue.png
+      - name: i18n-data-locations-locations-cities-i_3-name
+        logo: img/locations/logo-shenzhen.png
+      - name: i18n-data-locations-locations-cities-i_4-name
+        logo: img/locations/logo-shanghai.png
+zh:
+  locations:
+    title: i18n-data-locations-locations-title
+    cities:
+      - name: i18n-data-locations-locations-cities-i_0-name
+        logo: img/locations/logo-seattle-zh.png
+      - name: i18n-data-locations-locations-cities-i_2-name
+        logo: img/locations/logo-hangzhou-zh.png
+      - name: i18n-data-locations-locations-cities-i_1-name
+        logo: img/locations/logo-bellevue-zh.png
+      - name: i18n-data-locations-locations-cities-i_3-name
+        logo: img/locations/logo-shenzhen-zh.png
+      - name: i18n-data-locations-locations-cities-i_4-name
+        logo: img/locations/logo-shanghai-zh.png
