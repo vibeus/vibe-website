@@ -81,6 +81,15 @@ jobs:
         run: |
           hugo -e production --minify
           hugo deploy --target aws-production --invalidateCDN
+      - name: Hugo build and deploy cn production
+        if: github.event_name == 'deployment' && github.event.deployment.environment == 'production' && github.ref == 'refs/heads/master'
+        env:
+          AWS_DEFAULT_REGION: cn-northwest-1
+          AWS_ACCESS_KEY_ID: ${{ secrets.CN_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CN_AWS_SECRET_ACCESS_KEY }}
+        run: |
+          hugo -e cn_production --minify
+          hugo deploy --target aws-cn-production --invalidateCDN
       - uses: actions/github-script@0.3.0
         if: github.event_name == 'deployment'
         with:
