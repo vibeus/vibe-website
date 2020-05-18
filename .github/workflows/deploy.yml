@@ -70,6 +70,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
+          rm -rf public/
           hugo -e staging --minify
           hugo deploy --target aws-staging --invalidateCDN
       - name: Hugo build and deploy production
@@ -79,6 +80,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
+          rm -rf public/
           hugo -e production --minify
           hugo deploy --target aws-production --invalidateCDN
       - name: Hugo build and deploy cn production
@@ -88,6 +90,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.CN_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CN_AWS_SECRET_ACCESS_KEY }}
         run: |
+          rm -rf public/
           hugo -e cn_production --minify
           hugo deploy --target aws-cn-production --invalidateCDN
       - uses: actions/github-script@0.3.0
