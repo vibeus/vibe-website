@@ -90,8 +90,8 @@
             height: 64px
       .is-footnote
         +lang-override(".lang-zh")
-          margin-top: 30px
-          font-size: 24px
+          margin-top: 60px
+          font-size: 16px
           text-align: center
 
 .section.is-overall
@@ -165,6 +165,11 @@
     .title.is-subtitle, .content
       +tablet
         margin-right: auto
+  +lang-override(".lang-zh")
+    .is-zh-collab-2 .image
+      left: -210px
+    .column
+      padding-top: 48px
 
 .section.is-presentation
   +vertical-padding(120px)

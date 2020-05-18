@@ -68,6 +68,11 @@
   .image.is-hero
     +mobile-full-width
 
+.section.is-video-hero
+  +lang-override(".lang-zh")
+    .is-footnote
+      font-size: 16px
+      margin-top: 32px
 .section.is-feature
   padding: 3rem 1.5rem
   &.is-feature-1
@@ -97,6 +102,7 @@
     .subtitle
       +lang-override(".lang-zh")
         font-size: 50px
+        line-height: 74px
   .column.is-text
     max-width: 500px
   .column.is-image
@@ -140,7 +146,10 @@
       padding-top: 120px - 12px
       min-height: 810px
       +lang-override(".lang-zh")
+        padding-top: 120px
         min-height: 743px
+        .content
+          margin-top: 48px
       .container, .column.is-image
         position: static
       .column.is-text

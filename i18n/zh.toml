@@ -148,7 +148,7 @@ Computing System Innovations 总裁, 美国, 佛罗里达"""
 
 [i18n-content-_index-trust-testimonials-i_5-body]
 other = """它是我们用过最好用的合作设备, 可以应对任何类型的会议 – 从任务管理到软件设计会议。不可思议的设备, 帮我们
-省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vibe，你们改变了一切！"""
+省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vize，你们改变了一切！"""
 
 [i18n-content-_index-bottom_cta-title]
 other = "和你的团队一起 Vize！"
@@ -528,10 +528,12 @@ other = "Experience Vibe for yourself"
 other = "See a Demo"
 
 [i18n-content-hardware-_index-title]
-other = "灵感 一触即发"
+other = """灵感 一触即发"""
 
 [i18n-content-hardware-_index-hero-title]
-other = "灵感 一触即发"
+other = """灵感 
+
+一触即发"""
 
 [i18n-content-hardware-_index-hero-body]
 other = """Vize 交互式智能白板，无缝连接您与同事、客户。它远不止是一块显示屏，更是能触屏操作的智能平台，通过多种互动方式，
@@ -1306,9 +1308,9 @@ other = "你想要的模板这里都有，让效率更进。"
 other = "合作从未如此简单"
 
 [i18n-content-software-_index-feature_collaboration-items-i_0-subtitle]
-other = """多人多平台登录白板
+other = """疾速投屏 多屏互动 
 
-创造随时随地"""
+无线也能很稳定"""
 
 [i18n-content-software-_index-feature_collaboration-items-i_0-body]
 other = """- 合作不受限于一块屏幕，不论通过智能白板、电脑、手机或平板电脑，都能毫秒级同步，让你随时随地开启合作。
