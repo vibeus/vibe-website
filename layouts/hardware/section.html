@@ -1,3 +1,9 @@
+{{ define "stylesheets" }}
+<style>
+{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
+</style>
+{{ end }}
+
 {{ define "scripts"}}
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
