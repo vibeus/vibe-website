@@ -91,7 +91,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CN_AWS_SECRET_ACCESS_KEY }}
         run: |
           rm -rf public/
-          hugo -e cn_production --minify
+          hugo -e cn-production --minify
           hugo deploy --target aws-cn-production --invalidateCDN
       - uses: actions/github-script@0.3.0
         if: github.event_name == 'deployment'
