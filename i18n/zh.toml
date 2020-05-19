@@ -1201,7 +1201,7 @@ other = "美国卫斯理大学，近十年销售经验，多次获销售冠军"
 other = "Laura Reigel"
 
 [i18n-content-about-_index-team-members-i_6-title]
-other = "营销总监"
+other = "市场总监"
 
 [i18n-content-about-_index-zh-team-members-i_6-body]
 other = "美国韦尔斯利文理学院，近十年销售经验，前 PayScale 销售经理"
@@ -1269,10 +1269,10 @@ other = " \\* Vibe 为本产品在美国的品牌名，国内为 Vize"
 other = "智能高效的书写体验"
 
 [i18n-content-software-_index-feature_overall-items-i_3-title]
-other = "大小可调的橡皮擦"
+other = "无限画布"
 
 [i18n-content-software-_index-feature_overall-items-i_3-body]
-other = "橡皮擦可随手势移动幅度增大缩小。"
+other = "可任意拖动的无限画布，让你尽情创造。"
 
 [i18n-content-software-_index-feature_overall-items-i_4-title]
 other = "自定义白板背景"
@@ -1281,16 +1281,16 @@ other = "自定义白板背景"
 other = "提供多种白板背景，可自定义颜色和网格。"
 
 [i18n-content-software-_index-feature_overall-items-i_5-title]
-other = "任选笔画颜色粗细"
+other = "海量模板"
 
 [i18n-content-software-_index-feature_overall-items-i_5-body]
-other = "12 种颜色、不同粗细笔画，让你的创作更加多样。"
+other = "你想要的模板这里都有，让效率更进。"
 
 [i18n-content-software-_index-feature_overall-items-i_0-title]
-other = "无限画布"
+other = "任选笔画颜色粗细"
 
 [i18n-content-software-_index-feature_overall-items-i_0-body]
-other = "可任意拖动的无限画布，让你尽情创造。"
+other = "12种颜色、不同粗细笔画，让你的创作更加多样。"
 
 [i18n-content-software-_index-feature_overall-items-i_1-title]
 other = "智能书写"
@@ -1299,10 +1299,10 @@ other = "智能书写"
 other = "AI 识别你想输入的图形和文字，并帮你完成。"
 
 [i18n-content-software-_index-feature_overall-items-i_2-title]
-other = "海量模板"
+other = "便利贴"
 
 [i18n-content-software-_index-feature_overall-items-i_2-body]
-other = "你想要的模板这里都有，让效率更进。"
+other = "便利贴助你的团队随时展开一场头脑风暴。"
 
 [i18n-content-software-_index-feature_collaboration-title]
 other = "合作从未如此简单"
@@ -1441,7 +1441,7 @@ Computing System Innovations 总裁, 美国, 佛罗里达"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_5-body]
 other = """它是我们用过最好用的合作设备, 可以应对任何类型的会议 – 从任务管理到软件设计会议。不可思议的设备, 帮我们
-省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vibe，你们改变了一切！"""
+省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vize，你们改变了一切！"""
 
 [i18n-content-software-_index-video_section-title]
 other = "不止软件"
@@ -1955,7 +1955,13 @@ other = "Vize 智能平板"
 [i18n-content-service-_index-zh-hero-body]
 other = "Vize是一款为协作而生的交互式智能白板，搭载了4K 55英寸屏幕和内置扬声器。"
 
-[i18n-content-service-_index-zh-hero-cta-title]
+[i18n-content-service-_index-zh-hero-cta-items-i_0-title]
+other = "下载安装手册"
+
+[i18n-content-service-_index-zh-hero-cta-items-i_1-title]
+other = "下载入门指南"
+
+[i18n-content-service-_index-zh-hero-cta-items-i_2-title]
 other = "下载用户说明书"
 
 [i18n-content-service-_index-zh-commitments-title]

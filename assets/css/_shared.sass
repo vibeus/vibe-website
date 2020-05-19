@@ -16,3 +16,8 @@ main
 =lang-override($lang)
   @at-root #{selector-nest($lang, &)}
     @content
+  
+.container 
+  +lang-override(".lang-zh")
+    .title,.subtitle
+      font-weight: 600

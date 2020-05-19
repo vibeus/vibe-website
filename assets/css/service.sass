@@ -13,6 +13,9 @@
         color: $vibe-purple
       a:hover svg
         stroke: $vibe-pink
+      +lang-override(".lang-zh")
+        margin: 13px 0
+        font-weight: 600
 
 .section.is-commitments
   +vertical-padding(120px)
@@ -64,6 +67,25 @@
   .content
     h2
       font-size: 24px
+    li, ol, p
+      list-style-type: none
+      margin: 0
+    p
+      margin-top: 24px
+    li ol li p
+      margin: 0
+      
+    ol
+      counter-reset: section; 
+    li>p::before
+      counter-increment: section;
+      content: counter(section)". "
+    ol li ol
+      counter-reset: subsection;
+      p::before
+        counter-increment: subsection;
+        padding-left: 24px
+        content: counter(section)"."counter(subsection)" "
     table
       background-color: $vibe-white
-      margin-bottom: 32px
+      margin: 32px 0

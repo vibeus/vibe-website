@@ -14,18 +14,20 @@
           <h1 class="title is-section-title">{{ T .title | markdownify }}</h1>
           <div class="content">{{ T .body | markdownify }}</div>
           {{ with .cta }}
-          <div class="cta">
-            <a class="{{ with .class }} {{ . }}{{ end }}"
-               href="{{ .url }}"
-               target="_blank">
-              {{ T .title }}
-              {{ with .icon }}
-              <span class="icon is-small">
-                {{ (resources.Get .).Content | safeHTML }}
-              </span>
-              {{ end }}
-            </a>
-          </div>
+            {{ range .items }}
+            <div class="cta">
+              <a class="{{ with .class }} {{ . }}{{ end }}"
+                href="{{ .url }}"
+                target="_blank">
+                {{ T .title }}
+                {{ with .icon }}
+                <span class="icon is-small">
+                  {{ (resources.Get .).Content | safeHTML }}
+                </span>
+                {{ end }}
+              </a>
+            </div>
+            {{ end }}
           {{ end }}
         </div>
       </div>

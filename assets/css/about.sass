@@ -22,6 +22,8 @@
     max-width: 1096px
     +lang-override(".lang-zh")
       max-width: 843px
+      .content
+        font-size: 20px
   .title
     font-size: 64px
     +lang-override(".lang-zh")
@@ -56,6 +58,9 @@
   background-color: $vibe-white
   +lang-override(".lang-zh")
     +vertical-padding(70px)
+    .name 
+      p:first-child
+        font-weight: 600
   .content
     text-align: center
     padding-top: 12px

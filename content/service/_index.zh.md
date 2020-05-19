@@ -6,9 +6,16 @@ hero:
   body: i18n-content-service-_index-zh-hero-body
   figure: img/service/hero.png
   cta:
-    title: i18n-content-service-_index-zh-hero-cta-title
-    url: /resources/Vibe_User_Manual.zh.pdf
-    icon: img/shared/download.svg
+    items:
+      - title: i18n-content-service-_index-zh-hero-cta-items-i_0-title
+        url: /resources/Vize_Install.zh.pdf
+        icon: img/shared/download.svg
+      - title: i18n-content-service-_index-zh-hero-cta-items-i_1-title
+        url: /resources/Vize_Quick_Start.zh.pdf
+        icon: img/shared/download.svg
+      - title: i18n-content-service-_index-zh-hero-cta-items-i_2-title
+        url: /resources/Vize_User_Manual.zh.pdf
+        icon: img/shared/download.svg
 commitments:
   title: i18n-content-service-_index-zh-commitments-title
   body: i18n-content-service-_index-zh-commitments-body
