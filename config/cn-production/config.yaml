@@ -1,7 +1,13 @@
-baseURL: https://vibe.cn
-defaultContentLanguage: zh
-languageCode: zh-cn
+languages:
+  # en is a dummy output that will not be copied to s3 in cn-production.
+  en:
+    baseURL: https://vibe.ux
+    languageName: English
+    languageCode: en-us
+  zh:
+    baseURL: https://vibe.cn
+    languageName: 中文
+    languageCode: zh-cn
 buildDrafts: false
 buildExpired: false
 buildFuture: false
-disableLanguages: ['en']

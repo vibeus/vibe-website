@@ -8,6 +8,7 @@ targets:
   - name: aws-cn-production
     URL: 's3://vibe.cn?region=cn-northwest-1'
     cloudFrontDistributionID: E10VE47GZ51NZB
+    include: 'zh/**'
 
 matchers:
   - pattern: "^.+\\.(js|css|svg|ttf|woff)$"

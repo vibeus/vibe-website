@@ -72,27 +72,27 @@ trust:
     - author:
         name: i18n-content-_index-trust-testimonials-i_0-author-name
       body: i18n-content-_index-trust-testimonials-i_0-body
-      url: /zh/customer/
+      url: /customer/
     - author:
         name: i18n-content-_index-trust-testimonials-i_1-author-name
       body: i18n-content-_index-trust-testimonials-i_1-body
-      url: /zh/customer/
+      url: /customer/
     - author:
         name: i18n-content-_index-trust-testimonials-i_2-author-name
       body: i18n-content-_index-trust-testimonials-i_2-body
-      url: /zh/customer/
+      url: /customer/
     - author:
         name: i18n-content-_index-trust-testimonials-i_3-author-name
       body: i18n-content-_index-trust-testimonials-i_3-body
-      url: /zh/customer/
+      url: /customer/
     - author:
         name: i18n-content-_index-trust-testimonials-i_4-author-name
       body: i18n-content-_index-trust-testimonials-i_4-body
-      url: /zh/customer/
+      url: /customer/
     - author:
         name: i18n-content-_index-trust-testimonials-i_5-author-name
       body: i18n-content-_index-trust-testimonials-i_5-body
-      url: /zh/customer/
+      url: /customer/
 bottom_cta:
   title: i18n-content-_index-bottom_cta-title
   cta:

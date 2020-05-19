@@ -7,7 +7,7 @@ hero:
   cta:
     title: i18n-content-hardware-_index-hero-cta-title
     class: is-primary is-rounded
-    url: /demo/video-demo/
+    url: /demo/request-video-landing/
   gallery:
     cta: i18n-content-hardware-_index-hero-gallery-cta
     items:
