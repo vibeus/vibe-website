@@ -33,13 +33,11 @@
           {{ end }}
         </div>
         <div class="column is-image">
-          <figure class="image">
-            {{ if eq .Site.Language.Lang "zh" }}
-            {{ partial "common/srcset" (dict "resource" (resources.Get "img/demo/hero-landing.png") "desktop" "980x" "tablet" "980x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-            {{ else }}
-            {{ partial "common/srcset" (dict "resource" (resources.Get "img/demo/hero-landing.png") "desktop" "980x" "tablet" "980x" "mobile" "750x" "options" "jpg #66cccc") }}
-            {{ end }}
-          </figure>
+          {{ with .figure }}
+            <figure class="image">
+              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "980x" "tablet" "980x" "mobile" "750x" )}}
+            </figure>
+          {{ end }}
         </div>
       </div>
     </div>
