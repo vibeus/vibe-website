@@ -86,6 +86,15 @@
         counter-increment: subsection;
         padding-left: 24px
         content: counter(section)"."counter(subsection)" "
+    td
+      counter-reset: tablesection
+    td ol
+      li::before
+        counter-increment: tablesection;
+        content: counter(tablesection)"、"
     table
       background-color: $vibe-white
       margin: 32px 0
+      td
+        max-width: 456px
+

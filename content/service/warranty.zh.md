@@ -2,7 +2,7 @@
 title: 服务政策
 stylesPath: css/service.sass
 tab:
-  title: 保修服务
+  title: 保修政策
   order: 20
 bottom_cta:
   title: i18n-content-service-_index-zh-bottom_cta-title
