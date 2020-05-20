@@ -185,7 +185,7 @@ spec:
   cta:
     title: i18n-content-hardware-_index-spec-cta-title
     class: is-black is-outlined is-rounded
-    url: /resources/Vibe_Tech_Specs.pdf
+    url: /resources/Vibe_Tech_Specs.zh.pdf
 faq:
   title: i18n-content-hardware-_index-faq-title
   items:

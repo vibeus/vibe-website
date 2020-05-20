@@ -157,7 +157,7 @@
       {{ with .cta }}
       <div class="cta">
         <a class="button{{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url | relLangURL}}"
+           href="{{ .url }}"
            target="_blank">
           {{ T .title }}
         </a>

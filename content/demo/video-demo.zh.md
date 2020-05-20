@@ -16,7 +16,7 @@ hero:
   cta:
     title: i18n-content-demo-request-video-landing-hero-cta-title
     icon: img/shared/download.svg
-    url: /resources/Vibe_Brochure.pdf
+    url: /resources/Vibe_Brochure.zh.pdf
   figure: img/demo/hero-landing-zh.jpg
 bottom_cta:
   title: i18n-content-demo-request-video-landing-bottom_cta-title

@@ -25,7 +25,7 @@ specs:
   cta:
     title: i18n-content-security-_index-specs-cta-title
     class: is-black is-outlined is-rounded is-inverted
-    url: /resources/Vibe_Security_Specs.pdf
+    url: /resources/Vibe_Security_Specs.zh.pdf
   items:
     - i18n-content-security-_index-specs-items-i_0
     - i18n-content-security-_index-specs-items-i_1
