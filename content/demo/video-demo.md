@@ -2,7 +2,6 @@
 title: i18n-content-demo-request-video-landing-title
 stylesPath: css/request-video-landing.sass
 layout: request-video-landing
-url: /demo/video-demo/
 aliases:
   - /demo/request-video-landing/
 video_hero:

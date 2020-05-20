@@ -1,7 +1,7 @@
 languages:
   # en is a dummy output that will not be copied to s3 in cn-production.
   en:
-    baseURL: https://vibe.ux
+    baseURL: https://vibe.us
     languageName: English
     languageCode: en-us
   zh:

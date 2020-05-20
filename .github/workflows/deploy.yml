@@ -72,7 +72,7 @@ jobs:
         run: |
           rm -rf public/
           hugo -e staging --minify
-          hugo deploy --target aws-staging --invalidateCDN
+          hugo deploy --target aws-staging --maxDeletes -1 --invalidateCDN
       - name: Hugo build and deploy production
         if: github.event_name == 'deployment' && github.event.deployment.environment == 'production' && github.ref == 'refs/heads/master'
         env:
