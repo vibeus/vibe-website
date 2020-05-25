@@ -109,6 +109,8 @@
 
 .section.is-overview
   +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    padding-top: 83px
   &.is-lower
     padding-bottom: 0
   .title.is-section-title
@@ -121,10 +123,11 @@
   .column.is-text
     max-width: 500px + 12px * 2
     font-size: 18px
-    .title
-      font-size: 50px
-      line-height: 68px
-      margin-bottom: 48px
+    +lang-override(".lang-zh")
+      .title
+        font-size: 50px
+        line-height: 68px
+        margin-bottom: 48px
       +mobile
         font-size: 18px
         line-height: 1.5
