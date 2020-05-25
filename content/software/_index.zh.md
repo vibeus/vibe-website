@@ -18,27 +18,27 @@ feature_overall:
     - title: i18n-content-software-_index-feature_overall-items-i_3-title
       body: i18n-content-software-_index-feature_overall-items-i_3-body
       figure: img/software/infinite-canvas.svg
-      max_content_width: 240px
+      max_content_width: 192px
     - title: i18n-content-software-_index-feature_overall-items-i_4-title
       body: i18n-content-software-_index-feature_overall-items-i_4-body
       figure: img/software/canvas-background.svg
-      max_content_width: 240px
+      max_content_width: 219px
     - title: i18n-content-software-_index-feature_overall-items-i_5-title
       body: i18n-content-software-_index-feature_overall-items-i_5-body
       figure: img/software/templates.svg
-      max_content_width: 240px
+      max_content_width: 199px
     - title: i18n-content-software-_index-feature_overall-items-i_0-title
       body: i18n-content-software-_index-feature_overall-items-i_0-body
       figure: img/software/stroke-colors.svg
-      max_content_width: 240px
+      max_content_width: 226px
     - title: i18n-content-software-_index-feature_overall-items-i_1-title
       body: i18n-content-software-_index-feature_overall-items-i_1-body
       figure: img/software/smart-drawing.svg
-      max_content_width: 240px
+      max_content_width: 206px
     - title: i18n-content-software-_index-feature_overall-items-i_2-title
       body: i18n-content-software-_index-feature_overall-items-i_2-body
       figure: img/software/post-it.svg
-      max_content_width: 240px
+      max_content_width: 192px
 feature_collaboration:
   title: i18n-content-software-_index-feature_collaboration-title
   items:

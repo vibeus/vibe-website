@@ -1,6 +1,9 @@
 {{ define "main" }}<main class="service-doc">
 
 <section class="hero is-single">
+  <div class="bg-logo">
+    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+  </div>
   <div class="hero-body">
     <div class="container">
       <div class="title is-section-title">

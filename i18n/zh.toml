@@ -26,15 +26,13 @@ other = "Open your boards →"
 other = "什么是Vize?"
 
 [i18n-content-_index-what_is_vibe-body]
-other = """Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备智能白板、多人实时协作、
-视频会议、无限画布等强大功能。不论会议、培训、提报，Vize 都能通过多种互动方式，全面提升合作体验。"""
+other = """Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备智能白板、多人实时协作、视频会议、无限画布等强大功能。不论会议、培训、提报，Vize 都能通过多种互动方式，全面提升合作体验。"""
 
 [i18n-content-_index-what_is_vibe-footnote]
 other = """ \\* Vibe 为本产品在美国的品牌名，国内为 Vize"""
 
 [i18n-content-_index-testimonial_section-testimonials-i_0-body]
-other = """我们喜欢用 Vize 智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。智能白板可以在 Vize 硬件和其他
-设备上使用，实现无缝转换。"""
+other = """我们喜欢用 Vize 智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。智能白板可以在 Vize 硬件和其他设备上使用，实现无缝转换。"""
 
 [i18n-content-_index-features-i_0-title]
 other = "远程办公"
@@ -2260,7 +2258,7 @@ other = "杭州市余杭区天时科创园3幢902"
 other = "<info@vize.com.cn>"
 
 [i18n-content-about-_index-touch-city-items-i_2-text]
-other = "扫码在线咨询"
+other = "0571-88661096"
 
 [i18n-manual-story-industry]
 other = "行业"

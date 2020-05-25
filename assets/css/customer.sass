@@ -15,12 +15,16 @@
     max-width: 1100px
   .title
     font-size: 64px
+    +lang-override(".lang-zh")
+      font-size: 50px
     +mobile
       font-size: 32px
   .title
     max-width: 680px
   .content
     max-width: 634px
+    +lang-override(".lang-zh")
+      line-height: 2.1
   .bg-logo
     width: 963px
     position: absolute

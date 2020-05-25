@@ -73,6 +73,10 @@
     .is-footnote
       font-size: 16px
       margin-top: 32px
+    .title
+      margin-bottom: 40px
+    .content
+      line-height: 1.6
 .section.is-feature
   padding: 3rem 1.5rem
   &.is-feature-1
@@ -102,7 +106,8 @@
     .subtitle
       +lang-override(".lang-zh")
         font-size: 50px
-        line-height: 74px
+        line-height: 70px
+        margin-bottom: 44px
   .column.is-text
     max-width: 500px
   .column.is-image
@@ -173,6 +178,9 @@
         left: 0
         +widescreen
           left: 160px
+      +lang-override(".lang-zh")
+        p
+          margin: 0
     &.is-feature-5
       padding-bottom: 0
       .column.is-image

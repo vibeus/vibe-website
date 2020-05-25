@@ -22,8 +22,11 @@
     max-width: 1096px
     +lang-override(".lang-zh")
       max-width: 843px
+      .title
+        line-height: 74px
       .content
         font-size: 20px
+        line-height: 37px
   .title
     font-size: 64px
     +lang-override(".lang-zh")
@@ -65,11 +68,19 @@
     text-align: center
     padding-top: 12px
     padding-bottom: 12px
+    +lang-override(".lang-zh")
+      p
+        margin-bottom: 0
+        line-height: 42px
   .quote-mark svg
     fill: $vibe-yellow
   .author
+    .name
+      +lang-override(".lang-zh")
+        p
+          margin-bottom: 0
     text-align: center
-
+      
 .section.is-team
   // bottom padding should start from dots, not from the box shadow.
   // there is no box shadow in mobile so need to adjust.
@@ -81,6 +92,9 @@
     max-width: 782px
     margin-left: auto
     margin-right: auto
+    +lang-override(".lang-zh")
+      p
+        margin-bottom: 0
   .columns
     margin-top: 72px
   .column

@@ -8,14 +8,18 @@
     +vertical-padding(72px, 38px)
     .content
       max-width: 430px
+      +lang-override(".lang-zh")
+        max-width: 480px
     .cta
       a:not(:hover)
         color: $vibe-purple
       a:hover svg
         stroke: $vibe-pink
       +lang-override(".lang-zh")
-        margin: 13px 0
-        font-weight: 600
+        margin: 13px 30px 13px 0
+        display: inline-block
+        +mobile
+          display: block
 
 .section.is-commitments
   +vertical-padding(120px)
@@ -49,6 +53,12 @@
 
 .hero.is-single
   background-color: $vibe-teal
+  position: relative
+  .bg-logo
+    width: 477px
+    position: absolute
+    right: -200px
+    top: 43px
   .hero-body
     +vertical-padding(120px)
   .title
@@ -95,6 +105,8 @@
     table
       background-color: $vibe-white
       margin: 32px 0
-      td
-        max-width: 456px
+      td:first-child,td:nth-child(0n+2)
+        width: 124px
+      td:last-child
+        width: 170px
 
