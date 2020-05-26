@@ -108,10 +108,11 @@
   .container
     max-width: 1224px
     .subtitle
-      +lang-override(".lang-zh")
-        font-size: 50px
-        line-height: 70px
-        margin-bottom: 44px
+      +desktop
+        +lang-override(".lang-zh")
+          font-size: 50px
+          line-height: 70px
+          margin-bottom: 44px
   .column.is-text
     max-width: 500px
   .column.is-image
@@ -236,7 +237,10 @@
   +mobile
     +lang-override(".lang-zh")
       .title-text .title
-        font-size: 45px
+        p
+          display: block
+        font-size: 42px
+        text-align: center
 .section
   +mobile
     +lang-override(".lang-zh")
@@ -245,9 +249,18 @@
           font-size: 14px
           p
             margin: 0
-      &.is-feature .container .subtitle
-        font-size: 30px
-        line-height: 30px
+      &.is-feature
+        padding-top: 12px
+        padding-bottom: 12px
+        .container .subtitle
+          font-size: 30px
+          line-height: 30px
+      &.is-feature-1,&.is-feature-3,&.is-feature-4
+        padding-top: 60px
+      &.is-feature-2
+        padding-bottom: 60px
+      &.is-feature-3,&.is-feature-5
+        padding-bottom: 0
       .container .is-section-title.title
         margin-bottom: 32px
       .video-launcher

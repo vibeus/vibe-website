@@ -318,6 +318,19 @@
 .section
   +mobile
     +lang-override(".lang-zh")
+      &.is-apps
+        .title.is-section-title
+          margin-bottom: 0
+      &.is-overall
+        .title,.columns,.column
+          margin: 0
+        padding-top: 60px
+        padding-bottom: 60px
+      &.is-presentation 
+        .columns.is-index-1
+          margin-bottom: 0
+        .columns.is-index-2
+          margin-top: 0
       .container
         .title
           font-size: 30px
@@ -325,21 +338,13 @@
           font-size: 22px
           line-height: 33px
           margin-bottom: 20px
-        .title.is-section-title
-          margin-bottom: 0
         .content,.author
           font-size: 14px
-          p
-            margin: 0
         .column
-          margin-top: 20px
-          padding-top: 0
+          padding-top: 20px
           .item-title
             font-size: 22px
             margin: 0
-        .columns
-          margin-bottom: 0
-          margin-top: 20px
       &.is-feature .container .subtitle
         font-size: 30px
       .video-launcher

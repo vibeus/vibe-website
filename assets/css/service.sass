@@ -118,15 +118,22 @@
         font-size: 30px
       .content,.cta
         font-size: 14px
+      .hero-body
+        padding-top: 60px
+        padding-bottom: 60px
 .section
   +mobile
     +lang-override(".lang-zh")
       .title
         font-size: 30px
       .columns
-        margin: 
+        margin: 20px
       .column.is-one-third-tablet
-        margin: 40px
+        margin: 20px
+      .column.is-one-third-tablet:first-child
+        margin-top: 0
+      .column.is-one-third-tablet:last-child
+        margin-bottom: 0
         .text
           font-size: 22px
       .container .content

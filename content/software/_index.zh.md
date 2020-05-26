@@ -58,7 +58,7 @@ feature_presentation:
   items:
     - title: i18n-content-software-_index-feature_presentation-items-i_0-title
       body: i18n-content-software-_index-feature_presentation-items-i_0-body
-      figure: img/software/presentation-1.png
+      figure: img/software/presentation-1-zh.png
       index: 1
     - title: i18n-content-software-_index-feature_presentation-items-i_1-title
       body: i18n-content-software-_index-feature_presentation-items-i_1-body
@@ -76,7 +76,7 @@ feature_apps:
       figure: img/software/apps-2.png
     - title: i18n-content-software-_index-feature_apps-items-i_2-title
       body: i18n-content-software-_index-feature_apps-items-i_2-body
-      figure: img/software/apps-3.png
+      figure: img/software/apps-3-zh.png
   cta:
     title: i18n-content-software-_index-feature_apps-cta-title
     url: /android-app-store/
@@ -130,5 +130,5 @@ bottom_cta:
         url: /demo/video-demo
         class: is-black
       - title: i18n-content-software-_index-zh-bottom_cta-cta-buttons-i_1-title
-        url: https://www.jd.com
+        url: https://item.jd.com/69666335421.html
 ---
