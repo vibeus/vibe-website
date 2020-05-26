@@ -19,6 +19,13 @@
     +lang-override(".lang-zh")
       font-size: 16px
       margin-top: 32px
+  +mobile
+    .title
+      font-size: 45px
+    .is-footnote
+      +lang-override(".lang-zh")
+        margin-top: 18px
+        font-size: 12px
 
 .hero
   background-color: $vibe-teal
@@ -42,6 +49,13 @@
       +lang-override(".lang-zh")
         p
           margin-bottom: 0
+    +mobile
+      .content
+        font-size: 14px
+      .cta
+        font-size: 14px
+        .icon
+          padding-top: 5px
   .column.is-image
     max-width: 490px + 24px
     +desktop

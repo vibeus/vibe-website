@@ -179,3 +179,52 @@
   background-color: $vibe-yellow
   .cta .button
     width: 200px
+
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .container 
+        .title
+          font-size: 45px
+          line-height: 67px
+        .content
+          font-size: 16px
+          line-height: 27px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .container .content
+        font-size: 14px
+        p
+          margin: 0
+      &.is-values .column
+        margin-top: 40px
+      .container 
+        .is-section-title.title
+          margin-bottom: 32px
+          font-size: 30px
+        .column
+          .profile
+            max-width: 111px
+            margin: 0 auto
+            .image
+              margin: 0
+          p.name
+            font-size: 18px
+            margin-top: 18px
+          p.desc
+            margin-top: 16px
+            font-size: 12px
+          .city
+            p.name
+              font-size: 14px
+        .author
+          display: block
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 16px 
+        font-size: 12px 
+        margin-bottom: 36px
+      .contact .title
+        font-size: 22px

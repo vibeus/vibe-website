@@ -1,8 +1,10 @@
 [i18n-content-_index-title]
-other = "Vize 智能平板，让合作更简单"
+other = "Vize 智能平板 让合作更简单"
 
 [i18n-content-_index-hero-title]
-other = "Vize 智能平板，让合作更简单"
+other = """Vize 智能平板
+
+让合作更简单"""
 
 [i18n-content-_index-hero-body]
 other = "With Vibe's powerful & intuitive technology, teams can innovate, ideate, and collaborate like never before."
@@ -149,7 +151,7 @@ other = """它是我们用过最好用的合作设备, 可以应对任何类型�
 省下了大量的时间和成本，让我们能够更快地打造自己的 AI 软件！恭喜 Vize，你们改变了一切！"""
 
 [i18n-content-_index-bottom_cta-title]
-other = "和你的团队一起 Vize！"
+other = "和你的团队一起 Vize!"
 
 [i18n-content-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"
@@ -190,7 +192,7 @@ other = "Why Vibe?"
 other = "Order Now"
 
 [i18n-content-demo-request-video-landing-bottom_cta-title]
-other = "和你的团队一起 Vize！"
+other = "和你的团队一起 Vize!"
 
 [i18n-content-demo-request-video-landing-bottom_cta-cta-title]
 other = "立即购买"
@@ -606,9 +608,9 @@ other = "一体式极简设计"
 other = "无线，无鼠标，无键盘，无任何累赘。搭配可移动支架，在办公室的任意角落随时开启一场创造力满满的讨论。"
 
 [i18n-content-hardware-_index-feature_set_1-features-i_1-title]
-other = """55英寸 4K UHD 硬核配
+other = """55英寸 4K UHD 硬核配置
 
-置附带吸附式触控笔"""
+附带吸附式触控笔"""
 
 [i18n-content-hardware-_index-feature_set_1-features-i_1-body]
 other = "不论触屏还是使用触控笔，都无比顺畅，就像用马克笔在白板书写。触控笔可以吸附在白板边缘或支架上，随拿随用。"
@@ -1027,7 +1029,7 @@ other = "Vize 是结合软硬件于一体的智能办公工具，全面提升你
 other = "了解Vize软件系统 →"
 
 [i18n-content-hardware-_index-bottom_cta-title]
-other = "和你的团队一起 Vize！"
+other = "和你的团队一起 Vize!"
 
 [i18n-content-hardware-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"
@@ -1113,6 +1115,21 @@ other = "我们为企业账户提供私密云服务。"
 
 [i18n-content-security-_index-bottom_cta-cta-title]
 other = "联系销售"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_0-title]
+other = "邮箱"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_0-body]
+other = "info@vize.com.cn"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_1-title]
+other = "客服"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_1-body]
+other = "0571-88661096"
+
+[i18n-content-security-_index-bottom_cta-contact-title]
+other = "扫码在线咨询"
 
 [i18n-content-about-_index-title]
 other = "关于我们"
@@ -1451,7 +1468,7 @@ other = "Vize是结合软硬件于一体的智能办公工具，全面提升你�
 other = "了解Vize硬件系统 →"
 
 [i18n-content-software-_index-bottom_cta-title]
-other = "和你的团队一起 Vize！"
+other = "和你的团队一起 Vize!"
 
 [i18n-content-software-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"

@@ -39,11 +39,15 @@
         font-size: 50px
       +mobile
         font-size: 50px
+        // +lang-override(".lang-zh")
+        //   font-size: 45px
         line-height: 60px
     p
       max-width: 435px
       +lang-override(".lang-zh")
         display: none
+    .title p
+      display: flex    
   .cta
     .button.is-hero-cta
       +mobile
@@ -227,3 +231,27 @@
     margin-top: 104px + 60px
     +mobile
       margin-top: 50px
+
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title-text .title
+        font-size: 45px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .container .content
+        font-size: 14px
+        p
+          margin: 0
+      &.is-feature .container .subtitle
+        font-size: 30px
+        line-height: 30px
+      .container .is-section-title.title
+        margin-bottom: 32px
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 16px 
+        font-size: 12px 
+        margin-bottom: 36px

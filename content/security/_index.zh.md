@@ -39,5 +39,12 @@ bottom_cta:
   body: i18n-content-security-_index-bottom_cta-body
   cta:
     title: i18n-content-security-_index-bottom_cta-cta-title
-  figure: img/security/contact.png
+contact:
+  items:
+    - title: i18n-content-security-_index-bottom_cta-contact-items-i_0-title
+      body: i18n-content-security-_index-bottom_cta-contact-items-i_0-body
+    - title: i18n-content-security-_index-bottom_cta-contact-items-i_1-title
+      body: i18n-content-security-_index-bottom_cta-contact-items-i_1-body
+  title: i18n-content-security-_index-bottom_cta-contact-title
+  figure: img/security/contact2.png
 ---

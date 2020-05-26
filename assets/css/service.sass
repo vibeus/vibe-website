@@ -16,7 +16,7 @@
       a:hover svg
         stroke: $vibe-pink
       +lang-override(".lang-zh")
-        margin: 13px 30px 13px 0
+        margin: 8px 30px 8px 0
         display: inline-block
         +mobile
           display: block
@@ -40,6 +40,7 @@
     text-align: center
     .text
       font-weight: $vibe-bold
+      margin-top: 16px
   .cta
     text-align: center
     .button
@@ -105,8 +106,47 @@
     table
       background-color: $vibe-white
       margin: 32px 0
-      td:first-child,td:nth-child(0n+2)
-        min-width: 124px
-      td:last-child
-        min-width: 170px
-
+      +desktop
+        td:first-child,td:nth-child(0n+2)
+          min-width: 124px
+        td:last-child
+          min-width: 170px
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title
+        font-size: 30px
+      .content,.cta
+        font-size: 14px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .title
+        font-size: 30px
+      .columns
+        margin: 
+      .column.is-one-third-tablet
+        margin: 40px
+        .text
+          font-size: 22px
+      .container .content
+        font-size: 14px
+        h2
+          font-size: 18px
+      &.is-feature .container .subtitle
+        font-size: 30px
+        line-height: 30px
+      .container .is-section-title.title
+        margin-bottom: 32px
+      .container li a
+        font-size: 22px
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 16px 
+        font-size: 12px 
+        margin-bottom: 36px
+      .contact .title
+        font-size: 22px
+      .td
+        

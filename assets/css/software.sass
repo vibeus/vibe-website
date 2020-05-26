@@ -308,3 +308,46 @@
   &.is-apps
     .title.is-section-title
       text-align: center
+
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title
+        font-size: 40px
+        line-height: 44px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .container
+        .title
+          font-size: 30px
+        .title.is-subtitle
+          font-size: 22px
+          line-height: 33px
+          margin-bottom: 20px
+        .title.is-section-title
+          margin-bottom: 0
+        .content,.author
+          font-size: 14px
+          p
+            margin: 0
+        .column
+          margin-top: 20px
+          padding-top: 0
+          .item-title
+            font-size: 22px
+            margin: 0
+        .columns
+          margin-bottom: 0
+          margin-top: 20px
+      &.is-feature .container .subtitle
+        font-size: 30px
+      .video-launcher
+        margin-top: 30px
+      .image.video-launcher .preview  
+        .content.is-footnote
+          margin-top: 16px 
+          font-size: 12px 
+          margin-bottom: 36px
+      .cta
+        font-size: 14px

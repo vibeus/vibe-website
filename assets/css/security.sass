@@ -124,12 +124,76 @@
     font-size: 20px
     +mobile
       margin-bottom: 32px
-  .is-contact
-    display: none
-    position: absolute
-    right: -64px
-    +mobile
-      right: 0
-      top: 20px
-  .is-active
+
+.is-contact
+  max-width: 1096px
+  display: none
+  position: absolute
+  right: calc(50vw - 600px);
+  transform: translateY(-130%)
+  +mobile
+    right: 52px
+    transform: translateY(-50%)
+  background-color: $vibe-white
+  border-radius: 5px
+  padding: 45px
+  +mobile
+    padding: 41px 69px 45px 58px
+  text-align: left
+  z-index: 2
+  .title
+    font-size: 18px
+    font-weight: $vibe-bold
+    margin: 0
+    line-height: 27px
+  .content
+    font-size: 18px
+  .image
+    margin-top: 5px
+    width: 97px
+    height: auto
+  +desktop
+    .contact-item:first-child
+      padding-right: 26px
+      border-right: 1px solid black
+    .contact-item:last-child
+      padding-left: 26px
+  +mobile
+    .contact-item:first-child
+      padding-bottom: 6px
+      border-bottom: 1px solid black
+    .contact-item:last-child
+      padding-top: 26px
+  &.is-active
     display: flex
+    +mobile
+      display: block
+      
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title
+        font-size: 45px
+        line-height: 67px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .container 
+        .content
+          font-size: 14px
+          p
+            margin: 0
+      &.is-features 
+        .container .subtitle
+          font-size: 30px
+          line-height: 30px
+        .container .column
+          margin-top: 40px
+      .container .is-section-title.title
+        margin-bottom: 32px
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 16px 
+        font-size: 12px 
+        margin-bottom: 36px
