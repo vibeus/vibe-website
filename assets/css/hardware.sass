@@ -229,3 +229,38 @@
         font-size: 24px
         font-family: $vibe-family-heading
         font-weight: $vibe-bold
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title-text 
+        .title p
+          font-size: 45px
+        p
+          font-size: 16px
+    .cta .button .icon
+      height: 0.7em
+      width: 0.7em
+      margin-left: 7px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      &.is-overview
+        padding-top: 60px
+      .container .column.is-text .title
+        font-size: 30px
+        line-height: 44px
+        margin-bottom: 20px
+      .container 
+        .content,.author
+          font-size: 14px
+          p
+            margin: 0
+      &.is-feature .container .subtitle
+        font-size: 32px
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 12px 
+        font-size: 12px 
+      .cta
+        font-size: 14px
