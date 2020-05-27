@@ -53,6 +53,8 @@ feature_collaboration:
       body: i18n-content-software-_index-feature_collaboration-items-i_1-body
       figure:
         base: img/software/collaboration-2-zh.png
+        desktop: 1900x
+        mobile: 980x
 feature_presentation:
   title: i18n-content-software-_index-feature_presentation-title
   items:

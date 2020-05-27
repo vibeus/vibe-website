@@ -171,10 +171,22 @@
       +tablet
         margin-right: auto
   +lang-override(".lang-zh")
-    .is-zh-collab-2 .image
-      left: -92px
-    .column
-      padding-top: 48px
+    .is-zh-collab-2
+      .column.is-image
+        height: 626px
+        +mobile
+          height: 313px
+        position: relative
+      .image
+        position: absolute
+        top: 0
+        bottom: 0
+        right: 32px
+        +desktop
+          right: 80px
+        width: 978px
+        +mobile
+          width: 489px
 
 .section.is-presentation
   +vertical-padding(120px)

@@ -102,11 +102,11 @@
     <h1 class="title is-section-title">{{ T .title }}</h1>
     {{ range .items }}
     <div class="columns is-vcentered{{ if .reversed }} is-reversed{{ end }}{{ with .class }} {{ . }}{{ end }}">
-      <div class="column">
+      <div class="column is-image">
         {{ with .figure }}
         <figure class="image">
           {{ $bgColor := cond (eq $.Site.Language.Lang "zh") "#f4f4f4" "#ffcc00" }}
-          {{ partial "common/srcset" (dict "resource" (resources.Get .base) "desktop" "1300x" "mobile" "750x" "options" (print "jpg " $bgColor)) }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .base) "desktop" (default "1300x" .desktop) "mobile" (default "750x" .mobile) "options" (print "jpg " $bgColor)) }}
           {{ if .overlay }}
           {{ $gif := resources.Get .overlay | resources.Fingerprint }}
           <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
@@ -114,7 +114,7 @@
         </figure>
         {{ end }}
       </div>
-      <div class="column">
+      <div class="column is-content">
         <h2 class="title is-subtitle">{{ T .subtitle | markdownify}}</h2>
         <div class="content">
           {{ T .body | markdownify }}
