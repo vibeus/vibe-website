@@ -269,7 +269,8 @@
       text-align: center
   .column:last-child
     .image
-      margin-bottom: 34px
+      +lang-override(".lang-zh")
+        max-width: 260px
   .cta
     margin-top: 32px
     text-align: center
