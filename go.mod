@@ -3,6 +3,6 @@ module github/vibeus/vibe-website
 go 1.13
 
 require (
-	github.com/vibeus/hugo-common/v2 v2.0.2-0.20200526020247-206dfb079de6 // indirect
+	github.com/vibeus/hugo-common/v2 v2.0.2-0.20200527025134-e3cf8aed454b // indirect
 	github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200514174301-fc92387a0852 // indirect
 )
