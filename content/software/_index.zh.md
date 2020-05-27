@@ -127,7 +127,7 @@ bottom_cta:
   cta:
     buttons:
       - title: i18n-content-software-_index-zh-bottom_cta-cta-buttons-i_0-title
-        url: /demo/video-demo
+        url: /demo/video-demo/
         class: is-black
       - title: i18n-content-software-_index-zh-bottom_cta-cta-buttons-i_1-title
         url: https://item.jd.com/69666335421.html
