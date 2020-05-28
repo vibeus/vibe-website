@@ -104,6 +104,22 @@
         <div class="content">
           {{ T .body | markdownify }}
         </div>
+        {{ with .cta }}
+        <div class="cta">
+          {{ if .url }}
+          <a href="{{ .url | relLangURL }}">{{ T .title }}</a>
+          {{ end }}
+          {{ if .video }}
+          <a href="{{ .video }}" class="video-launcher-popup" target="_blank" data-target="demo-video-popup">
+            {{ T .title }}
+            <span class="icon">
+              {{ (resources.Get "img/shared/play-icon.svg").Content | safeHTML }}
+            </span>
+          </a>
+          {{ partial "common/video-player" (dict "playerId" "demo-video-popup" "videoUrl" .video "triggerClass" ".video-launcher-popup" "isInplace" false "isVideoJS" true) }}
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
       <div class="column is-image">
         <figure class="image">
