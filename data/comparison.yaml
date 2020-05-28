@@ -50,7 +50,7 @@ brands:
       browser: true
       drives: true
       vc: |
-        Zoom, GoToMeeting, Cisco Webex, RingCentral, Skype, Skype for Business
+        Zoom, GoToMeeting, Google Meet, Cisco Webex, RingCentral, Skype, Skype for Business
     service:
       warranty: 1-year
   - id: surface-hub
@@ -161,7 +161,7 @@ brands:
       browser: true
       drives: false
       vc: |
-        Google hangouts
+        Google Meet
     service:
       warranty: 1-year
   - id: flip
@@ -263,7 +263,7 @@ brands:
       store: false
       browser: false
       drives: false
-      vc: Cisco webex meeting
+      vc: Cisco Webex
     service:
       warranty: 90 days
   - id: smart
@@ -312,7 +312,7 @@ brands:
       store: false
       browser: true
       drives: false
-      vc: Zoom, Skype, Go to meeting, Webex
+      vc: Zoom, Skype, GoToMeeting, Cisco Webex
     service:
       warranty: 3-year
 
