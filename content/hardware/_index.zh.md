@@ -53,7 +53,7 @@ feature_set_1:
       figure: img/hardware/feature-1.png
       class: is-feature-1
       cta:
-        title: i18n-content-_index-features-i_4-cta-title
+        title: i18n-content-hardware-_index-feature_set_1-features-i_0-cta-title
         video: //dl.vibe.us/assets/video/vibe-install.mp4
     - title: i18n-content-hardware-_index-feature_set_1-features-i_1-title
       body: i18n-content-hardware-_index-feature_set_1-features-i_1-body
@@ -222,5 +222,5 @@ bottom_cta:
         url: /demo/video-demo/
         class: is-black
       - title: i18n-content-hardware-_index-zh-bottom_cta-cta-buttons-i_1-title
-        url: /none/
+        url: https://item.jd.com/69873572786.html#crumb-wrap
 ---
