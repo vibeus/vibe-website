@@ -93,6 +93,8 @@ jobs:
           rm -rf public/
           hugo -e cn-production --minify
           hugo deploy --target aws-cn-production --invalidateCDN
+          # additional CDN for vibe.cn, not used but just to keep it up to date until we turn it off.
+          aws cloudfront create-invalidation --distribution-id E10VE47GZ51NZB
       - uses: actions/github-script@0.3.0
         if: github.event_name == 'deployment'
         with:

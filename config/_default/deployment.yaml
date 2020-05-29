@@ -9,7 +9,7 @@ targets:
     exclude: 'lp/**'
   - name: aws-cn-production
     URL: 's3://vibe.cn?region=cn-northwest-1'
-    cloudFrontDistributionID: E10VE47GZ51NZB
+    cloudFrontDistributionID: E1DLV4TUIX9CLK
     include: 'zh/**'
 
 matchers:
