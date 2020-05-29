@@ -2262,25 +2262,25 @@ other = "Presentation"
 other = "Project management"
 
 [i18n-data-android_apps_category-base-types-i_0-name]
-other = "Web Browser"
+other = "Web browser"
 
 [i18n-data-android_apps_category-base-types-i_1-name]
-other = "Design and Creativity"
+other = "Design and creativity"
 
 [i18n-data-android_apps_category-base-types-i_2-name]
 other = "Communication"
 
 [i18n-data-android_apps_category-base-types-i_3-name]
-other = "Voice and Video"
+other = "Voice and video"
 
 [i18n-data-android_apps_category-base-types-i_4-name]
 other = "Productivity"
 
 [i18n-data-android_apps_category-base-types-i_5-name]
-other = "File Management"
+other = "Cloud storage"
 
 [i18n-data-android_apps_category-base-types-i_6-name]
-other = "Project Management"
+other = "Project management"
 
 [i18n-data-android_apps_category-base-types-i_7-name]
 other = "Education"
@@ -2289,7 +2289,7 @@ other = "Education"
 other = "Entertainment"
 
 [i18n-data-android_apps_category-base-types-i_9-name]
-other = "Data Visualization"
+other = "Data visualization"
 
 [i18n-data-android_apps_category-base-types-i_10-name]
 other = "Construction"
@@ -2339,7 +2339,7 @@ other = "Clear Filter"
 other = "Featured Apps"
 
 [i18n-manual-android-app-store-category]
-other = "Category"
+other = "All Apps"
 
 [i18n-manual-android-app-store-type-of-tool]
 other = "Type of tool"

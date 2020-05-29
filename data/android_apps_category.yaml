@@ -9,28 +9,30 @@ base:
   types:
     - id: browser
       name: i18n-data-android_apps_category-base-types-i_0-name
-    - id: design
-      name: i18n-data-android_apps_category-base-types-i_1-name
-    - id: communication
-      name: i18n-data-android_apps_category-base-types-i_2-name
-    - id: av
-      name: i18n-data-android_apps_category-base-types-i_3-name
     - id: productivity
       name: i18n-data-android_apps_category-base-types-i_4-name
-    - id: file
-      name: i18n-data-android_apps_category-base-types-i_5-name
     - id: project
       name: i18n-data-android_apps_category-base-types-i_6-name
+    - id: design
+      name: i18n-data-android_apps_category-base-types-i_1-name
+    - id: av
+      name: i18n-data-android_apps_category-base-types-i_3-name
+    - id: communication
+      name: i18n-data-android_apps_category-base-types-i_2-name
+    - id: file
+      name: i18n-data-android_apps_category-base-types-i_5-name
     - id: education
       name: i18n-data-android_apps_category-base-types-i_7-name
-    - id: entertainment
-      name: i18n-data-android_apps_category-base-types-i_8-name
     - id: data_viz
       name: i18n-data-android_apps_category-base-types-i_9-name
     - id: construction
       name: i18n-data-android_apps_category-base-types-i_10-name
     - id: other
+      hidden: true
       name: i18n-data-android_apps_category-base-types-i_11-name
+    - id: entertainment
+      hidden: true
+      name: i18n-data-android_apps_category-base-types-i_8-name
 zh:
   use_cases:
     - id: remote

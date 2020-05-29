@@ -18,6 +18,8 @@ i18n['i18n-manual-android-app-store-clear-filter'] =
   '{{ T "i18n-manual-android-app-store-clear-filter" }}';
 i18n['i18n-manual-android-app-store-featured-apps'] =
   '{{ T "i18n-manual-android-app-store-featured-apps" }}';
+i18n['i18n-manual-android-app-store-category'] =
+  '{{ T "i18n-manual-android-app-store-category" }}';
 
 apps.sort((x, y) => {
   const lx = x.name.toLowerCase();
@@ -181,13 +183,10 @@ const DefaultView = () => {
       title: i18n['i18n-manual-android-app-store-featured-apps'],
       apps: apps.filter((x) => x.featured).slice(0, 6),
     }),
-    category.use_cases.map((u) =>
-      e(AppListWithHeader, {
-        title: i18n[u.name],
-        apps: apps.filter((x) => x.use_case === u.id).slice(0, 6),
-        onSeeAllClick: () => setState({ useCase: u.id }),
-      })
-    )
+    e(AppListWithHeader, {
+      title: i18n['i18n-manual-android-app-store-category'],
+      apps: apps,
+    })
   );
 };
 
@@ -296,6 +295,21 @@ function setState({ useCase, type }) {
     url = '#type=' + type;
   }
 
+  document.querySelectorAll('.side-bar-link').forEach((el) => {
+    let isActive = false;
+    if (useCase && el.classList.contains('is-use-case')) {
+      isActive = el.dataset.id === useCase;
+    } else if (type && el.classList.contains('is-type')) {
+      isActive = el.dataset.id === type;
+    }
+
+    if (isActive) {
+      el.classList.add('is-active');
+    } else {
+      el.classList.remove('is-active');
+    }
+  });
+
   history.pushState(state, null, url);
   renderApp(state);
   scrollIntoView('.control.is-search-box', 72);
@@ -305,6 +319,7 @@ function main() {
   document.querySelectorAll('.side-bar-link').forEach((el) => {
     const isUseCase = el.classList.contains('is-use-case');
     const isType = el.classList.contains('is-type');
+    const isAll = el.classList.contains('is-all');
     const id = el.dataset.id;
 
     el.addEventListener('click', (ev) => {
@@ -314,6 +329,8 @@ function main() {
         setState({ useCase: id });
       } else if (isType) {
         setState({ type: id });
+      } else if (isAll) {
+        setState({});
       }
     });
   });

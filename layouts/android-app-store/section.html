@@ -36,17 +36,13 @@
         <h2 class="title">{{ T .title }}</h2>
         {{ end }}
 
-        <h3 class="subtitle">{{ T "i18n-manual-android-app-store-category" }}</h3>
-        {{ range $category.use_cases }}
-        <div class="use-case-item">
-          <a class="side-bar-link is-use-case" href="#" data-id="{{ .id }}">{{ T .name }}</a>
-        </div>
-        {{ end }}
-        <h3 class="subtitle">{{ T "i18n-manual-android-app-store-type-of-tool" }}</h3>
+        <h3 class="subtitle"><a class="side-bar-link is-all" href="#">{{ T "i18n-manual-android-app-store-category" }}</a></h3>
         {{ range $category.types }}
+        {{ if not .hidden }}
         <div class="type-item">
           <a class="side-bar-link is-type" href="#" data-id="{{ .id }}">{{ T .name }}</a>
         </div>
+        {{ end }}
         {{ end }}
       </div>
       <div class="column is-app-root">
