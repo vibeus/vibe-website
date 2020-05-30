@@ -52,9 +52,6 @@ feature_set_1:
       body: i18n-content-hardware-_index-feature_set_1-features-i_0-body
       figure: img/hardware/feature-1.png
       class: is-feature-1
-      cta:
-        title: i18n-content-hardware-_index-feature_set_1-features-i_0-cta-title
-        video: //dl.vibe.us/assets/video/vibe-install.mp4
     - title: i18n-content-hardware-_index-feature_set_1-features-i_1-title
       body: i18n-content-hardware-_index-feature_set_1-features-i_1-body
       figure: img/hardware/feature-2-zh.png
