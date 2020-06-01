@@ -12,7 +12,7 @@ bottom_cta:
         url: /demo/video-demo/
         class: is-black
       - title: i18n-content-service-_index-zh-bottom_cta-cta-buttons-i_1-title
-        url: https://www.jd.com
+        url: https://item.jd.com/70045339361.html#crumb-wrap
 ---
 
 ## （一）保修服务内容说明
