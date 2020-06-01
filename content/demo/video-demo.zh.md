@@ -22,5 +22,5 @@ bottom_cta:
   title: i18n-content-demo-request-video-landing-bottom_cta-title
   cta:
     title: i18n-content-demo-request-video-landing-bottom_cta-cta-title
-    url: https://item.jd.com/69873572786.html#crumb-wrap
+    url: https://item.jd.com/70045339361.html#crumb-wrap
 ---

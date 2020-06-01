@@ -219,5 +219,5 @@ bottom_cta:
         url: /demo/video-demo/
         class: is-black
       - title: i18n-content-hardware-_index-zh-bottom_cta-cta-buttons-i_1-title
-        url: https://item.jd.com/69873572786.html#crumb-wrap
+        url: https://item.jd.com/70045339361.html#crumb-wrap
 ---
