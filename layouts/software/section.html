@@ -83,7 +83,7 @@
       {{ range .items }}
       <div class="column{{ if eq $.Site.Language.Lang "zh" }} is-one-third-tablet is-half-mobile{{ end }}">
         <figure class="image">
-          {{ (resources.Get .figure).Content | safeHTML }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "480x" "mobile" "160x" "options" "jpg #FFFFFF") }}
         </figure>
         <h2 class="item-title">{{ T .title }}</h2>
         <div class="content" {{ with .max_content_width }}style="max-width: {{ . }}"{{ end }}>
@@ -157,7 +157,7 @@
 {{ with .Params.feature_apps }}
 <section class="section is-apps">
   <div class="container">
-    <h1 class="title is-section-title">{{ T .title }}</h1>
+    <h1 class="title is-section-title">{{ T .title | markdownify }}</h1>
     <div class="columns">
       {{ range .items }}
       <div class="column">

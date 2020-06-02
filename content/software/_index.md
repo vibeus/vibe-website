@@ -14,13 +14,13 @@ feature_overall:
   items:
     - title: i18n-content-software-_index-feature_overall-items-i_0-title
       body: i18n-content-software-_index-feature_overall-items-i_0-body
-      figure: img/software/infinite-canvas.svg
+      figure: img/software/infinite-canvas.png
     - title: i18n-content-software-_index-feature_overall-items-i_1-title
       body: i18n-content-software-_index-feature_overall-items-i_1-body
-      figure: img/software/smart-drawing.svg
+      figure: img/software/smart-drawing.png
     - title: i18n-content-software-_index-feature_overall-items-i_2-title
       body: i18n-content-software-_index-feature_overall-items-i_2-body
-      figure: img/software/templates.svg
+      figure: img/software/templates.png
 feature_collaboration:
   title: i18n-content-software-_index-feature_collaboration-title
   items:

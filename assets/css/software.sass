@@ -109,10 +109,6 @@
     margin-top: 60px
     .image
       max-width: 210px
-      height: 200px
-      svg
-        width: 100%
-        height: 100%
     .item-title
       font-size: 30px
       line-height: 38px
@@ -158,7 +154,8 @@
   .title.is-subtitle
     font-size: 30px
     +lang-override(".lang-zh")
-      line-height: 44px
+      +tablet
+        line-height: 44px
     line-height: 38px
     margin-bottom: 48px
     +mobile
@@ -175,7 +172,7 @@
       .column.is-image
         height: 626px
         +mobile
-          height: 313px
+          height: 400px
         position: relative
       .image
         position: absolute
@@ -186,7 +183,7 @@
           right: 80px
         width: 978px
         +mobile
-          width: 489px
+          width: 624px
 
 .section.is-presentation
   +vertical-padding(120px)
@@ -216,10 +213,12 @@
       max-width: 500px
   .title.is-subtitle
     +lang-override(".lang-zh")
-      line-height: 44px
-      margin-bottom: 48px
+      +tablet
+        line-height: 44px
+        margin-bottom: 48px
     +mobile
       font-size: 20px
+      line-height: 1.5
   .columns.is-index-1
     flex-direction: row-reverse
     max-width: 1108px
@@ -236,6 +235,8 @@
     margin-top: 72px
     .image
       box-shadow: 10px 10px 0px $vibe-purple
+      margin-right: 10px
+      margin-bottom: 10px
       +tablet
         width: 567px
         right: 50%
@@ -247,8 +248,13 @@
 .section.is-apps
   +vertical-padding(120px)
   background-color: $vibe-white
-  .title
+  .title.is-section-title
     margin-bottom: 90px
+    line-height: 1.5
+    +mobile
+      margin-bottom: 42px
+    p
+      display: inline
   .column
     display: flex
     flex-direction: column
@@ -256,6 +262,9 @@
     .image
       max-width: 270px
       margin-bottom: 48px
+      +mobile
+        max-width: 120px
+        margin-bottom: 12px
     .item-title
       max-width: 284px
       font-size: 30px
@@ -264,13 +273,20 @@
       font-weight: $vibe-bold
       text-align: center
       margin-bottom: 30px
+      +mobile
+        font-size: 20px
+        line-height: 1.5
+        margin-bottom: 12px
     .content
       max-width: 300px
       text-align: center
+      +mobile
+        margin-bottom: 24px
   .column:last-child
     .image
       +lang-override(".lang-zh")
-        max-width: 260px
+        +tablet
+          max-width: 260px
   .cta
     margin-top: 32px
     text-align: center
@@ -329,46 +345,55 @@
   +mobile
     +lang-override(".lang-zh")
       .title
+        text-align: center
         font-size: 40px
-        line-height: 44px
+        line-height: 1.5
+      .cta
+        text-align: center
+        .button
+          width: 270px
 .section
   +mobile
     +lang-override(".lang-zh")
-      &.is-apps
-        .title.is-section-title
-          margin-bottom: 0
       &.is-overall
         .title,.columns,.column
           margin: 0
         padding-top: 60px
         padding-bottom: 60px
+        .column
+          padding-left: 4px
+          padding-right: 4px
+          padding-top: 20px
+          .image
+            max-width: 80px
+          .item-title
+            font-size: 16px
+            margin: 0
+          .content
+            font-size: 13px
+      &.is-collaboration, &.is-presentation
+        .column.is-content
+          padding-left: 24px
+          padding-right: 24px
       &.is-presentation 
         .columns.is-index-1
           margin-bottom: 0
         .columns.is-index-2
           margin-top: 0
-      .container
-        .title
-          font-size: 30px
-        .title.is-subtitle
-          font-size: 22px
-          line-height: 33px
-          margin-bottom: 20px
-        .content,.author
+      &.is-testimonial
+        .content, .author
           font-size: 14px
-        .column
-          padding-top: 20px
-          .item-title
-            font-size: 22px
-            margin: 0
       &.is-feature .container .subtitle
         font-size: 30px
-      .video-launcher
-        margin-top: 30px
-      .image.video-launcher .preview  
-        .content.is-footnote
-          margin-top: 16px 
-          font-size: 12px 
-          margin-bottom: 36px
-      .cta
-        font-size: 14px
+      &.is-apps
+        .title.is-section-title p
+          display: block
+      &.is-hero-image
+        .image.video-launcher .preview
+          .content.is-footnote
+            margin-top: 16px
+            font-size: 12px
+            margin-bottom: 36px
+      &.is-video
+        .cta
+          font-size: 14px

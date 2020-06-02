@@ -17,27 +17,27 @@ feature_overall:
   items:
     - title: i18n-content-software-_index-feature_overall-items-i_3-title
       body: i18n-content-software-_index-feature_overall-items-i_3-body
-      figure: img/software/infinite-canvas.svg
+      figure: img/software/infinite-canvas.png
       max_content_width: 192px
     - title: i18n-content-software-_index-feature_overall-items-i_4-title
       body: i18n-content-software-_index-feature_overall-items-i_4-body
-      figure: img/software/canvas-background.svg
+      figure: img/software/canvas-background.png
       max_content_width: 219px
     - title: i18n-content-software-_index-feature_overall-items-i_5-title
       body: i18n-content-software-_index-feature_overall-items-i_5-body
-      figure: img/software/templates.svg
+      figure: img/software/templates.png
       max_content_width: 199px
     - title: i18n-content-software-_index-feature_overall-items-i_0-title
       body: i18n-content-software-_index-feature_overall-items-i_0-body
-      figure: img/software/stroke-colors.svg
+      figure: img/software/stroke-colors.png
       max_content_width: 226px
     - title: i18n-content-software-_index-feature_overall-items-i_1-title
       body: i18n-content-software-_index-feature_overall-items-i_1-body
-      figure: img/software/smart-drawing.svg
+      figure: img/software/smart-drawing.png
       max_content_width: 206px
     - title: i18n-content-software-_index-feature_overall-items-i_2-title
       body: i18n-content-software-_index-feature_overall-items-i_2-body
-      figure: img/software/post-it.svg
+      figure: img/software/post-it.png
       max_content_width: 192px
 feature_collaboration:
   title: i18n-content-software-_index-feature_collaboration-title
@@ -54,7 +54,7 @@ feature_collaboration:
       figure:
         base: img/software/collaboration-2-zh.png
         desktop: 1900x
-        mobile: 980x
+        mobile: 1248x
 feature_presentation:
   title: i18n-content-software-_index-feature_presentation-title
   items:

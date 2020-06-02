@@ -39,19 +39,19 @@
         font-size: 50px
       +mobile
         font-size: 50px
-        // +lang-override(".lang-zh")
-        //   font-size: 45px
         line-height: 60px
     p
       max-width: 435px
       +lang-override(".lang-zh")
         display: none
     .title p
-      display: flex    
+      display: flex
   .cta
+    +mobile
+      text-align: center
     .button.is-hero-cta
       +mobile
-        width: 100%
+        min-width: 270px
       +tablet
         width: 234px
         height: 58px
@@ -218,6 +218,8 @@
     +widescreen
       max-width: 905px
     margin: 76px auto 0 auto
+    +mobile
+      margin-top: 38px
     .testimonial
       padding: 72px 72px 24px 60px
       +mobile
@@ -239,16 +241,21 @@
       .title-text .title
         p
           display: block
+          &:first-child
+            font-size: 28px
         font-size: 42px
         text-align: center
+
 .section
   +mobile
     +lang-override(".lang-zh")
-      .container 
-        .content,.author
-          font-size: 14px
-          p
-            margin: 0
+      &.is-testimonial
+        .content
+          padding-left: 18px
+          padding-right: 22px
+          margin-bottom: 0
+        .author
+          margin-top: 0
       &.is-feature
         padding-top: 12px
         padding-bottom: 12px

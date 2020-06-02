@@ -1267,12 +1267,12 @@ other = "Let’s build together"
 other = "Join us"
 
 [i18n-content-software-_index-title]
-other = "智能系统全面升级 只为焕新合作体验"
+other = "智能系统全面升级 焕新合作体验"
 
 [i18n-content-software-_index-hero-title]
 other = """智能系统全面升级
 
-只为焕新合作体验"""
+焕新合作体验"""
 
 [i18n-content-software-_index-hero-body]
 other = "打破远程办公的界限，通过多种互动方式，全面提升远程会议、培训、演讲的体验。"
@@ -1372,7 +1372,9 @@ other = """- 兼容各类文档编辑管理工具，如 WPS 文档、Office 365�
 - 会后只需导出一份 PDF，团队计划和会议记录一举搞定。"""
 
 [i18n-content-software-_index-feature_apps-title]
-other = "兼容各大App，你无需改变工作习惯"
+other = """兼容各大App，
+
+你无需改变工作习惯"""
 
 [i18n-content-software-_index-feature_apps-items-i_0-title]
 other = "连接云端文件"
@@ -2305,7 +2307,7 @@ other = "重置"
 other = "精选应用"
 
 [i18n-manual-android-app-store-category]
-other = "应用场景"
+other = "所有应用"
 
 [i18n-manual-android-app-store-type-of-tool]
 other = "工具类型"
