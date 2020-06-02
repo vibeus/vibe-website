@@ -16,9 +16,7 @@ products:
     title: i18n-content-order-_index-products-i_0-title
     figure: img/order/product-gallery-1.png
     sold_out: false
-    backorder:
-      item_notice: '**Backordered.** Expected to ship on Jun 6th.'
-      cart_notice: 'Backordered. Expected to ship on Jun 6th.'
+    backorder: false
   - &white_stand
     product_id: '31815731576883'
     price: 500
@@ -34,9 +32,7 @@ products:
     title: i18n-content-order-_index-products-i_2-title
     figure: img/order/accessory-stand-r.png
     sold_out: false
-    backorder:
-      item_notice: '**Backordered.** Expected to ship on Jun 6th.'
-      cart_notice: 'Backordered. Expected to ship on Jun 6th.'
+    backorder: false
   - &stylus
     product_id: '31815737016371'
     price: 15
