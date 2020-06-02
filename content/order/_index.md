@@ -26,8 +26,8 @@ products:
     figure: img/order/accessory-stand-w.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected to ship on Jun 6th.'
-      cart_notice: 'Backordered. Expected to ship on Jun 6th.'
+      item_notice: '**Backordered.** Expected to ship on Jun 15th.'
+      cart_notice: 'Backordered. Expected to ship on Jun 15th.'
   - &red_stand
     product_id: '31815731609651'
     price: 500
@@ -43,7 +43,9 @@ products:
     title: i18n-content-order-_index-products-i_3-title
     figure: img/order/accessory-stylus.png
     sold_out: false
-    backorder: false
+    backorder:
+      item_notice: '**Backordered.** Expected to ship on Jun 15th.'
+      cart_notice: 'Backordered. Expected to ship on Jun 15th.'
 hero:
   <<: *vibe_board
   body: i18n-content-order-_index-hero-body
