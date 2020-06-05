@@ -26,9 +26,9 @@ Here are eight great ways that kids can enjoy a Vibe board.
 If you need to explain an idea, sketching it out is a great way to get the point across. Your kids can also sketch out their ideas, and you can save canvases to reflect on later. There are also plenty of apps that can connect to your Vibe board. You can even project what's on your laptop to the board, making it serve as a projector. It's a lot like how you learned in a classroom, except much sleeker and easier to control.
  
 
-## 2. You can play games on it. Getting tired of Animal Crossing? 
+## 2. You can play games on it. 
 
-You can also play games with your kids using your Vibe board. From Tic-Tac-Toe and Hangman to Dots & Boxes, it's like having endless pieces of paper at your disposal. Games don't need to be flashy to be fun. There are also plenty of apps that integrate with the Vibe board, and new features are being announced all the time.
+Getting tired of Animal Crossing? You can also play games with your kids using your Vibe board. From Tic-Tac-Toe and Hangman to Dots & Boxes, it's like having endless pieces of paper at your disposal. Games don't need to be flashy to be fun. There are also plenty of apps that integrate with the Vibe board, and new features are being announced all the time.
  
 
 ## 3. You can connect with tutors. 
