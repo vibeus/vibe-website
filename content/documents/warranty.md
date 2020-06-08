@@ -6,7 +6,9 @@ aliases:
 hero:
   title: *title
   summary: |
-    Thank you for purchasing Vibe Products. Customers who purchased Vibe directly from Vibe’s online store will be automatically registered and do not need to register. For any customers who purchased Vibe from another channel (Amazon, reseller, consultant, etc.), please use the table below to register.
+    Thank you for purchasing Vibe Products. Customers who purchased Vibe directly from Vibe’s online store will be
+    automatically registered and do not need to register. For any customers who purchased Vibe from another channel
+    (Amazon, reseller, consultant, etc.), please use the table below to register.
 
     The warranties provided by Vibe inc. (Vibe) in this Limited Hardware
     Warranty apply only to Hardware Products you purchase for your use, and not for resale. The term
@@ -14,7 +16,7 @@ hero:
     The Hardware Product is sold by Vibe for the purpose of executing the specific Vibe Software supplied with it.
     NOTHING IN THIS STATEMENT OF LIMITED WARRANTY AFFECTS ANY STATUTORY RIGHTS OF CONSUMERS THAT CANNOT BE WAIVED
     OR LIMITED BY CONTRACT.
-contact:
+register:
   form:
     action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/3d3eac66-7345-4825-a6e8-df8d0575832e
     controls:
@@ -49,7 +51,7 @@ contact:
         title: Register Your Vibe
         class: button is-rounded is-primary
     submitted:
-      body: Thank you for register your device
+      body: Thank you for registering your device!
 ---
 
 # LIMITED HARDWARE WARRANTY
