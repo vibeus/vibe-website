@@ -6,12 +6,52 @@ aliases:
 hero:
   title: *title
   summary: |
-    Thank you for purchasing Vibe Products. The warranties provided by Vibe inc. (Vibe) in this Limited Hardware
+    Thank you for purchasing Vibe Products. Customers who purchased Vibe directly from Vibe’s online store will be
+    automatically registered and do not need to register. For any customers who purchased Vibe from another channel
+    (Amazon, reseller, consultant, etc.), please use the table below to register.
+
+    The warranties provided by Vibe inc. (Vibe) in this Limited Hardware
     Warranty apply only to Hardware Products you purchase for your use, and not for resale. The term
     “Hardware Product” means a computing device with a specific function and limited configuration ability.
     The Hardware Product is sold by Vibe for the purpose of executing the specific Vibe Software supplied with it.
     NOTHING IN THIS STATEMENT OF LIMITED WARRANTY AFFECTS ANY STATUTORY RIGHTS OF CONSUMERS THAT CANNOT BE WAIVED
     OR LIMITED BY CONTRACT.
+register:
+  form:
+    action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/3d3eac66-7345-4825-a6e8-df8d0575832e
+    controls:
+      - - name: firstname
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_0-i_0-placeholder
+          required: true
+        - name: lastname
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_0-i_1-placeholder
+          required: true
+      - - name: email
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_1-i_0-placeholder
+          type: email
+          required: true
+        - name: phone
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_1-i_1-placeholder
+          type: tel
+          required: true
+      - - name: company
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_0-placeholder
+          required: true
+        - name: date_of_purchase
+          placeholder: Date of Purchase
+          required: true
+      - - name: serial_number
+          placeholder: Serial Number
+          required: true
+        - name: order_number
+          placeholder: Order Number
+          required: true
+    buttons:
+      - type: submit
+        title: Register Your Vibe
+        class: button is-rounded is-primary
+    submitted:
+      body: Thank you for registering your device!
 ---
 
 # LIMITED HARDWARE WARRANTY

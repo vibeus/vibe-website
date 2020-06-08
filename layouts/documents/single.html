@@ -15,6 +15,16 @@
 </section>
 {{ end }}
 
+{{ with .Params.register }}
+<section class="section is-register">
+  <div class="container is-form">
+    {{ with .form }}
+    {{ partial "common/form" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
 <section class="section">
   <div class="container">
     {{ if not .Params.hero }}
@@ -26,4 +36,5 @@
   </div>
 </section>
 
+{{ partial "common/template-script" (dict "asset" "js/contact.js") }}
 </main>{{ end }}
