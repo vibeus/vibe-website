@@ -45,6 +45,10 @@ team:
       figure: img/about/team-2.jpg
     - title: i18n-content-about-_index-team-photos-i_2-title
       figure: img/about/team-3.jpg
+    - title: i18n-content-about-_index-team-photos-i_3-title
+      figure: img/about/team-4.jpg
+    - title: i18n-content-about-_index-team-photos-i_4-title
+      figure: img/about/team-5.jpg
 investors:
   title: i18n-content-about-_index-investors-title
   items:
