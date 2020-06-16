@@ -9,8 +9,8 @@ difference:
   title: i18n-content-comparison-google-jamboard-difference-title
   body: i18n-content-comparison-google-jamboard-difference-body
 compare:
-  left: vibe
-  right: jamboard
+  left: jamboard
+  right: vibe
   note:
     \*Please note that all technical specifications are taken directly from Google
     Jamboard.

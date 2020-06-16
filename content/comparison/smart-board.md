@@ -10,8 +10,8 @@ difference:
   title: i18n-content-comparison-smart-board-difference-title
   body: i18n-content-comparison-smart-board-difference-body
 compare:
-  left: vibe
-  right: smart
+  left: smart
+  right: vibe
   note:
     "\\*Please note that all technical specifications are taken directly from\
     \ SMART Technology site. In cases where\npricing isn\u2019t available, we include\

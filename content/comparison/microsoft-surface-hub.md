@@ -9,8 +9,8 @@ difference:
   title: i18n-content-comparison-microsoft-surface-hub-difference-title
   body: i18n-content-comparison-microsoft-surface-hub-difference-body
 compare:
-  left: vibe
-  right: surface-hub
+  left: surface-hub
+  right: vibe
   note:
     "\\*Please note that all technical specifications are taken directly from\
     \ Surface Hub\u2019s website."

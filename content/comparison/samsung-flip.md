@@ -9,8 +9,8 @@ difference:
   title: i18n-content-comparison-samsung-flip-difference-title
   body: i18n-content-comparison-samsung-flip-difference-body
 compare:
-  left: vibe
-  right: flip
+  left: flip
+  right: vibe
   note:
     \*Please note that all technical specifications are taken directly from Samsung
     Flip 2.

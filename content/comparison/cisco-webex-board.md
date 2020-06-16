@@ -9,8 +9,8 @@ difference:
   title: i18n-content-comparison-cisco-webex-board-difference-title
   body: i18n-content-comparison-cisco-webex-board-difference-body
 compare:
-  left: vibe
-  right: webex
+  left: webex
+  right: vibe
   note:
     \*Please note that all technical specifications are taken directly from Cisco
     Webex.
