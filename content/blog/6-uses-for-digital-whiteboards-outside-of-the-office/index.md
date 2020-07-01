@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-05-27
 tags: ["whiteboard", "entertainment", "video"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: When you think of whiteboards, you probably think of office meetings. However, digital whiteboards are so versatile that they can be used even outside of the office.
 ---
 
