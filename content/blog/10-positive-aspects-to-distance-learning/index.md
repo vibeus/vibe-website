@@ -10,8 +10,6 @@ isfeatured: false
 
 
 
-
-
 Even though school is over for the year, it's still uncertain how schooling will go in the fall. Some states and districts have a plan in place, while others are likely going to stay remote for at least the end of the year. The shift has been hard on a lot of working parents. But, knowing that we're all in this together truly does help.
 
 It may have been jarring at first, but there are also a lot of positive aspects of distance learning. The problem is, you were likely too stressed out to acknowledge them at the time, especially since the change-over happened so quickly. 
@@ -28,7 +26,10 @@ Distance learning and remote working have one big thing in common — there's no
 
 With work and resources digitized, they'll always have access to everything they need — that means, they don't have to lug heavy backpacks around quite as much. Having everything available on platforms online will help keep them organized. And as a bonus, they'll be able to learn how to navigate these resources on their own. 
 
+
 {{< common/srcset "image-1.jpg" "" >}}
+
+
 
 ## 3. They can use a digital whiteboard for many of their assignments. 
 
