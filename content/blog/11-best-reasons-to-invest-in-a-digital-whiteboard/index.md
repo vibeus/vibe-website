@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-07-01
 tags: ["whiteboard", "ditital whiteboard", "interactive whiteboard"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: While the digital whiteboards have been around for some time, offices and classrooms have just recently started to fully embrace them. Here are some reasons why it may be worth it to upgrade.
 ---
 

@@ -31,7 +31,7 @@ Interactive whiteboards give teachers and students the capability to create full
 Vibe’s interactive whiteboard has an infinite canvas, enabling teachers and students to create concept maps of any shape or size, which can then be saved, shared, and referred to again and again. Vibe's software can also be used on different devices - so for group projects, students can continue working on a Vibe board from a computer browser or iPad, allowing for collaborating and brainstorming in real time even from different locations.
 
 
-{{< common/srcset "image-1.jpg" "Student using the Vibe iPad App with his father" >}}
+{{< common/srcset "image-1.jpg" "Using the Vibe Web App" >}}
 
 
 Being able to do this together, whether to make a quick point, or to flesh out an idea too big to fit within a Google document, brings cooperative learning to a whole new level that can easily translate to better workplace collaboration as well.
