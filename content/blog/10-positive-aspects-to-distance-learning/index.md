@@ -4,7 +4,7 @@ slug: 10-positive-aspects-to-distance-learning
 author: Karen Belz
 date: 2020-07-03
 tags: ["education", "remote", "distance learning"]
-draft: true
+draft: false
 isfeatured: false
 ---
 

@@ -4,7 +4,7 @@ slug: how-i-vibe-mark-smith-ceo-of-leadership-resource-institute
 author: The Vibe Team
 date: 2020-07-08
 tags: ["CEO", "remote", "video conferencing"]
-draft: true
+draft: false
 isfeatured: true
 summary: Mark Smith collaborates remotely with international clients. Read on to see how the Vibe digital whiteboard improved his workflow and made his collaborations more dynamic.
 ---
