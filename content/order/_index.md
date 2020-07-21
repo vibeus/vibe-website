@@ -3,6 +3,18 @@ stylesPath: css/order.sass
 title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
+
+navbar:
+  extra:
+    - title: i18n-data-common-nav-base-extra-i_0-title
+      class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      url: /demo/
+      in_brand_mobile: true
+    - title: i18n-data-common-nav-base-extra-i_1-title
+      class: is-primary is-rounded is-nav-cart is-in-brand
+      url: /order/
+      in_brand_mobile: true
+
 product_notices:
   sold_out: &sold_out
     item_notice:
