@@ -5,7 +5,7 @@ author: The Vibe Team
 date: 2020-07-08
 tags: ["CEO", "remote", "video conferencing"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: Mark Smith collaborates remotely with international clients. Read on to see how the Vibe digital whiteboard improved his workflow and made his collaborations more dynamic.
 ---
 
