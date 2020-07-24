@@ -4,7 +4,7 @@ slug: how-i-vibe-henry-silverman-professor-of-medicine
 author: The Vibe Team
 date: 2020-07-22
 tags: ["higher educaiton", "online teaching", "distance learning"]
-draft: false
+draft: true
 isfeatured: true
 summary: Dr. Henry Silverman is a Professor at the University of Maryland. He teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
 ---
