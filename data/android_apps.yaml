@@ -156,6 +156,9 @@ apps:
   name: RingCentral Meetings
   use_case: remote
   type: av
+- id: com.seafile.seadroid2
+  name: Seafile
+  type: file
 - id: com.skype.m2
   name: Skype Lite
   use_case: remote
@@ -165,6 +168,9 @@ apps:
   use_case: remote
   type: communication
   featured: true
+- id: com.ss.android.ugc.trill
+  name: TikTok
+  type: entertainment
 - id: com.teamviewer.teamviewer.market.mobile
   name: TeamViewer
   use_case: remote
