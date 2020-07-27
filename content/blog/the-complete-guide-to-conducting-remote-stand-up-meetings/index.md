@@ -1,7 +1,7 @@
 ---
 title: "The Complete Guide to Conducting Remote Stand-up Meetings"
 slug: the-complete-guide-to-conducting-remote-stand-up-meetings
-author: Tanya Xu
+author: Megan Snyder
 date: 2020-04-20
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
