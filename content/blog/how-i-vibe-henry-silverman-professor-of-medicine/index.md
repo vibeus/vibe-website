@@ -11,6 +11,8 @@ summary: Dr. Henry Silverman is a Professor at the University of Maryland. He te
 
 
 
+
+
 With many colleges and universities unsure of what the fall semester will look like amidst the coronavirus pandemic, at least one professor already has his plan in place.
 
 Dr. Henry Silverman, MD, MA, is a Professor of Medicine at the University of Maryland’s School of Medicine. In addition to being a physician of pulmonary & critical care, Dr. Silverman teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
