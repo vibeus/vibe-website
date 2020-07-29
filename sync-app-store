@@ -22,7 +22,7 @@ def sync_apps(app_list_json, app_list_yaml, black_list):
 
     new_map = {}
     for app in remote_list:
-        app_id = app.get("package", "")
+        app_id = app.get("packageName", "")
         remote_icon = app.get("icon", "")
         if not app_id or app_id in black_list or not remote_icon:
             print(Style.DIM + "Ignore app: {}".format(app_id) + Style.RESET_ALL)
@@ -80,14 +80,14 @@ def sync_apps(app_list_json, app_list_yaml, black_list):
 
 def main():
     sync_apps(
-        "https://dl.vibe.cn/configs/whitelist/vibe.json",
+        "https://dl.vibe.cn/configs/apps/ss/prod.json",
         "./data/android_apps_zh.yaml",
-        ["com.android.rk"],
+        ["com.android.rk","ai.inlight.board.app"],
     )
     sync_apps(
-        "https://dl.vibe.us/configs/whitelist/vibe.json",
+        "https://dl.vibe.us/configs/apps/ss/prod.json",
         "./data/android_apps.yaml",
-        ["com.android.rk"],
+        ["com.android.rk","ai.inlight.board.app"],
     )
 
 

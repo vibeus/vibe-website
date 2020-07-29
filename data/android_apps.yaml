@@ -1,4 +1,7 @@
 apps:
+- id: com.Slack
+  name: Slack
+  type: communication
 - id: com.adobe.cc
   name: Creative Cloud
   type: design
@@ -57,6 +60,9 @@ apps:
 - id: com.dropbox.paper
   name: DropBox Paper
   type: productivity
+- id: com.dynamixsoftware.printershare
+  name: PrinterShare
+  type: other
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
@@ -138,6 +144,9 @@ apps:
 - id: com.netflix.mediaclient
   name: Netflix
   type: entertainment
+- id: com.nokoprint
+  name: NokoPrint
+  type: other
 - id: com.opera.browser
   name: Opera
   type: browser
@@ -147,6 +156,9 @@ apps:
 - id: com.prezi.android
   name: Prezi
   use_case: presentation
+  type: productivity
+- id: com.procore.activities
+  name: Procore
   type: productivity
 - id: com.realtimeboard
   name: Miro
@@ -163,11 +175,6 @@ apps:
   name: Skype Lite
   use_case: remote
   type: av
-- id: com.slack
-  name: Slack
-  use_case: remote
-  type: communication
-  featured: true
 - id: com.ss.android.ugc.trill
   name: TikTok
   type: entertainment
@@ -186,6 +193,9 @@ apps:
 - id: com.ubnt.easyunifi
   name: UniFi Network
   type: other
+- id: com.vidku.app.flipgrid
+  name: Flipgrid
+  type: education
 - id: com.wrike
   name: Wrike
   use_case: project
@@ -206,3 +216,6 @@ apps:
   use_case: remote
   type: av
   featured: true
+- id: videoeditor.videorecorder.screenrecorder
+  name: XRecorder
+  type: av
