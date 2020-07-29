@@ -29,9 +29,9 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
-      - name: Setup Hugo 0.68.3
+      - name: Setup Hugo 0.73.0
         run: |
-          HUGO_VER=0.68.3
+          HUGO_VER=0.73.0
           HUGO_ZIP=hugo_extended_${HUGO_VER}_Linux-64bit.tar.gz
           curl -OL https://github.com/gohugoio/hugo/releases/download/v$HUGO_VER/$HUGO_ZIP
           sudo tar xf $HUGO_ZIP -C /usr/local/bin hugo
