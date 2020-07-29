@@ -1,5 +1,5 @@
 apps:
-- id: com.Slack
+- id: com.slack
   name: Slack
   use_case: remote
   type: communication
