@@ -19,9 +19,15 @@ Being a young CEO of a marketing start-up requires hustle. And with the need to 
 
 So when Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was building his business, he immediately began looking for the right digital whiteboard to keep his projects on the move.
 
+
+## Finding a solution
+
 “I kept saying that I was going to get two whiteboards on wheels. Otherwise, I was going to be writing on the walls,” he joked. But he realized that he didn’t want something that required all of the painstaking writing, erasing, and making sure not to accidentally erase ideas. He wanted a clean design and an infinite canvas.
 
 “I looked at DTEN, SMART Board, and Jamboard, but I knew those weren’t for me,” he said. “The DTEN was something like $5,000 and I thought, ‘This isn’t for the creative environment; this is for professional services.’ I needed a collaborative space.” After learning about the Vibe board, Elbendary found that it has everything he needs and more.
+
+
+## Ideate and Brainstorm 
 
 With a roster of demanding Fortune 50 clients, Elbendary is constantly developing unique marketing plans with his team. Having the Vibe board lets them brainstorm as a team, continuously switching between boards and collaborating between screens.
 
@@ -36,6 +42,9 @@ Cleverman, Inc.’s clients are scattered across the globe, so reliable communic
 As a self-professed “mover and shaker,” Elbendary doesn’t like to wait too long before jumping on a good idea. So when his best friend and agency co-founder came up with an app concept in January 2020, they were quick to take action.
 
 “We took the idea to a venture studio in mid-February, and we’re just about done with the platform now,” he said. “We wouldn’t have been able to move as fast without the tools that we had, and one of those very important tools was Vibe, 100 percent.”
+
+
+## More Possibilities
 
 Using the board for multiple purposes worked well for a recent client project. When designing the website for Casanova Meats, they were able to screenshot all of the vital documents and images before beginning work.
 
