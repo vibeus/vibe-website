@@ -4,9 +4,11 @@ slug: how-i-vibe-adam-elbendary
 author: Vibe Team
 date: 2020-06-10
 tags: ["CEO", "new business", "marketing"]
-draft: true
+draft: false
 isfeatured: false
 summary: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard to keep his projects on the move for his new business.
+hero_styles:
+  background: "#f4f4f4"
 ---
 
 
@@ -26,6 +28,7 @@ With a roster of demanding Fortune 50 clients, Elbendary is constantly developin
 “From start to finish, from 40,000-foot views to the granular intricacies of the platform we’re building, we got it all done through Vibe. And it was amazing.”
 
 Cleverman, Inc.’s clients are scattered across the globe, so reliable communication is imperative. The Vibe board lets users take calls and notes simultaneously without having to switch between screens, paper notes, and devices; ideas and brainstorms can move seamlessly into planning and strategizing. Elbendary said that the fact that he can be on a Zoom meeting while taking notes on the board lets him stay engaged while still on the call.
+
 
 {{< common/srcset "image-1.png" "" >}}
 
