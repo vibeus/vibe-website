@@ -1,11 +1,11 @@
 [i18n-content-_index-title]
-other = "Collaboration lives here"
+other = "Remote Collaboration lives here"
 
 [i18n-content-_index-hero-title]
-other = "Collaboration lives here"
+other = "Remote Collaboration lives here"
 
 [i18n-content-_index-hero-body]
-other = "With Vibe's powerful & intuitive technology, teams can innovate, ideate, and collaborate like never before."
+other = "With Vibe’s powerful & intuitive technology, teams can innovate, ideate, and collaborate in real-time from anywhere in the world."
 
 [i18n-content-_index-hero-cta-title]
 other = "See a Demo"
@@ -560,8 +560,8 @@ other = "Unleash your potential"
 other = "Unleash your potential"
 
 [i18n-content-hardware-_index-hero-body]
-other = """Vibe’s interactive digital whiteboard connects you to coworkers and clients like never before.
-Designed by teams, for teams, Vibe combines an intuitive touchscreen with a keynote-worthy display
+other = """Vibe’s interactive digital whiteboard connects you to coworkers and clients anywhere in the world.
+Designed by a global team to improve communication, Vibe combines an intuitive touchscreen with a keynote-worthy display
 to activate meetings, training sessions, and presentations."""
 
 [i18n-content-hardware-_index-hero-cta-title]
@@ -1296,10 +1296,10 @@ other = "Let’s build together"
 other = "Join us"
 
 [i18n-content-software-_index-title]
-other = "Collaboration software for however you work"
+other = "Collaboration software for however, wherever, you work"
 
 [i18n-content-software-_index-hero-title]
-other = "Collaboration software for however you work"
+other = "Collaboration software for however, wherever, you work"
 
 [i18n-content-software-_index-hero-body]
 other = """Do your best work with the freedom to communicate and create interactively. Whether you’re building a project
@@ -1523,9 +1523,9 @@ other = "Samsung Flip 2 Overview"
 
 [i18n-content-comparison-samsung-flip-difference-body]
 other = """## Key Takeaway
-The Samsung Flip 2 is a practical and reliable way to engage same-location teams in creative collaborations.
-But Vibe gives your business more ways to grow, share, and work together for just a little bigger investment,
-and we think that’s worth it.
+The Samsung Flip 2 is a practical and reliable way to engage same-location teams in creative collaborations,
+but isn't designed for remote or distributed teams. Vibe gives your business more ways to grow, share,
+and work together for just a little bigger investment, and we think that’s worth it.
 
 ## Samsung Flip 2 Pricing
 The Flip 2’s 55” model costs $2,199 and is sold separately from the mobile stand ($799).
