@@ -2,7 +2,7 @@
 title: "How I Vibe - Adam Elbendary, CEO of Cleverman, Inc."
 slug: how-i-vibe-adam-elbendary
 author: Vibe Team
-date: 2020-06-10
+date: 2020-07-31
 tags: ["CEO", "new business", "marketing"]
 draft: false
 isfeatured: false
