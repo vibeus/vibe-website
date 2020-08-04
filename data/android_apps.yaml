@@ -1,6 +1,9 @@
 apps:
 - id: com.Slack
   name: Slack
+  use_case: remote
+  type: communication
+  featured: true
 - id: com.adobe.cc
   name: Creative Cloud
   type: design
