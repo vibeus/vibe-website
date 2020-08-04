@@ -37,4 +37,11 @@
 </section>
 
 {{ partial "common/template-script" (dict "asset" "js/contact.js") }}
+{{ if .Params.content_link_target_blank }}
+<script type="module">
+  document.querySelectorAll(".content a").forEach((el) => {
+    el.setAttribute("target", "_blank");
+  });
+</script>
+{{ end }}
 </main>{{ end }}
