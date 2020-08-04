@@ -1,9 +1,6 @@
 apps:
-- id: com.slack
+- id: com.Slack
   name: Slack
-  use_case: remote
-  type: communication
-  featured: true
 - id: com.adobe.cc
   name: Creative Cloud
   type: design
@@ -184,6 +181,12 @@ apps:
   name: TeamViewer
   use_case: remote
   type: productivity
+- id: com.tencent.mm
+  name: WeChat
+  type: communication
+- id: com.tencent.voov
+  name: VooV
+  type: av
 - id: com.trello
   name: Trello
   use_case: project
