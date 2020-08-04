@@ -41,6 +41,10 @@
   </div>
 </section>
 
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
 {{ partial "common/template-script" (dict "asset" "js/contact.js") }}
 {{ if .Params.content_link_target_blank }}
 <script type="module">

@@ -130,6 +130,13 @@ hero:
     Technology in the classroom aids students in learning. Vibe interactive whiteboards can be used by teachers
     in the classroom to express ideas and content to students. These smart boards are particularly well-suited for
     STEM classrooms.
+
+bottom_cta:
+  title: Still have questions?
+  cta:
+    title: See the Buyers FAQ
+    url: https://knowledge.vibe.us/buyers-faq
+    target: _blank
 ---
 
 ## Whiteboard

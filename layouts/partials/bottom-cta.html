@@ -13,7 +13,8 @@
     <div class="cta">
       {{ if .title }}
       <a class="button is-rounded is-black is-outlined"
-         href="{{ (default "/demo/" .url) | relLangURL }}">
+         href="{{ (default "/demo/" .url) | relLangURL }}"
+         {{ with .target }}target="{{ . }}"{{ end }}>
         {{ default .title (T .title) }}
       </a>
       {{ end }}
