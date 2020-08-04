@@ -64,7 +64,7 @@ apps:
   type: productivity
 - id: com.dynamixsoftware.printershare
   name: PrinterShare
-  type: other
+  type: productivity
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
@@ -148,7 +148,7 @@ apps:
   type: entertainment
 - id: com.nokoprint
   name: NokoPrint
-  type: other
+  type: productivity
 - id: com.opera.browser
   name: Opera
   type: browser
@@ -200,7 +200,7 @@ apps:
   type: av
 - id: com.ubnt.easyunifi
   name: UniFi Network
-  type: other
+  type: productivity
 - id: com.vidku.app.flipgrid
   name: Flipgrid
   type: education
@@ -214,7 +214,7 @@ apps:
   type: project
 - id: io.screencloud.player
   name: ScreenCloud Player
-  type: other
+  type: productivity
 - id: me.bluemail.mail
   name: Blue Mail
   use_case: remote
