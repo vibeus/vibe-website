@@ -32,6 +32,9 @@ conferencing and your favorite applications with an infinite writing canvas.
 
 Take conference calls beyond the dial tone. Get engaged user participation from any device."""
 
+[i18n-content-_index-what_is_vibe-footnote]
+other = " \\* Vibe 为本产品在美国的品牌名，国内为 Vize"
+
 [i18n-content-_index-testimonial_section-testimonials-i_0-body]
 other = """We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
 and communication amongst our team. It also feels very seamless using the Vibe board and app across various
@@ -193,8 +196,8 @@ other = "Thanks for requesting our demo video."
 [i18n-content-demo-request-video-landing-video_hero-title]
 other = "Vibe Demo"
 
-[i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
-other = "Watch Vibe demo"
+[i18n-content-demo-request-video-landing-zh-video_hero-footnote-text]
+other = "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
 
 [i18n-content-demo-request-video-landing-hero-title]
 other = "Vibe is built for teams"
@@ -205,20 +208,20 @@ other = "Vibe’s mission is to help humanity thrive by enabling all teams to wo
 [i18n-content-demo-request-video-landing-hero-cta-title]
 other = "Download product brochure"
 
-[i18n-content-demo-request-video-landing-compare-title]
-other = "Why Vibe?"
-
-[i18n-content-demo-request-video-landing-compare-cta-title]
-other = "Order Now"
-
 [i18n-content-demo-request-video-landing-bottom_cta-title]
 other = "Still have questions?"
 
 [i18n-content-demo-request-video-landing-bottom_cta-cta-title]
 other = "Contact us"
 
-[i18n-content-demo-request-video-landing-zh-video_hero-footnote-text]
-other = "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
+[i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
+other = "Watch Vibe demo"
+
+[i18n-content-demo-request-video-landing-compare-title]
+other = "Why Vibe?"
+
+[i18n-content-demo-request-video-landing-compare-cta-title]
+other = "Order Now"
 
 [i18n-content-demo-_index-title]
 other = "Sign up for a live demo"
@@ -646,9 +649,6 @@ other = "A 55” 4K UHD touch screen and stylus"
 other = """Vibe’s advanced drawing kit features an IR sensor that makes the stylus-to-touchscreen experience natural
 and familiar, like a marker on a traditional whiteboard."""
 
-[i18n-content-hardware-_index-feature_set_2-title]
-other = "Fast adoption and low IT cost for any size business"
-
 [i18n-content-hardware-_index-feature_set_2-features-i_0-title]
 other = "Familiar touchscreen means minimal adoption cost"
 
@@ -1074,6 +1074,9 @@ other = "立即购买"
 [i18n-content-hardware-_index-feature_set_1-title]
 other = "A touchscreen whiteboard built for the modern workspace"
 
+[i18n-content-hardware-_index-feature_set_2-title]
+other = "Fast adoption and low IT cost for any size business"
+
 [i18n-content-hardware-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
@@ -1157,6 +1160,21 @@ other = "We provide private cloud service with Enterprise accounts."
 
 [i18n-content-security-_index-bottom_cta-cta-title]
 other = "Contact Sales"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_0-title]
+other = "邮箱"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_0-body]
+other = "info@vize.com.cn"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_1-title]
+other = "客服"
+
+[i18n-content-security-_index-bottom_cta-contact-items-i_1-body]
+other = "0571-88661096"
+
+[i18n-content-security-_index-bottom_cta-contact-title]
+other = "扫码在线咨询"
 
 [i18n-content-about-_index-title]
 other = "About us"
@@ -1308,6 +1326,9 @@ collaboration software makes it easy to share ideas."""
 
 [i18n-content-software-_index-hero-cta-title]
 other = "Start Free Trial"
+
+[i18n-content-_index-hero-footnote]
+other = " \\* Vibe 为本产品在美国的品牌名，国内为 Vize"
 
 [i18n-content-software-_index-feature_overall-title]
 other = "Create great ideas with your team"
@@ -1998,7 +2019,13 @@ other = "Vize 智能平板"
 [i18n-content-service-_index-zh-hero-body]
 other = "Vize是一款为协作而生的交互式智能白板，搭载了4K 55英寸屏幕和内置扬声器。"
 
-[i18n-content-service-_index-zh-hero-cta-title]
+[i18n-content-service-_index-zh-hero-cta-items-i_0-title]
+other = "下载安装手册"
+
+[i18n-content-service-_index-zh-hero-cta-items-i_1-title]
+other = "下载入门指南"
+
+[i18n-content-service-_index-zh-hero-cta-items-i_2-title]
 other = "下载用户说明书"
 
 [i18n-content-service-_index-zh-commitments-title]
@@ -2267,32 +2294,32 @@ other = "Presentation"
 [i18n-data-android_apps_category-base-use_cases-i_2-name]
 other = "Project management"
 
+[i18n-data-android_apps_category-base-types-i_12-name]
+other = "Video conference"
+
 [i18n-data-android_apps_category-base-types-i_0-name]
 other = "Web browser"
-
-[i18n-data-android_apps_category-base-types-i_1-name]
-other = "Design and creativity"
-
-[i18n-data-android_apps_category-base-types-i_2-name]
-other = "Communication"
-
-[i18n-data-android_apps_category-base-types-i_3-name]
-other = "Voice and video"
 
 [i18n-data-android_apps_category-base-types-i_4-name]
 other = "Productivity"
 
-[i18n-data-android_apps_category-base-types-i_5-name]
-other = "Cloud storage"
-
 [i18n-data-android_apps_category-base-types-i_6-name]
 other = "Project management"
 
+[i18n-data-android_apps_category-base-types-i_1-name]
+other = "Design and creativity"
+
+[i18n-data-android_apps_category-base-types-i_3-name]
+other = "Voice and video"
+
+[i18n-data-android_apps_category-base-types-i_2-name]
+other = "Communication"
+
+[i18n-data-android_apps_category-base-types-i_5-name]
+other = "Cloud storage"
+
 [i18n-data-android_apps_category-base-types-i_7-name]
 other = "Education"
-
-[i18n-data-android_apps_category-base-types-i_8-name]
-other = "Entertainment"
 
 [i18n-data-android_apps_category-base-types-i_9-name]
 other = "Data visualization"
@@ -2302,6 +2329,9 @@ other = "Construction"
 
 [i18n-data-android_apps_category-base-types-i_11-name]
 other = "Other"
+
+[i18n-data-android_apps_category-base-types-i_8-name]
+other = "Entertainment"
 
 [i18n-content-about-_index-touch-title]
 other = "Get in touch"

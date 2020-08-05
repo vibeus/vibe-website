@@ -7,6 +7,8 @@ base:
     - id: project
       name: i18n-data-android_apps_category-base-use_cases-i_2-name
   types:
+    - id: vc
+      name: i18n-data-android_apps_category-base-types-i_12-name
     - id: browser
       name: i18n-data-android_apps_category-base-types-i_0-name
     - id: productivity

@@ -3,6 +3,7 @@ content/blog/**/*.md
 content/demo/work-from-home.md
 content/documents/**/*.md
 content/service/install*.md
+content/service/notice*.md
 content/service/stores*.md
 content/service/warranty*.md
 content/video-tutorial/**/*.md

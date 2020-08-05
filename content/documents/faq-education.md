@@ -41,7 +41,7 @@ faq_rich_search:
 
         - Record your screen using a 3rd party application, such as Zoom, Microsoft Teams, or Google Meet.
         - Use a 3rd party app called 'XRecorder' to record the screen.
-        - Use the HDMI out port with a capture card or cable to another device. 
+        - Use the HDMI out port with a capture card or cable to another device.
 
     - id: web-import
       question: Can you open a web browser on the side of the whiteboard and import pictures from a website?
@@ -49,7 +49,7 @@ faq_rich_search:
         Yes. You can open a web browser app (like Chrome or Opera) and screenshot the pictures you want, then select which
         board to save your images to.
 
-        You can also do this in a split-screen mode, to make it easier to see which pictures you have already imported. 
+        You can also do this in a split-screen mode, to make it easier to see which pictures you have already imported.
 
     - id: import
       question: Can you import images, PowerPoint, and PDF files into the whiteboard?
@@ -103,7 +103,7 @@ faq_rich_search:
 
         [6]: https://knowledge.vibe.us/how-to-screencast
     - id: no-wireless-cast
-      question: What if someone cannot do wireless screencasting? 
+      question: What if someone cannot do wireless screencasting?
       answer: |
         Another option for using Vibe as a 2nd screen is to use an HDMI cable to connect a computer to the Vibe board.
 

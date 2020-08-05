@@ -28,13 +28,13 @@ other = "Open your boards →"
 other = "什么是Vize?"
 
 [i18n-content-_index-what_is_vibe-body]
-other = """Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备智能白板、多人实时协作、视频会议、无限画布等强大功能。不论会议、培训、提报，Vize 都能通过多种互动方式，全面提升合作体验。"""
+other = "Vize 是结合软硬件于一体的大尺寸平板电脑，更是一个智能合作平台。它兼容各大App 和多种设备， 具备智能白板、多人实时协作、视频会议、无限画布等强大功能。不论会议、培训、提报，Vize 都能通过多种互动方式，全面提升合作体验。"
 
 [i18n-content-_index-what_is_vibe-footnote]
-other = """ \\* Vibe 为本产品在美国的品牌名，国内为 Vize"""
+other = " \\* Vibe 为本产品在美国的品牌名，国内为 Vize"
 
 [i18n-content-_index-testimonial_section-testimonials-i_0-body]
-other = """我们喜欢用 Vize 智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。智能白板可以在 Vize 硬件和其他设备上使用，实现无缝转换。"""
+other = "我们喜欢用 Vize 智能白板开会或者头脑风暴。它增进了团队效率、创造力和沟通。智能白板可以在 Vize 硬件和其他设备上使用，实现无缝转换。"
 
 [i18n-content-_index-features-i_0-title]
 other = "远程办公"
@@ -171,8 +171,8 @@ other = "演示视频"
 [i18n-content-demo-request-video-landing-video_hero-title]
 other = "演示视频"
 
-[i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
-other = "Watch Vibe demo"
+[i18n-content-demo-request-video-landing-zh-video_hero-footnote-text]
+other = "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
 
 [i18n-content-demo-request-video-landing-hero-title]
 other = "让合作变简单"
@@ -185,20 +185,20 @@ other = """Vize 智能平板
 [i18n-content-demo-request-video-landing-hero-cta-title]
 other = "下载宣传手册"
 
-[i18n-content-demo-request-video-landing-compare-title]
-other = "Why Vibe?"
-
-[i18n-content-demo-request-video-landing-compare-cta-title]
-other = "Order Now"
-
 [i18n-content-demo-request-video-landing-bottom_cta-title]
 other = "和你的团队一起 Vize!"
 
 [i18n-content-demo-request-video-landing-bottom_cta-cta-title]
 other = "立即购买"
 
-[i18n-content-demo-request-video-landing-zh-video_hero-footnote-text]
-other = "\\* Vibe 为本产品在美国的品牌名，国内为 Vize"
+[i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
+other = "Watch Vibe demo"
+
+[i18n-content-demo-request-video-landing-compare-title]
+other = "Why Vibe?"
+
+[i18n-content-demo-request-video-landing-compare-cta-title]
+other = "Order Now"
 
 [i18n-content-demo-_index-title]
 other = "Sign up for a live demo"
@@ -528,10 +528,10 @@ other = "Experience Vibe for yourself"
 other = "See a Demo"
 
 [i18n-content-hardware-_index-title]
-other = """灵感 一触即发"""
+other = "灵感 一触即发"
 
 [i18n-content-hardware-_index-hero-title]
-other = """灵感 
+other = """灵感
 
 一触即发"""
 
@@ -607,9 +607,6 @@ other = "一体式极简设计"
 [i18n-content-hardware-_index-feature_set_1-features-i_0-body]
 other = "无线，无鼠标，无键盘，无任何累赘。搭配可移动支架，在办公室的任意角落随时开启一场创造力满满的讨论。"
 
-[i18n-content-hardware-_index-feature_set_1-features-i_0-cta-title]
-other = "观看视频"
-
 [i18n-content-hardware-_index-feature_set_1-features-i_1-title]
 other = """55英寸 4K UHD 硬核配置
 
@@ -617,9 +614,6 @@ other = """55英寸 4K UHD 硬核配置
 
 [i18n-content-hardware-_index-feature_set_1-features-i_1-body]
 other = "不论触屏还是使用触控笔，都无比顺畅，就像用马克笔在白板书写。触控笔可以吸附在白板边缘或支架上，随拿随用。"
-
-[i18n-content-hardware-_index-feature_set_2-title]
-other = "Fast adoption and low IT cost for any size business"
 
 [i18n-content-hardware-_index-feature_set_2-features-i_0-title]
 other = """熟悉的触屏操作
@@ -1043,6 +1037,9 @@ other = "立即购买"
 [i18n-content-hardware-_index-feature_set_1-title]
 other = "A touchscreen whiteboard built for the modern workspace"
 
+[i18n-content-hardware-_index-feature_set_2-title]
+other = "Fast adoption and low IT cost for any size business"
+
 [i18n-content-hardware-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
@@ -1332,7 +1329,7 @@ other = "便利贴助你的团队随时展开一场头脑风暴。"
 other = "合作从未如此简单"
 
 [i18n-content-software-_index-feature_collaboration-items-i_0-subtitle]
-other = """多人多平台书写 
+other = """多人多平台书写
 
 在线白板 实时互动"""
 
@@ -1343,7 +1340,7 @@ other = """- 合作不受限于一块屏幕，不论通过智能白板、电脑�
 - 在视频会议中分享白板内容，远程协作更简单。"""
 
 [i18n-content-software-_index-feature_collaboration-items-i_1-subtitle]
-other = """扫码带走会议记录 
+other = """扫码带走会议记录
 
 云端分享 信息流通无阻"""
 
@@ -1357,7 +1354,7 @@ other = """- 微信扫一扫，轻轻松松将白板内容分享给远程同事�
 other = "告别无聊提案"
 
 [i18n-content-software-_index-feature_presentation-items-i_0-title]
-other = """疾速投屏 多屏互动 
+other = """疾速投屏 多屏互动
 
 无线也能很稳定"""
 
@@ -1368,7 +1365,7 @@ other = """- 支持 HDMI，以及 Airplay，Chromecast，Eshare 等多种方式�
 - 边投屏，边通过触屏操作丰富方案呈现，为你的提报加分。"""
 
 [i18n-content-software-_index-feature_presentation-items-i_1-title]
-other = """边讲解 边标注 
+other = """边讲解 边标注
 
 关键信息不遗漏"""
 
@@ -2237,32 +2234,32 @@ other = "内容生产"
 [i18n-data-android_apps_category-base-use_cases-i_2-name]
 other = "文件管理"
 
+[i18n-data-android_apps_category-base-types-i_12-name]
+other = "Video conference"
+
 [i18n-data-android_apps_category-base-types-i_0-name]
 other = "浏览器"
-
-[i18n-data-android_apps_category-base-types-i_1-name]
-other = "设计工具"
-
-[i18n-data-android_apps_category-base-types-i_2-name]
-other = "商务沟通"
-
-[i18n-data-android_apps_category-base-types-i_3-name]
-other = "视频会议"
 
 [i18n-data-android_apps_category-base-types-i_4-name]
 other = "文档编辑"
 
-[i18n-data-android_apps_category-base-types-i_5-name]
-other = "文件管理"
-
 [i18n-data-android_apps_category-base-types-i_6-name]
 other = "项目管理"
 
+[i18n-data-android_apps_category-base-types-i_1-name]
+other = "设计工具"
+
+[i18n-data-android_apps_category-base-types-i_3-name]
+other = "视频会议"
+
+[i18n-data-android_apps_category-base-types-i_2-name]
+other = "商务沟通"
+
+[i18n-data-android_apps_category-base-types-i_5-name]
+other = "文件管理"
+
 [i18n-data-android_apps_category-base-types-i_7-name]
 other = "教育"
-
-[i18n-data-android_apps_category-base-types-i_8-name]
-other = "娱乐"
 
 [i18n-data-android_apps_category-base-types-i_9-name]
 other = "Data Visualization"
@@ -2272,6 +2269,9 @@ other = "Construction"
 
 [i18n-data-android_apps_category-base-types-i_11-name]
 other = "Other"
+
+[i18n-data-android_apps_category-base-types-i_8-name]
+other = "娱乐"
 
 [i18n-content-about-_index-touch-title]
 other = "联系我们"
@@ -2317,3 +2317,6 @@ other = "所有应用"
 
 [i18n-manual-android-app-store-type-of-tool]
 other = "工具类型"
+
+[i18n-content-hardware-_index-feature_set_1-features-i_0-cta-title]
+other = "观看视频"

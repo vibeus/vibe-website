@@ -46,11 +46,11 @@ apps:
 - id: com.bluejeansnet.Base
   name: BlueJeans
   use_case: remote
-  type: av
+  type: vc
 - id: com.cisco.webex.meetings
   name: Webex
   use_case: remote
-  type: av
+  type: vc
 - id: com.citrix.Receiver
   name: Workspace
   type: productivity
@@ -81,14 +81,14 @@ apps:
 - id: com.gotomeeting
   name: GoToMeeting
   use_case: remote
-  type: av
+  type: vc
 - id: com.instructure.candroid
   name: Canvas
   type: education
 - id: com.logmein.gotowebinar
   name: GoToWebinar
   use_case: remote
-  type: av
+  type: vc
 - id: com.lucidchart.android.chart
   name: Lucidchart
   use_case: presentation
@@ -99,7 +99,7 @@ apps:
 - id: com.microsoft.office.lync15
   name: Skype for Business
   use_case: remote
-  type: av
+  type: vc
 - id: com.microsoft.office.onenote
   name: Microsoft OneNote
   type: productivity
@@ -176,7 +176,7 @@ apps:
 - id: com.skype.m2
   name: Skype Lite
   use_case: remote
-  type: av
+  type: vc
 - id: com.ss.android.ugc.trill
   name: TikTok
   type: entertainment
@@ -197,7 +197,7 @@ apps:
 - id: com.uberconference
   name: Uber Conference
   use_case: remote
-  type: av
+  type: vc
 - id: com.ubnt.easyunifi
   name: UniFi Network
   type: productivity
@@ -222,7 +222,7 @@ apps:
 - id: us.zoom.videomeetings
   name: Zoom
   use_case: remote
-  type: av
+  type: vc
   featured: true
 - id: videoeditor.videorecorder.screenrecorder
   name: XRecorder
