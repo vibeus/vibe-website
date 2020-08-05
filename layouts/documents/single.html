@@ -3,7 +3,7 @@
 {{ partial "common/faq-rich-search" . }}
 {{ end }}
 {{ end }}
-{{ define "main" }}<main class="document">
+{{ define "main" }}<main class="document is-{{ .File.BaseFileName }}">
 {{ with .Params.hero }}
 <section class="hero">
   <div class="bg-logo">

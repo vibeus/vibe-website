@@ -56,7 +56,7 @@ faq_rich_search:
       answer: |
         Yes. Vibe supports all of these formats, depending on which cloud storage option you are using. 
 
-        Read more: [Learn which file formats are supported][4].
+        *Read more: [Learn which file formats are supported][4].*
 
         [4]: https://knowledge.vibe.us/cloud-drive-file-formats
     - id: learning-curve
@@ -99,7 +99,7 @@ faq_rich_search:
         | Android | EShare (free third party casting application) |
         | Chrome browser | Chromecast |
 
-        Read more: [How to screencast][6]
+        *Read more: [How to screencast][6]*
 
         [6]: https://knowledge.vibe.us/how-to-screencast
     - id: no-wireless-cast
@@ -112,7 +112,7 @@ faq_rich_search:
       answer: |
         Yes, Vibe supports annotation during HDMI or any screencast option. 
 
-        Read more: [How to annotate][7]
+        *Read more: [How to annotate][7]*
 
         [7]: https://knowledge.vibe.us/how-to-do-annotation
 
