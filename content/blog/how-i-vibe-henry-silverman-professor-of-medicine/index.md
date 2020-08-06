@@ -5,7 +5,7 @@ author: The Vibe Team
 date: 2020-07-22
 tags: ["higher educaiton", "online teaching", "distance learning"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: Dr. Henry Silverman is a Professor at the University of Maryland. He teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
 hero_styles:
   background: "#f4f4f4"
