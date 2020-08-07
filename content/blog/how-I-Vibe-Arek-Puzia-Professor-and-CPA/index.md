@@ -51,7 +51,7 @@ After thorough research (which he says included a lot of marketing videos), the 
 {{< common/srcset "image-2.png" "" >}}
 
 
-Planning for the fall semester is in full swing, and Puzia says that using the Vibe board so far has been “pretty straightforward. I feel like I’m a 6 or 7 out of 10 in technology, so good enough to be dangerous,” he jokes. “But so far, [using the board] seems pretty intuitive.”
+Planning for the fall semester is in full swing, and Puzia says that using the Vibe board so far has been “pretty straightforward. I feel like I’m a 6 or 7 out of 10 in technology, so good enough to be dangerous,” he jokes. “But so far, using the board seems pretty intuitive.”
 
 Right now Puzia’s focus is on trying out different ways of recording and editing his lectures, which will be important as he plans on making his courses primarily asynchronous. This will help him to accommodate more students because, as he points out, “If you have students with disabilities, you really want to be able to do things like caption your videos. It’s really challenging to caption live videos, so I’m trying to, as much as possible, be pre-recording so that people can access those whenever.”
 
@@ -61,7 +61,8 @@ The school’s learning management system, Canvas, is a program that every stude
 
 And so, if students are able to access their online textbooks, PowerPoints, and other educational resources from textbook publishers on Canvas, Puzia recognizes that having access to Vibe boards in that same space would be ideal.
 
-“I could post a problem on a Vibe board, and then I could message the students and say, ‘Click this link in Canvas to get to the Vibe board problem’ and they could click that link, and they would hash out that problem. And If I could assign a problem on the Vibe board for all students, then I can mark it up as well [using the annotation tool] or something along those lines,” he suggests.
+“I could post a problem on a Vibe board, and then I could message the students and say, ‘Click this link in Canvas to get to the Vibe board problem’ and they could click that link, and they would hash out that problem. And If I could assign a problem on the Vibe board for all students, then I can mark it up as well ‘using the annotation tool’ or something along those lines,” he suggests.
+
 While it’s still possible to purchase physical copies of textbooks, Puzia says that at his school, that’s just not what they’re seeing the students utilize nearly as much.
 
 “The school gave the students a questionnaire, and one of the surprising things was how many students do their classes almost exclusively on an iPhone or an Android phone. There are a lot of people who use only a phone for an entire class,” which once again demonstrates the need for creative thinking and accessibility in online education.
@@ -76,7 +77,8 @@ The biggest takeaway from Puzia’s preparation for the 2020-21 school year is t
 “Whatever technology solution you design as a professor for students, either create some very clear steps for how students can access that, or keep the technology as user-friendly as possible. It’s a challenge for a lot of students, and you have to be understanding, too,” he says.
 
 Still, in his efforts to keep things user-friendly, he also wants to challenge his students to learn new skills outside of what he covers in lectures. Puzia says that all too often he sees otherwise promising college graduates struggle in their first jobs simply due to lacking basic technical skills.
-“Pushing my students to start thinking that way and doing it, I think, is really valuable because at the end of the day I want my students to have jobs. No one’s really going to my [accounting] classes because they’re bored; they’re usually going to my classes because they want a job. Part of having a job is you have to be comfortable with technology, almost no matter what you’re doing for work. So that was my idea with the digital whiteboard: how can I take things to the next level, and how can I utilize it?” 
+
+“Pushing my students to start thinking that way and doing it, I think, is really valuable because at the end of the day I want my students to have jobs. No one’s really going to my accounting classes because they’re bored; they’re usually going to my classes because they want a job. Part of having a job is you have to be comfortable with technology, almost no matter what you’re doing for work. So that was my idea with the digital whiteboard: how can I take things to the next level, and how can I utilize it?” 
 
 With the Vibe board, Puzia can easily see more opportunities than obstacles for himself and his students, and can already recognize that the investment will be worth it.
 “If I’m teaching 200 students a semester, then even a whiteboard that costs a few thousand dollars...I mean, if I can help 10 students a semester by having that, that’s pretty low cost, in my opinion.”
