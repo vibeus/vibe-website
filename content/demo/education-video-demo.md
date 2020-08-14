@@ -9,7 +9,7 @@ video_hero:
     id: gsJI0jcRyLk
   share_buttons:
     title: i18n-content-demo-request-video-landing-video_hero-share_buttons-title
-    url: https://vibe.us/demo/video-demo/
+    url: https://vibe.us/demo/education-video-demo/
     copy_link: true
 hero:
   title: New Smart Board for Classroom
