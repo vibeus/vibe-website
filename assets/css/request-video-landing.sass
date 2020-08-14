@@ -71,3 +71,42 @@
   background-color: $vibe-yellow
   +lang-override(".lang-zh")
     background-color: $vibe-teal
+
+main.is-education-video-demo
+  .section.is-compare
+    .compare-table
+      border: 1px solid #dbdbdb
+      thead
+        .image
+          margin: initial
+        th, td
+          border-bottom: 1px solid #dbdbdb
+        td:nth-child(2)
+          border-radius: 0
+        th:first-child
+          vertical-align: top
+      th, td
+        text-align: left
+        &:not(:last-child)
+          border-right: 1px solid #dbdbdb
+        &:nth-child(2)
+          background-color: $vibe-white
+          svg
+            stroke: $vibe-teal
+      +tablet
+        tr td:first-child
+          width: 180px
+
+      .brand-name
+        margin-top: 16px
+
+      .feature-checkmark
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .feature-icons
+          max-width: 100px
+          .icon
+            width: 18px
+            height: 18px
+

@@ -1,6 +1,7 @@
 content/apps/**/*.md
 content/blog/**/*.md
 content/demo/work-from-home.md
+content/demo/education-video-demo.md
 content/documents/**/*.md
 content/service/install*.md
 content/service/notice*.md

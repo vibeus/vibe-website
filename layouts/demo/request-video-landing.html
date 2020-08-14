@@ -5,7 +5,7 @@
 </style>
 {{ end }}
 {{ end }}
-{{ define "main" }}<main class="reqest-video-landing">
+{{ define "main" }}<main class="reqest-video-landing is-{{ .Page.File.BaseFileName }}">
 
 {{ with .Params.video_hero }}
 {{ partial "common/video-hero" . }}
@@ -17,12 +17,12 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-text">
-          <h1 class="title">{{ T .title }}</h1>
-          <div class="content">{{ T .body | markdownify }}</div>
+          <h1 class="title">{{ default .title (T .title) }}</h1>
+          <div class="content">{{ default .body (T .body) | markdownify }}</div>
           {{ with .cta }}
           <div class="cta">
             <a href="{{ .url }}" target="_blank">
-              <span>{{ T .title }}</span>
+              <span>{{ default .title (T .title) }}</span>
               {{ with .icon }}
               <span class="icon is-small">
                 {{ (resources.Get .).Content | safeHTML }}
