@@ -169,7 +169,7 @@ apps:
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
   use_case: remote
-  type: av
+  type: vc
 - id: com.seafile.seadroid2
   name: Seafile
   type: file
@@ -180,6 +180,12 @@ apps:
 - id: com.ss.android.ugc.trill
   name: TikTok
   type: entertainment
+- id: com.teamviewer.quicksupport.addon.universal
+  name: TeamViewer Universal Add-On
+  type: productivity
+- id: com.teamviewer.quicksupport.market
+  name: QuickSupport
+  type: productivity
 - id: com.teamviewer.teamviewer.market.mobile
   name: TeamViewer
   use_case: remote
@@ -189,7 +195,7 @@ apps:
   type: communication
 - id: com.tencent.voov
   name: VooV
-  type: av
+  type: vc
 - id: com.trello
   name: Trello
   use_case: project
@@ -203,6 +209,9 @@ apps:
   type: productivity
 - id: com.vidku.app.flipgrid
   name: Flipgrid
+  type: education
+- id: com.wallwisher.Padlet
+  name: Padlet
   type: education
 - id: com.wrike
   name: Wrike
