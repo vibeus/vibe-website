@@ -79,12 +79,15 @@ main.is-education-video-demo
       thead
         .image
           margin: initial
+          width: auto
+          max-width: 120px
+          +mobile
+            max-width: 64px
         th, td
           border-bottom: 1px solid #dbdbdb
+          vertical-align: top
         td:nth-child(2)
           border-radius: 0
-        th:first-child
-          vertical-align: top
       th, td
         text-align: left
         &:not(:last-child)
@@ -106,3 +109,10 @@ main.is-education-video-demo
         justify-content: space-between
         .feature-icons
           max-width: 100px
+          display: flex
+          flex-wrap: wrap
+          .icon
+            margin: 4px 0
+            +mobile
+              width: 16px
+              height: 16px
