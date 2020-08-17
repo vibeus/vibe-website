@@ -33,6 +33,7 @@ compare:
     Brands
 
   show_name: true
+  compare_class: is-education
 
   features:
     - 'Realtime Whiteboard'
@@ -48,52 +49,52 @@ compare:
     - name: '55″ Vibe Interactive Whiteboard'
       features: [1, 1, 1, 1, 1, 1, 1, 1]
       price: '$2,999'
-      icon: 'img/demo/edu/vibe.png'
+      icon: 'img/common/compare/edu/vibe.png'
       feature_icons:
         4:
-          - icon: 'img/demo/edu/zoom.png'
+          - icon: 'img/common/compare/edu/zoom.png'
             alt: Zoom
-          - icon: 'img/demo/edu/google-meet.png'
+          - icon: 'img/common/compare/edu/google-meet.png'
             alt: Google Meet
-          - icon: 'img/demo/edu/gotomeeting.png'
+          - icon: 'img/common/compare/edu/gotomeeting.png'
             alt: Goto Meeting
-          - icon: 'img/demo/edu/skype.png'
+          - icon: 'img/common/compare/edu/skype.png'
             alt: Skype
-          - icon: 'img/demo/edu/teams.png'
+          - icon: 'img/common/compare/edu/teams.png'
             alt: Teams
-          - icon: 'img/demo/edu/webex.png'
+          - icon: 'img/common/compare/edu/webex.png'
             alt: Webex
-          - icon: 'img/demo/edu/ringcentral.png'
+          - icon: 'img/common/compare/edu/ringcentral.png'
             alt: RingCentral
     - name: '65″ Promethean ActivPanel Nickel'
       features: [0, 0, 0, 1, 0, 1, 0, 0]
       price: '$2,999'
-      icon: 'img/demo/edu/promethean.png'
+      icon: 'img/common/compare/edu/promethean.png'
     - name: '65″ Smart Board 6000 series'
       features: [0, 1, 0, 1, 1, 0, 0, 0]
       price: '$4,999'
-      icon: 'img/demo/edu/smart.png'
+      icon: 'img/common/compare/edu/smart.png'
       feature_icons:
         4:
-          - icon: 'img/demo/edu/zoom.png'
+          - icon: 'img/common/compare/edu/zoom.png'
             alt: Zoom
-          - icon: 'img/demo/edu/skype.png'
+          - icon: 'img/common/compare/edu/skype.png'
             alt: Skype
-          - icon: 'img/demo/edu/gotomeeting.png'
+          - icon: 'img/common/compare/edu/gotomeeting.png'
             alt: Goto Meeting
-          - icon: 'img/demo/edu/webex.png'
+          - icon: 'img/common/compare/edu/webex.png'
             alt: Webex
     - name: '65″ Newline TT-6519RSSmart'
       features: [0, 0, 0, 1, 1, 1, 1, 0]
       price: '$4,289'
-      icon: 'img/demo/edu/newline.png'
+      icon: 'img/common/compare/edu/newline.png'
       feature_icons:
         4:
-          - icon: 'img/demo/edu/skype.png'
+          - icon: 'img/common/compare/edu/skype.png'
             alt: Skype
-          - icon: 'img/demo/edu/gotomeeting.png'
+          - icon: 'img/common/compare/edu/gotomeeting.png'
             alt: Goto Meeting
-          - icon: 'img/demo/edu/teams.png'
+          - icon: 'img/common/compare/edu/teams.png'
             alt: Teams
       hideMobile: true
 
