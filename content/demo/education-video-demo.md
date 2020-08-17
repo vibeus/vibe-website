@@ -6,7 +6,7 @@ video_hero:
   title: i18n-content-demo-request-video-landing-video_hero-title
   video:
     placeholder: img/shared/video.png
-    id: gsJI0jcRyLk
+    id: gscmbPVCeHI
   share_buttons:
     title: i18n-content-demo-request-video-landing-video_hero-share_buttons-title
     url: https://vibe.us/demo/education-video-demo/
