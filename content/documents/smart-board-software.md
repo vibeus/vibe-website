@@ -8,6 +8,8 @@ hero:
 ---
 Vibe Smart Board software is integrated right into the board and, unlike other digital smart boards, doesn’t require extra costs or membership fees. Our collaboration software allows you to work however and wherever you need. It gives you the freedom to communicate and create with your team, conduct training sessions, or present to clients.
 
+{{< common/srcset "img/documents/hero.png" "" >}}
+
 No additional boards required for any other participants.
 
 Personalize your Vibe Interactive Whiteboard by using many of the tools you’re already utilizing, which are already integrated into Vibe’s suite of apps. Access your Google Drive, OneDrive, Dropbox, or Box files, and streamline your workflow with integrations to Slack, Jira, Asana, Zoom, or Microsoft Office - all from within your board.
