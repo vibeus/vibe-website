@@ -14,12 +14,6 @@ No additional boards required for any other participants.
 
 Personalize your Vibe Interactive Whiteboard by using many of the tools you’re already utilizing, which are already integrated into Vibe’s suite of apps. Access your Google Drive, OneDrive, Dropbox, or Box files, and streamline your workflow with integrations to Slack, Jira, Asana, Zoom, or Microsoft Office - all from within your board.
 
-With integrated video conferencing apps such as Zoom or WebEx, you can join or start meetings with anyone from around the world, and share your Vibe board to easily collaborate. Export your entire working session when it’s over, and distribute to any of the participants to reference.
+With integrated video conferencing apps such as Zoom or WebEx, you can join or start meetings with anyone from around the world, and share your Vibe board to easily collaborate. Export your entire working session when it’s over and distribute to any of the participants to reference.
 
-bottom_cta:
-  title: Still have questions?
-  cta:
-    title: See the Buyers FAQ
-    url: https://knowledge.vibe.us/buyers-faq
-    target: _blank
 ---
