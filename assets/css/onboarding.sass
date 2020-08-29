@@ -1,0 +1,625 @@
+@import "@glidejs/glide/src/assets/sass/glide.core"
+@import "_shared.sass"
+@import "_bottom-cta.sass"
+@import "_video-column.sass"
+
+@media screen and (max-width: 899px), print
+  .is-hidden-until-900px
+    display: none !important
+@media screen and (min-width: 900px), print
+  .is-hidden-from-900px
+    display: none !important
+
+.hero
+  position: relative
+  background-color: $vibe-almost-white
+  +mobile
+    &.is-fullheight-with-navbar
+      min-height: 0
+  .hero-body
+    +mobile
+      padding-bottom: 0
+  .bg-logo
+    position: absolute
+    z-index: 0
+    width: 562px
+    height: 508px
+    left: -228px
+    // top: 118px
+    top: 18%
+    +mobile
+      width: 305px
+      height: 276px
+      top: 66px + 16px
+      right: -186px
+      left: auto
+  .image.is-hero-bg
+    +absolute-fill
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  .container
+    max-width: 1024px
+    +tablet
+      padding-top: 80px
+    +widescreen
+      max-width: 1224px
+  .title-text
+    +mobile
+      text-align: center
+      margin-bottom: 32px
+      margin-top: 16px
+    .title
+      color: $vibe-purple
+      +mobile
+        font-size: 50px
+        line-height: 60px
+      +tablet
+        font-size: 50px
+        line-height: 60px
+      +desktop
+        font-size: 64px
+        line-height: 74px
+    p
+      font-size: 20px
+      line-height: 33px
+      max-width: 500px
+      display: inline-block
+      +mobile
+        font-size: 16px
+        line-height: 26px
+        max-width: 400px
+        margin-top: 16px
+      +tablet-only
+        font-size: 18px
+        line-height: 28px
+        max-width: 400px
+    .title p
+      display: flex
+  .cta
+    margin-top: 92px
+    color: $vibe-purple
+    +mobile
+      text-align: center
+      margin-top: 40px
+    .title, a.link
+      font-weight: 600
+      font-size: 18px
+      line-height: 22px
+      color: $vibe-purple
+      +mobile
+        font-size: 16px
+        line-height: 19px
+      +tablet-only
+        font-size: 17px
+        line-height: 19px
+    a.link
+      &:hover *
+        color: $vibe-pink
+      .link-icon
+        display: block
+        width: 100%
+        text-align: center
+        svg path
+          stroke: $vibe-purple
+  .image.is-hero
+    +mobile-full-width
+
+.section.is-setup
+  background-color: white
+  +mobile
+    padding: 0
+  +tablet
+    padding: 66px 66px 66px 66px
+  +desktop
+    padding: 125px 66px 66px 66px
+  +widescreen
+    padding: 125px 66px 95px 66px
+  .container
+    max-width: none
+    .custom-progress
+      text-align: center
+      margin-bottom: 50px
+      height: 63px
+      overflow: hidden
+      .progress-step
+        display: none
+        .progress-icon
+          svg
+            max-width: 1068px
+        &.is-active
+          display: inherit
+    .steps
+      position: relative
+      margin-left: auto
+      margin-right: auto
+      padding-left: 0
+      padding-right: 0
+      max-width: 1068px
+      +fullhd
+        padding-left: 85px
+        padding-right: 85px
+        max-width: 1230px
+      .glide-nav
+        position: absolute
+        top: 50%
+        cursor: pointer
+        &.is-left
+          transform: translateY(-50%) rotate(180deg)
+          left: 0
+          &.is-disabled
+            display: none
+        &.is-right
+          transform: translateY(-50%)
+          right: 0
+          &.is-disabled
+            display: none
+        +mobile
+          display: none
+        +until-fullhd
+          &.is-left
+            transform: translateY(-50%) rotate(180deg) translateX(100%)
+            svg
+              path
+                opacity: 0
+                stroke-width: 2
+              path[stroke-linecap="round"]
+                opacity: 1
+          &.is-right
+            transform: translateY(-50%) translateX(100%)
+            svg
+              circle
+                fill: none
+              path
+                stroke: black
+        +fullhd
+  .steps
+    .glide
+      box-shadow: 0px 2px 40px 10px rgba(0, 0, 0, 0.05)
+      background-color: white
+      min-height: 509px
+      &.enable-user-select * // behave correctly when slider is not draggable
+        -webkit-user-select: text
+        -khtml-user-select: text
+        -moz-user-select: text
+        -ms-user-select: text
+        user-select: text
+      +fullhd
+        max-width: 1230px
+      +mobile
+        box-shadow: none
+      .glide__slides
+        +mobile
+          padding: 20px 0 0 0
+          flex-direction: column
+        .glide__slide
+          align-self: center
+    .glide__slide
+      position: relative
+      .step-number-icon
+        position: absolute
+        left: 0
+        top: 40px + 4px
+        width: 38px
+        height: 28px
+        svg
+          width: 100%
+          height: 100%
+    .step.columns
+      padding: 68px
+      +mobile
+        padding: 40px 22px 0 22px
+        margin: 0
+        & > .column
+          margin: 0
+          padding: 0
+          padding-bottom: 40px
+          border-bottom: 1px solid #EDEDED
+        &.step-4 > .column
+          border-bottom: none
+        .video-column.column
+          figure.image
+            max-width: none
+        .form.is-vibe-form > .columns
+          margin-left: 0
+          margin-right: 0
+        .column
+          padding-left: 0
+          padding-right: 0
+      .is-column-title
+        .title
+          color: $vibe-purple
+          font-weight: 600
+          font-size: 32px
+          line-height: 45px
+          margin-bottom: 36px
+          +mobile
+            padding-left: 30px
+            padding-right: 30px
+            text-align: center
+            font-size: 26px
+            line-height: 36px
+      .is-column-body
+        .body-item
+          font-size: 16px
+          line-height: 19px
+          margin-top: 24px
+      .is-column-cta
+        .cta-item
+          margin-top: 24px
+          font-size: 16px
+          line-height: 19px
+          .link
+            font-size: 16px
+            line-height: 19px
+            color: $vibe-purple
+            text-decoration: underline
+            &:hover
+              color: $link-hover
+              svg path
+                stroke: $link-hover
+
+    .step.step-1
+      @media screen and (max-width: 900px)
+        flex-direction: column
+      .content-text-column
+        border: 0
+        +mobile
+          padding-bottom: 0px
+        .is-column-cta .cta-item
+          font-size: 16px
+          .link
+            font-size: 19px
+            text-decoration: none
+          .link-icon.download-icon
+            svg
+              position: relative
+              top: 2px
+      .content-video-column
+        margin: 0
+        +mobile
+          padding-bottom: 40px
+          width: 100%
+          margin-top: 18px
+          margin: 0
+          .video-column
+            margin: 0
+            padding: 0
+        @media screen and (min-width: 700px) and (max-width: 900px)
+          margin: 0
+          padding: 0
+          width: 100%
+          padding-bottom: 0
+
+
+    .step.step-2
+      .content-text-column
+        .is-column-body .text
+          font-style: italic
+
+    .step.step-3
+      .content-form-column
+        .is-column-cta
+          .cta-item
+            margin-top: 8px
+        .is-column-body
+          .form-wrapper.is-submitted
+            visibility: hidden
+            .submitted
+              display: flex
+              visibility: visible
+              .title
+                font-size: 24px
+          .form.is-vibe-form
+            margin-top: 32px
+            .input, .select select, .textarea
+              background-color: #F4F4F4
+              padding-left: 10px
+              padding-right: 10px
+              border-radius: 5px 5px 0px 0px
+              +tablet
+                font-size: 14px
+            .select::after
+              right: 10px
+            .columns.is-buttons
+              margin-top: calc(1.5rem - 0.75rem) // default value
+              &.is-loading button
+                // background-color: black
+              @media screen and (min-width: 900px)
+                display: none
+              .button
+                font-size: 16px
+                font-weight: 500
+                padding: 7px 20px
+                height: auto
+                border-width: 2px
+            .control.annotated
+              .annotation-content::after
+                bottom: 22px
+              @media screen and (max-width: 900px)
+                .input[name="serial_number"]
+                  padding-right: 36px + 10px
+                .annotation-icon
+                  right: 0
+                  bottom: 0
+                  height: 100%
+                  width: 36px
+                  border-radius: 0px 5px 0px 0px
+                  cursor: pointer
+                  background-color: rgba(73, 73, 73, 0.25)
+                  svg
+                    margin: auto
+                    +absolute-fill
+                  &.is-active + .annotation-content
+                    display: block
+                .annotation-content
+                  right: 0
+                  bottom: calc(100% + 10px + 5px)
+                  &::after
+                    border-top: 10px solid white
+                    border-right: 10px solid transparent
+                    border-left: 10px solid transparent
+                    border-bottom: 0
+                    top: auto
+                    left: auto
+                    right: 8px
+                    bottom: -10px
+
+      .submit-button-column
+        position: relative
+        height: 412px
+        &.is-submitted
+          visibility: hidden
+        #label-for-submit-button
+          max-width: 100%
+          font-size: 16px
+          font-weight: 500
+          width: 158px
+          padding: 7px 20px
+          position: absolute
+          bottom: $column-gap
+          right: $column-gap
+          border-width: 2px
+
+    .step.step-4
+      .content-text-column
+        text-align: center
+        figure
+          text-align: center
+          img
+            width: 437px
+            margin: auto
+
+        .is-column-title .title
+          margin-bottom: 24px
+        .is-column-cta .cta-item:last-child
+          margin-top: 8px
+
+.section
+  &.is-get-started,
+  &.is-help
+    .container
+      max-width: 1152px
+    .title.is-section-title
+      text-align: center
+
+
+.section.is-get-started
+  +vertical-padding(120px)
+  background-color: $vibe-white
+  +mobile
+    +vertical-padding(60px)
+  .title.is-section-title
+    font-size: 48px
+    line-height: 60px
+    margin-bottom: 82px
+    +mobile
+      font-size: 32px
+      line-height: 38px
+      margin-bottom: 32px
+  .column
+    .links
+      max-width: 350px
+      height: 334px
+      border-radius: 10px
+      background-color: white
+      margin: auto
+      padding: 35px 35px 35px 35px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      +mobile
+        text-align: center
+        max-width: 300px
+        height: 300px
+      .item-title
+        word-wrap: normal
+        max-width: 300px
+        font-size: 24px
+        line-height: 34px
+        min-height: 68px
+        font-family: $vibe-family-heading
+        font-weight: 600
+        margin-bottom: 0px
+        +touch
+          font-size: 22px
+      .link
+        display: block
+        font-size: 18px
+        line-height: 23px
+        +mobile
+          font-size: 16px
+          line-height: 19px
+        &:hover
+          color: $vibe-pink
+          text-decoration: underline
+
+.section.is-help
+  position: relative
+  .contact-widget
+    outline: none
+    background-color: white
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2)
+    overflow: hidden
+    position: absolute
+    margin: auto
+    width: 251px
+    height: 265px
+    border-radius: 5px 5px 0px 0px
+    top: auto
+    right: 0
+    bottom: -265px + 60px
+    +widescreen
+      width: 356px
+      height: 250px
+      border-radius: 5px 0px 0px 5px
+      right: -356px + 60px
+      top: 0
+      bottom: 0
+    &.is-active
+      bottom: 0
+      +widescreen
+        right: 0
+    .collapse-icon
+      cursor: pointer
+      width: 13px
+      height: 13px
+      position: absolute
+      margin: auto
+      transform: rotate(90deg)
+      bottom: 20px
+      left: 0
+      right: 0
+      +widescreen
+        top: 0
+        bottom: 0
+        right: 20px
+        left: auto
+        transform: none
+      &:hover
+        svg path
+          stroke: $vibe-pink
+    .title
+      background-color: $vibe-purple
+      float: left
+      cursor: pointer
+      margin: 0
+      width: 100%
+      height: 60px
+      padding: 14px
+      padding-bottom: 10px
+      +widescreen
+        writing-mode: vertical-lr
+        width: 60px
+        height: 100%
+        padding: 14px
+        padding-left: 10px
+        transform: scale(-1)
+      .text
+        height: 31px
+        color: white
+        font-size: 22px
+        line-height: 31px
+        vertical-align: top
+        +widescreen
+          vertical-align: baseline
+      .logo-icon
+        width: 41px
+        height: 36px
+        display: inline-block
+        font-size: 0
+        +widescreen
+          transform: rotate(90deg)
+        svg
+          width: 100%
+          height: 100%
+          path
+            fill: white
+            fill-opacity: 1
+    .content
+      float: left
+      margin: 0
+      width: 100%
+      height: 265px - 60px
+      padding: 0px 32px 12px 32px
+      +widescreen
+        width: 356px - 60px
+        height: 100%
+        padding: 0 60px 0 48px
+      .content-container
+        width: 100%
+        height: 100%
+        position: relative
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+        .email, .phone
+          display: flex
+          flex-direction: row
+          align-items: center
+          .icon
+            margin-right: 20px
+          .link
+            font-size: 18px
+            font-weight: 500
+        .split-line
+          width: 251px - 64px
+          height: 0.5px
+          border-top: 0.5px solid black
+          margin: auto
+          +absolute-fill
+          +widescreen
+            width: 356px - 60px - 48px - 60px
+
+  +vertical-padding(62px 62px)
+  background-color: white
+  +mobile
+    padding-bottom: 120px
+  .column a
+    display: block
+    &:hover
+      color: black
+    .item
+      max-width: 350px
+      min-height: 364px
+      margin: auto
+      background-color: white
+      padding: 57px 25px
+      display: flex
+      flex-direction: column
+      align-items: center
+      +mobile
+        width: 300px
+        padding: 15px 15px
+        min-height: 0
+        height: auto
+      &:hover
+        box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.1)
+        border-radius: 10px
+      .image
+        max-width: 130px
+        margin-bottom: 27px
+
+      .item-title
+        text-align: center
+        max-width: 300px
+        font-size: 24px
+        line-height: 30px
+        font-family: $vibe-family-heading
+        font-weight: 600
+        margin-bottom: 16px
+        +touch
+          font-size: 22px
+          left: 28px
+        +mobile
+          font-size: 20px
+          line-height: 25px
+      .content
+        max-width: 300px
+        text-align: center
+        font-size: 18px
+        line-height: 26px
+        +mobile
+          font-size: 16px
+          line-height: 23px

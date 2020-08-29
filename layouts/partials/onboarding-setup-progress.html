@@ -1,0 +1,11 @@
+<div class="custom-progress {{ with .class }}{{ . }}{{ end }}">
+  {{ range .progress_bars}}
+  <div class="progress-step {{ .class }}">
+    {{ with .bar }}
+    <span class="progress-icon {{ .class }}">
+      {{ (resources.Get .url).Content | safeHTML }}
+    </span>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
