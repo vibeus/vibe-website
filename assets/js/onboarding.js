@@ -5,9 +5,9 @@ import { toggleActive, setupForm } from '{{ $src.RelPermalink }}';
 
 // {{/* form related */}}
 
-const clickAfter = "click.after";
-const submitAfter = "submit.after"
-const submitFinal = "submit.final";
+const clickAfter = 'click.after';
+const submitAfter = 'submit.after';
+const submitFinal = 'submit.final';
 const callbacks = {
   [clickAfter]: function () {
     const label = document.getElementById('label-for-submit-button');
@@ -20,7 +20,7 @@ const callbacks = {
   [submitFinal]: function () {
     const label = document.getElementById('label-for-submit-button');
     label.classList.remove('is-loading');
-  }
+  },
 };
 
 setupForm(document.querySelector('.form.is-vibe-form'), callbacks);
@@ -44,13 +44,15 @@ contactWidgetCollapse.addEventListener('click', () => {
 
 // {{/* link related */}}
 
-
 const navbar = document.querySelector('.navbar.is-fixed-top');
 const navbarHeight = navbar ? navbar.clientHeight : 0;
 
-document.querySelectorAll('.scroll-down-link').forEach(el => {
-  el.addEventListener('click', e => {
+document.querySelectorAll('.scroll-down-link').forEach((el) => {
+  el.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scrollTo(0, document.getElementById(el.dataset.scrollToId).offsetTop - navbarHeight);
+    window.scrollTo(
+      0,
+      document.getElementById(el.dataset.scrollToId).offsetTop - navbarHeight
+    );
   });
 });
