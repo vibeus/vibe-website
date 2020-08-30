@@ -110,12 +110,8 @@
   background-color: white
   +mobile
     padding: 0
-  +tablet
-    padding: 66px 66px 66px 66px
-  +desktop
-    padding: 125px 66px 66px 66px
-  +widescreen
-    padding: 125px 66px 95px 66px
+  @media screen and (min-width: 900px)
+    padding: 82px 66px 82px 66px
   .container
     max-width: none
     .custom-progress
