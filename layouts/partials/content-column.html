@@ -41,15 +41,16 @@
       {{ end }}
 
       {{ with .link }}
-        {{ $href := "" }}
-        {{ if .url }}
-          {{ $href = .url }}
-        {{ else if .ref}}
-          {{ $href = "#{{ .ref }}" }}
-        {{ end }}
-        <a class="link" href="{{ if .url }}{{ .url }}{{ else if .ref }}#{{ .ref }}{{ end }}" target="{{ if .url }}_blank{{ end }}">
-          {{ with .text }}<span class="text">{{ . }}</span>{{ end }}
-          {{ with .icon }}<span class="link-icon {{ with .class }}{{ . }}{{ end }}">{{ (resources.Get .url ).Content | safeHTML }}</span>{{ end }}
+        <a class="link{{ with .class }} {{ . }}{{ end }}" href="{{ with .url }}{{ . }}{{ end }}" target="_blank" data-scroll-to-id="{{ with .scroll_to_id }}{{ . }}{{ end }}">
+          {{ with .text }}
+          <span class="text">{{ . }}</span>
+          {{ end }}
+          {{ with .icon }}
+          <span class="link-icon {{ with .class }}{{ . }}{{ end }}">
+            {{ with .text }}<span class="text-icon">{{ . }}</span>{{ end }}
+            {{ with .url }}{{ (resources.Get . ).Content | safeHTML }}{{ end }}
+          </span>
+          {{ end }}
         </a>
       {{ end }}
     </div>

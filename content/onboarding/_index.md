@@ -1,22 +1,23 @@
 ---
-title: "Onboarding"
+title: 'Onboarding'
 stylesPath: css/onboarding.sass
-ignore_nav_items:
-  - "Solutions"
+
 hero:
-  title: "Welcome to Vibe!"
+  title: 'Welcome to Vibe!'
   body: "You're the newest member of the growing Vibe community, and we are so glad that you're here."
   cta:
     - class: is-hidden-mobile
       link:
-        text: "Scroll down to get started ↓"
-        url: &setup_id setup
+        class: scroll-down-link
+        text: 'Scroll down to get started ↓'
+        scroll_to_id: &setup_id setup
     - class: is-hidden-tablet
-      title: "Scroll down to get started"
+      title: 'Scroll down to get started'
       link:
-        url: &setup_id setup
+        class: scroll-down-link
+        scroll_to_id: &setup_id setup
         icon:
-          class: scroll-down-icon
+          class: scroll-down
           url: img/onboarding/scroll-down-icon.svg
 setup:
   id: *setup_id
@@ -47,17 +48,19 @@ setup:
         url: img/onboarding/step-number-1.svg
       columns:
         - class: content-text-column
-          title: "Unbox and install your Vibe board and stand."
+          title: 'Unbox and install your Vibe board and stand.'
           cta:
-            - body: "Vibe 55’’ digital whiteboard user manual"
-              link:
+            - link:
+                text: 'Vibe 55” digital whiteboard user manual'
                 icon:
                   class: download-icon
                   url: img/common/download-icon.svg
                 url: https://f.hubspotusercontent10.net/hubfs/5698963/Vibe%20User%20Manual.pdf
-            - body: "FAQ – Can we mount Vibe on a wall or use with other stands?"
-              link:
-                text: "  →"
+            - link:
+                text: 'FAQ – Can we mount Vibe on a wall or use with other stands?'
+                icon:
+                  class: faq-icon
+                  text: '  →'
                 url: https://knowledge.vibe.us/installation
         - class: content-video-column
           column_size: is-7
@@ -73,7 +76,7 @@ setup:
         url: img/onboarding/step-number-2.svg
       columns:
         - class: content-text-column
-          title: "Set up your device and Vibe account."
+          title: 'Set up your device and Vibe account.'
           body:
             - figure:
                 class: is-hidden-from-900px
@@ -81,7 +84,7 @@ setup:
             - text: "* If you've already set up a Vibe account, you can use it to sign into the board."
           cta:
             - link:
-                text: "Learn More"
+                text: 'Learn More'
                 url: https://knowledge.vibe.us/quick-start-guide
         - class: figure_column is-hidden-until-900px
           column_size: is-7
@@ -99,35 +102,35 @@ setup:
         button:
           id: &submit_button_id submit-button
           class: button is-rounded is-black is-outlined
-          title: "Submit"
+          title: 'Submit'
       columns:
         - class: content-form-column
-          title: "Register your device."
+          title: 'Register your device.'
           cta:
-            - body: "Your Vibe board purchase includes a 1-year warranty."
+            - body: 'Your Vibe board purchase includes a 1-year warranty.'
             - link:
-                text: "Read warranty policy"
+                text: 'Read warranty policy'
                 url: /warranty/
           body:
             - form:
                 action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/3d3eac66-7345-4825-a6e8-df8d0575832e
                 controls:
                   - - name: firstname
-                      placeholder: "First Name*"
+                      placeholder: 'First Name*'
                       required: true
                     - name: lastname
-                      placeholder: "Last Name*"
+                      placeholder: 'Last Name*'
                       required: true
                     - name: phone
-                      placeholder: "Phone Number*"
+                      placeholder: 'Phone Number*'
                       type: tel
                       required: true
                   - - name: email
-                      placeholder: "Email Address*"
+                      placeholder: 'Email Address*'
                       type: email
                       required: true
                     - name: country_region
-                      placeholder: "Country/Region"
+                      placeholder: 'Country/Region'
                       dropdown:
                         - United States
                         - Canada
@@ -378,103 +381,104 @@ setup:
                         - Zimbabwe
                         - Åland Islands
                   - - name: company
-                      placeholder: "Company Name"
+                      placeholder: 'Company Name'
                     - name: how_did_you_hear_about_vibe
-                      placeholder: "How did you hear about Vibe?"
+                      placeholder: 'How did you hear about Vibe?'
                       dropdown:
-                      - Google Search
-                      - Google Ads
-                      - Facebook
-                      - Instagram
-                      - LinkedIn
-                      - Referral
-                      - Youtube
-                      - Others
+                        - Google Search
+                        - Google Ads
+                        - Facebook
+                        - Instagram
+                        - LinkedIn
+                        - Referral
+                        - Youtube
+                        - Others
                   - - name: date_of_purchase
-                      placeholder: "Date of Purchase"
+                      placeholder: 'Date of Purchase'
                     - name: serial_number
-                      placeholder: "Serial Number*"
+                      placeholder: 'Serial Number*'
                       required: true
                       annotation:
                         icon: img/onboarding/question-mark.svg
                         content:
-                          - text: "Two ways to find your device serial number"
-                          - text: "1. Check the back of board, and you can find the serial number above the bar code."
+                          - text: 'Two ways to find your device serial number'
+                          - text: '1. Check the back of board, and you can find the serial number above the bar code.'
                           - figure: img/onboarding/serial-number.png
-                          - text: "2. Turn on the device, find ‘About Vibe’ under Settings, and then you can see the serial number."
+                          - text: '2. Turn on the device, find ‘About Vibe’ under Settings, and then you can see the serial number.'
                 buttons:
                   - type: submit
-                    title: "Submit"
+                    title: 'Submit'
                     class: button is-rounded is-black is-outlined is-fullwidth
                     id: *submit_button_id
                 submitted:
-                  title: "Thanks for registering your device."
+                  title: 'Thanks for registering your device.'
     - class: step-4
       step_number_icon:
         class: is-hidden-tablet
         url: img/onboarding/step-number-4.svg
       columns:
         - class: content-text-column
-          title: "You are all set!"
+          title: 'You are all set!'
           body:
             - figure:
                 url: img/onboarding/desktop-screen.png
           cta:
-            - body: "Experience Vibe for yourself."
+            - body: 'Experience Vibe for yourself.'
             - link:
+                class: scroll-down-link
                 icon:
                   class: scroll-down-icon
                   url: img/onboarding/scroll-down-icon.svg
-                ref: "get-started"
+                scroll_to_id: &get_started_id get-started
 get_started:
   title: Get started with Vibe
-  id: "get-started"
+  id: *get_started_id
   items:
-    - title: "Whiteboarding"
+    - title: 'Whiteboarding'
       column_size: is-one-third
       links:
-        - text: "Using the whiteboard"
+        - text: 'Using the whiteboard'
           url: https://knowledge.vibe.us/toolbar-tutorial
-        - text: "Import files to your Vibe board"
+        - text: 'Import files to your Vibe board'
           url: https://knowledge.vibe.us/importing-files
-        - text: "Save and share a board"
+        - text: 'Save and share a board'
           url: https://knowledge.vibe.us/save-share-board
-    - title: "Screencast & Annotation"
+    - title: 'Screencast & Annotation'
       column_size: is-one-third
       links:
-        - text: "How to screencast"
+        - text: 'How to screencast'
           url: https://knowledge.vibe.us/how-to-screencast
-        - text: "Using HDMI on Vibe"
+        - text: 'Using HDMI on Vibe'
           url: https://knowledge.vibe.us/how-to-use-hdmi-with-vibe
-        - text: "Screenshot and Annotation"
+        - text: 'Screenshot and Annotation'
           url: https://knowledge.vibe.us/screenshot/annotation-feature
-    - title: "Third party applications"
+    - title: 'Third party applications'
       column_size: is-one-third
       links:
-        - text: "How to download applications"
+        - text: 'How to download applications'
           url: https://knowledge.vibe.us/how-to-download-applications
-        - text: "Using Microsoft Teams on Vibe"
+        - text: 'Using Microsoft Teams on Vibe'
           url: https://knowledge.vibe.us/how-to-use-vibe-within-microsoft-teams-app
-        - text: "Using Zoom on Vibe"
+        - text: 'Using Zoom on Vibe'
           url: https://knowledge.vibe.us/zoom-overview
 help:
   items:
-    - title: "Video Tutorials"
-      body: "Step by step walkthroughs of the newest features and customer favorites."
+    - title: 'Video Tutorials'
+      body: 'Step by step walkthroughs of the newest features and customer favorites.'
       figure: img/onboarding/help-1.png
       url: /video-tutorial/
       column_size: is-one-third
-    - title: "Help Center"
-      body: "See guides on popular features and search for answers to your questions."
+    - title: 'Help Center'
+      body: 'See guides on popular features and search for answers to your questions.'
       figure: img/onboarding/help-2.png
       url: https://help.vibe.us
-    - title: "Warranty"
-      body: "Detailed information about your Vibe warranty."
+    - title: 'Warranty'
+      body: 'Detailed information about your Vibe warranty.'
       figure: img/onboarding/help-3.png
       url: /warranty/
       column_size: is-one-third
   contact_widget:
-    title: "Have Questions ?"
+    title: 'Have Questions ?'
     logo_icon: img/common/outline-logo.svg
     collapse_icon: img/onboarding/contact-widget-collapse-icon.svg
     email:

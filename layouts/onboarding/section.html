@@ -34,7 +34,7 @@
           <span class="title">{{ . }}</span>
           {{ end }}
           {{ with .link }}
-          <a class="link" href="#{{ .url }}">
+          <a class="link{{ with .class }} {{ . }}{{ end }}" href="{{ with .url }}{{ . }}{{ end }}" target="_blank" data-scroll-to-id="{{ with .scroll_to_id }}{{ . }}{{ end }}">
             {{ with .text }}
             <span class="text">{{ . }}</span>
             {{ end }}
