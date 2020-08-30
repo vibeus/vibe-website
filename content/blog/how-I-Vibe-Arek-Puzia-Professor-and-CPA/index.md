@@ -5,7 +5,7 @@ author: The Vibe Team
 date: 2020-08-05
 tags: ["higher education", "professor", "distance learning"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: How this professor and CPA is making the most of his chance to thrive alongside his students and clients in a collaborative digital space.
 hero_styles:
   background: "#f4f4f4"
