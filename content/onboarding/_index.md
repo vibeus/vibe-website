@@ -51,7 +51,7 @@ setup:
           title: 'Unbox and install your Vibe board and stand.'
           cta:
             - link:
-                text: 'Vibe 55’’ digital whiteboard user manual'
+                text: 'Vibe 55” digital whiteboard user manual'
                 icon:
                   class: download-icon
                   url: img/common/download-icon.svg
