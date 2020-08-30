@@ -1,0 +1,59 @@
+<div class="column {{ with .class}}{{ . }}{{ end }} {{ with .column_size }}{{ . }}{{ end }}">
+  {{ with .title}}
+  <div class="is-column-title">
+    <h3 class="title">
+      {{ . | markdownify }}
+    </h3>
+  </div>
+  {{ end }}
+
+  {{ with .body }}
+  <div class="is-column-body">
+    {{ range . }}
+    <div class="body-item {{ with .class }}{{ . }}{{ end }}">
+      {{ if .text }}
+        <span class="text">{{ .text }}</span>
+      {{ else if .figure }}
+        <figure class="image-wrapper image {{ with .figure.class }}{{ . }}{{ end }}">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure.url) "desktop" "1280x" "tablet" "960x" "mobile" "750x" "options" "jpg") }}
+        </figure>
+      {{ else if .form }}
+        <div class="form-wrapper {{ with .form.class }}{{ . }}{{ end }}">
+          {{ partial "common/form" .form }}
+        </div>
+      {{ else if .video }}
+        <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
+          {{ partial "video-column" . }}
+        </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+
+  {{ with .cta}}
+  <div class="is-column-cta">
+    {{ range . }}
+    <div class="cta-item {{ with .class }}{{ . }}{{ end }}">
+      {{ with .body }}
+        <span class="text">{{ . }}</span>
+      {{ end }}
+
+      {{ with .link }}
+        {{ $href := "" }}
+        {{ if .url }}
+          {{ $href = .url }}
+        {{ else if .ref}}
+          {{ $href = "#{{ .ref }}" }}
+        {{ end }}
+        <a class="link" href="{{ if .url }}{{ .url }}{{ else if .ref }}#{{ .ref }}{{ end }}" target="{{ if .url }}_blank{{ end }}">
+          {{ with .text }}<span class="text">{{ . }}</span>{{ end }}
+          {{ with .icon }}<span class="link-icon {{ with .class }}{{ . }}{{ end }}">{{ (resources.Get .url ).Content | safeHTML }}</span>{{ end }}
+        </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

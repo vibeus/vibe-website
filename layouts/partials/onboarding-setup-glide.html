@@ -1,0 +1,37 @@
+<div class="steps">
+  <div class="glide {{ with .glide_class }}{{ . }}{{ end }}">
+    <div data-glide-el="track" class="glide__track">
+      <ul class="glide__slides">
+        {{ range .steps}}
+        <li class="glide__slide">
+          {{ with .step_number_icon }}
+          <div class="step-number-icon {{ with .class }}{{ . }}{{ end }}">
+            {{ (resources.Get .url).Content | safeHTML }}
+          </div>
+          {{ end }}
+          <div class="step columns is-vcentered {{ with .class }}{{ . }}{{ end }}">
+            {{ range .columns }}
+            {{ partial "content-column" . }}
+            {{ end }}
+            {{/* special case for step-3 */}}
+            {{ with .submit_button_column }}
+            <div class="column {{ with .class }}{{ . }}{{ end }} {{ with .column_size }}{{ . }}{{ end }}">
+              {{ with .button }}
+              <label id="label-for-submit-button" class="{{ with .class }}{{ . }}{{ end }}" for="{{ .id }}">{{ .title }}</label>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+
+  <span class="icon is-large glide-nav is-left">
+    {{ (resources.Get "img/common/nav-icon-white.svg").Content | safeHTML }}
+  </span>
+  <span class="icon is-large glide-nav is-right">
+    {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+  </span>
+</div>

@@ -1,0 +1,147 @@
+{{ define "stylesheets" }}
+<style>{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}</style>
+{{ end }}
+
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+
+{{ define "main" }}<main class="onboarding">
+
+  {{ with .Params.hero }}
+  <section class="hero is-fullheight-with-navbar">
+    <figure class="image is-hero-bg is-hidden-mobile is-hero">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/onboarding/hero-tablet.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #F8F8F8") }}
+    </figure>
+    <div class="bg-logo">
+      {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+    </div>
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="title-text">
+          <h1 class="title">
+            {{ .title | markdownify }}
+          </h1>
+          <p>
+            {{ .body | markdownify }}
+          </p>
+        </div>
+        {{ range .cta }}
+        <div class="cta {{ with .class }}{{ . }}{{ end }}">
+          {{ with .title }}
+          <span class="title">{{ . }}</span>
+          {{ end }}
+          {{ with .link }}
+          <a class="link" href="#{{ .url }}">
+            {{ with .text }}
+            <span class="text">{{ . }}</span>
+            {{ end }}
+            {{ with .icon }}
+            <span class="link-icon {{ with .class }}{{ . }}{{ end }}">
+              {{(resources.Get .url).Content | safeHTML }}
+            </span>
+            {{ end }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <figure class="image is-hero is-hidden-tablet">
+          {{ partial "common/srcset" (dict "resource" (resources.Get "img/onboarding/hero-mobile.png") "desktop" "750x" "options" "png") }}
+        </figure>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.setup }}
+  <section class="section is-setup" id="{{ with .id }}{{ . }}{{ end }}">
+    <div class="container">
+      {{ partial "onboarding-setup-progress" .progress }}
+      {{ partial "onboarding-setup-glide" . }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.get_started }}
+  <section id="{{ .id }}" class="section is-get-started">
+    <div class="container">
+      <h1 class="title is-section-title">{{ .title | markdownify }}</h1>
+      <div class="columns">
+        {{ range .items }}
+        <div class="column {{ with .column_size }}{{ . }}{{ end }}">
+          <div class="links">
+            <h2 class="item-title">{{ .title }}</h2>
+            {{ range .links }}
+              <a class="link" href="{{ .url }}" target="_blank">{{ .text | markdownify }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.help }}
+  <section class="section is-help">
+    <div class="container">
+      <div class="columns">
+        {{ range .items }}
+        <div class="column {{ with .column_size }}{{ . }}{{ end }}">
+          <a href="{{ .url }}" target="_blank">
+            <div class="item">
+              <figure class="image">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
+              </figure>
+              <h2 class="item-title">{{ .title }}</h2>
+              <div class="content">
+                {{ .body | markdownify }}
+              </div>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ with .contact_widget }}
+    <div class="contact-widget" tabindex="0">
+      <span class="title">
+        <span class="logo-icon">
+          {{ (resources.Get .logo_icon ).Content | safeHTML }}
+        </span>
+        <span class="text">{{ .title }}</span>
+      </span>
+      <span class="content">
+        <div class="content-container">
+          <div class="email">
+            <span class="icon email-icon">
+              {{ (resources.Get .email.icon ).Content | safeHTML }}
+            </span>
+            <a class="link" href="mailto:{{ .email.address }}">{{ .email.address }}</a>
+          </div>
+          <div class="phone">
+            <span class="icon phone-icon">
+              {{ (resources.Get .phone.icon ).Content | safeHTML }}
+            </span>
+            <a class="link" href="tel:{{ .phone.number_href }}">{{ .phone.number }}</a>
+          </div>
+          <div class="split-line"></div>
+        </div>
+      </span>
+      <div class="collapse-icon">
+        {{ (resources.Get .collapse_icon ).Content | safeHTML }}
+      </div>
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ partial "common/template-script" (dict "asset" "js/setup.js") }}
+  {{ partial "common/template-script" (dict "asset" "js/onboarding.js") }}
+  {{ partial "common/template-script" (dict "asset" "js/common/form-with-annotation.js") }}
+
+</main>{{ end }}
