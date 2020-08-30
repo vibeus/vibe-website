@@ -84,7 +84,7 @@
       text-align: center
       margin-top: 40px
     .title, a.link
-      font-weight: 600
+      font-weight: 500
       font-size: 18px
       line-height: 22px
       color: $vibe-purple
@@ -257,6 +257,8 @@
             text-decoration: underline
             &:hover
               color: $link-hover
+              // .link-icon .text-icon
+              //   color: $link-hover
               svg path
                 stroke: $link-hover
 
@@ -270,10 +272,14 @@
         .is-column-cta .cta-item
           font-size: 16px
           .link
-            font-size: 19px
             text-decoration: none
-          .link-icon.download-icon
-            svg
+            .text
+              color: black
+            &:hover .text
+              color: $link-hover
+            .link-icon.faq-icon .text-icon
+              font-size: 19px
+            .link-icon.download-icon svg
               position: relative
               top: 2px
       .content-video-column

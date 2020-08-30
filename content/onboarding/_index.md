@@ -9,14 +9,16 @@ hero:
   cta:
     - class: is-hidden-mobile
       link:
+        class: scroll-down-link
         text: "Scroll down to get started ↓"
-        url: &setup_id setup
+        scroll_to_id: &setup_id setup
     - class: is-hidden-tablet
       title: "Scroll down to get started"
       link:
-        url: &setup_id setup
+        class: scroll-down-link
+        scroll_to_id: &setup_id setup
         icon:
-          class: scroll-down-icon
+          class: scroll-down
           url: img/onboarding/scroll-down-icon.svg
 setup:
   id: *setup_id
@@ -49,15 +51,17 @@ setup:
         - class: content-text-column
           title: "Unbox and install your Vibe board and stand."
           cta:
-            - body: "Vibe 55’’ digital whiteboard user manual"
-              link:
+            - link:
+                text: "Vibe 55’’ digital whiteboard user manual"
                 icon:
                   class: download-icon
                   url: img/common/download-icon.svg
                 url: https://f.hubspotusercontent10.net/hubfs/5698963/Vibe%20User%20Manual.pdf
-            - body: "FAQ – Can we mount Vibe on a wall or use with other stands?"
-              link:
-                text: "  →"
+            - link:
+                text: "FAQ – Can we mount Vibe on a wall or use with other stands?"
+                icon:
+                  class: faq-icon
+                  text: "  →"
                 url: https://knowledge.vibe.us/installation
         - class: content-video-column
           column_size: is-7
@@ -422,13 +426,14 @@ setup:
           cta:
             - body: "Experience Vibe for yourself."
             - link:
+                class: scroll-down-link
                 icon:
                   class: scroll-down-icon
                   url: img/onboarding/scroll-down-icon.svg
-                ref: "get-started"
+                scroll_to_id: &get_started_id get-started
 get_started:
   title: Get started with Vibe
-  id: "get-started"
+  id: *get_started_id
   items:
     - title: "Whiteboarding"
       column_size: is-one-third

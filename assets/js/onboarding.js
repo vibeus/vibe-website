@@ -3,6 +3,8 @@
 */
 import { toggleActive, setupForm } from '{{ $src.RelPermalink }}';
 
+// {{/* form related */}}
+
 const clickAfter = "click.after";
 const submitAfter = "submit.after"
 const submitFinal = "submit.final";
@@ -23,6 +25,7 @@ const callbacks = {
 
 setupForm(document.querySelector('.form.is-vibe-form'), callbacks);
 
+// {{/* contactWidget related */}}
 
 const contactWidget = document.querySelector('.is-help .contact-widget');
 const contactWidgetTitle = contactWidget.querySelector('.title');
@@ -37,4 +40,17 @@ contactWidgetTitle.addEventListener('click', () => {
 });
 contactWidgetCollapse.addEventListener('click', () => {
   contactWidget.classList.toggle('is-active');
+});
+
+// {{/* link related */}}
+
+
+const navbar = document.querySelector('.navbar.is-fixed-top');
+const navbarHeight = navbar ? navbar.clientHeight : 0;
+
+document.querySelectorAll('.scroll-down-link').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    window.scrollTo(0, document.getElementById(el.dataset.scrollToId).offsetTop - navbarHeight);
+  });
 });
