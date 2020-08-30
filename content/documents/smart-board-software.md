@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Vibe Smart Board software is integrated right into the board and, unlike other digital smart boards, doesn’t require extra costs or membership fees. Our collaboration software allows you to work however and wherever you need. It gives you the freedom to communicate and create with your team, conduct training sessions, or present to clients.
 
 {{< common/srcset "img/documents/hero.png" "" >}}

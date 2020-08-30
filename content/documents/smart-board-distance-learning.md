@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Distance learning is quickly becoming the new normal, even if for just a little while, and many are looking for ways to keep students engaged in an online format. Many educators are finding that using an online board for collaboration is the perfect way to simplify distance learning, thanks to its seamless integration with video conferencing and classroom apps.
 
 {{< common/srcset "img/documents/DistanceLearning.png" "" >}}
@@ -25,6 +25,5 @@ With Vibe you can bring your lessons to life with multi-media aides such as YouT
 [Learn more][1] about how using a smart board for distance learning can benefit your classroom.
 
 [1]: https://vibe.us/blog/10-positive-aspects-to-distance-learning/
-
 
 ---

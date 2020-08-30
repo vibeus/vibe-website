@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 As interest in home schooling explodes, many parents are looking for ways to make learning from home interesting, engaging, interactive, and simple. Enter smart whiteboards, like the Vibe Digital Interactive Smart Board. As simple to use as an iPad, Vibe allows you to hold lessons, participate in video conference calls, and spark creativity; all while being the most cost-effective interactive whiteboard on the market.
 
 {{< common/srcset "img/documents/DistanceLearning.png" "" >}}

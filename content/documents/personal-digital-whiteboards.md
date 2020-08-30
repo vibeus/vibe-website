@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Now, more than ever, we’re seeing an increase in electronic whiteboards for home, as personal use now collides with the expanding work-from-home climate. iPad meets home entertainment, to culminate in a device that easily transitions you from your work day to leisure time.
 
 {{< common/srcset "img/documents/feature-2.png" "" >}}

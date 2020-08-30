@@ -12,14 +12,13 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 The cost of a digital collaborative whiteboard is often the biggest question for those researching the benefits of having one. Especially now, when looking for work-from-home solutions that will benefit an entire office, or aid in client meetings, or elevate the home classroom, cost is a big question as quickly adapting to a changing world is causing unexpected financial costs.
 
 {{< common/srcset "img/documents/hero.png" "" >}}
 
 Here is a cost roundup of digital interactive whiteboards on the market:
-
 
 - Microsoft Surface Hub 2S - The Surface Hub S2 sits at just under $9,000 for the 50” model. Additional costs include the wall mount at $249, the mobile stand at $1,450, and the battery expansion will run you an additional $1,400. [Click here][1] to see a comparison of Vibe vs Microsoft Surface Hub.
 
@@ -33,11 +32,11 @@ Here is a cost roundup of digital interactive whiteboards on the market:
 
 [3]: https://vibe.us/comparison/vibe-vs-samsung-flip/
 
-- Cisco Webex Board - The 55” model starts at $4,990, with an additional $199 monthly fee for cloud service. A wall stand will be an additional $1,590, while a floor stand will be an additional $3,290. Mounts are available for $449. [Click here][4] to see a comparison of Vibe vs the Cisco Webex Board.
+- Cisco Webex Board - The 55” model starts at $4,990, with an additional $199 monthly fee for cloud service. A wall stand will be an additional $1,590, while a floor stand will be an additional $3,290. Mounts are available for \$449. [Click here][4] to see a comparison of Vibe vs the Cisco Webex Board.
 
 [4]: https://vibe.us/comparison/vibe-vs-cisco-webex-board/
 
-- SMART Technology SMART Board -  Costs for their comparable model runs about $4,999, with additional software costs. [Click here][5] to see a comparison of Vibe vs the SMART Technology SMART Board.
+- SMART Technology SMART Board - Costs for their comparable model runs about \$4,999, with additional software costs. [Click here][5] to see a comparison of Vibe vs the SMART Technology SMART Board.
 
 [5]: https://vibe.us/comparison/vibe-vs-smart-board/
 
@@ -46,6 +45,5 @@ Here is a cost roundup of digital interactive whiteboards on the market:
 [6]: https://vibe.us/hardware/
 
 When researching the costs of smartboards, it’s important to take into account any additional expenditures that may be necessary to use it. At Vibe, we’re proud to offer all software and capabilities straight out of the box, with no additional purchases needed.
-
 
 ---

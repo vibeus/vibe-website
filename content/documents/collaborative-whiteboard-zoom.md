@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Sharing your Vibe custom collaborative board through Zoom is as simple as a few taps of the screen. Vibe interactive whiteboard allows you to share and collaborate with anyone, from anywhere, in real-time.
 
 {{< common/srcset "img/documents/feature-1.png" "" >}}

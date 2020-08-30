@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Smart boards like Vibe Interactive Digital Whiteboard provide endless benefits to your business through versatility, and enabling seamless collaboration. They elevate your meetings, enhance your presentations, and wow potential clients. On top of that, you have the convenience of meeting, collaborating, and presenting from anywhere; no additional boards necessary.
 
 {{< common/srcset "img/documents/feature-3.png" "" >}}

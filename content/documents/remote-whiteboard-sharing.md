@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 The benefits of remote whiteboard sharing are as infinite as the canvas within Vibe’s digital smart board. Remote whiteboard sharing benefits [large companies][1], [small businesses][2], [service providers][3], [homeschoolers][4], and the [casual user][5].
 
 [1]: https://vibe.us/lp/scenario-remote/

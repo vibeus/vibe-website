@@ -12,8 +12,8 @@ bottom_cta:
     title: See the Buyers FAQ
     url: https://knowledge.vibe.us/buyers-faq
     target: _blank
-
 ---
+
 Vibe’s simple remote whiteboard couldn’t be any easier to use - virtually ready to go out of the box, it was designed to be intuitive for just about any user.
 
 {{< common/srcset "img/documents/easy-to-use.png" "" >}}
