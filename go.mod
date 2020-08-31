@@ -6,7 +6,3 @@ require (
 	github.com/vibeus/hugo-common/v2 v2.0.2-0.20200830032417-dcfea1e8e2bf // indirect
 	github.com/vibeus/vibe-cms/v2 v2.0.1-0.20200728175847-2596cfb8de17 // indirect
 )
-
-replace github.com/vibeus/vibe-cms/v2 => ../vibe-cms
-
-replace github.com/vibeus/hugo-common/v2 => ../hugo-common
