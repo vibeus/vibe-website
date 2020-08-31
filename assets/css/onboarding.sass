@@ -17,7 +17,7 @@
     &.is-fullheight-with-navbar
       min-height: 0
   .hero-body
-    +mobile
+    @media screen and (max-width: 900px)
       padding-bottom: 0
   .bg-logo
     position: absolute
@@ -33,6 +33,12 @@
       top: 66px + 16px
       right: -186px
       left: auto
+    @media screen and (min-width: 700px) and (max-width: 900px)
+      width: 305px
+      height: 276px
+      top: 128px
+      right: -118px
+      left: auto
   .image.is-hero-bg
     +absolute-fill
     img
@@ -45,8 +51,10 @@
       padding-top: 80px
     +widescreen
       max-width: 1224px
+    @media screen and (min-width: 2560px)
+      max-width: 1520px
   .title-text
-    +mobile
+    @media screen and (max-width: 900px)
       text-align: center
       margin-bottom: 32px
       margin-top: 16px
@@ -80,7 +88,7 @@
   .cta
     margin-top: 92px
     color: $vibe-purple
-    +mobile
+    @media screen and (max-width: 900px)
       text-align: center
       margin-top: 40px
     .title, a.link
@@ -104,8 +112,10 @@
         svg path
           stroke: $vibe-purple
   .image.is-hero
-    +mobile-full-width
-
+    // +mobile-full-width
+    @media screen and (max-width: 900px)
+      margin-left: -1.5rem
+      margin-right: -1.5rem
 .section.is-setup
   background-color: white
   +mobile

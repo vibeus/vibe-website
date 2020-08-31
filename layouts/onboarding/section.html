@@ -11,7 +11,7 @@
 
   {{ with .Params.hero }}
   <section class="hero is-fullheight-with-navbar">
-    <figure class="image is-hero-bg is-hidden-mobile is-hero">
+    <figure class="image is-hero-bg is-hidden-until-900px is-hero">
       {{ partial "common/srcset" (dict "resource" (resources.Get "img/onboarding/hero-tablet.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #F8F8F8") }}
     </figure>
     <div class="bg-logo">
@@ -48,7 +48,7 @@
         </div>
         {{ end }}
 
-        <figure class="image is-hero is-hidden-tablet">
+        <figure class="image is-hero is-hidden-from-900px">
           {{ partial "common/srcset" (dict "resource" (resources.Get "img/onboarding/hero-mobile.png") "desktop" "750x" "options" "png") }}
         </figure>
       </div>
@@ -73,7 +73,7 @@
         {{ range .items }}
         <div class="column {{ with .column_size }}{{ . }}{{ end }}">
           <div class="links">
-            <h2 class="item-title">{{ .title }}</h2>
+            <h2 class="item-title">{{ .title | markdownify }}</h2>
             {{ range .links }}
               <a class="link" href="{{ .url }}" target="_blank">{{ .text | markdownify }}</a>
             {{ end }}
@@ -96,7 +96,7 @@
               <figure class="image">
                 {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
               </figure>
-              <h2 class="item-title">{{ .title }}</h2>
+              <h2 class="item-title">{{ .title | markdownify }}</h2>
               <div class="content">
                 {{ .body | markdownify }}
               </div>
