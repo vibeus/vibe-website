@@ -5,7 +5,7 @@ author: The Vibe Team
 date: 2020-08-12
 tags: ["meetings", "remote", "presentations"]
 draft: false
-isfeatured: true
+isfeatured: 
 summary: Peter Parker runs a team that helps clients all over the US develop cloud-forward data platforms. Learn how the Vibe smart whiteboard fits into his practice.
 ---
 
