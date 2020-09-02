@@ -29,8 +29,8 @@ products:
     figure: img/order/product-gallery-1.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected to ship on Sep 10th.'
-      cart_notice: 'Backordered. Expected to ship on Sep 10th.'
+      item_notice: '**Backordered.** Expected to ship on Sep 14th.'
+      cart_notice: 'Backordered. Expected to ship on Sep 14th.'
   - &white_stand
     product_id: '31815731576883'
     price: 500
@@ -38,8 +38,8 @@ products:
     figure: img/order/accessory-stand-w.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected to ship on Sep 10th.'
-      cart_notice: 'Backordered. Expected to ship on Sep 10th.'
+      item_notice: '**Backordered.** Expected to ship on Sep 14th.'
+      cart_notice: 'Backordered. Expected to ship on Sep 14th.'
 
   - &red_stand
     product_id: '31815731609651'
@@ -48,8 +48,8 @@ products:
     figure: img/order/accessory-stand-r.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected to ship on Sep 10th.'
-      cart_notice: 'Backordered. Expected to ship on Sep 10th.'
+      item_notice: '**Backordered.** Expected to ship on Sep 14th.'
+      cart_notice: 'Backordered. Expected to ship on Sep 14th.'
   - &stylus
     product_id: '31815737016371'
     price: 15
@@ -57,8 +57,8 @@ products:
     figure: img/order/accessory-stylus.png
     sold_out: false
     backorder:
-      item_notice: '**Backordered.** Expected to ship on Sep 20th.'
-      cart_notice: 'Backordered. Expected to ship on Sep 20th.'
+      item_notice: '**Backordered.** Expected to ship on Sep 24th.'
+      cart_notice: 'Backordered. Expected to ship on Sep 24th.'
 hero:
   <<: *vibe_board
   body: i18n-content-order-_index-hero-body
