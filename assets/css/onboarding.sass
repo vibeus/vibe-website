@@ -120,6 +120,8 @@
   background-color: white
   +mobile
     padding: 0
+  +tablet
+    padding: 82px 48px 82px 48px
   @media screen and (min-width: 900px)
     padding: 82px 66px 82px 66px
   .container
@@ -332,6 +334,10 @@
               border-radius: 5px 5px 0px 0px
               +tablet
                 font-size: 14px
+            .input[name="order_number"]
+              display: none
+            .privacy
+              margin-top: -36px
             .select::after
               right: 10px
             .columns.is-buttons
