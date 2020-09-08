@@ -405,6 +405,8 @@ setup:
                           - text: '1. Check the back of board, and you can find the serial number above the bar code.'
                           - figure: img/onboarding/serial-number.png
                           - text: '2. Turn on the device, find ‘About Vibe’ under Settings, and then you can see the serial number.'
+                  - - name: order_number
+                      placeholder: 'Order Number'
                 buttons:
                   - type: submit
                     title: 'Submit'
