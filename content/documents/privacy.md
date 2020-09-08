@@ -49,13 +49,13 @@ personal information from third party apps.
 Vibe integrates with Microsoft Teams to provide Microsoft Teams users the access to their Vibe boards within
 the Microsoft Teams app.
 
-By installing the Vibe Boards app in the Microsoft Teams app store, and sign in the Vibe Boards app with your
-Microsoft account, following data will be collected:
+By installing the Vibe app in the Microsoft Teams app store, and sign in the Vibe app with your Microsoft account,
+following data will be collected:
 
 - Your Microsoft account's primary email address and display name.
-- Name of the Team and Channel where the Vibe Boards tab is added to.
+- Name of the Team and Channel where the Vibe tab is added to.
 
-The collected data, together with the content generated within the Vibe Boards app, is encrypted and stored in Vibe's
+The collected data, together with the content generated within the Vibe app, is encrypted and stored in Vibe's
 U.S. data centers. The collected data and your content will never be shared to third-party partners.
 
 The collected data is used to authenticate and verify your identity when you sign out and sign back in, or sign in using
