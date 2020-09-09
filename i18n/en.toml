@@ -1299,7 +1299,7 @@ other = "Hello world, we’re Vibe."
 other = """Vibe was founded in 2016 by former Microsoft developers looking for a better way to collaborate globally.
 
 Even with video conferencing, productivity and workflow apps, and a commitment to a distributed team,
-it was difficult to accomplish what could be acheived simply when face-to-face. We knew that there had to be a
+it was difficult to accomplish what could be achieved simply when face-to-face. We knew that there had to be a
 better way. So we built Vibe.
 
 Headquartered in Seattle, WA, Vibe is fully funded and has 35+ employees."""
