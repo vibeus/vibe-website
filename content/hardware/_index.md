@@ -1,5 +1,6 @@
 ---
 title: i18n-content-hardware-_index-title
+description: Vibe digital whiteboard is a 55" 4k touchscreen display built for real-time remote collaboration and video conferencing, all compatible with your favorite apps
 stylesPath: css/hardware.sass
 aliases:
   - /product/

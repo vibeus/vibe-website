@@ -10,11 +10,16 @@
 {{ define "nav" }}
 <div class="before-nav">
   <p class="cta">
-  Boards & Stands are currently backordered until appx Sep 14th due to demand.<br />
+    <a href="/demo/work-from-home/">
+      Working from home due to Coronavirus? See how can we help →
+    </a>
+  </p>
+</div>
+  <!-- Boards & Stands are currently backordered until appx Sep 14th due to demand.<br />
   Purchase now to reserve your order in the next arrival, or
   <a href="https://landing.vibe.us/backorder-notification" target="_blank">have us notify you when they're back in stock</a>.
   </p>
-</div>
+</div> -->
 {{ partial "common/nav" . }}
 {{ end }}
 
@@ -108,7 +113,7 @@
 {{ with .Params.accessories }}
 <section class="section is-accessories">
   <div class="container">
-    <h2 class="title is-section-title">{{ T .title }}</h2>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns">
       {{ range .items }}
       <div class="column">
@@ -162,7 +167,7 @@
 {{ with .Params.reviews }}
 <section class="section is-reviews">
   <div class="container">
-    <h2 class="title is-section-title">{{ T .title }}</h2>
+    <h1 class="title is-section-title">{{ T .title }}</h1>
     <div class="columns is-vcentered is-mobile">
       <div class="column is-stars">
         {{ $total := 0 }}
