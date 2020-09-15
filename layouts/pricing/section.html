@@ -1,0 +1,14 @@
+{{ define "stylesheets" }}
+<style>
+{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
+</style>
+{{ end }}
+
+{{ define "main" }}<main class="pricing">
+
+{{ with .Params.faq }}
+{{ partial "faq" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/pricing.js") }}
+</main>{{ end }}
