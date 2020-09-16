@@ -6,12 +6,14 @@ date: 2020-09-15
 tags: ["remote"]
 draft: false
 isfeatured: true
-summary: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 with 19 other promising early stage technology companies. Good thing that we had Vibe collaboration tools in place to help us prepare.
+summary: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising early stage technology companies. Good thing that we had Vibe collaboration tools in place to help us prepare.
 ---
 
 
 
 Today was a big day for Vibe. Out of thousands of startups, [Vibe was chosen for a slot at Startup Battlefield](https://techcrunch.com/2020/09/10/announcing-the-startup-battlefield-companies-at-techcrunch-disrupt-2020/?tpcc=ECTW2020), an event that TechCrunch has held as part of its Disrupt event for the last ten years.
+
+As TechCrunch notes, “The competition is stiff. The selected startups have undergone a rigorous application process, with a 2% acceptance rate. This year’s batch is exceptional.”
 
 Most of the 20 companies had months to prepare. We were a Wildcard team, which means that we had less than a week.
 
@@ -46,4 +48,4 @@ It is fundamentally a product problem. The big players are so far from customers
 
 The marketing environment and user needs have changed and established competitors are building out from the same channel marketing strategies that they’ve held for 30-40 years. Vibe’s direct to consumer model revolves around our customers, and our digital marketing showcases the opportunities presented by Vibe’s open app ecosystem. We want customers to use our platform in the way that’s best for them, and not lock them into Microsoft or Google applications, or limited choices. 
 
-Vibe is filling a big need for many businesses, and at a much lower price point. Vibe is $2,999 and there are no fees for software. In comparison, Google Jamboard  is $4,999 with a $600 annual subscription, Cisco WebEx Board  is $4,990 with a $199 monthly subscription, and the Microsoft Surface Hub  is $8,999 and relies on an Office 365 subscription.
+Vibe is filling a big need for many businesses, and at a much lower price point. Vibe is $2,999. In comparison, Google Jamboard  is $4,999 with a $600 annual subscription, Cisco WebEx Board  is $4,990 with a $199 monthly subscription, and the Microsoft Surface Hub  is $8,999 and relies on an Office 365 subscription.
