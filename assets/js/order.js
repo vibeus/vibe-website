@@ -2,8 +2,8 @@
 {{ $cartIcon := resources.Get "img/order/cart.svg" | resources.Minify }}
 {{ $products := slice }}
 {{ range .products }}
-{{ $src := resources.Get .figure | resources.Fingerprint }}
-{{ $products = $products | append (merge . (dict "imgSrc" $src.RelPermalink)) }}
+{{ $src := resources.Get .item.figure | resources.Fingerprint }}
+{{ $products = $products | append (merge .item (dict "imgSrc" $src.RelPermalink)) }}
 {{ end }}
 {{ $js := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
 {{ $closeIconSrc := resources.Get "mdi/svg/close.svg" | resources.Minify }}

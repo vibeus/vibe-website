@@ -485,9 +485,10 @@ help:
     collapse_icon: img/onboarding/contact-widget-collapse-icon.svg
     email:
       icon: img/onboarding/email-icon.svg
-      address: info@vibe.us
+      address: support@vibe.us
     phone:
       icon: img/onboarding/phone-icon.svg
       number_href: +1-864-335-2007
       number: +1 (864) 335-2007
+      time: Mon-Fri 9:00-17:00 PST
 ---

@@ -118,16 +118,19 @@
       <span class="content">
         <div class="content-container">
           <div class="email">
-            <span class="icon email-icon">
+            <div class="email-icon">
               {{ (resources.Get .email.icon ).Content | safeHTML }}
-            </span>
+            </div>
             <a class="link" href="mailto:{{ .email.address }}">{{ .email.address }}</a>
           </div>
           <div class="phone">
-            <span class="icon phone-icon">
+            <span class="phone-icon">
               {{ (resources.Get .phone.icon ).Content | safeHTML }}
             </span>
-            <a class="link" href="tel:{{ .phone.number_href }}">{{ .phone.number }}</a>
+            <span class="phone-number">
+              <a class="link" href="tel:{{ .phone.number_href }}">{{ .phone.number }}</a>
+              <span class="time">{{ .phone.time }}</span>
+            </span>
           </div>
           <div class="split-line"></div>
         </div>
