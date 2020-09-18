@@ -1,2 +1,283 @@
 @import "_shared.sass"
 @import "_faq.sass"
+
+$starter-border: #BDBDBD
+$starter-background: #FBFBFB
+$business-border: #66CCCC
+$business-background: #FFF
+$enterprise-border: #6666CC
+$enterprise-background: #FBFBFB
+
+html, body
+  width: 100%
+  margin: 0
+  padding: 0
+  min-width: 1216px
+  overflow-x: scroll
+
+.hero,
+.section.is-faq
+  background-color:#F4F4F4
+
+.section.is-features
+  background-color: white
+
+.hero
+  .hero-body
+    +vertical-padding(120px, 0)
+    .container
+      position: relative
+      max-width: 1440px - 78px - 78px
+      .is-hero-bg
+        width: 755px
+        height: 650px
+        position: absolute
+        z-index: auto
+        top: -69px
+        right: -78px - 191px
+      .content
+        position: relative
+        .title
+          font-size: 50px
+          font-weight: 600
+          line-height: 63px
+          margin-left: 106px - 78px 
+          margin-bottom: 16px
+        .body
+          font-size: 24px
+          line-height: 30px
+          margin-left: 106px - 78px 
+          margin-bottom: 72px
+        .is-plans.columns
+          align-items: flex-end
+          margin: 0
+          padding: 0
+          .is-plan
+            padding: 38px 50px 94px 50px
+            position: relative
+            .plan-title, .price
+              font-size: 30px
+              font-weight: 600
+              line-height: 38px
+              margin-bottom: 8px
+            .plan-body, .price .period, .description
+              font-size: 16px
+              font-weight: normal
+              line-height: 23px
+              position: absolute
+              width: calc(100% - 50px - 50px)
+            .subscription
+              height: 38px
+              margin-top: 96px
+              .price
+                vertical-align: top
+                margin-bottom: 8px
+                .period
+                  margin-left: 7px
+                  margin-top: 2px
+            .split-line
+              width: 78px
+              height: 1.5px
+              position: absolute
+              left: 50px
+              bottom: 0
+          .starter
+            border-top: 8px solid $starter-border
+            background-color: $starter-background
+            box-shadow: -4px 0 48px rgba(0, 0, 0, 0.05)
+            z-index: 5
+            .split-line
+              background-color: $starter-border
+          .business
+            border-top: 8px solid $business-border
+            background-color: $business-background
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.07)
+            z-index: 10
+            padding-top: 62px
+            .split-line
+              background-color: $business-border
+          .enterprise
+            border-top: 8px solid $enterprise-border
+            background-color: $enterprise-background
+            box-shadow: 4px 0px 48px rgba(0, 0, 0, 0.05)
+            z-index: 5
+            .split-line
+              background-color: $enterprise-border
+
+.section.is-features,
+.section.is-features-with-vibe
+  +vertical-padding(0)
+  .container
+    position: relative
+    max-width: 1440px - 78px - 78px
+    .is-plans.columns
+      margin: 0
+      padding: 0
+      .is-plan
+        margin: 0
+        padding: 38px 50px 50px 50px
+        display: flex // set column height equal to longest column in Bulma
+        flex-direction: column
+        justify-content: space-between
+      .starter
+        background-color: $starter-background
+        box-shadow: -4px 4 48px rgba(0, 0, 0, 0.05)
+        z-index: 5
+      .business
+        background-color: $business-background
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.07)
+        z-index: 10
+      .enterprise
+        background-color: $enterprise-background
+        box-shadow: 4px 4px 48px rgba(0, 0, 0, 0.05)
+        z-index: 5
+      .feature-list
+        .feature-title
+          font-weight: bold
+          font-size: 18px
+          line-height: 26px
+          margin-bottom: 16px
+        .feature-item
+          margin-top: 16px
+          font-size: 16px
+          line-height: 23px
+          display: flex
+          flex-direction: row
+          align-item: flex-start
+          .list-icon
+            margin-right: 11px
+            width: 11px
+            display: block
+            height: auto
+            svg
+              width: 100%
+          .text
+            width: calc(100% - 11px - 11px)
+      .cta
+        margin-top: 38px
+        .button
+          border-width: 3px
+          font-weight: 600
+          font-size: 20px
+
+.section.is-vibe-ad
+  overflow: visible
+  +vertical-padding(0)
+  background-color: white
+  .container
+    position: relative
+    z-index: 15 // should be less than 20, the z-index of navbar dropdown
+    max-width: 1440px - 50px - 50px
+    background-color: white
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    padding: 42px 0 42px 175px
+    .is-section-bg
+      position: absolute
+      z-index: auto
+      width: 390px
+      height: 354px
+      left: 52px
+      top: -57px
+      // we should not set container overflow: hidden because of .is-ad-figure
+      clip-path: polygon(0 57px, 100% 57px, 100% 57px + 210px, 0 57px + 210px)
+    .is-ad-figure
+      position: absolute
+      z-index: -1
+      width: 339px
+      height: 252px
+      bottom: 0
+      right: 243px
+    .title
+      position: relative
+      z-index: auto
+      font-weight: 600
+      font-size: 24px
+      line-height: 37px
+      width: 450px
+      .link
+        display: inline-block
+        line-height: 1em
+        border-bottom: 2px solid
+    .cta
+      position: relative
+      z-index: auto
+      font-weight: 500
+      font-size: 18px
+      line-height: 28px
+      .to_hide
+        display: none
+      &.is-active
+        .to_show
+          display: none
+        .to_hide
+          display: inline
+        .hidden-detail-icon
+          display: inline-block
+          transform: rotate(90deg)
+          transform: scaleY(-1)
+
+.section.is-features-with-vibe
+  display: none
+  &.is-active
+    display: block
+  .container
+    .is-plans.columns
+      .is-plan
+        padding: 38px 50px 38px 50px
+      .starter
+        border-bottom: 8px solid $starter-border
+        margin-bottom: 24px
+      .business
+        border-bottom: 8px solid $business-border
+      .enterprise
+        border-bottom: 8px solid $enterprise-border
+        margin-bottom: 24px
+
+.section.is-add-ons
+  +vertical-padding(75px, 120px)
+  background-color: white
+  .container
+    max-width: 1440px - 50px - 50px
+    background-color: white
+    .title
+      margin-left: 100px
+      font-size: 24px
+      font-weight: 600
+      line-height: 37px
+    .is-add-ons
+      // margin: 0
+      // padding: 0
+      .is-add-on.columns
+        // display: flex // all columns have same height
+        margin: 0
+        padding: 0
+        box-sizing: border-box
+        padding: 38px 50px 94px 50px
+        position: relative
+        .add-on-title, .price
+          font-size: 30px
+          font-weight: 600
+          line-height: 38px
+          margin-bottom: 8px
+        .add-on-body, .price .period, .description
+          font-size: 16px
+          font-weight: normal
+          line-height: 23px
+          position: absolute
+          width: calc(100% - 50px - 50px)
+        .subscription
+          height: 38px
+          margin-top: 56px
+          .price
+            vertical-align: top
+            margin-bottom: 8px
+            .period
+              margin-left: 7px
+              margin-top: 2px
+        .split-line
+          width: 78px
+          height: 1.5px
+          position: absolute
+          left: 50px
+          bottom: 0

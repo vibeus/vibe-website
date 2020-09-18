@@ -3,6 +3,5 @@
 */
 import { toggleActive } from '{{ $src.RelPermalink }}';
 
-let gallery;
-
+toggleActive('.section.is-vibe-ad .show-or-hide', true);
 toggleActive('.faq-title', false);
