@@ -54,6 +54,9 @@ apps:
 - id: com.citrix.Receiver
   name: Workspace
   type: productivity
+- id: com.disney.disneyplus
+  name: Disney+
+  type: entertainment
 - id: com.dropbox.android
   name: DropBox
   use_case: presentation
@@ -92,6 +95,9 @@ apps:
 - id: com.lucidchart.android.chart
   name: Lucidchart
   use_case: presentation
+  type: productivity
+- id: com.meisterlabs.meistertask.native
+  name: MeisterTask
   type: productivity
 - id: com.microsoft.office.excel
   name: Microsoft Excel
@@ -146,6 +152,9 @@ apps:
 - id: com.netflix.mediaclient
   name: Netflix
   type: entertainment
+- id: com.nextcloud.client
+  name: Nextcloud
+  type: file
 - id: com.nokoprint
   name: NokoPrint
   type: productivity
