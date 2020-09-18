@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-08-25
 tags: ["standard whiteboard", "whiteboards", "digital"]
 draft: false
-isfeatured: true
+isfeatured: false
 summary: Whiteboards are, without a doubt, a great way to communicate with other people. However, these days, the standard whiteboard is becoming somewhat obsolete because technology has taken over.
 ---
 
