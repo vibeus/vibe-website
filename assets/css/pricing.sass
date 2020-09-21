@@ -31,7 +31,9 @@ html, body
     +vertical-padding(120px, 0)
     .container
       position: relative
-      max-width: 1440px - 78px - 78px
+      // max-width: 1440px - 78px - 78px
+      max-width: 1440px - 50px - 50px
+      padding: 0 28px
       .is-hero-bg
         width: 755px
         height: 650px
@@ -43,7 +45,7 @@ html, body
         position: relative
         .title
           font-size: 50px
-          font-weight: 600
+          font-weight: 500
           line-height: 63px
           margin-left: 106px - 78px 
           margin-bottom: 16px
@@ -61,7 +63,7 @@ html, body
             position: relative
             .plan-title, .price
               font-size: 30px
-              font-weight: 600
+              font-weight: 500
               line-height: 38px
               margin-bottom: 8px
             .plan-body, .price .period, .description
@@ -113,7 +115,9 @@ html, body
   +vertical-padding(0)
   .container
     position: relative
-    max-width: 1440px - 78px - 78px
+    // max-width: 1440px - 78px - 78px
+    max-width: 1440px - 50px - 50px
+    padding: 0 28px
     .is-plans.columns
       margin: 0
       padding: 0
@@ -137,7 +141,7 @@ html, body
         z-index: 5
       .feature-list
         .feature-title
-          font-weight: bold
+          font-weight: 500
           font-size: 18px
           line-height: 26px
           margin-bottom: 16px
@@ -161,7 +165,7 @@ html, body
         margin-top: 38px
         .button
           border-width: 3px
-          font-weight: 600
+          font-weight: 500
           font-size: 20px
 
 .section.is-vibe-ad
@@ -185,6 +189,7 @@ html, body
       top: -57px
       // we should not set container overflow: hidden because of .is-ad-figure
       clip-path: polygon(0 57px, 100% 57px, 100% 57px + 210px, 0 57px + 210px)
+      -webkit-clip-path: polygon(0 57px, 100% 57px, 100% 57px + 210px, 0 57px + 210px)
     .is-ad-figure
       position: absolute
       z-index: -1
@@ -195,7 +200,7 @@ html, body
     .title
       position: relative
       z-index: auto
-      font-weight: 600
+      font-weight: 500
       font-size: 24px
       line-height: 37px
       width: 450px
@@ -250,7 +255,7 @@ html, body
       margin-left: 50px
       margin-bottom: 32px
       font-size: 24px
-      font-weight: 600
+      font-weight: 500
       line-height: 37px
     .is-add-ons
       .is-add-on.columns
@@ -267,7 +272,7 @@ html, body
           padding: 38px 50px 38px 50px - 8px
           .add-on-title, .price
             font-size: 30px
-            font-weight: 600
+            font-weight: 500
             line-height: 38px
             margin-bottom: 8px
           .add-on-body, .price .period, .description
@@ -289,13 +294,13 @@ html, body
             margin-top: 90px
             .button
               border-width: 3px
-              font-weight: 600
+              font-weight: 500
               font-size: 20px
         .feature-column
           padding: 38px 50px 38px 0
           .feature-list
             .feature-title
-              font-weight: bold
+              font-weight: 500
               font-size: 18px
               line-height: 26px
               margin-bottom: 16px
