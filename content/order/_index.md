@@ -18,9 +18,7 @@ products:
       price: 2999
       figure: img/order/product-gallery-1.png
       sold_out: false
-      backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 12-18 days.'
-        cart_notice: Shipping Delayed. Expected to ship in 12-18 days.
+      backorder: false
   - item: &id002
       product_name: white_stand
       title: i18n-content-order-_index-products-i_1-item-title
@@ -28,9 +26,7 @@ products:
       price: 500
       figure: img/order/accessory-stand-w.png
       sold_out: false
-      backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 12-18 days.'
-        cart_notice: Shipping Delayed. Expected to ship in 12-18 days.
+      backorder: false
   - item: &id003
       product_name: red_stand
       title: i18n-content-order-_index-products-i_2-item-title
@@ -38,9 +34,7 @@ products:
       price: 500
       figure: img/order/accessory-stand-r.png
       sold_out: false
-      backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 12-18 days.'
-        cart_notice: Shipping Delayed. Expected to ship in 12-18 days.
+      backorder: false
   - item: &id004
       product_name: stylus
       title: i18n-content-order-_index-products-i_3-item-title
@@ -49,8 +43,8 @@ products:
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 12-18 days.'
-        cart_notice: Shipping Delayed. Expected to ship in 12-18 days.
+        item_notice: '**Shipping Delayed.** Expected to ship in 15-20 days.'
+        cart_notice: Shipping Delayed. Expected to ship in 15-20 days.
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns

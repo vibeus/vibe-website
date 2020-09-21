@@ -54,6 +54,9 @@ apps:
 - id: com.citrix.Receiver
   name: Workspace
   type: productivity
+- id: com.disney.disneyplus
+  name: Disney+
+  type: entertainment
 - id: com.dropbox.android
   name: DropBox
   use_case: presentation
@@ -92,6 +95,9 @@ apps:
 - id: com.lucidchart.android.chart
   name: Lucidchart
   use_case: presentation
+  type: productivity
+- id: com.meisterlabs.meistertask.native
+  name: MeisterTask
   type: productivity
 - id: com.microsoft.office.excel
   name: Microsoft Excel
@@ -146,6 +152,9 @@ apps:
 - id: com.netflix.mediaclient
   name: Netflix
   type: entertainment
+- id: com.nextcloud.client
+  name: Nextcloud
+  type: file
 - id: com.nokoprint
   name: NokoPrint
   type: productivity
@@ -177,9 +186,6 @@ apps:
   name: Skype Lite
   use_case: remote
   type: vc
-- id: com.ss.android.ugc.trill
-  name: TikTok
-  type: entertainment
 - id: com.teamviewer.quicksupport.addon.universal
   name: TeamViewer Universal Add-On
   type: productivity
@@ -190,9 +196,6 @@ apps:
   name: TeamViewer
   use_case: remote
   type: productivity
-- id: com.tencent.mm
-  name: WeChat
-  type: communication
 - id: com.tencent.voov
   name: VooV
   type: vc
