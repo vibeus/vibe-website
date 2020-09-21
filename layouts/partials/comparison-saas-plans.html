@@ -69,7 +69,7 @@
     <th class="is-sticky is-feature-name is-left-align"></th>
     {{ range .plans_info }}
     <th class="is-sticky is-space"></th>
-    <th colspan="4">
+    <th class="is-sticky" colspan="4">
       {{ with .features.cta }}
       <a class="button {{ with .class }} {{ . }}{{ end }}" href="{{ .url }}">
         {{ .title }}
