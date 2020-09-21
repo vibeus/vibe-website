@@ -27,7 +27,11 @@ html, body
     top: $navbar-height
     position: -webkit-sticky
     position: sticky
-    transform: translate3d(0,0,0) // iOS Safari trick
+    // try to fix flickering
+    z-index: 999
+    transform: translate3d(0,0,0)
+    transform-style: preserver-3d
+    backface-visibility: hidden
   .is-normal-font-weight
     font-weight: normal
   .is-feature-name
