@@ -94,8 +94,8 @@
     {{ with .cta }}
     {{ with .link }}
     <a class="cta link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}data-target="{{ . }}"{{ end }}>
-      <span class="to_show">{{ .to_show }}</span>
-      <span class="to_hide">{{ .to_hide }}</span>
+      <span class="to-show">{{ .to_show }}</span>
+      <span class="to-hide">{{ .to_hide }}</span>
       {{ with .icon }}
       <span class="link-icon{{ with .class}} {{ . }}{{ end }}">{{ .text }}</span>
       {{ end }}
