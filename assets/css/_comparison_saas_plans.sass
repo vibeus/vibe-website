@@ -2,13 +2,19 @@
 @import "_bottom-cta.sass"
 
 // required for position: sticky to work
+
+html, body 
+  width: 100%
+  margin: 0
+  padding: 0
+
 .section.is-comparison
   +vertical-padding(0)
   overflow: visible
-  padding-left: 0
-  padding-right: 0
   .container
+    display: block
     overflow: visible
+    position: -webkit-static
     position: static
     max-width: 1440px - 50px - 50px
 
@@ -19,7 +25,9 @@
   border-collapse: separate
   .is-sticky
     top: $navbar-height
+    position: -webkit-sticky
     position: sticky
+    transform: translate3d(0,0,0) // iOS Safari trick
   .is-normal-font-weight
     font-weight: normal
   .is-feature-name
@@ -32,11 +40,9 @@
   .is-margin
     width: 28px
   .is-plan-name
-    width: calc((100% - 20px * 3 - 34px * 6 - 250px) / 3)
-    box-sizing: border-box
+    //
   .is-web, .is-vibe-board
-    width: calc((100% - 20px * 3 - 34px * 6 - 250px) / 6)
-    border-bottom: 1.5px solid #FBFBFB
+    border-bottom: 1px solid #FBFBFB
   .has-bgc
     background-color: #FBFBFB
   .is-left-align
@@ -53,14 +59,13 @@
   tr.is-hoverable:hover 
     td, th
       background-color: #F6F6F6
-      // opacity: 0.8
   tr.thead th
     top: $navbar-height
   tr.is-section th
-    top: calc(#{$navbar-height} + 24px + 15px + 15px + 1.5px)
+    top: calc(#{$navbar-height} + 24px + 15px + 15px + 1px)
   tr.is-section.has-extra-top-padding th
     top: calc(#{$navbar-height} + 24px + 15px + 15px - 36px + 15px)
   .button
     border-width: 3px
-    font-weight: 600
+    font-weight: 500
     font-size: 20px
