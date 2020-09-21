@@ -3,7 +3,7 @@ title: "Sharing Options"
 slug: sharing-options
 date: 2020-09-11
 draft: false
-isfeatured: true
+isfeatured: false
 summary: Get an overview of how to share the Vibe board with remote participants. 
 videoId: j3fxzVYUCvk
 allowIndex: false
