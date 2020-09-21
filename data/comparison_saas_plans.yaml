@@ -1,0 +1,347 @@
+plans:
+  - id: starter
+    name: Starter
+    icon_color: '#BDBDBD'
+    web:
+      feature:
+        limit: 10
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: limited
+        template: 'true'
+      sharing:
+        link: limited
+        viewers: 'true'
+        editors: 'false'
+        turn_off: 'false'
+        code: 'false'
+        email: 'false'
+      data&privacy:
+        pdf: 'true'
+        sync: 'false'
+        offline: 'false'
+      team:
+        guest: 'true'
+        workspace: 'false'
+        templates: 'false'
+      business:
+        apps: 'false'
+        presentation: 'false'
+        vc: 'false'
+        screencast: 'false'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'false'
+        custom: 'false'
+        bulk: 'false'
+        jobs: 'false'
+        report: 'false'
+      enterprise:
+        sso&sla: 'false'
+        policy: 'false'
+        private: 'false'
+        support: 'false'
+        integration: 'false'
+    vibe_board:
+      feature:
+        limit: Unlimited
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: 'true'
+        template: 'true'
+      sharing:
+        link: 'true'
+        viewers: 'true'
+        editors: 'true'
+        turn_off: 'true'
+        code: 'true'
+        email: 'true'
+      data&privacy:
+        pdf: 'true'
+        sync: 'true'
+        offline: 'true'
+      team:
+        guest: 'true'
+        workspace: 'false'
+        templates: 'false'
+      business:
+        apps: 'true'
+        presentation: 'true'
+        vc: 'true'
+        screencast: 'true'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'false'
+        custom: 'false'
+        bulk: 'false'
+        jobs: 'false'
+        report: 'false'
+      enterprise:
+        sso&sla: 'false'
+        policy: 'false'
+        private: 'false'
+        support: 'false'
+        integration: 'false'
+  - id: business
+    name: Business
+    icon_color: '#66CCCC'
+    web:
+      feature:
+        limit: Unlimited
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: 'true'
+        template: 'true'
+      sharing:
+        link: 'true'
+        viewers: 'true'
+        editors: 'true'
+        turn_off: 'true'
+        code: 'true'
+        email: 'true'
+      data&privacy:
+        pdf: 'true'
+        sync: 'true'
+        offline: 'false'
+      team:
+        guest: 'true'
+        workspace: 'true'
+        templates: 'true'
+      business:
+        apps: 'false'
+        presentation: 'false'
+        vc: 'false'
+        screencast: 'false'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'true'
+        custom: 'false'
+        bulk: 'false'
+        jobs: 'false'
+        report: 'false'
+      enterprise:
+        sso&sla: 'true'
+        policy: 'false'
+        private: 'false'
+        support: 'false'
+        integration: 'false'
+    vibe_board:
+      feature:
+        limit: Unlimited
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: 'true'
+        template: 'true'
+      sharing:
+        link: 'true'
+        viewers: 'true'
+        editors: 'true'
+        turn_off: 'true'
+        code: 'true'
+        email: 'true'
+      data&privacy:
+        pdf: 'true'
+        sync: 'true'
+        offline: 'true'
+      team:
+        guest: 'true'
+        workspace: 'true'
+        templates: 'true'
+      business:
+        apps: 'true'
+        presentation: 'true'
+        vc: 'true'
+        screencast: 'true'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'true'
+        custom: 'false'
+        bulk: 'false'
+        jobs: 'false'
+        report: 'false'
+      enterprise:
+        sso&sla: 'true'
+        policy: 'false'
+        private: 'false'
+        support: 'false'
+        integration: 'false'
+  - id: enterprise
+    name: Enterprise
+    icon_color: '#6666CC'
+    web:
+      feature:
+        limit: Unlimited
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: 'true'
+        template: 'true'
+      sharing:
+        link: 'true'
+        viewers: 'true'
+        editors: 'true'
+        turn_off: 'true'
+        code: 'true'
+        email: 'true'
+      data&privacy:
+        pdf: 'true'
+        sync: 'true'
+        offline: 'false'
+      team:
+        guest: 'true'
+        workspace: 'true'
+        templates: 'true'
+      business:
+        apps: 'false'
+        presentation: 'false'
+        vc: 'false'
+        screencast: 'false'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'true'
+        custom: 'true'
+        bulk: 'true'
+        jobs: 'true'
+        report: 'true'
+      enterprise:
+        sso&sla: 'true'
+        policy: 'true'
+        private: 'true'
+        support: 'true'
+        integration: 'true'
+    vibe_board:
+      feature:
+        limit: Unlimited
+        collaboration: 'true'
+        cloudDrives: 'true'
+        pdf: 'true'
+        template: 'true'
+      sharing:
+        link: 'true'
+        viewers: 'true'
+        editors: 'true'
+        turn_off: 'true'
+        code: 'true'
+        email: 'true'
+      data&privacy:
+        pdf: 'true'
+        sync: 'true'
+        offline: 'true'
+      team:
+        guest: 'true'
+        workspace: 'true'
+        templates: 'true'
+      business:
+        apps: 'true'
+        presentation: 'true'
+        vc: 'true'
+        screencast: 'true'
+      fleet:
+        monitor: 'true'
+        policy: 'true'
+        apps: 'true'
+        custom: 'true'
+        bulk: 'true'
+        jobs: 'true'
+        report: 'true'
+      enterprise:
+        sso&sla: 'true'
+        policy: 'true'
+        private: 'true'
+        support: 'true'
+        integration: 'true'
+features:
+  - id: feature
+    title: FEATURE
+    items:
+      - id: limit
+        title: Board Limit
+      - id: collaboration
+        title: Cloud Collaboration
+      - id: cloudDrives
+        title: Import from Cloud Drives
+      - id: pdf
+        title: Export to PDF
+      - id: template
+        title: Template Builder
+  - id: sharing
+    title: SHARING
+    items:
+      - id: link
+        title: Share via Link
+      - id: viewers
+        title: Anonymous Viewers
+      - id: editors
+        title: Anonymous Editors
+      - id: turn_off
+        title: Turn off Shared Link
+      - id: code
+        title: Share via Code
+      - id: email
+        title: Share via Email
+  - id: data&privacy
+    title: DATA AND PRIVACY
+    items:
+      - id: pdf
+        title: Export PDF to Cloud Drive
+      - id: sync
+        title: Cloud Drive Sync
+      - id: offline
+        title: Offline Mode
+  - id: team
+    title: TEAM PRODUCTIVITY
+    items:
+      - id: guest
+        title: Team Workspace Guest
+      - id: workspace
+        title: Team Workspace
+      - id: templates
+        title: Shared Team Templates
+  - id: business
+    title: BUSINESS PRODUCTIVITY
+    items:
+      - id: apps
+        title: Apps Ecosystem
+      - id: presentation
+        title: Presentation & Annotation
+      - id: vc
+        title: One-Click Video Conferencing
+      - id: screencast
+        title: Screen Casting
+  - id: fleet
+    title: FlEET MANAGEMENT  
+    items:
+      - id: monitor
+        title: Device Monitoring
+      - id: policy
+        title: Policy Edit
+      - id: apps
+        title: Configure Team Apps
+      - id: custom
+        title: Custom Device Policy
+      - id: bulk
+        title: Bulk Operations
+      - id: jobs
+        title: Scheduled Jobs
+      - id: report
+        title: Device Reporting
+  - id: enterprise
+    title: ENTERPRISE READY
+    items:
+      - id: sso&sla
+        title: SSO & SLA
+      - id: policy
+        title: Custom Management Policy
+      - id: private
+        title: Private Cloud Capable
+      - id: support
+        title: Dedicated Customer Support
+      - id: integration
+        title: SMAL/LDAP Integration
+platforms:
+  - id: web
+  - id: vibe_board
