@@ -1,0 +1,82 @@
+<table class="table is-comparison">
+  <tr class="thead is-sticky">
+    <th class="is-sticky is-margin"></th>
+    <th class="is-sticky is-feature-name"></th>
+    {{ range .plans }}
+    <th class="is-sticky is-space"></th>
+    <th class="is-sticky is-padding has-bgc"></th>
+    <th colspan="2" class="is-sticky is-plan-name is-{{ .id }} has-bgc" style="border-bottom: 1.5px solid {{ .icon_color }}">{{ .name }}</th>
+    <th class="is-sticky is-padding has-bgc"></th>
+    {{ end }}
+    <th class="is-sticky is-margin"></th>
+  </tr>
+  {{ range $index, $it := .features }}
+  {{ $feature := $it.id }}
+  <tr class="tbody is-section{{ if not (eq 0 $index) }} has-extra-top-padding{{ end }}">
+    <th class="is-sticky is-margin"></th>
+    <th class= "is-sticky is-left-align">{{ .title | markdownify }}</p></th>
+    {{ range $.plans }}
+    <th class="is-sticky is-space"></th>
+    <th class="{{ if eq 0 $index }}is-sticky{{ end }} is-padding has-bgc"></th>
+    {{ if eq 0 $index }}
+    <th class="is-sticky is-web has-bgc">Web App</th>
+    {{ else }}
+    <th class="has-bgc"></th>
+    {{ end }}
+    {{ if eq 0 $index }}
+    <th class="is-sticky is-vibe-board has-bgc">Vibe Board</th>
+    {{ else }}
+    <th class="has-bgc"></th>
+    {{ end }}
+    <th class="{{ if eq 0 $index }}is-sticky{{ end }} is-padding has-bgc"></th>
+    {{ end }}
+    <th class="is-sticky is-margin"></th>
+  </tr>
+  {{ range .items }}
+  {{ $sub := .id }}
+  <tr class="tbody is-hoverable">
+    <th class="is-margin"></th>
+    <th class="is-normal-font-weight is-left-align">{{ .title }}</th>
+    {{ range $.plans }}
+    {{ $plan := . }}
+    <td class="is-space"></td>
+    <td class="is-padding has-bgc"></td>
+    {{ range $.platforms }}
+    <td class="has-bgc">
+      {{ $value := index (index (index $plan .id) $feature) $sub }}
+
+      {{ if and $value (eq "true" $value) }}
+      <span class="icon">
+        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 6.41745L8.04196 12.4849L18 2.48486" stroke="{{ $plan.icon_color }}" stroke-width="3" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </span>
+      {{ else if and $value (not (eq "false" $value)) }}
+      {{ $value | markdownify }}
+      {{ end }}
+    </td>
+    {{ end }} <!-- platforms -->
+    <td class="is-padding has-bgc"></td>
+    {{ end }} <!-- plans -->
+    <th class="is-margin"></th>
+  </tr>
+  {{ end }} <!-- items -->
+  {{ end }} <!-- features -->
+
+  <tr class="tbody is-cta">
+    <th class="is-sticky is-margin"></th>
+    <th class="is-sticky is-feature-name is-left-align"></th>
+    {{ range .plans_info }}
+    <th class="is-sticky is-space"></th>
+    <th colspan="4">
+      {{ with .features.cta }}
+      <a class="button {{ with .class }} {{ . }}{{ end }}" href="{{ .url }}">
+        {{ .title }}
+      </a>
+      {{ end }}
+    </th>
+    {{ end }}
+    <th class="is-sticky is-margin"></th>
+  </tr>
+</table>

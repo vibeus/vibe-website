@@ -1,5 +1,6 @@
 @import "_shared.sass"
 @import "_faq.sass"
+@import "_comparison_saas_plans.sass"
 
 $starter-border: #BDBDBD
 $starter-background: #FBFBFB
@@ -8,12 +9,15 @@ $business-background: #FFF
 $enterprise-border: #6666CC
 $enterprise-background: #FBFBFB
 
+$distance-learning-border: #FFCC00
+$distance-learning-background: rgba(255, 255, 255, 0.69)
+
 html, body
   width: 100%
   margin: 0
   padding: 0
   min-width: 1216px
-  overflow-x: scroll
+  // overflow-x: scroll
 
 .hero,
 .section.is-faq
@@ -235,49 +239,111 @@ html, body
         margin-bottom: 24px
 
 .section.is-add-ons
+  &.is-hidden
+    // display: none
   +vertical-padding(75px, 120px)
   background-color: white
   .container
     max-width: 1440px - 50px - 50px
     background-color: white
     .title
-      margin-left: 100px
+      margin-left: 50px
+      margin-bottom: 32px
       font-size: 24px
       font-weight: 600
       line-height: 37px
     .is-add-ons
-      // margin: 0
-      // padding: 0
       .is-add-on.columns
-        // display: flex // all columns have same height
         margin: 0
         padding: 0
         box-sizing: border-box
-        padding: 38px 50px 94px 50px
+        border-left: 8px solid black
         position: relative
-        .add-on-title, .price
-          font-size: 30px
-          font-weight: 600
-          line-height: 38px
-          margin-bottom: 8px
-        .add-on-body, .price .period, .description
-          font-size: 16px
-          font-weight: normal
-          line-height: 23px
-          position: absolute
-          width: calc(100% - 50px - 50px)
-        .subscription
-          height: 38px
-          margin-top: 56px
-          .price
-            vertical-align: top
+        .column
+          display: flex // all columns have same height
+          flex-direction: column
+          justify-content: space-between
+        .brief-column
+          padding: 38px 50px 38px 50px - 8px
+          .add-on-title, .price
+            font-size: 30px
+            font-weight: 600
+            line-height: 38px
             margin-bottom: 8px
-            .period
-              margin-left: 7px
-              margin-top: 2px
-        .split-line
-          width: 78px
-          height: 1.5px
-          position: absolute
-          left: 50px
-          bottom: 0
+          .add-on-body, .price .period, .description
+            font-size: 16px
+            font-weight: normal
+            line-height: 23px
+            position: absolute
+            width: calc(100% - 50px - 50px)
+          .subscription
+            height: 38px
+            margin-top: 56px
+            .price
+              vertical-align: top
+              margin-bottom: 8px
+              .period
+                margin-left: 7px
+                margin-top: 2px
+          .cta
+            margin-top: 90px
+            .button
+              border-width: 3px
+              font-weight: 600
+              font-size: 20px
+        .feature-column
+          padding: 38px 50px 38px 0
+          .feature-list
+            .feature-title
+              font-weight: bold
+              font-size: 18px
+              line-height: 26px
+              margin-bottom: 16px
+            .feature-item
+              margin-top: 16px
+              font-size: 16px
+              line-height: 23px
+              display: flex
+              flex-direction: row
+              align-item: flex-start
+              .list-icon
+                margin-right: 11px
+                width: 11px
+                display: block
+                height: auto
+                svg
+                  width: 100%
+              .text
+                width: calc(100% - 11px - 11px)
+          .cta
+            margin-top: 38px
+            font-size: 16px
+            font-weight: 500
+            line-height: 23px
+            text-decoration: underline
+      .distance-learning.columns
+        border-left-color: $distance-learning-border
+        background-color: $distance-learning-background
+        box-shadow: -4px 4px 48px rgba(0, 0, 0, 0.05)
+        .feature-column .feature-item .list-icon svg path
+          stroke: $distance-learning-border
+
+.section.is-comparison
+  +vertical-padding(72px, 72px)
+  text-align: center
+  .title
+    font-size: 24px
+    line-height: 30px
+    margin-bottom: 8px
+  .is-comparison-wrapper
+    display: none
+    margin-top: 40px
+    .toggle-comparison
+      line-height: 1
+  &.is-active
+    .is-comparison-wrapper
+      display: block
+    .chevron-icon svg
+        transform: scaleY(-1)
+  .chevron-icon:hover svg path
+    fill: $vibe-pink

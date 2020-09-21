@@ -1,0 +1,66 @@
+@import "_shared.sass"
+@import "_bottom-cta.sass"
+
+// required for position: sticky to work
+.section.is-comparison
+  +vertical-padding(0)
+  overflow: visible
+  padding-left: 0
+  padding-right: 0
+  .container
+    overflow: visible
+    position: static
+    max-width: 1440px - 50px - 50px
+
+.table.is-comparison
+  table-layout: fixed
+  width: 100%
+  font-size: 16px
+  border-collapse: separate
+  .is-sticky
+    top: $navbar-height
+    position: sticky
+  .is-normal-font-weight
+    font-weight: normal
+  .is-feature-name
+    width: 250px
+  .is-space
+    width: 20px
+    background-color: white
+  .is-padding
+    width: 34px
+  .is-margin
+    width: 28px
+  .is-plan-name
+    width: calc((100% - 20px * 3 - 34px * 6 - 250px) / 3)
+    box-sizing: border-box
+  .is-web, .is-vibe-board
+    width: calc((100% - 20px * 3 - 34px * 6 - 250px) / 6)
+    border-bottom: 1.5px solid #FBFBFB
+  .has-bgc
+    background-color: #FBFBFB
+  .is-left-align
+    text-align: left
+  .has-extra-top-padding
+    th, td
+      padding-top: 36px
+  td, th
+    text-align: center
+    padding: 15px 0 15px 0
+    vertical-align: middle
+    border: none
+    background-color: white
+  tr.is-hoverable:hover 
+    td, th
+      background-color: #F6F6F6
+      // opacity: 0.8
+  tr.thead th
+    top: $navbar-height
+  tr.is-section th
+    top: calc(#{$navbar-height} + 24px + 15px + 15px + 1.5px)
+  tr.is-section.has-extra-top-padding th
+    top: calc(#{$navbar-height} + 24px + 15px + 15px - 36px + 15px)
+  .button
+    border-width: 3px
+    font-weight: 600
+    font-size: 20px

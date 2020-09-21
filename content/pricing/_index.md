@@ -2,7 +2,7 @@
 title: i18n-content-pricing-_index-title
 stylesPath: css/pricing.sass
 plans: &plans
-  - class: starter is-third
+  - class: starter is-one-third
     title: Starter
     body: Sufficient for home use or startups
     subscription:
@@ -29,7 +29,7 @@ plans: &plans
         - Present your ideas wirelessly and annotate during your discussion
         - Work in offline mode that guarantees data security 
         - Our robust apps ecosystem let you use apps that you already love
-  - class: business is-third
+  - class: business is-one-third
     title: Business
     body: More powerful features that empower team productivity
     subscription:
@@ -57,7 +57,7 @@ plans: &plans
         - Device management and configuration for your team
         - Team Apps
         - Customized Homescreen
-  - class: enterprise is-third
+  - class: enterprise is-one-third
     title: Enterprise
     body: Solutions tailored toward each unique enterprise
     features:
@@ -90,6 +90,9 @@ add_on_plans: &add_on_plans
       price: 12.99
       period: mo
       body: Per seat, per month. Free to students.
+    cta:
+      title: Try Free for 14 Days
+      class: is-black is-outlined is-rounded
     features:
       list_icon: img/pricing/check-icon.svg
       title: 'Top features:'
@@ -102,16 +105,14 @@ add_on_plans: &add_on_plans
         - Access to Vibe education templates store to upload or download templates made by other educators
         - Extra 10GB of cloud storage
       cta:
-        title: Try Free for 14 Days
-        class: is-black is-outlined is-rounded
+        title: Learn more
+
 hero:
   title: Choose the plan that’s right for your team
   body: Pay by month or the year, and cancel at any time.
   plans: *plans
-
 features:
   plans: *plans
-
 vibe_ad:
   figure: img/pricing/vibe-ad.png
   background: img/common/outline-logo.svg
@@ -129,16 +130,23 @@ vibe_ad:
       icon: 
         class: hidden-detail-icon
         text: '↓'
-
 features_with_vibe:
   id: *features_with_vibe_id
   plans: *plans
-
 add_ons:
+  class: is-hidden
   title: Available add-ons
   add_on_plans: *add_on_plans
-  
-
+comparison:
+  id: &comparison_id comparison
+  cta:
+    title: See plans comparison detail
+    link:
+      class: toggle-comparison
+      target: *comparison_id
+      icon: 
+        class: chevron-icon
+        mdi_icon: chevron-down:24
 faq:
   title: i18n-content-pricing-_index-faq-title
   items:

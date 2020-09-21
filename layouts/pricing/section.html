@@ -1,9 +1,3 @@
-{{ define "stylesheets" }}
-<style>
-{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
-</style>
-{{ end }}
-
 {{ define "main" }}<main class="pricing">
 
 {{ with .Params.hero }}
@@ -147,31 +141,95 @@
 {{ end }}
 
 {{ with .Params.add_ons}}
-<section class="section is-add-ons">
+<section class="section is-add-ons{{ with .class }} {{ . }}{{ end }}">
   <div class="container">
     <div class="title">{{ .title }}</div>
     <div class="is-add-ons">
       {{ range .add_on_plans }}
       <div class="is-add-on columns is-mobile{{ with .class }} {{ . }}{{ end }}">
-        <div class="column is-third">
-          <div class="add-on-title">{{ .title }}</div>
-          <div class="add-on-body">{{ .body }}</div>
-          <div class="subscription">
-            {{ with .subscription }}
-            <div class="price">
-              <span class="amount">${{ .price }}</span>
-              {{ with .period }}
-              <span class="period">/{{ . }}</span>
+        <div class="column brief-column is-one-third">
+          <div class="header">
+            <div class="add-on-title">{{ .title }}</div>
+            <div class="add-on-body">{{ .body }}</div>
+            <div class="subscription">
+              {{ with .subscription }}
+              <div class="price">
+                <span class="amount">${{ .price }}</span>
+                {{ with .period }}
+                <span class="period">/{{ . }}</span>
+                {{ end }}
+              </div>
+              {{ with .body }}<div class="description">{{ . }}</div>{{ end }}
               {{ end }}
             </div>
-            {{ with .body }}<div class="description">{{ . }}</div>{{ end }}
+          </div>
+          {{ with .cta }}
+          <div class="cta">
+            <a class="button {{ with .class }} {{ . }}{{ end }}" href="{{ .url }}">
+              {{ .title }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+        <div class="column feature-column">
+          {{ with .features }}
+          <div class="feature-list">
+            <div class="feature-title">{{ .title }}</div>
+            {{ $list_icon := .list_icon }}
+            {{ range .body }}
+            <div class="feature-item">
+              <div class="list-icon">
+                {{ (resources.Get $list_icon).Content | safeHTML }}
+              </div>
+              <div class="text">{{ . }}</div>
+            </div>
             {{ end }}
           </div>
-        </div>
-        <div class="column feature">
-
+          {{ with .cta }}
+          <div class="cta">
+            <a class="link {{ with .class }} {{ . }}{{ end }}" {{ with .url }}href="{{ . }}"{{ end }}>
+              {{ .title }}
+            </a>
+          </div>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.comparison }}
+<section class="section is-comparison" {{ with .id }}id="{{ . }}"{{ end }}>
+  <div class="container">
+    {{ $comparison_id := "comparison" }}
+    {{ with .cta }}
+    <div class="is-cta">
+      <div class="title">{{ .title }}</div>
+      {{ with .link }}
+      <a class="link{{ with .class }} {{ . }}{{ end }}"{{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"{{ end }}>
+        {{ with .icon }}
+        <span class="link-icon{{ with .class }} {{ . }}{{ end }}">
+          {{ partial "common/mdi" .mdi_icon }}
+        </span>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="is-comparison-wrapper">
+      {{ partial "comparison-saas-plans" (dict "features" $.Site.Data.comparison_saas_plans.features "plans" $.Site.Data.comparison_saas_plans.plans "platforms" $.Site.Data.comparison_saas_plans.platforms "plans_info" $.Params.plans) }}
+      {{ with .cta.link }}
+      <a class="link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"
+        {{ end }}>
+        {{ with .icon }}
+        <div class="link-icon{{ with .class }} {{ . }}{{ end }}">
+          {{ partial "common/mdi" .mdi_icon }}
+        </div>
+        {{ end }}
+      </a>
       {{ end }}
     </div>
   </div>
