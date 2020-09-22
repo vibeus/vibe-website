@@ -13,14 +13,14 @@
         <div class="is-plans columns is-mobile">
           {{ range .plans }}
           <div class="is-plan column{{ with .class }} {{ . }}{{ end }}">
-            <div class="plan-title">{{ .title }}</div>
+            <h2 class="plan-title">{{ .title }}</h2>
             <div class="plan-body">{{ .body }}</div>
             <div class="subscription">
               {{ with .subscription }}
               <div class="price">
-                <span class="amount">${{ .price }}</span>
+                <h2 class="amount">${{ .price }}</h2>
                 {{ with .period }}
-                <span class="period">/{{ . }}</span>
+                <h4 class="period">/{{ . }}</h4>
                 {{ end }}
               </div>
               {{ with .body }}<div class="description">{{ . }}</div>{{ end }}

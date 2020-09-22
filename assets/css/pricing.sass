@@ -31,7 +31,6 @@ html, body
     +vertical-padding(120px, 0)
     .container
       position: relative
-      // max-width: 1440px - 78px - 78px
       max-width: 1440px - 50px - 50px
       padding: 0 28px
       .is-hero-bg
@@ -50,7 +49,7 @@ html, body
           margin-left: 106px - 78px 
           margin-bottom: 16px
         .body
-          font-size: 24px
+          font-size: 20px
           line-height: 30px
           margin-left: 106px - 78px 
           margin-bottom: 72px
@@ -61,11 +60,13 @@ html, body
           .is-plan
             padding: 38px 50px 94px 50px
             position: relative
-            .plan-title, .price
+            .plan-title, .amount
               font-size: 30px
               font-weight: 500
               line-height: 38px
               margin-bottom: 8px
+            .amount
+              display: inline-block
             .plan-body, .price .period, .description
               font-size: 16px
               font-weight: normal
@@ -79,8 +80,10 @@ html, body
                 vertical-align: top
                 margin-bottom: 8px
                 .period
+                  font-weight: 400
                   margin-left: 7px
                   margin-top: 2px
+                  display: inline-block
             .split-line
               width: 78px
               height: 1.5px
@@ -245,7 +248,7 @@ html, body
 
 .section.is-add-ons
   &.is-hidden
-    // display: none
+    display: none
   +vertical-padding(75px, 120px)
   background-color: white
   .container
