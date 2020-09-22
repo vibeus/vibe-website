@@ -222,8 +222,7 @@
     <div class="is-comparison-wrapper">
       {{ partial "comparison-saas-plans" (dict "features" $.Site.Data.comparison_saas_plans.features "plans" $.Site.Data.comparison_saas_plans.plans "platforms" $.Site.Data.comparison_saas_plans.platforms "plans_info" $.Params.plans) }}
       {{ with .cta.link }}
-      <a class="link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"
-        {{ end }}>
+      <a class="link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"{{ end }}>
         {{ with .icon }}
         <div class="link-icon{{ with .class }} {{ . }}{{ end }}">
           {{ partial "common/mdi" .mdi_icon }}
@@ -231,6 +230,7 @@
         {{ end }}
       </a>
       {{ end }}
+      <div class="collapse-text">Hide detail</div>
     </div>
   </div>
 </section>

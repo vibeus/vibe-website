@@ -115,7 +115,6 @@ html, body
   +vertical-padding(0)
   .container
     position: relative
-    // max-width: 1440px - 78px - 78px
     max-width: 1440px - 50px - 50px
     padding: 0 28px
     .is-plans.columns
@@ -123,7 +122,7 @@ html, body
       padding: 0
       .is-plan
         margin: 0
-        padding: 38px 50px 50px 50px
+        padding: 38px 50px 80px 50px
         display: flex // set column height equal to longest column in Bulma
         flex-direction: column
         justify-content: space-between
@@ -346,6 +345,10 @@ html, body
     margin-top: 40px
     .toggle-comparison
       line-height: 1
+    .collapse-text
+      font-weight: 500
+      font-size: 18px
+      line-height: 28px
   &.is-active
     .is-comparison-wrapper
       display: block
