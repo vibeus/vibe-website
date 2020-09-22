@@ -4,7 +4,7 @@ slug: making-sure-your-kids-still-have-an-active-social-life-while-learning-remo
 author: Karen Belz
 date: 2020-09-21
 tags: ["entertainment", "whiteboards", "digital"]
-draft: true
+draft: false
 isfeatured: false
 summary: Vibe boards are a great way to make sure that your children can keep socializing while learning remotely.
 ---
