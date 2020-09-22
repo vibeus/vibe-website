@@ -1,8 +1,7 @@
 ---
-title: i18n-content-hardware-_index-title
+title: Hardware Specs for Vibe, a digital touchscreen whiteboard
 description:
-  Vibe digital whiteboard is a 55" 4k touchscreen display built for real-time
-  remote collaboration and video conferencing, all compatible with your favorite apps
+  Vibe digital whiteboard is a 55" 4k touchscreen display built for real-time remote collaboration. Vibe's large touch screen tablet has built-in whiteboarding.
 stylesPath: css/hardware.sass
 aliases:
   - /product/

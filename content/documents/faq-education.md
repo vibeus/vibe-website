@@ -1,6 +1,8 @@
 ---
 url: /faqs-for-teachers-and-educators/
-title: &title FAQs for Teachers and Educators
+title: &title Vibe FAQs for Teachers and Educators. Touchscreen Smart Boards for School.
+description:
+  Vibe is the best digital whiteboard for classrooms. Learn how to use touchscreen smartboards for teaching and improve education for your students.
 content_link_target_blank: true
 
 faq_rich_search:
@@ -54,7 +56,7 @@ faq_rich_search:
     - id: import
       question: Can you import images, PowerPoint, and PDF files into the whiteboard?
       answer: |
-        Yes. Vibe supports all of these formats, depending on which cloud storage option you are using. 
+        Yes. Vibe supports all of these formats, depending on which cloud storage option you are using.
 
         *Read more: [Learn which file formats are supported][4].*
 
@@ -63,7 +65,7 @@ faq_rich_search:
       question: How is the learning curve of this tool? Do you offer training?
       answer: |
         Using Vibe is similar to using a giant tablet or iPad. It is easy to learn and fun to use! Vibe doesn't require
-        extra computers, projectors, or calibration. Setting up Vibe is similar to installing a new TV. 
+        extra computers, projectors, or calibration. Setting up Vibe is similar to installing a new TV.
 
         You can find video tutorials on our website, and we provide complimentary onboarding training sessions.
 
@@ -110,7 +112,7 @@ faq_rich_search:
     - id: annotation
       question: Can you draw on top of the screencast or HDMI content?
       answer: |
-        Yes, Vibe supports annotation during HDMI or any screencast option. 
+        Yes, Vibe supports annotation during HDMI or any screencast option.
 
         *Read more: [How to annotate][7]*
 

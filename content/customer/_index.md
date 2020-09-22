@@ -1,5 +1,6 @@
 ---
-title: i18n-content-customer-_index-title
+title: Vibe board Customer Reviews
+description: Customers love Vibe. Read Vibe board reviews and learn how teams are boosting their remote collaboration, presentations, and training through shared whiteboarding sessions.
 stylesPath: css/customer.sass
 aliases:
   - /use-cases/

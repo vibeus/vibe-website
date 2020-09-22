@@ -1,6 +1,8 @@
 ---
 url: /warranty/
 title: &title LIMITED HARDWARE WARRANTY AND SUPPORT TERMS
+description:
+  Vibe offers a one year warranty for the Vibe board. Customers who purchased their Vibe board directly from Vibe’s online store will be automatically registered.
 aliases:
   - /documents/warranty/
 hero:
