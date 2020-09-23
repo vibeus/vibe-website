@@ -11,8 +11,6 @@ summary: Vibe boards are a great way to make sure that your children can keep so
 
 
 
-
-
 A few days ago, my 3-year-old said the most heartbreaking thing to me. "I want to play with kids my size." Based on trying to stay as safe as possible, she hasn't had any opportunity to see friends since everything went down in March. The closest she's come is an older cousin, who's great, but not her "size."
  
 I know that my situation could be a lot worse. Older kids with an established social life (but who might not be too tech-savvy just yet) are likely feeling the pressure, especially if their district has opted for distance learning for the remainder of the year. But, there are still good ways for kids to have new experiences and be social while staying safe.
