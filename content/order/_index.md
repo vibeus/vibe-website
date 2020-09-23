@@ -4,7 +4,7 @@ title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
 product_notices:
-  sold_out:
+  sold_out: &sold_out
     item_notice:
       Temporarily unavailable. [Let us know](/contact/) if you want to
       be contacted when this item becomes available again.
@@ -33,7 +33,7 @@ products:
       product_id: '31815731609651'
       price: 500
       figure: img/order/accessory-stand-r.png
-      sold_out: false
+      sold_out: *sold_out
       backorder: false
   - item: &id004
       product_name: stylus
