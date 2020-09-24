@@ -109,18 +109,18 @@ add_on_plans: &add_on_plans
 
 hero:
   title: Choose the plan that’s right for your team
-  body: Pay by month or the year, and cancel at any time.
+  body: Pay by month or the year, and cancel at anytime.
   plans: *plans
 features:
   plans: *plans
 vibe_ad:
   figure: img/pricing/vibe-ad.png
+  url: /hardware
   background: img/common/outline-logo.svg
   title:
     text: 'Many features available when combined with a '
     link:
       text: 'Vibe Board, starting from $2999'
-      url: /hardware
   cta:
     link:
       class: show-or-hide
@@ -140,13 +140,14 @@ add_ons:
 comparison:
   id: &comparison_id comparison
   cta:
-    title: See plans comparison detail
     link:
-      class: toggle-comparison
+      title: See plans comparison detail
       target: *comparison_id
+      class: toggle-comparison
+      to_hide: Hide detail
       icon: 
         class: chevron-icon
-        mdi_icon: chevron-down:24
+        mdi_icon: chevron-down:40
 faq:
   title: i18n-content-pricing-_index-faq-title
   items:
