@@ -1,5 +1,6 @@
 ---
-title: 'Onboarding'
+title: 'Vibe board Onboarding and Training'
+description: Learn how to use your Vibe board in this Onboarding and Training series. You'll unbox, install, and set up your device, and register your Vibe board.
 stylesPath: css/onboarding.sass
 
 hero:

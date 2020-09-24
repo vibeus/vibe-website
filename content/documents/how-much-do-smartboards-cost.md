@@ -1,6 +1,7 @@
 ---
 url: /how-much-do-smartboards-cost/
 title: &title How Much do Smartboards Cost?
+description: Smart boards can range in price from affordable to quite expensive. Compare pricing for touchscreen whiteboards like Vibe board to find out how much smartboards cost
 content_link_target_blank: true
 
 hero:

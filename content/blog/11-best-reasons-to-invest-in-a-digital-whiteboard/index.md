@@ -1,5 +1,5 @@
 ---
-title: "11 Best Reasons To Invest In A Digital Whiteboard"
+title: "Digital Whiteboards: the **11 Best Reasons To Invest**"
 slug: 11-best-reasons-to-invest-in-a-digital-whiteboard
 author: Karen Belz
 date: 2020-07-01
@@ -20,12 +20,12 @@ But, it makes sense to be on the fence about it, especially if it takes you some
 
 ## 1. You can flawlessly connect with remote employees. 
 
-If you have a company with employees all around the globe, a digital whiteboard is a great way to get them in the same space as you. Digital whiteboards like the Vibe board connect with apps like Zoom, meaning that you can call someone in for a group meeting and have them projected on the screen. They can also have access to the whiteboard your group is working with, so it's like they're right there with you even if they're actually thousands of miles away.
+If you have a company with employees all around the globe, an online whiteboard is a great way to get them in the same space as you. Digital whiteboards like the Vibe board connect with apps like Zoom, meaning that you can call someone in for a group meeting and have them projected on the screen. They can also have access to the whiteboard your group is working with, so it's like they're right there with you even if they're actually thousands of miles away.
 
 
 ## 2. All notes on your canvas can be saved. 
 
-Regular whiteboards only give you a certain amount of room to work. When you're done with a note, you need to erase it to make space for more. The same isn't true for digital whiteboards. If you're the type of person who likes to juggle 15 ideas at once, digital whiteboards are a wonderful way to get all of your thoughts out without accidentally losing information. Canvases can be saved and accessed at any time. 
+Regular whiteboards only give you a certain amount of room to work. When you're done with a note, you need to erase it to make space for more. The same isn't true for whiteboard software. If you're the type of person who likes to juggle 15 ideas at once, digital whiteboards are a wonderful way to get all of your thoughts out without accidentally losing information. Canvases can be saved and accessed at any time. 
 
 
 ## 3. This will also save time with note-taking. 
@@ -56,7 +56,7 @@ Digital whiteboards are fairly easy to figure out and very user friendly. But if
 
 
 ## 8. They're also great if you have kids. 
-{{< common/srcset "image-2.jpg" "" >}}
+{{< common/srcset "image-2.jpg" "Using the whiteboard app on the Vibe board" >}}
 
 
 Digital whiteboards are a great tool for children. They're wonderful for learning, but also play. If you're in the midst of an at-home call and need to keep your kids busy, they can play games on it. And, based on the way that Vibe boards save canvases, you can feel secure in knowing that they won't accidentally delete any notes or work that was done on the board prior to.
@@ -69,7 +69,7 @@ How many times have you had to draw the same diagram for different groups of chi
 
 ## 10. Teachers can also change their lectures to work more around the whiteboard. 
 
-Many teachers work with the same subject year after year. Sometimes, the information can get stale. And if a teacher doesn't seem all that enthusiastic about a particular topic, their students will feed off this lack of energy and not pay attention. Adding a digital whiteboard to the equation will help a teacher revamp their lesson plans and get excited about creating a fresh lecture. Keeping up with technology is incredibly important in regards to education. 
+Many teachers work with the same subject year after year. Sometimes, the information can get stale. And if a teacher doesn't seem all that enthusiastic about a particular topic, their students will feed off this lack of energy and not pay attention. Adding an online whiteboard to the equation will help a teacher revamp their lesson plans and get excited about creating a fresh lecture. Keeping up with technology is incredibly important in regards to education. 
 
 
 ## 11. Digital whiteboards are the future. 

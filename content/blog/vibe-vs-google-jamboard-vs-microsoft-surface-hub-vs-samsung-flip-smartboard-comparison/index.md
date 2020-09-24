@@ -6,7 +6,7 @@ isfeatured: false
 date: 2019-04-29
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration", "Remote Collaboration"]
 draft: false
-summary: "Digital whiteboards, or smartboards, were invented to bring the tried-and-true dry erase whiteboard into the digital age."
+summary: "The latest digital whiteboards reviews. You’ll find all of that information in Vibe’s digital whiteboard reviews.Smartboards were invented to bring the tried-and-true dry erase whiteboard into the digital age."
 listHeroDesktopFont: ["45px", "55px"]
 ---
 
@@ -18,7 +18,7 @@ These large interactive devices allow users to draw and write using touch-sensit
 
 Some smartboards take advantage of the cloud to allow for simultaneous viewing of the canvas across desktop and mobile devices. Some go the other way as well, allowing for screencasting from external devices to the smartboard. Certain products, like [Vibe](https://vibe.us/), also use the cloud to auto-save sessions securely for easy recall — which means no more eureka moments lost to the dreaded eraser.
 
-There are several digital whiteboards on the market. What sets each of these devices apart, and which one is right for your needs?
+There are several digital whiteboards on the market. Which is the best interactive whiteboard? What sets each of these devices apart, and which one is right for your needs? You’ll find all of that information in Vibe’s digital whiteboard reviews.
 
 
 # Digital Whiteboards Providers
@@ -66,7 +66,7 @@ Vibe is also a powerful multitasker that seamlessly shifts from app to app. Comp
 One of the big selling points? The price. At $2,999.00, Vibe is almost half the price of the Google Jamboard and one third of the price of Surface Hub.
 
 
-{{< common/srcset "image-1.png" "" >}}
+{{< common/srcset "image-1.png" "Digital whiteboard reviews comparing Microsoft Surface Hub, Google Jamboard, Samsung Flip, and Vibe" >}}
 
 
 

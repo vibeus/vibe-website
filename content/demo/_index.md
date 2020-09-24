@@ -1,5 +1,6 @@
 ---
-title: i18n-content-demo-_index-title
+title: Vibe Demo Video Request
+description: Sign up for a video or live demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
 stylesPath: css/demo.sass
 hero:
   title: i18n-content-demo-_index-hero-title

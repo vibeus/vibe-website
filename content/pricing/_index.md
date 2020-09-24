@@ -13,9 +13,9 @@ plans: &plans
       title: 'Top features:'
       body:
         - Unlimited number of whiteboards
-        - Collaborate from anywhere via Vibe Cloud
+        - Collaborate from anywhere via Vibe cloud
         - Share boards with anyone via link
-        - Import media from Cloud Drives
+        - Import media from cloud drives
         - Export to PDF (with watermark)
         - Join a team workspace as a guest
       cta:
@@ -55,8 +55,8 @@ plans: &plans
       body:
         - Account management for your team
         - Device management and configuration for your team
-        - Team Apps
-        - Customized Homescreen
+        - Team apps
+        - Customized homescreen
   - class: enterprise is-one-third
     title: Enterprise
     body: Solutions tailored toward each unique enterprise
@@ -65,12 +65,12 @@ plans: &plans
       title: 'All features in business, plus:'
       body:
         - SSO & SLA
-        - Advanced Fleet Management
-        - Policy Enroll & Management
-        - Bulk Operations
-        - Private Cloud Capable
-        - Dedicated Customer Support
-        - SAML/LDAP Integration
+        - Advanced fleet management
+        - Policy enroll & management
+        - Bulk operations
+        - Private cloud capable
+        - Dedicated customer support
+        - SAML/LDAP integration
       cta:
         title: Contact Sales
         class: is-black is-outlined is-rounded
@@ -79,9 +79,9 @@ plans: &plans
       title: 'All features in business, plus:'
       body:
         - ChromiumOS based OS
-        - TPM Chip
-        - Fully Centralized Device Management Support
-        - Bi-Monthly Security Updates
+        - TPM chip
+        - Fully centralized device management support
+        - Bi-Monthly security updates
         - Malware injection
 add_on_plans: &add_on_plans
   - class: distance-learning

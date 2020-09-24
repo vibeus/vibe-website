@@ -25,22 +25,34 @@ With our CEO, Charles Yang, presenting from Hangzhou, China, and Katie Kalafus, 
 
 Since we only had six minutes to present and a very short amount of time to answer the judges’ questions, we wanted to go into more depth here. 
 
-**TechCrunch Judge, Amish Jani, FirstMark Capital - Seems like a crowded landscape with Miro and Mural; are you targeting a different segment or a specific vertical?**
+
+**TechCrunch Judge, Amish Jani, FirstMark Capital** **-**
+
+## Seems like a crowded landscape with Miro and Mural; are you targeting a different segment or a specific vertical?
 
 The products are simply different. Miro and Mural focus on PC online whiteboarding services, so they’re built with a keyboard and mouse in mind. Vibe’s entire user interface is built around using a touchscreen and stylus. Handwriting and drawing have long been favored for brainstorming and collaboration sessions because they unlock deeper thinking.
 The buyer journey is also different. Our hardware can be used by people within  different industries, scenarios, and experiences. And with Vibe, you can do way more than just whiteboarding - there is simply more potential for new services.
 
-**TechCrunch Judge, Monique Woodard, Cake Ventures - You have hardware/whiteboard, you have software - have you thought about creating community?** 
+
+**TechCrunch Judge, Monique Woodard, Cake Ventures** **-**
+
+## You have hardware/whiteboard, you have software - have you thought about creating community? 
 
 We haven’t started an official community, but our customers are already sharing content that they’ve created with Vibe. In particular, we see high-level consultants in sales, marketing, and finance using Vibe to present to their prospective clients via YouTube or other platforms. Teachers are also creating shared libraries of materials to use across their classrooms.
 
-**TechCrunch Judge, Jessica Verrilli, GV - Does anyone use the product in single-player mode or is it collaborative?**
+
+**TechCrunch Judge, Jessica Verrilli, GV -** 
+
+## Does anyone use the product in single-player mode or is it collaborative?
 
 Vibe was designed for local and remote collaboration, but many of our customers use Vibe by themselves to brainstorm and sketch out ideas, just like they would on a standard whiteboard. Vibe layers on benefits like an infinite canvas, multiple boards, cloud-based service to access boards from anywhere, and being able to pull in any files you like for annotation. 
 
 Customers also screencast to Vibe for a second monitor and can even show 3rd party apps like Netflix or YouTube for entertainment.
 
-**TechCrunch Judge, Erik Moore, Base Ventures: How do you go up against more established competitors? Is it a marketing problem?**
+
+**TechCrunch Judge, Erik Moore, Base Ventures** **-**
+
+## How do you go up against more established competitors? Is it a marketing problem?
 
 It's a crowded space but it is still an unsolved problem. No one has solved the problem yet, so that's why we had to build Vibe.
 

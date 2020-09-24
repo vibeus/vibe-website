@@ -1,10 +1,11 @@
 ---
-title: "Whiteboarding 101: An Introduction for Marketers, Designers, and Innovators"
+title: "Digital Whiteboarding 101: An Intro for Marketers, Designers, and Innovators"
 slug: whiteboarding-101-an-introduction-for-marketers-designers-and-innovators
 author: Vibe Team
 date: 2019-12-03
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration"]
+description: Digital Whiteboarding Sessions
 draft: false
 blogHeroMask: 0
 ---
@@ -45,7 +46,7 @@ For your account managers and customer-facing teams, whiteboards can lead to mor
 Using verbal communication to describe complex systems or define workflows isn’t ideal for every setting. In many instances, a simple diagram can make a concept easier to grasp. Using graphic representations of abstractions can give people the concrete foothold they need to develop a firm understanding. For [UX designers](https://uxdesign.cc/practical-whiteboarding-for-ux-designers-2329d6e7d254), this visual brainstorming component is indispensable.
 
 
-{{< common/srcset "image-2.png" "UX design on VIbe Smartboard" >}}
+{{< common/srcset "image-2.png" "Whiteboarding UX design on Vibe smart board" >}}
 
 
 
@@ -60,7 +61,7 @@ However, whiteboarding isn’t a recipe for success all the time. Without proper
 
 ## Focus isn’t clearly defined at the start
 
-Without a clear and defined focus, your team may end up trying to solve several different problems at the same time. That’s why any whiteboarding session needs a facilitator who is prepared to guide everyone toward an established goal. Before you start brainstorming and problem solving, your facilitator should take a moment to define what problem is being resolved during the session, and set an itinerary for the meetup.
+Without a clear and defined focus, your team may end up trying to solve several different problems at the same time. That’s why whiteboarding sessions need a facilitator who is prepared to guide everyone toward an established goal. Before you start brainstorming and problem solving, your facilitator should take a moment to define what problem is being resolved during the session, and set an itinerary for the meetup.
 
 One organizational practice that facilitators love: divide the white board into a problem space, where the problem is defined and analyzed, and a solution space, where it’s solved.
 
@@ -81,7 +82,7 @@ Often, bad handwriting is the result of poor spacing. Whiteboards can quickly ge
 When you’re working on a Vibe board, your ideation isn’t confined by physical limitations. Think outside the frame!
 
 
-{{< common/srcset "image-4.png" "Man is thinking in front of Vibeboard" >}}
+{{< common/srcset "image-4.png" "Brainstorming session in front of Vibeboard" >}}
 
 # 5 Key Tips:
 
