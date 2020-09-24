@@ -140,11 +140,11 @@ add_ons:
 comparison:
   id: &comparison_id comparison
   cta:
-    title: See plans comparison detail
     link:
+      title: See plans comparison detail
+      target: *comparison_id
       class: toggle-comparison
       to_hide: Hide detail
-      target: *comparison_id
       icon: 
         class: chevron-icon
         mdi_icon: chevron-down:40

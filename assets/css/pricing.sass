@@ -347,35 +347,43 @@ html, body
 .section.is-comparison
   +vertical-padding(72px, 72px)
   text-align: center
-  .title
-    font-size: 24px
-    line-height: 30px
-    margin-bottom: 0
+  .toggle-comparison
+    margin: auto
+    pointer-events: all
+    cursor: pointer
+    line-height: 1
+    &:hover .chevron-icon svg path
+      fill: $vibe-pink
   .is-comparison-wrapper
     display: none
     margin-top: 40px
     .toggle-comparison
-      line-height: 1
-    .collapse-text
-      font-weight: 500
-      font-size: 18px
-      line-height: 28px
-    .to-hide:hover
-      .chevron-icon svg path
-        fill: $vibe-pink
-    .chevron-icon
-      position: relative
-      top: 10px
+      width: 120px
+      .collapse-text
+        font-weight: 500
+        font-size: 18px
+        line-height: 28px
+      .chevron-icon
+        position: relative
+        top: 10px
+  .is-cta
+    .toggle-comparison
+      width: 340px
+      .title
+        font-size: 24px
+        line-height: 30px
+        margin-bottom: 0
   &.is-active
     .is-comparison-wrapper
       display: block
     .chevron-icon svg
         transform: scaleY(-1)
-    .is-cta .toggle-comparison
-      display: none
-
-  .chevron-icon:hover svg path
-    fill: $vibe-pink
+    .is-cta
+      .toggle-comparison
+        pointer-events: none
+        cursor: text
+        .chevron-icon
+          display: none
 
 .section.is-faq
   .faq-items
