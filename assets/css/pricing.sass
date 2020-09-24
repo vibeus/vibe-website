@@ -174,6 +174,10 @@ html, body
   overflow: visible
   +vertical-padding(0)
   background-color: white
+  cursor: pointer
+  display: block
+  &:hover
+    color: black
   .container
     position: relative
     z-index: 15 // should be less than 20, the z-index of navbar dropdown
@@ -213,6 +217,8 @@ html, body
     .cta
       position: relative
       z-index: auto
+      &:hover
+        color: $vibe-pink
       span
         font-weight: 500
         font-size: 18px
@@ -230,9 +236,11 @@ html, body
           transform: scaleY(-1)
 
 .section.is-features-with-vibe
-  display: none
+  height: 0
+  transition: height 0.5s
+  overflow: hidden
   &.is-active
-    display: block
+    height: 451px
   .container
     .is-plans.columns
       .is-plan
@@ -342,7 +350,7 @@ html, body
   .title
     font-size: 24px
     line-height: 30px
-    margin-bottom: 8px
+    margin-bottom: 0
   .is-comparison-wrapper
     display: none
     margin-top: 40px
@@ -352,10 +360,29 @@ html, body
       font-weight: 500
       font-size: 18px
       line-height: 28px
+    .to-hide:hover
+      .chevron-icon svg path
+        fill: $vibe-pink
+    .chevron-icon
+      position: relative
+      top: 10px
   &.is-active
     .is-comparison-wrapper
       display: block
     .chevron-icon svg
         transform: scaleY(-1)
+    .is-cta .toggle-comparison
+      display: none
+
   .chevron-icon:hover svg path
     fill: $vibe-pink
+
+.section.is-faq
+  .faq-items
+    border-top: 1px solid rgba(0, 0, 0, 0.15)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+  .faq-item:not(:last-child)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+  .faq-item.is-active
+    .faq-title
+      font-weight: 500

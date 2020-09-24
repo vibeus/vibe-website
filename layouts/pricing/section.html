@@ -71,7 +71,7 @@
 {{ end }}
 
 {{ with .Params.vibe_ad }}
-<section class="section is-vibe-ad">
+<a class="section is-vibe-ad"{{ with .url }} href="{{ . }}" target="_blank"{{ end }}>
   <div class="container">
     {{ with .background }}
     <figure class="image is-section-bg">
@@ -87,23 +87,23 @@
     <div class="title">
       <span class="text">{{ .text }}</span>
       {{ with .link }}
-      <a class="link" href="{{ .url }}" target="_blank">{{ .text }}</a>
+      <span class="link">{{ .text }}</span>
       {{ end }}
     </div>
     {{ end }}
     {{ with .cta }}
     {{ with .link }}
-    <a class="cta link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}data-target="{{ . }}"{{ end }}>
+    <span class="cta link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}data-target="{{ . }}"{{ end }}>
       <span class="to-show">{{ .to_show }}</span>
       <span class="to-hide">{{ .to_hide }}</span>
       {{ with .icon }}
       <span class="link-icon{{ with .class}} {{ . }}{{ end }}">{{ .text }}</span>
       {{ end }}
-    </a>
+    </span>
     {{ end }}
     {{ end }}
   </div>
-</section>
+</a>
 {{ end }}
 
 {{ with .Params.features_with_vibe }}
@@ -222,15 +222,15 @@
     <div class="is-comparison-wrapper">
       {{ partial "comparison-saas-plans" (dict "features" $.Site.Data.comparison_saas_plans.features "plans" $.Site.Data.comparison_saas_plans.plans "platforms" $.Site.Data.comparison_saas_plans.platforms "plans_info" $.Params.plans) }}
       {{ with .cta.link }}
-      <a class="link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"{{ end }}>
+      <a class="to-hide link{{ with .class }} {{ . }}{{ end }}" {{ with .target }}{{ $comparison_id = . }} data-target="{{ . }}"{{ end }}>
         {{ with .icon }}
         <div class="link-icon{{ with .class }} {{ . }}{{ end }}">
           {{ partial "common/mdi" .mdi_icon }}
         </div>
         {{ end }}
+        <div class="collapse-text">{{ .to_hide }}</div>
       </a>
       {{ end }}
-      <div class="collapse-text">Hide detail</div>
     </div>
   </div>
 </section>

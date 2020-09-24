@@ -2112,16 +2112,16 @@ other = "Pricing"
 other = "Pricing FAQs"
 
 [i18n-content-pricing-_index-faq-items-i_0-title]
-other = "What features are missing from the Starter Plan comparing to your Pro Plan?"
+other = "What features are missing from the Starter plan comparing to your Business plan?"
 
 [i18n-content-pricing-_index-faq-items-i_0-body]
 other = """- Features wise, not much!  We want you to experience all the features we have to offer, not hiding any behind some pay wall
-- Starter Plan has a smaller cloud storage: 100MB compares to 2000MB per account.  Still 100MB is good enough for about 100 whiteboards
-- Sharing is limited.  In our Starter Plan, a shared link cannot be turned off.  This is sufficient for personal or home use.  But if you are running a business that require more security and permission control, then please choose our Pro Plan
+- Starter plan has a smaller cloud storage: 100MB compares to 2000MB per account.  Still 100MB is good enough for about 100 whiteboards
+- Sharing is limited.  In our Starter plan, a shared link cannot be turned off.  This is sufficient for personal or home use.  But if you are running a business that require more security and permission control, then please choose our Business plan
 - No team workspace, see question below in this FAQ
-- No anonymous editors support in Starter Plan
+- No anonymous editors support in Starter plan
 - Exports will have a Vibe watermark
-- Cloud drive data sync is not available in Starter Plan"""
+- Cloud drive data sync is not available in Starter plan"""
 
 [i18n-content-pricing-_index-faq-items-i_1-title]
 other = "What is the difference between Vibe Whiteboard and Vibe Board?"
@@ -2145,13 +2145,13 @@ other = "We built our whiteboard for collaboration.  That means for the most par
 other = "What is the difference between an individual account and a team account?"
 
 [i18n-content-pricing-_index-faq-items-i_4-body]
-other = "Our Starter Plan is an individual account type.  If you want to collaborate with others under this plan,  you will need to manually share the board.  In a team environment, sharing and collaboration happens naturally between team members.  Whiteboards created by any member is automatically available to other members of the same team.  Team account is available only under Pro tier with at least 1 paying member."
+other = "Our Starter plan is an individual account type.  If you want to collaborate with others under this plan,  you will need to manually share the board.  In a team environment, sharing and collaboration happens naturally between team members.  Whiteboards created by any member is automatically available to other members of the same team.  Team account is available only under Business tier with at least 1 paying member."
 
 [i18n-content-pricing-_index-faq-items-i_5-title]
-other = "When or why should I upgrade from the Free Plan to the Pro plan?"
+other = "When or why should I upgrade from the Starter plan to the Business plan?"
 
 [i18n-content-pricing-_index-faq-items-i_5-body]
-other = "We love that many people are collaborating on our platform and we will continue to offer a robust free plan so many more can benefit from.  While our free plan have many features only available in others’ paid tier, we think our customers will naturally upgrade because they received sufficient value after using our free plan for a while.  I.e. if one day you find yourself out of cloud storage, a clear indication of value realized in our service, we hope you will continue your service and upgrade. In general the free plan is designed to on-board new users, better suited for personal, home or small business use."
+other = "We love that many people are collaborating on our platform and we will continue to offer a robust starter plan so many more can benefit from.  While our starter plan have many features only available in others’ paid tier, we think our customers will naturally upgrade because they received sufficient value after using our starter plan for a while.  I.e. if one day you find yourself out of cloud storage, a clear indication of value realized in our service, we hope you will continue your service and upgrade. In general the starter plan is designed to on-board new users, better suited for personal, home or small business use."
 
 [i18n-content-pricing-_index-faq-items-i_6-title]
 other = "What is the ideal setup for the Vibe Whiteboard software?"
@@ -2160,10 +2160,10 @@ other = "What is the ideal setup for the Vibe Whiteboard software?"
 other = "Any device that support a stylus is great, best used with our Vibe Board hardware, or tablets such as the iPad + Apple Pencil."
 
 [i18n-content-pricing-_index-faq-items-i_7-title]
-other = "What happens to my boards if I downgrade from Pro plan to Starter plan?"
+other = "What happens to my boards if I downgrade from Business plan to Starter plan?"
 
 [i18n-content-pricing-_index-faq-items-i_7-body]
-other = "With Vibe Starter plan, there is a limit of 10 boards per account.  If you have more than 10 boards, we recommend you first consolidate down to 10 before you downgrade your Pro plan.  If you chose not to consolidate, your recently edited 10 boards will be saved for you."
+other = "With Vibe Starter plan, there is a limit of 10 boards per account.  If you have more than 10 boards, we recommend you first consolidate down to 10 before you downgrade your Business plan.  If you chose not to consolidate, your recently edited 10 boards will be saved for you."
 
 [i18n-content-customer-_index-title]
 other = "Customers love Vibe"
