@@ -42,9 +42,7 @@ products:
       price: 15
       figure: img/order/accessory-stylus.png
       sold_out: false
-      backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 15-20 days.'
-        cart_notice: Shipping Delayed. Expected to ship in 15-20 days.
+      backorder: false
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns
