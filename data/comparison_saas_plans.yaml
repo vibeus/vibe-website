@@ -4,7 +4,7 @@ plans:
     icon_color: '#BDBDBD'
     web:
       feature:
-        limit: 10
+        limit: Unlimited
         collaboration: 'true'
         cloudDrives: 'true'
         pdf: limited
