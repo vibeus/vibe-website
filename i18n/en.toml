@@ -2116,7 +2116,6 @@ other = "What features are missing from the Starter plan comparing to your Busin
 
 [i18n-content-pricing-_index-faq-items-i_0-body]
 other = """- Features wise, not much!  We want you to experience all the features we have to offer, not hiding any behind some pay wall
-- Starter plan has a smaller cloud storage: 100MB compares to 2000MB per account.  Still 100MB is good enough for about 100 whiteboards
 - Sharing is limited.  In our Starter plan, a shared link cannot be turned off.  This is sufficient for personal or home use.  But if you are running a business that require more security and permission control, then please choose our Business plan
 - No team workspace, see question below in this FAQ
 - No anonymous editors support in Starter plan
