@@ -46,7 +46,7 @@ products:
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns
-  amazon: https://www.amazon.com/Vibe
+  amazon: https://www.amazon.com/stores/page/BED18022-1CBC-4E12-B4FC-23DFECFBEC84
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png
