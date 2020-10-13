@@ -1,7 +1,6 @@
 ---
 title: About the Vibe Team
-description:
-  Vibe is a global team of dreamers, futurists, creators, and builders, all united by a shared commitment to connect people to one another.
+description: Vibe is a global team of dreamers, futurists, creators, and builders, all united by a shared commitment to connect people to one another.
 stylesPath: css/about.sass
 hero:
   title: i18n-content-about-_index-hero-title

@@ -313,7 +313,7 @@ features:
       - id: screencast
         title: Screen Casting
   - id: fleet
-    title: FlEET MANAGEMENT  
+    title: FlEET MANAGEMENT
     items:
       - id: monitor
         title: Device Monitoring

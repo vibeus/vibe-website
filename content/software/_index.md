@@ -1,7 +1,6 @@
 ---
 title: Interactive Digital Whiteboarding Software for Remote Collaboration
-description:
-  Vibe digital interactive whiteboards enable screen-sharing, collaborative drawing, video conferencing and meeting software with whiteboarding sessions.
+description: Vibe digital interactive whiteboards enable screen-sharing, collaborative drawing, video conferencing and meeting software with whiteboarding sessions.
 stylesPath: css/software.sass
 hero:
   title: i18n-content-software-_index-hero-title
