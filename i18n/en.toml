@@ -212,7 +212,7 @@ other = "Download product brochure"
 other = "Still have questions?"
 
 [i18n-content-demo-request-video-landing-bottom_cta-cta-title]
-other = "Contact us"
+other = "Schedule a Live Demo"
 
 [i18n-content-demo-request-video-landing-video_hero-share_buttons-title]
 other = "Watch Vibe demo"
@@ -224,31 +224,35 @@ other = "Why Vibe?"
 other = "Order Now"
 
 [i18n-content-demo-_index-title]
-other = "Sign up for a live demo"
+other = "See Vibe for Yourself"
 
 [i18n-content-demo-_index-hero-title]
-other = "Sign up for a live demo"
+other = "See Vibe for Yourself"
 
 [i18n-content-demo-_index-hero-body]
-other = """## Why do you need a demo?
-
-Before purchasing a Vibe board, many customers find it helpful to schedule a live 30 minute customized product
-demo with our team to see Vibe in action."""
+other = """From interactive whiteboarding to your favorite video conferencing apps, see what it’s like to experience
+real-time remote collaboration with the Vibe board."""
 
 [i18n-content-demo-_index-demo-expect-i_0-title]
-other = "What you can expect from a live demo"
+other = "What’s in the Vibe Demo Video"
 
 [i18n-content-demo-_index-demo-expect-i_0-items-i_0-title]
-other = """Live demos are conducted via Zoom video conference and you are welcome to invite your teammates
-(and we are also happy to record the demo - just ask!)"""
+other = "6 minute demo video overview of Vibe"
 
 [i18n-content-demo-_index-demo-expect-i_0-items-i_1-title]
-other = """Discuss your goals and requirements for a new device, current applications you're looking to use with Vibe,
-and any other questions"""
+other = "An overview of Vibe’s whiteboarding features & toolbar"
 
 [i18n-content-demo-_index-demo-expect-i_0-items-i_2-title]
-other = """The demo will cover whiteboarding features, saving & sharing, screencasting options, and 3rd party
-applications, followed by Q&A"""
+other = "How to use your favorite 3rd party applications for seamless video conferencing and presenting"
+
+[i18n-content-demo-_index-demo-expect-i_0-items-i_3-title]
+other = "How to share Vibe projects for live working sessions"
+
+[i18n-content-demo-_index-demo-expect-i_0-items-i_4-title]
+other = "Screencasting  from your computer, iPad or phone"
+
+[i18n-content-demo-_index-demo-expect-i_0-items-i_5-title]
+other = "What’s included with a Vibe board purchase"
 
 [i18n-content-demo-_index-demo-expect-i_1-title]
 other = "What you can expect from the Demo Video"

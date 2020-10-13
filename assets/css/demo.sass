@@ -20,7 +20,7 @@
         font-size: 64px
         line-height: 76px
     .content
-      max-width: 500px
+      max-width: 376px
       h2
         font-size: 30px
         +mobile
@@ -73,6 +73,9 @@
         font-size: 24px
         line-height: 40px
       max-width: 468px
+    .form .columns.is-buttons .button
+      max-width: 250px
+      margin: auto
     .submitted
       bottom: 80px
       .content
@@ -88,9 +91,7 @@
       > .title
         visibility: hidden
       .form
-        .columns, .privacy, button[data-name='request-video']
+        .columns, .privacy
           visibility: hidden
-        .columns.is-buttons
-          visibility: visible
       .submitted
         display: flex
