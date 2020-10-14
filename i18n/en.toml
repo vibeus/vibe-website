@@ -527,13 +527,19 @@ other = "Login Failed"
 other = "Login to vibe failed"
 
 [i18n-content-android-app-store-_index-title]
-other = "Use your favorite apps"
+other = "3rd Party App Integrations for the Vibe board"
 
 [i18n-content-android-app-store-_index-hero-title]
 other = "Use your favorite apps"
 
 [i18n-content-android-app-store-_index-hero-body]
-other = "Vibe’s open ecosystem allows you to use the apps that your team already knows and loves."
+other = """Vibe’s open ecosystem allows you to use the apps that your team already knows and loves.
+
+That means easy, fast adoption throughout organizations with minimal support from busy IT teams.
+
+Vibe runs the mobile Android versions of these 3rd party applications. Some 3rd party mobile applications
+may not include identical functionality to the desktop version. There is no special licensing required beyond
+what you're currently using to access your account."""
 
 [i18n-content-android-app-store-_index-side_bar-title]
 other = "Marketplace"
