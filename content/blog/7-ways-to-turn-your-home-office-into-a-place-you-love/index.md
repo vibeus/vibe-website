@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-10-12
 isfeatured: false
 tags: ["Remote Work", "Home Office"]
-description:There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good, based on the fact that it flawlessly connects with 40 apps.
+description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good on National Geographic.
 draft: false
 blogHeroMask: 0
 ---
