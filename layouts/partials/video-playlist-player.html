@@ -1,0 +1,14 @@
+{{ $playerId := default "video-playlist-player" .player.playerId }}
+{{ $playlistClassSelector := printf ".%s" .player.playlistClass }}
+{{ $triggerClassSelector := ".video-playlist-launcher" }}
+{{ if .player.triggerClass }}
+{{ $triggerClassSelector = printf "%s.%s" ".video-playlist-launcher" .player.triggerClass }}
+{{ end }}
+
+<div class="video-playlist-launcher{{ with .player.triggerClass }} {{ . }}{{ end }}" id="{{ $playerId }}-container" data-target="{{ $playerId }}">
+  <figure class="image" id="{{ $playerId }}">
+    <div id="{{ $playerId }}-iframe"></div>
+  </figure>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/common/video-playlist-player.template.js" "playerId" $playerId "playlistClass" $playlistClassSelector  "triggerClass" $triggerClassSelector "isInplace" true) }}
