@@ -122,15 +122,15 @@ setup:
                     - name: lastname
                       placeholder: 'Last Name*'
                       required: true
-                    - name: phone
+                  - - name: phone
                       placeholder: 'Phone Number*'
                       type: tel
                       required: true
-                  - - name: email
+                    - name: email
                       placeholder: 'Email Address*'
                       type: email
                       required: true
-                    - name: country_region
+                  - - name: country_region
                       placeholder: 'Country/Region'
                       dropdown:
                         - United States
@@ -381,9 +381,9 @@ setup:
                         - Zambia
                         - Zimbabwe
                         - Åland Islands
-                  - - name: company
+                    - name: company
                       placeholder: 'Company Name'
-                    - name: how_did_you_hear_about_vibe
+                  - - name: how_did_you_hear_about_vibe
                       placeholder: 'How did you hear about Vibe?'
                       dropdown:
                         - Google Search
@@ -394,8 +394,10 @@ setup:
                         - Referral
                         - Youtube
                         - Others
-                  - - name: date_of_purchase
+                    - name: date_of_purchase
                       placeholder: 'Date of Purchase'
+                  - - name: order_number
+                      placeholder: 'Order Number'
                     - name: serial_number
                       placeholder: 'Serial Number*'
                       required: true
@@ -406,8 +408,6 @@ setup:
                           - text: '1. Check the back of board, and you can find the serial number above the bar code.'
                           - figure: img/onboarding/serial-number.png
                           - text: '2. Turn on the device, find ‘About Vibe’ under Settings, and then you can see the serial number.'
-                  - - name: order_number
-                      placeholder: 'Order Number'
                 buttons:
                   - type: submit
                     title: 'Submit'
