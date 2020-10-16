@@ -205,6 +205,9 @@ apps:
 - id: com.tencent.voov
   name: VooV
   type: vc
+- id: com.tencent.wework
+  name: WeCom
+  type: communication
 - id: com.trello
   name: Trello
   use_case: project
