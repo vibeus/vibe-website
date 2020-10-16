@@ -35,7 +35,7 @@ register:
           placeholder: 'Email Address*'
           type: email
           required: true
-      - - name: country_region
+      - - name: country
           placeholder: 'Country/Region'
           dropdown:
             - United States
@@ -288,7 +288,7 @@ register:
             - Åland Islands
         - name: company
           placeholder: 'Company Name'
-      - - name: how_did_you_hear_about_vibe
+      - - name: how_did_you_hear_about_vibe_
           placeholder: 'How did you hear about Vibe?'
           dropdown:
             - Google Search
