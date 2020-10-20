@@ -5,7 +5,6 @@ $playlist-width: 350px
 
 html, body
   margin: 0
-  padding: 0
   width: 100%
   height: 100%
   +desktop
@@ -308,7 +307,9 @@ html, body
                 text-decoration: underline
 
 .is-mobile-info-panel
-  padding: 16px 24px
+  padding: 16px 44px
+  +mobile
+    padding: 16px 24px
   display: none
   &.is-active
     +touch
@@ -342,45 +343,39 @@ html, body
   &.is-hidden
     display: none
 
-.is-touch-device
+body.is-touch-device
+  height: auto
+  +mobile
+    padding-top: calc(56.25vw + 76px + 48px - 1px)
+    width: 100%
+  +tablet-only
+    padding-top: calc(0.5625 * (100vw - 40px) + 96px + 48px - 1px)
+    width: 100%
   .is-content
     +touch
       position: fixed
+      top: 66px - 1px
       width: 100%
-      z-index: 100
-  .is-mobile-playlist-header
+      z-index: 20
+  .is-playlist-wrapper
+    &.is-active
+      display: block
+      .is-playlist
+        border-width: 1px
     +touch
+      padding-top: 0
+      padding-bottom: 0
+      overflow: visible
+      .is-playlist
+        border-width: 0
+    .is-mobile-playlist-header
       position: fixed
-      z-index: 100
-    +mobile
-      top: calc(56.25vw + 76px + 66px)
-      left: 0
       width: 100%
-    +tablet-only
-      top: calc(0.5625 * (100vw - 40px) + 96px + 66px)
-      left: 20px
-      width: calc(100% - 40px)
-  .is-playlist-container
-    +touch
-      position: fixed
-      z-index: 50
-    +mobile
-      padding-top: calc(56.25vw + 76px + 48px)
-      left: 0
-      width: 100%
-    +tablet-only
-      padding-top: calc(0.5625 * (100vw - 40px) + 96px + 48px)
-      left: 20px
-      width: calc(100% - 40px)
-  .is-mobile-info-panel
-    +touch
-      position: fixed
-      z-index: 50
-    +mobile
-      top: calc(56.25vw + 76px + 66px + 48px)
-      left: 0
-      width: 100%
-    +tablet-only
-      top: calc(0.5625 * (100vw - 40px) + 96px + 66px + 48px)
-      left: 20px
-      width: calc(100% - 40px)
+      z-index: 20
+      +mobile
+        left: 0
+        top: calc(56.25vw + 76px + 66px - 1px)
+      +tablet-only
+        top: calc(0.5625 * (100vw - 40px) + 96px + 66px - 1px)
+        left: 20px
+        width: calc(100% - 40px)
