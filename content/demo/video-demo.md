@@ -80,9 +80,9 @@ playlist_info:
           resources:
       - title: Using Vibe on Other Devices
         video:
-          id: not-published-yet
-          length: 0
-          exact_length: 0
+          id: UfBXXlvA3VA
+          length: 3
+          exact_length: 2:36
         tab_panel:
           video_overview:
             content: With Vibe’s own cloud-based software, you can join a Vibe board from anywhere in the world using a computer browser, tablet or Vibe board.
@@ -133,15 +133,15 @@ playlist_info:
           video_overview:
             content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting. 
           resources:
-      - title: Zoom Example
-        video:
-          id: not-published-yet
-          length: 0
-          exact_length: 
-        tab_panel:
-          video_overview:
-            content: Zoom Example
-          resources:
+      # - title: Zoom Example
+      #   video:
+      #     id: not-published-yet
+      #     length: 0
+      #     exact_length: 
+      #   tab_panel:
+      #     video_overview:
+      #       content: Zoom Example
+      #     resources:
   - title: Screencast & Annotation
     playlist:
       - title: Wireless Screencast & Annotation

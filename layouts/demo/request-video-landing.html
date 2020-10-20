@@ -84,7 +84,7 @@
     </div>
   </div>
 
-  <div class="is-playlist-wrapper">
+  <div class="is-playlist-wrapper is-active" id="playlist-wrapper">
     <div class="is-playlist">
       <div class="is-playlist-header">
         <div class="is-left">
@@ -95,13 +95,13 @@
           {{ (resources.Get "img/demo/playlist-header-icon.svg").Content | safeHTML }}
         </div>
       </div>
-      <div class="is-mobile-playlist-header is-active" data-target="playlist-container">
+      <div class="is-mobile-playlist-header is-active" data-target="playlist-wrapper">
         <div class="is-header-body">{{ $num_videos }} Videos, Total {{ $total_mins }} mins</div>
         <div class="is-collapse-icon">
           {{ partial "common/mdi" "chevron-down:20" }}
         </div>
       </div>
-      <div class="is-playlist-container is-active" id="playlist-container">
+      <div class="is-playlist-container" id="playlist-container">
         {{ range $idx1, $val := .Params.playlist_info }}
         {{ with $val }}
         <div class="is-single-playlist is-playlist-{{ $idx1 }}">
@@ -113,7 +113,7 @@
             data-target="tab-panel"
             data-target-class="is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content is-playlist-{{ $idx1 }} is-mobile-playlist-item-{{ $idx1 }}-{{ $idx2}}"
             data-video-id="{{ .video.id }}"
-          > 
+          >
             <div class="is-mobile-thumbnail-wrapper">
               <img class="is-mobile-thumbnail" src="http://img.youtube.com/vi/{{ .video.id }}/mqdefault.jpg">
               <div class="is-overlay"></div>
