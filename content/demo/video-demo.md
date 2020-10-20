@@ -171,7 +171,7 @@ playlist_info:
           exact_length: 0:28
         tab_panel:
           video_overview:
-            content: Hardware
+            content: Vibe is compatible with many accessories. It has HDMI in, HDMI out, an Audio port, 2 USB ports and an Ethernet port in the back of the board.
           resources:
       - title: Accessories
         video:
@@ -180,7 +180,7 @@ playlist_info:
           exact_length: 0:51
         tab_panel:
           video_overview:
-            content: Accessories
+            content: Vibe is compatiable with mobile stands, wall mount, and most USB connected cameras and microphones. 
           resources:
       - title: How to Purchase
         video:
@@ -189,6 +189,6 @@ playlist_info:
           exact_length: 0:44
         tab_panel:
           video_overview:
-            content: How to Purchase
+            content: Learn more about the price, what’s included in the box, and how to purchase.
           resources:
 ---
