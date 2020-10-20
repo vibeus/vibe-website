@@ -23,11 +23,11 @@
 
       <div class="is-tab-panel" id="tab-panel">
         <div class="is-tab-titles">
-          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-active" data-target="video-overview-tab-body">
+          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-overview-tab is-active" data-target="video-overview-tab-body">
             Video Overview
             <span class="is-split-line"></span>
           </div>
-          <div class="is-tab-title is-Stratos-title is-tab-title-2" data-target="resources-tab-body">
+          <div class="is-tab-title is-Stratos-title is-tab-title-2 is-resources-tab" data-target="resources-tab-body">
             Resources
             <span class="is-split-line"></span>
           </div>
@@ -110,6 +110,7 @@
           {{ with $val }}
           <div
             class="is-playlist-item is-playlist-item-{{ $idx1 }}-{{ $idx2}}{{ with $.Params.player.playlistClass }} {{ . }}{{ end }}"
+            data-idx="{{ $idx1 }}-{{ $idx2 }}"
             data-target="tab-panel"
             data-target-class="is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content is-playlist-{{ $idx1 }} is-mobile-playlist-item-{{ $idx1 }}-{{ $idx2}}"
             data-video-id="{{ .video.id }}"
@@ -140,7 +141,7 @@
   </div>
 
   <div class="is-mobile-info-panel" id="mobile-info-panel">
-    <div class="is-info-title is-Stratos-title is-info-title-1">
+    <div class="is-info-title is-Stratos-title is-overview-info is-info-title-1">
       Video Overview
     </div>
     <div class="is-info-body is-info-body-1" id="video-overview-info-body">
@@ -155,7 +156,7 @@
       {{ end }}
     </div>
 
-    <div class="is-info-title is-Stratos-title is-info-title-2">
+    <div class="is-info-title is-Stratos-title is-resources-info is-info-title-2">
       Resources
     </div>
     <div class="is-info-body is-info-body-2" id="resources-info-body">
