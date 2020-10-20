@@ -10,6 +10,9 @@ html, body
   +desktop
     overflow: hidden
 
+body
+  padding-bottom: 5px
+
 .is-Stratos-title
   font-family: Stratos
   font-weight: 500
@@ -362,6 +365,9 @@ body.is-touch-device
       display: block
       .is-playlist
         border-width: 1px
+        border-top: none
+        +mobile
+          border: none
     +touch
       padding-top: 0
       padding-bottom: 0

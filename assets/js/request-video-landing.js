@@ -1,11 +1,27 @@
 /*
 {{ $src := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
 */
-import { activateOneOf, toggleActive } from '{{ $src.RelPermalink }}';
+import { activateOneOf, bindEventWithTarget } from '{{ $src.RelPermalink }}';
 
 activateOneOf('.is-tab-panel .is-tab-title', true);
 
-toggleActive('.is-mobile-playlist-header', true);
+let offsetY = 0;
+
+bindEventWithTarget('.is-mobile-playlist-header', 'click', (el, target) => {
+  if (el.classList.contains('is-active')) {
+    offsetY = window.scrollY;
+  }
+
+  el.classList.toggle('is-active');
+
+  if (target) {
+    target.classList.toggle('is-active');
+  }
+
+  if (el.classList.contains('is-active')) {
+    window.scrollTo(0, offsetY);
+  }
+});
 
 document.querySelector('.is-playlist-item').click();
 
