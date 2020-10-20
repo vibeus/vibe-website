@@ -201,11 +201,13 @@ html, body
 
 .is-content
   height: auto
+  background-color: white
   +desktop
-      flex-grow: 1
-      height: 100%
-      overflow-y: scroll
+    flex-grow: 1
+    height: 100%
+    overflow-y: scroll
   .is-content-header
+    background-color: white
     .is-header-title
       text-align: center
       padding: 24px
@@ -335,3 +337,50 @@ html, body
         .is-faq
           display: block
           text-decoration: underline
+
+.is-resources-tab, .is-resources-info
+  &.is-hidden
+    display: none
+
+.is-touch-device
+  .is-content
+    +touch
+      position: fixed
+      width: 100%
+      z-index: 100
+  .is-mobile-playlist-header
+    +touch
+      position: fixed
+      z-index: 100
+    +mobile
+      top: calc(56.25vw + 76px + 66px)
+      left: 0
+      width: 100%
+    +tablet-only
+      top: calc(0.5625 * (100vw - 40px) + 96px + 66px)
+      left: 20px
+      width: calc(100% - 40px)
+  .is-playlist-container
+    +touch
+      position: fixed
+      z-index: 50
+    +mobile
+      padding-top: calc(56.25vw + 76px + 48px)
+      left: 0
+      width: 100%
+    +tablet-only
+      padding-top: calc(0.5625 * (100vw - 40px) + 96px + 48px)
+      left: 20px
+      width: calc(100% - 40px)
+  .is-mobile-info-panel
+    +touch
+      position: fixed
+      z-index: 50
+    +mobile
+      top: calc(56.25vw + 76px + 66px + 48px)
+      left: 0
+      width: 100%
+    +tablet-only
+      top: calc(0.5625 * (100vw - 40px) + 96px + 66px + 48px)
+      left: 20px
+      width: calc(100% - 40px)
