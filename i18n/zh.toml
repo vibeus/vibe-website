@@ -227,6 +227,15 @@ and any other questions"""
 other = """The demo will cover whiteboarding features, saving & sharing, screencasting options, and 3rd party
 applications, followed by Q&A"""
 
+[i18n-content-demo-_index-demo-expect-i_0-items-i_3-title]
+other = "How to share Vibe projects for live working sessions"
+
+[i18n-content-demo-_index-demo-expect-i_0-items-i_4-title]
+other = "Screencasting  from your computer, iPad or phone"
+
+[i18n-content-demo-_index-demo-expect-i_0-items-i_5-title]
+other = "What’s included with a Vibe board purchase"
+
 [i18n-content-demo-_index-demo-expect-i_1-title]
 other = "What you can expect from the Demo Video"
 
@@ -268,21 +277,20 @@ Can't wait? [Watch now](/demo/video-demo/)."""
 [i18n-content-order-_index-title]
 other = "Order your Vibe"
 
-[i18n-content-order-_index-products-i_0-title]
+[i18n-content-order-_index-products-i_0-item-title]
 other = "Vibe Board"
 
-[i18n-content-order-_index-products-i_1-title]
+[i18n-content-order-_index-products-i_0-item-body]
+other = "The Vibe Board is an interactive digital whiteboard that enhances collaboration with a 4K 55” screen and built in speakers."
+
+[i18n-content-order-_index-products-i_1-item-title]
 other = "White Portable Stand"
 
-[i18n-content-order-_index-products-i_2-title]
+[i18n-content-order-_index-products-i_2-item-title]
 other = "Red Portable Stand"
 
-[i18n-content-order-_index-products-i_3-title]
+[i18n-content-order-_index-products-i_3-item-title]
 other = "Additional Touch Styluses (2)"
-
-[i18n-content-order-_index-hero-body]
-other = """The Vibe Board is an interactive digital whiteboard that enhances collaboration with a
-4K 55” screen and built in speakers."""
 
 [i18n-content-order-_index-accessories-title]
 other = "Related accessories"
@@ -352,6 +360,47 @@ other = """**Vibe board dimensions:**
 
 [i18n-content-order-_index-reviews-title]
 other = "Customer reviews"
+
+[i18n-content-order-_index-reviews-items-i_0-body]
+other = """**Great for Courtroom presentations, collaboration, and meetings**
+
+I recently bought a Vibe Interactive 4k Touchscreen board. Since then I have
+used it in about 20 court hearings which were conducted by video conference.
+I also use it daily in meetings with my clients, witnesses, vendors and attorneys
+across the United States. The Vibe board is the best and most effective interactive
+board I have used..."""
+
+[i18n-content-order-_index-reviews-items-i_1-body]
+other = """**This is a great white board/UC system**
+
+The system is very user friendly and offers feature rich apps. Vibe has bridged
+technology that is usually not available or very clunky to use. The price and
+quality is unbeatable with great technical support. I have deployed many boards
+in a corporate environment with little issues... I highly recommend the Vibe Board
+for a small to medium conference room..."""
+
+[i18n-content-order-_index-reviews-items-i_2-body]
+other = """**Amazing - user-friendly - awesome whiteboard**
+
+I started shopping for a whiteboard and I was pretty astounded at the high prices - 
+I was feeling discouraged and then I saw the Vibe board and how affordable it
+was compared to the name brands... Now, months later, you would have to pry this
+out of my hands... I am blown away by this board. It shows up as an airplay device
+then in one click I'm sharing changes to a project I'm working on, doing a
+presentation and then zooming with a colleague in Ireland... I've sent them
+countless support questions and over the months, their tech team consistently
+responds pretty much immediately or within a few hours..."""
+
+[i18n-content-order-_index-reviews-items-i_3-body]
+other = """**Best digital whiteboard I've used**
+
+There are a few options out there for digital/collaboration boards. I originally
+purchased the Samsung Flip 2 and had to return it due to its lack of cloud
+collaboration and Samsung-only browser that did not allow for browser-based tools.
+What really stands out with the Vibe besides its good looks and large, brilliant
+screen, is the interface that allows for easily adding popular tools like Miro
+or Jira- tools a creative director or product manager needs to work with multiple
+teams..."""
 
 [i18n-content-order-_index-bottom_cta-title]
 other = "Still have questions?"
@@ -2024,6 +2073,65 @@ other = "演示视频"
 [i18n-content-service-_index-zh-bottom_cta-cta-buttons-i_1-title]
 other = "立即购买"
 
+[i18n-content-pricing-_index-title]
+other = "Pricing"
+
+[i18n-content-pricing-_index-faq-title]
+other = "Pricing FAQs"
+
+[i18n-content-pricing-_index-faq-items-i_0-title]
+other = "What features are missing from the Starter plan comparing to your Business plan?"
+
+[i18n-content-pricing-_index-faq-items-i_0-body]
+other = """- Features wise, not much!  We want you to experience all the features we have to offer, not hiding any behind some pay wall
+- Sharing is limited.  In our Starter plan, a shared link cannot be turned off.  This is sufficient for personal or home use.  But if you are running a business that require more security and permission control, then please choose our Business plan
+- No team workspace, see question below in this FAQ
+- No anonymous editors support in Starter plan
+- Exports will have a Vibe watermark
+- Cloud drive data sync is not available in Starter plan"""
+
+[i18n-content-pricing-_index-faq-items-i_1-title]
+other = "What is the difference between Vibe Whiteboard and Vibe Board?"
+
+[i18n-content-pricing-_index-faq-items-i_1-body]
+other = "Vibe Whiteboard is our cloud collaboration software while the Vibe Board is our big iPad like hardware.  The Vibe Board can of course run our whiteboard app plus many other apps available from App Store."
+
+[i18n-content-pricing-_index-faq-items-i_2-title]
+other = "Do I need to have a Vibe Board to use the Vibe Whiteboard software?"
+
+[i18n-content-pricing-_index-faq-items-i_2-body]
+other = "No, even tho you will have a much better experience using our Whiteboard App on the Vibe Board, it can be used as a stand alone product.  For example, a teacher may use the whiteboard from a Vibe Board during a class while the students can participate from their devices of choice: laptop, tablets and even mobile."
+
+[i18n-content-pricing-_index-faq-items-i_3-title]
+other = "How accessible is the Whiteboard App, do I need to install anything?"
+
+[i18n-content-pricing-_index-faq-items-i_3-body]
+other = "We built our whiteboard for collaboration.  That means for the most part, any device that have a web browser will be able to use our software, no installation is required.  Head to app.vibe.us to get try it out."
+
+[i18n-content-pricing-_index-faq-items-i_4-title]
+other = "What is the difference between an individual account and a team account?"
+
+[i18n-content-pricing-_index-faq-items-i_4-body]
+other = "Our Starter plan is an individual account type.  If you want to collaborate with others under this plan,  you will need to manually share the board.  In a team environment, sharing and collaboration happens naturally between team members.  Whiteboards created by any member is automatically available to other members of the same team.  Team account is available only under Business tier with at least 1 paying member."
+
+[i18n-content-pricing-_index-faq-items-i_5-title]
+other = "When or why should I upgrade from the Starter plan to the Business plan?"
+
+[i18n-content-pricing-_index-faq-items-i_5-body]
+other = "We love that many people are collaborating on our platform and we will continue to offer a robust starter plan so many more can benefit from.  While our starter plan have many features only available in others’ paid tier, we think our customers will naturally upgrade because they received sufficient value after using our starter plan for a while.  I.e. if one day you find yourself out of cloud storage, a clear indication of value realized in our service, we hope you will continue your service and upgrade. In general the starter plan is designed to on-board new users, better suited for personal, home or small business use."
+
+[i18n-content-pricing-_index-faq-items-i_6-title]
+other = "What is the ideal setup for the Vibe Whiteboard software?"
+
+[i18n-content-pricing-_index-faq-items-i_6-body]
+other = "Any device that support a stylus is great, best used with our Vibe Board hardware, or tablets such as the iPad + Apple Pencil."
+
+[i18n-content-pricing-_index-faq-items-i_7-title]
+other = "What happens to my boards if I downgrade from Business plan to Starter plan?"
+
+[i18n-content-pricing-_index-faq-items-i_7-body]
+other = "With Vibe Starter plan, there is a limit of 10 boards per account.  If you have more than 10 boards, we recommend you first consolidate down to 10 before you downgrade your Business plan.  If you chose not to consolidate, your recently edited 10 boards will be saved for you."
+
 [i18n-content-customer-_index-title]
 other = "Vize 改变了他们的工作"
 
@@ -2317,6 +2425,22 @@ other = "所有应用"
 
 [i18n-manual-android-app-store-type-of-tool]
 other = "工具类型"
+
+[i18n-content-order-_index-products-i_0-title]
+other = "Vibe Board"
+
+[i18n-content-order-_index-products-i_1-title]
+other = "White Portable Stand"
+
+[i18n-content-order-_index-products-i_2-title]
+other = "Red Portable Stand"
+
+[i18n-content-order-_index-products-i_3-title]
+other = "Additional Touch Styluses (2)"
+
+[i18n-content-order-_index-hero-body]
+other = """The Vibe Board is an interactive digital whiteboard that enhances collaboration with a
+4K 55” screen and built in speakers."""
 
 [i18n-content-hardware-_index-feature_set_1-features-i_0-cta-title]
 other = "观看视频"
