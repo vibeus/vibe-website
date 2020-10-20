@@ -46,7 +46,7 @@ products:
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns
-  amazon: https://www.amazon.com/stores/page/BED18022-1CBC-4E12-B4FC-23DFECFBEC84
+  amazon: https://www.amazon.com/gp/product/B081LPL772/ref=as_li_tl?ie=UTF8&tag=vibe0be-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B081LPL772&linkId=95dfdc3f7512c0ee8f046c0f1d4e59ae
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png

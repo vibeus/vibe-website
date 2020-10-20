@@ -1,6 +1,6 @@
 ---
-title: Vibe Demo Video Request
-description: Sign up for a video or live demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
+title: See Vibe for Yourself
+description: Sign up for a video demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
 stylesPath: css/demo.sass
 hero:
   title: i18n-content-demo-_index-hero-title
@@ -15,9 +15,11 @@ demo:
           icon: check-bold
         - title: i18n-content-demo-_index-demo-expect-i_0-items-i_2-title
           icon: check-bold
-    - title: i18n-content-demo-_index-demo-expect-i_1-title
-      items:
-        - title: i18n-content-demo-_index-demo-expect-i_1-items-i_0-title
+        - title: i18n-content-demo-_index-demo-expect-i_0-items-i_3-title
+          icon: check-bold
+        - title: i18n-content-demo-_index-demo-expect-i_0-items-i_4-title
+          icon: check-bold
+        - title: i18n-content-demo-_index-demo-expect-i_0-items-i_5-title
           icon: check-bold
   form:
     title: i18n-content-demo-_index-demo-form-title
@@ -42,10 +44,6 @@ demo:
           placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder
           type: textarea
     buttons:
-      - type: submit
-        title: i18n-content-demo-_index-demo-form-buttons-i_0-title
-        class: button is-rounded is-primary is-fullwidth
-        name: request-demo
       - type: submit
         title: i18n-content-demo-_index-demo-form-buttons-i_1-title
         class: button is-rounded is-primary is-outlined is-fullwidth

@@ -1,7 +1,6 @@
 ---
 title: Contact us
-description:
-  Contact Vibe Support and Sales with any questions you may have. We're here for you!
+description: Contact Vibe Support and Sales with any questions you may have. We're here for you!
 stylesPath: css/contact.sass
 hero:
   title: i18n-content-contact-_index-hero-title
@@ -29,21 +28,6 @@ contact:
           required: true
         - name: jobtitle
           placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder
-          dropdown:
-            - Executive
-            - Financial services
-            - IT
-            - Engineer
-            - Marketing
-            - Sales
-            - Trainer
-            - Project manager
-            - UI/UX designer
-            - Lawyer
-            - Teacher
-            - Government
-            - Health
-            - Sports
       - - name: message
           placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder
           type: textarea

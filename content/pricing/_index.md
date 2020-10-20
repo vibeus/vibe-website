@@ -27,7 +27,7 @@ plans: &plans
       body:
         - Use your Vibe as a central video conferencing system with apps such as Zoom, Team and Google Hangout
         - Present your ideas wirelessly and annotate during your discussion
-        - Work in offline mode that guarantees data security 
+        - Work in offline mode that guarantees data security
         - Our robust apps ecosystem let you use apps that you already love
   - class: business is-one-third
     title: Business
@@ -100,7 +100,7 @@ add_on_plans: &add_on_plans
         - Unlimited instruct boards with automatic assignments propagation
         - Manage class effectively with students boards gallery view
         - Create breakout groups to enable small team collaboration
-        - Facilitate discussions with anonymous presentations 
+        - Facilitate discussions with anonymous presentations
         - Build a learning community with published boards options
         - Access to Vibe education templates store to upload or download templates made by other educators
         - Extra 10GB of cloud storage
@@ -127,7 +127,7 @@ vibe_ad:
       target: &features_with_vibe_id features-with-vibe
       to_show: Learn more
       to_hide: Hide detail
-      icon: 
+      icon:
         class: hidden-detail-icon
         text: '↓'
 features_with_vibe:
@@ -145,7 +145,7 @@ comparison:
       target: *comparison_id
       class: toggle-comparison
       to_hide: Hide detail
-      icon: 
+      icon:
         class: chevron-icon
         mdi_icon: chevron-down:40
 faq:

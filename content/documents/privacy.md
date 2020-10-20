@@ -1,8 +1,7 @@
 ---
 url: /privacy/
 title: &title Vibe Privacy Policy
-description:
-  Vibe is committed to protecting the privacy of users and customers. Read the Vibe Privacy Policy.
+description: Vibe is committed to protecting the privacy of users and customers. Read the Vibe Privacy Policy.
 aliases:
   - /documents/privacy/
 
