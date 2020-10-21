@@ -1,7 +1,7 @@
 ---
 title: Thanks for requesting our demo video.
-stylesPath: css/request-video-landing.sass
-layout: request-video-landing
+stylesPath: css/video-demo.sass
+layout: video-demo
 aliases:
   - /demo/request-video-landing/
 player:
@@ -55,7 +55,7 @@ playlist_info:
           exact_length: 1:20
         tab_panel:
           video_overview:
-            content: Get an overview of how to import files directly to the board from Google Drive, Dropbox, OneDrive, or Box. 
+            content: Get an overview of how to import files directly to the board from Google Drive, Dropbox, OneDrive, and Box.
           resources:
             faqs:
               - title: What file formats are supported?
@@ -96,7 +96,7 @@ playlist_info:
           exact_length: 0:40
         tab_panel:
           video_overview:
-            content: Vibe was built on an Android operating system, which allows you the option to integrate with a growing list of 3rd party applications. 
+            content: Vibe was built on the Android operating system, which gives you the option to use a growing list of 3rd party applications that integrate directly with the board.
           resources:
             faqs:
               - title: Which apps are available?
@@ -108,7 +108,7 @@ playlist_info:
           exact_length: 1:31
         tab_panel:
           video_overview:
-            content: Get an overview of Vibe App store, and app launch center, where you can view and easily switch between the open apps.
+            content: Get an overview of Vibe App store and see the app launch center, where you can easily switch between or split screen open apps.
           resources:
             faqs:
               - title: How to download applications?
@@ -160,7 +160,7 @@ playlist_info:
           exact_length: 1:00
         tab_panel:
           video_overview:
-            content: Vibe can be uses as a second screen when you use HDMI to connect your computer with Vibe. You can annotate on the screen as well.
+            content: Vibe can be used as a second screen by connecting your computer to Vibe via HDMI. You can annotate on the screen as well.
           resources:
   - title: Hardware
     playlist:
