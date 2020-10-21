@@ -1,9 +1,19 @@
 ---
 title: Thanks for requesting our demo video.
-stylesPath: css/request-video-landing.sass
-layout: request-video-landing
+stylesPath: css/video-demo.sass
+layout: video-demo
 aliases:
   - /demo/request-video-landing/
+navbar:
+  extra:
+    - title: Contact Sales
+      class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      url: /contact/
+      in_brand_mobile: true
+    - title: i18n-data-common-nav-base-extra-i_1-title
+      class: is-primary is-rounded is-nav-cart is-in-brand
+      url: /order/
+      in_brand_mobile: true
 player:
   playlistClass: switch-video
   triggerClass: player-trigger
@@ -55,7 +65,7 @@ playlist_info:
           exact_length: 1:20
         tab_panel:
           video_overview:
-            content: Get an overview of how to import files directly to the board from Google Drive, Dropbox, OneDrive, or Box. 
+            content: Get an overview of how to import files directly to the board from Google Drive, Dropbox, OneDrive, and Box.
           resources:
             faqs:
               - title: What file formats are supported?
@@ -96,7 +106,7 @@ playlist_info:
           exact_length: 0:40
         tab_panel:
           video_overview:
-            content: Vibe was built on an Android operating system, which allows you the option to integrate with a growing list of 3rd party applications. 
+            content: Vibe was built on the Android operating system, which gives you the option to use a growing list of 3rd party applications that integrate directly with the board.
           resources:
             faqs:
               - title: Which apps are available?
@@ -108,7 +118,7 @@ playlist_info:
           exact_length: 1:31
         tab_panel:
           video_overview:
-            content: Get an overview of Vibe App store, and app launch center, where you can view and easily switch between the open apps.
+            content: Get an overview of Vibe App store and see the app launch center, where you can easily switch between or split screen open apps.
           resources:
             faqs:
               - title: How to download applications?
@@ -133,15 +143,24 @@ playlist_info:
           video_overview:
             content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting. 
           resources:
-      # - title: Zoom Example
-      #   video:
-      #     id: not-published-yet
-      #     length: 0
-      #     exact_length: 
-      #   tab_panel:
-      #     video_overview:
-      #       content: Zoom Example
-      #     resources:
+      - title: Zoom Overview
+        video:
+          id: E1DRW8ewnVU
+          length: 4
+          exact_length: 4:16
+        tab_panel:
+          video_overview:
+            content: Get an overview of how to use Zoom for video conferencing, while sharing the board's screen with remote participants.
+          resources:
+      - title: Microsoft Teams Overview
+        video:
+          id: nTrR0LoLZgw
+          length: 2
+          exact_length: 1:58
+        tab_panel:
+          video_overview:
+            content: Get an overview of how to use Microsoft Teams for video conferencing, while sharing the board's screen with remote participants.
+          resources:
   - title: Screencast & Annotation
     playlist:
       - title: Wireless Screencast & Annotation
@@ -160,7 +179,7 @@ playlist_info:
           exact_length: 1:00
         tab_panel:
           video_overview:
-            content: Vibe can be uses as a second screen when you use HDMI to connect your computer with Vibe. You can annotate on the screen as well.
+            content: Vibe can be used as a second screen by connecting your computer to Vibe via HDMI. You can annotate on the screen as well.
           resources:
   - title: Hardware
     playlist:

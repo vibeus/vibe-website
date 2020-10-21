@@ -1,0 +1,204 @@
+{{ define "stylesheets" }}
+<style>{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}</style>
+{{ end }}
+
+{{ define "main" }}<main class="demo">
+  {{ $num_videos := 0 }}
+  {{ $total_mins := 0 }}
+  {{ range .Params.playlist_info }}
+  {{ $num_videos = add $num_videos (len .playlist) }}
+  {{ range .playlist }}
+  {{ $total_mins = add $total_mins .video.length }}
+  {{ end }}
+  {{ end }}
+
+  <div class="is-content">
+    <div class="is-content-header">
+      <div class="is-header-title is-Stratos-title">{{ .Params.playlist_header.title }}</div>
+    </div>
+    <div class="is-content-container">
+      <div class="is-video-wrapper">
+        {{ partial "video-playlist-player" .Params }}
+      </div>
+
+      <div class="is-tab-panel" id="tab-panel">
+        <div class="is-tab-titles">
+          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-overview-tab is-active" data-target="video-overview-tab-body">
+            Video Overview
+            <span class="is-split-line"></span>
+          </div>
+          <div class="is-tab-title is-Stratos-title is-tab-title-2 is-resources-tab" data-target="resources-tab-body">
+            Resources
+            <span class="is-split-line"></span>
+          </div>
+        </div>
+        <div class="is-tab-bodies">
+          <div class="is-tab-body is-tab-body-1 is-active" id="video-overview-tab-body">
+            {{ range $idx1, $val1 := .Params.playlist_info }}
+            {{ range $idx2, $val2 := .playlist }}
+            {{ with $val2.tab_panel.video_overview }}
+            <div class="is-video-overview is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content">
+              {{ .content }}
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </div>
+          <div class="is-tab-body is-tab-body-2" id="resources-tab-body">
+            {{ range $idx1, $val1 := .Params.playlist_info }}
+            {{ range $idx2, $val2 := .playlist }}
+            {{ with $val2.tab_panel.resources }}
+            <div class="is-resources is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content">
+              {{ with .downloads }}
+              <div class="is-downloads">
+                {{ range . }}
+                <a class="is-download" href="{{ .url }}" target="_blank">
+                  <span class="is-download-icon">
+                    {{ (resources.Get "img/common/download-icon.svg" ).Content | safeHTML }}
+                  </span>
+                  <span class="is-download-title">
+                    {{ .title }}
+                  </span>
+                </a>
+                {{ end }}
+              </div>
+              {{ end }}
+
+              {{ with .faqs }}
+              <div class="is-faqs">
+                <div class="is-faqs-title is-Stratos-title">FAQ:</div>
+                {{ range . }}
+                <a class="is-faq" href="{{ .url }}" target="_blank">
+                  {{ .title }}
+                </a>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="is-playlist-wrapper is-active" id="playlist-wrapper">
+    <div class="is-playlist">
+      <div class="is-playlist-header">
+        <div class="is-left">
+          <div class="is-header-title is-Stratos-title">{{ .Params.playlist_header.title }}</div>
+          <div class="is-header-body">{{ $num_videos }} Videos, Total {{ $total_mins }} mins</div>
+        </div>
+        <div class="is-right is-playlist-header-icon">
+          {{ (resources.Get "img/demo/playlist-header-icon.svg").Content | safeHTML }}
+        </div>
+      </div>
+      <div class="is-mobile-playlist-header is-active" data-target="playlist-wrapper">
+        <div class="is-header-body">{{ $num_videos }} Videos, Total {{ $total_mins }} mins</div>
+        <div class="is-collapse-icon">
+          {{ partial "common/mdi" "chevron-down:20" }}
+        </div>
+      </div>
+      <div class="is-playlist-container" id="playlist-container">
+        {{ range $idx1, $val := .Params.playlist_info }}
+        {{ with $val }}
+        <div class="is-single-playlist is-playlist-{{ $idx1 }}">
+          <div class="is-playlist-title is-Stratos-title">{{ .title }}</div>
+          {{ range $idx2, $val := .playlist }}
+          {{ with $val }}
+          <div
+            class="is-playlist-item is-playlist-item-{{ $idx1 }}-{{ $idx2}}{{ with $.Params.player.playlistClass }} {{ . }}{{ end }}"
+            data-idx="{{ $idx1 }}-{{ $idx2 }}"
+            data-target="tab-panel"
+            data-target-class="is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content is-playlist-{{ $idx1 }} is-mobile-playlist-item-{{ $idx1 }}-{{ $idx2}}"
+            data-video-id="{{ .video.id }}"
+          >
+            <div class="is-mobile-thumbnail-wrapper">
+              <img class="is-mobile-thumbnail" src="http://img.youtube.com/vi/{{ .video.id }}/mqdefault.jpg">
+              <div class="is-overlay"></div>
+              <div class="is-mobile-video-length">{{ .video.exact_length }}</div>
+            </div>
+            <div class="is-title-wrapper">
+              <div class="is-play-video-icon">
+                {{ (resources.Get "img/demo/play-video.svg").Content | safeHTML }}
+              </div>
+              <div class="is-playlist-item-title">{{ .title }}</div>
+              <div class="is-mobile-play-video-icon">
+                {{ (resources.Get "img/demo/play-video.svg").Content | safeHTML }}
+              </div>
+            </div>
+            <div class="is-video-length">{{ .video.length }}min{{ if gt .video.length 1 }}s{{ end }}</div>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="is-mobile-info-panel" id="mobile-info-panel">
+    <div class="is-info-title is-Stratos-title is-overview-info is-info-title-1">
+      Video Overview
+    </div>
+    <div class="is-info-body is-info-body-1" id="video-overview-info-body">
+      {{ range $idx1, $val1 := .Params.playlist_info }}
+      {{ range $idx2, $val2 := .playlist }}
+      {{ with $val2.tab_panel.video_overview }}
+      <div class="is-video-overview is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content">
+        {{ .content }}
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="is-info-title is-Stratos-title is-resources-info is-info-title-2">
+      Resources
+    </div>
+    <div class="is-info-body is-info-body-2" id="resources-info-body">
+      {{ range $idx1, $val1 := .Params.playlist_info }}
+      {{ range $idx2, $val2 := .playlist }}
+      {{ with $val2.tab_panel.resources }}
+      <div class="is-resources is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content">
+        {{ with .downloads }}
+        <div class="is-downloads">
+          {{ range . }}
+          <a class="is-download" href="{{ .url }}" target="_blank">
+            <span class="is-download-icon">
+              {{ (resources.Get "img/common/download-icon.svg" ).Content | safeHTML }}
+            </span>
+            <span class="is-download-title">
+              {{ .title }}
+            </span>
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+    
+        {{ with .faqs }}
+        <div class="is-faqs">
+          <div class="is-faqs-title is-Stratos-title">FAQ:</div>
+          {{ range . }}
+          <a class="is-faq" href="{{ .url }}" target="_blank">
+            {{ .title }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  {{ partial "common/template-script" (dict "asset" "js/request-video-landing.js") }}
+</main>{{ end }}
+
+{{ define "foot" }}
+<footer></footer>
+{{ end }}
