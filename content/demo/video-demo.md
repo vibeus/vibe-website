@@ -4,6 +4,16 @@ stylesPath: css/video-demo.sass
 layout: video-demo
 aliases:
   - /demo/request-video-landing/
+navbar:
+  extra:
+    - title: Contact Sales
+      class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      url: /contact/
+      in_brand_mobile: true
+    - title: i18n-data-common-nav-base-extra-i_1-title
+      class: is-primary is-rounded is-nav-cart is-in-brand
+      url: /order/
+      in_brand_mobile: true
 player:
   playlistClass: switch-video
   triggerClass: player-trigger
@@ -133,15 +143,24 @@ playlist_info:
           video_overview:
             content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting. 
           resources:
-      # - title: Zoom Example
-      #   video:
-      #     id: not-published-yet
-      #     length: 0
-      #     exact_length: 
-      #   tab_panel:
-      #     video_overview:
-      #       content: Zoom Example
-      #     resources:
+      - title: Zoom Overview
+        video:
+          id: E1DRW8ewnVU
+          length: 4
+          exact_length: 4:16
+        tab_panel:
+          video_overview:
+            content: Get an overview of how to use Zoom for video conferencing, while sharing the board's screen with remote participants.
+          resources:
+      - title: Microsoft Teams Overview
+        video:
+          id: nTrR0LoLZgw
+          length: 2
+          exact_length: 1:58
+        tab_panel:
+          video_overview:
+            content: Get an overview of how to use Microsoft Teams for video conferencing, while sharing the board's screen with remote participants.
+          resources:
   - title: Screencast & Annotation
     playlist:
       - title: Wireless Screencast & Annotation
