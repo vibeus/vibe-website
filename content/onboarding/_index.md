@@ -58,6 +58,12 @@ setup:
                   url: img/common/download-icon.svg
                 url: https://f.hubspotusercontent10.net/hubfs/5698963/Vibe%20User%20Manual.pdf
             - link:
+                text: 'Vibe-Tafel für interaktive Zusammenarbeit Bedienungsanleitung'
+                icon:
+                  class: download-icon
+                  url: img/common/download-icon.svg
+                url: https://f.hubspotusercontent10.net/hubfs/5698963/marketing%20assets/Germany%20user%20manual.pdf
+            - link:
                 text: 'FAQ – Can we mount Vibe on a wall or use with other stands?'
                 icon:
                   class: faq-icon

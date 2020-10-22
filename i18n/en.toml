@@ -577,25 +577,25 @@ other = "Contact Sales"
 other = """Have a question? We'd love to hear from you."""
 
 [i18n-content-contact-_index-contact-form-controls-i_0-i_0-placeholder]
-other = "First Name"
+other = "First Name*"
 
 [i18n-content-contact-_index-contact-form-controls-i_0-i_1-placeholder]
-other = "Last Name"
+other = "Last Name*"
 
 [i18n-content-contact-_index-contact-form-controls-i_1-i_0-placeholder]
-other = "Work Email"
+other = "Work Email*"
 
 [i18n-content-contact-_index-contact-form-controls-i_1-i_1-placeholder]
-other = "Phone Number"
+other = "Phone Number*"
 
 [i18n-content-contact-_index-contact-form-controls-i_2-i_0-placeholder]
-other = "Company Name"
+other = "Company Name*"
 
 [i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder]
 other = "Job Title"
 
 [i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder]
-other = "Message"
+other = "Message*"
 
 [i18n-content-contact-_index-contact-form-buttons-i_0-title]
 other = "Submit"
