@@ -1,10 +1,22 @@
 ---
 title: Contact us
 description: Contact Vibe Support and Sales with any questions you may have. We're here for you!
+layout: contact
 stylesPath: css/contact.sass
 hero:
   title: i18n-content-contact-_index-hero-title
-  body: i18n-content-contact-_index-hero-body
+  body:
+    - text: Have a question? We’d love to hear from you.
+    - class: spacing-block
+    - class: display-flex
+      icon:
+        class: location-icon
+        url: img/contact/location.svg
+      text: If you need a PO or have a delivery address outside of the continental US,
+    - text: please 
+      link:
+        text: request a quote.
+        url: /contact/request-a-quote
 contact:
   form:
     action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/eda833da-394c-4d3c-8a66-c8b854d7ee77

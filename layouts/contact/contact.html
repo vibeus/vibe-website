@@ -1,0 +1,52 @@
+{{ define "main" }}<main class="contact">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ default .title (T .title) }}</h1>
+      <div class="content">
+        {{ range .body }}
+        <div class="single-content-block{{ with .class }} {{ . }}{{ end }}">
+          {{ with .icon }}
+          <span class="icon {{ with .class }} {{ . }}{{ end }}">
+            {{ (resources.Get .url ).Content | safeHTML }}
+          </span>
+          {{ end }}
+          <span class="text">{{ default .text (T .text) }}</span>
+          {{ with .link }}
+          <a class="link" href="{{ .url }}">{{ .text }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.contact }}
+<section class="section is-contact">
+  <div class="container is-form">
+    {{ with .form }}
+    {{ partial "common/form" . }}
+    {{ end }}
+  </div>
+
+  <div class="container is-support">
+    {{ with .support }}
+    <h2 class="title">{{ default .title (T .title) }}</h2>
+    <div class="content">
+      {{ default .body (T .body) | markdownify }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/contact.js") }}
+</main>{{ end }}
