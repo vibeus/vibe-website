@@ -25,9 +25,11 @@ bindEventWithTarget('.is-mobile-playlist-header', 'click', (el, target) => {
 
 document.querySelector('.is-playlist-item').click();
 
-document.querySelector('.is-mobile-playlist-header').addEventListener('click', () => {
-  document.getElementById('mobile-info-panel').classList.toggle('is-active');
-});
+document
+  .querySelector('.is-mobile-playlist-header')
+  .addEventListener('click', () => {
+    document.getElementById('mobile-info-panel').classList.toggle('is-active');
+  });
 
 document.body.addEventListener('click', (e) => {
   const playlistItem = e.target.closest('.is-playlist-item');
@@ -35,7 +37,11 @@ document.body.addEventListener('click', (e) => {
     const resourcesTab = document.querySelector('.is-resources-tab');
     const overviewTab = document.querySelector('.is-overview-tab');
     const resourcesInfo = document.querySelector('.is-resources-info');
-    if (!document.querySelector(`.is-playlist-item-${playlistItem.dataset.idx}-tab-content.is-resources`)) {
+    if (
+      !document.querySelector(
+        `.is-playlist-item-${playlistItem.dataset.idx}-tab-content.is-resources`
+      )
+    ) {
       resourcesTab.classList.remove('is-active');
       resourcesTab.classList.add('is-hidden');
       overviewTab.click();
@@ -47,7 +53,7 @@ document.body.addEventListener('click', (e) => {
   }
 });
 
-const touchDevice = ('ontouchstart' in document.documentElement);
+const touchDevice = 'ontouchstart' in document.documentElement;
 if (touchDevice) {
   document.body.classList.add('is-touch-device');
 }
