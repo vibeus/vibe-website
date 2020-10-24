@@ -8,8 +8,7 @@ hero:
   body:
     - text: Have a question? We’d love to hear from you.
     - class: spacing-block
-    - class: display-flex
-      icon:
+    - icon:
         class: location-icon
         url: img/contact/location.svg
       text: If you need a PO or have a delivery address outside of the continental US,
