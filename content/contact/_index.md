@@ -40,8 +40,19 @@ contact:
           required: true
         - name: jobtitle
           placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder
-      - - name: message
+      - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
           placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder
+          dropdown:
+            - Learning at Home
+            - Education
+            - Marketing
+            - Professional Services
+            - Technology
+            - Personal Use & Entertainment
+            - General
+            - Architecture, Construction, Engineering
+      - - name: message
+          placeholder: i18n-content-contact-_index-contact-form-controls-i_4-i_0-placeholder
           type: textarea
           required: true
     buttons:
@@ -53,6 +64,7 @@ contact:
       body: i18n-content-contact-_index-contact-form-submitted-body
   support:
     title: i18n-content-contact-_index-contact-support-title
+    subtitle: We’re here to help!
     body: i18n-content-contact-_index-contact-support-body
 bottom_cta:
   title: i18n-content-contact-_index-bottom_cta-title

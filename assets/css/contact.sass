@@ -13,13 +13,9 @@
     text-align: center
   .single-content-block
     line-height: 27px
-    &.display-flex
-      display: flex
-      justify-content: center
-      align-items: center
     .icon
       margin-right: 5px
-      margin-bottom: 4px
+      vertical-align: -2px
     .link
       line-height: 1em
       text-decoration-line: underline
@@ -37,6 +33,8 @@
       background-color: white
       max-width: 760px
       padding: 64px 72px
+      +mobile
+        padding: 8px 20px
       .privacy
         text-align: center
     &.is-support
@@ -45,9 +43,9 @@
     text-align: center
     .button
       width: 224px
-  .title
+  .title, .subtitle
     font-size: 24px
-  .title, .content
+  .title, .subtitle, .content
     text-align: center
   .container.is-support
     a
@@ -59,3 +57,10 @@
       .submitted
         display: flex
         visibility: visible
+
+.form.is-vibe-form
+  .input, .select select, .button, .textarea
+    +mobile
+      font-size: 14px
+    +tablet
+      font-size: 16px

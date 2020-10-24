@@ -36,6 +36,7 @@
   <div class="container is-support">
     {{ with .support }}
     <h2 class="title">{{ default .title (T .title) }}</h2>
+    <h2 class="subtitle">{{ default .subtitle (T .subtitle) }}</h2>
     <div class="content">
       {{ default .body (T .body) | markdownify }}
     </div>
