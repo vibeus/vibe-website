@@ -1,7 +1,6 @@
 ---
 title: Software License Agreement & Hardware Warranty
-description:
-  Vibe end-user license agreement
+description: Vibe end-user license agreement
 url: /eula/
 aliases:
   - /documents/eula/

@@ -58,6 +58,12 @@ setup:
                   url: img/common/download-icon.svg
                 url: https://f.hubspotusercontent10.net/hubfs/5698963/Vibe%20User%20Manual.pdf
             - link:
+                text: 'Vibe-Tafel für interaktive Zusammenarbeit Bedienungsanleitung'
+                icon:
+                  class: download-icon
+                  url: img/common/download-icon.svg
+                url: https://f.hubspotusercontent10.net/hubfs/5698963/marketing%20assets/Germany%20user%20manual.pdf
+            - link:
                 text: 'FAQ – Can we mount Vibe on a wall or use with other stands?'
                 icon:
                   class: faq-icon
@@ -122,15 +128,15 @@ setup:
                     - name: lastname
                       placeholder: 'Last Name*'
                       required: true
-                    - name: phone
+                  - - name: phone
                       placeholder: 'Phone Number*'
                       type: tel
                       required: true
-                  - - name: email
+                    - name: email
                       placeholder: 'Email Address*'
                       type: email
                       required: true
-                    - name: country_region
+                  - - name: country
                       placeholder: 'Country/Region'
                       dropdown:
                         - United States
@@ -381,9 +387,9 @@ setup:
                         - Zambia
                         - Zimbabwe
                         - Åland Islands
-                  - - name: company
+                    - name: company
                       placeholder: 'Company Name'
-                    - name: how_did_you_hear_about_vibe
+                  - - name: how_did_you_hear_about_vibe_
                       placeholder: 'How did you hear about Vibe?'
                       dropdown:
                         - Google Search
@@ -394,8 +400,10 @@ setup:
                         - Referral
                         - Youtube
                         - Others
-                  - - name: date_of_purchase
+                    - name: date_of_purchase
                       placeholder: 'Date of Purchase'
+                  - - name: order_number
+                      placeholder: 'Order Number'
                     - name: serial_number
                       placeholder: 'Serial Number*'
                       required: true
@@ -406,8 +414,6 @@ setup:
                           - text: '1. Check the back of board, and you can find the serial number above the bar code.'
                           - figure: img/onboarding/serial-number.png
                           - text: '2. Turn on the device, find ‘About Vibe’ under Settings, and then you can see the serial number.'
-                  - - name: order_number
-                      placeholder: 'Order Number'
                 buttons:
                   - type: submit
                     title: 'Submit'

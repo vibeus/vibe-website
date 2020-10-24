@@ -1,8 +1,7 @@
 ---
 url: /using-smart-boards-for-business/
 title: &title Using Smart Boards for Business
-description:
-  Smart boards like Vibe Interactive Digital Whiteboard provide endless benefits to your business through versatility, and enabling seamless collaboration.
+description: Smart boards like Vibe Interactive Digital Whiteboard provide endless benefits to your business through versatility, and enabling seamless collaboration.
 content_link_target_blank: true
 
 hero:

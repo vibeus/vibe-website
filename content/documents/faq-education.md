@@ -1,8 +1,7 @@
 ---
 url: /faqs-for-teachers-and-educators/
 title: &title Vibe FAQs for Teachers and Educators. Touchscreen Smart Boards for School.
-description:
-  Vibe is the best digital whiteboard for classrooms. Learn how to use touchscreen smartboards for teaching and improve education for your students.
+description: Vibe is the best digital whiteboard for classrooms. Learn how to use touchscreen smartboards for teaching and improve education for your students.
 content_link_target_blank: true
 
 faq_rich_search:

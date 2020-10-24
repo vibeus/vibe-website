@@ -11,6 +11,18 @@
 {{ partial "common/video-hero" . }}
 {{ end }}
 
+{{ if ne .Site.Language.Lang "zh" }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ with .Params.compare }}
+{{ partial "common/compare" (merge . (dict "Site" $.Site)) }}
+{{ end }}
+
+{{ end }}
+
 {{ with .Params.hero }}
 <section class="hero">
   <div class="hero-body">
@@ -45,12 +57,28 @@
 </section>
 {{ end }}
 
+{{ if eq .Site.Language.Lang "zh" }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
 {{ with .Params.compare }}
 {{ partial "common/compare" (merge . (dict "Site" $.Site)) }}
 {{ end }}
 
-{{ with .Params.bottom_cta }}
-{{ partial "bottom-cta" . }}
+{{ else }}
+
+{{ $modalId := "schedule-demo-modal" }}
+
+<div class="modal is-iframe-modal" id="{{ $modalId }}">
+  <div class="modal-background" data-target="{{ $modalId }}"></div>
+  <div class="modal-content" id="{{ $modalId }}-iframe"></div>
+  <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/video-demo.js" "modalId" $modalId) }}
+
 {{ end }}
 
 </main>{{ end }}
