@@ -79,30 +79,36 @@ faq:
 reviews:
   title: i18n-content-order-_index-reviews-title
   items:
+    - author: SeanDon2000
+      channel: Amazon Review
+      stars: 5
+      date: 10/20/2020
+      body: i18n-content-order-_index-reviews-items-i_4-body
+      url: 'https://www.amazon.com/review/R2BWH4L1DDPWIA/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
     - author: Mark
       channel: Amazon Review
       stars: 5
       date: 06/12/2020
       body: i18n-content-order-_index-reviews-items-i_0-body
-      url: https://www.amazon.com/gp/customer-reviews/R33AJRRSO37TBG/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B081LMQZGF
+      url: 'https://www.amazon.com/review/R33AJRRSO37TBG/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=10ff97b8c5159d3db1f979b774d7f976&camp=1789&creative=9325'
     - author: SC Native
       channel: Amazon Review
       stars: 5
       date: 06/10/2020
       body: i18n-content-order-_index-reviews-items-i_1-body
-      url: https://www.amazon.com/gp/customer-reviews/R3LP7HT4QXQIVB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B081LMQZGF
+      url: 'https://www.amazon.com/review/R3LP7HT4QXQIVB/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=7600cf45bc2cffc0d9ccb1433673be14&camp=1789&creative=9325'
     - author: Gina Fant-Simon
       channel: Amazon Review
       stars: 5
       date: 06/04/2020
       body: i18n-content-order-_index-reviews-items-i_2-body
-      url: https://www.amazon.com/gp/customer-reviews/R1CMYUR0OAPGE6/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B081LMQZGF
+      url: 'https://www.amazon.com/review/R1CMYUR0OAPGE6/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=7c2dfb5ef15932f2dcdfb6f7bfa0c59f&camp=1789&creative=9325'
     - author: Bgood
       channel: Amazon Review
       stars: 5
       date: 01/17/2020
       body: i18n-content-order-_index-reviews-items-i_3-body
-      url: https://www.amazon.com/gp/customer-reviews/R24TBM6GLRVDRL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B081LPL772
+      url: 'https://www.amazon.com/review/R24TBM6GLRVDRL/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=fdf0cd99903266051afe8763dfa5ea17&camp=1789&creative=9325'
 bottom_cta:
   title: i18n-content-order-_index-bottom_cta-title
   cta:

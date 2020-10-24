@@ -141,7 +141,7 @@ playlist_info:
           exact_length: 0:39
         tab_panel:
           video_overview:
-            content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting. 
+            content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting.
           resources:
       - title: Zoom Overview
         video:
@@ -199,7 +199,7 @@ playlist_info:
           exact_length: 0:51
         tab_panel:
           video_overview:
-            content: Vibe is compatiable with mobile stands, wall mount, and most USB connected cameras and microphones. 
+            content: Vibe is compatiable with mobile stands, wall mount, and most USB connected cameras and microphones.
           resources:
       - title: How to Purchase
         video:

@@ -13,7 +13,7 @@ hero:
         class: location-icon
         url: img/contact/location.svg
       text: If you need a PO or have a delivery address outside of the continental US,
-    - text: please 
+    - text: please
       link:
         text: request a quote.
         url: /contact/request-a-quote
