@@ -18,13 +18,12 @@ contact:
         - name: lastname
           placeholder: Last Name*
           required: true
-        - name: company
-          placeholder: Company
-          required: false
-      - - name: email
-          placeholder: Work Email
+        - name: email
+          placeholder: Work Email*
           type: email
           required: true
+      - - name: company
+          placeholder: Company
         - name: phone
           placeholder: Phone Number
           type: tel
@@ -289,7 +288,7 @@ contact:
         - name: zip
           placeholder: Zip
       - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
-          placeholder: Which best describes your interest in a Vibe Whiteboard?
+          placeholder: Which best describes your interest in Vibe?
           dropdown:
             - Learning at Home
             - Education

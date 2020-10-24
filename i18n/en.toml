@@ -606,6 +606,9 @@ other = "Company Name*"
 other = "Job Title"
 
 [i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder]
+other = "Which best describes your interest in Vibe?"
+
+[i18n-content-contact-_index-contact-form-controls-i_4-i_0-placeholder]
 other = "Message*"
 
 [i18n-content-contact-_index-contact-form-buttons-i_0-title]
@@ -618,7 +621,7 @@ other = "Thanks!"
 other = "We will get back to you as soon as we can."
 
 [i18n-content-contact-_index-contact-support-title]
-other = "Already a Vibe customer, and in need of assistance? We’re here to help!"
+other = "Already a Vibe customer, and in need of assistance?"
 
 [i18n-content-contact-_index-contact-support-body]
 other = "If you have technical issues, please [contact support](https://knowledge.vibe.us/kb-tickets/new)."
