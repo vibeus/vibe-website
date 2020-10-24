@@ -17,6 +17,10 @@ navbar:
 player:
   playlistClass: switch-video
   triggerClass: player-trigger
+  thumbnail: true
+  thumbnailPlaceholderId: thumbnail-placeholder
+  thumbnailPlaceholderClass: thumbnail-placeholder
+  thumbnailImageClass: thumbnail-image
 playlist_header:
   title: Demo Videos
 playlist_info:
