@@ -285,6 +285,9 @@ other = "Phone Number"
 other = "Company Name"
 
 [i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder]
+other = "Which best describes your interest in Vibe?"
+
+[i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder]
 other = "Anything else we should know?"
 
 [i18n-content-demo-_index-demo-form-buttons-i_0-title]
