@@ -6,6 +6,8 @@ date: 2019-03-04
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smartboard Collaboration"]
 draft: false
+summary: Have you been wondering what Vibe is all about? Discover how Vibe got its name and much more.
+description: Have you been wondering what Vibe is all about? Discover how Vibe got its name and much more.
 blogHeroMask: 0.05
 ---
 

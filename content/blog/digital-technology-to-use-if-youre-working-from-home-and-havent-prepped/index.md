@@ -4,6 +4,8 @@ slug: digital-technology-to-use-if-youre-working-from-home-and-havent-prepped
 author: Vibe Team
 date: 2020-03-23
 tags: ["working from home", "remote work", "tools"]
+summary: Are you suddenly a remote worker with no prep time? We can tell you what digital tech you need to be using.
+description: Are you suddenly a remote worker with no prep time? We can tell you what digital tech you need to be using.
 draft: false
 isfeatured: false
 ---
