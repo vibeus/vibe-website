@@ -309,7 +309,6 @@ contact:
       - - name: anything_else_we_should_know_
           placeholder: Anything else we should know?
           type: textarea
-          required: true
     buttons:
       - type: submit
         title: Submit
