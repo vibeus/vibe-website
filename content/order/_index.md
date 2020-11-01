@@ -3,7 +3,7 @@ stylesPath: css/order.sass
 title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
-promo_code: "November200"
+promo_code: "NOVEMBER200"
 product_notices:
   sold_out: &sold_out
     item_notice:
