@@ -7,8 +7,8 @@
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
-{{ define "nav" }}
-<!-- <div class="before-nav"> -->
+{{/*  {{ define "nav" }}  */}}
+{{/*  <!-- <div class="before-nav"> -->
 <!--   <p class="cta"> -->
 <!--     <a href="/demo/work-from-home/"> -->
 <!--       Working from home due to Coronavirus? See how can we help → -->
@@ -19,9 +19,9 @@
   Purchase now to reserve your order in the next arrival, or
   <a href="https://landing.vibe.us/backorder-notification" target="_blank">have us notify you when they're back in stock</a>.
   </p>
-</div> -->
-{{ partial "common/nav" . }}
-{{ end }}
+</div> -->  */}}
+{{/*  {{ partial "common/nav" . }}
+{{ end }}  */}}
 
 {{ define "main" }}<main class="order">
 
@@ -68,7 +68,18 @@
         <div class="column is-text">
           <h1 class="title">{{ T .item.title }}</h1>
           <div class="content">{{ T .item.body | markdownify }}</div>
+          {{ if .item.discount_price }}
+          <div class="discount-ads">
+            <span class="discount-info">{{ .item.discount_info }}</span>
+            <span class="copy-promo-code">Copy promo code</span>
+          </div>
+          <div class="discount-item-price">
+            <span class="original-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</span>
+            <span class="discount-price">${{ .item.discount_price | lang.NumFmt (default 0 .precision) }}</span>
+          </div>
+          {{ else }}
           <div class="item-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</div>
+          {{ end }}
           <div class="content is-shipping">
             {{ .shipping | markdownify }}
             <p>Check our <a href="/refund/" target="_blank">Refund policy</a>.</p>
@@ -260,5 +271,9 @@
   </div>
 </div>
 
-{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
+{{ if .Params.promo_code }}
+{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "promoCode" .Params.promo_code ) }}
+{{ else }}
+{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products ) }}
+{{ end }}
 </main>{{ end }}
