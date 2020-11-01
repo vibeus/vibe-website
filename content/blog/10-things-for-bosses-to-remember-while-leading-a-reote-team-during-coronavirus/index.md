@@ -6,6 +6,8 @@ date: 2020-03-26
 tags: ["remote work", "remote team", "collaborate", "Coronavirus"]
 draft: false
 isfeatured: false
+description: How do you lead a remote team during coronavirus? We can tell you the 10 things every boss should remember.
+summary: How do you lead a remote team during coronavirus? We can tell you the 10 things every boss should remember.
 ---
 
 

@@ -247,6 +247,27 @@ body
         display: none
         &.is-active
           display: block
+        #thumbnail-placeholder
+          position: absolute
+          width: 100%
+          height: 100%
+          z-index: 20
+          visibility: hidden
+          &.is-active
+            cursor: pointer
+            visibility: visible
+          .thumbnail-image
+            width: 100%
+            height: 100%
+          .player-button-icon
+            width: 60px
+            height: 60px
+            margin: auto
+            +absolute-fill
+        #video-playlist-player.with-thumbnail
+          visibility: hidden
+          &.is-active
+            visibility: visible
     .is-tab-panel
       margin-top: 16px
       display: none

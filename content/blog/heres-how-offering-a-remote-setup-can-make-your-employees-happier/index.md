@@ -4,6 +4,8 @@ slug: heres-how-offering-a-remote-setup-can-make-your-employees-happier
 author: Karen Belz
 date: 2020-03-04
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
+summary: Discover how you can make your employees happier by offering them a remote set-up for work.
+description: Discover how you can make your employees happier by offering them a remote set-up for work.
 draft: false
 ---
 

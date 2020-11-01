@@ -5,6 +5,8 @@ author: Karen Belz
 date: 2020-07-03
 tags: ["education", "remote", "distance learning"]
 draft: false
+description: Considering distance learning? We can tell you 10 positive aspects of distance learning.
+summary: Considering distance learning? We can tell you 10 positive aspects of distance learning.
 isfeatured: false
 ---
 

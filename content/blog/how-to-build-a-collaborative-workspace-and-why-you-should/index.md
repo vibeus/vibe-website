@@ -6,6 +6,8 @@ date: 2019-03-25
 isfeatured: false
 tags: ["Coworking", "Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration"]
 draft: false
+summary: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
+description: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
 blogHeroMask: 0
 ---
 
@@ -95,6 +97,4 @@ Slack’s San Francisco HQ features a “forest floor” to introduce the calmne
 
 Google’s second location on LA’s westside is housed in the old Spruce Goose hangar. They refit this massive open space with a variety of smaller collaborative nooks to give it context and proportion, creating “spaces that are moldable and flexible,” according to Google spokesperson Katherine Will.
 
-Want better tools for seamless collaboration? Our team is ready to talk.
-
-[Connect with us.](https://landing.vibe.us/request-demo)
+Want better tools for seamless collaboration? [Check out the Vibe demo](https://vibe.us/demo/).

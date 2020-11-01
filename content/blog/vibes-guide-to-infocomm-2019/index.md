@@ -6,6 +6,8 @@ date: 2019-06-11
 isfeatured: false
 tags: ["Infocomm"]
 draft: false
+summary: Have you been wondering about InfoComm 2019? We can tell you all about the largest audio-visual and integrated experience event.
+description: Have you been wondering about InfoComm 2019? We can tell you all about the largest audio-visual and integrated experience event.
 blogHeroMask: 0
 ---
 

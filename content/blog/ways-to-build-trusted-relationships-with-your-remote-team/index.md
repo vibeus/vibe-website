@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-03-09
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
 draft: false
+summary: Are you leading a remote team? Discover how to build trusted relationships with your team.
 ---
 
 

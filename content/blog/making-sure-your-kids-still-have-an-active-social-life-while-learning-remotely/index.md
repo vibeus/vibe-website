@@ -6,7 +6,8 @@ date: 2020-09-21
 tags: ["entertainment", "whiteboards", "digital"]
 draft: false
 isfeatured: false
-summary: Vibe boards are a great way to make sure that your children can keep socializing while learning remotely.
+summary: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.
+description: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.
 ---
 
 

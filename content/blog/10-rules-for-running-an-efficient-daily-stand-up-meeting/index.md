@@ -7,6 +7,7 @@ tags: ["meetings", "stand-up", "huddle"]
 draft: false
 isfeatured: false
 summary: Any workplace can say they're agile. You can start right now by reviewing these strategies for simplifying your team's daily stand-up meeting.
+description: Any workplace can say they're agile. You can start right now by reviewing these strategies for simplifying your team's daily stand-up meeting.
 ---
 
 

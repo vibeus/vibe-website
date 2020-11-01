@@ -6,7 +6,7 @@ date: 2020-08-05
 tags: ["higher education", "professor", "distance learning"]
 draft: false
 isfeatured: false
-summary: How this professor and CPA is making the most of his chance to thrive alongside his students and clients in a collaborative digital space.
+summary: Are you curious about how professionals Vibe? Join us as we learn all about Arek Puzia, professor and CPA.
 hero_styles:
   background: "#f4f4f4"
 ---

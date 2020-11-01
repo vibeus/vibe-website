@@ -40,8 +40,19 @@ demo:
           type: tel
       - - name: company
           placeholder: i18n-content-demo-_index-demo-form-controls-i_2-i_0-placeholder
-      - - name: anything_else_we_should_know_
+      - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
           placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder
+          dropdown:
+            - Learning at Home
+            - Education
+            - Marketing
+            - Professional Services
+            - Technology
+            - Personal Use & Entertainment
+            - General
+            - Architecture, Construction, Engineering
+      - - name: anything_else_we_should_know_
+          placeholder: i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder
           type: textarea
     buttons:
       - type: submit
