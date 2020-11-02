@@ -12,5 +12,4 @@ no_sitemap: true
 
 
 
-[https://youtu.be/HBc_I-4yjvE](https://youtu.be/HBc_I-4yjvE)
 Let's walk through how to set up the auto end session feature.
