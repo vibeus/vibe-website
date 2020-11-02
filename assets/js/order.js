@@ -246,7 +246,7 @@ function getCartCheckoutUrl() {
     return acc;
   }, []);
 
-  return `https://order.vibe.us/cart/${lineItems.join(',')}`;
+  return `https://order.vibe.us/cart/${lineItems.join(',')}${promoCode ? '?discount=' + promoCode : ''}`;
 }
 
 function setupGallery() {
