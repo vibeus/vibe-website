@@ -98,3 +98,10 @@ Slack’s San Francisco HQ features a “forest floor” to introduce the calmne
 Google’s second location on LA’s westside is housed in the old Spruce Goose hangar. They refit this massive open space with a variety of smaller collaborative nooks to give it context and proportion, creating “spaces that are moldable and flexible,” according to Google spokesperson Katherine Will.
 
 Want better tools for seamless collaboration? [Check out the Vibe demo](https://vibe.us/demo/).
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

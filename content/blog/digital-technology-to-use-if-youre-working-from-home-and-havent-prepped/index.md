@@ -71,3 +71,11 @@ Sometimes, you need to send files that are much longer than email will allow. Th
 As briefly mentioned above while talking about 15Five, there are more apps out there—like [Chimp or Champ](http://chimporchamp.com/)—that are focused on how your employees are feeling. And yes, this is important for bosses to know. If you want the best out of your employees, especially during such troubling times, you need to be clued into what they're going through right now. If your employee's spouse worked for a restaurant that had to close down, they might not be as eager as the employee who's still bringing in two paychecks to support their family. At the same time, that employee will stay anonymous, as to not be singled out. According to the company, employees will be able to check in on Thursdays. "Your team will receive a weekly check-in over email with 24h to express how they felt during the week, reflect on the reasons and write actionable feedback," they state. On Friday, the boss gets a "pulse report" on the team.
 
 Eventually, you and your team will get into a comfortable groove. Just don't be frustrated if it doesn't happen overnight, especially with larger teams. Even the world's best workers will be thrown by COVID-19 and the changes it's made to the world. Try hard to approach this remote set-up with a little understanding. Without a doubt, everyone's doing their best to continue business as usual. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

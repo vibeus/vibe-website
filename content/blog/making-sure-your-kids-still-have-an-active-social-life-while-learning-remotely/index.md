@@ -57,3 +57,11 @@ Make the most of outside times when it's still fairly nice and not too chilly. Y
 ## Keep track of what the other parents are doing. 
 
 It's important to always stick by your intuition during times like these, but in order to make sure your kid is staying social, you may want to log in and join some local parenting groups on Facebook. That way, you can easily get a good idea of what other parents are doing and thinking. Sometimes, small and safe playgroups may also form during these chats. And, who knows? You might end up meeting someone new and making a new friend yourself. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

@@ -6,6 +6,7 @@ date: 2019-07-22
 isfeatured: false
 tags: ["Vibe Smartboard"]
 draft: false
+description: Project management is more collaborative and engaging with Vibe
 blogHeroMask: 0
 ---
 
@@ -78,3 +79,12 @@ Vibe is more than just a device — it’s a member of your team, cultivatin
 Ready to take your collaboration to the next level? Our team is ready to chat!
 
 [Request a Demo](https://landing.vibe.us/request-demo)
+
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

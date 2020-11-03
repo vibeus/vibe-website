@@ -51,3 +51,10 @@ Take your planning to the next level. With Vibe, you can make creative presentat
 
 
 Virtual whiteboards are the way of the future. If you have one in your home, feel free to explore the many innovative ways you can use it to liven up your day and connect with the people who mean the most to you. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

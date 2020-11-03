@@ -66,3 +66,11 @@ Sometimes, people just have a hard time thinking up the verbiage to explain thei
 
 
 When you work with a lot of remote employees, it might be difficult to find ways to brainstorm at first. But it's not impossible — and when you get the hang of it, you may even prefer it to in-person meetings. Just remember that communication is one of the most important parts of brainstorming. Every person you hire will have a ton of good ideas. But, they need to be confident enough in the team, and with you as a leader, to openly share them. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

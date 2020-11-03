@@ -62,3 +62,10 @@ This is much better than finding out about progress from a long and complicated 
 Colors technically count as visuals, and they can also help your employees break down the meeting topic. Perhaps all time-sensitive information is highlighted in a light red, while the fun activities are in blue. Yes, your employees and coworkers should be paying attention to the whole meeting — but, the colors may help them recognize the most important parts to focus on.
 
 Even small changes can make a big difference. Just remember, when you approach meetings differently, sometimes you may hit a few snags before getting a home run. There are so many different approaches that you can take, so don't be scared to mix it up and see what works best for your team. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

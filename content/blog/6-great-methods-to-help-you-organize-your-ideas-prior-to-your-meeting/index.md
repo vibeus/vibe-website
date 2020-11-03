@@ -48,3 +48,10 @@ If your ideas have multiple tiers, a flowchart is a very beneficial tool. It’l
 If you get too detailed, you may end up forgetting the whole picture. Instead, be brief. You have plenty of time to go back and solidify your ideas prior to heading into a meeting. If you have ideas that will eventually be expanded on by a team, it’s also important not to put too much thought into the small details. If it’s really a group project, those details will likely be changed or modified.
 
 Organizing your thoughts may take a little bit of practice. It can be hard to try and train your brain to work in different ways. However, eventually, you’ll find a strategy that works for you, and it’ll make your meetings far more productive and focused. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

@@ -27,7 +27,7 @@ Visual presentations are a lot more fun. They can also appeal to workers who oft
 If they opened up with a suggestion, it just means that others on your team probably had similar ideas but didn't have the confidence to voice them first. Remind your remote team that every idea is accepted, even if it may be slightly ridiculous. Feel free to let your remote coworkers talk out loud and explore ideas without fear of embarrassment. It's hard for some people to open up, especially if they're not very confident. Prove to them that you value their input. 
  
 
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-1.jpg" "creative workspace at home" >}}
 
 
 
@@ -46,7 +46,7 @@ Good ideas happen when we least expect them to. Maybe it's something they think 
 Even if your remote workers are conferencing in, they'll still have a good glimpse at the office environment. Make sure your meeting space has a lot of light, and keep the workspace clean. Colors also make a big difference. [According to Hunker](https://www.hunker.com/13411283/what-wall-colors-inspire-creativity), colors have both psychological and physiological influences. They believe that colors such as green, purple, and orange help creative minds.
 
 
-{{< common/srcset "image-2.jpg" "" >}}
+{{< common/srcset "image-2.jpg" "remote team meeting with touchscreen tablet" >}}
 
 
 
@@ -60,3 +60,12 @@ Remote employees are used to doing jobs solo. If you encourage them to team up w
 Be kind with your words, especially for new team members who may be learning your company's culture and lingo. Communication can often be a huge roadblock when it comes to encouraging your workers. That's why you want to be open as possible, and give them feedback. Tell them the strengths of their ideas, or what you need more of. Show them examples, and be patient. Sometimes, truly creative ideas might not happen right away. 
 
 Remember, you hired all of these bright minds for a reason. By encouraging them to work together and think outside the box, you'll be able to gather plenty of creative ideas that can make your company stand out from the rest. 
+
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

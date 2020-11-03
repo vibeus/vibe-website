@@ -67,3 +67,10 @@ Have you ever experienced a movie on a Vibe board before? It's pretty cool. If y
 The Vibe board is one of the few that can access the app store. So if you're looking for a digital whiteboard to add to your house, it's a very good choice. If you're also using it for work, it's also easy to use, so that your children won't accidentally delete your notes and canvases while looking for new apps to use.
  
 The Vibe board is very child-friendly, and a great way for them to learn outside of a laptop. It's also a great way to connect with friends and loved ones, and truly have their presence fill the room. If your children are starting to get a little bored, adding a Vibe board can help them discover a new way to play and express themselves.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

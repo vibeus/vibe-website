@@ -35,3 +35,10 @@ Students and faculty at Arizona State University use video conferencing software
 K-12 teachers benefit from higher education adopting this kind of tech. Classroom teachers can invite professors from local or out-of-state colleges to give guest lectures, giving their students a different way to view a topic. With an interactive whiteboard like the Vibe board, students can take notes during the lecture or pull up web resources that the speaker mentions in the presentation.
  
 People say, “It’s a big world out there.” But beyond reading about other cultures in a world history class or glancing at news headlines on social media, it’s crucial to actually demonstrate to students other ways that they can contribute to that big world. Teachers have the power to present something greater and give their students alternative ways to study the world around them.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

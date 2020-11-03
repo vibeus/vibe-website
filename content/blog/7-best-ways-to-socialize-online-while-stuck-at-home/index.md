@@ -61,3 +61,11 @@ It's easy to Amazon something small and send it to a friend as a surprise. It ca
  
 We may be growing tired of texts and virtual meet-ups, but it's much better than nothing. Socialization is very important. Besides lifting our moods, it's also a good way to stay connected. If you're on the introverted side, it's important to practice being social. Even if you're not in a position where you'd like to add more friends to your roster, it's also a great way to get ahead in your career.
  
+ 
+
+----------
+
+ 
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

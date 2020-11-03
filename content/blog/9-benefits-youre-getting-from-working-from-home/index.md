@@ -66,4 +66,10 @@ So, you might not be having full-on chats with your neighbors — especially if 
 Obviously, when you're at work, your main focus should be work. But it's easy to send a quick text to a friend when you know your boss isn't looking over your shoulder. Working from home makes you feel a little less judged. All eyes aren't on you unless you're presenting at a Zoom meeting. Dress codes are also out the window. Feel like wearing a pair of yoga pants to work? You now have the option — and nobody has to know. It may also help your productivity go up if you're working comfortably and remotely.
  
 Even if you miss the conversations you'd normally have at the office, working from home can be a really nice break. It's also good to know that you have the option of taking a remote day at home in case your business wants to start moving back to the way things used to be. This period has proven that — with a little leeway for trial and error — most of us are able to stay productive and healthy while working remotely.
- 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

@@ -71,3 +71,11 @@ Being able to work from home makes employees feel like everyday tasks are a litt
 Yes, you should keep in mind that an employee also needs a good personal life outside of the business. But if there happens to be an emergency, they'll probably be fairly easy to reach — and have all of the material you need right in front of them. Just remember that after their designated sign-off time, they don't technically owe you a response. But, you'll probably get one — just because they're happy with their overall arrangement.
 
 Employees are happier with a little bit of freedom, and the knowledge that you trust in their work. By offering a remote set-up, you're telling your employees that you value them and know that they don't need to be in the office to get the job done right. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

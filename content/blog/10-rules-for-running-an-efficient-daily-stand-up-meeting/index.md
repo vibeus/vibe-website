@@ -25,7 +25,7 @@ With that being said, be flexible enough to accommodate any co-worker who is una
 
 
 ## 2. Set the agenda in advance.
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-1.jpg" "Efficient stand up meeting agendas are key" >}}
 
 
 Once you get in the habit of having stand-ups, your team will have a general idea of what to expect on a daily basis. But it’s still wise to give people a heads-up as to what you’ll discuss in the meeting so they can prepare ahead of time. Send the agenda via email, Slack, or your team’s preferred messaging system at the end of the work day so they have time to look it over.
@@ -72,7 +72,7 @@ Remind everyone that you’re having a group conversation and that it’s not a 
 
 
 ## 9. Involve remote workers.
-{{< common/srcset "image-3.jpg" "" >}}
+{{< common/srcset "image-3.jpg" "Remote stand up meeting" >}}
 
 
 Your remote workers are part of the team, too, so be sure they can join the daily stand-up via video conference. With technology like Microsoft Teams, GoToMeeting and Skype, it has never been easier to make it seem as though everyone is in the same room. Have your team circle around a digital whiteboard like Vibe or meet up through the Vibe app on their own devices and get going.
@@ -88,4 +88,13 @@ What happens at the meeting doesn’t just stay at the meeting. You want to use 
 No one said your daily sync had to be dull. Make stand-up meetings more dynamic by using the Vibe board. You can easily share the day’s agenda to a team board, take notes for the team to review, and video conference with workers who aren’t in the office. Adding an engaging visual element keeps the team’s energy up and provides a clear plan to start the day. 
 
 
-{{< common/srcset "image-4.jpg" "" >}}
+{{< common/srcset "image-4.jpg" "Team stand up meeting" >}}
+
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

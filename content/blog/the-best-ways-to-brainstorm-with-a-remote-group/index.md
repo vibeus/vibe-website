@@ -42,7 +42,7 @@ There's no such thing as a bad idea during a brainstorm. The second you make you
  
 
 ## Break your employees into small groups. 
-{{< common/srcset "image-2.jpg" "" >}}
+{{< common/srcset "image-2.jpg" "group brainstorming session" >}}
 
 
 Try to ask certain employees to work together. And, mix up groups often, if you can. It's a good practice that'll help your employees know each other a little better, and it's the perfect way to brainstorm. Depending on the size of your organization, it may also save some meeting time if each group presents their thoughts, instead of each individual employee.
@@ -80,3 +80,11 @@ When someone has a great thought, tell them. Encouragement is a wonderful tool a
 This is another scenario where Vibe's whiteboard would be an asset. Sometimes, seeing what's already been said will help employees think up even stronger ideas. It's also a good way to let employees know that they're valuable. Even if an idea doesn't seem right at the moment, write it down anyway. Down the road, it may be a great fit.
  
 Eventually, you'll find a good method that works for you. Don't be afraid to try out all options to get the best brainstorming session out of your employees. You never know what might work until you try it. Just make sure to enter the meeting with confidence, and try hard to make sure every employee is heard. Even if they don't openly speak up during the meeting, it doesn't mean they aren't offering value to your team.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

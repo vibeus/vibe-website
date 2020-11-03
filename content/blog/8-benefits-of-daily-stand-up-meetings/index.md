@@ -62,3 +62,8 @@ The more co-workers are around each other, the more comfortable they’ll be wit
 The right mindset goes a long way in making stand-up meetings a successful daily occurrence in your workplace. The right software can make a big difference, too. Check out our solutions at Vibe and see how collaboration can take your next stand-up to the next level.
 
 
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

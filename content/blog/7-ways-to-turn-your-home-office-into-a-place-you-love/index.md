@@ -45,3 +45,10 @@ But in order to be your most productive, you have to turn your home office into 
 **Make sure you have enough space.** Placing your laptop on top of the washer or dryer as a makeshift desk may have worked back in March. But if this is still how you're spending each day, you'll want to make a few improvements. [Quill](https://www.quill.com/blog/office-tips/best-desk-setup-productivity.html) believes that there's a particular set-up for the best productivity. Their advice? Your set-up should be close to a window, and you should try out a standing desk if you feel the desire. "If you choose not to opt for a standing desk or if you decide to go with a combination of sitting and standing at work, it’s important to invest in a high-quality chair," says writer Laura Newcomer. "If you want to sustain your productivity throughout the workday, then an ergonomic chair is the way to go." 
 
 Remember, you spend a lot of time in your home office. And, who knows? After all this time at home, your company may be pushing to have employees work remotely throughout the foreseeable future. Make sure that your workspace is a place you're truly proud of—and, comfortable in. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

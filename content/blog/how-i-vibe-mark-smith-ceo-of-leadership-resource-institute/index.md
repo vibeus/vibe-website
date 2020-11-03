@@ -92,3 +92,10 @@ And just as Mark encourages his clients and teams to play around with the variou
 “What I’ve learned is, don’t try to use the board for everything. Use it where it makes the most sense. And the more you prep in advance for how you’re going to use it, the more successful you’ll be.”
 
 Based on all of the different ways Mark has incorporated the Vibe board into his daily work, it seems as though he’s found plenty of opportunities where turning to Vibe makes the most sense.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

@@ -41,7 +41,7 @@ Providing a variety of visuals can make a big impact. A rendering of what the sp
 ## Make It Work
 
 
-{{< common/srcset "image-2.png" "" >}}
+{{< common/srcset "image-2.png" "Makeover presentation on an interactive whiteboard" >}}
 
 
 Let’s say the homeowner wants to remodel their kitchen. (And there’s a good chance they will. A recent [survey by Houzz](https://blog.houzz.com/from-pricier-kitchens-to-the-connected-home-top-remodeling-trends-according-to-houzz/) shows that 28 percent of homeowners remodeled their kitchens in 2019 and spent an average of $14,000 to complete it.) There are a lot of moving parts in a kitchen renovation: construction, plumbing, gas, electrical—and that’s before you even start on the decorative features like paint, countertop materials, flooring, and hardware.
@@ -53,3 +53,11 @@ This is also a great way for everyone on the project to share design ideas and i
 Vibe makes it easy to integrate as many apps as you need to make your presentation feel complete. The touchscreen allows you to sketch, make notes, and move components in a way that makes sense for the project. Instead of figuring out how to get everything you need in one place, focus on a job well done instead.
  
 You’re in charge of the project, and that includes making this place feel like home. It all starts with the kind of presentation that has major curb appeal.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

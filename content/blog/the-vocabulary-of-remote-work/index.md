@@ -109,3 +109,11 @@ Think of telecommuting as a subset of remote work. Telecommuting is traditionall
 *The general feeling of overwhelm that comes from being on too many Zoom calls in a short period of time.*
 
 It is totally possible to be worn out from countless video conferencing calls. So many of us are meeting online for work, to talk to family, to socialize with friends, and this is the substitute we have for in-person get togethers. Is it perfect? No. Is it acceptable to feel overwhelmed? Absolutely.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

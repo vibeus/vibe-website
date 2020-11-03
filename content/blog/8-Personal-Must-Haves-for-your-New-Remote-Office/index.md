@@ -68,4 +68,13 @@ When was the last time you were allowed to burn a candle in the office? Likely n
 ## A small mirror. 
 
 Right now, you're working in your element. But that may mean that you forget to check and see what you look like before a big meeting. A small mirror to peek at may save you a little bit of embarrassment during your next virtual hangout. Not everyone needs to know you had a spinach salad for lunch.
+
 This is the perfect time to manicure and perfect your work environment to fit your style. And with this new type of freedom, you may end up learning that you work better by listening to podcasts all day over office noise. Take what you learn from this experience and try to see what makes you more productive. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

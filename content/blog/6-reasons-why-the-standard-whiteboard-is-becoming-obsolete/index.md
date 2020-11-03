@@ -52,3 +52,10 @@ How many times have you actually grabbed a Sharpie instead of a dry erase marker
 It's in the room with you, and that's as good as it gets. But digital whiteboards can easily be checked on your phone or laptop. That means that you're virtually carrying your work notes with you wherever you go. It couldn't be more convenient.
  
 While there will always be a place in everyone's hearts for a standard whiteboard, having a digital whiteboard is much more convenient for people's lifestyles today. By investing in one, you're investing in a better way to connect with your team.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

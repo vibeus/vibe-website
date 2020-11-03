@@ -92,3 +92,11 @@ Kids like to move, and studies have shown that moving while learning helps child
 One of the major benefits of having the Vibe board for homeschooling is also that it ultimately saves space. According to Robyn, “We have one room that has to function as our school room, living room, and dining area. When you’re constrained for space, you also don’t have wall space. So while I can’t hang charts in different places, I’m also not tempted to, because I have them on the Vibe board.”
 
 Though Robyn’s children are still relatively young, the Vibe Board helps them ask and answer strong questions, study the world, and learn more advanced concepts. With so many uses and a continually expanding selection of apps and features, the Vibe board will be a valuable educational tool for years to come.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

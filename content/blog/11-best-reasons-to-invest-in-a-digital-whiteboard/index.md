@@ -7,6 +7,7 @@ tags: ["whiteboard", "ditital whiteboard", "interactive whiteboard"]
 draft: false
 isfeatured: false
 summary: While the digital whiteboards have been around for some time, offices and classrooms have just recently started to fully embrace them. Here are some reasons why it may be worth it to upgrade.
+description: While the digital whiteboards have been around for some time, offices and classrooms have just recently started to fully embrace them. Here are some reasons why it may be worth it to upgrade.
 ---
 
 
@@ -75,3 +76,10 @@ Many teachers work with the same subject year after year. Sometimes, the informa
 ## 11. Digital whiteboards are the future. 
 
 Even back in 2008, [President Obama](https://imaginenext.ingrammicro.com/ucc/where-whiteboard-technology-could-be-in-five-years-and-why-it-matters-now) recognized the importance of classrooms going digital — and even called out digital whiteboards as being the way of the future. The technology of these whiteboards has improved significantly since. Vibe boards, in particular, are constantly being updated to include more user-friendly features. Now is the time to make the jump and improve your work life. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

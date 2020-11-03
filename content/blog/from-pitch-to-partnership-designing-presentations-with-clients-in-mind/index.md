@@ -6,6 +6,7 @@ date: 2020-03-16
 tags: ["clients presentations", "presenting", "powerpoint", "partnership" ]
 draft: false
 isfeatured: false
+description: Design client presentations that impress with an interactive whiteboard session.
 ---
 
 
@@ -90,3 +91,11 @@ And give their team the opportunity to ask questions, either throughout the pitc
 
  
 It would be easy to throw a couple of slides together and give a standard sales pitch to every prospective client out there. But going a few extra steps to customize your pitch shows a willingness to take initiative and make things happen.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

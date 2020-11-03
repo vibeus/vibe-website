@@ -48,3 +48,10 @@ Have you ever sat down and thought about how much text you take in per day? Whet
 *Edgar Degas, Dancers. Hermitage Museum, St. Petersburg*
  
 If you're serious about getting the most out of your team in terms of brainstorming, it makes sense to invest in a whiteboard. And if your team is mostly remote these days, a digital whiteboard will serve so many purposes. Employees often feel comfortable if they can jot things down temporarily, and a whiteboard is a great resource for that.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
