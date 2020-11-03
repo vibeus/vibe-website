@@ -7,11 +7,13 @@ aliases:
 navbar:
   extra:
     - title: Contact Sales
-      class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      # class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      class: is-white is-rounded is-in-brand is-hidden-mobile
       url: /contact/
       in_brand_mobile: true
     - title: i18n-data-common-nav-base-extra-i_1-title
-      class: is-primary is-rounded is-nav-cart is-in-brand
+      # class: is-primary is-rounded is-nav-cart is-in-brand
+      class: is-black is-rounded is-nav-cart is-in-brand
       url: /order/
       in_brand_mobile: true
 player:
@@ -214,4 +216,20 @@ playlist_info:
           video_overview:
             content: Learn more about the price, what’s included in the box, and how to purchase.
           resources:
+bottom_cta:
+  title: Ready for More Actions?
+  cta:
+    buttons:
+      - class: is-primary live-demo-button
+        title: Book a Live Demo
+        url: https://meetings.hubspot.com/jedrik/demo-with-vibe
+        icon:
+          class: live-demo-icon
+          url: img/demo/live-demo-icon.svg
+      - class: is-light request-a-quote-button
+        title: Request a Quote
+        url: /contact/request-a-quote
+        icon:
+          class: request-a-quote-icon
+          url: img/demo/request-a-quote-icon.svg
 ---
