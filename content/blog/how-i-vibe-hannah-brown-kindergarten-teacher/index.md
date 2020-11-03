@@ -2,7 +2,7 @@
 title: "How I Vibe: Hannah Brown, Kindergarten Teacher"
 slug: how-i-vibe-hannah-brown-kindergarten-teacher
 author: Megan Snyder
-date: 2020-11-3
+date: 2020-11-2
 tags: ["education", "family"]
 draft: false
 isfeatured: false
