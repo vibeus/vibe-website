@@ -2,7 +2,7 @@
 title: "Interactive Whiteboard: What Is It And What Does It Do? "
 slug: interactive-whiteboard-what-is-it-and-what-does-it-do
 author: Vibe Team
-date: 2020-11-02
+date: 2020-11-01
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Smartboard Collaboration"]
 description: Are you wondering about how to implement an interactive whiteboard?  Check out our guide on interactive whiteboards.
