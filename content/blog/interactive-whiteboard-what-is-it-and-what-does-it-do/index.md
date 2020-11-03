@@ -8,13 +8,11 @@ tags: ["Interactive Whiteboard", "Smart Whiteboard", "Smartboard Collaboration"]
 description: Are you wondering about how to implement an interactive whiteboard?  Check out our guide on interactive whiteboards.
 draft: false
 ---
+
+
 ## How Is An Interactive Whiteboard Useful? 
 
 [Interactive whiteboards](https://vibe.us/hardware/) have become more common as a **tool for education in the classroom and the workplace**. With the ability to use a display as a **touchscreen device**, an interactive whiteboard allows you to accomplish a wide range of tasks, from whiteboard to [collaboration](https://www.eztalks.com/whiteboard/benefits-of-interactive-whiteboards-in-the-classroom.html). Using this tool, multiple people can engage in a collaborative experience through a touchscreen and take notes, annotate content, and share screens.
-
-{{< common/srcset "image-0.png" "Vibe interactive whiteboard" >}}
-
-
 Many interactive whiteboards have on-board programs to **assist in sharing and collaboration.** Interactive whiteboards can help with education in ways that an analog whiteboard can't do. Before, employees needed to physically write notes on analog whiteboards and would have to take photos of the board or slap "Do Not Touch" signs on it to save their work. **Interactive whiteboards take away that time and effort: they automatically bring the analog notes you used to use and bring them into the digital era.** By writing down notes on the touchscreen surface, you can share, archive, and save your notes as digital content!
 
 *Related:* [*The vocabulary of remote work*](https://vibe.us/blog/the-vocabulary-of-remote-work/)
