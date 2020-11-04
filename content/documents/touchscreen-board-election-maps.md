@@ -28,6 +28,7 @@ hero:
 
   There’s typically anxiety around elections and the changes that they can bring, so getting to see new technology like a touchscreen board is a welcome addition.
 
+{{< common/srcset "img/documents/Votes_to_count.gif" "" >}}
 
   CNN was an early adopter of the Multi-Touch Collaboration Wall, a touchscreen display created by Jefferson Han. Initially intended for military applications and sold to government agencies, Han’s company, Perceptive Pixel, was persuaded to produce these interactive displays for CNN.
 
@@ -37,7 +38,7 @@ hero:
 
   {{< common/srcset "img/documents/feature-1.png" "" >}}
 
-  The [initial cost of the Magic Wall] [3], back in 2007, was $100,000. Fortunately, interactive touchscreen displays, like the Vibe board, are significantly less expensive at $2999.
+  The [initial cost of the Magic Wall][3], back in 2007, was $100,000. Fortunately, interactive touchscreen displays, like the Vibe board, are significantly less expensive at $2999.
 
   [1]: https://www.codeandtheory.com/things-we-make/cnn-magic-wall-reinventing-an-iconic-media-star
   [2]: https://www.nytimes.com/2008/04/22/arts/television/22king.html?_r=1&oref=slogin
