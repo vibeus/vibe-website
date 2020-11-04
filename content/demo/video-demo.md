@@ -222,7 +222,7 @@ bottom_cta:
     buttons:
       - class: is-primary live-demo-button
         title: Book a Live Demo
-        url: https://meetings.hubspot.com/jedrik/demo-with-vibe
+        url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
         icon:
           class: live-demo-icon
           url: img/demo/live-demo-icon.svg
