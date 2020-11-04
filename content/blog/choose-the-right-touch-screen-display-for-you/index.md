@@ -2,7 +2,7 @@
 title: "Choose The Right Touch Screen Display For You"
 slug: choose-the-right-touch-screen-display-for-you
 author: Vibe Team
-date: 2020-10-31
+date: 2020-10-28
 isfeatured: false
 tags: ["Interactive Whiteboard"]
 description: Are you looking for the right touch screen display for your needs?

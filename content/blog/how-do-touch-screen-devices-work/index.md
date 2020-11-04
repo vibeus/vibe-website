@@ -2,7 +2,7 @@
 title: "How Do Touch Screen Devices Work"
 slug: how-do-touch-screen-devices-work
 author: Vibe Team
-date: 2020-11-01
+date: 2020-10-30
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Smartboard Collaboration"]
 description: Are you wondering how touch screen devices work? Check out our guide on touch screen devices and how they work.
