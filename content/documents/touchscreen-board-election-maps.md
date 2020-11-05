@@ -1,3 +1,4 @@
+---
 url: /touchscreen-board-election-maps/
 title: &title What Touchscreen Board is being used for Election Maps?
 content_link_target_blank: true
