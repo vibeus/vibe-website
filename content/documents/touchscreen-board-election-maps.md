@@ -23,7 +23,7 @@ hero:
       title: See the Buyers FAQ
       url: https://knowledge.vibe.us/buyers-faq
       target: _blank
-  ---
+---
 
   The 2020 Election is well underway, and there seems to be one united question: What is that touchscreen board being used for the election map on CNN?
 
