@@ -69,6 +69,10 @@
 </section>
 {{ end }}
 
+{{ with .Params.as_seen_in }}
+{{ partial "common/as-seen-in-section" . }}
+{{ end }}
+
 {{ with .Params.what_is_vibe }}
 {{ partial "common/video-hero" . }}
 {{ end }}
