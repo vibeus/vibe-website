@@ -6,6 +6,7 @@ date: 2020-05-05
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
 isfeatured: false
+desription: Create a culture of success and more cohesive teams using an agile style daily standup meeting.
 summary: If your goal is to create a culture of success in an agile workplace, read on to learn how this daily check-in leads to a more cohesive team.
 ---
 
@@ -47,6 +48,8 @@ Remember what we said earlier about getting caught up in your own work? You coul
 ## 6. Improves collaboration
 
 A daily stand-up is a great way to assess how members of your team could be working together on present or future projects. We’re all striving for excellence, and if one person’s skills could boost someone else’s work, you’ll be able to piece that partnership together from information in a standup.
+
+*Related:* [*The Best Ways to Brainstorm with a Remote Group*](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
 {{< common/srcset "image-2.jpg" "" >}}
 

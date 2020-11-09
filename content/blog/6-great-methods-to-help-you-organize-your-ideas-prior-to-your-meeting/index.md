@@ -4,6 +4,7 @@ slug: 6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting
 author: Karen Belz
 date: 2020-05-22
 tags: ["meetings", "stand-up", "huddle"]
+description: Learn techniques for running an effective meeting and keep your ideas organized
 draft: false
 isfeatured: false
 ---
@@ -31,6 +32,7 @@ Consider buying a small pad that can fit in your pocket or on your desk. If it t
 
 The good thing about digital whiteboards is that you can access them very easily. A board like Vibe has plenty of canvases that are able to be saved and reflected upon later. It’s kind of like having a notepad, but you won’t have to worry about locating a pen to jot your ideas down.
 
+*Related:* [*The Best Ways to Brainstorm with a Remote Group*](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
 ## 4. Consider making voice recordings. 
 

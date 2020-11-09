@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-08-03
 tags: ["remote", "working from home"]
 draft: false
+description: Working remotely can be beneficial. Learn the perks you're getting by working from home.
 isfeatured: false
 ---
 
@@ -21,11 +22,12 @@ Here are some benefits you're getting from working at home that you might not ha
 
 It might not be productive time, but it's definitely time. For new parents with a baby at home, they're more likely to catch milestone moments, like a first step or first word. Babies grow up incredibly fast, and it's wonderful to see them progress. By working at home, you're present — and able to witness these special moments in person.
  
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 ## Pets are allowed in your home office. 
 
 Do you love dogs? Most people do. Being able to work with your dog by your side is actually an excellent, safe way to lower your stress levels. [Harvard Medical School](https://www.health.harvard.edu/blog/therapy-dog-offers-stress-relief-at-work-201107223111) writes that dogs in the workplace can be a wonderful way to help manage your moods. "Pets have been shown to lower blood pressure, improve recovery from heart disease, and even reduce rates of asthma and allergy in children who grow up with a Fido or a Frisky in the house," they write. "Pets also improve people’s psychological well-being and self-esteem."
- 
+
 
 ## You can get more housework done. 
 
@@ -42,7 +44,8 @@ How many times did you forget your packed lunch at home? Or, just felt uninspire
 ## You're not just avoiding coronavirus. 
 
 Have you noticed you've been a lot less sick while staying at home? Personally, everyone in my home has avoided the colds and allergies they'd normally get around this time. It's nice to feel genuinely healthy. The healthier we are, the happier and more productive we become. It's also nice not having to have the internal "am I too sick to go to work today?" debate. Even if you're feeling a little under the weather, you can still chat up your coworkers from the comforts of your own bed.
- 
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How to Build a Collaborative Workspace (And Why You Should)*](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
 
 ## There's no commute. 
 

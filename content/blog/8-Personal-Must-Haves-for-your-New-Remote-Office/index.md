@@ -4,6 +4,7 @@ slug: 8-Personal-Must-Haves-for-your-New-Remote-Office
 author: Karen Belz
 date: 2020-04-03
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
+description: Set up a remote home office that you'll love working in.
 draft: false
 isfeatured: false
 ---

@@ -34,6 +34,8 @@ Collaborate with team members who are working remotely by starting a Vibe call�
 
 When you’re done, you can save your brainstorming canvas for later, or share it with another team. Forget to save? Vibe Cloud’s autosave feature makes sure you don’t lose your progress.
 
+*Related:* [*8 Ways to Brainstorm with Remote Workers*](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
+
 
 ## Build
 {{< common/srcset "image-2.png" "UI/UX design on Vibe whiteboard" >}}
@@ -57,6 +59,8 @@ When it’s time to share your progress you can use your favorite apps, like Mic
 As you pass along saved canvases to other teams for workshopping, you can be confident that your intellectual property is safe — Vibe is [serious about security](https://vibe.us/documents/security/), following best practices for technology like AES-256 encryption and AWS S3 storage.
 
 Vibe’s public sharing system includes features like guest mode, auto-expiring codes to limit sharing time, tap to clear content, multi-user sign-in, and permission controls, so you can easily manage who has access to your content.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 
 ## Present

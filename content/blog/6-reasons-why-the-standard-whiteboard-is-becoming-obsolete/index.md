@@ -7,6 +7,7 @@ tags: ["standard whiteboard", "whiteboards", "digital"]
 draft: false
 isfeatured: false
 summary: Whiteboards are, without a doubt, a great way to communicate with other people. However, these days, the standard whiteboard is becoming somewhat obsolete because technology has taken over.
+description: Traditional whiteboards are being replaced with digital whiteboards with touchscreens.
 ---
 
 

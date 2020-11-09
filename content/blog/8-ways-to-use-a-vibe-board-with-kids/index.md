@@ -6,6 +6,7 @@ date: 2020-06-03
 tags: ["homeschooling", "training", "education", "classroom"]
 draft: false
 isfeatured: false
+description: A Vibe board is a quick and easy way to turn your home into a classroom that'll inspire distance learning.
 summary: If you're currently homeschooling, a Vibe board is a quick and easy way to turn your home office into a classroom that'll inspire learning.
 ---
 
@@ -24,6 +25,8 @@ Here are eight great ways that kids can enjoy a Vibe board.
 ## 1. You can use it to teach at home. 
 
 If you need to explain an idea, sketching it out is a great way to get the point across. Your kids can also sketch out their ideas, and you can save canvases to reflect on later. There are also plenty of apps that can connect to your Vibe board. You can even project what's on your laptop to the board, making it serve as a projector. It's a lot like how you learned in a classroom, except much sleeker and easier to control.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Robyn C., Mother of Four and Homeschool Expert*](https://vibe.us/blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/)
  
 
 ## 2. You can play games on it. 
@@ -36,8 +39,8 @@ Getting tired of Animal Crossing? You can also play games with your kids using y
 
 
 Since distance learning is becoming so popular, there are a bunch of tutors out there who'd love to connect with your child and help them out. Maybe it's just for math homework, or maybe they're interested in learning a new language. Having a tutor they can chat with through their Vibe board will help them gain new skills and better the skills they already have. It's also a little less daunting than an online classroom, as the instruction will likely be one-on-one.
-  
-  
+
+*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 ## 4. They can chat with their friends. 
 
@@ -52,6 +55,8 @@ You can draw your own images for your child to color in, or copy and paste some 
 ## 6. They can communicate with you in a new way. 
 
 Are you a parent who's fond of a chore chart? You can keep your kids organized by sharing family notes and reminders with them through your Vibe board. They can also make notes and changes. Some kids work better with written words than verbal communication, so it may actually help you eliminate fights if this way of connecting works best for both of you.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Hannah Brown, Kindergarten Teacher*](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
  
 
 ## 7. They can access YouTube or Netflix. 
