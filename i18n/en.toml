@@ -22,6 +22,9 @@ other = "Already using Vibe?"
 [i18n-content-_index-hero-subcta-i_1-link-text]
 other = "Open your boards →"
 
+[i18n-content-_index-as_seen_in-title]
+other = "As seen in"
+
 [i18n-content-_index-what_is_vibe-title]
 other = "What is Vibe?"
 

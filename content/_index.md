@@ -21,6 +21,21 @@ hero:
       link:
         text: i18n-content-_index-hero-subcta-i_1-link-text
         url: https://app.vibe.us/
+as_seen_in:
+  title: i18n-content-_index-as_seen_in-title
+  title_column_class: is-one-quarter-tablet
+  references:
+    - class: techcrunch-link
+      figure: img/home/logo-techcrunch-gray.png
+      figure_on_hover: img/home/logo-techcrunch.png
+      link: https://techcrunch.com/2020/09/15/vibe-introduces-a-remote-collaboration-solution-that-works-with-your-favorite-apps/
+    - class: forbes-link
+      figure: img/home/logo-forbes-gray.png
+      figure_on_hover: img/home/logo-forbes.png
+    - class: cioreview-link
+      figure: img/home/logo-cioreview-gray.png
+      figure_on_hover: img/home/logo-cioreview.png
+      link: https://remote-work-tech.cioreview.com/vendor/2020/vibe_inc
 what_is_vibe:
   title: i18n-content-_index-what_is_vibe-title
   subtitle: i18n-content-_index-what_is_vibe-subtitle
