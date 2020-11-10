@@ -7,6 +7,7 @@ tags: ["CEO", "remote", "video conferencing"]
 draft: false
 isfeatured: false
 summary: Mark Smith collaborates remotely with international clients. Read on to see how the Vibe digital whiteboard improved his workflow and made his collaborations more dynamic.
+description: Mark Smith, CEO of Leadershop Resource Institute, collaborates remotely with international clients using the Vibe digital whiteboard.
 ---
 
 
@@ -34,6 +35,8 @@ Right now, Mark uses a trio of tools for most of his work: Zoom, Google Docs, an
 
 “What the Vibe board allows me to do is compile, in a single place, the documentation of a project,” he says. “If I put people into breakout groups in Zoom, each group can work on a different page of the same Vibe board together. They’ll start with their sticky notes to work through and brainstorm some things, then we’ll reconstitute the groups and they can still work with the same notes and move them to different places [on the board’s canvas].”
 
+*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+
 With so many people currently working remotely, keeping teams engaged during virtual meetings is imperative. Giving everyone access to the same documents is one thing, but Mark has found that giving them the opportunity to work together on that document in real time keeps them engaged, especially when they’re creating PICK charts.
 
 
@@ -57,7 +60,8 @@ Mark has found that the preferred video conferencing platform varies among his r
 
 “This company uses Webex as their platform, but we were able to use my Zoom license and have 250 people at the meeting,” he says. “With 250 people working to collaborate, you need to get creative in terms of what you can do. I can create up to 50 different breakout rooms with Zoom, so now I can have four people in each room and they can actually do something on a page of the Vibe board and collaborate.”
 
-And since the board is a living document that can be annotated and altered as needed, Mark says it’s easy to review group work. “We can say, ‘Let’s see what you guys came up with,’ and go to the Vibe board and say, ‘Here’s group one, group two, group three.’” He acknowledges that it takes a lot of preparation to make the flow of a virtual meeting feel seamless, and that being able to prepare beforehand with the Vibe board is important..
+And since the board is a living document that can be annotated and altered as needed, Mark says it’s easy to review group work. “We can say, ‘Let’s see what you guys came up with,’ and go to the Vibe board and say, ‘Here’s group one, group two, group three.’” He acknowledges that it takes a lot of preparation to make the flow of a virtual meeting feel seamless, and that being able to prepare beforehand with the Vibe board is important. 
+
 Large teams with multi-part projects have a lot to keep track of, but Mark created a solution for that situation, too.
 
 “This team put all of their different projects on a board, and they wanted a way to stay better connected with each other. So, they wrote their initials on a project’s individual sticky note if it was something they wanted to stay informed on. We then moved the information to a Google Doc so that we could cross-reference in there.” Getting the team involved and being able to use tools they’re comfortable with leads to all kinds of creative solutions.

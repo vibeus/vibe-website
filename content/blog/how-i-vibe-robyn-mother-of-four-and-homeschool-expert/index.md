@@ -23,6 +23,8 @@ The Vibe board has enough integration to apps and programs to be seamlessly inco
 
 Let’s take a look at how the family uses the board on a typical school day.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Hannah Brown, Kindergarten Teacher*](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
+
 
 ## Handwriting Tips Using the Template
 
@@ -72,6 +74,8 @@ One of the things Robyn appreciates most about the Vibe board is that the whole 
 The screencasting feature is particularly helpful when addressing her small group of students. Before using the Vibe board, when Robyn wanted to use tech for teaching, she had iPads and computers to access educational content and learning games, but with so many children, not everyone can see the screen to participate.
 
 “Because I have four children wanting to see the screen, sitting around a small computer isn’t easy, so we do a lot of screencasting. That way, I also have control of the keyboard” she says.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Making Sure Your Kids Still Have An Active Social Life While Learning Remotely*](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
 ## Use Your Favorite Apps

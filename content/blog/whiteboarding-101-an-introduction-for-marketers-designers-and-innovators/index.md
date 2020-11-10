@@ -5,7 +5,7 @@ author: Vibe Team
 date: 2019-12-03
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration"]
-description: Digital Whiteboarding Sessions
+description: Get tips for digital whiteboarding sessions, presentations and meetings
 draft: false
 blogHeroMask: 0
 ---
@@ -33,6 +33,8 @@ The whiteboard is a source of inspiration as much as it is a place for tracking 
 
 For our introduction, weâ€™ll be discussing how using a whiteboard to visualize and document ideas can transform your ideation process. Here we go!
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+
 # Successful whiteboarding use cases:
 ## Presenting ideas and getting feedback
 
@@ -49,6 +51,7 @@ Using verbal communication to describe complex systems or define workflows isnâ€
 {{< common/srcset "image-2.png" "Whiteboarding UX design on Vibe smart board" >}}
 
 
+*Related:* [*The Best Ways to Brainstorm with a Remote Group*](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
 ## Boosting internal productivity
 

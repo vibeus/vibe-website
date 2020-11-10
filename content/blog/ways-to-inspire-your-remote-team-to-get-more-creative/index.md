@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-03-15
 tags: ["remote work", "presenting", "powerpoint"]
 draft: false
+description: Learn strategies to inspire creativity amongst remote employees
 isfeatured: false
 ---
 
@@ -25,6 +26,8 @@ Visual presentations are a lot more fun. They can also appeal to workers who oft
 ## Remind them that there's no such thing as a bad suggestion. 
 
 If they opened up with a suggestion, it just means that others on your team probably had similar ideas but didn't have the confidence to voice them first. Remind your remote team that every idea is accepted, even if it may be slightly ridiculous. Feel free to let your remote coworkers talk out loud and explore ideas without fear of embarrassment. It's hard for some people to open up, especially if they're not very confident. Prove to them that you value their input. 
+
+*Related:* [*8 Ways to Brainstorm with Remote Workers*](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
  
 
 {{< common/srcset "image-1.jpg" "creative workspace at home" >}}
@@ -53,6 +56,8 @@ Even if your remote workers are conferencing in, they'll still have a good glimp
 ## Encourage your team to work together. 
 
 Remote employees are used to doing jobs solo. If you encourage them to team up with each other, or even team up with an in-house employee, it will help them brainstorm on a completely different level. It'll also help your remote employees feel included as part of the organization. 
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 
 ## Give plenty of feedback. 

@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-09-01
 tags: ["remote", "working from home", "socialize"]
 draft: false
+description: Stay connected to colleagues, friends, and family when you're working from home.
 isfeatured: false
 ---
 
@@ -29,6 +30,8 @@ If you've been single throughout the pandemic, now might be the time to branch o
 
 
 Whether it's Words With Friends, Animal Crossing, or even Call of Duty, games can bring friends together. It's especially good to choose a fun game if you're trying to ease back into an old friendship. Gaming with someone is a good way to lift their spirits, along with your own. And the best part? It's a completely safe activity. You should see what types of games you can find using your Vibe board. It has multiple apps that you can integrate, and they're continually adding more.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*3rd Party App Integrations for the Vibe board*](https://vibe.us/android-app-store/)
  
 
 ## 3. Try out TikTok. 
