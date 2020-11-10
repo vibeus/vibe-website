@@ -33,6 +33,8 @@ Words are easy to cut and paste — especially for a small in-house presentation
 
 There's a reason why emojis are so popular. They're an easy way to get a feeling across, and people around the world are able to identify a smile or frown. It's also great to use images instead of just text for new team members who aren't all that familiar with the company's jargon and mission. When you've been with a business for a long time, certain lingo becomes second nature. For a newcomer, it may be a little overwhelming. Pictures, however, are perfect. 
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+
 
 ## Visuals can also show that you have a sense of humor. 
 

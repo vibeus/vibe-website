@@ -5,7 +5,8 @@ author: Karen Belz
 date: 2020-10-12
 isfeatured: false
 tags: ["Remote Work", "Home Office"]
-description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good on National Geographic.
+description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board.
+summary: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good on National Geographic.
 draft: false
 blogHeroMask: 0
 ---
@@ -33,6 +34,8 @@ But in order to be your most productive, you have to turn your home office into 
 
 
 **Bring peace to your space by playing nature videos.** You can even use your Vibe board to find something good, based on the fact that it flawlessly connects with 40 apps. That's right — aside from Slack and Zoom, the board also connects with AT&T TV, Amazon Prime, and YouTube — and more apps are being integrated constantly. It's important for your office space to provide a calming ambiance as much as possible. Sometimes, these types of programs will also offer the perfect amount of background noise while you're trying to focus on a big project. If you have a TV in the space, you can also use it for a similar purpose. Those with the Disney+ app might enjoy playing some of the app's National Geographic documentaries in the background.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 **Look online for art that speaks to you.** Now is a great time to support artists. Many artists who are trying to make a career out of their passion have Etsy stores. All you need to do is search for the type of piece you're looking for, and you may unknowingly discover your new favorite painter. Having things to look at that you like will help you look forward to working in the morning. It's a heck of a lot better than working in an office, where you don't have too much control over what's on the walls. 
 
