@@ -25,6 +25,10 @@ as_seen_in:
   title: i18n-content-_index-as_seen_in-title
   title_column_class: is-one-quarter-tablet
   references:
+    - class: cioreview-link
+      figure: img/home/logo-cioreview-gray.png
+      figure_on_hover: img/home/logo-cioreview.png
+      link: https://remote-work-tech.cioreview.com/vendor/2020/vibe_inc
     - class: techcrunch-link
       figure: img/home/logo-techcrunch-gray.png
       figure_on_hover: img/home/logo-techcrunch.png
@@ -32,10 +36,6 @@ as_seen_in:
     - class: forbes-link
       figure: img/home/logo-forbes-gray.png
       figure_on_hover: img/home/logo-forbes.png
-    - class: cioreview-link
-      figure: img/home/logo-cioreview-gray.png
-      figure_on_hover: img/home/logo-cioreview.png
-      link: https://remote-work-tech.cioreview.com/vendor/2020/vibe_inc
 what_is_vibe:
   title: i18n-content-_index-what_is_vibe-title
   subtitle: i18n-content-_index-what_is_vibe-subtitle
