@@ -140,7 +140,7 @@ playlist_info:
           resources:
   - title: Video Conferencing
     playlist:
-      - title: Supported Apps
+      - title: Video Conferencing
         video:
           id: kVPU_OYrjw8
           length: 1
