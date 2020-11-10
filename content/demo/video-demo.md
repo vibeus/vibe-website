@@ -28,7 +28,7 @@ playlist_header:
 playlist_info:
   - title: Introduction
     playlist:
-      - title: What's Vibe?
+      - title: Introducing Vibe
         video:
           id: 3ahmSXlNgh4
           length: 2
@@ -117,7 +117,7 @@ playlist_info:
             faqs:
               - title: Which apps are available?
                 url: https://knowledge.vibe.us/which-apps-are-available
-      - title: App Store & App Launch Center
+      - title: App Launch Center
         video:
           id: yVbCPcT6M1A
           length: 2
@@ -149,7 +149,7 @@ playlist_info:
           video_overview:
             content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting.
           resources:
-      - title: Zoom Overview
+      - title: Using Zoom on Vibe
         video:
           id: E1DRW8ewnVU
           length: 4
@@ -158,7 +158,7 @@ playlist_info:
           video_overview:
             content: Get an overview of how to use Zoom for video conferencing, while sharing the board's screen with remote participants.
           resources:
-      - title: Microsoft Teams Overview
+      - title: Using Microsoft Teams on Vibe
         video:
           id: nTrR0LoLZgw
           length: 2
@@ -169,7 +169,7 @@ playlist_info:
           resources:
   - title: Screencast & Annotation
     playlist:
-      - title: Wireless Screencast & Annotation
+      - title: Screencast & Annotation
         video:
           id: 4vHlHwDmXS8
           length: 1
