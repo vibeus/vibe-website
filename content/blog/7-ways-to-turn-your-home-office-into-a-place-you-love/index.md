@@ -5,7 +5,8 @@ author: Karen Belz
 date: 2020-10-12
 isfeatured: false
 tags: ["Remote Work", "Home Office"]
-description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good on National Geographic.
+description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board.
+summary: There are plenty of pros to working from home, and you can turn your home office into a place that you love with your Vibe board. Bring peace to your space by playing nature videos. You can even use your Vibe board to find something good on National Geographic.
 draft: false
 blogHeroMask: 0
 ---
@@ -34,6 +35,8 @@ But in order to be your most productive, you have to turn your home office into 
 
 **Bring peace to your space by playing nature videos.** You can even use your Vibe board to find something good, based on the fact that it flawlessly connects with 40 apps. That's right — aside from Slack and Zoom, the board also connects with AT&T TV, Amazon Prime, and YouTube — and more apps are being integrated constantly. It's important for your office space to provide a calming ambiance as much as possible. Sometimes, these types of programs will also offer the perfect amount of background noise while you're trying to focus on a big project. If you have a TV in the space, you can also use it for a similar purpose. Those with the Disney+ app might enjoy playing some of the app's National Geographic documentaries in the background.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+
 **Look online for art that speaks to you.** Now is a great time to support artists. Many artists who are trying to make a career out of their passion have Etsy stores. All you need to do is search for the type of piece you're looking for, and you may unknowingly discover your new favorite painter. Having things to look at that you like will help you look forward to working in the morning. It's a heck of a lot better than working in an office, where you don't have too much control over what's on the walls. 
 
 **Find a good method for storing paperwork.** These days, most things are digital. Back in the day, filing cabinets were much handier. But that doesn't mean that digital documents have completely eradicated office clutter. If you have stacks of papers or mail on your desk that still have yet to be sorted, something about your home office arrangement isn't working. If you make sure to keep your space organized, you'll have one less thing to be stressed about in the morning. Get a small cabinet, or even a paper shredder to help remind you to keep your workspace tidy. 
@@ -45,3 +48,10 @@ But in order to be your most productive, you have to turn your home office into 
 **Make sure you have enough space.** Placing your laptop on top of the washer or dryer as a makeshift desk may have worked back in March. But if this is still how you're spending each day, you'll want to make a few improvements. [Quill](https://www.quill.com/blog/office-tips/best-desk-setup-productivity.html) believes that there's a particular set-up for the best productivity. Their advice? Your set-up should be close to a window, and you should try out a standing desk if you feel the desire. "If you choose not to opt for a standing desk or if you decide to go with a combination of sitting and standing at work, it’s important to invest in a high-quality chair," says writer Laura Newcomer. "If you want to sustain your productivity throughout the workday, then an ergonomic chair is the way to go." 
 
 Remember, you spend a lot of time in your home office. And, who knows? After all this time at home, your company may be pushing to have employees work remotely throughout the foreseeable future. Make sure that your workspace is a place you're truly proud of—and, comfortable in. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

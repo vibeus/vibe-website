@@ -7,6 +7,7 @@ tags: ["higher education", "professor", "distance learning"]
 draft: false
 isfeatured: false
 summary: Are you curious about how professionals Vibe? Join us as we learn all about Arek Puzia, professor and CPA.
+description: Are you curious about how professionals Vibe? Join us as we learn all about Arek Puzia, professor and CPA.
 hero_styles:
   background: "#f4f4f4"
 ---
@@ -82,3 +83,10 @@ Still, in his efforts to keep things user-friendly, he also wants to challenge h
 
 With the Vibe board, Puzia can easily see more opportunities than obstacles for himself and his students, and can already recognize that the investment will be worth it.
 “If I’m teaching 200 students a semester, then even a whiteboard that costs a few thousand dollars...I mean, if I can help 10 students a semester by having that, that’s pretty low cost, in my opinion.”
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

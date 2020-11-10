@@ -7,11 +7,12 @@ html, body
   margin: 0
   width: 100%
   height: 100%
-  // +desktop
-  //   overflow: hidden
 
 body
   padding-bottom: 5px
+
+.navbar .button.is-white
+  border: 2px solid black
 
 .is-Stratos-title
   font-family: Stratos
@@ -23,7 +24,6 @@ body
   flex-direction: row-reverse
   margin: 0
   padding: 0
-  height: calc(100vh - 66px)
   +touch
     flex-direction: column
     height: 100%
@@ -40,6 +40,11 @@ body
       flex-grow: 1
     .is-playlist-container
       display: block
+  +desktop
+    position: sticky
+    top: 66px
+    // height: calc(100vh - 66px)
+    height: calc(100vh - 66px - 72px)
 .is-playlist
   width: $playlist-width
   min-width: $playlist-width
@@ -110,7 +115,8 @@ body
       &:not(:last-child)
         border-bottom: 1px solid rgba(224, 224, 224, 1)
       &:last-child
-        padding-bottom: 70px
+        // padding-bottom: 70px
+        padding-bottom: 90px // when bottom-cta is present
     .is-playlist-title
       font-weight: 500
       font-size: 18px
@@ -231,10 +237,10 @@ body
     +tablet
       padding: 0px 20px
     +desktop
-      padding: 40px 20px 50px 20px
+      padding: 40px 20px 72px 20px
       min-height: calc(100vh - 66px)
     +widescreen
-      padding: 40px 80px 50px 80px
+      padding: 40px 80px 72px 80px
     .is-video-wrapper
       position: relative
       width: 100%
@@ -270,6 +276,7 @@ body
             visibility: visible
     .is-tab-panel
       margin-top: 16px
+      padding-bottom: 30px
       display: none
       &.is-active
         +desktop
@@ -406,3 +413,48 @@ body.is-touch-device
         top: calc(0.5625 * (100vw - 40px) + 96px + 66px - 1px)
         left: 20px
         width: calc(100% - 40px)
+
+.section.is-bottom-cta
+  +touch
+    display: none
+  position: fixed
+  bottom: 0
+  width: 100%
+  z-index: 20
+  background-color: #FCFCFC
+  box-shadow: 0px -2px 37px rgba(0, 0, 0, 0.07)
+  padding: 16px 48px
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    max-width: 728px
+    margin-left: 0
+    & > div
+      display: inline-block
+    .bottom-bg
+      display: none
+    .title
+      font-size: 22px
+      line-height: 30px
+      margin-bottom: 0
+    .cta
+      .button
+        font-family: $vibe-family-heading
+        font-weight: $vibe-bold
+        font-size: 16px
+        border-width: 0
+        min-width: 0
+        &:not(:first-child)
+          margin-left: 16px
+      .request-a-quote-button
+        color: $vibe-pink
+      .is-icon
+        margin-right: 10px
+      .live-demo-icon
+        width: 17px
+        height: 18px
+      .request-a-quote-icon
+        width: 15px
+        height: 18px

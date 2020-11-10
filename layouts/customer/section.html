@@ -22,7 +22,8 @@
 <section class="section is-story">
   <div class="container">
     <div class="columns">
-      {{ range $idx, $it := first 3 . }}
+      {{/* Hack: remove Sandlers Training, which happens to be the third item in stories. */}}
+      {{ range $idx, $it := first 2 . }}
       <div class="column">
         {{ partial "story-card" (merge $it (dict "target" "story" "index" $idx)) }}
       </div>

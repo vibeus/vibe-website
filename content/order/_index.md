@@ -82,6 +82,12 @@ faq:
 reviews:
   title: i18n-content-order-_index-reviews-title
   items:
+    - author: TFresquez
+      channel: Amazon Review
+      stars: 5
+      date: 11/02/2020
+      body: i18n-content-order-_index-reviews-items-i_5-body
+      url: 'https://www.amazon.com/review/R2R6JOXWT2UM3B/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
     - author: SeanDon2000
       channel: Amazon Review
       stars: 5

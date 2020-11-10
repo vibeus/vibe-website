@@ -75,3 +75,10 @@ While it's been proven many times that [masks help slow down the spread](https:/
 Working remotely has even more benefits — for one, adults can work on home projects while also staying connected to their team in the office. A lot of people are choosing to work from home even after their spaces have reopened, just because it's more convenient. When your child grows up, they may also end up working from home. Having them practice the art of staying motivated and productive at a young age is great practice for the future.
 
 Distance learning may take some time to adjust to, but it really does have a lot of perks. With the amount of technology we have, connecting to each other is a breeze. It's hard to beat face-to-face interactions, but video chats are a very close second. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

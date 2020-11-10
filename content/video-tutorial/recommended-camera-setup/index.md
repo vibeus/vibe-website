@@ -3,7 +3,7 @@ title: "Recommended Camera Setup"
 slug: recommended-camera-setup
 date: 2020-09-18
 draft: false
-isfeatured: true
+isfeatured: false
 summary: Come to see the recommended camera setup with Vibe for your training, demo, or presentations.
 videoId: dYkU62fuGgA
 allowIndex: false

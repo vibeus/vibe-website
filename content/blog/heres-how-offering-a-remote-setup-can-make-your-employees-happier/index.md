@@ -25,6 +25,8 @@ A lot of trust goes into hiring a remote worker. You need to believe that they'l
 ## They won't need to battle the "am I too sick to go in?" debate. 
 
 It makes sense to stay home when you're sick. Infecting the team will only make everyone's job slightly harder. However, it's often tough for an employee to make the call to stay home. Many worry that their boss might assume they're bluffing. Others who aren't salaried just can't afford it. [CNBC ran a report](https://www.cnbc.com/2019/11/03/90percent-of-employees-say-they-come-to-work-sickheres-how-to-fix-that.html) saying that just around 90% of office employees have gone to work when they're not feeling their best — which is slightly ridiculous. By working from home, they can get the job done in a safe and comfortable environment. It's the best of both worlds.
+
+*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
  
 
 ## They can work in an environment with dogs and cats, if they so do choose. 
@@ -40,6 +42,7 @@ It seems crazy, but dogs can be very beneficial to someone's work environment. "
 
 Raise your hand if you've ever gotten annoyed at a cubicle neighbor before. ****When you work remotely, you don't need to deal with your coworker's small quirks. That means if they overly click their mouse (which I do, personally) or happen to cough a lot, you can get your work done and be blissfully unaware. You might even be able to play your favorite music in the background. It's also a plus for new moms. As they often have to pump during the day, they can do so without worrying that a coworker might barge in.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 ## Your employees with small children will feel less guilt. 
 
@@ -71,3 +74,11 @@ Being able to work from home makes employees feel like everyday tasks are a litt
 Yes, you should keep in mind that an employee also needs a good personal life outside of the business. But if there happens to be an emergency, they'll probably be fairly easy to reach — and have all of the material you need right in front of them. Just remember that after their designated sign-off time, they don't technically owe you a response. But, you'll probably get one — just because they're happy with their overall arrangement.
 
 Employees are happier with a little bit of freedom, and the knowledge that you trust in their work. By offering a remote set-up, you're telling your employees that you value them and know that they don't need to be in the office to get the job done right. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

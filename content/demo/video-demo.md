@@ -7,11 +7,13 @@ aliases:
 navbar:
   extra:
     - title: Contact Sales
-      class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      # class: is-primary is-outlined is-rounded is-in-brand is-hidden-mobile
+      class: is-white is-rounded is-in-brand is-hidden-mobile
       url: /contact/
       in_brand_mobile: true
     - title: i18n-data-common-nav-base-extra-i_1-title
-      class: is-primary is-rounded is-nav-cart is-in-brand
+      # class: is-primary is-rounded is-nav-cart is-in-brand
+      class: is-black is-rounded is-nav-cart is-in-brand
       url: /order/
       in_brand_mobile: true
 player:
@@ -26,7 +28,7 @@ playlist_header:
 playlist_info:
   - title: Introduction
     playlist:
-      - title: What's Vibe?
+      - title: Introducing Vibe
         video:
           id: 3ahmSXlNgh4
           length: 2
@@ -44,25 +46,25 @@ playlist_info:
                 url: /resources/Vibe_Security_Specs.pdf
   - title: Whiteboarding
     playlist:
-      - title: Whiteboarding part 1
+      - title: Whiteboarding Part 1
         video:
           id: bMMf384stj4
           length: 1
           exact_length: 1:22
         tab_panel:
           video_overview:
-            content: Get an overview of whiteboarding features, including Pen, Highlighter, Smart Shapes, Text corrector, and Laser pointer.
+            content: Get an overview of whiteboarding features, including Pen, Highlighter, Smart shapes, Text corrector, and Laser pointer.
           resources:
-      - title: Whiteboarding part 2
+      - title: Whiteboarding Part 2
         video:
           id: e_KdCXiw8AU
           length: 1
           exact_length: 1:10
         tab_panel:
           video_overview:
-            content: Get an overview of whiteboarding features, including Sticky notes, Lasso Tool, Canvas Background, Eraser and Undo button.
+            content: Get an overview of whiteboarding features, including Sticky notes, Lasso tool, Canvas background, Eraser and Undo button.
           resources:
-      - title: Import files
+      - title: Import Files
         video:
           id: y-Eh7IZX02I
           length: 1
@@ -110,35 +112,35 @@ playlist_info:
           exact_length: 0:40
         tab_panel:
           video_overview:
-            content: Vibe was built on the Android operating system, which gives you the option to use a growing list of 3rd party applications that integrate directly with the board.
+            content: Vibe was built on the Android operating system, which gives you the option to use a growing list of third party applications that integrate directly with the board.
           resources:
             faqs:
               - title: Which apps are available?
                 url: https://knowledge.vibe.us/which-apps-are-available
-      - title: App Store & App Launch Center
+      - title: App Launch Center
         video:
           id: yVbCPcT6M1A
           length: 2
           exact_length: 1:31
         tab_panel:
           video_overview:
-            content: Get an overview of Vibe App store and see the app launch center, where you can easily switch between or split screen open apps.
+            content: Get an overview of Vibe app store and see the app launch center, where you can easily switch between or split screen open apps.
           resources:
             faqs:
               - title: How to download applications?
                 url: https://knowledge.vibe.us/how-to-download-applications
-      - title: Third-party Apps Annotation
+      - title: Third Party Apps Annotation
         video:
           id: Rt9Um8le7iI
           length: 1
           exact_length: 0:52
         tab_panel:
           video_overview:
-            content: When using 3rd party apps, you can also annotate on the screen and screenshot to save it to the canvas.
+            content: When using third party apps, you can also annotate on the screen and screenshot to save it to the canvas.
           resources:
   - title: Video Conferencing
     playlist:
-      - title: Supported Apps
+      - title: Video Conferencing
         video:
           id: kVPU_OYrjw8
           length: 1
@@ -147,7 +149,7 @@ playlist_info:
           video_overview:
             content: Vibe offers integrations with most popular video conferencing apps, like Zoom, Google Meet, Microsoft Teams, RingCentral, WebEx, and GoToMeeting.
           resources:
-      - title: Zoom Overview
+      - title: Using Zoom on Vibe
         video:
           id: E1DRW8ewnVU
           length: 4
@@ -156,7 +158,7 @@ playlist_info:
           video_overview:
             content: Get an overview of how to use Zoom for video conferencing, while sharing the board's screen with remote participants.
           resources:
-      - title: Microsoft Teams Overview
+      - title: Using Microsoft Teams on Vibe
         video:
           id: nTrR0LoLZgw
           length: 2
@@ -167,7 +169,7 @@ playlist_info:
           resources:
   - title: Screencast & Annotation
     playlist:
-      - title: Wireless Screencast & Annotation
+      - title: Screencast & Annotation
         video:
           id: 4vHlHwDmXS8
           length: 1
@@ -214,4 +216,20 @@ playlist_info:
           video_overview:
             content: Learn more about the price, what’s included in the box, and how to purchase.
           resources:
+bottom_cta:
+  title: Ready for More Actions?
+  cta:
+    buttons:
+      - class: is-primary live-demo-button
+        title: Book a Live Demo
+        url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+        icon:
+          class: live-demo-icon
+          url: img/demo/live-demo-icon.svg
+      - class: is-light request-a-quote-button
+        title: Request a Quote
+        url: /contact/request-a-quote
+        icon:
+          class: request-a-quote-icon
+          url: img/demo/request-a-quote-icon.svg
 ---

@@ -6,6 +6,7 @@ date: 2020-03-09
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
 draft: false
 summary: Are you leading a remote team? Discover how to build trusted relationships with your team.
+description: How to build trusted relationships with your remote team
 ---
 
 
@@ -20,7 +21,7 @@ By working remotely, your employees are offered a little more freedom. And since
 ## How to build trusted relationships?
 
 
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-1.jpg" "remote worker on a laptop" >}}
 
 
 Here are ways you can build trusted relationships with your work team. And believe me, they're much easier than you may think.
@@ -61,3 +62,11 @@ Create opportunities for them to get to know each other outside of work. You can
 Don't try to negotiate a smaller salary for the luxury of working from home. "Working from home is no longer being seen as a benefit or reward, but rather a legitimate way to work," [FlexJobs writes](https://www.flexjobs.com/blog/post/do-remote-jobs-really-pay-less-v2/), noting the extreme growth of remote work in recent years. They're actually doing you a favor by staying home. 
 
 The best choice you can make is to hire remote workers. Think about all of the talented people in the world that you'll allow yourself access to. It's a great way to get supreme candidates without worrying about relocation. Just remember to treat them with respect, and check in the same way you would with an in-house employee. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

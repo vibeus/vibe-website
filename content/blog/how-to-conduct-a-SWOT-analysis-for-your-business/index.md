@@ -7,6 +7,7 @@ tags: ["meetings", "SWOT analysis", "template"]
 draft: false
 isfeatured: false
 summary: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years.
+description: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years.
 ---
 
 
@@ -17,7 +18,7 @@ Conducting a proper S.W.O.T. analysis helps to inform business owners on the cur
 
 
 ## What Is a S.W.O.T. Analysis?
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-1.jpg" "SWOT Analysis overview" >}}
 
 
 A S.W.O.T. analysis determines the **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats of a business, a marketing campaign, a client proposal—really, any number of business decisions can benefit from a S.W.O.T. analysis. It’s an effective way to get a handle on the current scope of the company and make more strategic plans.
@@ -50,6 +51,8 @@ Companies with departments made up of 10 or more people could have each team com
 
 If you’re making a decision that will directly impact customers—like opening a new store or revamping a popular product line—consider giving customers the opportunity to weigh in. You can use an email or social media survey to gather a few data points, then add them to what your team comes up with.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+
 
 ## How Do I Complete a S.W.O.T. Analysis?
 
@@ -64,7 +67,7 @@ Once everyone’s had their say, you’ll hopefully see a few patterns. Notice w
 Let’s take a look at how a small business might use a S.W.O.T. analysis. This locally owned shoe store has a well-established customer base. In general, things are going well and the company is able to cover their costs, but with the ongoing popularity of online shopping, it’s time to think of new ways to attract and retain customers.
 
 
-{{< common/srcset "image-2.jpg" "" >}}
+{{< common/srcset "image-2.jpg" "SWOT Analysis is simple on a Vibe interactive whiteboard" >}}
 
 
 After a team brainstorming session, the owner is able to see that his well-trained staff and good location could help to set his business apart from the competition and make hosting community events a strong possibility for attracting more customers. Launching an online store would also make the store’s inventory more widely available and could increase his sales over the competition.
@@ -72,3 +75,11 @@ After a team brainstorming session, the owner is able to see that his well-train
 Running through this kind of evaluation gives him an honest assessment of where the business stands and where he and his staff can direct their attention next. And with practice, a S.W.O.T. analysis can give your team this kind of insight, too.
 
 Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysis, brainstorming session, or group project by checking out [vibe.us](http://vibe.us/).
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
