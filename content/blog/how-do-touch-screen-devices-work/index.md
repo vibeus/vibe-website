@@ -23,6 +23,8 @@ A touchscreen can be conceptualized as an **invisible keyboard** attached to the
 *Looking for innovative ways to collaborate?* [*Order a Vibe board today!*](https://vibe.us/order/)
 
 ## How touchscreens work
+{{< common/srcset "image-1.png" "man touching touchscreen" >}}
+
 
 There are different [kinds of touchscreen technology,](https://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/) which work in different ways. Certain types of touchscreens can only sense one finger at a time, while others are more sensitive. Different technologies also have different ways of dealing with wear and tear. [**Vibe boards**](https://vibe.us/software/) **use infrared technology**, which we will discuss below. 
 
@@ -35,9 +37,6 @@ The most basic and standard touch screens you'll come into contact with are resi
 **Capacitive**
  ****
 Capacitive screens consist of several layers of glass. Electricity flows through the inner and outer layers, allowing the screen to act like two electrical conductors separated by an insulator. **This is known as a capacitor.** When your finger touches the screen, you cause a shift in the electrical field by a specific amount depending on where you touch it. **Capacitive Screens are more sensitive than resistive ones** and can be touched in more than one place at once, but they can suffer more wear and tear and don't work if you touch them with a plastic stylus. 
-
-{{< common/srcset "image-1.png" "man touching touchscreen" >}}
-
 
 **Infrared**
 
