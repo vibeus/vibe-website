@@ -873,7 +873,7 @@ other = "3 mm 钢化玻璃"
 other = "触控刷新率"
 
 [i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_3-value]
-other = "150 Hz"
+other = "60 Hz"
 
 [i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_4-name]
 other = "最小识别尺寸"
