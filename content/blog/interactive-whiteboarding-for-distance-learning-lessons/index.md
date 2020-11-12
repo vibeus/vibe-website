@@ -31,10 +31,11 @@ Lessons on Vibe can be prepared ahead of time, used during class time, and will 
 
 
 ## Sharing to and from Vibe 
-{{< common/srcset "image-2.png" "foster collaboration outside of classroom walls" >}}
-
 
 Bring files into Vibe easily from Google Drive, Dropbox or OneDrive. You can access these in their native format, like Microsoft Word or PowerPoint, or bring them into the whiteboard as PDFs that can be annotated over again and again. Pull images into the board with a click, and resize, move, or delete them as needed. 
+
+{{< common/srcset "image-2.png" "foster collaboration outside of classroom walls" >}}
+
 
 Board invitations for collaboration can be sent via a sharable link through email, Slack, Teams, or Zoom chat, or via QR code. There’s simple click-to-send technology to send the board via email with an attached PDF. Boards can also be saved as PDFs directly to cloud drives like Google Drive, Box, and OneDrive.
 
@@ -47,10 +48,11 @@ The handwritten word--be it shared on paper, chalkboard, or whiteboard--has been
 
 
 ## Screen recording with audio 
-{{< common/srcset "image-4.png" "asynchronous learning works well with recorded video and whiteboard sessions" >}}
-
 
 Of course, there are times when it’s just not possible to have students in the same place at the same time--even when that “place” is virtual. Asynchronous lessons are best in these situations, and have the additional benefit of being on demand for students who benefit from repetition. Given that many educators are tasked with large class sizes, recorded lessons can be a way to reach students in a personal way at scale. 
+
+{{< common/srcset "image-4.png" "asynchronous learning works well with recorded video and whiteboard sessions" >}}
+
 
 Lessons done with Vibe can be recorded with both visual and audio components using popular video conferencing apps like Zoom or Teams, as well as with programs like Xrecorder.
 
