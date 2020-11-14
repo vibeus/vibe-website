@@ -67,7 +67,7 @@ faq:
   title: i18n-content-order-_index-faq-title
   see_all:
     title: i18n-content-order-_index-faq-see_all-title
-    url: https://knowledge.vibe.us/buyers-faq
+    url: /buyer-faq
   items:
     - title: i18n-content-order-_index-faq-items-i_0-title
       body: i18n-content-order-_index-faq-items-i_0-body
@@ -121,6 +121,12 @@ reviews:
 bottom_cta:
   title: i18n-content-order-_index-bottom_cta-title
   cta:
-    title: i18n-content-order-_index-bottom_cta-cta-title
-    url: /contact/
+    # title: i18n-content-order-_index-bottom_cta-cta-title
+    # url: /contact/
+    buttons:
+      - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title
+        url: /contact/request-a-quote
+        class: is-black
+      - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_1-title
+        url: /contact
 ---
