@@ -73,6 +73,7 @@ apps:
   type: productivity
 - id: com.esri.earth.phone
   name: ArcGIS Earth
+  type: other
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
