@@ -455,7 +455,10 @@ for home office or business!
 [i18n-content-order-_index-bottom_cta-title]
 other = "Still have questions?"
 
-[i18n-content-order-_index-bottom_cta-cta-title]
+[i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title]
+other = "Need a Quote"
+
+[i18n-content-order-_index-bottom_cta-cta-buttons-i_1-title]
 other = "Contact us"
 
 [i18n-content-career-_index-title]

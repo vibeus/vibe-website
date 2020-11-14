@@ -11,7 +11,7 @@ bottom_cta:
   title: Still have questions?
   cta:
     title: See the Buyers FAQ
-    url: https://knowledge.vibe.us/buyers-faq
+    url: /buyer-faq
     target: _blank
 ---
 
