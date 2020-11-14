@@ -76,7 +76,6 @@ faq_rich_search:
 
         [8]: https://knowledge.vibe.us/vibe-camera
 
-
     - id: stands
       question: Stands and wall mounts for Vibe
       answer: |
@@ -88,7 +87,6 @@ faq_rich_search:
 
         [9]: https://knowledge.vibe.us/wall-mount-and-stand
 
-
     - id: styluses
       question: Which styulus should I use with Vibe?
       answer: |
@@ -97,7 +95,6 @@ faq_rich_search:
         *Read more: [Help Center: FAQs on Vibe Styluses][10].*
 
         [10]: https://knowledge.vibe.us/faqs-on-vibe-styluses
-
 
     - id: cable
       question: Which cable accessories does Vibe support?
@@ -116,7 +113,6 @@ faq_rich_search:
         *Read more: [Help Center: Are there any other accessories available with Vibe?][12].*
 
         [12]: https://knowledge.vibe.us/active-stylus
-
 
     - id: wireless
       question: Which wireless devices does Vibe support?
@@ -137,7 +133,6 @@ faq_rich_search:
         *Read more: [How to screencast][13]*
 
         [13]: https://knowledge.vibe.us/how-to-screencast
-
 
     - id: annotation
       question: Can you draw on top of the screencast or HDMI content?
@@ -162,7 +157,6 @@ faq_rich_search:
         [15]: https://eshare.app/#once
         [16]: https://knowledge.vibe.us/how-to-screencast
 
-
     - id: sso
       question: Does Vibe support Single Sign On (SSO)?
       answer: |
@@ -171,7 +165,6 @@ faq_rich_search:
         *Read more: [Help Center: Does Vibe support SSO?][17].*
 
         [17]: https://knowledge.vibe.us/do-you-support-single-sign-on
-
 
     - id: applications
       question: Which apps integrate with Vibe?
@@ -186,8 +179,6 @@ faq_rich_search:
 
         [18]: https://vibe.us/android-app-store/
         [19]: https://knowledge.vibe.us/applications
-
-
 
     - id: subscription
       question: Does Vibe have a subscription fee?
@@ -233,7 +224,6 @@ faq_rich_search:
         [24]: https://vibe.us/order/
         [25]: https://knowledge.vibe.us/how-can-i-purchase-vibe
 
-
     - id: questions
       question: Can I talk to someone at Vibe if I still have questions?
       answer: |
@@ -274,7 +264,6 @@ faq_rich_search:
 
         [30]: https://knowledge.vibe.us/us-shipping-faq
 
-
     - id: ship-ca
       question: Does Vibe shipping to Canada?
       answer: |
@@ -311,7 +300,6 @@ faq_rich_search:
         *Read more: [Vibe FAQs for Teachers and Educators][35]*
 
         [35]: https://vibe.us/faqs-for-teachers-and-educators/
-
 
 hero:
   title: *title
@@ -385,7 +373,6 @@ bottom_cta:
 {{< common/faq-doc-item param="faq_rich_search" id="ship-ca" >}}
 
 {{< common/faq-doc-item param="faq_rich_search" id="ship-other" >}}
-
 
 # Education FAQs
 

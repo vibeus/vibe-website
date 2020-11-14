@@ -71,6 +71,8 @@ apps:
 - id: com.dynamixsoftware.printershare
   name: PrinterShare
   type: productivity
+- id: com.esri.earth.phone
+  name: ArcGIS Earth
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file

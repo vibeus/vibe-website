@@ -38,7 +38,7 @@ if (promoCode) {
     tempInput.select();
     document.execCommand('copy');
     document.body.removeChild(tempInput);
-  })
+  });
 }
 
 const CLOSE_ICON_SRC =
@@ -246,7 +246,9 @@ function getCartCheckoutUrl() {
     return acc;
   }, []);
 
-  return `https://order.vibe.us/cart/${lineItems.join(',')}${promoCode ? '?discount=' + promoCode : ''}`;
+  return `https://order.vibe.us/cart/${lineItems.join(',')}${
+    promoCode ? '?discount=' + promoCode : ''
+  }`;
 }
 
 function setupGallery() {
