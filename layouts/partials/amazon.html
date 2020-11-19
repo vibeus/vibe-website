@@ -1,0 +1,22 @@
+<div class="amazon">
+  <div class="stars">
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/stars.png") "options" "jpg #FFFFFF")}}
+  </div>
+  <div class="logo">
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/logo3.png") "options" "jpg #FFFFFF")}}
+  </div>
+  <h1 class="name">{{.name }}</h1>
+  <div class="subtitle">
+    {{.subtitle | markdownify }}
+  </div>
+  <div class="line">
+    {{ (resources.Get "img/customer/line.svg").Content | safeHTML }}
+  </div>
+  {{if .cover}}
+  <div class="cover">
+    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "jpg #FFFFFF")}}
+  </div>
+  {{end}}
+    <div class="content">{{.content | markdownify }}</div>
+    <div class="date">{{.date | markdownify }}</div>
+</div>

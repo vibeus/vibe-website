@@ -1,0 +1,30 @@
+<div class="card customer-card {{ with .class }}{{ . }}{{ end }}"
+{{ if .target }}
+data-target="{{ .target }}"
+{{ if .index }}
+data-start-at="{{ .index }}"
+{{ end }}
+{{ end }}
+>
+  <div class="card-image">
+    <figure class="image is-3by2">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .cover) "desktop" "800x" "tablet" "600x") }}
+    </figure>
+    {{ with .logo }}
+    <div class="logo">
+      <div class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="card-content">
+    <div class="content">{{ default .content (T .content) }}</div>
+    <div class="container">
+      <h2 class="title">{{ default .title (T .title) }}</h2>
+      <div class="cta">
+        <span>{{.cta }}</span>
+      </div>
+    </div>
+  </div>
+</div>

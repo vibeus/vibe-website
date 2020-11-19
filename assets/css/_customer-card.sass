@@ -1,0 +1,49 @@
+=card-hovered
+  z-index: 1
+  padding: 0 0 30px 0
+  .card-image
+    margin-top: -10px
+  .card-content
+    padding: 0 30px 0 30px
+    +mobile
+      padding: 0
+.card.customer-card
+  padding: 30px
+  height: 100%
+  cursor: pointer
+  .image img
+    object-fit: cover
+  .card-content
+    padding: 0
+    .container
+      padding: 0px
+      height: 190px
+      +mobile
+        height: 85px
+  .logo
+    height: 60px
+    align-items: center
+  .title
+    font-size: 24px
+    padding-bottom: 82px
+    +lang-override(".lang-zh")
+      padding-bottom: 52px
+    +tablet
+      font-size: 20px
+    +mobile
+      font-size: 18px
+  .cta
+    position: absolute
+    bottom: 40px
+    font-weight: $vibe-bold
+    color: #000000
+  +mobile
+    +card-hovered
+    box-shadow: none
+    .cta
+      bottom: 16px
+  +tablet
+    &:not(:hover)
+      box-shadow: none
+    &:hover
+      +card-hovered

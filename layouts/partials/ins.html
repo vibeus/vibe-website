@@ -1,0 +1,24 @@
+<div class="ins">
+  <div class="mask">
+    {{partial "common/srcset" (dict "resource" (resources.Get .mask) "options" "jpg #FFFFFF")}}
+  </div>
+  <h1 class="name">{{.name }}</h1>
+  <div class="logo">
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/logo2.png") "desktop" "160x" "options" "jpg #FFFFFF")}}
+  </div>
+  <div class="line">
+    {{ (resources.Get "img/customer/line.svg").Content | safeHTML }}
+  </div>
+  {{if .cover}}
+  <div class="cover">
+    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "jpg #FFFFFF")}}
+  </div>
+  {{end}}
+  <div class="container">
+  <div class="icon">
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/icon1.png") "desktop" "160x" "options" "jpg #FFFFFF")}}
+  </div>
+    <div class="content">{{.content | markdownify }}</div>
+  </div>
+    <div class="date">{{.date | markdownify }}</div>
+</div>
