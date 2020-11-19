@@ -1,7 +1,7 @@
 /*
 {{ $src := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
 */
-const glides = document.querySelectorAll('.customer-card .container .glide');
+const glides = document.querySelectorAll('.customer-cards .container .glide');
 
 var mounted = false;
 var glidesArr = [];

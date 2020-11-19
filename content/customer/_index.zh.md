@@ -1,6 +1,7 @@
 ---
 title: i18n-content-customer-_index-title
-stylesPath: css/customer.sass
+stylesPath: css/customer.zh.sass
+layout: customer.zh
 hero:
   title: i18n-content-customer-_index-hero-title
   body: i18n-content-customer-_index-hero-body

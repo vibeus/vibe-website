@@ -14,6 +14,9 @@
 html,body
   overflow-x: hidden
 
+.section
+  +vertical-padding(120px)
+
 main .hero
   overflow: visible
 .hero
@@ -50,36 +53,36 @@ main .hero
     height: 16px
     left: 764px
     top: 39px
-    background: #FFCC00
+    background: $vibe-yellow
   .title
     text-align: center
     font-size: 48px
-    weight: 600
+    weight: 500
     +mobile
-      font-size: 32px  
+      font-size: 32px
     span::after
-      content: " "
+      content: ""
       display: inline-block
       position: absolute
       left: 0px
       bottom: 3px
       width: 100%
       height: 30%
-      background-color: #FFCC00
+      background-color: $vibe-yellow
       z-index: -1
     span
       display: inline-block
       position: relative 
       z-index: 5
     .title
-    max-width: 890px    
+    max-width: 890px
   .content
     size: 18px
     text-align: center
 
 .section.video
   position: relative
-  max-height: 600px!important
+  max-height: 500px!important
   padding-top: 0px
   background-image: linear-gradient(180deg, #F4F4F4 33%, #FFFFFF 0, #FFFFFF 100px)
   +mobile
@@ -93,7 +96,7 @@ main .hero
     max-width: 1000px
     max-height: 542px
     position: relative
-    z-index: 5    
+    z-index: 5
     +mobile
       padding-bottom: 0px
       width: 100%
@@ -118,12 +121,9 @@ main .hero
         left: 0
  
 .section.is-trust
-  +vertical-padding(0px, 0px)
-  .container
-    padding-top: 15px
-    padding-bottom: 45px
+  +vertical-padding(50px, 50px)
  
-.teams-collaborate
+.section.teams-collaborate
   position: relative
   background: #F4F4F4
   .glide-dots
@@ -152,9 +152,9 @@ main .hero
     text-align: center
     font-size: 50px
     +mobile
-      font-size: 32px    
+      font-size: 32px
   .title
-    max-width: 933px    
+    max-width: 933px
   .content
     margin: auto
     text-align: center
@@ -186,18 +186,18 @@ main .hero
     .thumbnails
       overflow: scroll
       width: 306px
-      height: 432px  
+      height: 429px
       +tablet-only
         width: 261px 
       @media screen and (max-width: 900px)
-        display: none  
+        display: none
       .container
         padding: 0
         position: absolute
         top: 0
         left: 32px
         width: 275px
-        height: 88px   
+        height: 88px
         background: #FFFFFF
         opacity: 0.8
         border-radius: 4px 0px 0px 4px
@@ -207,15 +207,15 @@ main .hero
         position: absolute
         top: 19px
         left: 45px
-        font-size: 14px  
-        color: #828282  
+        font-size: 14px
+        color: $vibe-gray
       .content
         position: absolute
         top: 45px
         left: 45px
         padding: 0
         font-family: Stratos
-        font-weight: 600
+        font-weight: 500
         color: #000000
       .image
         z-index: 5
@@ -237,21 +237,23 @@ main .hero
           border: 1px solid transparent
           border-radius: 4px
         &.is-active img
-          border-color: $vibe-yellow      
+          border-color: $vibe-yellow
       .cardbox
         position: relative
         left: -8px
         width: 298px
-        height: 96px   
-        padding-bottom: 8px 
+        height: 96px
         cursor: pointer
         +tablet-only
           width: 253px
+        &:last-of-type
+          height: 96px - 8px
+          padding-bottom: 0
         &.is-active
           position: relative
           left: 0px
           .content
-            color: #6666CC  
+            color: $vibe-purple
           .container
             box-shadow: -10px 4px 60px rgba(0, 0, 0, 0.01)
             border-radius: 4px
@@ -264,30 +266,36 @@ main .hero
     @media screen and (max-width: 900px)
       background-color: #FFFFFF
   .cardboxmob
+    width: 100%
     height: 61px
     display: none
-    position: relative
+    align-items: center
+    justify-content: space-between
+    padding: 0 20px
     @media screen and (max-width: 900px)
-      display: block
-    .imagemob
-      position: relative
-      left: 10px
-      top: 10px
-      margin-bottom: 20px
-      img
+      display: flex
+    .author
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      height: 100%
+      width: 250px
+      .imagemob
         width: 40px
         height: 40px
+      .contentmob
+        margin-left: 12px
+        color: #000000!important
+        font-family: Stratos
+        font-weight: 500
     .logo
-      position: absolute
-      top: 18px
-      right: 21px
-    .contentmob
-      color: #000000!important
-      position: absolute
-      top: 22px
-      left: 71px
-      font-family: Stratos
-      font-weight: 600
+      padding: 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+  .blog-cover
+    height: 100%
   .tip
     width: 526px
     height: 140px
@@ -304,8 +312,8 @@ main .hero
       width: 166px
       height: 18px
       font-size: 14px
-      font-weight: 600
-      color: #828282
+      font-weight: 500
+      color: $vibe-gray
       line-height: 18px
       text-align: left
       margin-bottom: 8px
@@ -316,7 +324,7 @@ main .hero
       width: 364px
       height: 72px
       font-size: 24px
-      font-weight: 600
+      font-weight: 500
       color: #000000
       line-height: 36px
       text-align: left
@@ -335,13 +343,13 @@ main .hero
   a:nth-child(5)
     .tip
       .content
-        width: 435px  
+        width: 435px
   a:nth-child(6)
     .logo
-      display: none     
+      display: none
   li  
     height: 100%
-    &.is-active    
+    &.is-active
     &:hover
       .tip
         right: 0px 
@@ -352,34 +360,33 @@ main .hero
     .container
       padding: 0
     .title
-      padding-top: 27px
-      padding-left: 28.59px
+      padding: 27px 27px 0
       font-size: 12px
-      font-weight: 600
-      color: #828282
+      font-weight: 500
+      color: $vibe-gray
       line-height: 18px
       text-align: left
       margin-bottom: 8px
     .content
+      margin: 0
       font-size: 16px
-      font-weight: 600
+      font-weight: 500
       color: #000000
-      padding: 0 29px 0px 29px
+      padding: 0 27px 20px 27px
       line-height: 24px
       text-align: left
-      font-family: Stratos  
-      padding-bottom: 20px 
+      font-family: Stratos
     @media screen and (max-width: 900px)
       display: block     
 
 .section.is-testimonial
-  background-color: #FFCC00
+  background-color: $vibe-yellow
   +mobile
     padding-top: 45px!important
     padding-bottom: 75px!important
   .content
     font-family: $vibe-family-heading
-    font-weight: 600
+    font-weight: 500
     font-size: 50px
     +tablet
       font-size: 35px
@@ -394,12 +401,18 @@ main .hero
       +mobile
         margin-left: 0px
       p:first-child
-        font-weight: 600
+        font-weight: 500
 
 
-.section.customer-card
+.section.customer-cards
+  padding-top: 120px - 30px
+  padding-bottom: 120px - 30px - 30px
+  +mobile
+    padding-top: 60px
+    padding-bottom: 60px
+    padding-left: calc(1.5rem - 10px)
+    padding-right: calc(1.5rem - 10px)
   max-height: 684px
-  padding-top: 90px
   .glide__slides
     +mobile
       padding-bottom: 25px
@@ -410,9 +423,11 @@ main .hero
     padding-right: 50px
     overflow: hidden
     max-height: 562px
-    padding-bottom: 20px
     +mobile
       padding: 0
+  .glide__slide
+    +mobile
+      padding: 10px
   .columns
     position:relative 
     padding: auto
@@ -422,13 +437,13 @@ main .hero
       margin-right: 0
   .column
     max-width: 400px
-    padding: 0
-    padding-bottom: 50px
+    padding: 10px
+    padding-bottom: 30px
     margin: auto
     +mobile
       margin-left: auto
       margin-right: auto
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05)
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05)
       padding-bottom: 20px
   .card.customer-card
     width: 409px
@@ -436,6 +451,10 @@ main .hero
       padding: 0
   .card-content
     position:absolute
+    +tablet
+      .container
+        height: 150px
+        position: static
     +mobile
       padding-left: 29px
   .logo
@@ -446,23 +465,19 @@ main .hero
     bottom: 5%
     background: #FFFFFF
     border-radius: 4px
+    padding: 6px
   .card.customer-card .logo .image
-    position: absolute
-    left: 14px
-    top: 7.5px
-    height: 25px
-    width: 90px  
+    height: 100%
     img
-      width: 100%
       height: 100%
-      margin: 0
       object-fit: contain
-      object-position: left
+      object-position: center
   .card.customer-card.special
     .logo
       width: 62px
-      .image
-        left: 18px
+  .customer-card-column.capgemini
+    .logo
+      padding: 9px 0 6px
   .title
     line-height: 30px
     margin: 0
@@ -476,14 +491,14 @@ main .hero
     padding-top: 16px
     padding-bottom: 8px
     margin: 0
-    font-family: Stratos;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18px;
-    color: #828282
-    letter-spacing: 0px;
-    text-align: left;
+    font-family: Stratos
+    font-size: 14px
+    font-style: normal
+    font-weight: 500
+    line-height: 18px
+    color: $vibe-gray
+    letter-spacing: 0px
+    text-align: left
   .cta
     font-size: 14px
     text-decoration-line: underline
@@ -621,26 +636,24 @@ main .hero
   padding-top: 100px
   padding-bottom: 100px
 
-.section.customer-comment
+.section.customer-comments
   overflow: hidden
   position: relative
   background: #F4F4F4
-  .left1
+  .left-0
     span
       color: #6666CC
-  .toppart-body
-  padding-top: 120px 
   .container
     max-width: 933px
   .title
     position: relative
     text-align: center
     font-size: 48px
-    weight: 600
+    weight: 500
     +mobile
-      font-size: 32px    
+      font-size: 32px
   .title
-    max-width: 933px    
+    max-width: 933px
   .container .content
     position: relative
     margin: auto
@@ -658,17 +671,21 @@ main .hero
     max-width: 1050px
     .column
       margin: auto
+      .comment-card-wrapper:first-child .comment-card
+        margin-top: 0
+      .comment-card-wrapper:last-child .comment-card
+        margin-bottom: 0
     +mobile 
       display: flex
       flex-direction: column-reverse
       align-items: center
-      .mobiledis
+      .is-hidden-mobile
         +mobile
           display: none
-    .column.left1.twitter
+    .column.left-0.twitter
       margin: 0
-      +mobile   
-        margin-top: -30px      
+      +mobile
+        margin-top: -30px
   .bottom
     position: absolute
     width: 100%
@@ -681,7 +698,7 @@ main .hero
   display: none
   overflow: hidden
   position: relative
-  background: #F4F4F4;
+  background: #F4F4F4
   height: 217px
   .container
     max-width: 933px
@@ -691,7 +708,7 @@ main .hero
     padding-top: 86px
     font-family: Fira Sans
     font-style: normal
-    font-weight: 600
+    font-weight: 500
     font-size: 18px
     line-height: 144%
     color: #000000
@@ -702,7 +719,7 @@ main .hero
     height: 31px
   .picture svg
     position: relative
-    top: 6.5px     
+    top: 6.5px
 
 .modal
   +mobile
@@ -712,12 +729,11 @@ main .hero
         font-size: 22px
         margin-bottom: 30px
     .content,.author
-      font-size: 14px  
+      font-size: 14px
 
-::-webkit-scrollbar
+.thumbnails::-webkit-scrollbar
   display: none
   width: 0
-main
   -ms-overflow-style: none
   scrollbar-width
     display: none

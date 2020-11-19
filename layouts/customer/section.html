@@ -61,17 +61,17 @@
                   <a href={{.url}}>
                     <li class="glide__slide">  
                       <div class="cardboxmob">
-                        <figure class="imagemob">
-                          {{ partial "common/srcset" (dict "resource" (resources.Get .avatar) "options" "jpg") }}
-                        </figure>
-                        <div class="logo">
-                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        <div class="author">
+                          <figure class="imagemob">
+                            {{ partial "common/srcset" (dict "resource" (resources.Get .avatar) "options" "jpg") }}
+                          </figure>
+                          <div class="contentmob">{{ .name | markdownify }}</div>
                         </div>
-                        <div class="containermob">       
-                          <div class="contentmob">{{.name | markdownify }}</div>
-                        </div>   
+                        <span class="logo">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </span>
                       </div>                      
-                      <figure class="image">
+                      <figure class="blog-cover image">
                         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
                       </figure>                                            
                       <div class="tip">
@@ -136,14 +136,14 @@
 {{ end }}
 
 {{ with .Params.stories }}
-<section class="section customer-card">
+<section class="section customer-cards">
   <div class="container" >
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
           {{ range  $idx, $it := first 4 . }}
           <li class="glide__slide">
-            <div class="column">
+            <div class="column customer-card-column{{ with .name }} {{ $it.name }}{{ end }}">
             {{ partial "customer-card" (merge $it (dict "target" "story" "index" $idx)) }}
             </div>
           </li>
@@ -200,8 +200,8 @@
 </div>
 {{ end }}
 
-{{ with .Params.comment }}
-<section class="section customer-comment">
+{{ with .Params.comments }}
+<section class="section customer-comments">
   <div class="toppart-body">
     <div class="container">       
       <h1 class="title">{{.title }}</h1>
@@ -210,45 +210,32 @@
     </div>
   </div>
   <div class="columns">
-    <div class="column mobiledis">
-      {{with .twitter1}}
-      <a href="{{.url}}">
-        <div class="left1">
-          {{ partial "twitter" . }}
+    {{ with .left_column }}
+    <div class="column left-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}">
+        <div class="left-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
         </div>
       </a>
-      {{end}}
-      {{with .ins1}}
-      <a href="{{.url}}">
-        <div class="left2">
-          {{ partial "ins" . }}
-        </div>
-      </a>
-      {{end}}
+      {{ end }}
+      {{ end }}
     </div>
-    <div class="column">
-      {{with .ins2}}
-      <a href="{{.url}}">
-        <div class="right1">
-          {{ partial "ins" . }}
+    {{ end }}
+    {{ with .right_column }}
+    <div class="column right-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}">
+        <div class="right-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
         </div>
       </a>
-      {{end}}
-      {{with .amazon1}}
-      <a href="{{.url}}">
-        <div class="right2">
-          {{ partial "amazon" . }}
-        </div>
-      </a>
-      {{end}}
-      {{with .ins3}}
-      <a href="{{.url}}">
-        <div class="right3">
-          {{ partial "ins" . }}
-        </div>
-      </a>
-      {{end}}
+      {{ end }}
+      {{ end }}
     </div>
+    {{ end }}
   </div>
   <div class="bottom"></div> 
 </section>
