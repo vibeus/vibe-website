@@ -6,6 +6,8 @@ date: 2019-03-25
 isfeatured: false
 tags: ["Coworking", "Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration"]
 draft: false
+summary: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
+description: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
 blogHeroMask: 0
 ---
 
@@ -50,6 +52,7 @@ As work cultures have evolved to center collaboration over solitary deliberation
 
 Amenities that make collaboration more natural, from good lighting to healthy snacks in kitchens, are growing in popularity to meet the needs of an evolving workforce.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 # New Tools
 
@@ -63,6 +66,7 @@ The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to we
 {{< common/srcset "image-2.png" "Integrated zoom for remote collaboration" >}}
 
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 # Co-working for coworkers
 
@@ -71,6 +75,7 @@ As more companies collaborate with freelancers, consultants, and contract worker
 Co-working has gone from an informal practice, established by freelancers and creatives in libraries and cafes, to a phenomena that defines the contemporary work experience. In 2016, 43 percent of employed Americans said they spent at least some time [working remotely](https://www.nytimes.com/2017/02/15/us/remote-workers-work-from-home.html) — a number that is only on the rise.
 
 Collaborative spaces now need to include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
+
 
 
 # What does a collaborative workspace look like?
@@ -95,6 +100,11 @@ Slack’s San Francisco HQ features a “forest floor” to introduce the calmne
 
 Google’s second location on LA’s westside is housed in the old Spruce Goose hangar. They refit this massive open space with a variety of smaller collaborative nooks to give it context and proportion, creating “spaces that are moldable and flexible,” according to Google spokesperson Katherine Will.
 
-Want better tools for seamless collaboration? Our team is ready to talk.
+Want better tools for seamless collaboration? [Check out the Vibe demo](https://vibe.us/demo/).
 
-[Connect with us.](https://landing.vibe.us/request-demo)
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

@@ -7,6 +7,7 @@ tags: ["higher educaiton", "online teaching", "distance learning"]
 draft: false
 isfeatured: false
 summary: Dr. Henry Silverman is a Professor at the University of Maryland. He teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
+description: Dr. Henry Silverman is a Professor at the University of Maryland. He teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
 hero_styles:
   background: "#f4f4f4"
 ---
@@ -72,3 +73,10 @@ While this new suite of tech tools will enhance the classes he already teaches o
 “It’s almost like, when people first went to space, we started with these 15 minute launches, then circling the earth, then going to the moon. I’ve been doing these two hour sessions, but now I want to see what happens over the long haul, if you do these sessions for three days, or a week. Are people going to find that engaging over the long haul?”
 
 With Dr. Silverman’s attention to detail and enthusiasm for creating interactive learning experiences, keeping his audience engaged with the Vibe board should be no problem.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

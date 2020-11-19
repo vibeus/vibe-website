@@ -7,6 +7,7 @@ tags: ["CEO", "new business", "marketing"]
 draft: false
 isfeatured: false
 summary: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard to keep his projects on the move for his new business.
+description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard to keep his projects on the move for his new business.
 hero_styles:
   background: "#f4f4f4"
 ---
@@ -55,3 +56,11 @@ The all-in-one nature of the Vibe workspace has already helped him on tight dead
 “Because I had Vibe, I was able to switch through and make quick decisions as to what ads were going to get out before Memorial Day,” he explained. “I do all of that on Vibe,” often using the sticky notes or marker feature to color-code each element of whichever platform or ad he’s working on.
 
 The app integration comes into play when it’s time to relax, too. Elbendary will occasionally allow time for himself and catch up on some of his favorite Netflix shows, laughing while explaining, “The Netflix integration is great, so I can lie to myself and act like I’m taking some downtime for myself.” We think it’s safe to say it won’t be long before he’s back to working on another project again.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

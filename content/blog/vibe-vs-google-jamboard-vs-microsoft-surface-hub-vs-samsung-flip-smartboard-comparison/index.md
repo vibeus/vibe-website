@@ -7,6 +7,7 @@ date: 2019-04-29
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration", "Remote Collaboration"]
 draft: false
 summary: "The latest digital whiteboards reviews. You’ll find all of that information in Vibe’s digital whiteboard reviews.Smartboards were invented to bring the tried-and-true dry erase whiteboard into the digital age."
+description: Smartboard comparison for Microsoft Surface Hub, Google Jamboard, Samsung Flip, and Vibe
 listHeroDesktopFont: ["45px", "55px"]
 ---
 
@@ -83,3 +84,11 @@ One less obvious advantage Vibe has over its competitors is it’s small product
 “Overall, we’ve been very impressed by Vibe and the team behind it,” says Vibe user Peter Parker, Director of Advanced Analytics at Attunix. “They’ve been super receptive to our feedbacks and have incorporated suggestions and requests, both big and small, into the product. We’re often finding new ways of integrating Vibe into our everyday work to make us all more productive and efficient.”
 
 **Ready to think outside the rectangle?** [**Request a Vibe demo**](https://landing.vibe.us/request-demo)**.**
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
