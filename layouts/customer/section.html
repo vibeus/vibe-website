@@ -6,63 +6,179 @@
 
 {{ with .Params.hero }}
 <section class="hero">
-  <div class="bg-logo">
-    {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
-  </div>
   <div class="hero-body">
-    <div class="container">
-      <h1 class="title">{{ T .title }}</h1>
-      <div class="content">{{ T .body | markdownify }}</div>
+    <div class="container">      
+      <h1 class="title">{{.title }}
+        <span>{{.title1 }}</span>
+        {{.title2 }}
+      </h1>
+      <div class="content">{{.body | markdownify }}</div> 
+      <div class="picture">
+        {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+      </div> 
     </div>
   </div>
 </section>
 {{ end }}
 
-{{ with .Params.stories }}
-<section class="section is-story">
-  <div class="container">
-    <div class="columns">
-      {{/* Hack: remove Sandlers Training, which happens to be the third item in stories. */}}
-      {{ range $idx, $it := first 2 . }}
-      <div class="column">
-        {{ partial "story-card" (merge $it (dict "target" "story" "index" $idx)) }}
-      </div>
-      {{ end }}
+{{ with .Params.trust }}
+<section class="section video">
+  <div class="container"> 
+    <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
+      <div class="columns">
+      {{ partial "video-column" . }}
+      </div> 
     </div>
   </div>
 </section>
 {{ end }}
+
+{{ with .Params.trust }}
+<section class="section is-trust">
+  <div class="container"> 
+    {{ partial "customers" $.Page }}      
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.collaborate }}
+<section class="section teams-collaborate">
+  <div class="picture"></div>
+  <div class="teams-collaborate-body">
+    <div class="container">       
+      <h1 class="title">{{.title }}</h1>
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="line"></div>
+    </div>
+    <div class="glidecontainer">       
+      <div class="column is-gallery">
+        <div class="product-gallery">
+          <div class="glide-wrapper">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  {{ range .gallery }}
+                  <a href={{.url}}>
+                    <li class="glide__slide">  
+                      <div class="cardboxmob">
+                        <div class="author">
+                          <figure class="imagemob">
+                            {{ partial "common/srcset" (dict "resource" (resources.Get .avatar) "options" "jpg") }}
+                          </figure>
+                          <div class="contentmob">{{ .name | markdownify }}</div>
+                        </div>
+                        <span class="logo">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </span>
+                      </div>                      
+                      <figure class="blog-cover image">
+                        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                      </figure>                                            
+                      <div class="tip">
+                        <div class="toppart-body">
+                          <div class="container">                                 
+                            <h1 class="title">{{.title }}</h1>
+                            <div class="content">{{.body | markdownify }}</div>  
+                          </div>
+                        </div>
+                        <div class="logo">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </div>
+                        <div class="picture">
+                          {{ (resources.Get "img/customer/shortarrow.svg").Content | safeHTML }}
+                        </div>
+                      </div>
+                      <div class="tipmob">
+                        <div class="toppartmob-body">
+                          <div class="container">                                 
+                            <h1 class="title">{{.title }}</h1>
+                            <div class="content">{{.body | markdownify }}</div>  
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </a> 
+                  {{ end }}
+                </ul>
+              </div>
+              <div class="glide-dots">
+                {{ range .gallery }}
+                <span class="icon is-small">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="#111111" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="3.8" transform="matrix(1 0 0 -1 3.8 3.8001)" />
+                  </svg>
+                </span>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="thumbnails">
+        {{ range .gallerysides }}
+        <div class="cardbox">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "options" "jpg") }}
+          </figure>
+          <div class="container">       
+            <h1 class="title">{{.title }}</h1>
+            <div class="content">{{.body | markdownify }}</div>
+          </div>   
+        </div>   
+        {{ end }}                  
+      </div>
+    <div>
+  </div>
+</section>
+  {{ end }}
 
 {{ with .Params.testimonial_section }}
 {{ partial "common/testimonial-section" . }}
 {{ end }}
 
 {{ with .Params.stories }}
-<section class="section is-story">
-  <div class="container">
-    <div class="columns">
-      {{ range $idx, $it := last 2 . }}
-      <div class="column">
-        {{ partial "story-card" (merge $it (dict "target" "story" "index" (add $idx 3))) }}
+<section class="section customer-cards">
+  <div class="container" >
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          {{ range  $idx, $it := first 4 . }}
+          <li class="glide__slide">
+            <div class="column customer-card-column{{ with .name }} {{ $it.name }}{{ end }}">
+            {{ partial "customer-card" (merge $it (dict "target" "story" "index" $idx)) }}
+            </div>
+          </li>
+          {{ end }}
+        </ul>
       </div>
-      {{ end }}
+      <div class="glide-dots">
+        {{ range $idx, $it := first 4 . }}
+        <span class="icon is-small">
+          <svg width="8" height="8" viewBox="0 0 8 8" fill="#111111" xmlns="http://www.w3.org/2000/svg">
+            <circle r="3.8" transform="matrix(1 0 0 -1 3.8 3.8001)" />
+          </svg>
+        </span>
+        {{ end }}
+      </div>
+      <span class="icon is-large glide-nav is-left">
+        {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+      </span>
+  
+      <span class="icon is-large glide-nav is-right" data-go=">">
+        {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+      </span>
     </div>
   </div>
 </section>
 {{ end }}
 
-{{ with .Params.bottom_cta }}
-{{ partial "bottom-cta" . }}
-{{ end }}
-
 {{ with .Params.stories }}
-<div class="modal is-story" id="story">
+<div class="modal customer-card" id="story">
   <div class="modal-background" data-target="story"></div>
   <div class="modal-content">
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          {{ range . }}
+          {{ range $idx, $it := first 4 . }}
           <li class="glide__slide">
             {{ partial "story" . }}
           </li>
@@ -84,5 +200,65 @@
 </div>
 {{ end }}
 
+{{ with .Params.comments }}
+<section class="section customer-comments">
+  <div class="toppart-body">
+    <div class="container">       
+      <h1 class="title">{{.title }}</h1>
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="columns">
+    {{ with .left_column }}
+    <div class="column left-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}">
+        <div class="left-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ with .right_column }}
+    <div class="column right-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}">
+        <div class="right-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <div class="bottom"></div> 
+</section>
+{{ end }}
+
+{{ with .Params.hidepart }}
+<section class="hidepart">
+  <div class="hidepart-body">
+    <div class="container">       
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="picture">
+        {{ (resources.Get "img/customer/arrowdown.svg").Content | safeHTML }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+
 {{ partial "common/template-script" (dict "asset" "js/customer.js") }}
+{{ partial "common/template-script" (dict "asset" "js/cussetup.js") }}
 </main>{{ end }}

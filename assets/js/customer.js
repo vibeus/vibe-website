@@ -6,7 +6,7 @@ import { toggleActive } from '{{ $src.RelPermalink }}';
 let story;
 
 const toggleClass =
-  '.card, .modal.is-story, .modal.is-story .modal-close, .modal.is-story .modal-background';
+  '.card, .modal.customer-card, .modal.customer-card .modal-close, .modal.customer-card .modal-background';
 
 toggleActive(toggleClass, false, (isActive, el) => {
   let startAt = 0;
@@ -15,7 +15,7 @@ toggleActive(toggleClass, false, (isActive, el) => {
   }
 
   if (isActive) {
-    story = new Glide('.modal.is-story .glide', {
+    story = new Glide('.modal.customer-card .glide', {
       type: 'carousel',
       startAt,
     }).mount();
@@ -29,7 +29,7 @@ toggleActive(toggleClass, false, (isActive, el) => {
   }
 });
 
-document.querySelectorAll('.modal.is-story .is-glide-nav').forEach((el) => {
+document.querySelectorAll('.modal.customer-card .is-glide-nav').forEach((el) => {
   const go = el.dataset.go;
   el.addEventListener('click', () => {
     if (story) {
@@ -38,3 +38,54 @@ document.querySelectorAll('.modal.is-story .is-glide-nav').forEach((el) => {
     }
   });
 });
+
+function setupGallery() {
+  const el = document.querySelector('.product-gallery .glide');
+
+  const glide = new Glide(el, {
+    type: 'carousel',
+    breakpoints: {
+      900: {
+        autoplay: 5000
+      },
+    },
+    //autoplay: none,
+  });
+
+  const dots = Array.from(
+    el.parentElement.querySelectorAll('.glide-dots .icon')
+  );
+  dots.forEach((d, idx) => {
+    d.addEventListener('click', () => {
+      glide.go('=' + idx);
+    });
+  });
+
+  const updateDots = () => {
+    dots.forEach((x) => x.classList.remove('is-active'));
+    dots[glide.index].classList.add('is-active');
+  };
+
+  const thumbs = Array.from(
+    document.querySelectorAll('.column.is-gallery .thumbnails .cardbox')
+  );
+
+  thumbs.forEach((d, idx) => {
+    d.addEventListener('click', () => {
+      glide.go('=' + idx);
+    });
+  });
+
+  const updateThumbs = () => {
+    thumbs.forEach((x) => x.classList.remove('is-active'));
+    thumbs[glide.index].classList.add('is-active');
+  };
+
+  glide.on('run.after', updateThumbs);
+  glide.on('mount.after', updateThumbs);
+  glide.on('run.after', updateDots);
+  glide.on('mount.after', updateDots);
+  glide.mount();
+}
+
+setupGallery();

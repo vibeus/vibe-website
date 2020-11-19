@@ -4,61 +4,538 @@
 @import "_testimonial-section.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
-@import "_story-card.sass"
+@import "_customer-card.sass"
+@import "_customers.sass"
+@import "_video-column.sass"
+@import "_amazon.sass"
+@import "_twitter.sass"
+@import "_ins.sass"
 
+html,body
+  overflow-x: hidden
+
+.section
+  +vertical-padding(120px)
+
+main .hero
+  overflow: visible
 .hero
   position: relative
-  background-color: $vibe-yellow
+  background: #F4F4F4
+  z-index: 2
   .hero-body
-    +vertical-padding(120px)
+    +vertical-padding(120px,52px)
+  .picture
+    width: 633px
+    height: 571px
+    position: absolute
+    z-index: 5
+    right: -538px
+    top: -200px 
+    svg
+      max-height: 571
+      position: absolute
+      z-index: 5 
+      overflow: visible
+    +mobile
+      height: 450px
+      right: -300px
+    @media screen and (min-width: 700px) and (max-width: 1100px)
+      height: 500px
+      right: -350px
+    
   .container
-    max-width: 1100px
+    max-width: 890px
+    //height: 199px
+  .line
+    position: absolute
+    width: 104px
+    height: 16px
+    left: 764px
+    top: 39px
+    background: $vibe-yellow
   .title
-    font-size: 64px
-    +lang-override(".lang-zh")
-      font-size: 50px
+    text-align: center
+    font-size: 48px
+    weight: 500
+    +mobile
+      font-size: 32px
+    span::after
+      content: ""
+      display: inline-block
+      position: absolute
+      left: 0px
+      bottom: 3px
+      width: 100%
+      height: 30%
+      background-color: $vibe-yellow
+      z-index: -1
+    span
+      display: inline-block
+      position: relative 
+      z-index: 5
+    .title
+    max-width: 890px
+  .content
+    size: 18px
+    text-align: center
+
+.section.video
+  position: relative
+  max-height: 500px!important
+  padding-top: 0px
+  background-image: linear-gradient(180deg, #F4F4F4 33%, #FFFFFF 0, #FFFFFF 100px)
+  +mobile
+    max-height: 300px
+  .columns
+    margin: 0
+    padding: 0
+  .video-column
+    padding: 0
+  .container
+    max-width: 1000px
+    max-height: 542px
+    position: relative
+    z-index: 5
+    +mobile
+      padding-bottom: 0px
+      width: 100%
+      margin-top: 18px
+      margin: 0
+      .video-column
+        margin: 0
+        padding: 0
+    @media screen and (min-width: 700px) and (max-width: 900px)
+      margin: 0
+      padding: 0
+      width: 100%
+      padding-bottom: 0
+    .image     
+      position: relative
+      z-index: 5
+      top: 0px
+      width: 100%
+      height: 100%
+      max-width: none
+      +mobile
+        left: 0
+ 
+.section.is-trust
+  +vertical-padding(50px, 50px)
+ 
+.section.teams-collaborate
+  position: relative
+  background: #F4F4F4
+  .glide-dots
+    display: none
+    position: absolute
+    height: 20px
+    margin-top: 8px
+    bottom: -10px
+    left: calc(50% - 58.5px) 
+    text-align: center
+    .icon.is-small
+      cursor: pointer
+      opacity: 0.2
+      &.is-active
+        opacity: 1
+    @media screen and (max-width: 900px)
+      margin-bottom: -30px
+      display: block
+  .container
+    padding-top: 119px
+    max-width: 933px
+    +mobile
+      padding-top: 12px
+  .title
+    position: relative
+    text-align: center
+    font-size: 50px
     +mobile
       font-size: 32px
   .title
-    max-width: 680px
+    max-width: 933px
   .content
-    max-width: 634px
-    +lang-override(".lang-zh")
-      line-height: 2.1
-  .bg-logo
-    width: 963px
+    margin: auto
+    text-align: center
+    max-width: 808px
+  .glidecontainer
+    position: relative
+    top: 40px
+    margin: 0 auto
+    max-width: 1053px
+  .column.is-gallery
+    overflow: hidden
+    max-width: 1053px
+    padding: 0
+    display: flex
+    justify-content: center
+    background-color: #F4F4F4
+    flex-direction: row-reverse
+    +vertical-padding(0px,120px)
+    +mobile
+      display: block
+      align-items: center
+    .image
+      width: 747px
+      height: 429px
+      position: relative
+      @media screen and (max-width: 900px)
+        width: 100%
+        height: auto
+    .thumbnails
+      overflow: scroll
+      width: 306px
+      height: 429px
+      +tablet-only
+        width: 261px 
+      @media screen and (max-width: 900px)
+        display: none
+      .container
+        padding: 0
+        position: absolute
+        top: 0
+        left: 32px
+        width: 275px
+        height: 88px
+        background: #FFFFFF
+        opacity: 0.8
+        border-radius: 4px 0px 0px 4px
+        +tablet-only
+          width: 230px
+      .title
+        position: absolute
+        top: 19px
+        left: 45px
+        font-size: 14px
+        color: $vibe-gray
+      .content
+        position: absolute
+        top: 45px
+        left: 45px
+        padding: 0
+        font-family: Stratos
+        font-weight: 500
+        color: #000000
+      .image
+        z-index: 5
+        position: absolute
+        left: 8px
+        top: 14px
+        width: 60px
+        height: 60px
+        +tablet-only
+          width: 60px
+        +widescreen
+          width: 60px
+        +mobile
+          display: inline-block
+        &:not(:last-child)
+          +tablet
+            margin-bottom: 6px
+        img
+          border: 1px solid transparent
+          border-radius: 4px
+        &.is-active img
+          border-color: $vibe-yellow
+      .cardbox
+        position: relative
+        left: -8px
+        width: 298px
+        height: 96px
+        cursor: pointer
+        +tablet-only
+          width: 253px
+        &:last-of-type
+          height: 96px - 8px
+          padding-bottom: 0
+        &.is-active
+          position: relative
+          left: 0px
+          .content
+            color: $vibe-purple
+          .container
+            box-shadow: -10px 4px 60px rgba(0, 0, 0, 0.01)
+            border-radius: 4px
+  .product-gallery
+    width: calc(100% - 306px) 
+    @media screen and (max-width: 900px)
+      width: 100% 
+  .glide__slide
+    position: relative
+    @media screen and (max-width: 900px)
+      background-color: #FFFFFF
+  .cardboxmob
+    width: 100%
+    height: 61px
+    display: none
+    align-items: center
+    justify-content: space-between
+    padding: 0 20px
+    @media screen and (max-width: 900px)
+      display: flex
+    .author
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      height: 100%
+      width: 250px
+      .imagemob
+        width: 40px
+        height: 40px
+      .contentmob
+        margin-left: 12px
+        color: #000000!important
+        font-family: Stratos
+        font-weight: 500
+    .logo
+      padding: 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+  .blog-cover
+    height: 100%
+  .tip
+    width: 526px
+    height: 140px
+    background-color: #FFFFFF
     position: absolute
-    left: 50%
-    top: 75px
-    margin-left: -128px
+    right: 16px
+    bottom: 16px
+    @media screen and (max-width: 900px)
+      display: none
+    .title
+      position: absolute
+      left: 24px
+      top: 20px
+      width: 166px
+      height: 18px
+      font-size: 14px
+      font-weight: 500
+      color: $vibe-gray
+      line-height: 18px
+      text-align: left
+      margin-bottom: 8px
+    .content
+      position: absolute
+      left: 24px
+      top: 46px
+      width: 364px
+      height: 72px
+      font-size: 24px
+      font-weight: 500
+      color: #000000
+      line-height: 36px
+      text-align: left
+      font-family: Stratos
+      padding: 0
+    .picture
+      width: 17px
+      height: 22px
+      position: absolute
+      left: 493px
+      top: 102px
+    .logo
+      position: absolute
+      right: 24px
+      top: 15px
+  a:nth-child(5)
+    .tip
+      .content
+        width: 435px
+  a:nth-child(6)
+    .logo
+      display: none
+  li  
+    height: 100%
+    &.is-active
+    &:hover
+      .tip
+        right: 0px 
+    +mobile
+  .tipmob
+    position: relative
+    display: none
+    .container
+      padding: 0
+    .title
+      padding: 27px 27px 0
+      font-size: 12px
+      font-weight: 500
+      color: $vibe-gray
+      line-height: 18px
+      text-align: left
+      margin-bottom: 8px
+    .content
+      margin: 0
+      font-size: 16px
+      font-weight: 500
+      color: #000000
+      padding: 0 27px 20px 27px
+      line-height: 24px
+      text-align: left
+      font-family: Stratos
+    @media screen and (max-width: 900px)
+      display: block     
 
 .section.is-testimonial
-  background-color: $vibe-teal
+  background-color: $vibe-yellow
+  +mobile
+    padding-top: 45px!important
+    padding-bottom: 75px!important
+  .content
+    font-family: $vibe-family-heading
+    font-weight: 500
+    font-size: 50px
+    +tablet
+      font-size: 35px
+    +mobile
+      font-size: 20px
   .author
-    text-align: center
+    justify-content: flex-start
+    margin-top: 28.39px
+    .name
+      font-family: $vibe-family-heading
+      margin-left: 120px
+      +mobile
+        margin-left: 0px
+      p:first-child
+        font-weight: 500
 
-.section.is-story
-  +vertical-padding(120px)
+
+.section.customer-cards
+  padding-top: 120px - 30px
+  padding-bottom: 120px - 30px - 30px
+  +mobile
+    padding-top: 60px
+    padding-bottom: 60px
+    padding-left: calc(1.5rem - 10px)
+    padding-right: calc(1.5rem - 10px)
+  max-height: 684px
+  .glide__slides
+    +mobile
+      padding-bottom: 25px
+  .container
+    margin: auto
+    max-width: 1441px
+    padding-left: 50px
+    padding-right: 50px
+    overflow: hidden
+    max-height: 562px
+    +mobile
+      padding: 0
+  .glide__slide
+    +mobile
+      padding: 10px
   .columns
-    justify-content: center
+    position:relative 
+    padding: auto
+    margin: 0
     +mobile
       margin-left: 0
       margin-right: 0
   .column
     max-width: 400px
-    padding: 0
+    padding: 10px
+    padding-bottom: 30px
+    margin: auto
     +mobile
       margin-left: auto
       margin-right: auto
-  .card.is-story .logo .image
-    width: 96px
-    height: 30px
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05)
+      padding-bottom: 20px
+  .card.customer-card
+    width: 409px
+    +mobile
+      padding: 0
+  .card-content
+    position:absolute
+    +tablet
+      .container
+        height: 150px
+        position: static
+    +mobile
+      padding-left: 29px
+  .logo
+    position: absolute
+    width: 118px
+    height: 40px
+    right: 5%
+    bottom: 5%
+    background: #FFFFFF
+    border-radius: 4px
+    padding: 6px
+  .card.customer-card .logo .image
+    height: 100%
     img
-      width: 100%
       height: 100%
       object-fit: contain
-      object-position: left
-.modal.is-story
+      object-position: center
+  .card.customer-card.special
+    .logo
+      width: 62px
+  .customer-card-column.capgemini
+    .logo
+      padding: 9px 0 6px
+  .title
+    line-height: 30px
+    margin: 0
+    max-width: 348px
+    padding: 0
+    padding-bottom: 36px
+    +mobile
+      padding-bottom: 11px 
+      line-height: 24px
+  .content
+    padding-top: 16px
+    padding-bottom: 8px
+    margin: 0
+    font-family: Stratos
+    font-size: 14px
+    font-style: normal
+    font-weight: 500
+    line-height: 18px
+    color: $vibe-gray
+    letter-spacing: 0px
+    text-align: left
+  .cta
+    font-size: 14px
+    text-decoration-line: underline
+    +mobile
+      display: none
+  .icon.is-large
+    position: absolute
+    top: 37%
+    svg
+      cursor: pointer
+    +mobile
+      display: none
+  .is-large.glide-nav.is-left
+      left: -50px
+      transform: rotate(180deg)
+  .is-large.glide-nav.is-right
+      right: -50px
+  .glide__slide
+      width: 33%
+  .glide-dots
+    display: none
+    position: absolute
+    height: 20px
+    margin-top: 8px
+    bottom: 30px
+    left: calc(50% - 38px) 
+    text-align: center
+    .icon.is-small
+      cursor: pointer
+      opacity: 0.2
+      &.is-active
+        opacity: 1
+    +mobile
+      margin-bottom: -30px
+      display: block
+
+.modal.customer-card
   .modal-background
     background: rgba(136, 136, 136, 0.69)
     backdrop-filter: blur(10px)
@@ -155,15 +632,95 @@
     &.is-right
       right: 16px
 
-.hero
-  +mobile
-    +lang-override(".lang-zh")
-      .title
-        font-size: 40px
-        line-height: 44px
-      .content
-        font-size: 16px
-        line-height: 27px
+.section.is-testimonial
+  padding-top: 100px
+  padding-bottom: 100px
+
+.section.customer-comments
+  overflow: hidden
+  position: relative
+  background: #F4F4F4
+  .left-0
+    span
+      color: #6666CC
+  .container
+    max-width: 933px
+  .title
+    position: relative
+    text-align: center
+    font-size: 48px
+    weight: 500
+    +mobile
+      font-size: 32px
+  .title
+    max-width: 933px
+  .container .content
+    position: relative
+    margin: auto
+    padding-bottom: 30px
+    font-family: Fira Sans
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 144%
+    color: #000000
+    text-align: center
+    max-width: 634px 
+  .columns
+    margin: auto
+    max-width: 1050px
+    .column
+      margin: auto
+      .comment-card-wrapper:first-child .comment-card
+        margin-top: 0
+      .comment-card-wrapper:last-child .comment-card
+        margin-bottom: 0
+    +mobile 
+      display: flex
+      flex-direction: column-reverse
+      align-items: center
+      .is-hidden-mobile
+        +mobile
+          display: none
+    .column.left-0.twitter
+      margin: 0
+      +mobile
+        margin-top: -30px
+  .bottom
+    position: absolute
+    width: 100%
+    height: 159px
+    top: 1329px
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 0%, #F4F4F4 100%)
+    display: none
+
+.hidepart
+  display: none
+  overflow: hidden
+  position: relative
+  background: #F4F4F4
+  height: 217px
+  .container
+    max-width: 933px
+  .content
+    position: relative
+    margin: auto
+    padding-top: 86px
+    font-family: Fira Sans
+    font-style: normal
+    font-weight: 500
+    font-size: 18px
+    line-height: 144%
+    color: #000000
+    text-align: center
+    max-width: 634px
+  .picture
+    text-align: center
+    height: 31px
+  .picture svg
+    position: relative
+    top: 6.5px
+
 .modal
   +mobile
   +lang-override(".lang-zh")
@@ -173,42 +730,10 @@
         margin-bottom: 30px
     .content,.author
       font-size: 14px
-.section
-  +mobile
-    +lang-override(".lang-zh")
-      .container
-        .title
-          font-size: 30px
-        .title.is-subtitle
-          font-size: 22px
-          line-height: 33px
-          margin-bottom: 20px
-        .content,.author
-          font-size: 14px
-          p
-            margin: 0
-        .column
-          margin-top: 20px
-          .title
-            margin-bottom: 0
-            font-size: 22px
-          .cta
-            bottom: 10px 
-          padding-top: 0
-          .item-title
-            font-size: 22px
-            margin: 0
-        .columns
-          margin-bottom: 0
-          margin-top: 20px
-      &.is-feature .container .subtitle
-        font-size: 30px
-      .video-launcher
-        margin-top: 30px
-      .image.video-launcher .preview  
-        .content.is-footnote
-          margin-top: 16px 
-          font-size: 12px 
-          margin-bottom: 36px
-      .cta
-        font-size: 14px
+
+.thumbnails::-webkit-scrollbar
+  display: none
+  width: 0
+  -ms-overflow-style: none
+  scrollbar-width
+    display: none
