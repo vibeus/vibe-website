@@ -15,17 +15,19 @@ main .hero
   overflow: visible
 .hero
   position: relative
-  background: #F4F4F4;
+  background: #F4F4F4
   z-index: 2
   .hero-body
     +vertical-padding(120px,52px)
   .picture
     width: 633px
+    height: 571px
     position: absolute
     z-index: 5
     right: -263px
     top: -80px 
     svg
+      max-height: 571
       position: absolute
       z-index: 5 
       overflow: visible
@@ -69,7 +71,7 @@ main .hero
   position: relative
   max-height: 600px!important
   padding-top: 0px
-  background-image: linear-gradient(180deg, #F4F4F4 141px, #FFFFFF 0, #FFFFFF 100px)
+  background-image: linear-gradient(180deg, #F4F4F4 168px, #FFFFFF 0, #FFFFFF 100px)
   +mobile
     max-height: 300px
   .container
@@ -107,7 +109,7 @@ main .hero
  
 .teams-collaborate
   position: relative
-  background: #F4F4F4;
+  background: #F4F4F4
   .glide-dots
     display: none
     position: absolute
@@ -628,12 +630,12 @@ main .hero
     position: relative
     margin: auto
     padding-bottom: 30px
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 144%;
-    color: #000000;
+    font-family: Fira Sans
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 144%
+    color: #000000
     text-align: center
     max-width: 634px 
   .columns
@@ -696,8 +698,10 @@ main .hero
     +vertical-padding(120px)
   .picture
     position: absolute
-    right: 0px
+    right: -286px
     top: 67px 
+    width: 528px
+    height: 477px
   .container
     max-width: 893px
   .title

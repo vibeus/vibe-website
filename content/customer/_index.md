@@ -24,72 +24,72 @@ collaborate:
   title: Teams collaborate better with Vibe
   body: From the classroom to the boardroom, customers are making their mark with Vibe. See how people just like you are using Vibe digital whiteboard to connect, present, engage, and share. 
   gallery:
-    - figure: img/customer/Davidge1.png
+    - figure: img/customer/collaborate-Davidge1.png
       title: Blog   |   How I Vibe
       body: Engaging Your Audience With Using the Vibe Board.
-      logo: img/customer/tip1.png
+      logo: img/customer/collaborate-logo1.png
       url: https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/
-      avatar: img/customer/Avatar1.png
+      avatar: img/customer/collaborate-Avatar1.png
       work: Education
       name: Dr. Henry Silverman
-    - figure: img/customer/Davidge2.png
+    - figure: img/customer/collaborate-Davidge2.png
       title: Blog   |   How I Vibe
       body: You need tools that will keep pace with your ideas.   
-      logo: img/customer/tip2.png
+      logo: img/customer/collaborate-logo2.png
       url: https://vibe.us/blog/how-i-vibe-adam-elbendary/
-      avatar: img/customer/Avatar2.png
+      avatar: img/customer/collaborate-Avatar2.png
       work: Marketing Agency
       name: Adam Elbendary 
-    - figure: img/customer/Davidge3.png
+    - figure: img/customer/collaborate-Davidge3.png
       title: Blog   |   How I Vibe
       body: New Technology in a Changing Academic Climate.    
-      logo: img/customer/tip3.png
+      logo: img/customer/collaborate-logo3.png
       url: https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/
-      avatar: img/customer/Avatar3.png
+      avatar: img/customer/collaborate-Avatar3.png
       work: Education
       name: Arek Puzia  
-    - figure: img/customer/Davidge4.png
+    - figure: img/customer/collaborate-Davidge4.png
       title: Blog   |   How I Vibe
       body: To having remote team members is the total flexibility it offers our entire team.
-      logo: img/customer/tip4.png
+      logo: img/customer/collaborate-logo4.png
       url: https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/
-      avatar: img/customer/Avatar4.png
+      avatar: img/customer/collaborate-Avatar4.png
       work: Consulting
       name: Peter Parker
-    - figure: img/customer/Davidge5.png
+    - figure: img/customer/collaborate-Davidge5.png
       title: Blog   |   How I Vibe
       body: The integration to apps was open and go.
-      logo: img/customer/tip1.png  
+      logo: img/customer/collaborate-logo1.png  
       url: https://vibe.us/blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/
-      avatar: img/customer/Avatar5.png
+      avatar: img/customer/collaborate-Avatar5.png
       work: Home Schooling
       name: Robyn C.
-    - figure: img/customer/Davidge6.png
+    - figure: img/customer/collaborate-Davidge6.png
       title: Blog   |   How I Vibe
       body: Leading Large Meetings and Group Collaborations.
-      logo: img/customer/tip6.png
+      logo: img/customer/collaborate-logo6.png
       url: https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/
-      avatar: img/customer/Avatar6.png
+      avatar: img/customer/collaborate-Avatar6.png
       work: Business Coaching
       name: Mark Smith
 
   gallerysides:
-    - figure: img/customer/Avatar1.png
+    - figure: img/customer/collaborate-Avatar1.png
       title: Education
       body: Dr. Henry Silverman
-    - figure: img/customer/Avatar2.png
+    - figure: img/customer/collaborate-Avatar2.png
       title: Marketing Agency
       body: Adam Elbendary    
-    - figure: img/customer/Avatar3.png
+    - figure: img/customer/collaborate-Avatar3.png
       title: Education
       body: Arek Puzia    
-    - figure: img/customer/Avatar4.png
+    - figure: img/customer/collaborate-Avatar4.png
       title: Consulting
       body: Peter Parker
-    - figure: img/customer/Avatar5.png
+    - figure: img/customer/collaborate-Avatar5.png
       title: Home Schooling
       body: Robyn C.
-    - figure: img/customer/Avatar6.png
+    - figure: img/customer/collaborate-Avatar6.png
       title: Business Coaching
       body: Mark Smith
 
@@ -211,32 +211,32 @@ comment:
     email2: ' @eunique and @thevibeboard'
     content: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
     date: Sep 8, 2020      
-    mask: img/customer/mask1.png
+    mask: img/customer/twitter-avatar1.png
     url: https://twitter.com/GodisRivera/status/1303487364006899712?s=20
   ins1:
     name: kennyt71
     content: “..David Shing opening up like never before, he’s excited to share with you tactical marketing practices that will transform your marketing skills and mindset.” - @kennyt71 from Forbes School-Knowledge Innovation Center.
     date: xxxx 2020 
-    mask: img/customer/mask3.png
-    cover: img/customer/cover1.png
+    mask: img/customer/ins-avatar1.png
+    cover: img/customer/ins-cover1.png
     url: https://www.instagram.com/p/CFsU3OFg0nd/?utm_source=ig_web_copy_link
   ins2:
     name: the.vibe.board
     content: ....And I can’t forget to mention their customer care, you’ll be shocked at how great their support is!
     date: Sep 29, 2020
-    mask: img/customer/mask2.png
+    mask: img/customer/ins-avatar2.png
     url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
   amazon1:
     name: Best digital whiteboard I've used
     subtitle: By Bgood on Jan 18, 2020
     content: ...brilliant screen, is the interface that allows for easily adding popular tools like Miro or Jira- tools a creative director or product manager needs to work with multiple teams...
     date: xxxx 2020
-    cover: img/customer/cover2.png
+    cover: img/customer/amazon-cover1.png
     url: https://www.amazon.com/gp/customer-reviews/R24TBM6GLRVDRL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B081LPL772
   ins3: 
     name: nazarethacademygradeschool
     content: ...offer in our classrooms for in-person & remote learning. We are installing 14 boards this week!
-    mask: img/customer/mask4.png
+    mask: img/customer/ins-avatar3.png
     date: xxxx 2020
     url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
   

@@ -7,7 +7,7 @@
 {{ with .Params.hero }}
 <section class="hero">
   <div class="picture">
-    {{ (resources.Get "img/shared/Vector.svg").Content | safeHTML }}
+    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
   </div>
   <div class="hero-body">
     <div class="container">      
@@ -258,7 +258,7 @@
     <div class="container">       
       <div class="content">{{.body | markdownify }}</div>
       <div class="picture">
-        {{ (resources.Get "img/shared/Rectangle 390.svg").Content | safeHTML }}
+        {{ (resources.Get "img/customer/arrowdown.svg").Content | safeHTML }}
       </div>
     </div>
   </div>
@@ -268,7 +268,7 @@
 {{ with .Params.demo }}
 <section class="demo">
   <div class="picture">
-    {{ (resources.Get "img/shared/Vector 2.svg").Content | safeHTML }}
+    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
   </div>
   <div class="demopart-body">
     <div class="container"

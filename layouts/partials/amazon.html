@@ -1,9 +1,9 @@
 <div class="amazon">
   <div class="stars">
-    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/stars.png") "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/amazon-stars.png") "options" "png")}}
   </div>
   <div class="logo">
-    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/logo3.png") "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/amazon-logo.png") "options" "png")}}
   </div>
   <h1 class="name">{{.name }}</h1>
   <div class="subtitle">
@@ -14,7 +14,7 @@
   </div>
   {{if .cover}}
   <div class="cover">
-    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "png")}}
   </div>
   {{end}}
     <div class="content">{{.content | markdownify }}</div>

@@ -1,17 +1,17 @@
 <div class="twitter">
   <div class="picture">
-    {{partial "common/srcset" (dict "resource" (resources.Get .mask) "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get .mask) "options" "png")}}
   </div>
   <h1 class="name">{{.name }}</h1>
   <div class="logo">
-    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/logo1.png") "desktop" "160x" "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get "img/customer/twitter-logo.png") "desktop" "160x" "options" "png")}}
   </div>
   <div class="line">
     {{ (resources.Get "img/customer/line.svg").Content | safeHTML }}
   </div>
   {{if .cover}}
   <div class="cover">
-    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "jpg #FFFFFF")}}
+    {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "png")}}
   </div>
   {{end}}
    <div class="email">{{.email1 | markdownify }}<span>{{.email2 }}</span></div>
