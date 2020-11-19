@@ -6,16 +6,16 @@
 
 {{ with .Params.hero }}
 <section class="hero">
-  <div class="picture">
-    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
-  </div>
   <div class="hero-body">
     <div class="container">      
       <h1 class="title">{{.title }}
         <span>{{.title1 }}</span>
         {{.title2 }}
       </h1>
-      <div class="content">{{.body | markdownify }}</div>  
+      <div class="content">{{.body | markdownify }}</div> 
+      <div class="picture">
+        {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+      </div> 
     </div>
   </div>
 </section>
@@ -25,7 +25,9 @@
 <section class="section video">
   <div class="container"> 
     <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
+      <div class="columns">
       {{ partial "video-column" . }}
+      </div> 
     </div>
   </div>
 </section>
@@ -265,24 +267,10 @@
 </section>
 {{ end }}
 
-{{ with .Params.demo }}
-<section class="demo">
-  <div class="picture">
-    {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
-  </div>
-  <div class="demopart-body">
-    <div class="container"
-    >       
-      <h1 class="title">{{.title }}</h1>
-      <a class="content"
-      href="{{ (default "/demo/" .url) | relLangURL }}"
-      {{ with .target }}target="{{ . }}"{{ end }}
-      >
-      {{.body | markdownify }}</a>
-    </div>
-  </div>
-</section>
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
 {{ end }}
+
 
 {{ partial "common/template-script" (dict "asset" "js/customer.js") }}
 {{ partial "common/template-script" (dict "asset" "js/cussetup.js") }}

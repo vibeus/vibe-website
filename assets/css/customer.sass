@@ -11,6 +11,9 @@
 @import "_twitter.sass"
 @import "_ins.sass"
 
+html,body
+  overflow-x: hidden
+
 main .hero
   overflow: visible
 .hero
@@ -24,13 +27,20 @@ main .hero
     height: 571px
     position: absolute
     z-index: 5
-    right: -263px
-    top: -80px 
+    right: -538px
+    top: -200px 
     svg
       max-height: 571
       position: absolute
       z-index: 5 
       overflow: visible
+    +mobile
+      height: 450px
+      right: -300px
+    @media screen and (min-width: 700px) and (max-width: 1100px)
+      height: 500px
+      right: -350px
+    
   .container
     max-width: 890px
     //height: 199px
@@ -71,11 +81,17 @@ main .hero
   position: relative
   max-height: 600px!important
   padding-top: 0px
-  background-image: linear-gradient(180deg, #F4F4F4 168px, #FFFFFF 0, #FFFFFF 100px)
+  background-image: linear-gradient(180deg, #F4F4F4 33%, #FFFFFF 0, #FFFFFF 100px)
   +mobile
     max-height: 300px
+  .columns
+    margin: 0
+    padding: 0
+  .video-column
+    padding: 0
   .container
     max-width: 1000px
+    max-height: 542px
     position: relative
     z-index: 5    
     +mobile
@@ -95,9 +111,9 @@ main .hero
       position: relative
       z-index: 5
       top: 0px
-      left: 15px
-      max-width: 934px
-      max-height: 525px
+      width: 100%
+      height: 100%
+      max-width: none
       +mobile
         left: 0
  
@@ -416,7 +432,6 @@ main .hero
       padding-bottom: 20px
   .card.customer-card
     width: 409px
-    //height: 442px
     +mobile
       padding: 0
   .card-content
@@ -674,12 +689,12 @@ main .hero
     position: relative
     margin: auto
     padding-top: 86px
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 144%;
-    color: #000000;
+    font-family: Fira Sans
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 144%
+    color: #000000
     text-align: center
     max-width: 634px
   .picture
@@ -687,47 +702,7 @@ main .hero
     height: 31px
   .picture svg
     position: relative
-    top: 6.5px 
-    
-.demo
-  overflow: hidden
-  position: relative
-  background: #66CCCC;
-  height: 405px
-  .demopart-body
-    +vertical-padding(120px)
-  .picture
-    position: absolute
-    right: -286px
-    top: 67px 
-    width: 528px
-    height: 477px
-  .container
-    max-width: 893px
-  .title
-    position: relative
-    text-align: center
-    font-size: 50px
-    weight: 600
-    max-width: 890px    
-    height: 70px
-    margin-bottom: 28px
-    +mobile
-      font-size: 32px    
-  .content
-    font-family: Stratos;
-    display: block
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 67px;
-    color:#FFFFFF
-    margin: auto
-    text-align: center
-    max-width: 243px    
-    height: 67px
-    background: #111111;
-    border-radius: 50px;
+    top: 6.5px     
 
 .modal
   +mobile

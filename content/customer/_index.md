@@ -243,8 +243,9 @@ comment:
 hidepart: 
   body: See more @thevibeboard
 
-demo:
+bottom_cta:
   title: Try Vibe with your team
-  body: Request a Demo
-
+  cta:
+    title: Request a Demo
+    url: /demo/
 ---
