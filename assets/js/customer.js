@@ -44,6 +44,11 @@ function setupGallery() {
 
   const glide = new Glide(el, {
     type: 'carousel',
+    breakpoints: {
+      900: {
+        autoplay: 5000
+      },
+    },
     //autoplay: none,
   });
 
