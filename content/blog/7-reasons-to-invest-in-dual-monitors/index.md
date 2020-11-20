@@ -9,8 +9,7 @@ isfeatured: false
 summary: How can dual monitors help you work more efficiently? We’ll show you our top 7 reasons to invest in a dual monitor setup!
 description: How can dual monitors help you work more efficiently? We’ll show you our top 7 reasons to invest in a dual monitor setup!
 ---
-# 7 Reasons To Invest in Dual Monitors
-{{< common/srcset "image-0.jpg" "A woman utilizing dual monitors at work" >}}
+
 
 ## Remote Working at Home
 

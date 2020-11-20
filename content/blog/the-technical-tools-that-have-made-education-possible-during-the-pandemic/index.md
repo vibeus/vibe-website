@@ -2,7 +2,7 @@
 title: "The Technical Tools That Have Made Education Possible During the Pandemic"
 slug: the-technical-tools-that-have-made-education-possible-during-the-pandemic
 author: Vibe Team
-date: 2019-11-20
+date: 2020-11-20
 tags: ["distance learning"]
 draft: false
 description: Is a good education still obtainable during the pandemic? Check out the technical tools that make it possible!
