@@ -6,6 +6,7 @@ date: 2020-03-16
 tags: ["clients presentations", "presenting", "powerpoint", "partnership" ]
 draft: false
 isfeatured: false
+description: Design client presentations that impress with an interactive whiteboard session.
 ---
 
 
@@ -67,6 +68,8 @@ If you’re pitching to a finance company, be sure to feature easy-to-read chart
 With a data-driven client, recent studies and news items could be especially helpful in enhancing your presentation. Support your claims with evidence and list your resources. You could even create a sample workflow chart to demonstrate how you typically complete a project.
  
 To keep things interesting, consider ways to make the presentation more interactive. Go beyond a standard Q&A by integrating important websites, documents, and other components to your pitch. A digital whiteboard with app integration makes this easy to do. (Vibe even lets you make notes directly on the presentation with the easy-to-use stylus.) Microsoft Powerpoint, Google Drive, and Asana could add a lot of interest here.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*3rd Party App Integrations for the Vibe board*](https://vibe.us/android-app-store/)
  
 If the prospective client is in the creative field, you have different design options to consider. Bolder colors (one or two is fine; we’re still keeping it professional) and image-based messaging can show that you understand the work they do. A short video component is an excellent choice as well. Even a brief video conveys motion and energy, and an energetic presentation keeps people engaged. Use apps like YouTube, Canvas, and Adobe to put together a well-rounded creative presentation.
  
@@ -79,6 +82,8 @@ If the prospective client is in the creative field, you have different design op
 Design is a key component of a great presentation, but how you frame the pitch matters, too. It’s expected that a business owner would be protective of their processes and they way they’ve always conducted business. Your goal, then, is not only to demonstrate your knowledge of the client, but how you can help them.
  
 It would be easy to simply state what your company does and expect the client to follow along. But instead of letting them draw their own conclusion, illustrate how you can add value to their business. People tend to resist change, so it’s important to offer more than one solution. This gives clients the chance to make a choice and feel like their voice is being heard.
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboarding 101: An Intro for Marketers, Designers, and Innovators*](https://vibe.us/blog/whiteboarding-101-an-introduction-for-marketers-designers-and-innovators/)
  
 In his article on persuasion, [Joe Hirsch notes](https://www.inc.com/joe-hirsch/want-to-become-more-persuasive-try-these-3-strategies-to-win-people-over.html?cid=sf01001), “It’s much easier to get others to shift their positions when they feel in charge of making their own moves.” A collaborative presentation can go a long way in creating a sense of partnership early on.
  
@@ -90,3 +95,11 @@ And give their team the opportunity to ask questions, either throughout the pitc
 
  
 It would be easy to throw a couple of slides together and give a standard sales pitch to every prospective client out there. But going a few extra steps to customize your pitch shows a willingness to take initiative and make things happen.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

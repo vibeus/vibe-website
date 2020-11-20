@@ -34,7 +34,7 @@ It's important to keep documents, especially as your business turns into somethi
 
 
 ## You can make presentations for clients. 
-{{< common/srcset "image-1.png" "" >}}
+{{< common/srcset "image-1.png" "man presenting to a client via videoconferencing" >}}
 
 
 If your business requires you to pitch to different clients, a digital whiteboard is a fantastic way to make an impression. It's also easier than ever to put a visually stunning presentation together that'll wow the crowd. It's a step above a PowerPoint, and much easier to control on your own. If you own your own board, you can even practice your presentation the day before, just to guarantee that it's flawless.
@@ -56,7 +56,7 @@ Maybe you have the basic ideas down, but want your team to expand on them. Wheth
 
 
 ## It's also a good way to connect them to workflow apps. 
-{{< common/srcset "image-2.png" "" >}}
+{{< common/srcset "image-2.png" "project management workflow apps" >}}
 
 
 Workflow apps can save your business both time and money. If your business consists of many small projects, it's imperative that your fellow employees are all organized and on the same page. Consider your digital whiteboard to be the hub to get them on track. It's also a good way to assign your employees a daily to-do list that you can easily check on.
@@ -70,3 +70,12 @@ If your business is starting to expand, you can check out available rental space
 ## It can serve as a motivational board. 
 
 Sometimes, you can be your own worst enemy when it comes to starting something new. Even if you have a great idea for a business, it can be hard to find the motivation to make it as successful as you want. Or, perhaps you're ready to start, but know you won't be able to grow for a year or two. Set up a canvas and sketch out motivational photos and quotes that you can look at whenever you need inspiration. Images can be easily copied and pasted onto your board, so assembly is fairly simple.  Let your board remind you that you have the skill to make your idea really come to life. 
+
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

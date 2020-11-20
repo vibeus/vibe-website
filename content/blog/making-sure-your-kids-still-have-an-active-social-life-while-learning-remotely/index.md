@@ -6,7 +6,8 @@ date: 2020-09-21
 tags: ["entertainment", "whiteboards", "digital"]
 draft: false
 isfeatured: false
-summary: Vibe boards are a great way to make sure that your children can keep socializing while learning remotely.
+summary: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.
+description: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.
 ---
 
 
@@ -14,7 +15,8 @@ summary: Vibe boards are a great way to make sure that your children can keep so
 A few days ago, my 3-year-old said the most heartbreaking thing to me. "I want to play with kids my size." Based on trying to stay as safe as possible, she hasn't had any opportunity to see friends since everything went down in March. The closest she's come is an older cousin, who's great, but not her "size."
  
 I know that my situation could be a lot worse. Older kids with an established social life (but who might not be too tech-savvy just yet) are likely feeling the pressure, especially if their district has opted for distance learning for the remainder of the year. But, there are still good ways for kids to have new experiences and be social while staying safe.
- 
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Hannah Brown, Kindergarten Teacher*](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
 
 ## Write letters. 
 
@@ -46,7 +48,8 @@ It may seem like you don't have too much time in your schedule, but it's importa
 ## Plan a virtual field trip. 
 
 Plenty of museums have created free digital tours for kids staying at home. [Level up the experience by playing one on a Vibe board.](https://vibe.us/lp/scenario-distance-learning/) Not only will it seem more like the real deal for your child, but you can easily share the tour on Zoom.  Gather some of their friends together virtually and be their tour guide. Treat it like an everyday field trip, and let the kids talks and discuss this exhibits. That, or they can each schedule times to check out the live cameras on the museum webpage. "Students can tune in at the same time, then call or text each other about what they see," [](https://www.nationalgeographic.com/family/in-the-news/coronavirus/kids-social-during-distancing/)[National Geographic](https://www.nationalgeographic.com/family/in-the-news/coronavirus/kids-social-during-distancing/) suggests.
- 
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 ## Get them outside. 
 
@@ -56,3 +59,11 @@ Make the most of outside times when it's still fairly nice and not too chilly. Y
 ## Keep track of what the other parents are doing. 
 
 It's important to always stick by your intuition during times like these, but in order to make sure your kid is staying social, you may want to log in and join some local parenting groups on Facebook. That way, you can easily get a good idea of what other parents are doing and thinking. Sometimes, small and safe playgroups may also form during these chats. And, who knows? You might end up meeting someone new and making a new friend yourself. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

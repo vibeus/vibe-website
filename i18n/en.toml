@@ -22,6 +22,9 @@ other = "Already using Vibe?"
 [i18n-content-_index-hero-subcta-i_1-link-text]
 other = "Open your boards →"
 
+[i18n-content-_index-as_seen_in-title]
+other = "As seen in"
+
 [i18n-content-_index-what_is_vibe-title]
 other = "What is Vibe?"
 
@@ -121,7 +124,7 @@ other = "Trusted across the world"
 [i18n-content-_index-trust-testimonials-i_0-author-name]
 other = """Shelly Starks
 
-Associate Partner at Sandler Training, Greater Tampa, FL"""
+Associate Partner at RC Howard & Associates, LLC., a certified Sandler Training Center"""
 
 [i18n-content-_index-trust-testimonials-i_0-body]
 other = """The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
@@ -285,6 +288,9 @@ other = "Phone Number"
 other = "Company Name"
 
 [i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder]
+other = "Which best describes your interest in Vibe?"
+
+[i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder]
 other = "Anything else we should know?"
 
 [i18n-content-demo-_index-demo-form-buttons-i_0-title]
@@ -437,10 +443,22 @@ to conduct throughout the day... The Customer Service is Awesome too, which surp
 me as they are the new kid on the block so to speak! 5 stars and a High Five for VIBE guys!
 """
 
+[i18n-content-order-_index-reviews-items-i_5-body]
+other = """**Amazing Product that outshines all the rest, even the major brands!**
+
+This product sounds great, and it actually is great in practice. It has features that can't
+compare to any of the other options out there. What makes this solution superior is the software
+behind the scenes. Always getting updates too for more and more improvements! A definite recommend
+for home office or business!
+"""
+
 [i18n-content-order-_index-bottom_cta-title]
 other = "Still have questions?"
 
-[i18n-content-order-_index-bottom_cta-cta-title]
+[i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title]
+other = "Need a Quote"
+
+[i18n-content-order-_index-bottom_cta-cta-buttons-i_1-title]
 other = "Contact us"
 
 [i18n-content-career-_index-title]
@@ -652,7 +670,7 @@ other = "Photo Gallery"
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name]
 other = """Shelly Starks
 
-Associate Partner at Sandler Training, Greater Tampa, FL"""
+Associate Partner at RC Howard & Associates, LLC., a certified Sandler Training Center"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body]
 other = """The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
@@ -932,7 +950,7 @@ other = "3 mm Tempered Glass"
 other = "Refresh Rate"
 
 [i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_3-value]
-other = "150 Hz"
+other = "60 Hz"
 
 [i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_4-name]
 other = "Minimum Touch Object"
@@ -1522,7 +1540,7 @@ other = "Learn more →"
 [i18n-content-software-_index-testimonial_section-testimonials-i_0-author-name]
 other = """Shelly Starks
 
-Associate Partner at Sandler Training, Greater Tampa, FL"""
+Associate Partner at RC Howard & Associates, LLC., a certified Sandler Training Center"""
 
 [i18n-content-software-_index-testimonial_section-testimonials-i_0-body]
 other = """The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
@@ -2305,7 +2323,7 @@ white-board!"""
 [i18n-content-customer-_index-stories-i_2-testimonials-i_0-author-name]
 other = """Shelly Starks
 
-Associate Partner at Sandler Training, Greater Tampa, FL"""
+Associate Partner at RC Howard & Associates, LLC., a certified Sandler Training Center"""
 
 [i18n-content-customer-_index-stories-i_2-testimonials-i_1-body]
 other = """We selected Vibe for use in our public training center with individuals, small companies and

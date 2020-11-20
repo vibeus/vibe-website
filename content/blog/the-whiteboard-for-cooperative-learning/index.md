@@ -4,6 +4,7 @@ slug: the-whiteboard-for-cooperative-learning
 author: Vibe Team
 date: 2020-05-11
 tags: ["interactive whiteboard", "the whiteboard", "cooperative learning"]
+description: Technology in the classroom aids students in learning. Our interactive whiteboards can be used by teachers in the classroom to express ideas and concepts to students. These smart boards are well-suited for STEM classrooms that exist to engage and challenge students in learning.
 draft: false
 ---
 

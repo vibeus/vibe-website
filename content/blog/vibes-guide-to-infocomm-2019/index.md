@@ -6,6 +6,8 @@ date: 2019-06-11
 isfeatured: false
 tags: ["Infocomm"]
 draft: false
+summary: Have you been wondering about InfoComm 2019? We can tell you all about the largest audio-visual and integrated experience event.
+description: Have you been wondering about InfoComm 2019? We can tell you all about the largest audio-visual and integrated experience event.
 blogHeroMask: 0
 ---
 
@@ -77,3 +79,12 @@ Millions flock to Orlando every year for a reason. Orlando is one of the country
 So, in short, we’re excited for InfoComm. Are you?
 
 Keep up with us at InfoComm 2019 by following Vibe on [Twitter](https://twitter.com/thevibeboard).
+
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
