@@ -62,7 +62,7 @@
               <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                   {{ range .gallery }}
-                  <a href={{.url}}>
+                  <a href={{.url}} target="_blank">
                     <li class="glide__slide">  
                       <div class="cardboxmob">
                         <div class="author">
@@ -218,7 +218,7 @@
     <div class="column left-column{{ with .class }} {{ . }}{{ end }}">
       {{ range $idx, $it := .items }}
       {{ with $it }}
-      <a class="comment-card-wrapper" href="{{ .url }}">
+      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
         <div class="left-{{ $idx }}">
           {{ partial (print "comment-card-" .type) . }}
         </div>
@@ -231,7 +231,7 @@
     <div class="column right-column{{ with .class }} {{ . }}{{ end }}">
       {{ range $idx, $it := .items }}
       {{ with $it }}
-      <a class="comment-card-wrapper" href="{{ .url }}">
+      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
         <div class="right-{{ $idx }}">
           {{ partial (print "comment-card-" .type) . }}
         </div>
