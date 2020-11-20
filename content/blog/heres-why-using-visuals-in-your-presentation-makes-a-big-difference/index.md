@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-03-12
 tags: ["remote work", "presentation", "collaborate", "meetings"]
 draft: false
+description: Visual presentation styles enourage active audience engagement
 ---
 
 
@@ -32,6 +33,8 @@ Words are easy to cut and paste — especially for a small in-house presentation
 
 There's a reason why emojis are so popular. They're an easy way to get a feeling across, and people around the world are able to identify a smile or frown. It's also great to use images instead of just text for new team members who aren't all that familiar with the company's jargon and mission. When you've been with a business for a long time, certain lingo becomes second nature. For a newcomer, it may be a little overwhelming. Pictures, however, are perfect. 
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+
 
 ## Visuals can also show that you have a sense of humor. 
 
@@ -44,6 +47,13 @@ Visuals set the tone. So if you want your creative project to be fun and lighthe
 
 ## Visuals can also help coworkers bond. 
 
-True story. Years ago, I helped make an organizational spreadsheet for one of the commercial salespeople in my office. I spiced it up with funny photos. In return, the salesperson added photos and memes of his own. It was a document that both of us actually made a point to look at, since we found a fun way to collaborate while also sharing important information. Years later, I still remember that spreadsheet. And I've forgotten the other ones I happened to make during my years at the office. You can get to know your team better with fun images. They might even spark up a conversation that you never would have had otherwise. As long as something isn't racy or inappropriate, they're wonderful ways to add more pizzaz to anything. Companies like Vibe who offer an interactive whiteboarding experience definitely know how one cute dog photo can uplift anyone's spirits. 
+True story. Years ago, I helped make an organizational spreadsheet for one of the commercial salespeople in my office. I spiced it up with funny photos. In return, the salesperson added photos and memes of his own. It was a document that both of us actually made a point to look at, since we found a fun way to collaborate while also sharing important information. Years later, I still remember that spreadsheet. And I've forgotten the other ones I happened to make during my years at the office. You can get to know your team better with fun images. They might even spark up a conversation that you never would have had otherwise. As long as something isn't racy or inappropriate, they're wonderful ways to add more pizzazz to anything. Companies like Vibe who offer an interactive whiteboarding experience definitely know how one cute dog photo can uplift anyone's spirits. 
 
 Looking for a great way to connect your employees and create a presentation that sticks out from the rest? Add visual images. Give it a shot and see if it makes your coworkers pay more attention. Who knows? Perhaps an employee who normally stays quiet will open up since they'll be able to process the information better than before. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

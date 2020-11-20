@@ -9,7 +9,7 @@
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
-{{ define "nav" }}
+{{/*  {{ define "nav" }}
 <div class="before-nav">
   <p class="cta">
   <a href="/demo/work-from-home/">
@@ -25,7 +25,7 @@
   </p>
 </div> -->
 {{ partial "common/nav" . }}
-{{ end }}
+{{ end }}  */}}
 
 {{ define "main" }}<main class="home">
 
@@ -67,6 +67,10 @@
     </div>
   </div>
 </section>
+{{ end }}
+
+{{ with .Params.as_seen_in }}
+{{ partial "common/as-seen-in-section" . }}
 {{ end }}
 
 {{ with .Params.what_is_vibe }}

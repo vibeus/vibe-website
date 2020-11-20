@@ -24,7 +24,6 @@ hero:
 testimonial_section:
   testimonials:
     - author:
-        logo: img/common/testimonials/sandler.png
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body
     - author:

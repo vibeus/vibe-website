@@ -1,5 +1,6 @@
 /*
 {{ $cartIcon := resources.Get "img/order/cart.svg" | resources.Minify }}
+{{ $promoCode := default "" .promoCode }}
 {{ $products := slice }}
 {{ range .products }}
 {{ $src := resources.Get .item.figure | resources.Fingerprint }}
@@ -10,7 +11,7 @@
 {{ $plusIconSrc := resources.Get "mdi/svg/plus.svg" | resources.Minify }}
 {{ $minusIconSrc := resources.Get "mdi/svg/minus.svg" | resources.Minify }}
 */
-import { toggleActive } from '{{ $js.RelPermalink }}';
+import { toggleActive, bindEventWithTarget } from '{{ $js.RelPermalink }}';
 
 const e = React.createElement;
 const { useState, useEffect } = React;
@@ -26,6 +27,19 @@ const moneyFmt = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
 });
+
+const promoCode = '{{ $promoCode }}';
+if (promoCode) {
+  bindEventWithTarget('.copy-promo-code', 'click', () => {
+    var tempInput = document.createElement('input');
+    tempInput.setAttribute('id', 'copy-to-clipboard');
+    document.body.appendChild(tempInput);
+    tempInput.value = promoCode;
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+  });
+}
 
 const CLOSE_ICON_SRC =
   'data:image/svg+xml;base64,{{ $closeIconSrc.Content | base64Encode }}';
@@ -139,7 +153,7 @@ const LineItem = ({ productId, count }) => {
           {
             className: 'product-price',
           },
-          moneyFmt.format(product.price)
+          moneyFmt.format(product.discount_price || product.price)
         ),
         e(LineItemControl, { productId, count })
       )
@@ -215,7 +229,7 @@ function getCartAmount() {
   return Object.keys(cart).reduce((acc, key) => {
     const product = products.find((x) => x.product_id === key);
     if (product) {
-      return acc + product.price * cart[key];
+      return acc + (product.discount_price || product.price) * cart[key];
     } else {
       return acc;
     }
@@ -232,7 +246,9 @@ function getCartCheckoutUrl() {
     return acc;
   }, []);
 
-  return `https://order.vibe.us/cart/${lineItems.join(',')}`;
+  return `https://order.vibe.us/cart/${lineItems.join(',')}${
+    promoCode ? '?discount=' + promoCode : ''
+  }`;
 }
 
 function setupGallery() {
