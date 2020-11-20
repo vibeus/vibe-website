@@ -1,7 +1,7 @@
 <div class="card is-story"
      {{ if .target }}
      data-target="{{ .target }}"
-     {{ if .index }}
+     {{ if isset . "index" }}
      data-start-at="{{ .index }}"
      {{ end }}
      {{ end }}
