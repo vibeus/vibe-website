@@ -28,7 +28,7 @@ collaborate:
       title: Blog   |   How I Vibe
       body: Engaging your audience using the Vibe board.
       logo: img/customer/collaborate-logo1.png
-      url: https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/
+      url: /blog/how-i-vibe-henry-silverman-professor-of-medicine/
       avatar: img/customer/collaborate-Avatar1.png
       work: Education
       name: Dr. Henry Silverman
@@ -36,7 +36,7 @@ collaborate:
       title: Blog   |   How I Vibe
       body: You need tools that will keep pace with your ideas.
       logo: img/customer/collaborate-logo2.png
-      url: https://vibe.us/blog/how-i-vibe-adam-elbendary/
+      url: /blog/how-i-vibe-adam-elbendary/
       avatar: img/customer/collaborate-Avatar2.png
       work: Marketing Agency
       name: Adam Elbendary 
@@ -44,15 +44,15 @@ collaborate:
       title: Blog   |   How I Vibe
       body: New technology in a changing academic climate.
       logo: img/customer/collaborate-logo3.png
-      url: https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/
+      url: /blog/how-i-vibe-arek-puzia-professor-and-cpa/
       avatar: img/customer/collaborate-Avatar3.png
       work: Education
       name: Arek Puzia
     - figure: img/customer/collaborate-Davidge4.png
       title: Blog   |   How I Vibe
-      body: To having remote team members is the total flexibility it offers our entire team.
+      body: Remote collaboration empowers our team to be more productive.
       logo: img/customer/collaborate-logo4.png
-      url: https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/
+      url: /blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/
       avatar: img/customer/collaborate-Avatar4.png
       work: Consulting
       name: Peter Parker
@@ -60,7 +60,7 @@ collaborate:
       title: Blog   |   How I Vibe
       body: The integration to apps was open and go.
       logo: img/customer/collaborate-logo1.png
-      url: https://vibe.us/blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/
+      url: /blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/
       avatar: img/customer/collaborate-Avatar5.png
       work: Home Schooling
       name: Robyn C.
@@ -68,7 +68,7 @@ collaborate:
       title: Blog   |   How I Vibe
       body: Leading large meetings and group collaborations.
       logo: img/customer/collaborate-logo6.png
-      url: https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/
+      url: /blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/
       avatar: img/customer/collaborate-Avatar6.png
       work: Business Coaching
       name: Mark Smith
