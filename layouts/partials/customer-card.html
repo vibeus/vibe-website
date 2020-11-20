@@ -1,7 +1,7 @@
 <div class="card customer-card {{ with .class }}{{ . }}{{ end }}"
 {{ if .target }}
 data-target="{{ .target }}"
-{{ if .index }}
+{{ if isset . "index" }}
 data-start-at="{{ .index }}"
 {{ end }}
 {{ end }}
@@ -23,7 +23,7 @@ data-start-at="{{ .index }}"
     <div class="container">
       <h2 class="title">{{ default .title (T .title) }}</h2>
       <div class="cta">
-        <span>{{.cta }}</span>
+        <span>{{ .cta }}</span>
       </div>
     </div>
   </div>

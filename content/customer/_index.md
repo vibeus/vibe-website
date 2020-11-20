@@ -228,7 +228,7 @@ comments:
     items:
       - type: ins
         name: kennyt71
-        content: ....And I can’t forget to mention their customer care, you’ll be shocked at how great their support is!
+        content: We did a lot of research and hands down the VIBE was the best!! And I can’t forget to mention their customer care, you’ll be shocked at how great their support is!
         date: Aug 22, 2020
         mask: img/customer/ins-avatar2.png
         url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
