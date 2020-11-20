@@ -139,6 +139,60 @@
 {{ partial "common/testimonial-section" . }}
 {{ end }}
 
+{{ with .Params.comments }}
+<section class="section customer-comments">
+  <div class="toppart-body">
+    <div class="container">
+      <h1 class="title">{{.title }}</h1>
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="columns">
+    {{ with .left_column }}
+    <div class="column left-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
+        <div class="left-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ with .right_column }}
+    <div class="column right-column{{ with .class }} {{ . }}{{ end }}">
+      {{ range $idx, $it := .items }}
+      {{ with $it }}
+      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
+        <div class="right-{{ $idx }}">
+          {{ partial (print "comment-card-" .type) . }}
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <div class="bottom"></div>
+</section>
+{{ end }}
+
+{{ with .Params.hidepart }}
+<section class="hidepart">
+  <div class="hidepart-body">
+    <div class="container">
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="picture">
+        {{ (resources.Get "img/customer/arrowdown.svg").Content | safeHTML }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{ with .Params.stories }}
 <section class="section customer-cards">
   <div class="container" >
@@ -202,60 +256,6 @@
 
   <button class="modal-close is-large" aria-label="close" data-target="story"></button>
 </div>
-{{ end }}
-
-{{ with .Params.comments }}
-<section class="section customer-comments">
-  <div class="toppart-body">
-    <div class="container">       
-      <h1 class="title">{{.title }}</h1>
-      <div class="content">{{.body | markdownify }}</div>
-      <div class="line"></div>
-    </div>
-  </div>
-  <div class="columns">
-    {{ with .left_column }}
-    <div class="column left-column{{ with .class }} {{ . }}{{ end }}">
-      {{ range $idx, $it := .items }}
-      {{ with $it }}
-      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
-        <div class="left-{{ $idx }}">
-          {{ partial (print "comment-card-" .type) . }}
-        </div>
-      </a>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-    {{ with .right_column }}
-    <div class="column right-column{{ with .class }} {{ . }}{{ end }}">
-      {{ range $idx, $it := .items }}
-      {{ with $it }}
-      <a class="comment-card-wrapper" href="{{ .url }}" target="_blank">
-        <div class="right-{{ $idx }}">
-          {{ partial (print "comment-card-" .type) . }}
-        </div>
-      </a>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-  </div>
-  <div class="bottom"></div> 
-</section>
-{{ end }}
-
-{{ with .Params.hidepart }}
-<section class="hidepart">
-  <div class="hidepart-body">
-    <div class="container">       
-      <div class="content">{{.body | markdownify }}</div>
-      <div class="picture">
-        {{ (resources.Get "img/customer/arrowdown.svg").Content | safeHTML }}
-      </div>
-    </div>
-  </div>
-</section>
 {{ end }}
 
 {{ with .Params.bottom_cta }}
