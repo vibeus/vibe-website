@@ -5,6 +5,7 @@ author: Karen Belz
 date: 2020-03-14
 tags: ["remote work", "presenting", "powerpoint"]
 draft: false
+desctiption: Adding a visual presentation style makes meetings more engaging.
 isfeatured: false
 ---
 
@@ -18,6 +19,7 @@ Many people feel the same way about presentations that include a lot of text. Fo
 
 If you're in a situation where you feel like your employees might not be getting the most out of your meetings, it's possible that it's due to the way you're dispensing the information. Here are good ways to manage a meeting that include more pictures and visuals. 
 
+*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 ## If you're making a PowerPoint, make sure all slides include at least one picture. 
 
@@ -33,6 +35,7 @@ You don't want to have three images of varying sizes on one slide since then you
 
 Whiteboarding is a big part of meetings, and when you sign up for Vibe, remote employees everywhere will have access to draw, doodle, or brainstorm using a shared visual. For employees who aren't great with verbalizing their ideas, a tool like this may be the best way for your company to plan and grow. 
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 {{< common/srcset "image-1.png" "" >}}
 
@@ -62,3 +65,10 @@ This is much better than finding out about progress from a long and complicated 
 Colors technically count as visuals, and they can also help your employees break down the meeting topic. Perhaps all time-sensitive information is highlighted in a light red, while the fun activities are in blue. Yes, your employees and coworkers should be paying attention to the whole meeting — but, the colors may help them recognize the most important parts to focus on.
 
 Even small changes can make a big difference. Just remember, when you approach meetings differently, sometimes you may hit a few snags before getting a home run. There are so many different approaches that you can take, so don't be scared to mix it up and see what works best for your team. 
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

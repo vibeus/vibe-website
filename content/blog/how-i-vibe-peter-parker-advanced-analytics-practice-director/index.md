@@ -48,3 +48,11 @@ Absolutely. Recently we had a lead that was difficult for us to qualify and loca
 At the last minute, I added an [invite to our Vibe board](https://vibe.us/product/). The meeting turned into a two hour deep dive into technology, trends in the industry, and how the cloud can enable them. We ended up beating out two other competitors and immediately got in pole position for a large data warehouse project we eventually won. 
 
 At the end of the sales process, they said the ability for them to follow along with our work on the Vibe board, and the fact that we sent out the PNG of the whiteboard work right after the meeting, was a major reason we were selected for the project. The flexibility and responsiveness of the board helped us remove barriers to collaboration and get down to serious, in-depth work quickly — even when we didn’t expect to.  
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

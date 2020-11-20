@@ -1,9 +1,13 @@
-{{ define "main" }}<main class="landing">
-{{ with .Params.hero }}
-<section class="hero{{ with .class }} {{ . }}{{ end }}">
-  <div class="hero-body">
-    <h1 class="title">{{ T .title }}</h1>
-  </div>
-</section>
+{{ define "nav" }}
+{{ partial "common/nav.html" . }}
 {{ end }}
+
+{{ define "main" }}<main class="landing">
+  {{ with .Params.hero }}
+  <section class="hero{{ with .class }} {{ . }}{{ end }}">
+    <div class="hero-body">
+      <h1 class="title">{{ T .title }}</h1>
+    </div>
+  </section>
+  {{ end }}
 </main>{{ end }}

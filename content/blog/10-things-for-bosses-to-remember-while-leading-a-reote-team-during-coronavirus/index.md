@@ -6,6 +6,8 @@ date: 2020-03-26
 tags: ["remote work", "remote team", "collaborate", "Coronavirus"]
 draft: false
 isfeatured: false
+description: How do you lead a remote team during coronavirus? We can tell you the 10 things every boss should remember.
+summary: How do you lead a remote team during coronavirus? We can tell you the 10 things every boss should remember.
 ---
 
 
@@ -73,3 +75,10 @@ For some of your employees, this shake-up is a dream come true. Maybe they've al
 If the pressure of moving your business is a lot to take in, it's okay to step back and take a day to really think things over. Just make sure that your employees know that you're not available unless it's an emergency, so they know to give you a little bit of space. Even bosses need a breather, and nobody's going to hold it against you for using some time to process the news and heal. You're only human. And you, yourself, aren't going to solve this crisis overnight. If your team has been with you for quite some time, trust that they won't need immediate guidance — they're good at what they do, and know how to move your company forward.
 
 There's a reason why the phrase "We're all in this together" keeps floating around. It's because for the first time, all of us are feeling the same emotions of uncertainty and fear. Let your human side shine, and take comfort in knowing that your employees are sticking together. You may be the boss, but what people need right now is for you to be open and understanding.
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

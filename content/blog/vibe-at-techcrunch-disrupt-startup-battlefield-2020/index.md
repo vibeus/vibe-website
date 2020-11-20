@@ -7,6 +7,7 @@ tags: ["remote"]
 draft: false
 isfeatured: true
 summary: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising early stage technology companies. Good thing that we had Vibe collaboration tools in place to help us prepare.
+description: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising early stage technology companies.
 ---
 
 
@@ -61,3 +62,11 @@ It is fundamentally a product problem. The big players are so far from customers
 The marketing environment and user needs have changed and established competitors are building out from the same channel marketing strategies that they’ve held for 30-40 years. Vibe’s direct to consumer model revolves around our customers, and our digital marketing showcases the opportunities presented by Vibe’s open app ecosystem. We want customers to use our platform in the way that’s best for them, and not lock them into Microsoft or Google applications, or limited choices. 
 
 Vibe is filling a big need for many businesses, and at a much lower price point. Vibe is $2,999. In comparison, Google Jamboard  is $4,999 with a $600 annual subscription, Cisco WebEx Board  is $4,990 with a $199 monthly subscription, and the Microsoft Surface Hub  is $8,999 and relies on an Office 365 subscription.
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

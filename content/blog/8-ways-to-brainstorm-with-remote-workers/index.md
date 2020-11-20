@@ -4,6 +4,7 @@ slug: 8-ways-to-brainstorm-with-remote-workers
 author: Karen Belz
 date: 2020-03-06
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
+description: Brainstorming techniques for remote teams make for more productive meetings.
 draft: false
 isfeatured: false
 ---
@@ -20,6 +21,8 @@ Here are more things you want to keep in mind before trying to brainstorm with y
 ## 1. Make sure they're all signed up to Zoom. 
 
 If not Zoom, then Skype or Google Hangouts. Different countries might have a different preference as to how they want to video chat. Video chatting is incredibly important, as remote workers will feel more valued if they have a boss talking directly to him. By video chatting, you can also get a better idea of what someone's general personality is like. Through email alone, it can be a little tricky (hence, why friendlier employees seem to overuse the exclamation point.) After everyone is set up, choose a good time that works for everyone on a weekly basis. Make sure that this meeting is a priority. If you set it up and keep pushing it back, your team's morale might weaken. Remember — even if they're not physically working with you in your office, they're still a big part of your project.
+
+*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ## 2. Use collaborative tools, and give everyone access. 
@@ -45,6 +48,8 @@ Sometimes, remote workers prefer working individually for a reason. Maybe they'r
 
 Some people need to process the information they're given before they can creatively branch out and expand on it. It's helpful to give remote workers an outline of what you'll be talking about prior to the meetings, but it's also good to give them a deadline of a couple of days to really think about it. In general, remote workers thrive when they know what to expect out of their day. A steady routine is how they stay productive, so they might not perform as well if you frequently throw a bunch of new tasks their way without any prep time.
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+
 
 ## 6. If your company sells a product, make sure your remote workers are familiar with it. 
 
@@ -66,3 +71,11 @@ Sometimes, people just have a hard time thinking up the verbiage to explain thei
 
 
 When you work with a lot of remote employees, it might be difficult to find ways to brainstorm at first. But it's not impossible — and when you get the hang of it, you may even prefer it to in-person meetings. Just remember that communication is one of the most important parts of brainstorming. Every person you hire will have a ton of good ideas. But, they need to be confident enough in the team, and with you as a leader, to openly share them. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

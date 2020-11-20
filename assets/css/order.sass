@@ -22,6 +22,66 @@
     max-width: 500px
     margin: auto
     padding-left: 23px
+  .discount-ads
+    margin-top: 24px
+    font-size: 0
+    .discount-info
+      display: inline-block
+      font-family: $vibe-family-heading
+      font-weight: 500
+      font-size: 12px
+      line-height: 15px
+      background-color: $vibe-purple
+      color: white
+      padding: 6px 16px 6px 9px
+      height: 27px
+      vertical-align: bottom
+      position: relative
+      &::after
+        content: ""
+        display: block
+        border-top: 13.5px solid transparent
+        border-right: 6px solid white
+        border-bottom: 13.5px solid transparent
+        position: absolute
+        right: 0
+        top: 0
+    .copy-promo-code
+      display: inline-block
+      font-weight: $vibe-bold
+      font-size: 12px
+      line-height: 15px
+      background-color: $vibe-white
+      color: $vibe-gray
+      text-decoration: underline
+      padding: 6px 15px 6px 17px
+      height: 27px
+      vertical-align: bottom
+      margin-left: 8px
+      position: relative
+      cursor: pointer
+      pointer-events: all
+      &::after
+        content: ""
+        display: block
+        border-top: 13.5px solid white
+        border-right: 6px solid $vibe-white
+        border-bottom: 13.5px solid white
+        position: absolute
+        left: 0
+        top: 0
+  .discount-item-price
+    margin-top: 8px
+    margin-bottom: 32px
+    font-weight: $vibe-bold
+    font-family: $vibe-family-heading
+    .original-price
+      font-size: 18px
+      color: $vibe-gray
+      text-decoration: line-through
+    .discount-price
+      font-size: 30px
+      color: $vibe-pink
   .item-price
     margin-top: 16px
     margin-bottom: 32px
