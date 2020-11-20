@@ -4,34 +4,136 @@
 {{ end }}
 {{ define "main" }}<main class="customer">
 
-{{ with .Params.hero }}
-<section class="hero">
-  <div class="hero-body">
-    <div class="container">      
-      <h1 class="title">{{.title }}
-        <span>{{.title1 }}</span>
-        {{.title2 }}
-      </h1>
-      <div class="content">{{.body | markdownify }}</div> 
-      <div class="picture">
-        {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
-      </div> 
+<div class="hero-and-video-wrapper">
+  {{ with .Params.hero }}
+  <section class="hero">
+    <div class="hero-inner-wrapper">
+      <div class="hero-body">
+        <div class="container">      
+          <h1 class="title">{{.title }}
+            <span>{{.title1 }}</span>
+            {{.title2 }}
+          </h1>
+          <div class="content">{{.body | markdownify }}</div> 
+          <div class="hero-bg">
+            {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+          </div> 
+        </div>
+      </div>
     </div>
+  </section>
+  {{ end }}
+  
+  {{ with .Params.trust }}
+  <section class="section video-section">
+    <div class="container"> 
+      <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
+        <div class="columns">
+        {{ partial "video-column" . }}
+        </div> 
+      </div>
+    </div>
+  </section>
+  {{ end }}
+</div>
+
+{{ with .Params.trust }}
+<section class="section is-trust">
+  <div class="container"> 
+    {{ partial "customers" $.Page }}      
   </div>
 </section>
 {{ end }}
 
-{{ with .Params.trust }}
-<section class="section video">
-  <div class="container"> 
-    <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
-      <div class="columns">
-      {{ partial "video-column" . }}
-      </div> 
+{{ with .Params.collaborate }}
+<section class="section teams-collaborate">
+  <div class="picture"></div>
+  <div class="teams-collaborate-body">
+    <div class="container">       
+      <h1 class="title">{{.title }}</h1>
+      <div class="content">{{.body | markdownify }}</div>
+      <div class="line"></div>
     </div>
+    <div class="glidecontainer">       
+      <div class="column is-gallery">
+        <div class="product-gallery">
+          <div class="glide-wrapper">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  {{ range .gallery }}
+                  <a href={{.url}}>
+                    <li class="glide__slide">  
+                      <div class="cardboxmob">
+                        <div class="author">
+                          <figure class="imagemob">
+                            {{ partial "common/srcset" (dict "resource" (resources.Get .avatar) "options" "jpg") }}
+                          </figure>
+                          <div class="contentmob">{{ .name | markdownify }}</div>
+                        </div>
+                        <span class="logo">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </span>
+                      </div>                      
+                      <figure class="blog-cover image">
+                        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                      </figure>                                            
+                      <div class="tip">
+                        <div class="toppart-body">
+                          <div class="container">                                 
+                            <h1 class="title">{{.title }}</h1>
+                            <div class="content">{{.body | markdownify }}</div>  
+                          </div>
+                        </div>
+                        <div class="logo">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </div>
+                        <div class="picture">
+                          {{ (resources.Get "img/customer/shortarrow.svg").Content | safeHTML }}
+                        </div>
+                      </div>
+                      <div class="tipmob">
+                        <div class="toppartmob-body">
+                          <div class="container">                                 
+                            <h1 class="title">{{.title }}</h1>
+                            <div class="content">{{.body | markdownify }}</div>  
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </a> 
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            <div class="glide-dots">
+              {{ range .gallery }}
+              <span class="icon is-small">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="#111111" xmlns="http://www.w3.org/2000/svg">
+                  <circle r="3.8" transform="matrix(1 0 0 -1 3.8 3.8001)" />
+                </svg>
+              </span>
+              {{ end }}
+            </div>
+          </div>
+      </div>
+      <div class="thumbnails">
+        {{ range .gallerysides }}
+        <div class="cardbox">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "options" "jpg") }}
+          </figure>
+          <div class="container">       
+            <h1 class="title">{{.title }}</h1>
+            <div class="content">{{.body | markdownify }}</div>
+          </div>   
+        </div>   
+        {{ end }}                  
+      </div>
+    <div>
   </div>
 </section>
-{{ end }}
+  {{ end }}
 
 {{ with .Params.trust }}
 <section class="section is-trust">
