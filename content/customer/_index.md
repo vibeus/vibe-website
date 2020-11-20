@@ -241,7 +241,7 @@ comments:
         url: https://www.amazon.com/gp/customer-reviews/R24TBM6GLRVDRL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B081LPL772
       - type: ins
         name: nazarethacademygradeschool
-        content: ...offer in our classrooms for in-person & remote learning. We are installing 14 boards this week!
+        content: Our teachers were so excited to see all the features the Vibe board will offer in our classrooms for in-person & remote learning. We are installing 14 boards this week!
         mask: img/customer/ins-avatar3.png
         date: Aug 22, 2020
         url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
