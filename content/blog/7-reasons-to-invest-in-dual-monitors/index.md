@@ -22,7 +22,7 @@ Every business wants their employees to be as efficient and productive as possib
 
 ## What is a Dual Monitor Set-Up?
 
-Dual monitor setups allow you to use two screens that operate from a single computer -- like ****[**a visual extension of your workspace**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors. Here are seven key advantages to using more than one computer monitor:
+Dual monitor setups allow you to use two screens that operate from a single computer -- like [**a visual extension of your workspace**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). [a visual extension of your workspace](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/) There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors. Here are seven key advantages to using more than one computer monitor:
 
 **Related:** [**Must-Haves for Your Remote Office**](https://vibe.us/blog/8-personal-must-haves-for-your-new-remote-office/)
 
