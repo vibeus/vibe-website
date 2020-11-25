@@ -7,8 +7,8 @@ aliases:
 layout: customer
 
 hero:
-  title: The digital whiteboard trusted by 
-  title1: 500+ 
+  title: The digital whiteboard trusted by
+  title1: 500+
   title2: companies all over the world.
   body: Teams collaborate better with Vibe. Read customer reviews of Vibe digital whiteboard and see how customers unleashed creativity and maximized their organizations’ productivity and effectiveness.
 
@@ -22,7 +22,7 @@ trust:
 
 collaborate:
   title: Teams collaborate better with Vibe
-  body: From the classroom to the boardroom, customers are making their mark with Vibe. See how people just like you are using Vibe digital whiteboard to connect, present, engage, and share. 
+  body: From the classroom to the boardroom, customers are making their mark with Vibe. See how people just like you are using Vibe digital whiteboard to connect, present, engage, and share.
   gallery:
     - figure: img/customer/collaborate-Davidge1.png
       title: Blog   |   How I Vibe
@@ -39,7 +39,7 @@ collaborate:
       url: /blog/how-i-vibe-adam-elbendary/
       avatar: img/customer/collaborate-Avatar2.png
       work: Marketing Agency
-      name: Adam Elbendary 
+      name: Adam Elbendary
     - figure: img/customer/collaborate-Davidge3.png
       title: Blog   |   How I Vibe
       body: New technology in a changing academic climate.
@@ -92,7 +92,6 @@ collaborate:
     - figure: img/customer/collaborate-Avatar6.png
       title: Business Coaching
       body: Mark Smith
-
 
 testimonial_section:
   testimonials:
@@ -203,7 +202,7 @@ stories:
         author:
           name: i18n-content-customer-_index-stories-i_2-testimonials-i_1-author-name
 
-comments: 
+comments:
   title: Customers Love Vibe Digital Whiteboard
   body: When you find a product this good, it’s natural to want to share! See what social media has to say about Vibe digital whiteboard.
   left_column:
@@ -211,7 +210,7 @@ comments:
     items:
       - type: twitter
         name: God-is Rivera
-        email1: Replying to 
+        email1: Replying to
         email2: ' @eunique and @thevibeboard'
         content: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
         date: Sep 8, 2020
@@ -245,8 +244,8 @@ comments:
         mask: img/customer/ins-avatar3.png
         date: Aug 22, 2020
         url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
-  
-hidepart: 
+
+hidepart:
   body: See more @thevibeboard
 
 bottom_cta:
