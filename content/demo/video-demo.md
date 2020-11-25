@@ -57,9 +57,9 @@ playlist_info:
           resources:
       - title: Whiteboarding Part 2
         video:
-          id: e_KdCXiw8AU
-          length: 1
-          exact_length: 1:10
+          id: 91OR9AkUBJc
+          length: 2
+          exact_length: 1:36
         tab_panel:
           video_overview:
             content: Get an overview of whiteboarding features, including Sticky notes, Lasso tool, Canvas background, Eraser and Undo button.

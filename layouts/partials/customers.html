@@ -3,7 +3,7 @@
   {{ range . }}
   <div class="column is-one-quarter-tablet is-half-mobile">
     <figure class="image is-logo">
-      {{ partial "common/srcset" (dict "resource" (resources.Get .icon) "desktop" "440x" "options" "jpg #f4f4f4") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .icon) ) }}
     </figure>
   </div>
   {{ end }}

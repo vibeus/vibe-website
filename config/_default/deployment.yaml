@@ -20,5 +20,5 @@ matchers:
     cacheControl: 'max-age=31536000, no-transform, public'
     gzip: false
   - pattern: "^.+\\.(html|xml|json)$"
-    cacheControl: 'max-age=86400, no-transform, public'
+    cacheControl: 'max-age=3600, no-transform, public'
     gzip: true

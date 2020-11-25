@@ -2,7 +2,7 @@
 title: "What to Know About Synchronous Communication and Asynchronous Communication"
 slug: what-you-need-to-know-about-synchronous-and-asynchronous-communication
 author: Megan Snyder
-date: 2020-11-6
+date: 2020-11-06
 tags: ["brainstorming", "whiteboard"]
 draft: false
 description: Teams can use Synchronous Communication or Asynchronous Communication for group collaboration.

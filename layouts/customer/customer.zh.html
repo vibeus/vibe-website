@@ -1,0 +1,88 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="customer">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="bg-logo">
+    {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ T .title }}</h1>
+      <div class="content">{{ T .body | markdownify }}</div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.stories }}
+<section class="section is-story">
+  <div class="container">
+    <div class="columns">
+      {{/* Hack: remove Sandlers Training, which happens to be the third item in stories. */}}
+      {{ range $idx, $it := first 2 . }}
+      <div class="column">
+        {{ partial "story-card" (merge $it (dict "target" "story" "index" $idx)) }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.testimonial_section }}
+{{ partial "common/testimonial-section" . }}
+{{ end }}
+
+{{ with .Params.stories }}
+<section class="section is-story">
+  <div class="container">
+    <div class="columns">
+      {{ range $idx, $it := last 2 . }}
+      <div class="column">
+        {{ partial "story-card" (merge $it (dict "target" "story" "index" (add $idx 3))) }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ with .Params.stories }}
+<div class="modal is-story" id="story">
+  <div class="modal-background" data-target="story"></div>
+  <div class="modal-content">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          {{ range . }}
+          <li class="glide__slide">
+            {{ partial "story" . }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <span class="icon is-glide-nav is-large is-left" data-go="<">
+    {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+  </span>
+
+  <span class="icon is-glide-nav is-large is-right" data-go=">">
+    {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+  </span>
+
+  <button class="modal-close is-large" aria-label="close" data-target="story"></button>
+</div>
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/customer.zh.js") }}
+</main>{{ end }}

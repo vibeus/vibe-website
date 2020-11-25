@@ -118,6 +118,7 @@ reviews:
       date: 01/17/2020
       body: i18n-content-order-_index-reviews-items-i_3-body
       url: 'https://www.amazon.com/review/R24TBM6GLRVDRL/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=fdf0cd99903266051afe8763dfa5ea17&camp=1789&creative=9325'
+      
 bottom_cta:
   title: i18n-content-order-_index-bottom_cta-title
   cta:
