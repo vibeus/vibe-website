@@ -90,10 +90,6 @@ apps:
 - id: com.google.earth
   name: Earth
   type: other
-- id: com.gotomeeting
-  name: GoToMeeting
-  use_case: remote
-  type: vc
 - id: com.instructure.candroid
   name: Canvas
   type: education
