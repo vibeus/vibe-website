@@ -9,7 +9,7 @@ function setupGallery() {
     type: 'carousel',
     breakpoints: {
       900: {
-        autoplay: 5000
+        autoplay: 5000,
       },
     },
     //autoplay: none,
@@ -71,11 +71,11 @@ const mount = () => {
       perView: 3,
       breakpoints: {
         1000: {
-          perView: 2
+          perView: 2,
         },
         700: {
-          perView: 1
-        }
+          perView: 1,
+        },
       },
     });
 
@@ -208,12 +208,14 @@ toggleActive(toggleClass, false, (isActive, el) => {
   }
 });
 
-document.querySelectorAll('.modal.customer-card .is-glide-nav').forEach((el) => {
-  const go = el.dataset.go;
-  el.addEventListener('click', () => {
-    if (story) {
-      story.go(go);
-      document.querySelector('.modal-content').scrollTo(0, 0);
-    }
+document
+  .querySelectorAll('.modal.customer-card .is-glide-nav')
+  .forEach((el) => {
+    const go = el.dataset.go;
+    el.addEventListener('click', () => {
+      if (story) {
+        story.go(go);
+        document.querySelector('.modal-content').scrollTo(0, 0);
+      }
+    });
   });
-});

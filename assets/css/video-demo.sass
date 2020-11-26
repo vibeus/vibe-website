@@ -28,16 +28,44 @@ body
     flex-direction: column
     height: 100%
 
+.is-mobile-playlist-header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 48px
+  background-color: rgba(244, 244, 244, 1)
+  padding: 17px 24px
+  cursor: pointer
+  pointer-events: all
+  .is-header-body
+    font-size: 14px
+    line-height: 14px
+  .is-collapse-icon
+    font-size: 0
+  &.is-active
+    .is-collapse-icon svg
+      transform: scaleY(-1)
+  +tablet-only
+    width: calc(100% - 40px)
+    margin: 0 auto
+  +desktop
+    display: none
 .is-playlist-wrapper
   padding: 0
-  +mobile
-    padding: 0 0 2px
-  +tablet-only
-    padding: 0 20px 2px 20px
-  &.is-active 
+  // +mobile
+  //   padding: 0 0 2px
+  // +tablet-only
+  //   padding: 0 20px 2px 20px
+  +touch
+    display: none
+  &.is-active
+    display: block
     +touch
       min-height: 360px
       flex-grow: 1
+      padding: 0 20px 2px 20px
+    +mobile
+      padding: 0 0 2px
     .is-playlist-container
       display: block
   +desktop
@@ -46,34 +74,17 @@ body
     // height: calc(100vh - 66px)
     height: calc(100vh - 66px - 72px)
 .is-playlist
-  width: $playlist-width
-  min-width: $playlist-width
   height: 100%
   +desktop
+    width: $playlist-width
+    min-width: $playlist-width
     box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.07)
   +touch
     width: 100%
     overflow: hidden
     border: 1px solid rgba(224, 224, 224, 1)
-  .is-mobile-playlist-header
-    display: flex
-    justify-content: space-between
-    align-items: center
-    height: 48px
-    background-color: rgba(244, 244, 244, 1)
-    padding: 17px 24px
-    cursor: pointer
-    pointer-events: all
-    .is-header-body
-      font-size: 14px
-      line-height: 14px
-    .is-collapse-icon
-      font-size: 0
-    &.is-active
-      .is-collapse-icon svg
-        transform: scaleY(-1)
-    +desktop
-      display: none
+  +mobile
+    border-width: 0
   .is-playlist-header
     +touch
       display: none
@@ -104,7 +115,7 @@ body
     overflow-y: scroll
     +touch
       display: none
-      height: calc(100% - 48px)
+      height: 100%
   .is-single-playlist
     padding: 35px 0
     +touch
@@ -376,43 +387,26 @@ body
 
 body.is-touch-device
   height: auto
-  +mobile
-    padding-top: calc(56.25vw + 76px + 48px - 1px)
-    width: 100%
-  +tablet-only
-    padding-top: calc(0.5625 * (100vw - 40px) + 96px + 48px - 1px)
-    width: 100%
+  width: 100%
   .is-content
     +touch
-      position: fixed
+      position: sticky
+      position: -webkit-sticky
       top: 66px - 1px
       width: 100%
       z-index: 20
-  .is-playlist-wrapper
-    &.is-active
-      display: block
-      .is-playlist
-        border-width: 1px
-        border-top: none
-        +mobile
-          border: none
-    +touch
-      padding-top: 0
-      padding-bottom: 0
-      overflow: visible
-      .is-playlist
-        border-width: 0
-    .is-mobile-playlist-header
-      position: fixed
-      width: 100%
-      z-index: 20
-      +mobile
-        left: 0
-        top: calc(56.25vw + 76px + 66px - 1px)
-      +tablet-only
-        top: calc(0.5625 * (100vw - 40px) + 96px + 66px - 1px)
-        left: 20px
-        width: calc(100% - 40px)
+  .is-mobile-playlist-header
+    position: sticky
+    position: -webkit-sticky
+    width: 100%
+    z-index: 20
+    +mobile
+      left: 0
+      top: calc(56.25vw + 76px + 66px - 1px)
+    +tablet-only
+      top: calc(0.5625 * (100vw - 40px) + 96px + 66px - 1px)
+      left: 20px
+      width: calc(100% - 40px)
 
 .section.is-bottom-cta
   +touch

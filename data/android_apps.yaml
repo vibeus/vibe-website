@@ -1,4 +1,7 @@
 apps:
+- id: com.BuilderTREND.btMobileApp
+  name: Buildertrend
+  type: productivity
 - id: com.Slack
   name: Slack
   use_case: remote
@@ -87,10 +90,6 @@ apps:
 - id: com.google.earth
   name: Earth
   type: other
-- id: com.gotomeeting
-  name: GoToMeeting
-  use_case: remote
-  type: vc
 - id: com.instructure.candroid
   name: Canvas
   type: education
@@ -147,6 +146,9 @@ apps:
 - id: com.microsoft.windowsintune.companyportal
   name: Company Portal
   type: productivity
+- id: com.mitel.teamwork
+  name: Teamwork
+  type: communication
 - id: com.monday.monday
   name: Monday
   use_case: project
@@ -205,6 +207,9 @@ apps:
   name: TeamViewer
   use_case: remote
   type: productivity
+- id: com.tencent.mm
+  name: WeChat
+  type: communication
 - id: com.tencent.voov
   name: VooV
   type: vc

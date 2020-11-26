@@ -22,7 +22,7 @@ Every business wants their employees to be as efficient and productive as possib
 
 ## What is a Dual Monitor Set-Up?
 
-Dual monitor setups allow you to use two screens that operate from a single computer -- like ****[**a visual extension of your workspace**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors. Here are seven key advantages to using more than one computer monitor:
+Dual monitor setups allow you to use two screens that operate from a single computer -- like [**a visual extension of your workspace**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors. Here are seven key advantages to using more than one computer monitor:
 
 **Related:** [**Must-Haves for Your Remote Office**](https://vibe.us/blog/8-personal-must-haves-for-your-new-remote-office/)
 
@@ -39,7 +39,7 @@ When using two monitors from a single computer, each employee can easily **run m
 ## They are Great for Certain Tasks
 
 **For Zoom Calls**
-Video sharing apps, like Zoom, often allow screen sharing during a video call -- this allows your employees to ****[**participate in a video conference**](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) **while simultaneously collaborating on their projects**. Dual monitors also allow you to have one screen up with reference materials during Zoom calls and meetings.
+Video sharing apps, like Zoom, often allow screen sharing during a video call -- this allows your employees to [**participate in a video conference**](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) **while simultaneously collaborating on their projects**. Dual monitors also allow you to have one screen up with reference materials during Zoom calls and meetings.
 
 **For Comparing Critical Data**
 One of the largest advantages of dual monitors is that you can have critical information pulled up on one screen to reference while you work on the second screen. Dual monitor setups allow you to **compare different files and projects easily**, or you can view instructional videos and tutorials while repeating the steps on your second screen to learn more efficiently.
@@ -54,13 +54,14 @@ Moving a window or application from one monitor to another is as simple as dragg
 Dual monitors are extremely simple to use in regards to the many advantages that they can provide.
 
 ## It Can Benefit You and Your Employees
-{{< common/srcset "image-1.jpg" "A man at work with a dual monitor setup" >}}
-
 
 **Related:** [**Benefits of Standup Meetings**](https://vibe.us/blog/8-benefits-of-daily-stand-up-meetings/)
 
 **Increase in Collaboration**
 Dual monitors make collaboration between employees easier than ever; you can **communicate with team members on one screen while working on a project on the other one**. Having a second monitor gives you a lot of additional space to collaborate with the rest of the organization. 
+
+{{< common/srcset "image-1.jpg" "A man at work with a dual monitor setup" >}}
+
 
 **Increase in Communication**
 Communication becomes easier with dual monitors; you can **keep in touch with other employees, customers, and management without interrupting your work**. You can use communication tools like Zoom, Skype, or Slack while having your project open on the second screen to reference during team discussions.

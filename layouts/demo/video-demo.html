@@ -84,6 +84,12 @@
     </div>
   </div>
 
+  <div class="is-mobile-playlist-header is-active" data-target="playlist-wrapper">
+    <div class="is-header-body">{{ $num_videos }} Videos, Total {{ $total_mins }} mins</div>
+    <div class="is-collapse-icon">
+      {{ partial "common/mdi" "chevron-down:20" }}
+    </div>
+  </div>
   <div class="is-playlist-wrapper is-active" id="playlist-wrapper">
     <div class="is-playlist">
       <div class="is-playlist-header">
@@ -93,12 +99,6 @@
         </div>
         <div class="is-right is-playlist-header-icon">
           {{ (resources.Get "img/demo/playlist-header-icon.svg").Content | safeHTML }}
-        </div>
-      </div>
-      <div class="is-mobile-playlist-header is-active" data-target="playlist-wrapper">
-        <div class="is-header-body">{{ $num_videos }} Videos, Total {{ $total_mins }} mins</div>
-        <div class="is-collapse-icon">
-          {{ partial "common/mdi" "chevron-down:20" }}
         </div>
       </div>
       <div class="is-playlist-container" id="playlist-container">
