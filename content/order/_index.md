@@ -3,7 +3,8 @@ stylesPath: css/order.sass
 title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
-promo_code: 'NOVEMBER200'
+# promo_code: 'NOVEMBER200'
+promo_code: 'BLACKFRIYAY'
 product_notices:
   sold_out: &sold_out
     item_notice:
@@ -14,10 +15,12 @@ products:
   - item: &id001
       product_name: vibe_board
       title: i18n-content-order-_index-products-i_0-item-title
+      subtitle: Limit one use per customer.
       body: i18n-content-order-_index-products-i_0-item-body
       product_id: '31815758250035'
       price: 2999
       discount_price: 2799
+      black_friday_discount_price: 2399
       discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false

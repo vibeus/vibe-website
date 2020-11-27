@@ -138,9 +138,16 @@ const LineItem = ({ productId, count }) => {
       e(
         'p',
         {
-          className: 'product-title',
+          className: 'product-title' + (product.subtitle ? ' has-subtitle' : ''),
         },
-        products_i18n[product.title]
+        products_i18n[product.title],
+        product.subtitle ? e(
+          'div',
+          {
+            className: 'product-subtitle',
+          },
+          'Limit one use per customer'
+        ) : null
       ),
       notice,
       e(
@@ -148,6 +155,28 @@ const LineItem = ({ productId, count }) => {
         {
           className: 'price-count',
         },
+        product.black_friday_discount_price || product.discount_price ?
+        e(
+          'p',
+          {
+            className: 'product-price',
+          },
+          e(
+            'div',
+            {
+              className: 'original-price',
+            },
+            moneyFmt.format(product.price),
+          ),
+          e(
+            'div',
+            {
+              className: 'discount-price',
+            },
+            moneyFmt.format(product.black_friday_discount_price || product.discount_price),
+          )
+        )
+        :
         e(
           'p',
           {
@@ -229,7 +258,7 @@ function getCartAmount() {
   return Object.keys(cart).reduce((acc, key) => {
     const product = products.find((x) => x.product_id === key);
     if (product) {
-      return acc + (product.discount_price || product.price) * cart[key];
+      return acc + (product.black_friday_discount_price || product.discount_price || product.price) * cart[key];
     } else {
       return acc;
     }

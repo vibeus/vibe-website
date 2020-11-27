@@ -334,3 +334,73 @@ input[type=number]
       font-size: 16px
     .checkout .button
       font-weight: $vibe-bold
+
+// below: code for black friday 2020 only
+.black-friday-ads
+  margin-top: 42px
+  margin-bottom: 32px
+  width: 198px
+  .ads-header
+    position: relative
+    font-size: 0
+    width: 100%
+    height: 31px
+    .ads-title-bg
+      +absolute-fill
+      width: 100%
+      height: 100%
+      z-index: -1
+    .gift-box
+      width: 27.5px
+      height: 28.5px
+      position: absolute
+      left: 5px
+      top: -19px
+      img
+        width: 100%
+        height: 100%
+    .discount-tag
+      width: 78px
+      height: 50px
+      position: absolute
+      right: -66px
+      top: 6px
+      img
+        width: 100%
+        height: 100%
+    .ads-title
+      font-family: $vibe-family-heading
+      text-align: center
+      height: 18px
+      margin: auto
+      +absolute-fill
+      span
+        font-weight: 500
+        font-size: 16px
+        line-height: 18px
+  .discount-item-price
+    margin-top: 0
+    padding: 12px 12px 8px
+    background-color: $vibe-white
+    .black-friday-discount-price
+      color: #D6302F
+    .limit
+      margin-top: 12px
+      color: $vibe-gray
+      font-style: italic
+      font-size: 12px
+      line-height: 14px
+
+.modal.is-cart
+  .product-title.has-subtitle
+    margin-bottom: 12px!important
+  .product-subtitle
+    font-size: 12px
+    line-height: 14px
+    color: $vibe-gray
+  .price-count
+    .original-price
+      text-decoration: line-through
+      font-size: 12px
+      line-height: 15px
+      color: $vibe-gray
