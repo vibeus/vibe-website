@@ -146,7 +146,7 @@ const LineItem = ({ productId, count }) => {
           {
             className: 'product-subtitle',
           },
-          'Limit one use per customer'
+          'Promo code limits one use per customer'
         ) : null
       ),
       notice,
