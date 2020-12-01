@@ -19,21 +19,26 @@
     border-bottom: 1px solid $vibe-black
   .faq-item
     overflow: hidden
-    height: 92px
+    padding: 32px 0
     &.is-active
-      height: auto
       .icon.is-chevron
         transform: rotate(180deg)
+      .faq-title
+        font-weight: 500
+      .content
+        display: block
     .faq-title
       font-size: 21px
-      line-height: 90px
       display: flex
       justify-content: space-between
       align-items: center
       cursor: pointer
-      span
-        white-space: nowrap
-        overflow: hidden
-        text-overflow: ellipsis
+      +mobile
+        font-size: 16px
     .content
-      margin-bottom: 32px
+      display: none
+      margin-top: 32px
+      +mobile
+        margin-top: 16px
+        p, ul
+          margin-bottom: 10px
