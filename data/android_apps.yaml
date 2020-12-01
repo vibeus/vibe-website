@@ -1,4 +1,7 @@
 apps:
+- id: cards.boom.boom
+  name: Boom Cards
+  type: education
 - id: com.BuilderTREND.btMobileApp
   name: Buildertrend
   type: productivity
@@ -80,6 +83,9 @@ apps:
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
+- id: com.explaineverything.explaineverything
+  name: Explain Everything™
+  type: productivity
 - id: com.google.android.calculator
   name: Calculator
   type: productivity
