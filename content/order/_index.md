@@ -3,7 +3,7 @@ stylesPath: css/order.sass
 title: i18n-content-order-_index-title
 noFixedNavbar: true
 is_order: true
-promo_code: 'NOVEMBER200'
+# promo_code: 'NOVEMBER200'
 product_notices:
   sold_out: &sold_out
     item_notice:
@@ -17,8 +17,8 @@ products:
       body: i18n-content-order-_index-products-i_0-item-body
       product_id: '31815758250035'
       price: 2999
-      discount_price: 2799
-      discount_info: November Deals $200 off!
+      # discount_price: 2799
+      # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false
       backorder: false
