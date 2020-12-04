@@ -1,6 +1,7 @@
 ---
 url: /how-to-use-digital-white-board/
-title: &title How to Use a Digital White Board
+title: &title How to Use Digital White Board
+description: Curious about how to use a digital white board? Check out our comprehensive guide
 content_link_target_blank: true
 
 hero:

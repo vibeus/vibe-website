@@ -1,7 +1,8 @@
 ---
 cascade:
   stylesPath: css/comparison.sass
-title: i18n-content-comparison-_index-title
+title: Compare Popular Smart Whiteboards
+description: Compare Vibe, Microsoft Surface Hub, Google Jamboard, Samsung Flip, Cisco WebEx, and SMART whiteboards and find out which one is best.
 hero:
   title: i18n-content-comparison-_index-hero-title
   body: i18n-content-comparison-_index-hero-body

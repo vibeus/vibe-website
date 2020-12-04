@@ -1,5 +1,6 @@
 ---
-title: i18n-content-comparison-samsung-flip-title
+title: Vibe vs Samsung Flip
+description: Are you trying to between between a Vibe and a Samsung Board? Check out our step-by-step guide
 slug: vibe-vs-samsung-flip
 hero:
   title: i18n-content-comparison-samsung-flip-hero-title

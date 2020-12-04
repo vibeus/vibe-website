@@ -16,7 +16,7 @@ faq_rich_search:
         *Read more: [Vibe Product Specifications][2].*
 
         [1]: https://knowledge.vibe.us/what-sizes-are-available-for-vibe-boards
-        [2]: https://app.hubspot.com/documents/5698963/view/75456682?
+        [2]: https://app.hubspot.com/documents/5698963/view/75456682
 
     - id: dimensions
       question: What are the Vibe board and Vibe stand dimensions?
@@ -38,7 +38,7 @@ faq_rich_search:
         *Read more: [Vibe Product Specifications][4].*
 
         [3]: https://knowledge.vibe.us/what-sizes-are-available-for-vibe-boards
-        [4]: https://app.hubspot.com/documents/5698963/view/75456682?
+        [4]: https://vibe.us/resources/Vibe_Tech_Specs.pdf
 
     - id: powered
       question: How is the Vibe board powered?
@@ -56,7 +56,7 @@ faq_rich_search:
 
         *Read more: [Help Center: Are there any other accessories available with Vibe?][6].*
 
-        [6]: https://knowledge.vibe.us/other-accessories
+        [6]: https://knowledge.vibe.us/buyers-faq#accessories
 
     - id: camera
       question: Which cameras and webcams work with Vibe?
@@ -212,7 +212,7 @@ faq_rich_search:
         *Read more: [Help Center: Are there any other accessories available with Vibe?][23].*
 
         [22]: https://knowledge.vibe.us/vibe-pricing
-        [23]: https://knowledge.vibe.us/other-accessories
+        [23]: https://knowledge.vibe.us/buyers-faq#accessories
 
     - id: purchase
       question: How can I purchase Vibe?

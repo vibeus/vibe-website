@@ -1,6 +1,7 @@
 ---
 url: /how-to-homeschooling/
-title: &title How a Smart Whiteboard Can Make Homeschooling Easier
+title: &title How to Homeschooling
+description: Looking for the basics of homeschooling? Check out our guide to the basics
 content_link_target_blank: true
 
 hero:

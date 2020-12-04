@@ -1,5 +1,6 @@
 ---
-title: i18n-content-comparison-smart-board-title
+title: Vibe vs SMART board by SMART Technologies
+description: What's the difference  between a Vibe and a SMART Board? Check out our comparison guide.
 slug: vibe-vs-smart-board
 hero:
   title: i18n-content-comparison-smart-board-hero-title

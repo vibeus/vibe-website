@@ -1,5 +1,6 @@
 ---
-title: i18n-content-comparison-cisco-webex-board-title
+title: Vibe vs Cisco WebEx Board
+description: Are you trying to choose between a Vibe and a Cisco Webex board? Check out our comparison guide.
 slug: vibe-vs-cisco-webex-board
 hero:
   title: i18n-content-comparison-cisco-webex-board-hero-title

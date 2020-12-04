@@ -1,6 +1,7 @@
 ---
 url: /remote-whiteboard-sharing-for-school-classes/
 title: &title Remote Whiteboard Sharing for School Classes
+description: Want to know how to do remote whiteboard sharing for school? Check out our guide to the basics
 content_link_target_blank: true
 
 hero:

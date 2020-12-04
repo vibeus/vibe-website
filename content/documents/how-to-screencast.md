@@ -1,6 +1,7 @@
 ---
 url: /how-to-screencast/
-title: &title How to Screencrast
+title: &title How to Screencast
+Description: Figuring out how to screencast? Check out our screencasting guide
 content_link_target_blank: true
 
 hero:
