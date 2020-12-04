@@ -7,6 +7,7 @@ hero:
   body: i18n-content-comparison-cisco-webex-board-hero-body
 difference:
   figure: img/comparison/vs-webex.jpg
+  alt_text: Cisco WebEx Board vs. Vibe
   title: i18n-content-comparison-cisco-webex-board-difference-title
   body: i18n-content-comparison-cisco-webex-board-difference-body
 compare:

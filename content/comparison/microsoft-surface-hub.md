@@ -7,6 +7,7 @@ hero:
   body: i18n-content-comparison-microsoft-surface-hub-hero-body
 difference:
   figure: img/comparison/vs-surface-hub.jpg
+  alt_text: Microsoft Surface Hub vs. Vibe
   title: i18n-content-comparison-microsoft-surface-hub-difference-title
   body: i18n-content-comparison-microsoft-surface-hub-difference-body
 compare:

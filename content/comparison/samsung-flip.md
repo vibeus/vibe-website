@@ -7,6 +7,7 @@ hero:
   body: i18n-content-comparison-samsung-flip-hero-body
 difference:
   figure: img/comparison/vs-flip.jpg
+  alt_text: Samsung Flip vs. Vibe
   title: i18n-content-comparison-samsung-flip-difference-title
   body: i18n-content-comparison-samsung-flip-difference-body
 compare:

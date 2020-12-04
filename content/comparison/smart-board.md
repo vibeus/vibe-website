@@ -8,6 +8,7 @@ hero:
   small_body_width: true
 difference:
   figure: img/comparison/vs-smart.jpg
+  alt_text: SMART board vs. Vibe
   title: i18n-content-comparison-smart-board-difference-title
   body: i18n-content-comparison-smart-board-difference-body
 compare:

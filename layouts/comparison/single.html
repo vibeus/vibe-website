@@ -13,7 +13,7 @@
 <section class="section is-difference">
   <div class="container">
     <figure class="image">
-      {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2688x" "tablet" "1520x" "mobile" "750x") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2688x" "tablet" "1520x" "mobile" "750x" "alt" .alt_text) }}
     </figure>
     <div class="title-content">
       <h1 class="title">{{ T .title }}</h1>
