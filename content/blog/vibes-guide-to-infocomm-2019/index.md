@@ -33,7 +33,7 @@ This marks Vibe’s first appearance at the event as well. [Come visit us at Boo
 See how Vibe works in person. [Schedule an exclusive demo at Infocomm.](https://vibe.us/contact/)
 
 
-{{< common/srcset "image-1.png" "" >}}
+{{< common/srcset "image-1.png" "Vibe Inc presenting at Infocomm" >}}
 
 
 
@@ -73,7 +73,7 @@ In addition, there will be a Women’s Council breakfast on Thursday morning tha
 Millions flock to Orlando every year for a reason. Orlando is one of the country’s great tourist destinations, from [Disneyworld](https://disneyworld.disney.go.com/) to its off-the-beaten-path [restaurant scene](https://www.zagat.com/l/top-food-in-orlando) (who wants to try some gator?) We might even take a little break from the excitement of InfoComm to [commune with some manatees](https://www.getyourguide.com/orlando-l191/orlando-manatee-encounter-t51118/) out on the open water.
 
 
-{{< common/srcset "image-2.png" "" >}}
+{{< common/srcset "image-2.png" "Infocomm Conference 2019, in Orlando" >}}
 
 
 So, in short, we’re excited for InfoComm. Are you?
