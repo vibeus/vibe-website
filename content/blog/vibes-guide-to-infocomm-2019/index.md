@@ -43,7 +43,7 @@ Each day at InfoComm presents an opportunity to engage with dozens of educationa
 
 
 ## The Future of Workspace Design
-    Date: Tuesday, June 11
+    Date: Tuesday, June 11 
     Time: 1:30 pm — 3:00 pm
 ## Interactive Virtual Meetings
     Date: Wednesday, June 12
