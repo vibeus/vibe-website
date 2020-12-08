@@ -1,0 +1,136 @@
+@import "_shared.sass"
+@import "_bottom-cta.sass"
+
+
+.section.is-playbook
+  background-color: $vibe-white
+  .container
+    max-width: 1177px
+    > .columns
+      +desktop
+        flex-direction: row
+    ul.icon-list
+    span svg
+      fill: $vibe-teal
+    li
+      margin-left: 0px
+      &:not(:last-child)
+        margin-bottom: 16px
+  ul.icon-list, .content
+    +desktop
+  ul.icon-list:not(:last-child)
+    margin-bottom: 96px
+  .title
+    font-size: 30px
+    +mobile
+      font-size: 24px
+  .column.is-text
+    padding: 20px 12px
+    +desktop
+      padding-right: 90px
+    +mobile
+      padding: 20px 12px
+    .title
+      font-size: 24px
+      padding-left: 14%
+      +mobile
+        font-size: 20px
+        padding-left: 0
+    ul
+      padding-left: 13%
+      +mobile
+        padding-left: 0
+    ul.icon-list span
+      position: relative
+      left: 0
+    img
+      margin-top: 30px
+      padding-bottom: 25px
+  .column.is-form
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin: 50px 0
+    padding: 22px 60px
+    +mobile
+      padding: 22px 12px
+      margin: 0      
+    +desktop
+      max-width: 494px
+      background-color: white
+      padding: 50px 60px
+    .title
+      font-size: 30px
+      line-height: 41px
+      +mobile
+        font-size: 24px
+        line-height: 40px
+    .form .privacy a
+      font-weight: 700
+    .form .input
+      font-size: 16px
+      line-height: 24px 
+      color: #BDBDBD 
+      font-style: normal
+      font-weight: 400
+    .form .placeholder
+      font-size: 16px
+      line-height: 24px 
+      font-style: normal
+      font-weight: 400    
+      color: #BDBDBD  
+    .form select
+      font-size: 16px
+    .form .columns.is-buttons .button
+      max-width: 250px
+      margin: auto 
+      padding: 0 71px
+      border: 2px solid #000000
+    .submitted
+      bottom: 80px
+      .content
+        max-width: 460px
+        h2
+          font-size: 36px
+          font-family: $vibe-family-heading
+          font-weight: $vibe-bold
+        a
+          text-decoration: underline
+          font-weight: $vibe-bold
+    &.is-submitted
+      > .title
+        visibility: hidden
+      .form
+        .columns, .privacy
+          visibility: hidden
+      .submitted
+        display: flex
+
+.section.is-bottom-cta
+  +vertical-padding(71.5px)
+  background-color: $vibe-yellow
+  .bottom-bg svg
+    height: 284px
+    width: 314px
+  .bottom-bg
+    right: -179px
+    top: -36px
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    +mobile
+      display: flex
+      flex-direction: column 
+    .title
+      margin: 0
+      font-size: 40px
+      text-align: left
+      +mobile
+        margin-bottom: 30px
+        font-size: 32px
+        text-align: center
+    .cta
+      margin: auto
+    .cta .button
+      min-width: 250px

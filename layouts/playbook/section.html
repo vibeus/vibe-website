@@ -1,0 +1,56 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/sha1.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+
+{{ define "main" }}<main class="playbook">
+
+{{ with .Params.playbook }}
+<section class="section is-playbook">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-text">
+        <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "options" "jpg") }}
+        </figure>
+        {{ range .expect }}
+        <h2 class="title">{{ .title }}</h2>
+        <ul class="icon-list">
+            {{ range .items }}
+            <li>
+              <span class="icon">
+                {{ (resources.Get "img/playbook/dot.svg").Content | safeHTML }}
+              </span>
+              {{ default .title (T .title) | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+      <div class="column is-form">
+        {{ with .form }}
+        {{ partial "common/form" . }}
+        {{ end }}
+      </div>      
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ $modalId := "schedule-demo-modal" }}
+
+<div class="modal is-iframe-modal" id="{{ $modalId }}">
+  <div class="modal-background" data-target="{{ $modalId }}"></div>
+  <div class="modal-content" id="{{ $modalId }}-iframe"></div>
+  <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/playbook.js" "modalId" $modalId "blacklist" .Site.Data.common.blacklist.emails) }}
+
+
+
+</main>{{ end }}
