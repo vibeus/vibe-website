@@ -28,7 +28,7 @@ products:
       product_id: '31815731576883'
       price: 500
       figure: img/order/accessory-stand-w.png
-      sold_out: false
+      sold_out: *sold_out
       backorder: false
   - item: &id003
       product_name: red_stand
