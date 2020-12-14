@@ -3,7 +3,7 @@
     <div class="bottom-bg">
       {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
     </div>
-    <div>
+    <div class="title-wrapper">
       <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
       {{ with .body }}
       <div class="content">{{ default . (T .) | markdownify }}</div>

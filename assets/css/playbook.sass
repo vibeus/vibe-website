@@ -1,0 +1,135 @@
+@import "_shared.sass"
+@import "_bottom-cta.sass"
+
+$container-max-width: 1177px
+
+.section.is-playbook
+  background-color: $vibe-white
+  +desktop
+    padding-top: 90px
+    padding-bottom: 90px
+  .container
+    max-width: $container-max-width
+    > .columns
+      +desktop
+        flex-direction: row
+  ul.icon-list
+    position: relative
+    +touch
+      margin-bottom: 36px
+    +mobile
+      margin-bottom: 18px
+    span svg
+      fill: $vibe-teal
+    li
+      margin-left: 36px
+      &:not(:last-child)
+        margin-bottom: 16px
+      span.icon
+        position: absolute
+        left: 0
+  .title
+    font-size: 30px
+    line-height: 1.3
+    +mobile
+      font-size: 20px
+  .column.is-text
+    .is-text-content
+      padding: 0 6%
+      +touch
+        padding: 0 60px
+      +mobile
+        padding: 0
+    figure.image
+      margin: 0 -0.75rem 16px
+      +desktop
+        margin-top: -32px
+  .column.is-form
+    +mobile
+      margin: 0
+    +tablet-only
+      padding: 0 60px
+    +desktop
+      max-width: 494px
+      background-color: white
+      padding: 50px 60px
+      margin: auto
+    .form .privacy a
+      font-weight: 700
+    .form .input
+      font-size: 16px
+      line-height: 24px
+      color: #BDBDBD
+      font-style: normal
+      font-weight: 400
+    .form .placeholder
+      font-size: 16px
+      line-height: 24px
+      font-style: normal
+      font-weight: 400
+      color: #BDBDBD
+    .form select
+      font-size: 16px
+    .form .columns.is-buttons .button
+      max-width: 250px
+      margin: auto
+      padding: 0 71px
+      border: 2px solid #000000
+    .submitted
+      bottom: 80px
+      .content
+        max-width: 460px
+        h2
+          font-size: 36px
+          font-family: $vibe-family-heading
+          font-weight: $vibe-bold
+        a
+          text-decoration: underline
+          font-weight: $vibe-bold
+    &.is-submitted
+      > .title
+        visibility: hidden
+      .form
+        .columns, .privacy
+          visibility: hidden
+      .submitted
+        display: flex
+
+.section.is-bottom-cta
+  padding: 80px 1.5rem
+  background-color: $vibe-yellow
+  +mobile
+    padding: 60px 1.5rem
+  .bottom-bg svg
+    height: 284px
+    width: 314px
+  .bottom-bg
+    right: -179px
+    top: -36px
+  .container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    max-width: $container-max-width
+    padding: 0 $container-max-width * 0.03
+    +touch
+      display: flex
+      flex-direction: column
+    .title-wrapper
+      display: flex
+      justify-content: center
+      align-items: center
+    .title
+      margin: 0
+      font-size: 40px
+      text-align: left
+      +touch
+        margin-bottom: 30px
+      +mobile
+        margin-bottom: 30px
+        font-size: 32px
+        text-align: center
+    .cta .button
+      min-width: 250px
+      +desktop
+        margin-right: 5px
