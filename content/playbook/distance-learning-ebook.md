@@ -10,7 +10,7 @@ playbook:
     items:
       - title: What is distance learning
         icon: check-bold
-      - title: Synchronous and Asynchronous learning
+      - title: Synchronous and asynchronous learning
         icon: check-bold
       - title: Types of distance learning ecosystem
         icon: check-bold
