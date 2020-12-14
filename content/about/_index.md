@@ -18,27 +18,36 @@ team:
     - name: i18n-content-about-_index-team-members-i_0-name
       title: i18n-content-about-_index-team-members-i_0-title
       figure: img/about/charles.png
+      alt_text: Charles Yang, Vibe CEO
     - name: i18n-content-about-_index-team-members-i_1-name
       title: i18n-content-about-_index-team-members-i_1-title
       figure: img/about/jian.png
+      alt_text: Jian Zhao, Vibe VP
     - name: i18n-content-about-_index-team-members-i_2-name
       title: i18n-content-about-_index-team-members-i_2-title
       figure: img/about/jiulong.png
+      alt_text: Jiulong Wang, Vibe CTO
     - name: i18n-content-about-_index-team-members-i_3-name
       title: i18n-content-about-_index-team-members-i_3-title
       figure: img/about/susie.png
+      alt_text: Susie Deng, Vibe COO
     - name: i18n-content-about-_index-team-members-i_4-name
       title: i18n-content-about-_index-team-members-i_4-title
       figure: img/about/palmer.png
+      alt_text: Palmer Huang, Director of Product
     - name: i18n-content-about-_index-team-members-i_5-name
       title: i18n-content-about-_index-team-members-i_5-title
       figure: img/about/katie.png
+      alt_text: Katie Kalafus, Director of Customer Success
     - name: i18n-content-about-_index-team-members-i_6-name
       title: i18n-content-about-_index-team-members-i_6-title
       figure: img/about/laura.png
+      alt_text: Laura Reigel, Director of Marketing
     - name: i18n-content-about-_index-team-members-i_7-name
       title: i18n-content-about-_index-team-members-i_7-title
       figure: img/about/jiandong.png
+      alt_text: Jiandong Hao
+
   photos:
     - title: i18n-content-about-_index-team-photos-i_0-title
       figure: img/about/team-1.jpg

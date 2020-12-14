@@ -68,7 +68,7 @@ setup:
                 icon:
                   class: faq-icon
                   text: '  →'
-                url: https://knowledge.vibe.us/installation
+                url: https://knowledge.vibe.us/wall-mount-and-stand
         - class: content-video-column
           column_size: is-7
           body:
@@ -449,7 +449,7 @@ get_started:
         - text: 'Using the whiteboard'
           url: https://knowledge.vibe.us/toolbar-tutorial
         - text: 'Import files to your Vibe board'
-          url: https://knowledge.vibe.us/importing-files
+          url: https://knowledge.vibe.us/cloud-drive-file-formats
         - text: 'Save and share a board'
           url: https://knowledge.vibe.us/save-share-board
     - title: 'Screencast & Annotation'

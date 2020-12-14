@@ -71,8 +71,7 @@ faq_rich_search:
     - id: apps
       question: Do you support Zoom? Microsoft Teams? Google Meet?
       answer: |
-        Yes, Vibe supports most popular video conferencing apps, including **Zoom, Microsoft Teams, Google Meet, WebEx,
-        GoToMeeting, Skype, RingCentral**, and more.
+        Yes, Vibe supports most popular video conferencing apps, including **Zoom, Microsoft Teams, Google Meet, WebEx, Skype, RingCentral**, and more.
 
     - id: edu-apps
       question: What education-related apps do you support?

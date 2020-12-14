@@ -1,11 +1,13 @@
 ---
-title: i18n-content-comparison-google-jamboard-title
+title: Vibe vs Google Jamboard
+description: The Vibe and Google Jamboard are two of the most popular smart whiteboards, but which one is the best? Time to find out!
 slug: vibe-vs-google-jamboard
 hero:
   title: i18n-content-comparison-google-jamboard-hero-title
   body: i18n-content-comparison-google-jamboard-hero-body
 difference:
   figure: img/comparison/vs-jamboard.jpg
+  alt_text: Google Jamboard vs. Vibe
   title: i18n-content-comparison-google-jamboard-difference-title
   body: i18n-content-comparison-google-jamboard-difference-body
 compare:

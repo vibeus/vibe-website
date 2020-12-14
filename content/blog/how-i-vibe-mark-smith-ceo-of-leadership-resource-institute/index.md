@@ -49,6 +49,8 @@ This same trio of tools makes it easy for Mark to prep groups for what they’ll
 
 “I’ll say, ‘We’re going to be using Zoom. If you haven’t used Zoom before, here are the things you should know. We’re going to be using Google Docs. Here’s the link to the doc; if you haven’t used Google Docs before, here’s what you should know. Please go in and play with it.’ And I set up a Vibe board beforehand and give them access and say, ‘Here’s this table, it has your name in it; please go in and populate it with your expectations,’ then they’ve practiced with it and know how it works.”
 
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+
 This method not only encourages collaboration, it also gives his clients time to practice and get comfortable with the programs.
 
 “What I’ve found is the more sophisticated a client is in terms of tools, the more likely they are to actually go in and play with it. For example, I invited one client of mine into a Vibe board and said, ‘Go practice some things, it’s pretty intuitive.’ The next thing I know they’re importing pictures, they’ve got their team picture in there, they’ve got their logo in there, they’re writing hi to each other because they’re in different places,” he says while laughing.
@@ -79,6 +81,8 @@ The Vibe board’s functionality and intuitive design make it easy for Mark to g
 But beyond the vast library of apps, Mark appreciates how the board allows his teams to work together, even when different time zones are a factor. He says, “What’s really cool on the Vibe board is the asynchronous side of it. I can leave a session and say, ‘Before tomorrow, reorganize your ideas into these three categories.’ Often they’ll go in and reorganize asynchronously, and then we can go back in and we’re sharing the same document.
 
 “The way I talk about it is, we can work at the same time, same place; same time, different place; different time, different place; or we could work different time, same place if we wanted to share one physical board. The Vibe board creates those different opportunities so you can work asynchronously, but it’s all coming together in one place.”
+
+*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 He also lists the continuous canvas as a plus for collaboration, noting that it makes it easy for everyone to put their ideas on the board before they all dive in to shape the ideas and move things around before moving on to the next activity. 
 

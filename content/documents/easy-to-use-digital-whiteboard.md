@@ -1,6 +1,7 @@
 ---
 url: /easy-to-use-digital-whiteboard/
 title: &title Easy to Use Digital Whiteboard
+description: Not sure how easy it is to use a digital whiteboard? Check out our guide
 content_link_target_blank: true
 
 hero:

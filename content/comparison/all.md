@@ -1,5 +1,6 @@
 ---
-title: i18n-content-comparison-all-title
+title: Review Popular Smart Whiteboards
+description: Detailed comparison guide reviewing Vibe, Microsoft Surface Hub, Google Jamboard, Samsung Flip, Cisco WebEx, and SMART whiteboards.
 layout: all
 hero:
   title: i18n-content-comparison-all-hero-title
