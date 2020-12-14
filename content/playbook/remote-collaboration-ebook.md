@@ -1,25 +1,27 @@
 ---
-url: /distance-learning-ebook
+url: /remote-collaboration-ebook
+
 title: See Vibe for Yourself
 description: Sign up for a video demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
 stylesPath: css/playbook.sass
 playbook:
-  figure: img/playbook/distance-learning-ebook.png
+  figure: img/playbook/remote-work-playbook.png
   text_content:
-    title: Distance Learning Ebook Highlights
+    title: Remote Work Playbook Highlights
     items:
-      - title: What is distance learning
+      - title: Current situation and future predictions of remote work
         icon: check-bold
-      - title: Synchronous and Asynchronous learning
+      - title: How to build trusted relationships with your remote team
         icon: check-bold
-      - title: Types of distance learning ecosystem
+      - title: How to collaborate across different time zones
         icon: check-bold
-      - title: Why distance learning is made simple with Vibe
+      - title: List of a remote ready full tech stack
         icon: check-bold
-
+      - title: How Vibe can help remote collaboration
+        icon: check-bold
 
   form:
-    title: Get the complete guide for distance learning
+    title: Get your team prepared for remote working
     action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/e58576d6-a3f7-4067-b961-0afeaa0d38ab
     controls:
       - - name: firstname
@@ -56,12 +58,12 @@ playbook:
         class: button is-rounded is-black is-outlined
         name: request-video
     hidden_values:
-        vibe_from_education_landing_page: "true"
+        vibe_from_education_landing_page: "false"
     submitted:
       body: '## We’ve sent you an email with the PDF download link. Enjoy!
 
 
-      Can''t wait? [Read now](/resources/Vibe_education_ebook.pdf/).
+      Can''t wait? [Read now](/resources/Vibe_remote_work_playbook.pdf/).
 
       '
 bottom_cta:

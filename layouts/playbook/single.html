@@ -8,30 +8,32 @@
 {{ with .Params.playbook }}
 <section class="section is-playbook">
   <div class="container">
-    <div class="columns is-desktop">
-      <div class="column is-text">
+    <div class="columns is-desktop is-vcentered">
+      <div class="column is-text is-half-desktop">
         <figure class="image">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "options" "jpg") }}
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2880x" "tablet" "1440x" "mobile" "680x" "options" "png") }}
         </figure>
-        {{ range .expect }}
-        <h2 class="title">{{ .title }}</h2>
-        <ul class="icon-list">
-            {{ range .items }}
-            <li>
-              <span class="icon">
-                {{ (resources.Get "img/playbook/dot.svg").Content | safeHTML }}
-              </span>
-              {{ default .title (T .title) | markdownify }}
-            </li>
-            {{ end }}
-          </ul>
-        {{ end }}
+        <div class="is-text-content">
+          {{ with .text_content }}
+          <h2 class="title">{{ .title }}</h2>
+          <ul class="icon-list">
+              {{ range .items }}
+              <li>
+                <span class="icon">
+                  {{ (resources.Get "img/playbook/dot.svg").Content | safeHTML }}
+                </span>
+                {{ default .title (T .title) | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </div>
       </div>
-      <div class="column is-form">
+      <div class="column is-form is-half-desktop">
         {{ with .form }}
         {{ partial "common/form" . }}
         {{ end }}
-      </div>      
+      </div>
     </div>
   </div>
 </section>
