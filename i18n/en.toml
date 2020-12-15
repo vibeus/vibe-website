@@ -452,6 +452,13 @@ behind the scenes. Always getting updates too for more and more improvements! A 
 for home office or business!
 """
 
+[i18n-content-order-_index-reviews-items-i_6-body]
+other = """**Great product, great support.**
+
+Great product, and really good customer support. And they seem to further improve features with
+new software version releases. Highly recommended.
+"""
+
 [i18n-content-order-_index-bottom_cta-title]
 other = "Still have questions?"
 
