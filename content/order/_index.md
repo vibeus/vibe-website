@@ -21,7 +21,9 @@ products:
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false
-      backorder: false
+      backorder:
+        item_notice: '**Shipping Delayed.** Expected to ship in 5-8 business days.'
+        cart_notice: Shipping Delayed. Expected to ship in in 5-8 business days.
   - item: &id002
       product_name: white_stand
       title: i18n-content-order-_index-products-i_1-item-title
