@@ -16,6 +16,8 @@
       padding-bottom: 0
   .image.is-hero-bg
     +absolute-fill
+    +tablet-only
+      right: -80px
     img
       width: 100%
       height: 100%
@@ -29,18 +31,23 @@
     +mobile
       margin-bottom: 32px
     +tablet
-      max-width: 428px
+      max-width: 480px
       +lang-override(".lang-zh")
         max-width: 400px
       margin-bottom: 72px
+    +desktop
+      max-width: 500px
     .title
-      font-size: 64px
-      line-height: 74px
+      font-size: 38px
+      line-height: 48px
       +lang-override(".lang-zh")
         font-size: 50px
       +mobile
-        font-size: 50px
-        line-height: 60px
+        font-size: 32px
+        line-height: 40px
+      +tablet-only
+        font-size: 36px
+        line-height: 36px
     p
       max-width: 435px
       +lang-override(".lang-zh")
@@ -274,6 +281,6 @@
       .video-launcher
         margin-top: 30px
       .content.is-footnote
-        margin-top: 16px 
-        font-size: 12px 
+        margin-top: 16px
+        font-size: 12px
         margin-bottom: 36px
