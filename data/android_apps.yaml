@@ -203,6 +203,9 @@ apps:
 - id: com.smartsheet.android
   name: Smartsheet
   type: productivity
+- id: com.spotify.music
+  name: Spotify
+  type: entertainment
 - id: com.teamviewer.quicksupport.addon.universal
   name: TeamViewer Universal Add-On
   type: productivity
