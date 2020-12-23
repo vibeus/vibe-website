@@ -15,7 +15,7 @@ If you purchased a Vibe board or Vibe mobile stand directly from Vibe, you can r
 
 **If 30 days have gone by since you received your purchase, unfortunately we cannot offer you a refund or exchange**.
 
-Please keep all original packaging in case you need to do a return. Product must not be damaged, and must be shipped back to the nearest return location for your country with all the included accessories and original packaging in order to be eligible for a full refund.
+Please keep all original packaging in case you need to do a return. Product must not be damaged, and must be shipped back to the nearest return location for your country with all the included accessories and original packaging in order to be eligible for a full refund. (US return location is in Bellevue, WA).
 
 Vibe will need to inspect the product before we can issue a refund.
 
