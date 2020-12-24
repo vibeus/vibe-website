@@ -23,7 +23,7 @@ products:
       sold_out: false
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
-        cart_notice: Shipping Delayed. Expected to ship in in 2 weeks.
+        cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id002
       product_name: white_stand
       title: i18n-content-order-_index-products-i_1-item-title
@@ -33,7 +33,7 @@ products:
       sold_out: false
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
-        cart_notice: Shipping Delayed. Expected to ship in in 2 weeks.
+        cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id003
       product_name: red_stand
       title: i18n-content-order-_index-products-i_2-item-title
@@ -43,7 +43,7 @@ products:
       sold_out: false
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
-        cart_notice: Shipping Delayed. Expected to ship in in 2 weeks.
+        cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id004
       product_name: stylus
       title: i18n-content-order-_index-products-i_3-item-title
