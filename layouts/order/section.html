@@ -158,8 +158,7 @@
         <div class="content is-sold-out">
           {{ .sold_out.item_notice | markdownify }}
         </div>
-        {{ end }}
-        {{ if .backorder }}
+        {{ else if .backorder }}
         <div class="content is-backorder">
           {{ .backorder.item_notice | markdownify }}
           <!-- <p><a href="https://knowledge.vibe.us/may-2020-shipping-update" target="_blank">See options →</a></p> -->
