@@ -55,6 +55,6 @@ All shipping damages or missing items must be reported within 7 business days up
 
 Upon review of the RMA request, Vibe will provide a shipping label for you to return the product. You will be responsible for paying for your own shipping and handling costs for returning your item. These costs are non-refundable.
 
-If you receive a refund, the shipping and handling costs will be deducted from your refund. In the US, the shipping fee is $200/unit and $400/set. For international customers this rate will depend on the shipping cost for your region.
+If you receive a refund, the shipping and handling costs will be deducted from your refund. In the US, the shipping fee is 200 USD/unit and 400 USD/set. For international customers this rate will depend on the shipping cost for your region.
 
 Depending on where you live, the time it may take for your exchanged product to reach you, may vary.
