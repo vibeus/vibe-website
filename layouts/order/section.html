@@ -108,7 +108,7 @@
               </div>
               {{ end }}
               {{ if .item.sold_out }}
-              <div class="content is-backorder">
+              <div class="content is-sold-out">
                 {{ .item.sold_out.item_notice | markdownify }}
               </div>
               {{ else if .item.backorder }}
