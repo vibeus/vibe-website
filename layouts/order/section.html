@@ -107,7 +107,11 @@
                 Also available on <a href="{{ . }}" target="_blank">Amazon</a>
               </div>
               {{ end }}
-              {{ if .item.backorder }}
+              {{ if .item.sold_out }}
+              <div class="content is-backorder">
+                {{ .item.sold_out.item_notice | markdownify }}
+              </div>
+              {{ else if .item.backorder }}
               <div class="content is-backorder">
                 {{ .item.backorder.item_notice | markdownify }}
               </div>
