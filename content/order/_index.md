@@ -20,7 +20,7 @@ products:
       # discount_price: 2799
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
-      sold_out: *sold_out
+      sold_out: false
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
