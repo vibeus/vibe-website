@@ -96,6 +96,9 @@ apps:
 - id: com.google.earth
   name: Earth
   type: other
+- id: com.gotomeeting
+  name: GoToMeeting
+  type: vc
 - id: com.instructure.candroid
   name: Canvas
   type: education
