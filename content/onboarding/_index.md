@@ -409,7 +409,8 @@ setup:
                     - name: date_of_purchase
                       placeholder: 'Date of Purchase'
                   - - name: order_number
-                      placeholder: 'Order Number'
+                      placeholder: 'Order Number*'
+                      required: true
                     - name: serial_number
                       placeholder: 'Serial Number*'
                       required: true
