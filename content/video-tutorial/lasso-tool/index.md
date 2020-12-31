@@ -1,8 +1,9 @@
 ---
 title: "Lasso Tool"
 slug: lasso-tool
-date: 2020-04-24
+date: 2020-12-31
 draft: false
+isfeatured: false
 videoId: ZV7yC0v81Kw
 allowIndex: false
 no_sitemap: true
@@ -10,4 +11,4 @@ no_sitemap: true
 
 
 
-[https://youtu.be/ZV7yC0v81Kw](https://youtu.be/ZV7yC0v81Kw)The Lasso tool makes organizing your ideas even easier. You can move a group of objects all at once on your Vibe board.
+Lasso tool makes organizing your ideas even easier. You can move a group of objects all at once on your Vibe board.
