@@ -42,10 +42,11 @@ Simply open up Instagram on your web browser, find a workout that suits you, and
 ## Plan your workouts
 {{< common/srcset "image-1.png" "A workout plan outlined on the Vibe Board" >}}
 
+{{< common/srcset "image-2.jpg" "" >}}
+
 
 If you’re a self-starter with a love of planning, you can create a [template](https://knowledge.vibe.us/using-templates) and organize your weekly workouts. The beauty of the template is that you can keep the structure of your workout but tailor the exercises to fit your needs. 
 
-For example, at the beginning of the week you can specify a muscle group for each day and then breakdown every exercise. This will simplify your week and keep you motivated to reach your goals. To add a little spice, utilize Vibe’s split screen feature to pull up your favorite spotify playlist and rock out while you workout. 
-* Google Play store must be downloaded and enabled to access the Spotify app
+For example, at the beginning of the week you can specify a muscle group for each day and then breakdown every exercise. This will simplify your week and keep you motivated to reach your goals. To add a little spice, utilize Vibe’s split screen feature to pull up your favorite Spotify playlist and rock out while you workout.
 
 These days exercise can seem like a daunting task, but just a few minutes a day to get your body moving will go a long way. YouTube and Instagram are great ways to find new workouts, and planning them out will help you stay organized and on track toward your goals. No two people are the same so choose whatever exercise is best for you.  Whether it’s a light stretch, plyometrics, or cardio, we hope Vibe can help make working out a little easier. 
