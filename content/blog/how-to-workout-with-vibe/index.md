@@ -23,7 +23,7 @@ To make exercise a little easier, here are some tips for how to workout with Vib
 YouTube is a haven for all things exercise. Thousands of videos are at your fingertips with just a few quick searches. Whether you’re up to the challenge of HITT or need to stretch it out with some yoga, you can find it all on YouTube. There are even some no-noise workouts to make sure you don’t bother your neighbor downstairs. 
 
 
-{{< common/srcset "image-1.jpg" "" >}}&
+{{< common/srcset "image-1.jpg" "" >}}
 
 
 Just open up the YouTube app, find a workout you’re in the mood for, and start sweating. Don’t forget to use full screen mode. From personal experience, a larger screen keeps me focused and makes it a lot easier to replicate the exercises. 
@@ -32,7 +32,8 @@ Just open up the YouTube app, find a workout you’re in the mood for, and start
 
 There are tons of fitness influencers that release creative at home workouts on their Instagrams. The videos will range from quick, 1 minute videos explaining each exercise with a more detailed description in the comments to hour-long IGTV’s where you workout alongside them. You can target specific muscle groups like your core, arms, and legs or you can choose a full body workout. 
 
-{{< common/srcset "image-2.jpg" "" >}}&
+
+{{< common/srcset "image-2.jpg" "" >}}
 
 
 Simply open up Instagram on your web browser, find a workout that suits you, and follow along! Some of my favorite users include [brittnejackson](https://www.instagram.com/brittnejackson/), [soheefit](https://www.instagram.com/soheefit/), and [aubrewinters](https://www.instagram.com/aubrewinters/).
