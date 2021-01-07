@@ -4,7 +4,7 @@ slug: how-to-workout-with-vibe
 author: Stephanie Prince
 date: 2020-12-16
 tags: ["exercise", "wfh"]
-description: Home workouts are more fun with a Vibe board. Stay healthy and actie with these tips.
+description: Home workouts are more fun with a Vibe board. Stay healthy and active with these tips.
 draft: false
 isfeatured: false
 ---
@@ -22,27 +22,24 @@ To make exercise a little easier, here are some tips for how to workout with Vib
 
 YouTube is a haven for all things exercise. Thousands of videos are at your fingertips with just a few quick searches. Whether you’re up to the challenge of HITT or need to stretch it out with some yoga, you can find it all on YouTube. There are even some no-noise workouts to make sure you don’t bother your neighbor downstairs. 
 
-https://www.dropbox.com/s/lkya8eu6y1rc53c/Vibe%20Youtube%20%282%29.mp4?dl=0
+
+{{< common/srcset "image-1.jpg" "" >}}&
 
 
 Just open up the YouTube app, find a workout you’re in the mood for, and start sweating. Don’t forget to use full screen mode. From personal experience, a larger screen keeps me focused and makes it a lot easier to replicate the exercises. 
-
-
 
 ## Instagram
 
 There are tons of fitness influencers that release creative at home workouts on their Instagrams. The videos will range from quick, 1 minute videos explaining each exercise with a more detailed description in the comments to hour-long IGTV’s where you workout alongside them. You can target specific muscle groups like your core, arms, and legs or you can choose a full body workout. 
 
-https://www.dropbox.com/s/k0t5rs1905xqshn/Vibe%20Instagram%20%281%29.mp4?dl=0
+{{< common/srcset "image-2.jpg" "" >}}&
 
 
 Simply open up Instagram on your web browser, find a workout that suits you, and follow along! Some of my favorite users include [brittnejackson](https://www.instagram.com/brittnejackson/), [soheefit](https://www.instagram.com/soheefit/), and [aubrewinters](https://www.instagram.com/aubrewinters/).
 
 
 ## Plan your workouts
-{{< common/srcset "image-1.png" "A workout plan outlined on the Vibe Board" >}}
-
-{{< common/srcset "image-2.jpg" "" >}}
+{{< common/srcset "image-3.png" "A workout plan outlined on the Vibe Board" >}}
 
 
 If you’re a self-starter with a love of planning, you can create a [template](https://knowledge.vibe.us/using-templates) and organize your weekly workouts. The beauty of the template is that you can keep the structure of your workout but tailor the exercises to fit your needs. 
