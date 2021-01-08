@@ -81,6 +81,57 @@ features:
       title: i18n-content-_index-features-i_4-cta-title
       video: //dl.vibe.us/assets/video/vibe-install.mp4
     class: is-feature-5
+
+trusted:
+  title_part1: Trusted by 
+  title_part2: 500+
+  title_part3:  companies all over the world.
+  content: Read more customer stories →
+  url: xxxxxxx
+  testimonials:
+    - title: Sports Training
+      name: Ian Westermann,
+      content: Founder of Essential Tennis
+      figure: img/home/feature-sim.png
+      video: xxxxx
+      url: xxxxxxxx
+      class: blog-1
+    - title: Marketing Agency
+      name: Adam Elbendary,
+      content: CEO of Cleverman, Inc.
+      figure: xxxxxxx
+      img: xxxxx
+      url: xxxxxxxx
+      class: blog-2
+    - title: Education 
+      name: Henrt Silverman,
+      content: Professor of Medicine
+      figure: xxxxxxx
+      img: xxxxx
+      url: xxxxxxxx
+      class: blog-3
+    - title: Education
+      name: Arek Puzia,
+      content: Professor of Diablo Valley College
+      figure: xxxxxxx
+      img: xxxxx
+      url: xxxxxxxx
+      class: blog-4
+    - title: Consulting
+      name: Peter Parker, 
+      content: Advanced Analytics Practice Director at Redapt
+      figure: xxxxxxx
+      img: xxxxx
+      url: xxxxxxxx
+      class: blog-5
+    - title: Business Coaching
+      name: Mark Smith,
+      content: CEO of Leadership Resourse Institute
+      figure: xxxxxxx
+      img: xxxxx
+      url: xxxxxxxx
+      class: blog-6
+
 trust:
   title: i18n-content-_index-trust-title
   testimonials:

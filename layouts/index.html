@@ -128,6 +128,53 @@
 </section>
 {{ end }}
 
+{{ with .Params.trusted}}
+<section class="section is-trusted">
+  <div class="container"> 
+    <h1 class="title is-section-title">{{  .title_part1 }}<span>{{  .title_part2 }}</span> {{  .title_part3 }}</h1>
+    <div class="content"> {{ .content }}</div>
+      <div class="glide">
+       <div data-glide-el="track" class="glide__track">
+         <ul class="glide__slides">
+          {{ range .testimonials}}
+            <li class="glide__slide">
+              <div class="columns {{ with .class }}{{ . }}{{ end }} ">
+                <div class="column">
+                  <div class="Vertical">
+                    <div class="horizontal">
+                      <div class="is-content">
+                        {{ with .title }}
+                        <p class="is-blog-title" >{{ . | markdownify }}</p>
+                        {{ end }}
+                        {{ with .name }}
+                        <span class="is-blog-name" >{{ . | markdownify }}</span>
+                        {{ end }}
+                        {{ with .content }}
+                        <span class="is-blog-content" >{{ . | markdownify }}</span>
+                        {{ end }}
+                      </div>
+                      <div class="is-blog-logo">
+                        <span>put logo here</span>
+                      </div>
+                    </div>
+                    <div class="is-media">
+                      <span>put video/img here</span>
+                    </div>
+                  </div>    
+                  </div>           
+                </div>
+
+             </li>
+          {{ end }}
+
+        </ul>
+      </div>
+      </div>
+   {{ partial "customers" $.Page }}
+  </div>
+</section>
+{{ end }} 
+
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}
 {{ end }}
