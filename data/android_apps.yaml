@@ -102,6 +102,9 @@ apps:
 - id: com.instructure.candroid
   name: Canvas
   type: education
+- id: com.klaxoon.app
+  name: Klaxoon
+  type: productivity
 - id: com.logmein.gotowebinar
   name: GoToWebinar
   use_case: remote
