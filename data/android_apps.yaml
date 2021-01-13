@@ -63,6 +63,9 @@ apps:
 - id: com.citrix.Receiver
   name: Workspace
   type: productivity
+- id: com.crunchyroll.crunchyroid
+  name: Crunchyroll
+  type: entertainment
 - id: com.disney.disneyplus
   name: Disney+
   type: entertainment
