@@ -221,7 +221,7 @@ bottom_cta:
   cta:
     buttons:
       - class: is-primary live-demo-button
-        title: Book a Live Demo
+        title: Schedule a Live Demo
         url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
         icon:
           class: live-demo-icon
