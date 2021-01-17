@@ -61,4 +61,8 @@ demo:
         name: request-video
     submitted:
       body: i18n-content-demo-_index-demo-form-submitted-body
+      cta:
+        title: Watch Now
+        class: is-primary is-video-demo-link
+        url: /demo/video-demo
 ---

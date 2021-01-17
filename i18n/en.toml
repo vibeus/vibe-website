@@ -246,7 +246,7 @@ real-time remote collaboration with the Vibe board."""
 other = "What’s in the Vibe Demo Video"
 
 [i18n-content-demo-_index-demo-expect-i_0-items-i_0-title]
-other = "6 minute demo video overview of Vibe"
+other = "Choose a video that shows how you’d use Vibe"
 
 [i18n-content-demo-_index-demo-expect-i_0-items-i_1-title]
 other = "An overview of Vibe’s whiteboarding features & toolbar"
@@ -267,7 +267,7 @@ other = "What’s included with a Vibe board purchase"
 other = "What you can expect from the Demo Video"
 
 [i18n-content-demo-_index-demo-expect-i_1-items-i_0-title]
-other = "6 minute general overview of Vibe's features"
+other = "Choose a video that shows how you’d use Vibe"
 
 [i18n-content-demo-_index-demo-form-title]
 other = "Tell us more about you"
@@ -300,9 +300,9 @@ other = "Schedule a Live Demo"
 other = "Watch Demo Video"
 
 [i18n-content-demo-_index-demo-form-submitted-body]
-other = """## We’ve sent you an email with the video link. Enjoy!
+other = """# We’ve sent you an email!
 
-Can't wait? [Watch now](/demo/video-demo/)."""
+Enjoy the demo video link in your inbox. Can’t wait?"""
 
 [i18n-content-order-_index-title]
 other = "Order your Vibe"
