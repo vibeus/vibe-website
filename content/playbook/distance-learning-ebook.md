@@ -61,7 +61,7 @@ playbook:
       body: '## We’ve sent you an email with the PDF download link. Enjoy!
 
 
-      Can''t wait? [Read now](/resources/Vibe_education_ebook.pdf/).
+      Can''t wait? [Read now](/resources/Vibe_education_ebook.pdf).
 
       '
 bottom_cta:

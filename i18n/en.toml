@@ -300,9 +300,7 @@ other = "Schedule a Live Demo"
 other = "Watch Demo Video"
 
 [i18n-content-demo-_index-demo-form-submitted-body]
-other = """# We’ve sent you an email!
-
-Enjoy the demo video link in your inbox. Can’t wait?"""
+other = "# We've sent you an email with the video link. Enjoy!"
 
 [i18n-content-order-_index-title]
 other = "Order your Vibe"

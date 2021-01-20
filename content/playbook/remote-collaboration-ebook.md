@@ -63,7 +63,7 @@ playbook:
       body: '## We’ve sent you an email with the PDF download link. Enjoy!
 
 
-      Can''t wait? [Read now](/resources/Vibe_remote_work_playbook.pdf/).
+      Can''t wait? [Read now](/resources/Vibe_remote_work_playbook.pdf).
 
       '
 bottom_cta:
