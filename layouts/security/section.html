@@ -114,7 +114,7 @@
       {{ with .cta }}
       <div class="cta cta-contact" data-target="contact">
         {{ if .title }}
-        <a class="button is-rounded is-black is-outlined">
+        <a class="button is-rounded is-black is-outlined" href="{{ .url }}">
           {{ default .title (T .title) }}
         </a>
         {{ end }}
@@ -143,7 +143,4 @@
   </section>
   {{ end }}
 
-
-  {{ partial "common/template-script" (dict "asset" "js/about.js") }}
-  {{ partial "common/template-script" (dict "asset" "js/show-cn-content.js") }}
 </main>{{ end }}
