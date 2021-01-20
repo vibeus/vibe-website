@@ -16,7 +16,7 @@ The whiteboard has been a popular medium for problem solving since its early int
 
 Whiteboarding has always been around in some form or another. Of course, chalkboards are most obvious predecessor to the whiteboard. But so are plans written on the back of cocktail napkins and envelopes, or little diagrams and doodles that become incredible products. The digital whiteboard is only the latest, greatest way to bring your vision to life.
 
-Whiteboarding is used throughout the workplace to solve problems, visualize ideas, and define workflows. This process allows team to structure their thoughts in a public setting, where they can [generate actionable feedback](https://www.techstars.com/content/startup-next/effective-whiteboarding-can-enhance-teams-vision-success/). The whiteboard is much more than just a place to scribble out notes — it’s a critical element in the session, a place for mapping and brainstorming.
+Whiteboarding is used throughout the workplace to solve problems, visualize ideas, and define workflows. This process allows team to structure their thoughts in a public setting, where they can generate actionable feedback. The whiteboard is much more than just a place to scribble out notes — it’s a critical element in the session, a place for mapping and brainstorming.
 
 
 # What is whiteboarding?

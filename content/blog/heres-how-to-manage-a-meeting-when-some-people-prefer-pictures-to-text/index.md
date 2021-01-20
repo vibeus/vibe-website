@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-03-14
 tags: ["remote work", "presenting", "powerpoint"]
 draft: false
-desctiption: Adding a visual presentation style makes meetings more engaging.
+description: Adding a visual presentation style makes meetings more engaging.
 isfeatured: false
 ---
 

@@ -7,6 +7,7 @@ tags: ["meetings", "remote", "presentations"]
 draft: false
 isfeatured: false
 summary: Even if you currently lack a physical office space, a whiteboard like the Vibe board will provide you with everything you need to stay on task.
+description: Keeo your new business connected to prospects and new clients with a digital whiteboard.
 ---
 
 

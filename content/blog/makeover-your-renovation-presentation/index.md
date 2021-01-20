@@ -6,6 +6,7 @@ date: 2020-03-10
 tags: ["presentation", "presenting", "powerpoint"]
 draft: false
 isfeatured: false
+description: Using interactive technology during client presentations brings renovations to life.
 ---
 
 

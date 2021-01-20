@@ -26,7 +26,7 @@ There’s always a new event to explore or opportunity to learn something at Inf
 
 Kicking off, there’s a new location for the opening reception — [Pointe Orlando](http://www.pointeorlando.com/). This complex is home to a number of events spaces, dining experiences and more. We’re ready for some fun!
 
-In addition, InfoComm 2019 will feature free education sessions at the [Center Stage](https://www.infocommshow.org/education--conferences/center-stage), a hub for creative dialogues that will serve as a platform for leading thinkers and practitioners in several industries. These sessions are always free — no sign-up necessary — and hosted right in the heart of the conference.
+In addition, InfoComm 2019 will feature free education sessions at the Center Stage, a hub for creative dialogues that will serve as a platform for leading thinkers and practitioners in several industries. These sessions are always free — no sign-up necessary — and hosted right in the heart of the conference.
 
 This marks Vibe’s first appearance at the event as well. [Come visit us at Booth 3786](https://infocomm19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=770239) on west level 2 in the Exhibit Hall.
 
@@ -63,7 +63,7 @@ For the full lineup of events, check out the event explorer [here](https://www.c
 
 # Saying hi to everyone
 
-Without a doubt, our favorite part of InfoComm is meeting with fellow attendees and exhibitors. At this year’s event, the [Orange County Convention Center](https://www.occc.net/) will partner with [Hyatt Regency Orlando](https://www.hyatt.com/en-US/hotel/florida/hyatt-regency-orlando/mcoro) to offer a series of [industry-specific networking events](https://www.infocommshow.org/event-info/special-events/networking-receptions) for leaders in tech, retail, live events, and hospitality. There will also be a networking event designed to promote diversity.
+Without a doubt, our favorite part of InfoComm is meeting with fellow attendees and exhibitors. At this year’s event, the [Orange County Convention Center](https://www.occc.net/) will partner with [Hyatt Regency Orlando](https://www.hyatt.com/en-US/hotel/florida/hyatt-regency-orlando/mcoro) to offer a series of industry-specific networking events for leaders in tech, retail, live events, and hospitality. There will also be a networking event designed to promote diversity.
 
 In addition, there will be a Women’s Council breakfast on Thursday morning that regularly sells out (don’t worry gents, you’re encouraged to join as well). Add your registration early to [secure a spot](https://www.compusystems.com/servlet/EventExplorerServlet?ACTION=LOAD_SA_EVT_EXP&EVT_UID=208&EVT_EXP_IDENT=81ds7&SEARCH_FIELD_opd_id=WTB&SEARCH_KEYWORD=keyword%20search).
 
