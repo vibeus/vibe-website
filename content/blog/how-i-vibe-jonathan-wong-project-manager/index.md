@@ -1,8 +1,8 @@
 ---
-title: "How I Vibe: Jonathan **Wong,** **P.Eng, PMP, Project Manager**"
+title: "How I Vibe: Jonathan Wong, P.Eng, PMP, Project Manager"
 slug: how-i-vibe-jonathan-wong-project-manager
 author: Megan Snyder
-date: 2021-1-20
+date: 2021-01-20
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
 isfeatured: false

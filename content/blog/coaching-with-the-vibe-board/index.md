@@ -2,7 +2,7 @@
 title: "Coaching with the Vibe Board"
 slug: coaching-with-the-vibe-board
 author: Stephanie Prince
-date: 2021-1-12
+date: 2021-01-12
 tags: ["sports"]
 draft: false
 isfeatured: false

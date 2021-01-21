@@ -1,5 +1,5 @@
 ---
-title: "The Whiteboard for **Cooperative Learning**"
+title: "The Whiteboard for Cooperative Learning"
 slug: the-whiteboard-for-cooperative-learning
 author: Vibe Team
 date: 2020-05-11
