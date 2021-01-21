@@ -1,0 +1,28 @@
+{{ $playerId := default "video-column" .video.playerId }}
+{{ $triggerClassSelector := ".video-column-launcher" }}
+{{ if .video.triggerClass }}
+{{ $triggerClassSelector = printf "%s.%s" ".video-column-launcher" .video.triggerClass }}
+{{ end }}
+
+<div class="video-column column is-image">
+  <div class="video-column-launcher {{ with .video.triggerClass }}{{ . }}{{ end }}" data-target="{{ $playerId }}">
+    <figure class="image" id="{{ $playerId }}">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .video.placeholder) "desktop" "1280x" "tablet" "960x" "mobile" "750x" "options" "jpg") }}
+      {{ if .video.isVideoJS }}
+      <video id="{{ $playerId }}-player" class="video-js vjs-fluid" controls preload="auto" playsinline>
+        <source src="{{ .video.url }}" type="video/mp4" />
+
+      </video>
+      {{ else }}
+      <div id="{{ $playerId }}-iframe"></div>
+      {{ end }}
+    </figure>
+  </div>
+
+  {{ if .video.isVideoJS }}
+  {{ partial "common/video-player" (dict "playerId" $playerId "triggerClass" $triggerClassSelector "isInplace" true "isVideoJS" true) }}
+  {{ else }}
+  {{ partial "common/video-player" (dict "playerId" $playerId "videoId" .video.id "triggerClass" $triggerClassSelector "isInplace" true) }}
+  {{ end }}
+</div>
+

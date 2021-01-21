@@ -83,54 +83,100 @@ features:
     class: is-feature-5
 
 trusted:
-  title_part1: Trusted by 
+  title_part1: Trusted by   
   title_part2: 500+
-  title_part3:  companies all over the world.
+  title_part3: companies all over the world.
   content: Read more customer stories →
-  url: xxxxxxx
+  url: /customer/
   testimonials:
-    - title: Sports Training
-      name: Ian Westermann,
-      content: Founder of Essential Tennis
-      figure: img/home/feature-sim.png
-      video: xxxxx
-      url: xxxxxxxx
-      class: blog-1
-    - title: Marketing Agency
-      name: Adam Elbendary,
-      content: CEO of Cleverman, Inc.
-      figure: xxxxxxx
-      img: xxxxx
-      url: xxxxxxxx
-      class: blog-2
-    - title: Education 
-      name: Henrt Silverman,
-      content: Professor of Medicine
-      figure: xxxxxxx
-      img: xxxxx
-      url: xxxxxxxx
-      class: blog-3
-    - title: Education
-      name: Arek Puzia,
-      content: Professor of Diablo Valley College
-      figure: xxxxxxx
-      img: xxxxx
-      url: xxxxxxxx
-      class: blog-4
-    - title: Consulting
-      name: Peter Parker, 
-      content: Advanced Analytics Practice Director at Redapt
-      figure: xxxxxxx
-      img: xxxxx
-      url: xxxxxxxx
-      class: blog-5
-    - title: Business Coaching
-      name: Mark Smith,
-      content: CEO of Leadership Resourse Institute
-      figure: xxxxxxx
-      img: xxxxx
-      url: xxxxxxxx
-      class: blog-6
+    - item: &id01
+        title: Sports Training
+        name: Ian Westermann,
+        content: Founder of Essential Tennis
+        figure: img/customer-entry/img1.png
+        logo: img/customer-entry/logo1.png
+        url: xxxxxxxx
+        video:
+          playerId: unbox-tablet
+          triggerClass: unbox-tablet
+          id: OXzhLPXXj14
+          placeholder: img/customer-entry/img1.png
+    - item: &id02
+        title: Marketing Agency
+        name: Adam Elbendary,
+        content: CEO of Cleverman, Inc.
+        logo: img/customer-entry/logo2.png
+        figure: img/customer-entry/img2.png
+        url: xxxxxxxx
+    - item: &id03
+        author:
+          name1: Sean Foster
+          name2: eFocus
+        is_content: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
+    - item: &id04
+        title: Education 
+        name: Henrt Silverman,
+        content: Professor of Medicine
+        logo: img/customer-entry/logo4.png
+        figure: img/customer-entry/img4.png
+        url: xxxxxxxx
+    - item: &id05
+        title: Education
+        name: Arek Puzia,
+        content: Professor of Diablo Valley College
+        logo: img/customer-entry/logo5.png
+        figure: img/customer-entry/img5.png
+        url: xxxxxxxx
+    - item: &id06
+        title: Consulting
+        name: Peter Parker, 
+        content: Advanced Analytics Practice Director at Redapt
+        logo: img/customer-entry/logo6.png
+        figure: img/customer-entry/img6.png
+        url: xxxxxxxx
+    - item: &id07
+        author:
+          name1: Karen L. Brady
+          name2: Estate Planning Attorney, Arvada, Colorado
+        is_content: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
+        url: /customer/
+    - item: &id08
+        title: Business Coaching
+        name: Mark Smith,
+        content: CEO of Leadership Resourse Institute
+        logo: img/customer-entry/logo8.png
+        figure: img/customer-entry/img8.png
+        url: xxxxxxxx
+  testimonials_for_fullHD:
+    - - - item: *id01
+          class: is-reversed
+      - - item: *id02
+      - - testimonial: *id03
+        - item: *id04
+          class: is-reversed
+    - - - item: *id05
+      - - item: *id06
+          class: is-reversed
+        - testimonial: *id07
+      - - item: *id08
+  testimonials_for_tablet:
+    - - item: *id01
+      - item: *id02
+    - - item: *id03
+      - item: *id04
+    - - item: *id05
+      - item: *id06
+    - - item: *id07
+      - item: *id08
+  testimonials_for_mobile:
+    - item: *id01
+    - item: *id02
+    - item: *id03
+    - item: *id04
+    - item: *id05
+    - item: *id06
+    - item: *id07
+    - item: *id08
 
 trust:
   title: i18n-content-_index-trust-title

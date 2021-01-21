@@ -219,7 +219,6 @@
   background-color: $vibe-white
   .title
     text-align: center
-    border: 1px solid
     width: 650px
     margin: auto
     span::after   
@@ -242,53 +241,152 @@
     &:hover
       color: $primary
   .container
-    max-width: 100%
-    height: 1260px
-    border: 1px solid
+    max-width: 1600px
+    width: 80%
     .glide
       background-color: white
       min-height: 660px
-      width: 90%
-      border: 1px solid orange
+      width: 100%
       margin: auto
       margin-top: 40px         
       .glide__slides
+        background-color: #F4F4F4
         .glide__slide
           .columns
+            width: 100%
+            margin: auto
             .column
-              .Vertical
+              padding: 7.5px
+              flex: none
+              overflow: hidden
+              .is-column.is-reversed
+                flex-direction: column-reverse 
+              .is-column
                 display: flex
                 flex-direction: column
-                &:first-child
-                  flex-direction: column-reverse  
-                .is-horizontal
+                .testimonial
+                  padding-bottom: 30px
+                  box-sizing: content-box
+                  background-color: #FFCC00
+                  margin-bottom: 20px
+                  margin-top: 25px
+                  height: 310px
+                  .quote-mark
+                    position: absolute
+                    &.is-left
+                      top: 3%
+                    &.is-right
+                      right: 8%
+                      top: 40%
+                  .content
+                    padding: 20px 0px 20px 0px
+                    color: black
+                    height: 100%
+                    margin-left: 5%
+                    text-align: left
+                    .is-body
+                      font-weight: 400
+                      font-family: Stratos
+                      width: 62%
+                      margin-left: 10%
+                    .name2
+                      font-size: 14px
+                      font-weight: 400
+                      font-family: Stratos
+                      position: absolute
+                      top: 65%
+                      margin-left: 10%
+                    .name1
+                      font-weight: 600
+                      font-size: 14px
+                      position: absolute
+                      top: 60%
+                      margin-left: 10%
+                    .quote-mark svg
+                      width: 32px
+                .is-row
+                  background-color: white
                   flex-direction: row
-                .is-content
-                  border: 1px solid
-                  .is-blog-title
-                    font-family: Sans-serif
-                    font-size: 1em
-                    font-weight: 800
-                    color: grey
-                    height: 50px
-                  .is-blog-name
-                    font-family: Sans-serif
-                    font-size: 1em
-                    font-weight: 800
-                  .is-blog-content
-                .is-blog-logo
-                  border: 1px solid
-              .is-media
-
-
-
-              
-                
+                  display: flex
+                  padding-bottom: 15px 
+                  padding-top: 15px
+                  justify-content: space-between
+                  .is-content
+                    margin-left: 25px
+                    font-size: 14px
+                    .is-blog-title
+                      font-family: Stratos
+                      font-size: 1em
+                      font-weight: 600
+                      color: grey
+                      margin-bottom: 5px
+                    .is-blog-name
+                      font-family: Stratos
+                      font-size: 1em
+                      font-weight: 600
+                    .is-blog-content
+                      font-family: Stratos
+                      font-weight: 400
+                  .is-blog-logo
+                    margin-left: 5px   
+                    margin-right: 15px
+                .is-blog-figure
+                  margin-bottom: -5px
+        .glide-slide-0 .columns
+          .column-0
+            width: 40%
+            margin-top: 30px
+            .video-column
+              padding: 0
+              width: 100%
+              .image     
+                position: relative
+                z-index: 5
+                top: 0px
+                width: 100%
+                height: 100%
+                max-width: none
+                cursor: pointer
+                max-width: 628px
+                .video-js, iframe
+                  +absolute-fill
+          .column-1
+            width: 25%
+            margin-top: 100px
+            margin-bottom: 50px
+          .column-2 
+            width: 35%
+            .is-body
+              font-size: 16px
+        .glide-slide-1 .columns
+          .column-0
+            width: 40%
+            margin-top: 70px
+          .column-1
+            margin-top: 30px
+            width: 35%
+            .is-body
+              font-size: 18px
+          .column-2
+            margin-top: 70px
+            width: 25%
+    .glide-dots
+      margin-top: 8px
+      margin-bottom: 20px
+      +mobile
+        margin-bottom: -30px
+      text-align: center
+      .icon
+        cursor: pointer
+        opacity: 0.2
+        &.is-active
+          opacity: 0.6      
     .columns .column
       @media screen and (min-width: 1280px)
         width: 12.5%
-
-
+    .is-customers
+      max-width: 90%  
+      margin: auto
 
 .section.is-trust
   +vertical-padding(120px, 114px, 60px, 60px)
