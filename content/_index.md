@@ -1,5 +1,6 @@
 ---
 title: i18n-content-_index-title
+description: Vibe Interactive Whiteboard for Remote Collaboration
 stylesPath: css/home.sass
 noFixedNavbar: true
 aliases:

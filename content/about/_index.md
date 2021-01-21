@@ -38,7 +38,7 @@ team:
     - name: i18n-content-about-_index-team-members-i_5-name
       title: i18n-content-about-_index-team-members-i_5-title
       figure: img/about/katie.png
-      alt_text: Katie Kalafus, Director of Customer Success
+      alt_text: Katie Kalafus, Head of Customer Experience
     - name: i18n-content-about-_index-team-members-i_6-name
       title: i18n-content-about-_index-team-members-i_6-title
       figure: img/about/laura.png

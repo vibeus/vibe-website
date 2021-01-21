@@ -1,6 +1,7 @@
 ---
 title: Vibe Term of Use
 url: /term-of-use/
+description: Terms of Use for Vibe Inc. Products and Services
 aliases:
   - /term/
   - /documents/term-of-use/

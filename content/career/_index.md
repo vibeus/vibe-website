@@ -1,5 +1,6 @@
 ---
 title: i18n-content-career-_index-title
+description: Work with us. Careers at Vibe.
 stylesPath: css/career.sass
 hero:
   title: i18n-content-career-_index-hero-title

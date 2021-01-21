@@ -1,5 +1,6 @@
 ---
 title: Thanks for requesting our demo video.
+description: Interactive Demo Videos for the Vibe Board. Choose your own Adventure.
 stylesPath: css/video-demo.sass
 layout: video-demo
 aliases:

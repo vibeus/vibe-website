@@ -1,5 +1,6 @@
 ---
 title: Working from home, reinvented
+description: Digital whiteboard technology for remote work and team collaboration
 stylesPath: css/work-from-home.sass
 layout: work-from-home
 

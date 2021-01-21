@@ -1,6 +1,6 @@
 ---
 title: Request a quote
-description: Contact Vibe Support and Sales with any questions you may have. We're here for you!
+description: Request a quote, get a PO, or help with a bulk order. We're here for you!
 layout: contact
 stylesPath: css/request-a-quote.sass
 hero:

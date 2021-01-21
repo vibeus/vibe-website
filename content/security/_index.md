@@ -1,5 +1,6 @@
 ---
 stylesPath: css/security.sass
+description: Security and Privacy comes first for Vibe Technology
 title: i18n-content-security-_index-title
 aliases:
   - /documents/security/

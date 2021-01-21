@@ -1,6 +1,6 @@
 ---
 title: Contact us
-description: Contact Vibe Support and Sales with any questions you may have. We're here for you!
+description: Contact Vibe Sales with any questions you may have. We're here for you!
 layout: contact
 stylesPath: css/contact.sass
 hero:

@@ -1,7 +1,7 @@
 ---
 url: /distance-learning-ebook
 title: See Vibe for Yourself
-description: Sign up for a video demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
+description: The Complete Guide to Distance Learning
 stylesPath: css/playbook.sass
 playbook:
   figure: img/playbook/distance-learning-ebook.png

@@ -1,6 +1,7 @@
 ---
 url: /remote-whiteboard-sharing/
 title: &title Benefits of Remote Whiteboard Sharing
+description: Want to know how to do remote whiteboard sharing? Find out all of he benefits in this guide.
 content_link_target_blank: true
 
 hero:
