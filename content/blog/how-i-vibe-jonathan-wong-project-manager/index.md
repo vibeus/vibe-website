@@ -1,5 +1,5 @@
 ---
-title: "How I Vibe: Jonathan Wong**,****P.Eng, PMP, Project Manager for Smith Bros. & Wilson, Ltd.**"
+title: "How I Vibe: Jonathan **Wong,** **P.Eng, PMP, Project Manager**"
 slug: how-i-vibe-jonathan-wong-project-manager
 author: Megan Snyder
 date: 2021-1-20
@@ -11,6 +11,7 @@ description: Learn how construction project management software paired with a Vi
 ---
 
 
+## **How I Vibe: Jonathan Wong****,** **P.Eng, PMP, Project Manager for Smith Bros. & Wilson, Ltd.**
 
 Jonathan Wong, a planner/project manager for [Smith Bros. & Wilson, Ltd.](https://www.sbw.ca/), had a new type of project on his hands at the beginning of the coronavirus pandemic.
 
