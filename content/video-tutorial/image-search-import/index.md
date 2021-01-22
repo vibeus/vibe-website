@@ -3,7 +3,8 @@ title: "Image Search & Import"
 slug: image-search-import
 date: 2021-01-22
 draft: false
-isfeatured: false
+isfeatured: true
+summary: You can browse the images on 'Google Image', and import into the canvas.
 videoId: NyVSnrVr5nE
 allowIndex: false
 no_sitemap: true

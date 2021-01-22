@@ -1,14 +1,16 @@
 ---
-title: "Navigation Tips"
+title: "Microsoft Teams Overview"
 slug: microsoft-teams-overview
-date: 2021-01-08
+date: 2020-05-08
 draft: false
 isfeatured: false
-videoId: cv0naGLJwGo
+summary: Use Microsoft Teams? Come to see how to have better collaboration with the aid of Vibe. 
+videoId: hRNAZdKkcaM
 allowIndex: false
 no_sitemap: true
 ---
 
 
 
-[https://youtu.be/cv0naGLJwGo](https://youtu.be/cv0naGLJwGo)
+Use Microsoft Teams? Come to see how to have better collaboration with the aid of Vibe. 
+
