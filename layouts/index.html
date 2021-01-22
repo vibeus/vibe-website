@@ -138,67 +138,10 @@
       <a href="{{ .url | relLangURL }}">{{ .content }}</a>
       {{ end }}
     </div>
-      <div class="glide">
-       <div data-glide-el="track" class="glide__track">
-         <ul class="glide__slides">
-           {{ range $idx1, $val := .testimonials_for_fullHD }}
-           <li class="glide__slide glide-slide-{{ $idx1 }}">
-             <div class="columns">
-             {{ range $idx1, $val := . }}
-               <div class="column column-{{ $idx1 }}">
-                 {{ range . }}
-                   <div class="is-column{{ with .class }} {{ . }}{{ end }}">
-                   {{ if .testimonial }}
-                   {{ partial "common/testimonial-entry" .testimonial }}
-                   {{ end }}
-                     {{ with .item }} 
-                     <div class="is-row">
-                       <div class="is-content">
-                         {{ with .title }}
-                         <p class="is-blog-title" >{{ . | markdownify }}</p> 
-                         {{ end }}
-                         {{ with .name }}
-                         <span class="is-blog-name" >{{ . | markdownify }}</span>
-                         {{ end }}
-                         {{ with .content }}
-                         <span class="is-blog-content" >{{ . | markdownify }}</span>
-                         {{ end }}  
-                       </div>  
-                       <div class="is-blog-logo">
-                         {{ with .logo }}
-                         {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-                         {{ end }}  
-                       </div>
-                     </div> 
-                     <div class="is-blog-figure">
-                       {{ if .video }}
-                       {{ partial "customer-video" . }}
-                       {{ else }}
-                       {{ with .figure }}
-                       {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-                       {{ end }}
-                       {{ end }}
-                     </div>
-                     {{ end }}
-                   </div>
-                 {{ end }}
-               </div>  
-             {{ end }}  
-             </div>
-           </li>
-           {{ end }}
-         </ul>
-       </div>
-      </div>
-      <div class="glide-dots">
-        {{ range .testimonials_for_fullHD}}
-        <span class="icon is-small">
-          <svg width="8" height="8" viewBox="0 0 8 8" fill="#111111" xmlns="http://www.w3.org/2000/svg">
-            <circle r="3.8" transform="matrix(1 0 0 -1 3.8 3.8001)" />
-          </svg>
-        </span>
-        {{ end }}
-      </div>
+    <div class="glide_desktop">{{ partial "_customer-entry" .testimonials_for_desktop }}</div>
+    <div class="glide_tablet">{{ partial "_customer-entry" .testimonials_for_tablet }}</div>
+    <div class="glide_mobile">{{ partial "_customer-entry" .testimonials_for_mobile }}</div>
+    
    {{ partial "customers" $.Page }}
   </div>
 </section>

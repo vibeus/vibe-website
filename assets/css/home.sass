@@ -219,7 +219,7 @@
   background-color: $vibe-white
   .title
     text-align: center
-    width: 650px
+    width: 55%
     margin: auto
     span::after   
       content: ""
@@ -243,14 +243,45 @@
   .container
     max-width: 1600px
     width: 80%
+    .glide_desktop, .glide_tablet, .glide_mobile
+      display: none
+    @media screen and (min-width: 1200px)
+      .glide_desktop
+        display: block
+        .glide-slide-0
+            .column-0
+              width: 40%
+              margin-top: 30px
+            .column-1
+              width: 25%
+              margin-top: 100px
+              margin-bottom: 50px
+            .column-2 
+              width: 35%
+              .content
+                font-size: 16px
+      .glide-slide-1
+        .column-0
+          width: 40%
+        .column-1
+          width: 35%
+          .content
+            font-size: 18px
+        .column-2
+          width: 25%
+    @media screen and (max-width: 1199px) and (min-width: 768px)
+      .glide_tablet
+        display: block
+    @media screen and (max-width: 767px)
+      .glide_mobile
+        display: block
     .glide
-      background-color: white
+      background-color: $vibe-white
       min-height: 660px
       width: 100%
       margin: auto
       margin-top: 40px         
       .glide__slides
-        background-color: #F4F4F4
         .glide__slide
           .columns
             width: 100%
@@ -265,46 +296,36 @@
                 display: flex
                 flex-direction: column
                 .testimonial
-                  padding-bottom: 30px
-                  box-sizing: content-box
-                  background-color: #FFCC00
+                  width: 100%
+                  background-color: $vibe-yellow
                   margin-bottom: 20px
                   margin-top: 25px
-                  height: 310px
-                  .quote-mark
-                    position: absolute
-                    &.is-left
-                      top: 3%
-                    &.is-right
-                      right: 8%
-                      top: 40%
                   .content
-                    padding: 20px 0px 20px 0px
+                    padding-left: 18px
                     color: black
-                    height: 100%
-                    margin-left: 5%
+                    font-weight: 400
                     text-align: left
-                    .is-body
-                      font-weight: 400
-                      font-family: Stratos
-                      width: 62%
-                      margin-left: 10%
-                    .name2
-                      font-size: 14px
-                      font-weight: 400
-                      font-family: Stratos
-                      position: absolute
-                      top: 65%
-                      margin-left: 10%
-                    .name1
-                      font-weight: 600
-                      font-size: 14px
-                      position: absolute
-                      top: 60%
-                      margin-left: 10%
+                    width: 75%
+                    margin-left: 10%
+                    font-family: Stratos 
+                    padding-right: 22px
+                    margin-bottom: 0
+                    .quote-mark
+                      width: 30px
+                      &.is-left
+                        top: 5%
+                        left: -5%
+                      &.is-right
+                        right: 5%
+                        bottom: 15%
+                  .author
+                    justify-content: flex-start
+                    padding-left: 14%
+                    margin-top: -5%
+                    padding-bottom: 20%
                     .quote-mark svg
                       width: 32px
-                .is-row
+                .blog-content
                   background-color: white
                   flex-direction: row
                   display: flex
@@ -332,44 +353,18 @@
                     margin-right: 15px
                 .is-blog-figure
                   margin-bottom: -5px
-        .glide-slide-0 .columns
-          .column-0
-            width: 40%
-            margin-top: 30px
-            .video-column
-              padding: 0
-              width: 100%
-              .image     
-                position: relative
-                z-index: 5
-                top: 0px
-                width: 100%
-                height: 100%
-                max-width: none
-                cursor: pointer
-                max-width: 628px
-                .video-js, iframe
-                  +absolute-fill
-          .column-1
-            width: 25%
-            margin-top: 100px
-            margin-bottom: 50px
-          .column-2 
-            width: 35%
-            .is-body
-              font-size: 16px
-        .glide-slide-1 .columns
-          .column-0
-            width: 40%
-            margin-top: 70px
-          .column-1
-            margin-top: 30px
-            width: 35%
-            .is-body
-              font-size: 18px
-          .column-2
-            margin-top: 70px
-            width: 25%
+                .video-column
+                  padding: 0
+                  width: 100%
+                  .image     
+                    position: relative
+                    z-index: 5
+                    top: 0px
+                    width: 100%
+                    cursor: pointer
+                    max-width: 628px
+                    .video-js, iframe
+                      +absolute-fill
     .glide-dots
       margin-top: 8px
       margin-bottom: 20px
@@ -381,7 +376,7 @@
         opacity: 0.2
         &.is-active
           opacity: 0.6      
-    .columns .column
+    .is-customers .column
       @media screen and (min-width: 1280px)
         width: 12.5%
     .is-customers

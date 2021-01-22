@@ -93,7 +93,9 @@ trusted:
         title: Sports Training
         name: Ian Westermann,
         content: Founder of Essential Tennis
-        figure: img/customer-entry/img1.png
+        figure:
+          for_desktop: img/customer-entry/img1.png
+          for_mobile: img/customer-entry/mobile-img1.png
         logo: img/customer-entry/logo1.png
         url: xxxxxxxx
         video:
@@ -101,53 +103,68 @@ trusted:
           triggerClass: unbox-tablet
           id: OXzhLPXXj14
           placeholder: img/customer-entry/img1.png
+          partial: "customer-video"
     - item: &id02
         title: Marketing Agency
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
         logo: img/customer-entry/logo2.png
-        figure: img/customer-entry/img2.png
+        figure:
+          for_desktop: img/customer-entry/img2.png
+          for_mobile: img/customer-entry/mobile-img2.png
         url: xxxxxxxx
     - item: &id03
         author:
-          name1: Sean Foster
-          name2: eFocus
-        is_content: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
+          name: |
+                Sean Foster
+
+                eFocus
+        body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
+        partial: "common/testimonial"
     - item: &id04
         title: Education 
         name: Henrt Silverman,
         content: Professor of Medicine
         logo: img/customer-entry/logo4.png
-        figure: img/customer-entry/img4.png
+        figure:
+          for_desktop: img/customer-entry/img4.png
         url: xxxxxxxx
     - item: &id05
         title: Education
         name: Arek Puzia,
         content: Professor of Diablo Valley College
         logo: img/customer-entry/logo5.png
-        figure: img/customer-entry/img5.png
+        figure:
+          for_desktop: img/customer-entry/img5.png
+          for_mobile: img/customer-entry/mobile-img3.png
         url: xxxxxxxx
     - item: &id06
         title: Consulting
         name: Peter Parker, 
         content: Advanced Analytics Practice Director at Redapt
         logo: img/customer-entry/logo6.png
-        figure: img/customer-entry/img6.png
+        figure:
+          for_desktop: img/customer-entry/img6.png
+          for_mobile: img/customer-entry/mobile-img4.png
         url: xxxxxxxx
     - item: &id07
         author:
-          name1: Karen L. Brady
-          name2: Estate Planning Attorney, Arvada, Colorado
-        is_content: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-        url: /customer/
+          name: |
+                 Karen L. Brady
+                 
+                 Estate Planning Attorney, Arvada, Colorado
+        body: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
+        partial: "common/testimonial"
     - item: &id08
         title: Business Coaching
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
         logo: img/customer-entry/logo8.png
-        figure: img/customer-entry/img8.png
+        figure:
+          for_desktop: img/customer-entry/img8.png
+          for_mobile: img/customer-entry/mobile-img5.png
         url: xxxxxxxx
-  testimonials_for_fullHD:
+  testimonials_for_desktop:
     - - - item: *id01
           class: is-reversed
       - - item: *id02
@@ -160,23 +177,20 @@ trusted:
         - testimonial: *id07
       - - item: *id08
   testimonials_for_tablet:
-    - - item: *id01
-      - item: *id02
-    - - item: *id03
-      - item: *id04
-    - - item: *id05
-      - item: *id06
-    - - item: *id07
-      - item: *id08
+    - - - item: *id01
+      - - item: *id02
+    - - - testimonial: *id03
+      - - item: *id04
+    - - - item: *id05
+      - - item: *id06
+    - - - testimonial: *id07
+      - - item: *id08
   testimonials_for_mobile:
-    - item: *id01
-    - item: *id02
-    - item: *id03
-    - item: *id04
-    - item: *id05
-    - item: *id06
-    - item: *id07
-    - item: *id08
+    - - - item: *id01
+    - - - item: *id02
+    - - - item: *id05
+    - - - item: *id06
+    - - - item: *id08
 
 trust:
   title: i18n-content-_index-trust-title

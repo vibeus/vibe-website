@@ -1,0 +1,43 @@
+{{ range $idx1, $val := .testimonials_for_tablet }}
+<li class="glide__slide glide-slide-{{ $idx1 }}">
+  <div class="columns">
+  {{ range $idx1, $val := . }}
+    <div class="column column-{{ $idx1 }}">
+      {{ range . }}
+        <div class="Vertical{{ with .class }} {{ . }}{{ end }}">
+          {{ with .item }} 
+          <div class="horizontal">
+            <div class="is-content">
+              {{ with .title }}
+              <p class="is-blog-title" >{{ . | markdownify }}</p> 
+              {{ end }}
+              {{ with .name }}
+              <span class="is-blog-name" >{{ . | markdownify }}</span>
+              {{ end }}
+              {{ with .content }}
+              <span class="is-blog-content" >{{ . | markdownify }}</span>
+              {{ end }}  
+            </div>  
+            <div class="is-blog-logo">
+              {{ with .logo }}
+              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+              {{ end }}  
+            </div>
+          </div> 
+          <div class="is-blog-figure">
+            {{ if .video }}
+            {{ partial "customer-video" . }}
+            {{ else }}
+            {{ with .figure }}
+            {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+            {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>  
+  {{ end }}  
+  </div>
+</li>
+{{ end }}
