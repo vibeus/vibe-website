@@ -138,8 +138,6 @@
       <a href="{{ .url | relLangURL }}">{{ .content }}</a>
       {{ end }}
     </div>
-    <div class="glide_desktop">{{ partial "_customer-entry" .testimonials_for_desktop }}</div>
-    <div class="glide_tablet">{{ partial "_customer-entry" .testimonials_for_tablet }}</div>
     <div class="glide_mobile">{{ partial "_customer-entry" .testimonials_for_mobile }}</div>
     
    {{ partial "customers" $.Page }}

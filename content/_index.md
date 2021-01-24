@@ -93,9 +93,9 @@ trusted:
         title: Sports Training
         name: Ian Westermann,
         content: Founder of Essential Tennis
-        figure:
-          for_desktop: img/customer-entry/img1.png
-          for_mobile: img/customer-entry/mobile-img1.png
+        # figure:
+        #   for_desktop: img/customer-entry/img1.png
+        #   for_mobile: img/customer-entry/mobile-img1.png
         logo: img/customer-entry/logo1.png
         url: xxxxxxxx
         video:
@@ -109,9 +109,9 @@ trusted:
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
         logo: img/customer-entry/logo2.png
-        figure:
-          for_desktop: img/customer-entry/img2.png
-          for_mobile: img/customer-entry/mobile-img2.png
+        figure: img/customer-entry/mobile-img2.png
+          # for_desktop: img/customer-entry/img2.png
+          # for_mobile: img/customer-entry/mobile-img2.png
         url: xxxxxxxx
     - item: &id03
         author:
@@ -126,26 +126,26 @@ trusted:
         name: Henrt Silverman,
         content: Professor of Medicine
         logo: img/customer-entry/logo4.png
-        figure:
-          for_desktop: img/customer-entry/img4.png
+        figure: img/customer-entry/img4.png
+          # for_desktop: img/customer-entry/img4.png
         url: xxxxxxxx
     - item: &id05
         title: Education
         name: Arek Puzia,
         content: Professor of Diablo Valley College
         logo: img/customer-entry/logo5.png
-        figure:
-          for_desktop: img/customer-entry/img5.png
-          for_mobile: img/customer-entry/mobile-img3.png
+        figure: img/customer-entry/mobile-img3.png
+          # for_desktop: img/customer-entry/img5.png
+          # for_mobile: img/customer-entry/mobile-img3.png
         url: xxxxxxxx
     - item: &id06
         title: Consulting
         name: Peter Parker, 
         content: Advanced Analytics Practice Director at Redapt
         logo: img/customer-entry/logo6.png
-        figure:
-          for_desktop: img/customer-entry/img6.png
-          for_mobile: img/customer-entry/mobile-img4.png
+        figure: img/customer-entry/mobile-img4.png
+          # for_desktop: img/customer-entry/img6.png
+          # for_mobile: img/customer-entry/mobile-img4.png
         url: xxxxxxxx
     - item: &id07
         author:
@@ -160,9 +160,9 @@ trusted:
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
         logo: img/customer-entry/logo8.png
-        figure:
-          for_desktop: img/customer-entry/img8.png
-          for_mobile: img/customer-entry/mobile-img5.png
+        figure: img/customer-entry/mobile-img5.png
+          # for_desktop: img/customer-entry/img8.png
+          # for_mobile: img/customer-entry/mobile-img5.png
         url: xxxxxxxx
   testimonials_for_desktop:
     - - - item: *id01

@@ -18,10 +18,11 @@
   </div>
 </div> 
 <div class="blog-figure">
-  {{ partial .partial }}
+  {{ if .video }}
+  {{ partial "customer-video" . }}
+  {{ end }}
   {{ with .figure }}
   {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-  {{ end }}
   {{ end }}
 </div>
 {{ end }}
