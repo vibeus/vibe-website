@@ -2,7 +2,7 @@
 title: "Top Office Monitors Of 2021"
 slug: top-office-monitors-of-2021
 author: Vibe Team
-date: 2020-01-22
+date: 2021-01-22
 tags: ["home office"]
 draft: false
 isfeatured: false
