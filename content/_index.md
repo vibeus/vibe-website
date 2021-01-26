@@ -82,9 +82,9 @@ features:
       video: //dl.vibe.us/assets/video/vibe-install.mp4
     class: is-feature-5
 
-trusted:
+trust:
   title_part1: Trusted by   
-  title_part2: 500+
+  title_part2: 900+
   title_part3: companies all over the world.
   content: Read more customer stories →
   url: /customer/
@@ -93,97 +93,120 @@ trusted:
         title: Sports Training
         name: Ian Westermann,
         content: Founder of Essential Tennis
-        # figure:
-        #   for_desktop: img/customer-entry/img1.png
-        #   for_mobile: img/customer-entry/mobile-img1.png
+        figure:
+          - video:
+              Id: OXzhLPXXj14
         logo: img/customer-entry/logo1.png
-        url: xxxxxxxx
-        video:
-          playerId: unbox-tablet
-          triggerClass: unbox-tablet
-          id: OXzhLPXXj14
-          placeholder: img/customer-entry/img1.png
-          partial: "customer-video"
+        partial: "customer-story-card"
     - item: &id02
         title: Marketing Agency
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
         logo: img/customer-entry/logo2.png
-        figure: img/customer-entry/mobile-img2.png
-          # for_desktop: img/customer-entry/img2.png
-          # for_mobile: img/customer-entry/mobile-img2.png
-        url: xxxxxxxx
+        figure:
+          - url: img/customer-entry/img2.png
+            class: figure-for-desktop
+          - url: img/customer-entry/mobile-img2.png
+            class: figure-for-mobile
+          - url: img/customer-entry/tablet-img2.png
+            class: figure-for-tablet
+        url: "https://vibe.us/blog/how-i-vibe-adam-elbendary/"
+        partial: "customer-story-card"
     - item: &id03
-        author:
-          name: |
-                Sean Foster
+        testimonials:
+          - author:
+              name: |
+                    Sean Foster
 
-                eFocus
-        body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
-        partial: "common/testimonial"
+                    eFocus
+            body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
+        partial: "common/testimonial-section"
     - item: &id04
         title: Education 
         name: Henrt Silverman,
         content: Professor of Medicine
         logo: img/customer-entry/logo4.png
-        figure: img/customer-entry/img4.png
-          # for_desktop: img/customer-entry/img4.png
-        url: xxxxxxxx
+        figure: 
+          - url: img/customer-entry/img4.png
+            class: figure-for-desktop
+          - url: img/customer-entry/tablet-img4.png
+            class: figure-for-tablet
+        url: "https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/"
+        partial: "customer-story-card"
     - item: &id05
         title: Education
         name: Arek Puzia,
         content: Professor of Diablo Valley College
         logo: img/customer-entry/logo5.png
-        figure: img/customer-entry/mobile-img3.png
-          # for_desktop: img/customer-entry/img5.png
-          # for_mobile: img/customer-entry/mobile-img3.png
-        url: xxxxxxxx
+        figure:
+          - url: img/customer-entry/img5.png
+            class: figure-for-desktop
+          - url: img/customer-entry/mobile-img3.png
+            class: figure-for-mobile
+          - url: img/customer-entry/tablet-img5.png
+            class: figure-for-tablet
+        url: "https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/"
+        partial: "customer-story-card"
     - item: &id06
         title: Consulting
         name: Peter Parker, 
         content: Advanced Analytics Practice Director at Redapt
         logo: img/customer-entry/logo6.png
-        figure: img/customer-entry/mobile-img4.png
-          # for_desktop: img/customer-entry/img6.png
-          # for_mobile: img/customer-entry/mobile-img4.png
-        url: xxxxxxxx
+        figure: 
+          - url: img/customer-entry/img6.png
+            class: figure-for-desktop
+          - url: img/customer-entry/mobile-img4.png
+            class: figure-for-mobile
+          - url: img/customer-entry/tablet-img6.png
+            class: figure-for-tablet
+        url: "https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/"
+        partial: "customer-story-card"
     - item: &id07
-        author:
-          name: |
-                 Karen L. Brady
-                 
-                 Estate Planning Attorney, Arvada, Colorado
-        body: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-        partial: "common/testimonial"
+        testimonials:
+          - author:
+              name: |
+                Karen L. Brady
+
+                Estate Planning Attorney, Arvada, Colorado
+            body: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
+        partial: "common/testimonial-section"
     - item: &id08
         title: Business Coaching
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
         logo: img/customer-entry/logo8.png
-        figure: img/customer-entry/mobile-img5.png
-          # for_desktop: img/customer-entry/img8.png
-          # for_mobile: img/customer-entry/mobile-img5.png
-        url: xxxxxxxx
+        figure: 
+          - url: img/customer-entry/img8.png
+            class: figure-for-desktop
+          - url: img/customer-entry/mobile-img5.png
+            class: figure-for-mobile
+          - url: img/customer-entry/tablet-img8.png
+            class: figure-for-tablet
+        url: "https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/"
+        partial: "customer-story-card"
   testimonials_for_desktop:
     - - - item: *id01
           class: is-reversed
       - - item: *id02
-      - - testimonial: *id03
+      - - item: *id03
         - item: *id04
           class: is-reversed
     - - - item: *id05
       - - item: *id06
           class: is-reversed
-        - testimonial: *id07
+        - item: *id07
       - - item: *id08
   testimonials_for_tablet:
     - - - item: *id01
+          class: is-reversed
       - - item: *id02
-    - - - testimonial: *id03
-      - - item: *id04
-    - - - item: *id05
-      - - item: *id06
-    - - - testimonial: *id07
+    - - - item: *id03
+        - item: *id04
+          class: is-reversed
+      - - item: *id05
+    - - - item: *id06
+          class: is-reversed
+        - item: *id07
       - - item: *id08
   testimonials_for_mobile:
     - - - item: *id01
@@ -192,33 +215,6 @@ trusted:
     - - - item: *id06
     - - - item: *id08
 
-trust:
-  title: i18n-content-_index-trust-title
-  testimonials:
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_0-author-name
-      body: i18n-content-_index-trust-testimonials-i_0-body
-      url: /customer/
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_1-author-name
-      body: i18n-content-_index-trust-testimonials-i_1-body
-      url: /customer/
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_2-author-name
-      body: i18n-content-_index-trust-testimonials-i_2-body
-      url: /customer/
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_3-author-name
-      body: i18n-content-_index-trust-testimonials-i_3-body
-      url: /customer/
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_4-author-name
-      body: i18n-content-_index-trust-testimonials-i_4-body
-      url: /customer/
-    - author:
-        name: i18n-content-_index-trust-testimonials-i_5-author-name
-      body: i18n-content-_index-trust-testimonials-i_5-body
-      url: /customer/
 bottom_cta:
   title: i18n-content-_index-bottom_cta-title
   cta:
