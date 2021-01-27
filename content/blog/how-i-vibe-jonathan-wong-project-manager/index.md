@@ -14,6 +14,10 @@ description: Learn how construction project management software paired with a Vi
 
 Jonathan Wong, a planner/project manager for [Smith Bros. & Wilson, Ltd.](https://www.sbw.ca/), had a new type of project on his hands at the beginning of the coronavirus pandemic.
 
+
+{{< common/srcset "image-1.jpg" "Engineers project managing a construction plan with Vibe digital whiteboard" >}}
+
+
 Normally, Wong would assist in planning any number of construction projects for the Construction Management company based out of Vancouver, British Columbia. But since he works at the head office and project teams work on remote sites, he had a new task: find a [collaborative solution](https://vibe.us/lp/scenario-engineering/) the entire team could easily adopt to continuously improve daily operations utilizing emerging technologies 
 
 Adding to the challenge was that many of Wong’s co-workers still preferred using pen and paper for much of their work. And, as with any team, the range of technological know-how was incredibly varied. While younger members of the team could navigate new software with relative ease, the pen-and-paper type questioned how valuable a more tech-based solution would be.
@@ -32,17 +36,12 @@ The search began with [SMART Board](https://vibe.us/comparison/vibe-vs-smart-boa
 
 Wong also looked into [Samsung](https://vibe.us/comparison/vibe-vs-samsung-flip/) and the [Microsoft Surface Hub](https://vibe.us/comparison/vibe-vs-microsoft-surface-hub/), but the Surface Hub in particular was more expensive than what the team wanted. With further research, Wong discovered that the Vibe board not only had the best value and made the most economical sense (the company could purchase three Vibe boards for the price of one Surface Hub), but it was also the lowest risk option for the company’s needs. Another selling point: the ease of getting right to work.
 
-{{< common/srcset "image-1.jpg" "engineers using a Vibe touchscreen digital whiteboard" >}}
+{{< common/srcset "image-2.jpg" "engineers using a Vibe touchscreen digital whiteboard" >}}
 
 
 “We didn’t have to assemble anything,” Wong said. “[And] the touchscreen capability is more seamless than someone clicking a mouse and keyboard. It’s good that you have those options; it’s just when you’re in the thick of things, moving around on the page or on the screen, [the touchscreen] is easier instead of scrolling or adjusting your window so you can zoom in or zoom out.”
 
 *Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
-
-
-## Watch the Video: See how SBW uses Vibe
-{{< common/srcset "image-2.jpg" "" >}}
-
 
 **Getting the Team On Board Through Onboarding**
 A well-defined onboarding process makes it easier to embrace new methods. Wong explained, “Part of my job is to convince people of the technology, what its use is, and what it can do above and beyond our standard practices.”
@@ -81,6 +80,13 @@ While Wong and his team are still discovering everything Vibe can do, he said th
 His co-workers are now using the board in the same way—that is, if they can get to the office before him.
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
+
+
+
+## Watch the Video: See how SBW uses Vibe
+
+
+{{< common/srcset "cover.jpg" "" >}}
 
 
 
