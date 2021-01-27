@@ -39,6 +39,11 @@ Wong also looked into [Samsung](https://vibe.us/comparison/vibe-vs-samsung-flip/
 
 *Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
+
+## Watch the Video: See how SBW uses Vibe
+{{< common/srcset "image-2.jpg" "" >}}
+
+
 **Getting the Team On Board Through Onboarding**
 A well-defined onboarding process makes it easier to embrace new methods. Wong explained, “Part of my job is to convince people of the technology, what its use is, and what it can do above and beyond our standard practices.”
 
@@ -51,7 +56,7 @@ To make the transition to collaboration tools easier, employees attended a tutor
 **How They’re Using Vibe**
 One of the ways in which the SBW team uses the Vibe Board is for navigating construction site logistics. The annotation feature combined with the infinite canvas lets them quickly map the potential layout for a new project, such as where to park the equipment, where to station the flagger, and the location of access points in and out of the site.
 
-{{< common/srcset "image-2.jpg" "construction blueprints on an ipad" >}}
+{{< common/srcset "image-3.jpg" "construction blueprints on an ipad" >}}
 
 
 “It’s kind of like making basketball plays,” Wong said. “Where are the players, where are we moving; and everybody just puts their notes on the board. Sometimes that’s just the conversation piece that you need with some illustration...it’s a productivity tool, which is what I try to illustrate it as.”
