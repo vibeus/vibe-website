@@ -1,0 +1,155 @@
+@import "_shared.sass"
+@import "_customers.sass"
+@import "_bottom-cta.sass"
+
+.hero
+  background-color: $vibe-teal
+  .hero-body
+    +vertical-padding(120px)
+    +lang-override(".lang-zh")
+      +vertical-padding(100px)
+  .bg-logo
+    position: absolute
+    width: 535px
+    top: -70px
+    right: -200px
+    +lang-override(".lang-zh")
+      top: -135px
+  .title
+    font-size: 64px
+    width: 60%
+    margin-left: 0
+    padding-left: 10%
+    +lang-override(".lang-zh")
+      font-size: 50px
+    line-height: 78px
+    +mobile
+      font-size: 32px
+      line-height: 40px
+
+.section.is-features
+  .container
+    padding-left: 10%
+    padding-right: 26.5%
+    +tablet-only
+      padding-right: 20%
+    +mobile
+      padding-left: 5%
+      padding-right: 5%
+  .title
+    text-align: left
+    margin-top: 50px
+    font-size: 28px
+    font-family: Stratos
+  .table
+    width: 82%
+    +tablet-only
+      width: 100%
+    +mobile
+      width: 100%
+    .thead
+      background-color: $vibe-white
+      th
+        padding-left: 7%
+        border-width: 0
+      +mobile
+        font-size: 12px
+    .tbody
+      border: 1px solid $vibe-white
+      td
+        padding-left: 7%
+      +mobile
+        font-size: 12px
+  .content, .bottom-content
+    font-family: Fira Sans
+    font-weight: 400
+    a
+      text-decoration: underline
+  .is-feature-0
+    .content p:not(:last-child)
+      margin-bottom: 0
+  .is-feature-2
+    .bottom-content p
+      margin-bottom: 1.2em
+  .is-feature-4
+    .content p:not(:last-child)
+      margin-bottom: 1.2em
+
+.section.is-bottom-cta
+  margin-top: 70px
+  background-color: $vibe-teal
+  .container
+    max-width: 1096px
+    display: flex
+    flex-direction: column
+    +tablet
+      text-align: left
+      align-items: center
+      justify-content: space-between
+  .title
+    max-width: 800px
+    font-size: 50px
+    font-weight: 600
+    line-height: 70px
+
+
+.is-contact
+  max-width: 1096px
+  display: none
+  position: absolute
+  right: calc(50vw - 600px);
+  transform: translateY(-130%)
+  +mobile
+    right: calc(50vw - 135px);
+    transform: translateY(-50%)
+  background-color: $vibe-white
+  border-radius: 5px
+  padding: 45px
+  +mobile
+    padding: 41px 69px 45px 58px
+  text-align: left
+  z-index: 2
+  .title
+    font-size: 18px
+    font-weight: $vibe-bold
+    margin: 0
+    line-height: 27px
+  .content
+    font-size: 18px
+  .image
+    margin-top: 5px
+    width: 97px
+    height: auto
+  +desktop
+    .contact-item:first-child
+      padding-right: 26px
+      border-right: 1px solid black
+    .contact-item:last-child
+      padding-left: 26px
+  +mobile
+    .contact-item:first-child
+      padding-bottom: 6px
+      border-bottom: 1px solid black
+    .contact-item:last-child
+      padding-top: 26px
+  &.is-active
+    display: flex
+    +mobile
+      display: block
+      
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title
+        font-size: 42px
+        line-height: 67px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      .container 
+        .content
+          font-size: 14px
+          p
+            margin: 0
+      &.is-features 
+      

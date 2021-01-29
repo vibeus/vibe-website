@@ -1,0 +1,22 @@
+<table class="table">
+    <thead class="thead">
+      <tr>
+        <th>Features</th>
+        <th>Impacts on Features</th>
+      </tr>
+    </thead>
+    <tbody class="tbody">
+    {{ range .table }}
+      <tr class="tbody-row">
+        <td>{{ .title | markdownify }}</td> 
+        {{ if .figure }}
+        <td>
+          <span class="icon">{{ (resources.Get .figure).Content | safeHTML }}</span>
+        </td>
+        {{ else }} 
+        <td>{{ .content | markdownify }}</td>        
+        {{ end }}
+      </tr>      
+    {{ end }}
+    </tbody>  
+</table>

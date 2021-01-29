@@ -34,7 +34,17 @@ specs:
     - i18n-content-security-_index-specs-items-i_3
 privacy:
   title: i18n-content-security-_index-privacy-title
-  body: i18n-content-security-_index-privacy-body
+  items: 
+    - body: i18n-content-security-_index-privacy-body
+      figure: "img/security/privacy1.png"
+    - body: |
+        Configure for Enterprise Security
+
+
+        Security and privacy come first, and Vibe allows organizations to determine which configuation works best for their unique environment. Use Vibe Cloud, remain completely offline, or use cloud drives like Google Drive, One Drive, DropBox or Box. Customized configurations are possible.
+      figure: "img/security/privacy2.png"
+      url: /security/enterprise-security/
+      cta_title: Get Enterprise Security Solutions →
 bottom_cta:
   title: i18n-content-security-_index-bottom_cta-title
   body: i18n-content-security-_index-bottom_cta-body
