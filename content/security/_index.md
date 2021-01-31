@@ -33,18 +33,22 @@ specs:
     - i18n-content-security-_index-specs-items-i_2
     - i18n-content-security-_index-specs-items-i_3
 privacy:
+  class: is-privacy
   title: i18n-content-security-_index-privacy-title
   items: 
-    - body: i18n-content-security-_index-privacy-body
-      figure: "img/security/privacy1.png"
-    - body: |
-        Configure for Enterprise Security
-
-
+    - title: Ephemeral mode for shared workspaces
+      body: |
+        Vibe offers a mode for shared spaces that includes guest access roles, an expiring code to limit the sharing time, tap to clear content, multi-user sign in, and a permission control on every canvas.
+      figure:
+        base: img/security/privacy1.png
+    - title: Configure for enterprise security
+      body: |
         Security and privacy come first, and Vibe allows organizations to determine which configuation works best for their unique environment. Use Vibe Cloud, remain completely offline, or use cloud drives like Google Drive, One Drive, DropBox or Box. Customized configurations are possible.
-      figure: "img/security/privacy2.png"
-      url: /security/enterprise-security/
-      cta_title: Get Enterprise Security Solutions →
+
+        [Get Enterprise Security Solutions →](/security/enterprise-security/)
+      figure:
+        base: img/security/privacy2.png
+      reversed: true
 bottom_cta:
   title: i18n-content-security-_index-bottom_cta-title
   body: i18n-content-security-_index-bottom_cta-body

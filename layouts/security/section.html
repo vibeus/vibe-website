@@ -31,7 +31,7 @@
       <h1 class="title is-section-title">{{ T .title }}</h1>
       <div class="columns is-multiline">
         {{ range .items }}
-        <div class="column is-half">
+        <div class="column is-half-tablet">
           <figure class="image">
             {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "200x") }}
           </figure>
@@ -80,30 +80,7 @@
   {{ end }}
 
   {{ with .Params.privacy }}
-  <section class="section is-privacy">
-    <div class="container">
-      <h1 class="title is-section-title">{{ T .title }}</h1>
-      {{ range $idx, $val := .items }}
-      <div class="columns columns-{{ $idx }} is-vcentered">
-        <div class="column">
-          <figure class="image">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "992x" "mobile" "750x" "options" "jpg #f4f4f4") }}
-          </figure>
-        </div>
-        <div class="column is-text">
-          <div class="content">
-            {{ default .body (T .body) | markdownify }}
-          </div> 
-          <div class="column is-cta">
-            {{ if .url }}
-              <a href="{{ .url }}">{{ .cta_title | markdownify }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>  
-  </section>
+  {{ partial "common/figure-content-section" . }}
   {{ end }}
 
   {{ with .Params.bottom_cta }}

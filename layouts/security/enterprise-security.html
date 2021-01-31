@@ -1,73 +1,45 @@
 {{ define "main" }}<main class="enterprise-security">
 
-  {{ with .Params.hero }}
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="bg-logo">
-          {{ (resources.Get "img/security/enterprise-bg.svg").Content | safeHTML }}
-        </div>
-        <h1 class="title ">{{ .title }}</h1>
-      </div>
-    </div>
-  </section>
-  {{ end }}
-
-  {{ with .Params.features }}
-  <section class="section is-features">
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="bg-logo">
+    {{ (resources.Get "img/security/enterprise-bg.svg").Content | safeHTML }}
+  </div>
+  <div class="hero-body">
     <div class="container">
-      {{ range $idx, $val := .items }}
-      <div class="feature is-feature-{{ $idx }}">
-        <div class="title">{{ .title }}</div>
-        <div class="content">{{ .content1 | markdownify }}</div>
-        {{ if .table }}
-        {{ partial .partial . }}
-        {{ end }}
-        {{ with .content2 }}
-        <div class="bottom-content">{{ . | markdownify }}</div>
-        {{ end }}
+      <h1 class="title">{{ .title }}</h1>
+      {{ with .body }}
+      <div class="content">
+        {{ . | markdownify }}
       </div>
       {{ end }}
     </div>
-  </section>
-  {{ end }}
+  </div>
+</section>
+{{ end }}
 
-  {{ with .Params.bottom_cta }}
-  <section class="section is-bottom-cta">
-    <div class="container">
-      <div class="title is-section-title">
-        {{ default .title (T .title) }}
-      </div>
-      {{ with .cta }}
-      <div class="cta cta-contact" data-target="contact">
-        {{ if .title }}
-        <a class="button is-rounded is-black is-outlined" href="{{ .url }}">
-          {{ default .title (T .title) }}
-        </a>
-        {{ end }}
-      </div>
+{{ with .Params.features }}
+<section class="section is-features">
+  <div class="container">
+    {{ range $idx, $val := .items }}
+    <div class="feature is-feature-{{ $idx }}">
+      <div class="title">{{ .title }}</div>
+      {{ range .body }}
+      {{ with .content }}
+      <div class="content">{{ . | markdownify }}</div>
+      {{ end }}
+      {{ with .table }}
+      {{ partial "security-table" . }}
+      {{ end }}
       {{ end }}
     </div>
-  </section>
-  {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 
-  {{ with .Params.contact }}
-  <section class="section is-contact" id="contact">
-    <div class="contact-item">
-      {{ range .items}}
-      <h2 class="title">{{ T .title }}</h2>
-      <p class="content">{{ T .body }}</p>
-      {{ end }}
-    </div>
-    <div class="contact-item">
-      <h2 class="title">{{ T .title }}</h2>
-      {{ with .figure}}
-      <figure class="image">
-        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "400x") }}
-      </figure>
-      {{ end }}
-    </div>
-  </section>
-  {{ end }}
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
 
 </main>{{ end }}
