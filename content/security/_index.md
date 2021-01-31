@@ -45,7 +45,7 @@ privacy:
       body: |
         Security and privacy come first, and Vibe allows organizations to determine which configuation works best for their unique environment. Use Vibe Cloud, remain completely offline, or use cloud drives like Google Drive, One Drive, DropBox or Box. Customized configurations are possible.
 
-        [Get Enterprise Security Solutions →](/security/enterprise-security/)
+        [Get enterprise security solutions →](/security/enterprise-security/)
       figure:
         base: img/security/privacy2.png
       reversed: true
