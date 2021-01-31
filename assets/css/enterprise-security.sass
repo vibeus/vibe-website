@@ -1,0 +1,72 @@
+@import "_shared.sass"
+@import "_customers.sass"
+@import "_bottom-cta.sass"
+
+.hero .container,
+.section .container
+  max-width: 1100px
+  +desktop
+    padding-left: 5%
+  +widescreen
+    padding-left: 0
+
+.hero
+  .title, .content
+    max-width: 600px
+  +mobile
+    .title
+      max-width: 350px
+.section
+  .content, .table
+    max-width: 750px
+
+.hero
+  position: relative
+  background-color: $vibe-teal
+  .bg-logo
+    position: absolute
+    width: 450px
+    left: 50%
+    top: 47px
+    margin-left: 128px
+    +touch
+      margin-left: 0
+    +mobile
+      width: 280px
+      top: 15px
+  .hero-body
+    +vertical-padding(120px)
+  .title
+    +tablet
+      font-size: 64px
+
+.section.is-features
+  +vertical-padding(120px)
+  a
+    text-decoration: underline
+  .feature:not(:first-of-type) > .title
+    margin-top: 48px
+  .title
+    text-align: left
+    font-size: 28px
+    font-family: $vibe-family-heading
+  .table
+    width: 82%
+    +tablet-only
+      width: 100%
+    +mobile
+      width: 100%
+    .thead
+      background-color: $vibe-white
+      th
+        padding-left: 7%
+        border-width: 0
+      +mobile
+        font-size: 12px
+    .tbody
+      border: 1px solid $vibe-white
+      td
+        padding-left: 7%
+        vertical-align: middle
+      +mobile
+        font-size: 12px
