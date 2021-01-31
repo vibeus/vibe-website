@@ -14,7 +14,7 @@ description: Learn how construction project management software paired with a Vi
 
 Jonathan Wong, a planner/project manager for [Smith Bros. & Wilson, Ltd.](https://www.sbw.ca/), had a new type of project on his hands at the beginning of the coronavirus pandemic.
 
-Normally, Wong would assist in planning any number of construction projects for the Construction Management company based out of Vancouver, British Columbia. But since he works at the head office and project teams work on remote sites, he had a new task: find a [collaborative solution](https://vibe.us/lp/scenario-engineering/) the entire team could easily adopt to continuously improve daily operations utilizing emerging technologies 
+Normally, Wong would assist in planning any number of construction projects for the Construction Management company based out of Vancouver, British Columbia. But since he works at the head office and project teams work on remote sites, he had a new task: find a [collaborative solution](https://vibe.us/lp/scenario-engineering/) the entire team could easily adopt to continuously improve daily operations utilizing emerging technologies.
 
 Adding to the challenge was that many of Wong’s co-workers still preferred using pen and paper for much of their work. And, as with any team, the range of technological know-how was incredibly varied. While younger members of the team could navigate new software with relative ease, the pen-and-paper type questioned how valuable a more tech-based solution would be.
 
@@ -76,6 +76,13 @@ While Wong and his team are still discovering everything Vibe can do, he said th
 His co-workers are now using the board in the same way—that is, if they can get to the office before him.
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
+
+
+
+## Watch the Video: See how SBW uses Vibe
+
+
+{{< common/srcset "image-3.jpg" "" >}}
 
 
 
