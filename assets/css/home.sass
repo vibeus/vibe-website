@@ -215,37 +215,191 @@
       max-width: 436px
 
 .section.is-trust
-  +vertical-padding(120px, 114px, 60px, 60px)
+  +vertical-padding(120px)
   background-color: $vibe-white
-  .title
+  .is-section-title
     text-align: center
-  .testimonials
-    .glide
-      background-color: $vibe-yellow
-    +from(900px)
-      .glide-nav
-        display: inherit
-    +tablet
-      max-width: 768px
-    +widescreen
-      max-width: 905px
-    margin: 76px auto 0 auto
-    +mobile
-      margin-top: 38px
-    .testimonial
-      padding: 72px 72px 24px 60px
-      +mobile
-        padding: 16px
-      .content, .author
-        padding-left: 90px
-        +mobile
+    margin: auto
+    max-width: 650px
+    span.underline
+      position: relative
+      display: inline-block
+      z-index: 5
+      &::after
+        content: ""
+        display: inline-block
+        position: absolute
+        left: 0px
+        bottom: 3px
+        width: 100%
+        height: 30%
+        background-color: $vibe-yellow
+        z-index: -1
+  .is-section-content
+    text-align: center
+    margin-top: 16px
+    a
+      font-weight: 500
+      color: $vibe-purple 
+      &:hover
+        color: $primary
+  .container
+    max-width: 1440px
+    .glide_desktop, .glide_tablet, .glide_mobile
+      display: none
+    .figure-for-desktop, .figure-for-tablet, .figure-for-mobile
+      display: none
+
+.section.is-trust .container
+  @media screen and (min-width: 1200px) // 3 columns
+    .figure-for-desktop
+      display: block
+    .glide_desktop
+      display: block
+      .glide-slide-0
+        .column-0
+          width: 38%
+          margin-top: 30px
+        .column-1
+          width: 27%
+          margin-top: 100px
+          margin-bottom: 50px
+        .column-2 
+          width: 35%
+          .content
+            font-size: 16px
+    .figure-for-desktop
+      display: block
+    .glide-slide-1
+      .column-0
+        width: 39%
+      .column-1
+        width: 35%
+        .content
+          font-size: 18px
+      .column-2
+        width: 26%
+  @media screen and (max-width: 1199px) and (min-width: 900px) // 2 columns
+    .glide_tablet
+      display: block
+      .columns
+        margin: auto
+        max-width: 864px
+        height: 627px
+        .column
+          width: calc(420px + 2 * 0.75rem)
+    .figure-for-tablet
+      display: block
+  @media screen and (max-width: 899px) // 1 column
+    .glide_mobile
+      display: block
+    .figure-for-mobile
+      display: block
+
+  .glide
+    width: 100%
+    margin: auto
+    margin-top: 40px
+    .glide__slides
+      .glide__slide
+        .columns
+          width: 100%
+          margin: auto
+          .column
+            flex: none
+            overflow: hidden
+  .glide-dots
+    margin-top: 8px
+    margin-bottom: 20px
+    text-align: center
+    .icon
+      cursor: pointer
+      opacity: 0.2
+      &.is-active
+        opacity: 0.6
+
+  .is-story-card
+    display: flex
+    flex-direction: column
+    &.video-popup
+      cursor: pointer
+    &.is-reversed
+      flex-direction: column-reverse
+    &:not(:first-child)
+      margin-top: 16px
+    @media screen and (max-width: 899px)
+      flex-direction: column-reverse
+    @media screen and ( min-width: 900px )
+      .is-testimonial
+        padding-top: 7%
+        padding-bottom: 5%
+        .content
+          color: black
+          position: relative
+          padding: 32px 0 32px 0
           padding-left: 16px
-      .author
-        justify-content: flex-start
-  .columns.is-customers
-    margin-top: 104px + 60px
-    +mobile
-      margin-top: 50px
+          font-size: 14px
+          font-weight: 400
+        .quote-mark
+          width: 30px
+          &.is-left
+            top: 0
+            left: 0
+          &.is-right
+            right: 0
+            bottom: 0
+        .author
+          display: flex
+          justify-content: flex-start
+          margin-top: 5%
+          padding: 0 0 20px 16px
+          .name
+            font-family: $vibe-family-heading
+            font-size: 16px
+            p:first-child
+              font-weight: $vibe-bold
+              margin-bottom: -8px
+    .blog-content
+      background-color: white
+      flex-direction: row
+      display: flex
+      padding-bottom: 15px 
+      padding-top: 15px
+      justify-content: space-between
+      .is-content
+        margin-left: 25px
+        font-size: 14px
+        .is-blog-title
+          font-family: Stratos
+          font-size: 12px
+          font-weight: 600
+          color: grey
+          margin-bottom: 5px
+        .is-blog-name
+          font-family: Stratos
+          font-size: 14px
+          color: black
+          font-weight: 600
+        .is-blog-content
+          font-family: Stratos
+          font-weight: 400
+          color: black
+      .is-blog-logo
+        margin-left: 5px   
+        margin-right: 15px
+    .blog-figure
+      margin-bottom: -5px
+
+// customers logo
+.section.is-trust
+  .is-customers .column
+    @media screen and (min-width: 1200px)
+      width: 12.5%
+    @media screen and (max-width: 1199px) and (min-width: 780px)
+      width: 25%
+  .is-customers
+    max-width: 1280px
+    margin: auto
 
 .hero
   +mobile
