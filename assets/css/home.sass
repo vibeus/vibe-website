@@ -282,7 +282,7 @@
       .columns
         margin: auto
         max-width: 864px
-        height: 627px
+        height: 690px
         .column
           width: calc(420px + 2 * 0.75rem)
     .figure-for-tablet
@@ -292,12 +292,9 @@
       display: block
     .figure-for-mobile
       display: block
-    .blog-content
-      position: relative
-      .is-blog-logo
-        position: absolute
-        top: 5px
-        right: 0px
+    .column
+      padding: 0
+
 
   .glide
     width: 100%
@@ -324,6 +321,9 @@
   .is-story-card
     display: flex
     flex-direction: column
+    @media screen and (max-width: 1199px) and (min-width: 900px)
+      &.for_testimonial
+        height: 272px
     &.video-popup
       cursor: pointer
     &.is-reversed
@@ -334,30 +334,32 @@
       flex-direction: column-reverse
     @media screen and ( min-width: 900px )
       .is-testimonial
-        padding-top: 7%
-        padding-bottom: 5%
-        @media screen and (max-width: 1199px) and (min-width: 900px)
-          min-height: 311px
+        padding-top: 15%
+        padding-bottom: 7%
+        .testimonial
+          display: flex
+          flex-direction: column
+          justify-content: space-between
         .content
           color: black
           position: relative
-          padding: 32px 5% 32px 7%
           font-weight: 400
+          padding: 0 5%
           @media screen and (max-width: 1199px) and (min-width: 900px)
             font-size: 14px
         .quote-mark
           width: 30px
           &.is-left
-            top: 0
+            top: -35px
             left: 0
           &.is-right
             right: 0
-            bottom: 0
+            bottom: -25px
         .author
           display: flex
           justify-content: flex-start
           margin-top: 5%
-          padding: 0 0 20px 7%
+          padding: 0 0 20px 5%
           .name
             font-family: $vibe-family-heading
             font-size: 16px
@@ -365,6 +367,7 @@
               font-weight: $vibe-bold
               margin-bottom: -8px
     .blog-content
+      position: relative
       background-color: white
       flex-direction: row
       display: flex
@@ -374,6 +377,8 @@
       .is-content
         margin-left: 25px
         font-size: 14px
+        @media screen and (max-width: 1199px) and (min-width: 900px)
+          padding-right: 10%
         .is-blog-title
           font-family: Stratos
           font-size: 12px
@@ -388,12 +393,27 @@
         .is-blog-content
           font-family: Stratos
           font-weight: 400
+          color: black   
+          position: relative
+          @media screen and (max-width: 899px)
+            display: none
+        .content-for-mobile
+          display: none
           color: black
+          font-weight: 400
+          @media screen and (max-width: 899px)
+            display: inline-block
       .is-blog-logo
-        margin-left: 5px   
-        margin-right: 15px
+        margin-right: 3%
+        margin-left: 5%
+        @media screen and ( max-width: 1199px )
+          position: absolute
+          top: 15px
+          right: 0px
+          margin-left: 5px   
+          margin-right: 15px
     .blog-figure
-      margin-bottom: -5px
+      font-size: 0
 
 // customers logo
 .section.is-trust

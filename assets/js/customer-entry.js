@@ -3,7 +3,7 @@ const glides = document.querySelectorAll('.is-trust .glide');
 glides.forEach((el) => {
   const glide = new Glide(el, {
     type: 'carousel',
-    autoplay: 5000,
+    autoplay: 50000,
   });
 
   const dots = Array.from(

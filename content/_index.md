@@ -92,7 +92,8 @@ trust:
     - item: &id01
         title: Sports Training
         name: Ian Westermann,
-        content: Founder of Essential Tennis
+        content: Founder of Essential Tenniscon
+        content_for_mobile: Founder of Essential Tenniscon
         figure:
           - url: img/home/customer-entry/img1.png
             class: figure-for-desktop
@@ -105,6 +106,8 @@ trust:
         logo: 
           - url: img/home/customer-entry/logo1.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/logo1.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo1.png
             class: figure-for-mobile 
         partial: "customer-story-card"
@@ -112,9 +115,12 @@ trust:
         title: Marketing Agency
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
+        content_for_mobile: CEO of Cleverman, Inc.
         logo: 
           - url: img/home/customer-entry/logo2.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/logo2.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo2.png
             class: figure-for-mobile
         figure:
@@ -142,6 +148,8 @@ trust:
         logo: 
           - url: img/home/customer-entry/logo4.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/logo4.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo4.png
             class: figure-for-mobile
         figure: 
@@ -155,9 +163,12 @@ trust:
         title: Education
         name: Arek Puzia,
         content: Professor of Diablo Valley College
+        content_for_mobile: Professor of Diablo Valley College
         logo: 
           - url: img/home/customer-entry/logo5.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/logo5.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo5.png
             class: figure-for-mobile
         figure:
@@ -173,9 +184,12 @@ trust:
         title: Consulting
         name: Peter Parker, 
         content: Advanced Analytics Practice Director at Redapt
+        content_for_mobile: Advanced Analytics Practice
         logo: 
           - url: img/home/customer-entry/logo6.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/tablet-logo6.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo6.png
             class: figure-for-mobile
         figure: 
@@ -200,9 +214,12 @@ trust:
         title: Business Coaching
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
+        content_for_mobile: CEO of LRI
         logo: 
           - url: img/home/customer-entry/logo8.png
             class: figure-for-desktop
+          - url: img/home/customer-entry/tablet-logo8.png
+            class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo8.png
             class: figure-for-mobile
         figure: 
@@ -231,12 +248,14 @@ trust:
           class: is-reversed
       - - item: *id02
     - - - item: *id03
+          class: for_testimonial
         - item: *id04
           class: is-reversed
       - - item: *id05
     - - - item: *id06
           class: is-reversed
         - item: *id07
+          class: for_testimonial
       - - item: *id08
   testimonials_for_mobile:
     - - - item: *id01

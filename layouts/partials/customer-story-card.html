@@ -9,6 +9,9 @@
     {{ with .content }}
     <span class="is-blog-content" >{{ . | markdownify }}</span>
     {{ end }}  
+    {{ with .content_for_mobile }}
+      <span class="content-for-mobile">{{ . | markdownify }}</span>
+    {{ end }}
   </div>     
   {{ range .logo }}
   <div class="is-blog-logo{{ with .class }} {{ . }}{{ end }}">
