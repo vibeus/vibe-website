@@ -118,23 +118,27 @@
 </section>
 {{ end }}
 
-{{ with .Params.trust}}
-<section class="section is-trusted">
-  <div class="container"> 
-    <div class="title is-section-title">{{  .title_part1 }} <span> {{  .title_part2 }} </span> {{  .title_part3 }}</div>
-    <div class="is-section-content"> 
+{{ with .Params.trust }}
+<section class="section is-trust">
+  <div class="container">
+    <div class="title is-section-title">{{ .title_part1 }} <span class="underline"> {{ .title_part2 }} </span> {{ .title_part3 }}</div>
+    {{ if .content }}
+    <div class="is-section-content">
       {{ if .url }}
       <a href="{{ .url | relLangURL }}">{{ .content }}</a>
+      {{ else }}
+      <div class="content">{{ .content }}</div>
       {{ end }}
     </div>
-    <div class="glide_mobile">{{ partial "customer-entry" .testimonials_for_mobile }}</div>
+    {{ end }}
     <div class="glide_desktop">{{ partial "customer-entry" .testimonials_for_desktop }}</div>
     <div class="glide_tablet">{{ partial "customer-entry" .testimonials_for_tablet }}</div>
+    <div class="glide_mobile">{{ partial "customer-entry" .testimonials_for_mobile }}</div>
     {{ partial "common/video-player" (dict "playerId" "video-popup-player" "triggerClass" ".video-popup" "isInplace" false) }}
-   {{ partial "customers" $.Page }}
+    {{ partial "customers" $.Page }}
   </div>
 </section>
-{{ end }} 
+{{ end }}
 
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}

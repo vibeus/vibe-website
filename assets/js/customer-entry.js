@@ -1,9 +1,9 @@
 
-const glides = document.querySelectorAll('.is-trusted .glide');
+const glides = document.querySelectorAll('.is-trust .glide');
 glides.forEach((el) => {
   const glide = new Glide(el, {
     type: 'carousel',
-    autoplay: 5500000,
+    autoplay: 5000,
   });
 
   const dots = Array.from(
