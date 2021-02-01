@@ -94,18 +94,18 @@ trust:
         name: Ian Westermann,
         content: Founder of Essential Tennis
         figure:
-          - url: img/customer-entry/img1.png
+          - url: img/home/customer-entry/img1.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-img1.png
+          - url: img/home/customer-entry/mobile-img1.png
             class: figure-for-mobile
-          - url: img/customer-entry/tablet-img1.png
+          - url: img/home/customer-entry/tablet-img1.png
             class: figure-for-tablet
         video:
           Id: OXzhLPXXj14
         logo: 
-          - url: img/customer-entry/logo1.png
+          - url: img/home/customer-entry/logo1.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo1.png
+          - url: img/home/customer-entry/mobile-logo1.png
             class: figure-for-mobile 
         partial: "customer-story-card"
     - item: &id02
@@ -113,16 +113,16 @@ trust:
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
         logo: 
-          - url: img/customer-entry/logo2.png
+          - url: img/home/customer-entry/logo2.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo2.png
+          - url: img/home/customer-entry/mobile-logo2.png
             class: figure-for-mobile
         figure:
-          - url: img/customer-entry/img2.png
+          - url: img/home/customer-entry/img2.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-img2.png
+          - url: img/home/customer-entry/mobile-img2.png
             class: figure-for-mobile
-          - url: img/customer-entry/tablet-img2.png
+          - url: img/home/customer-entry/tablet-img2.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-adam-elbendary/"
         partial: "customer-story-card"
@@ -140,14 +140,14 @@ trust:
         name: Henrt Silverman,
         content: Professor of Medicine
         logo: 
-          - url: img/customer-entry/logo4.png
+          - url: img/home/customer-entry/logo4.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo4.png
+          - url: img/home/customer-entry/mobile-logo4.png
             class: figure-for-mobile
         figure: 
-          - url: img/customer-entry/img4.png
+          - url: img/home/customer-entry/img4.png
             class: figure-for-desktop
-          - url: img/customer-entry/tablet-img4.png
+          - url: img/home/customer-entry/tablet-img4.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/"
         partial: "customer-story-card"
@@ -156,16 +156,16 @@ trust:
         name: Arek Puzia,
         content: Professor of Diablo Valley College
         logo: 
-          - url: img/customer-entry/logo5.png
+          - url: img/home/customer-entry/logo5.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo5.png
+          - url: img/home/customer-entry/mobile-logo5.png
             class: figure-for-mobile
         figure:
-          - url: img/customer-entry/img5.png
+          - url: img/home/customer-entry/img5.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-img3.png
+          - url: img/home/customer-entry/mobile-img3.png
             class: figure-for-mobile
-          - url: img/customer-entry/tablet-img5.png
+          - url: img/home/customer-entry/tablet-img5.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/"
         partial: "customer-story-card"
@@ -174,16 +174,16 @@ trust:
         name: Peter Parker, 
         content: Advanced Analytics Practice Director at Redapt
         logo: 
-          - url: img/customer-entry/logo6.png
+          - url: img/home/customer-entry/logo6.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo6.png
+          - url: img/home/customer-entry/mobile-logo6.png
             class: figure-for-mobile
         figure: 
-          - url: img/customer-entry/img6.png
+          - url: img/home/customer-entry/img6.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-img4.png
+          - url: img/home/customer-entry/mobile-img4.png
             class: figure-for-mobile
-          - url: img/customer-entry/tablet-img6.png
+          - url: img/home/customer-entry/tablet-img6.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/"
         partial: "customer-story-card"
@@ -201,16 +201,16 @@ trust:
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
         logo: 
-          - url: img/customer-entry/logo8.png
+          - url: img/home/customer-entry/logo8.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-logo8.png
+          - url: img/home/customer-entry/mobile-logo8.png
             class: figure-for-mobile
         figure: 
-          - url: img/customer-entry/img8.png
+          - url: img/home/customer-entry/img8.png
             class: figure-for-desktop
-          - url: img/customer-entry/mobile-img5.png
+          - url: img/home/customer-entry/mobile-img5.png
             class: figure-for-mobile
-          - url: img/customer-entry/tablet-img8.png
+          - url: img/home/customer-entry/tablet-img8.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/"
         partial: "customer-story-card"
