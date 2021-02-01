@@ -38,7 +38,7 @@ features:
               content: Feature Planned March 2021
             - title: Wireless Screencast
               value: 'true'
-            - title: third-Party Apps 
+            - title: Third-Party Apps 
               value: 'true'
         - content: |
             In this mode, a popular option is to save the whiteboard as a file in the device or to a cloud storage place of choice, such as Google Drive, One Drive, Dropbox, etc. 
@@ -63,7 +63,7 @@ features:
               content: Feature Planned March 2021
             - title: Wireless Screencast
               value: 'false'
-            - title: third-Party Apps 
+            - title: Third-Party Apps 
               value: 'false'
     - title: Private Deployment
       body:
