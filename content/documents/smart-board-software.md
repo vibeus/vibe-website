@@ -1,6 +1,7 @@
 ---
 url: /smart-board-software/
 title: &title How to Use Smart Board Software
+description: Learn how to use smart board software, either on a digital smart board or on your computer.
 content_link_target_blank: true
 
 hero:

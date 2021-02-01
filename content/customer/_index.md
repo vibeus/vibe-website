@@ -8,7 +8,7 @@ layout: customer
 
 hero:
   title: The digital whiteboard trusted by
-  title1: 500+
+  title1: 900+
   title2: companies all over the world.
   body: Teams collaborate better with Vibe. Read customer reviews of Vibe digital whiteboard and see how customers unleashed creativity and maximized their organizations’ productivity and effectiveness.
 
@@ -24,7 +24,7 @@ collaborate:
   title: Teams collaborate better with Vibe
   body: From the classroom to the boardroom, customers are making their mark with Vibe. See how people just like you are using Vibe digital whiteboard to connect, present, engage, and share.
   gallery:
-    - figure: img/customer/collaborate-Davidge1.png
+    - figure: img/customer/collaborate-bg1.png
       title: Blog   |   How I Vibe
       body: Engaging your audience using the Vibe board.
       logo: img/customer/collaborate-logo1.png
@@ -32,7 +32,7 @@ collaborate:
       avatar: img/customer/collaborate-Avatar1.png
       work: Education
       name: Dr. Henry Silverman
-    - figure: img/customer/collaborate-Davidge2.png
+    - figure: img/customer/collaborate-bg2.png
       title: Blog   |   How I Vibe
       body: You need tools that will keep pace with your ideas.
       logo: img/customer/collaborate-logo2.png
@@ -40,7 +40,7 @@ collaborate:
       avatar: img/customer/collaborate-Avatar2.png
       work: Marketing Agency
       name: Adam Elbendary
-    - figure: img/customer/collaborate-Davidge3.png
+    - figure: img/customer/collaborate-bg3.png
       title: Blog   |   How I Vibe
       body: New technology in a changing academic climate.
       logo: img/customer/collaborate-logo3.png
@@ -48,7 +48,7 @@ collaborate:
       avatar: img/customer/collaborate-Avatar3.png
       work: Education
       name: Arek Puzia
-    - figure: img/customer/collaborate-Davidge4.png
+    - figure: img/customer/collaborate-bg4.png
       title: Blog   |   How I Vibe
       body: Remote collaboration empowers our team to be more productive.
       logo: img/customer/collaborate-logo4.png
@@ -56,7 +56,7 @@ collaborate:
       avatar: img/customer/collaborate-Avatar4.png
       work: Consulting
       name: Peter Parker
-    - figure: img/customer/collaborate-Davidge5.png
+    - figure: img/customer/collaborate-bg5.png
       title: Blog   |   How I Vibe
       body: The integration to apps was open and go.
       logo: img/customer/collaborate-logo1.png
@@ -64,7 +64,7 @@ collaborate:
       avatar: img/customer/collaborate-Avatar5.png
       work: Home Schooling
       name: Robyn C.
-    - figure: img/customer/collaborate-Davidge6.png
+    - figure: img/customer/collaborate-bg6.png
       title: Blog   |   How I Vibe
       body: Leading large meetings and group collaborations.
       logo: img/customer/collaborate-logo6.png
@@ -72,6 +72,14 @@ collaborate:
       avatar: img/customer/collaborate-Avatar6.png
       work: Business Coaching
       name: Mark Smith
+    - figure: img/customer/collaborate-bg7.png
+      title: Blog   |   How I Vibe
+      body: Vibe is a great tool to make sure everyone's on the same page.
+      logo: img/customer/collaborate-logo7.png
+      url: /blog/how-i-vibe-jonathan-wong-project-manager/
+      avatar: img/customer/collaborate-Avatar7.png
+      work: Construction
+      name: Jonathan Wong
 
   gallerysides:
     - figure: img/customer/collaborate-Avatar1.png
@@ -92,6 +100,9 @@ collaborate:
     - figure: img/customer/collaborate-Avatar6.png
       title: Business Coaching
       body: Mark Smith
+    - figure: img/customer/collaborate-Avatar7.png
+      title: Construction
+      body: Jonathan Wong
 
 testimonial_section:
   testimonials:

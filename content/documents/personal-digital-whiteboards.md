@@ -1,6 +1,7 @@
 ---
 url: /personal-digital-whiteboards/
 title: &title Benefits of Personal Digital Whiteboards for Home
+description: Learn why digital whiteboards are the latest must-have technology for home use.
 content_link_target_blank: true
 
 hero:

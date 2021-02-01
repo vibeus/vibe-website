@@ -107,7 +107,11 @@
                 Also available on <a href="{{ . }}" target="_blank">Amazon</a>
               </div>
               {{ end }}
-              {{ if .item.backorder }}
+              {{ if .item.sold_out }}
+              <div class="content is-sold-out">
+                {{ .item.sold_out.item_notice | markdownify }}
+              </div>
+              {{ else if .item.backorder }}
               <div class="content is-backorder">
                 {{ .item.backorder.item_notice | markdownify }}
               </div>
@@ -158,8 +162,7 @@
         <div class="content is-sold-out">
           {{ .sold_out.item_notice | markdownify }}
         </div>
-        {{ end }}
-        {{ if .backorder }}
+        {{ else if .backorder }}
         <div class="content is-backorder">
           {{ .backorder.item_notice | markdownify }}
           <!-- <p><a href="https://knowledge.vibe.us/may-2020-shipping-update" target="_blank">See options →</a></p> -->

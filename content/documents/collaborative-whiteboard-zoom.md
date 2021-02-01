@@ -1,6 +1,7 @@
 ---
 url: /collaborative-whiteboard-zoom/
 title: &title How do I do Collaborative Whiteboard in Zoom?
+description: Learn how to use Zoom whiteboard on your Vibe Board to keep collaborating in real-time with anyone, anywhere.
 content_link_target_blank: true
 
 hero:

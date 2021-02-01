@@ -7,6 +7,7 @@ tags: ["meetings", "remote", "presentations"]
 draft: false
 isfeatured: 
 summary: Peter Parker runs a team that helps clients all over the US develop cloud-forward data platforms. Learn how the Vibe smart whiteboard fits into his practice.
+description: Peter Parker runs a team that helps clients all over the US develop cloud-forward data platforms. Learn how the Vibe smart whiteboard fits into his practice.
 ---
 
 

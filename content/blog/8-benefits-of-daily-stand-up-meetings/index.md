@@ -6,7 +6,7 @@ date: 2020-05-05
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
 isfeatured: false
-desription: Create a culture of success and more cohesive teams using an agile style daily standup meeting.
+description: Create a culture of success and more cohesive teams using an agile style daily standup meeting.
 summary: If your goal is to create a culture of success in an agile workplace, read on to learn how this daily check-in leads to a more cohesive team.
 ---
 

@@ -1,6 +1,7 @@
 ---
 url: /smart-board-distance-learning/
 title: &title Using a Smart Board for Distance Learning
+description: New technology, like a digital smart board, makes distance learning more fun and engaging.
 content_link_target_blank: true
 
 hero:

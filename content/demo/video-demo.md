@@ -1,5 +1,6 @@
 ---
 title: Thanks for requesting our demo video.
+description: Interactive Demo Videos for the Vibe Board. Choose your own Adventure.
 stylesPath: css/video-demo.sass
 layout: video-demo
 aliases:
@@ -220,8 +221,8 @@ bottom_cta:
   title: Ready for More Actions?
   cta:
     buttons:
-      - class: is-primary live-demo-button
-        title: Book a Live Demo
+      - class: is-primary live-demo-button is-live-demo-meeting-link
+        title: Schedule a Live Demo
         url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
         icon:
           class: live-demo-icon

@@ -11,36 +11,31 @@ hero:
 
 # Returns
 
-Our policy lasts 30 days. If 30 days have gone by since you received your purchase, unfortunately we can’t offer you
-a refund or exchange.
+If you purchased a Vibe board or Vibe mobile stand directly from Vibe, you can request a return within the first 30 days after you have received delivery of your product. (For Amazon purchases, please contact us through Amazon).
 
-Please keep all original packaging in case you need to do a return within the first 30 days of your purchase.
-Product must not be damaged, and must be shipped back to Vibe's headquarters with all the included accessories and
-original packaging in order to be eligible for a full refund.
+**If 30 days have gone by since you received your purchase, unfortunately we cannot offer you a refund or exchange**.
+
+Please keep all original packaging in case you need to do a return. Product must not be damaged, and must be shipped back to the nearest return location for your country with all the included accessories and original packaging in order to be eligible for a full refund. (US return location is in Bellevue, WA).
+
 Vibe will need to inspect the product before we can issue a refund.
 
 We also accept return items if they are defective or damaged on arrival.
 
-To start return process, please send email to support@vibe.us.
-
-Please do not send your purchase back to the manufacturer.
+To request a return or exchange, please fill out the [Return Merchandise Authorization form](https://landing.vibe.us/rma).
 
 There are certain situations where only partial refunds are granted:
 
 - Any item not in its original condition, is damaged or missing parts for reasons not due to our error.
-- Any item that is returned more than 30 days after delivery.
 
 # Refunds
 
-Once your return is received and inspected, we will send you an email to notify you that we have received your
-returned item. We will also notify you of the approval or rejection of your refund.
+Once your returned product is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.
 
-If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit
-card or original method of payment, within a certain amount of days.
+If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment. Refunds are generally processed within 10 business days after we receive your item and find it eligible for a return.
 
 # Late or missing refunds
 
-If you haven’t received a refund yet, first check your bank account again.
+If you haven’t received a refund and it has been more than 5 days since we processed your refund, please check your bank account again.
 
 Then contact your credit card company, it may take some time before your refund is officially posted.
 
@@ -48,36 +43,18 @@ Next contact your bank. There is often some processing time before a refund is p
 
 If you’ve done all of this and you still have not received your refund yet, please contact us at support@vibe.us.
 
-# Sale items
-
-Only regular priced items may be refunded, unfortunately sale items cannot be refunded.
-
 # Exchanges
 
-We replace items if they are defective or damaged on arrival. If you need to exchange it for the same item, send us
-an email at support@vibe.us and send your item to the address below in the "Shipping" section.
+We replace items if they are defective or damaged on arrival. **Damaged or defective products must be reported within 7 business days of delivery to be eligible for an exchange**.
 
-# Gifts
+If you would like to exchange your Vibe product for the same item, please indicate that you need a replacement item when completing the [RMA form](https://landing.vibe.us/rma) and be sure to confirm your shipping address. Vibe will replace your damaged item with a brand new replacement and will cover the shipping both ways.
 
-If the item was marked as a gift when purchased and shipped directly to you, you’ll receive a gift credit for the
-value of your return. Once the returned item is received, a gift certificate will be mailed to you.
-
-If the item wasn’t marked as a gift when purchased, or the gift giver had the order shipped to themselves to give
-to you later, we will send a refund to the gift giver and he will find out about your return.
+All shipping damages or missing items must be reported within 7 business days upon the receipt of the product. Vibe is not responsible for shipping damages reported after such period.
 
 # Shipping
 
-To return your product, you should mail your product to:
+Upon review of the RMA request, Vibe will provide a shipping label for you to return the product. You will be responsible for paying for your own shipping and handling costs for returning your item. These costs are non-refundable.
 
-> Vibe Inc.
->
-> 10400 NE 4th Street, STE 500,  
-> Bellevue WA 98004, United States
-
-You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are
-non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.
+If you receive a refund, the shipping and handling costs will be deducted from your refund. In the US, the shipping fee is 200 USD/unit and 400 USD/set. For international customers this rate will depend on the shipping cost for your region.
 
 Depending on where you live, the time it may take for your exchanged product to reach you, may vary.
-
-If you are shipping an item over \$1000, you should consider using a trackable shipping service or purchasing shipping
-insurance. We don’t guarantee that we will receive your returned item.

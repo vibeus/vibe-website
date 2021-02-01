@@ -2,7 +2,7 @@
 url: /remote-collaboration-ebook
 
 title: See Vibe for Yourself
-description: Sign up for a video demo of the Vibe board and see how Vibe can elevate your team collaboration, presentations, and training.
+description: The Complete Guide to Remote Collaboration
 stylesPath: css/playbook.sass
 playbook:
   figure: img/playbook/remote-work-playbook.png
@@ -63,7 +63,7 @@ playbook:
       body: '## We’ve sent you an email with the PDF download link. Enjoy!
 
 
-      Can''t wait? [Read now](/resources/Vibe_remote_work_playbook.pdf/).
+      Can''t wait? [Read now](/resources/Vibe_remote_work_playbook.pdf).
 
       '
 bottom_cta:

@@ -1,5 +1,5 @@
 ---
-title: "Digital Whiteboards: the **11 Best Reasons To Invest**"
+title: "Digital Whiteboards: the 11 Best Reasons to Invest"
 slug: 11-best-reasons-to-invest-in-a-digital-whiteboard
 author: Karen Belz
 date: 2020-07-01

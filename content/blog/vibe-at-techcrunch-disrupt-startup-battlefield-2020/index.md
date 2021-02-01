@@ -22,7 +22,7 @@ Most of the 20 companies had months to prepare. We were a Wildcard team, which m
 {{< common/srcset "image-1.png" "Watching Charles Yang present on Startup Battlefield on Vibe" >}}
 
 
-With our CEO, Charles Yang, presenting from Hangzhou, China, and Katie Kalafus, Head of Sales, doing the demo from Seattle, Washington--and a 15 hour time difference--this was no easy task. Fortunately, we all have Vibe boards to help us [build the presentation](https://app.vibe.us/smart.ALL_BOARDS/0crrEmeGiilc9FALlZG2US/NFgbXOvmmUkQDKmzJmFTPy) and sync over video conference.
+With our CEO, Charles Yang, presenting from Hangzhou, China, and Katie Kalafus, Head of Sales, doing the demo from Seattle, Washington--and a 15 hour time difference--this was no easy task. Fortunately, we all have Vibe boards to help us build the presentation and sync over video conference.
 
 Since we only had six minutes to present and a very short amount of time to answer the judges’ questions, we wanted to go into more depth here. 
 
@@ -32,6 +32,7 @@ Since we only had six minutes to present and a very short amount of time to answ
 ## Seems like a crowded landscape with Miro and Mural; are you targeting a different segment or a specific vertical?
 
 The products are simply different. Miro and Mural focus on PC online whiteboarding services, so they’re built with a keyboard and mouse in mind. Vibe’s entire user interface is built around using a touchscreen and stylus. Handwriting and drawing have long been favored for brainstorming and collaboration sessions because they unlock deeper thinking.
+
 The buyer journey is also different. Our hardware can be used by people within  different industries, scenarios, and experiences. And with Vibe, you can do way more than just whiteboarding - there is simply more potential for new services.
 
 

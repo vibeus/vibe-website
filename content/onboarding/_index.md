@@ -64,6 +64,12 @@ setup:
                   url: img/common/download-icon.svg
                 url: https://f.hubspotusercontent10.net/hubfs/5698963/marketing%20assets/Germany%20user%20manual.pdf
             - link:
+                text: 'Vibe stand assembly'
+                icon:
+                  class: download-icon
+                  url: img/common/download-icon.svg
+                url: https://f.hubspotusercontent10.net/hubfs/5698963/marketing%20assets/Stand%20assembly.pdf
+            - link:
                 text: 'FAQ – Can we mount Vibe on a wall or use with other stands?'
                 icon:
                   class: faq-icon
@@ -403,7 +409,8 @@ setup:
                     - name: date_of_purchase
                       placeholder: 'Date of Purchase'
                   - - name: order_number
-                      placeholder: 'Order Number'
+                      placeholder: 'Order Number*'
+                      required: true
                     - name: serial_number
                       placeholder: 'Serial Number*'
                       required: true

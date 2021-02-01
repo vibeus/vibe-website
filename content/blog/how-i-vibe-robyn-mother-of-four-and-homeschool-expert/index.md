@@ -7,6 +7,7 @@ tags: ["homeschool", "collaboative learning", "digital whiteboard", "teaching"]
 isfeatured: false
 draft: false
 summary: Robyn Cooper has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
+description: Using technology for homeschooling is simpler with the right tools. Learn how one family makes it work.
 ---
 
 
