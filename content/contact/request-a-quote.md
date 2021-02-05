@@ -284,7 +284,7 @@ contact:
       - - name: city
           placeholder: City
         - name: state
-          placeholder: State
+          placeholder: State/Region
         - name: zip
           placeholder: Zip
       - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
