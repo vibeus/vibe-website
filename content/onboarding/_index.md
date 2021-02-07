@@ -497,12 +497,11 @@ help:
     title: 'Have Questions ?'
     logo_icon: img/common/outline-logo.svg
     collapse_icon: img/onboarding/contact-widget-collapse-icon.svg
-    email:
-      icon: img/onboarding/email-icon.svg
-      address: support@vibe.us
-    phone:
-      icon: img/onboarding/phone-icon.svg
-      number_href: +1-864-335-2007
-      number: +1 (864) 335-2007
-      time: Mon-Fri 9:00-17:00 PST
+    contact:
+      - content: Contact Sales
+        icon: img/onboarding/contact-sales.svg
+        url: /contact/
+      - content: Contact Support
+        icon: img/onboarding/contact-suppprt.svg
+        url: https://knowledge.vibe.us/kb-tickets/new
 ---
