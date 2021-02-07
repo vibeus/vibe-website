@@ -219,11 +219,18 @@ comments:
   left_column:
     class: is-hidden-mobile
     items:
+      - type: ins
+        name: kennyt71
+        content: We did a lot of research and hands down the VIBE was the best!! And I can’t forget to mention their customer care, you’ll be shocked at how great their support is!
+        date: Aug 22, 2020
+        mask: img/customer/ins-avatar2.png
+        url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
       - type: twitter
         name: God-is Rivera
         email1: Replying to
         email2: ' @eunique and @thevibeboard'
-        content: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
+        content: 
+          - text: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
         date: Sep 8, 2020
         mask: img/customer/twitter-avatar1.png
         url: https://twitter.com/GodisRivera/status/1303487364006899712?s=20
@@ -236,12 +243,18 @@ comments:
         url: https://www.instagram.com/p/CFsU3OFg0nd/?utm_source=ig_web_copy_link
   right_column:
     items:
-      - type: ins
-        name: kennyt71
-        content: We did a lot of research and hands down the VIBE was the best!! And I can’t forget to mention their customer care, you’ll be shocked at how great their support is!
-        date: Aug 22, 2020
-        mask: img/customer/ins-avatar2.png
-        url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
+      - type: twitter
+        name: Christopher Webber
+        email1: Replying to
+        email2: ' @rothgar'
+        content: 
+          - text: I picked up a 
+          - text: ' @thevibeboard'
+            class: is-eit
+          - text: on Black Friday. Went with a Monoprice mount for it. I am in love with it. I have been heavily using the web app with the whiteboard. I usually create a canvas, share it with my coworkers and then go stand at the whiteboard and do the work.
+        date: Jan 29, 2021
+        mask: img/customer/twitter-avatar2.png
+        url: https://twitter.com/cwebber/status/1355166644289499136?s=20
       - type: amazon
         name: Best digital whiteboard I've used
         subtitle: By Bgood on Jan 17, 2020
