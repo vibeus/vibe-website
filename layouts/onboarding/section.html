@@ -117,21 +117,14 @@
       </span>
       <span class="content">
         <div class="content-container">
-          <div class="email">
-            <div class="email-icon">
-              {{ (resources.Get .email.icon ).Content | safeHTML }}
-            </div>
-            <a class="link" href="mailto:{{ .email.address }}">{{ .email.address }}</a>
+          {{ range $idx := .contact }}
+          <div class="contact is-contact-{{ $idx }}">
+             <div class="icon">
+              {{ (resources.Get .icon ).Content | safeHTML }}
+            </div> 
+            <a class="link" href="{{ .url }}">{{ .content }}</a>
           </div>
-          <div class="phone">
-            <span class="phone-icon">
-              {{ (resources.Get .phone.icon ).Content | safeHTML }}
-            </span>
-            <span class="phone-number">
-              <a class="link" href="tel:{{ .phone.number_href }}">{{ .phone.number }}</a>
-              <span class="time">{{ .phone.time }}</span>
-            </span>
-          </div>
+          {{ end }}
           <div class="split-line"></div>
         </div>
       </span>
