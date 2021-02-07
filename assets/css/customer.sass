@@ -628,9 +628,13 @@ main .hero
   overflow: hidden
   position: relative
   background: #F4F4F4
-  .left-0
+  .right-0
     margin-bottom: 40px
-  .left-0, .left-1
+    .content .text
+      display: inline
+      &.is-at
+        color: #6666CC
+  .left-1, .right-0
     span
       color: #6666CC
   .container
@@ -660,11 +664,12 @@ main .hero
     margin: auto
     max-width: 1050px
     .column
-      margin: auto
       .comment-card-wrapper:first-child .comment-card
         margin-top: 0
       .comment-card-wrapper:last-child .comment-card
         margin-bottom: 0
+    .left-column
+      margin-top: 80px
     +mobile 
       display: flex
       flex-direction: column-reverse
