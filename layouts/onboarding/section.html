@@ -117,7 +117,7 @@
       </span>
       <span class="content">
         <div class="content-container">
-          {{ range $idx := .contact }}
+          {{ range $idx, $val := .contact }}
           <div class="contact is-contact-{{ $idx }}">
              <div class="icon">
               {{ (resources.Get .icon ).Content | safeHTML }}
