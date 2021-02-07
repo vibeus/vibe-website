@@ -30,7 +30,11 @@ setupForm(document.querySelector('.form.is-vibe-form'), callbacks);
 const contactWidget = document.querySelector('.is-help .contact-widget');
 const contactWidgetTitle = contactWidget.querySelector('.title');
 const contactWidgetCollapse = contactWidget.querySelector('.collapse-icon');
-
+contactWidget.onblur = (e) => {
+  if (!e.relatedTarget || !e.relatedTarget.matches('.contact-widget a.link')) {
+    contactWidget.classList.remove('is-active');
+  }
+};
 contactWidgetTitle.addEventListener('click', () => {
   contactWidget.classList.toggle('is-active');
 });
