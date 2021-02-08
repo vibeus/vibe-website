@@ -110,6 +110,7 @@
           {{ with $val }}
           <div
             class="is-playlist-item is-playlist-item-{{ $idx1 }}-{{ $idx2}}{{ with $.Params.player.playlistClass }} {{ . }}{{ end }}"
+            id="{{ replace (replace .title "&" "and") " " "_" | lower }}"
             data-idx="{{ $idx1 }}-{{ $idx2 }}"
             data-target="tab-panel"
             data-target-class="is-playlist-item-{{ $idx1 }}-{{ $idx2}}-tab-content is-playlist-{{ $idx1 }} is-mobile-playlist-item-{{ $idx1 }}-{{ $idx2}}"
