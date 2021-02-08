@@ -15,6 +15,12 @@
   </div>
   {{end}}
    <div class="email">{{.email1 | markdownify }}<span>{{.email2 }}</span></div>
-    <div class="content">{{.content | markdownify }}</div>
+   <div class="content">
+    {{ range .content }}
+    <div class="text {{ with .class }}{{ . }}{{ end }}">
+      {{ .text | markdownify }}
+    </div>      
+    {{ end }}
+  </div>
     <div class="date">{{.date | markdownify }}</div>
 </div>

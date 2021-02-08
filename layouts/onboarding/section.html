@@ -119,7 +119,7 @@
         <div class="content-container">
           {{ range $idx, $val := .contact }}
           <div class="contact is-contact-{{ $idx }}">
-             <div class="icon">
+             <div class="large-icon">
               {{ (resources.Get .icon ).Content | safeHTML }}
             </div> 
             <a class="link" href="{{ .url }}">{{ .content }}</a>
