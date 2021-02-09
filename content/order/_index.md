@@ -22,7 +22,7 @@ products:
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false
-      backorder: false
+      backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
   - item: &id002
@@ -32,7 +32,7 @@ products:
       price: 500
       figure: img/order/accessory-stand-w.png
       sold_out: false
-      backorder: false
+      backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
   - item: &id003
@@ -42,7 +42,7 @@ products:
       price: 500
       figure: img/order/accessory-stand-r.png
       sold_out: false
-      backorder: false
+      backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
   - item: &id004
