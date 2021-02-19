@@ -79,7 +79,7 @@ His co-workers are now using the board in the same way—that is, if they can ge
 
 
 
-## Watch the Video: See how SBW uses Vibe
+## [Watch the Video: See how SBW uses Vibe]({{< common/srcset "image-3.jpg" "" >}}&feature=emb_logo)
 
 
 {{< common/srcset "image-3.jpg" "" >}}
