@@ -227,8 +227,13 @@ comments:
         url: https://www.instagram.com/tv/CEKMJInA90M/?utm_source=ig_web_copy_link
       - type: twitter
         name: God-is Rivera
-        email1: Replying to
-        email2: ' @eunique and @thevibeboard'
+        email:
+          - text: Replying to
+          - text: ' @eunique '
+            class: is-at
+          - text: and
+          - text: ' @thevibeboard'
+            class: is-at
         content: 
           - text: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
         date: Sep 8, 2020
@@ -245,8 +250,10 @@ comments:
     items:
       - type: twitter
         name: Christopher Webber
-        email1: Replying to
-        email2: ' @rothgar'
+        email:
+          - text: Replying to
+          - text: ' @rothgar'
+            class: is-at
         content: 
           - text: I picked up a 
           - text: ' @thevibeboard '
