@@ -14,13 +14,11 @@
     {{partial "common/srcset" (dict "resource" (resources.Get .cover) "options" "png")}}
   </div>
   {{end}}
-   <div class="email">{{.email1 | markdownify }}<span>{{.email2 }}</span></div>
-   <div class="content">
-    {{ range .content }}
-    <div class="text {{ with .class }}{{ . }}{{ end }}">
-      {{ .text | markdownify }}
-    </div>      
+  <div class="email">{{ .email1 | markdownify }}<span>{{.email2 }}</span></div>
+  <div class="content">
+    {{ range $idx, $val := .content }}
+    <div class="text {{ with .class }}{{ . }}{{ end }}">{{ .text }}</div>
     {{ end }}
   </div>
-    <div class="date">{{.date | markdownify }}</div>
+  <div class="date">{{ .date | markdownify }}</div>
 </div>

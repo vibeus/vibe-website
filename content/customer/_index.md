@@ -249,7 +249,7 @@ comments:
         email2: ' @rothgar'
         content: 
           - text: I picked up a 
-          - text: ' @thevibeboard'
+          - text: ' @thevibeboard '
             class: is-at
           - text: on Black Friday. Went with a Monoprice mount for it. I am in love with it. I have been heavily using the web app with the whiteboard. I usually create a canvas, share it with my coworkers and then go stand at the whiteboard and do the work.
         date: Jan 29, 2021
