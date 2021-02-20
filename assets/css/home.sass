@@ -132,6 +132,8 @@
     +tablet
       .image
         position: absolute
+      .overlay
+        +absolute-fill
   .cta
     font-weight: $vibe-bold
     a
@@ -182,11 +184,18 @@
         left: -300px
         +from(1024px)
           left: -150px
-        +from(1344px)
+        +from(1480px)
           left: 0
         +from(1920px)
           left: auto
           right: 50%
+        .overlay
+          +tablet
+            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 50%,rgba(102, 204, 204, 0.9) 75%)
+          +from(1100px)
+            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 55%,rgba(102, 204, 204, 0.9) 80%)
+          +from(1230px)
+            background: none
     &.is-feature-4
       .column.is-image
         height: 566px
