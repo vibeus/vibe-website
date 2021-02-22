@@ -5,6 +5,9 @@
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ if .Params.product_rich_search }}
+{{ partial "seo/product-rich-search" . }}
+{{ end }}
 {{ end }}
 
 {{/*  {{ define "nav" }}  */}}
