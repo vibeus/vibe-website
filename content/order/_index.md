@@ -3,6 +3,7 @@ stylesPath: css/order.sass
 title: i18n-content-order-_index-title
 description: Order your Vibe Board, Stylus, and Stand
 noFixedNavbar: true
+product_rich_search: true
 is_order: true
 # promo_code: 'NOVEMBER200'
 product_notices:
