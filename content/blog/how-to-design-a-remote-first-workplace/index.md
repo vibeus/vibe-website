@@ -75,7 +75,7 @@ But how do you measure productivity? Well, there are different factors to consid
 
 **3. Have a plan for child care and caregiver assistance.**
 
-{{< common/srcset "image-1.jpg" "workplace flexibility supports working parents and other caregivers" >}}
+{{< common/srcset "image-1.jpg" "Workplace flexibility supports working parents and other caregivers." >}}
 
 
 If the current WFH boom has taught us anything, it’s the value of access to quality child care and other caregiving options. There are many larger [companies who offer on-site child care](https://business.linkedin.com/talent-solutions/blog/company-culture/2019/why-patagonia-offers-onsite-child-care), so providing a stipend or child care program to employees who work off-site is key to being a truly remote-first company.
