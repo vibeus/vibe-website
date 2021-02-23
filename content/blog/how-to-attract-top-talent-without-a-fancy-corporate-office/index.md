@@ -5,7 +5,7 @@ author: Mary Clark Navarro
 date: 2021-02-23
 tags: ["remote work", "remote collaboration", "hiring"]
 description: With remote work becoming more popular, the best way to hire a great team is to rethink what the ideal job looks like.
-draft: false
+draft: true
 isfeatured: false
 ---
 
