@@ -212,6 +212,13 @@ def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     content = get_doc(doc_id)
 
     title = get_line_value(content, "^# (.+)$")
+
+    # It seems to be a common mistake to have bold style in title which is indistinguishable in Dropbox Paper,
+    # but will cause rendering issue in CMS. So we strip it here.
+    # Alternative solution is to strip them in CMS's layout script. However, we have some custom styling (~ to newline)
+    # so do it here to avoid complexity.
+    title = re.sub(r"\*\*([^*]+)\*\*", r"\1", title)
+
     slug = get_line_value(content, "^    slug: (.+)$")
     if not slug:
         print(

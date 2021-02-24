@@ -1,5 +1,5 @@
 ---
-title: "How I Vibe**:** **Henry Silverman,** Professor of Medicine "
+title: "How I Vibe: Henry Silverman, Professor of Medicine "
 slug: how-i-vibe-henry-silverman-professor-of-medicine
 author: The Vibe Team
 date: 2020-07-22
