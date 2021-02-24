@@ -40,7 +40,7 @@ global_sales:
             - name: Canada
               url: https://www.amazon.ca/dp/B081LPL772?ref=myi_title_dp
             - name: US
-              url: /order/
+              url: /order/us/
   form:
     title: |
       Does Vibe deliver to my region?

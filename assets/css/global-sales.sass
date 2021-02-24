@@ -29,7 +29,10 @@
       font-size: 64px
   .body
     font-size: 18px
+    margin: auto
     text-align: center
+    +touch
+      max-width: 584px - 32px * 2
     +mobile
       font-size: 16px
 
@@ -42,12 +45,13 @@
   .column.is-stores
     .is-column-container
       +mobile
+        max-width: 584px - 32px * 2
+      +touch
         padding: 48px 32px
-      +tablet
-        padding: 48px 0
+        max-width: 584px
       +desktop
         padding-top: 80px
-      max-width: 465px
+        max-width: 465px
       margin: auto
       position: relative
       > *:not(.image.is-bg)
@@ -63,17 +67,17 @@
           bottom: 24px
           right: -180px
         @media screen and ( min-width: 1024px ) and ( max-width: 1408px )
-          top: calc(100% - 100px)
+          top: calc(100% - 80px)
           right: -98px
         @media screen and ( min-width: 1409px )
-          top: calc(100% - 100px)
-          right: -186px
+          top: calc(100% - 80px)
+          right: -150px
           width: 523px
     .title
       font-size: 30px
       line-height: 38px
       margin-bottom: 40px
-      +mobile
+      +touch
         font-size: 24px
         line-height: 30px
     .columns, .column
@@ -107,6 +111,11 @@
       padding: 56px
       max-width: 584px
       margin: auto
+      > .title
+        font-size: 24px
+        line-height: 30px
+        p
+          display: inline
       &.is-submitted
         > .title
           visibility: hidden
@@ -115,16 +124,14 @@
             visibility: hidden
         .submitted
           display: flex
+      +mobile
+        max-width: 584px - 32px * 2
       +touch
         padding: 48px 32px
-    .title
-      font-size: 24px
-      line-height: 30px
     .button
       border-width: 2px
       max-width: 250px
       width: 250px
-      margin: auto
     +touch
       background-color: $vibe-white
     +desktop
