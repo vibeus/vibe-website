@@ -8,7 +8,7 @@ from colorama import Fore, Style
 
 def sync_apps(app_list_json, app_list_yaml, black_list):
     resp = requests.get(app_list_json)
-        
+
     remote_list = resp.json()
 
     local_map = {}
@@ -87,12 +87,12 @@ def main():
     sync_apps(
         "https://dl.vibe.cn/configs/apps/ss/prod.json",
         "./data/android_apps_zh.yaml",
-        ["com.android.rk","ai.inlight.board.app"],
+        ["com.android.rk", "ai.inlight.board.app"],
     )
     sync_apps(
         "https://dl.vibe.us/configs/apps/ss/prod.json",
         "./data/android_apps.yaml",
-        ["com.android.rk","ai.inlight.board.app"],
+        ["com.android.rk", "ai.inlight.board.app"],
     )
 
 
