@@ -24,6 +24,10 @@
     max-width: 500px
     margin: auto
     padding-left: 23px
+    hr.top
+      margin: 24px 0 16px
+    hr.bottom
+      margin: 24px 0
   .discount-ads
     margin-top: 24px
     font-size: 0
@@ -86,7 +90,7 @@
       color: $vibe-pink
   .item-price
     margin-top: 16px
-    margin-bottom: 32px
+    margin-bottom: 2px
     font-size: 30px
     font-weight: $vibe-bold
     font-family: $vibe-family-heading
@@ -102,11 +106,15 @@
       +mobile
         margin-right: 4px
   .control.is-count
+    display: none
     font-size: 18px
     width: 128px
   .control.is-add-cart
     flex: 1
-    max-width: 269px
+    max-width: 225px
+  .is-global-sales.button
+    max-width: 225px
+    border-width: 2px
   .content.is-amazon
     text-align: center
     margin-top: 8px
@@ -173,6 +181,9 @@ input[type=number]
 .control.is-add-cart .button
   font-weight: $vibe-bold
 
+.is-global-sales.button
+  font-weight: $vibe-bold
+
 .content
   &.is-sold-out, &.is-backorder
     max-width: 300px
@@ -204,7 +215,6 @@ input[type=number]
   .price
     font-size: 20px
     font-family: $vibe-family-heading
-    font-weight: $vibe-bold
     text-align: center
   .field.is-grouped
     margin-top: 24px
@@ -212,6 +222,7 @@ input[type=number]
     > .control:not(:last-child)
       margin-right: 16px
   .control.is-count
+    display: none
     width: 100px
   .control.is-add-cart
     width: 142px

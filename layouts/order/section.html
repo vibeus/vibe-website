@@ -68,6 +68,7 @@
         <div class="column is-text">
           <h1 class="title">{{ T .item.title }}</h1>
           <div class="content">{{ T .item.body | markdownify }}</div>
+          <hr class="top">
           {{ if .item.discount_price }}
           <div class="discount-ads">
             <span class="discount-info">{{ .item.discount_info }}</span>
@@ -81,15 +82,15 @@
           <div class="item-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</div>
           {{ end }}
           <div class="content is-shipping">
-            {{ .shipping | markdownify }}
-            <p>Check our <a href="/refund/" target="_blank">Refund policy</a>.</p>
             <p class="affirm">
-            Buy now, pay later with
-            <a href="https://www.affirm.com/how-it-works" target="_blank">
-              {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
-            </a>
+              Buy now, pay later with
+              <a href="https://www.affirm.com/how-it-works" target="_blank">
+                {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
+              </a>
             </p>
+            {{ .shipping | markdownify }}
           </div>
+          <hr class="bottom">
           <div class="field is-grouped is-add-to-cart" data-product-id="{{ .item.product_id }}">
             <div class="control is-count has-icons-left has-icons-right">
               <input class="input is-medium is-rounded is-black" type="number" value="1">
@@ -117,6 +118,7 @@
               </div>
               {{ end }}
             </div>
+            <a href="/global-sales" class="button is-medium is-black is-global-sales is-rounded is-outlined is-fullwidth">Global Sales</a>
           </div>
         </div>
       </div>
