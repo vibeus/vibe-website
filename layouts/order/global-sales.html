@@ -1,0 +1,56 @@
+{{ define "main" }}<main class="global-sales">
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ default .title (T .title) }}</h1>
+      <div class="body">{{ default .body (T .body) }}</div>
+      <figure class="image is-hero-bg">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
+      </figure>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.global_sales }}
+<section class="section is-global-sales">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-stores">
+        <div class="is-column-container">
+          {{ with .stores }}
+          <figure class="image is-bg">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
+          </figure>
+          <h2 class="title">{{ default .title (T .title) }}</h2>
+          {{ range .list }}
+          <div class="columns is-stores-list">
+            {{ range . }}
+            <div class="column">
+              <div class="is-region">{{ .region }}</div>
+              {{ range .contries }}
+              <a href="{{ .url }}" target="_blank" class="is-contry-store button is-rounded is-outlined">{{ .name }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="column is-form">
+        <div class="is-column-container">
+          {{ with .form }}
+          {{ partial "common/form" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/global-sales.js") }}
+</main>{{ end }}
