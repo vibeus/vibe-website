@@ -1,5 +1,5 @@
 ---
-title: "What to Know About Synchronous Communication and Asynchronous Communication"
+title: "What to Know About Synchronous and Asynchronous Communication"
 slug: what-you-need-to-know-about-synchronous-and-asynchronous-communication
 author: Megan Snyder
 date: 2020-11-06
@@ -10,7 +10,7 @@ isfeatured: false
 ---
 
 
-## Synchronous Communication vs. Asynchronous Communication
+## Synchronous communication vs. asynchronous communication
 
 You might not realize it, but your workplace communication strategies fall into two main categories. No, those categories aren’t “meetings” and “email,” though some days it might feel that way. We’re talking about synchronous communication vs. asynchronous communication.
 
@@ -20,14 +20,14 @@ We’re not alone in this remote setup. There are already companies with [comple
 
 You may not know when you’ll be commuting to the office next, or if your new permanent workspace is now just a few steps away from your kitchen. But you’ll be a better communicator and more productive employee by learning more about your team’s synchronous and asynchronous communication methods.
 
-*Related:* [**](https://vibe.us/blog/the-vocabulary-of-remote-work/)[*The vocabulary of remote work*](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [******](https://vibe.us/blog/the-vocabulary-of-remote-work/)[***The vocabulary of remote work***](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
-## Synchronous Communication
+## Synchronous communication
 
 Synchronous communication is a form of communicating that happens in real-time or near-real-time. Most people are familiar with synchronous communication in an office setting. For example, any time a co-worker stopped by your office for a progress check or your boss sent a question over Slack when they knew you were at your desk, they were using synchronous communication. **Synchronous communication occurs when team members expect an immediate response.**
 
 
-{{< common/srcset "image-1.jpg" "synchronous communication via fist bumps" >}}
+{{< common/srcset "image-1.jpg" "Synchronous communication via fist bumps." >}}
 
 
 In addition to face-to-face conversations and instant messaging, other synchronous examples include phone calls, live online chats, and live video conferences. The biggest defining characteristic of synchronous messaging is that if you send out a message, you can reasonably expect a reply within seconds to minutes.
@@ -42,9 +42,9 @@ Synchronous communication is an excellent way to build personal connections or t
 - you’re brainstorming a new product or planning a launch and want everyone to start on the same page.
 
 
-## Asynchronous Communication
+## Asynchronous communication
 
-Asynchronous (or, async) communication is any communication that is sent without the expectation of an immediate reply. **Asynchronous communication occurs when team members can expect lag time between the sent message and response.**
+Asynchronous (or async) communication is any communication that is sent without the expectation of an immediate reply. **Asynchronous communication occurs when team members can expect lag time between the sent message and response.**
 
 Asynchronous communication examples include recorded video meetings, email, shared Google Docs or Vibe boards, collaborative team spaces (such as [Notion](https://www.notion.so/product)), and Slack messages. Email and Slack messaging also work in the synchronous category, but are often used with more asynchronous intentions.
 
@@ -52,13 +52,13 @@ If your team is working remotely in any capacity, asynchronous communication has
 
 
 
-{{< common/srcset "image-2.jpg" "Async communication works well for flexible workplaces" >}}
+{{< common/srcset "image-2.jpg" "Async communication works well for flexible workplaces." >}}
 
 
 There are other benefits to asynchronous messaging, too. Face-to-face conversations enhance connection, but they can also steal time away from your work. And it’s hard to concentrate on doing deep work when your email inbox is open and constantly filling up. Establishing an asynchronous plan lets workers focus during a time that works best for them, instead of constantly feeling the pressure to respond to every email as it rolls in.
 
 
-## Collaboration and Communication at Vibe
+## Collaboration and communication at Vibe
 
 We mentioned earlier that Vibe has a remote team, so we’ve done our share of both synchronous and asynchronous communications.
 
@@ -68,11 +68,10 @@ But you can’t always plan on having your best ideas when the whole team is aro
 
 The right mix of both communication strategies will largely depend on your team and its unique needs. Laura Reigel, Vibe’s Director of Marketing, estimates that the team’s time spent communicating sync/async are “probably 25/75. When we do have scheduled meetings, there’s always an agenda and we’ve typically started collaborating and reviewing the project ahead of time,” which further helps to keep the synchronous time focused.
 
+***Related:*** [******](https://vibe.us/blog/the-vocabulary-of-remote-work/)[***Videoconference Apps you can use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
-*Related:* [**](https://vibe.us/blog/the-vocabulary-of-remote-work/)[*Videoconference Apps you can use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
-
-## Team Collaboration Software
+## Team collaboration software
 
 Now that you know the types of communication you’re working with, you can consider ways to make the most of the collaboration software applications and tools you already use. Or maybe your communication toolkit could use a refresh. While the exact apps you’ll use will depend on your business and the type of projects you’re working on, here are a few options that we like.
 

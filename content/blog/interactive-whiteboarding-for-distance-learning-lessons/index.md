@@ -18,23 +18,22 @@ Per the [NCES](https://nces.ed.gov/fastfacts/display.asp?id=372#:~:text=Total%20
 
 With 2020 quarantines forcing many schools to provide significant distance between students and follow strict health and cleaning protocols, educators, parents, and students are reevaluating what learning looks like in these modern times. 
 
-Distance learning is key to education in 2020 and will build the foundation for future programs
+Distance learning is key to education in 2020 and will build the foundation for future programs.
 
 
-# How to use Vibe Interactive Whiteboard for Distance Learning
+# How to use the Vibe interactive whiteboard for distance learning
 ## Lesson Creation
-{{< common/srcset "image-1.png" "prepare interactive whiteboard lessons" >}}
+{{< common/srcset "image-1.png" "Prepare interactive whiteboard lessons." >}}
 
 
 Lessons on Vibe can be prepared ahead of time, used during class time, and will still remain accessible for continued learning long after a video conference or recorded session ends. Take “showing your work” to a whole new level; with Vibe’s infinite canvas there’s never a need to erase when moving on to a new question. You can create another page or just zoom out to a different part of the canvas.
 
 
-
 ## Sharing to and from Vibe 
 
-Bring files into Vibe easily from Google Drive, Dropbox or OneDrive. You can access these in their native format, like Microsoft Word or PowerPoint, or bring them into the whiteboard as PDFs that can be annotated over again and again. Pull images into the board with a click, and resize, move, or delete them as needed. 
+Bring files into Vibe easily from Google Drive, Dropbox, or OneDrive. You can access these in their native format, like Microsoft Word or PowerPoint, or bring them into the whiteboard as PDFs that can be annotated over again and again. Pull images into the board with a click, and resize, move, or delete them as needed. 
 
-{{< common/srcset "image-2.png" "foster collaboration outside of classroom walls" >}}
+{{< common/srcset "image-2.png" "Foster collaboration outside of classroom walls." >}}
 
 
 Board invitations for collaboration can be sent via a sharable link through email, Slack, Teams, or Zoom chat, or via QR code. There’s simple click-to-send technology to send the board via email with an attached PDF. Boards can also be saved as PDFs directly to cloud drives like Google Drive, Box, and OneDrive.
@@ -51,12 +50,12 @@ The handwritten word--be it shared on paper, chalkboard, or whiteboard--has been
 
 Of course, there are times when it’s just not possible to have students in the same place at the same time--even when that “place” is virtual. Asynchronous lessons are best in these situations, and have the additional benefit of being on demand for students who benefit from repetition. Given that many educators are tasked with large class sizes, recorded lessons can be a way to reach students in a personal way at scale. 
 
-{{< common/srcset "image-4.png" "asynchronous learning works well with recorded video and whiteboard sessions" >}}
+{{< common/srcset "image-4.png" "Asynchronous learning works well with recorded video and whiteboard sessions." >}}
 
 
 Lessons done with Vibe can be recorded with both visual and audio components using popular video conferencing apps like Zoom or Teams, as well as with programs like Xrecorder.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe - Henry Silverman, Professor of Medicine*](https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***How I Vibe - Henry Silverman, Professor of Medicine***](https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/)
 
 ## Direct teacher-to-student communication
 {{< common/srcset "image-5.png" "video conferencing tools for the classroom" >}}
@@ -68,7 +67,7 @@ In many situations, video conferencing just isn’t enough for engaged learning.
 
 Vibe makes it simple for teachers to combine video conferencing with whiteboard and other apps so that learning spans multiple modalities.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ## Use your favorite device 
@@ -76,7 +75,6 @@ Vibe makes it simple for teachers to combine video conferencing with whiteboard 
 
 
 BYOD (bring your own device) has been a popular practice in the corporate world for years, and its benefits are being seen increasingly in education. Vibe allows participants to collaborate interactively on projects in the Vibe Cloud from the device of their choice, from the 55” 4K screen of the Vibe board, to computer browsers on Mac or PCs, to personal iPad and Android tablets. One can even view Vibe boards from smartphones like iPhones and Android, putting lessons directly into students' hands.
-
 
 
 # Vibe boards power distance learning

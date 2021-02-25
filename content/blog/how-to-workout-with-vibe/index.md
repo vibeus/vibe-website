@@ -1,5 +1,5 @@
 ---
-title: "How to: Workout with Vibe"
+title: "How to Workout with Vibe"
 slug: how-to-workout-with-vibe
 author: Stephanie Prince
 date: 2020-12-16
@@ -48,3 +48,11 @@ If you’re a self-starter with a love of planning, you can create a [template](
 For example, at the beginning of the week you can specify a muscle group for each day and then breakdown every exercise. This will simplify your week and keep you motivated to reach your goals. To add a little spice, utilize Vibe’s split screen feature to pull up your favorite Spotify playlist and rock out while you workout.
 
 These days exercise can seem like a daunting task, but just a few minutes a day to get your body moving will go a long way. YouTube and Instagram are great ways to find new workouts, and planning them out will help you stay organized and on track toward your goals. No two people are the same so choose whatever exercise is best for you.  Whether it’s a light stretch, plyometrics, or cardio, we hope Vibe can help make working out a little easier. 
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)

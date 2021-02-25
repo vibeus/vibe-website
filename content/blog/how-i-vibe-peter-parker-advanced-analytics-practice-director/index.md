@@ -1,7 +1,7 @@
 ---
 title: "How I Vibe: Peter Parker, Advanced Analytics Practice Director"
 slug: how-i-vibe-peter-parker-advanced-analytics-practice-director
-author: The Vibe Team
+author: Vibe Team
 date: 2020-08-12
 tags: ["meetings", "remote", "presentations"]
 draft: false
