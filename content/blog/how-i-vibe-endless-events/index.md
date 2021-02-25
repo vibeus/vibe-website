@@ -83,8 +83,6 @@ Christl acknowledges that it can be confusing to keep up with new technology sol
 Curran agreed. “I think that for any organization that is looking to enhance collaboration, especially if they’re remote, and especially if creative is a big part of their organization, you gotta get Vibe,” he said. “I think it’s the perfect tool for anybody who’s looking for it, and you definitely will not be disappointed in any sort of way.”
 
 
-*To see more of our interview with Endless Events, head over to* [*our YouTube channel*]({{< common/srcset "image-1.jpg" "" >}})*.*
-
 
 ----------
 

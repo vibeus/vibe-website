@@ -42,7 +42,7 @@ While resistive touch screens are consistent and durable, **they're the least se
 
 **Capacitive**
  ****
-Capacitive screens consist of several layers of glass. Electricity flows through the inner and outer layers, allowing the screen to act like two electrical conductors separated by an insulator. **This is known as a capacitor.** When your finger touches the screen, you cause a shift in the electrical field by a specific amount depending on where you touch it. **Capacitive** **s****creens are more sensitive than resistive ones** and can be touched in more than one place at once, but they can suffer more wear and tear and don't work if you touch them with a plastic stylus. 
+Capacitive screens consist of several layers of glass. Electricity flows through the inner and outer layers, allowing the screen to act like two electrical conductors separated by an insulator. **This is known as a capacitor.** When your finger touches the screen, you cause a shift in the electrical field by a specific amount depending on where you touch it. Capacitive screens are more sensitive than resistive ones and can be touched in more than one place at once, but they can suffer more wear and tear and don't work if you touch them with a plastic stylus. 
 
 **Infrared**
 

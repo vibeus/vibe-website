@@ -47,10 +47,10 @@ If you want to watch movies or browse multi-page documents but have tight desk s
 
 Explore the flexibility and freedom of [AOC’s myConnect USB monitors](https://eu.aoc.com/en/monitors/i1659fwux). The need for a power supply and extra media cables are eliminated by a **single USB cabl**e that connects your laptop directly to the display. The USB cable transfers data to the screen and acts as an energy-efficient power source. These monitors offer optimal portability for both [work](https://vibe.us/lp/scenario-meeting/) and play. 
 
-**About** **t****he** **m****onitor**
+**About the monitor**
 This portable USB 3.0 powered [monitor](https://vibe.us/blog/7-reasons-to-invest-in-dual-monitors/) can be connected with a single USB cable and offers smart features like an auto-pivot function and a foldable stand!
 
-**Image** **q****uality**
+**Image quality**
 Enjoy a full-quality Blu-ray movie, play high-resolution games, and browse your office applications in the crispest text. With a Full HD resolution of 1920 x 1080 pixels, you can do all that and more with this monitor.
 
 *******Related:*** [***How to: Workout with Vibe***](https://vibe.us/blog/how-to-workout-with-vibe/)
@@ -63,10 +63,10 @@ LED backlight technology is an industry leader in using less hazardous materials
 {{< common/srcset "image-1.png" "Acer CB242Y monitor" >}}
 
 
-**About** **t****he** **m****onitor**
+**About the monitor**
 The [CB2 Series ZeroFrame monitor](https://www.acer.com/ac/en/GB/content/model/UM.QB2EE.001) offers an excellent visual experience, explicitly designed for prosumers.
  
-**Image** **q****uality** 
+**Image quality** 
 The 16:9 widescreen resolution is ideal for playing video games, [watching movies](https://vibe.us/lp/scenario-entertainment/), and doing your office work.
  
 
@@ -74,10 +74,10 @@ The 16:9 widescreen resolution is ideal for playing video games, [watching movie
 
 Featuring stunning WQHD+ 3840x1600 resolution and a 2300R curved screen, the [ViewSonic VP3881](https://www.viewsonic.com/uk/products/lcd/VP3881) offers **one of the most immersive panoramic viewing experiences available.** Engineered to provide stunning detail and unparalleled colour accuracy across wide viewing angles, the HDR10 content support also displays a dynamic range of rich contrast and vivid colors. 
 
-**About** **t****he** **m****onitor**
+**About the monitor**
 The sleek, modern design of the VP3881 offers futuristic USB 3.1 Type-C, DisplayPort, and HDMI ports, which all come with HDCP 2.2 content protection for secure 4K content streaming and playback. The excellent **Delta E<2 value** offers precise color accuracy and integrated color uniformity, along with a a14-bit 3D look-up table, generating a smooth palette of 4.39 trillion colors. 
 
-**Image** **q****uality**
+**Image quality**
 Luminance performance on VP3881 is balanced by **ViewSonic’s uniformity correction** to offer calculated precision and improves delta luminance variance to lower than 5% to provide more consistent brightness across the screen eliminates fluctuation in color temperatures. 
  
 
@@ -85,10 +85,10 @@ Luminance performance on VP3881 is balanced by **ViewSonic’s uniformity correc
 
 [BenQ design monitors](https://www.benq.eu/en-eu/monitor/designer/pd3200u.html) are specifically formulated to fit professional designers' needs, delivering absolute precision and extremely detailed high resolution so designers can craft every step into their work and turn design visions into reality.
  
-**About** **t****he** **m****onitor**
+**About the monitor**
  The ergonomic features let you customize each individual viewing experience with a simple twist, tilt, or turn. Rotate to portrait mode or adjust the screen height for [workflow efficiency](https://vibe.us/blog/how-to-design-a-remote-first-workplace/) and additional comfort.
  
-**Image** **q****uality**
+**Image quality**
 The exclusive AQColor technology covers a broad array of color spaces like sRGB, Adobe RGB, and Rec. 709, giving you the brightest, boldest, and most accurate colors.
  
 
@@ -100,10 +100,10 @@ You can work better than ever with the [LG34WN80C’s](https://www.lg.com/us/mon
 {{< common/srcset "image-2.png" "LG 34WN80C-B 34 Inch 21:9 UltraWide™ WQHD IPS HDR10 USB-C 3-Side Virtually Borderless Monitor" >}}
 
 
-**About** **t****he** **m****onitor**
+**About the monitor**
 This monitor offers a sleek, elegant profile and a stunning slim Arcline stand with a virtually borderless design.
  
-I**mage** **q****uality**
+**Image quality**
 Compared to conventional displays, the HDR-compatible monitors display blacker blacks and brighter whites. The dark and bright areas of an image are rendered in much more detail than the old standards.
  
 ***Related:*** [***Create Effective Onboarding Practices for Your Remote Team***](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/) 
