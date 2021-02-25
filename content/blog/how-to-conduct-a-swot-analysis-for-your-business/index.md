@@ -1,6 +1,6 @@
 ---
 title: "How to Conduct a S.W.O.T. Analysis for Your Business"
-slug: how-to-conduct-a-SWOT-analysis-for-your-business
+slug: how-to-conduct-a-swot-analysis-for-your-business
 author: Megan Snyder
 date: 2020-04-18
 tags: ["meetings", "SWOT analysis", "template"]

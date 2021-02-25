@@ -1,6 +1,6 @@
 ---
 title: "How I Vibe: Arek Puzia, Professor and CPA"
-slug: how-I-Vibe-Arek-Puzia-Professor-and-CPA
+slug: how-i-vibe-arek-puzia-professor-and-cpa
 author: The Vibe Team
 date: 2020-08-05
 tags: ["higher education", "professor", "distance learning"]

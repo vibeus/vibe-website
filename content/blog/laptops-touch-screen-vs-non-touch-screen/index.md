@@ -30,13 +30,13 @@ Capacitive [touchscreens](https://vibe.us/blog/how-do-touch-screen-devices-work/
 
 ## Touchscreen pros
 
-**Easy, fast navigation**
+**Easy, fast navigation.**
 The main goal of having a touchscreen on laptops is to streamline navigation. Compared to trackpads and mouse devices, users can perform tasks more manageably, and it’s simpler to **launch and shift between applications.** Moreover, you can also use the touchscreen feature to [get your work done](https://vibe.us/blog/revamp-your-remote-interview-game-with-these-tips/) if the trackpad or keyboard stops working. 
 
-**Suitable for drawing and note-taking**
+**Suitable for drawing and note-taking.**
 [Graphic designers and artists](https://thewiredshopper.com/touch-screen-vs-non-touch-screen-laptops/) often prefer a touchscreen feature. There are laptop models equipped with a touchscreen display and stylus so users can efficiently generate sketches of artworks on the go at their convenience. A **touchscreen and stylus display combo** can be a highly convenient feature package for students, as it eliminates the need to have to carry around several heavy notebooks for classes. 
 
-**Expressive, high-quality displays**
+**Expressive, high-quality displays.**
 Touchscreen laptops tend to come with **fantastic brightness and superior color vibrancy, accuracy, and reproduction** compared to non-touchscreen displays. The majority of touchscreen models feature displays with higher resolution. [Glossy touchscreen displays](https://vibe.us/blog/choose-the-right-touch-screen-display-for-you/) respond to touch better than matte ones. Many users who work with color often typically choose touchscreen models due to their fantastic color brightness and accuracy.
 
 ***Related:*** [***How to: Workout with Vibe***](https://vibe.us/blog/how-to-workout-with-vibe/)
@@ -44,16 +44,16 @@ Touchscreen laptops tend to come with **fantastic brightness and superior color 
 
 ## Touchscreen cons
 
-**Batteries drain quickly**
+**Batteries drain quickly.**
 [Touchscreen features](https://www.delcor.com/resources/blog/should-i-buy-a-touchscreen-laptop-a-convertible-laptop-or-a-microsoft-surface) mean that the computer’s hardware has another set of processing tasks to take care of thanks to the touch panel. If you’re planning on frequently using the touchscreen feature, you will need to have a spare battery.
 
-**Touchscreens are more expensive**
+**Touchscreens are more expensive.**
 Having a touchscreen feature will **add to the price of the laptop.** Some manufacturers offer higher-resolution touchscreen displays, which elevate the cost further.
 
-**Adds weight**
+**Adds weight.**
 Adding extra technology to the computer means it takes up more **bulk and space**, making the laptop heavier. Even though the difference is in grams, a small amount of weight is noticeable in laptops.
 
-**It's hard to view in direct light**
+**It's hard to view in direct light.**
 Laptops featuring touchscreen displays are great for dim lighting areas but **can be difficult to use under direct lighting.** The glossy finishes on touchscreen models respond faster to touch, but this kind of finish also easily attracts fingerprints, smudges, and the like. 
 
 
