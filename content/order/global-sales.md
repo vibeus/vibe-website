@@ -4,6 +4,12 @@ description: We’ve shipped Vibe Boards around the world and proudly support cu
 url: /global-sales
 layout: global-sales
 stylesPath: css/global-sales.sass
+navbar:
+  extra:
+    - title: See a Demo
+      class: is-primary is-outlined is-rounded is-in-brand
+      url: /demo/
+      in_brand_mobile: true
 hero:
   title: Global Sales
   body: We’ve shipped Vibe Boards around the world and proudly support customers on 6 continents. Check the list below to see if Vibe is available for direct purchase in your region.
