@@ -3,50 +3,53 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">{{ default .title (T .title) }}</h1>
-      <div class="body">{{ default .body (T .body) }}</div>
-      <figure class="image is-hero-bg">
-        {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
-      </figure>
+      <div class="is-content-wrapper">
+        <h1 class="title">{{ default .title (T .title) }}</h1>
+        <div class="body">{{ default .body (T .body) }}</div>
+        <figure class="image is-hero-bg">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
+        </figure>
+  
+        {{ with .stores }}
+        <div class="is-stores">
+          <figure class="image is-bg">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
+          </figure>
+          <div class="is-store-list">
+            {{ range $idx, $val := .list }}
+            <div class="is-list is-list-{{ $idx }}">
+              {{ if gt $idx 0 }}
+              <hr class="is-split-line">
+              {{ end }}
+              <div class="is-region">{{ .region }}</div>
+              <div class="is-contries">
+                {{ range $idx, $val := .contries }}
+                <div class="is-contry-store is-contry-store-{{ $idx }}">
+                  <a href="{{ .url }}" target="_blank" class="is-store-link">{{ .name }}</a>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          <figure class="image is-mobile-bg">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .mobile_bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
+          </figure>
+        </div>
+        {{ end }}
+      </div>
     </div>
   </div>
 </section>
 {{ end }}
 
-{{ with .Params.global_sales }}
-<section class="section is-global-sales">
+{{ with .Params.request_a_quote }}
+<section class="section is-request-a-quote">
   <div class="container">
-    <div class="columns is-desktop">
-      <div class="column is-stores">
-        <div class="is-column-container">
-          {{ with .stores }}
-          <figure class="image is-bg">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
-          </figure>
-          <h2 class="title">{{ default .title (T .title) }}</h2>
-          {{ range .list }}
-          <div class="columns is-stores-list">
-            {{ range . }}
-            <div class="column">
-              <div class="is-region">{{ .region }}</div>
-              {{ range .contries }}
-              <a href="{{ .url }}" target="_blank" class="is-contry-store button is-rounded is-outlined">{{ .name }}</a>
-              {{ end }}
-            </div>
-            {{ end }}
-          </div>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-
-      <div class="column is-form">
-        <div class="is-column-container">
-          {{ with .form }}
-          {{ partial "common/form" . }}
-          {{ end }}
-        </div>
-      </div>
+    <div class="is-form">
+      {{ with .form }}
+      {{ partial "common/form" . }}
+      {{ end }}
     </div>
   </div>
 </section>

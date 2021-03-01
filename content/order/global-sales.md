@@ -1,51 +1,46 @@
 ---
 title: Global Sales
-description: We’ve shipped Vibe Boards around the world, with customers on 6 continents.
+description: We’ve shipped Vibe Boards around the world and proudly support customers on 6 continents.
 url: /global-sales
 layout: global-sales
 stylesPath: css/global-sales.sass
 hero:
   title: Global Sales
-  body: We’ve shipped Vibe Boards around the world, with customers on 6 continents.
+  body: We’ve shipped Vibe Boards around the world and proudly support customers on 6 continents. Check the list below to see if Vibe is available for direct purchase in your region.
   bg: img/order/global-sales/hero-bg.png
-global_sales:
   stores:
-    title: 'Vibe whiteboard is available to purchase directly within:'
     bg: img/order/global-sales/board-with-red-stand.png
+    mobile_bg: img/order/global-sales/board-with-red-stand-mobile.png
     list:
-      - - region: Asia
-          contries:
-            - name: Japan
-              url: https://www.amazon.co.jp/dp/B081LPL772?ref=myi_title_dp
-            - name: Singapore
-              url: https://www.amazon.sg/dp/B081LPL772?ref=myi_titl
-        - region: Australia
-          contries:
-            - name: Australia
-              url: https://www.amazon.com.au/dp/B081LPL772?ref=myi_title_dp
-      - - region: Europe
-          contries:
-            - name: France
-              url: https://www.amazon.fr/dp/B081LPL772?ref=myi_title_dp
-            - name: Germany
-              url: https://www.amazon.de/dp/B081LPL772?ref=myi_title_dp
-            - name: Italy
-              url: https://www.amazon.it/dp/B081LPL772?ref=myi_title_dp
-            - name: Spain
-              url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
-            - name: UK
-              url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
-      - - region: North America
-          contries:
-            - name: Canada
-              url: https://www.amazon.ca/dp/B081LPL772?ref=myi_title_dp
-            - name: US
-              url: https://www.amazon.com/dp/B081LPL772/ref=myi_title_dp
+      - region: ASIA PACIFIC
+        contries:
+          - name: Australia
+            url: https://www.amazon.com.au/dp/B081LPL772?ref=myi_title_dp
+          - name: Japan
+            url: https://www.amazon.co.jp/dp/B081LPL772?ref=myi_title_dp
+          - name: Singapore
+            url: https://www.amazon.sg/dp/B081LPL772?ref=myi_titl
+      - region: EUROPE
+        contries:
+          - name: France
+            url: https://www.amazon.fr/dp/B081LPL772?ref=myi_title_dp
+          - name: Germany
+            url: https://www.amazon.de/dp/B081LPL772?ref=myi_title_dp
+          - name: Italy
+            url: https://www.amazon.it/dp/B081LPL772?ref=myi_title_dp
+          - name: Spain
+            url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
+          - name: United Kingdom
+            url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
+      - region: NORTH AMERICA
+        contries:
+          - name: Canada
+            url: https://www.amazon.ca/dp/B081LPL772?ref=myi_title_dp
+          - name: United States
+            url: https://www.amazon.com/dp/B081LPL772?ref=myi_title_dp
+request_a_quote:
   form:
-    title: |
-      Does Vibe deliver to my region?
-
-      Request a quote.
+    title: Can't find your country above? Request a quote.
     action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/9cafe0a9-b62b-446d-bbd8-e68e8b9b0467
     controls:
       - - name: firstname
@@ -54,15 +49,15 @@ global_sales:
         - name: lastname
           placeholder: Last Name*
           required: true
-      - - name: email
+        - name: email
           placeholder: Work Email*
           type: email
           required: true
+      - - name: company
+          placeholder: Company
         - name: phone
           placeholder: Phone Number
           type: tel
-      - - name: company
-          placeholder: Company
         - name: country
           placeholder: Country*
           required: true
@@ -315,16 +310,14 @@ global_sales:
             - Zambia
             - Zimbabwe
             - Åland Islands
+      - - name: address
+          placeholder: Address
       - - name: city
           placeholder: City
         - name: state
           placeholder: State/Region
-      - - name: number_of_boards
-          placeholder: Number of Boards*
-          required: true
-        - name: number_of_stands
-          placeholder: Number of Stands*
-          required: true
+        - name: zip
+          placeholder: Zip
       - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
           placeholder: Which best describes your interest in Vibe?
           dropdown:
@@ -336,15 +329,19 @@ global_sales:
             - Personal Use & Entertainment
             - General
             - Architecture, Construction, Engineering
+      - - name: number_of_boards
+          placeholder: Number of Boards*
+          required: true
+        - name: number_of_stands
+          placeholder: Number of Stands*
+          required: true
+        - name: how_many_pairs_of_additional_styluses_would_you_like_
+          placeholder: Number of additional styluses
       - - name: anything_else_we_should_know_
           placeholder: Anything else we should know?
           type: textarea
-    hidden_values:
-      address: ''
-      zip: ''
-      how_many_pairs_of_additional_styluses_would_you_like_: ''
     privacy: |
-      Vibe will use the information provided to contact you about our products, in accordance with our [Privacy Policy](https://vibe.us/privacy/). You can opt-out of these communications at any time.
+      Vibe Inc. will use the information provided to contact you about our products and services. You can unsubscribe at any time. For more information, please review our [Privacy Policy](https://vibe.us/privacy/).
     buttons:
       - type: submit
         title: Submit
