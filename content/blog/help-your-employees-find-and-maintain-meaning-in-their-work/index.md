@@ -25,7 +25,7 @@ Managers and other people in leadership roles [have a lot to oversee](https://vi
 
 You can’t instill a sense of purpose in your team without knowing what motivates them in the first place. There are several ways to gather this information.
 
-{{< common/srcset "image-1.jpg" "give meaningful recognition in 1:1 meetings" >}}
+{{< common/srcset "image-1.jpg" "Give meaningful recognition in 1:1 meetings." >}}
 
 
 **Schedule regular 1:1 meetings.** We’ve all been in group meetings where we just don’t feel like participating, or we hope someone else will bring up that one thing that really bothers us. Basically, a group setting doesn’t always uncover all the truths you’re looking for. Meeting with everyone individually gives each person more time to speak, and both parties can ask questions in more detail if there’s a lack of understanding.

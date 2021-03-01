@@ -26,7 +26,7 @@ In a two-way remote interview, both parties meet “face to face” for a video 
 
 
 ## Why companies use remote interviews
-{{< common/srcset "image-1.jpg" "Using video conferencing for job interviews" >}}
+{{< common/srcset "image-1.jpg" "Using video conferencing for job interviews." >}}
 
 
 Companies are using remote interviews during the coronavirus pandemic as a way to safely find and hire talent while following health and safety guidelines. But aside from the practicality of this hiring method in recent times, there are many reasons to use remote interviews now and in the future.
@@ -76,7 +76,7 @@ You should also ask about any programs or software you’ll need to learn before
 
 
 ## What to do during the interview
-{{< common/srcset "image-3.png" "Setting up a microphone and headset for a remote videoconference interview" >}}
+{{< common/srcset "image-3.png" "Setting up a microphone and headset for a remote videoconference interview." >}}
 
 
 On the day of the interview, you should have your documents, writing utensil, notebook, and glass of water nearby, just as you would for an in-person interview. Now, onto the remote-specific aspects.

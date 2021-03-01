@@ -17,8 +17,7 @@ As CEO of the Leadership Resource Institute in Washington, D.C., Mark Smith’s 
 Knowing that his yearly schedule can include potentially hundreds of workshops, consultations, and training sessions, Mark needed a more streamlined way to collaborate remotely with international clients. Read on to see how the Vibe digital whiteboard improved his workflow and made his collaborations more dynamic.
 
 
-
-## How Mark Chose Vibe
+## How Mark chose Vibe
 
 Like many people, Mark uses Google Docs regularly in his work, so his search for the right digital whiteboard began, unsurprisingly, with a Google product.
 
@@ -29,13 +28,13 @@ He continued to compare the Jamboard to other whiteboard options and eventually 
 “I saw that Vibe had more features than a Jamboard, and a lower price point. And after talking with the people at Vibe and learning about the board’s integration with Zoom as an actual tool on the board, that was the clincher for us.”
 
 
-## Mark’s Favorite Apps and Working with Vibe
+## Mark’s favorite apps and working with Vibe
 
 Right now, Mark uses a trio of tools for most of his work: Zoom, Google Docs, and the Vibe board’s infinite canvas. The board lets him easily access the tools that already work well for him so that he can confidently lead his teams through projects. He’s even developed a process for large team brainstorming sessions using one of his go-to features, Vibe’s sticky notes.
 
 “What the Vibe board allows me to do is compile, in a single place, the documentation of a project,” he says. “If I put people into breakout groups in Zoom, each group can work on a different page of the same Vibe board together. They’ll start with their sticky notes to work through and brainstorm some things, then we’ll reconstitute the groups and they can still work with the same notes and move them to different places [on the board’s canvas].”
 
-*Related:* [*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 With so many people currently working remotely, keeping teams engaged during virtual meetings is imperative. Giving everyone access to the same documents is one thing, but Mark has found that giving them the opportunity to work together on that document in real time keeps them engaged, especially when they’re creating PICK charts.
 
@@ -49,14 +48,14 @@ This same trio of tools makes it easy for Mark to prep groups for what they’ll
 
 “I’ll say, ‘We’re going to be using Zoom. If you haven’t used Zoom before, here are the things you should know. We’re going to be using Google Docs. Here’s the link to the doc; if you haven’t used Google Docs before, here’s what you should know. Please go in and play with it.’ And I set up a Vibe board beforehand and give them access and say, ‘Here’s this table, it has your name in it; please go in and populate it with your expectations,’ then they’ve practiced with it and know how it works.”
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 This method not only encourages collaboration, it also gives his clients time to practice and get comfortable with the programs.
 
 “What I’ve found is the more sophisticated a client is in terms of tools, the more likely they are to actually go in and play with it. For example, I invited one client of mine into a Vibe board and said, ‘Go practice some things, it’s pretty intuitive.’ The next thing I know they’re importing pictures, they’ve got their team picture in there, they’ve got their logo in there, they’re writing hi to each other because they’re in different places,” he says while laughing.
 
 
-## Leading Large Meetings and Group Collaborations
+## Leading large meetings and group collaborations
 
 Mark has found that the preferred video conferencing platform varies among his roster of clients. The Vibe board is compatible with several popular meeting platforms, which made Mark’s life easier during a recent session with a large Fortune 100 company.
 
@@ -74,7 +73,7 @@ Large teams with multi-part projects have a lot to keep track of, but Mark creat
 
 
 
-## Mark’s Favorite Features
+## Mark’s favorite features
 
 The Vibe board’s functionality and intuitive design make it easy for Mark to go into the apps menu and try out new-to-him programs. The ever-growing list of app integrations keeps things interesting for him, who is always curious to see what else might be available to work alongside his must-have tools.
 
@@ -82,12 +81,12 @@ But beyond the vast library of apps, Mark appreciates how the board allows his t
 
 “The way I talk about it is, we can work at the same time, same place; same time, different place; different time, different place; or we could work different time, same place if we wanted to share one physical board. The Vibe board creates those different opportunities so you can work asynchronously, but it’s all coming together in one place.”
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***What to Know About Synchronous Communication and Asynchronous Communication***](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 He also lists the continuous canvas as a plus for collaboration, noting that it makes it easy for everyone to put their ideas on the board before they all dive in to shape the ideas and move things around before moving on to the next activity. 
 
 
-## Using the Board Outside of Work
+## Using the board outside of work
 
 Now that he’s been using Vibe, Mark has found that the board serves multiple areas of his life. In addition to his client work and collaboration projects, he’ll use the Netflix integration when he takes a break from work, and he uses it for coursework, too.
 

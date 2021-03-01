@@ -20,9 +20,9 @@ Adding to the challenge was that many of Wong’s co-workers still preferred usi
 
 Read on to see how Jonathan Wong and the rest of the construction team made the Vibe Board part of their new daily routine.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How to Build a Collaborative Workspace (And Why You Should)*](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***How to Build a Collaborative Workspace (And Why You Should)***](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
 
-**The Search for a Solution**
+**The search for a solution:**
 Without the ability to work together or look at a co-worker’s computer screen in-person, adopting new practices was necessary. SBW wanted to incorporate digital whiteboards into their workflow prior to the onset of COVID-19, but the pandemic hastened their search, as did the company’s move to a new office.
 
 “We were rolling out on Microsoft Teams and trying to get everybody up to date, and really, working remotely made the situation similar for everyone,” Wong said. “The gap between trying to convince people to use collaborative tools was really no longer there.”
@@ -32,14 +32,14 @@ The search began with [SMART Board](https://vibe.us/comparison/vibe-vs-smart-boa
 
 Wong also looked into [Samsung](https://vibe.us/comparison/vibe-vs-samsung-flip/) and the [Microsoft Surface Hub](https://vibe.us/comparison/vibe-vs-microsoft-surface-hub/), but the Surface Hub in particular was more expensive than what the team wanted. With further research, Wong discovered that the Vibe board not only had the best value and made the most economical sense (the company could purchase three Vibe boards for the price of one Surface Hub), but it was also the lowest risk option for the company’s needs. Another selling point: the ease of getting right to work.
 
-{{< common/srcset "image-1.jpg" "engineers using a Vibe touchscreen digital whiteboard" >}}
+{{< common/srcset "image-1.jpg" "Engineers using a Vibe touchscreen digital whiteboard." >}}
 
 
 “We didn’t have to assemble anything,” Wong said. “[And] the touchscreen capability is more seamless than someone clicking a mouse and keyboard. It’s good that you have those options; it’s just when you’re in the thick of things, moving around on the page or on the screen, [the touchscreen] is easier instead of scrolling or adjusting your window so you can zoom in or zoom out.”
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
-**Getting the Team On Board Through Onboarding**
+**Getting the team on board through onboarding:**
 A well-defined onboarding process makes it easier to embrace new methods. Wong explained, “Part of my job is to convince people of the technology, what its use is, and what it can do above and beyond our standard practices.”
 
 For example, the company does a lot of work using [Bluebeam](https://www.bluebeam.com/), a popular brand of construction pdf software. While they’ll continue to use the software for constructability and drawing reviews for their projects, the Vibe board offers more opportunity for freeflow brainstorming on their way to review or mark-up construction documents such as construction blueprints. As Wong noted, “Sometimes it’s nice to just scratch something on a piece of paper, and now it’s on a whiteboard. It’s fluid and more flexible.”
@@ -48,8 +48,8 @@ To make the transition to collaboration tools easier, employees attended a tutor
 
 “The basic version is for people that just need to use a whiteboard, send it to an email, and then the session gets wiped out. The basic version went through all the drawing tools and what the Vibe board could and could not do, so it’s really simple,” Wong said. “And then, if they’re interested, we did an advanced version which showed creating an account, signing into Vibe, and saving your whiteboards to the Vibe cloud.”
 
-**How They’re Using Vibe**
-One of the ways in which the SBW team uses the Vibe Board is for navigating construction site logistics. The annotation feature combined with the infinite canvas lets them quickly map the potential layout for a new project, such as where to park the equipment, where to station the flagger, and the location of access points in and out of the site.
+**How they're using Vibe:**
+One of the ways in which the SBW team uses the Vibe board is for navigating construction site logistics. The annotation feature combined with the infinite canvas lets them quickly map the potential layout for a new project, such as where to park the equipment, where to station the flagger, and the location of access points in and out of the site.
 
 {{< common/srcset "image-2.jpg" "construction blueprints on an ipad" >}}
 
@@ -68,22 +68,14 @@ The team uses Microsoft Teams, [Procore](https://www.procore.com/), and Bluebeam
 
 “And the good thing is a lot of people can view it, or I can share it across multiple screens, so people in a larger office and still see what’s happening while I’m on the back end of the room, drawing on the Vibe Board.”
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*3rd Party App Integrations for the Vibe board*](https://vibe.us/android-app-store/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***3rd Party App Integrations for the Vibe board***](https://vibe.us/android-app-store/)
 
-**Building on Ideas**
+**Building on ideas:**
 While Wong and his team are still discovering everything Vibe can do, he said that so far, “The one thing that I find the best is that you don’t need to really lose any of your ideas, even though you may not know what to do with them right away. You just kinda put it on the smartboard and can be like, “Let me go take a look.’ Maybe there’s something here and you can expand on it, versus, ‘I don’t remember where I put that piece of paper.’”
 
 His co-workers are now using the board in the same way—that is, if they can get to the office before him.
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
-
-
-
-## [Watch the Video: See how SBW uses Vibe]({{< common/srcset "image-3.jpg" "" >}}&feature=emb_logo)
-
-
-{{< common/srcset "image-3.jpg" "" >}}
-
 
 
 ----------

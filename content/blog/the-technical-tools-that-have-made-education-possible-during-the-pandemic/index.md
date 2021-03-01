@@ -10,94 +10,92 @@ summary: Is a good education still obtainable during the pandemic? Check out the
 ---
 
 
-## The New Innovation in Education
+## The new innovation in education
 
 During the pandemic, [remote learning has become the new normal](https://vibe.us/lp/scenario-distance-learning/), and technical tools have been popping up to make education remain possible and even improve it. While we don’t know how long we will be learning from home instead of in a classroom, there are **resources that you can take advantage of to get the best possible learning experience**. Let’s look at how the pandemic has changed what we know about education. 
 
-**Related:** [**What Is an Interactive Whiteboard?**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
+***Related:*** **[***What Is an Interactive Whiteboard?***](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
 
 
-## Remote Learning
+## Remote learning
 
-***How has technology changed remote learning? See how*** [***the Vibe board is reinventing education***](https://vibe.us/order/)***!***
+***How has technology changed remote learning? See how*** [***the Vibe board is reinventing education***](https://vibe.us/order/)***.***
 
-**Rise of “Distance Learning” Platforms**
+**Rise of** **distance learning platforms**
 The pandemic has led to many students having to learn from home rather than physically going to school, and [**distance learning platforms**](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) **like Zoom play a vital role** in their continued education. Students get to learn and stay on a regular schedule while not losing any time from their semesters.
 
-**How It Differs From In-Person Teaching**
+**How** **i****t** **d****iffers** **f****rom** **i****n-****p****erson** **t****eaching**
 One of the most significant differences between distance learning and in-person teaching is **the ability for students to learn at their own pace**. Teachers can easily record their lessons so that students in different time zones can learn and study at their convenience. Students from all over the world are learning new skills from the comfort of their own home.
 
-**More Personalized Learning for Students**
+**More** **p****ersonalized** **l****earning for** **s****tudents**
 The new rising technologies for online learning allow students more personalized attention. Lessons can get more easily tailored to student’s individual emotional and academic needs. The customization offered by remote learning platforms is nearly endless. **Most students benefit significantly from smart devices and personalized learning**.
-**Heightened Focus on Remedying Student Inequities**
 
+**Heightened** **f****ocus on** **r****emedying** **s****tudent** **i****nequities**
 The internet is a [**source of limitless resources and information**](https://vibe.us/blog/), including digital libraries for students to learn about nearly anything. Students can continue their regular courses, and self-learners have access to more classes than ever to broaden their skillsets. 
 The pandemic has inadvertently helped more students around the world gain access to these resources.
 
 
-## Open Online Courses
+## Open online courses
 
-**Focuses on Career Skills or Special Interests** 
+**Focuses on** **c****areer** **s****kills or** **s****pecial** **i****nterests** 
 There are more online courses available than ever before, and almost anyone can find a class that focuses on the career skills that they wish to develop. More and more specialized courses are popping up all over the place to help people around the world learn more about their interests and expand their knowledge. 
 
-**Massive Availability**
-The pandemic has renewed many people’s interest in obtaining a higher education, and Massive Open Online Courses are helping people achieve that goal. The platforms that offer these courses have seen more demand since the pandemic started and have created many courses to help people learn, no matter their age.
+**Massive** **a****vailability**
+The pandemic has renewed many people’s interest in obtaining a higher education, and Massive Open Online Courses (or MOOCs) are helping people achieve that goal. The platforms that offer these courses have seen more demand since the pandemic started and have created many courses to help people learn, no matter their age.
 
-**Aimed Towards Adult Learners**
+**Aimed** **at** ******a****dult** **l****earners**
 Many adults who are [working from home](https://vibe.us/blog/9-benefits-youre-getting-from-working-from-home/) or currently out of work are turning to online courses to continue their education and gain new skills. Since these courses are available to anyone with a computer and internet access, adult learners from all over are **taking advantage of the situation and learning new career skills**.
 
-**Encouraging Social Learning Platforms**
+**Encouraging** **s****ocial** **l****earning** **p****latforms**
 Social learning platforms streamline a lot of the work for teachers by **hosting all of the tools they need in one place**. These learning platforms encourage collaboration and give teachers a place to deliver lessons, share resources, and grade assignments.
 
-## Learning Management Systems
-{{< common/srcset "image-1.jpg" "A young girl learning remotely" >}}
+## Learning management systems
+{{< common/srcset "image-1.jpg" "A young girl learning remotely." >}}
 
 
-**Related:** [**Positive Aspects of Distance Learning**](https://vibe.us/blog/10-positive-aspects-to-distance-learning/)
+***Related:*** [***Positive Aspects of Distance Learning***](https://vibe.us/blog/10-positive-aspects-to-distance-learning/)
+**
+**Delivering** **o****nline** **l****essons**
+Learning management systems are the easiest way for teachers to deliver their online lessons and provide them with additional resources. These systems **let the teachers run virtual or in-person classrooms**, **track student progress and connect with the parents**.
 
-**Delivering Online Lessons**
-Learning Management Systems are the easiest way for teachers to deliver their online lessons and provide them with additional resources. These systems **let the teachers run virtual or in-person classrooms**, **track student progress and connect with the parents**.
-
-**How Colleges and Universities Benefit**
+**How** **c****olleges and** **u****niversities** **b****enefit**
 [Colleges and universities benefit immensely](https://vibe.us/lp/scenario-education/) from these Learning Management Systems. They allow students and professors to **attend virtual classes and share interactive media**. Learning Management Systems also give professors the ability to target online lessons for the specific needs of each student.
 
 
-## How Remote Learning Can Increase Student Engagement
+## How remote learning can increase student engagement
 
-**Easier to Deliver Lessons Online**
+**Easier to** **d****eliver** **l****essons** **o****nline**
 Remote learning makes it easier for teachers to deliver exceptional lessons to their students; they can include media like videos and virtual field trips at no extra cost to the students. There are already many online courses that teachers can make small changes to so they can be more **tailored towards their students’ needs**.
 
-**Easier for Students to Give Feedback**
+**Easier for** **s****tudents to** **g****ive** **f****eedback**
 Remote learning gives students a better opportunity to **give real-time feedback on their lessons** -- this allows the teacher to actively monitor and adjust their courses to be perfect for their students. Students that may not speak up in a physical classroom generally feel more comfortable contributing to an online session.
 
-**Sending Links Instead of Physical Documents**
+**Sending** **l****inks** **i****nstead of** **p****hysical** **d****ocuments**
 Students who are learning remotely can **easily share documents and projects with the teacher and the rest of the class**. Sharing docs allows for better collaboration, and it’s as simple as sending a link to the rest of the class to view and edit different assignments.
 
-**Involve the Students and Parents in Online Forums**
+**Involve the** **s****tudents and** **p****arents in** **o****nline** **f****orums**
 Communication in remote learning is as essential as in a physical classroom. **Online forums make it simple to** [**stay in touch with students**](https://vibe.us/blog/8-ways-to-use-a-vibe-board-with-kids/) **and their parents**. Teachers, students, and parents can share thoughts, concerns, and suggestions for everyone to see.
 
 
-## Video Calls and Social Interactions
+## Video calls and social interactions
 
-**Why Social Interactions are Important in Education**
+**Why** **s****ocial** **i****nteractions are** **i****mportant in** **e****ducation**
 Even if a student cannot attend a physical class, [**they still need social interaction**](https://www.fastcompany.com/90535982/3-ways-to-improve-your-kids-social-skills-during-remote-learning) throughout their education. One of the most significant drawbacks of remote learning is the lack of physical interaction between students and teachers. Even though most of the learning is done at a computer, it’s important to limit screen time.
 
-**A Substitute for Face-to-Face**
+**A** **s****ubstitute for** **f****ace-to-****f****ace**
 While it’s not a perfect substitute, [**video chat programs**](https://vibe.us/blog/digital-technology-to-use-if-youre-working-from-home-and-havent-prepped/) **allow for face-to-face interactions between teachers and students**. It’s nice to see who you are talking to and working with, even if it’s on a screen rather than in-person.
 
-{{< common/srcset "image-2.jpg" "A child learning remotely with a video chat program" >}}
+{{< common/srcset "image-2.jpg" "A child learning remotely with a video chat program." >}}
 
 
-**Related:** [**Make Sure Your Kids Have an Active Social Life While Learning from Home**](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
+***Related:*** [***Make Sure Your Kids Have an Active Social Life While Learning from Home***](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
-## The New Normal Post-COVID?
+## The new normal post-COVID?
 
 With all of the success that remote learning has seen during the pandemic, it might very well become the new standard even post-COVID. **It’s essential to continue developing and refining remote learning strategies** for use in the future as well as in the present.
 
 At Vibe, we are committed to solving the problems of productivity, efficiency, and collaboration in remote learning with an all-in-one hub for conferencing, teaching, and presentations.
-
-***Do you want to learn more?*** [***See what Vibe is all about***](https://vibe.us/about/)***!***
 
 
 
