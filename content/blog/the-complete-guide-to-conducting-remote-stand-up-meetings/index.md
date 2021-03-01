@@ -22,7 +22,7 @@ Scheduling a conference call is fine for many other business situations, but man
 So if your team can’t be in the same room for your daily standup, then video conferencing is your new best friend. Luckily there are a lot of great tools out there to easily connect everyone. Apps like Zoom, GoToMeeting, Google Meet, and Skype are just a few ways to see and hear everybody on the call.
 
 ## 2. Draw and write on a shared whiteboard
-{{< common/srcset "image-1.png" "Remote SWOT analysis on an interactive digital whiteboard" >}}
+{{< common/srcset "image-1.png" "Remote SWOT analysis on an interactive digital whiteboard." >}}
 
 
 You want to keep the stand-up meeting short, so using a collaborative visual aid can help get your point across quickly without wasting valuable time with over-explaining. Digital whiteboards like Vibe make it easy to write and draw your ideas for the whole team to see. You can even add in the video conference alongside the canvas so people can comment and contribute in real time. Plus, you can share this work with colleagues after the meeting. 
@@ -61,7 +61,7 @@ This brings up an important point about remote teams: there’s a good chance yo
 Nothing defeats the purpose of a team standup more than people not speaking up. But if some of your team members are working remotely, they might fall into the habit of staying silent and watching the team discussion instead of engaging. Stick to the plan of having every single person list their accomplishments, goals, and obstacles. If they continue to be quiet, check in with them at a later time to see how to make participating easier.
 
 ## 8. Continue to meet face-to-face 
-{{< common/srcset "image-3.jpg" "Video conferencing makes remote meetings face-to-face" >}}
+{{< common/srcset "image-3.jpg" "Video conferencing makes remote meetings face-to-face." >}}
 
 
 One of the [principles of Agile](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/) is, “The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.” So remote workers need to keep their cameras turned on. This helps their team communicate more openly because they can better interpret body language and facial expressions with a video chat.

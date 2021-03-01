@@ -40,7 +40,7 @@ Some settings will serve multiple uses. An office bar — complete with craf
 
 {{< common/srcset "image-1.png" "Conversations in shared work spaces" >}}
 
-# Why Develop Collaborative Workspaces?
+# Why develop collaborative workspaces?
 
 The design of a space can dramatically [transform collaborative experiences and outcomes](https://www.ciphr.com/features/how-does-office-design-affect-productivity/) of the work done there.
 
@@ -52,9 +52,9 @@ As work cultures have evolved to center collaboration over solitary deliberation
 
 Amenities that make collaboration more natural, from good lighting to healthy snacks in kitchens, are growing in popularity to meet the needs of an evolving workforce.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***What to Know About Synchronous Communication and Asynchronous Communication***](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
-# New Tools
+# New tools
 
 Technology makes the fostering of a team-forward work environment possible as well. A tech stack including tools like [Asana, Flowmap, and Trello](https://vibe.us/product/) can connect people virtually to work on the same project, at the same time, from anywhere. They help enable collaboration without making physical proximity necessary.
 
@@ -66,7 +66,7 @@ The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to we
 {{< common/srcset "image-2.png" "Integrated zoom for remote collaboration" >}}
 
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 # Co-working for coworkers
 
@@ -75,7 +75,6 @@ As more companies collaborate with freelancers, consultants, and contract worker
 Co-working has gone from an informal practice, established by freelancers and creatives in libraries and cafes, to a phenomena that defines the contemporary work experience. In 2016, 43 percent of employed Americans said they spent at least some time [working remotely](https://www.nytimes.com/2017/02/15/us/remote-workers-work-from-home.html) — a number that is only on the rise.
 
 Collaborative spaces now need to include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
-
 
 
 # What does a collaborative workspace look like?

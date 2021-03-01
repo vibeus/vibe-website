@@ -1,5 +1,5 @@
 ---
-title: "6 Reasons Why The Standard Whiteboard Is Becoming Obsolete"
+title: "6 Reasons Why the Standard Whiteboard Is Becoming Obsolete"
 slug: 6-reasons-why-the-standard-whiteboard-is-becoming-obsolete
 author: Karen Belz
 date: 2020-08-25
@@ -18,12 +18,12 @@ Whiteboards are, without a doubt, a great way to communicate with other people. 
  
 In the office, it's a great tool for brainstorming. Since many people are visual learners, it's a great way to make sure points get across and help illustrate the task at hand. However, these days, the standard whiteboard is becoming somewhat obsolete.
  
-And, that's because technology has taken over. The way we communicate today is much different than how it was 20 years ago. Back then, nobody had cell phones. Letter writing was more popular. And, social media wasn't around. Digital whiteboards are the way of the future, and the best way to make sure everyone's on the same page. Here's why.
+That's because technology has taken over. The way we communicate today is much different than how it was 20 years ago. Back then, nobody had cell phones. Letter writing was more popular. And, social media wasn't around. Digital whiteboards are the way of the future, and the best way to make sure everyone's on the same page. Here's why.
  
 
 ## 1. Not many people are in the office anymore. 
 
-The pandemic changed the way that we do work. Jobs that require a computer can mostly be done from the comforts of home. Meanwhile, that standard whiteboard is becoming useless. With a digital whiteboard, you can conduct virtual meetings and also have an endless amount of canvas to jot down ideas with coworkers all over the world. Even if offices open back up to the level everyone's used to, a digital whiteboard is a great tool to have.
+The COVID-19 pandemic changed the way we do work. Jobs that require a computer can mostly be done from the comforts of home. Meanwhile, that standard whiteboard is becoming useless. With a digital whiteboard, you can conduct virtual meetings and also have an endless amount of canvas to jot down ideas with coworkers all over the world. Even if offices open back up to the level everyone's used to, a digital whiteboard is a great tool to have.
  
 
 ## 2. Those with poor handwriting don't need to worry about clarity. 

@@ -1,5 +1,5 @@
 ---
-title: "Making Sure Your Kids Still Have An Active Social Life While Learning Remotely"
+title: "Making Sure Your Kids Have an Active Social Life While Learning Remotely"
 slug: making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely
 author: Karen Belz
 date: 2020-09-21
@@ -16,7 +16,7 @@ A few days ago, my 3-year-old said the most heartbreaking thing to me. "I want t
  
 I know that my situation could be a lot worse. Older kids with an established social life (but who might not be too tech-savvy just yet) are likely feeling the pressure, especially if their district has opted for distance learning for the remainder of the year. But, there are still good ways for kids to have new experiences and be social while staying safe.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Hannah Brown, Kindergarten Teacher*](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***How I Vibe: Hannah Brown, Kindergarten Teacher***](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
 
 ## Write letters. 
 
@@ -37,7 +37,7 @@ Instead of having your kids spontaneously text a friend, set a standing time eac
 {{< common/srcset "image-1.jpg" "" >}}
 
 
-Video games can be a controversial topic. But when used in moderation, they can be a good way for your children to bond with their friends. Computer games may be one of your best bets, especially if you're not in the market for a gaming system. Since it's 2020, there are way more educational games out there than Oregon Trail and Number Munchers (although to be fair, both of those were a lot of fun back in the day.) "Yes, it's virtual — not 'real.' Still, these video games remain one of the only ways our kids can learn the kind of social and emotional lessons that they're otherwise missing out on right now," writes Elissa Strauss for [](https://www.cnn.com/2020/05/27/health/video-games-socialization-pandemic-wellness/index.html)[CNN](https://www.cnn.com/2020/05/27/health/video-games-socialization-pandemic-wellness/index.html). "The pandemic is giving us a chance to see the benefits of video gaming. They're significant and something — fear not, son — I won't be forgetting when the world reopens."
+Video games can be a controversial topic. But when used in moderation, they can be a good way for your children to bond with their friends. Computer games may be one of your best bets, especially if you're not in the market for a gaming system. Since it's 2020, there are way more educational games out there than Oregon Trail and Number Munchers (although to be fair, both of those were a lot of fun back in the day.) “Yes, it's virtual — not 'real.' Still, these video games remain one of the only ways our kids can learn the kind of social and emotional lessons that they're otherwise missing out on right now," writes Elissa Strauss for [](https://www.cnn.com/2020/05/27/health/video-games-socialization-pandemic-wellness/index.html)[CNN](https://www.cnn.com/2020/05/27/health/video-games-socialization-pandemic-wellness/index.html). "The pandemic is giving us a chance to see the benefits of video gaming. They're significant and something — fear not, son — I won't be forgetting when the world reopens."
  
 
 ## Spend time with them. 
@@ -49,7 +49,7 @@ It may seem like you don't have too much time in your schedule, but it's importa
 
 Plenty of museums have created free digital tours for kids staying at home. [Level up the experience by playing one on a Vibe board.](https://vibe.us/lp/scenario-distance-learning/) Not only will it seem more like the real deal for your child, but you can easily share the tour on Zoom.  Gather some of their friends together virtually and be their tour guide. Treat it like an everyday field trip, and let the kids talks and discuss this exhibits. That, or they can each schedule times to check out the live cameras on the museum webpage. "Students can tune in at the same time, then call or text each other about what they see," [](https://www.nationalgeographic.com/family/in-the-news/coronavirus/kids-social-during-distancing/)[National Geographic](https://www.nationalgeographic.com/family/in-the-news/coronavirus/kids-social-during-distancing/) suggests.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Digital Whiteboards: the 11 Best Reasons To Invest*](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 ## Get them outside. 
 

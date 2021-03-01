@@ -21,28 +21,26 @@ Hannah Brown, the lead kindergarten teacher at Primrose School of Thornton in Co
 “We have two computers in each classroom, two students iPads, and over this summer we got Google virtual reality goggles,” she says. To further enhance the learning experience, the school also purchased a [Vibe digital whiteboard](https://vibe.us/lp/scenario-education/) to use in the upcoming school year.
 
 
-
-## A Tradition of Advancing Education
+## A tradition of advancing education
 
 Brown said that her school’s leadership team began researching interactive whiteboards in the classrooms at the beginning of the last school year. With the arrival of the Vibe board, she has been [familiarizing herself with its features](https://vibe.us/faqs-for-teachers-and-educators/) and thinking of ways to integrate the board into her lessons, saying, “I’m starting to see how we can make it work. They could even have this in the preschool class, with learning shapes and the ‘Find the Difference’ game. The kids love those games.”
 
 
-## How Hannah’s Class Uses Vibe
+## How Hannah’s class uses Vibe
 
 So far, the children in Brown’s summer class have used the board’s infinite canvas for practicing letters, playing spelling games, and drawing. Brown says, “It’s incredibly versatile; it’s a really awesome board,” adding, “The kids absolutely love it. They feel like the teacher when they’re up there!”
 
 “Since we can’t go on field trips anywhere this summer because of COVID-19, we watch one movie each week,” Brown says. “One week the kids made cars out of cardboard boxes and we did a ‘drive-in’ movie with the Vibe board as the screen. It was really cute.”
 
 
-{{< common/srcset "image-1.png" "Fun ideas for technology in the classroom, like a ‘drive-in’ movie with the Vibe board" >}}
+{{< common/srcset "image-1.png" "Fun ideas for technology in the classroom, like a ‘drive-in’ movie with the Vibe board." >}}
 
 
 
 As summer wraps up and the academic year begins, Brown envisions using the Vibe board for teaching handwriting, learning shapes and colors, playing educational games, and using it during reading time. She says the board’s split screen feature could be a fun addition to reading time, explaining, “If we don’t have one of the books we need for ‘Read Aloud’ that day, we can watch [a YouTube video of] somebody reading it, and I could write the children’s responses on the other side.”
 
 
-
-## Looking Ahead
+## Looking ahead
 
 The Primrose School of Thornton currently plans on offering on-site classes this fall while following all COVID-19 health and safety protocols. In addition to twice-daily temperature checks and masks for everyone 3 years-old and up, class sizes will still be limited in order to follow social distancing guidelines. Brown says that for the most part, the children have taken all of the necessary changes in stride.
 

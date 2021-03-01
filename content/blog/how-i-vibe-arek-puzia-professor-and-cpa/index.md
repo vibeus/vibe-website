@@ -1,6 +1,6 @@
 ---
 title: "How I Vibe: Arek Puzia, Professor and CPA"
-slug: how-I-Vibe-Arek-Puzia-Professor-and-CPA
+slug: how-i-vibe-arek-puzia-professor-and-cpa
 author: The Vibe Team
 date: 2020-08-05
 tags: ["higher education", "professor", "distance learning"]
@@ -19,14 +19,14 @@ Diablo Valley College, a two-year community college in Northern California, serv
 This overhaul from how the school in the San Francisco Bay Area normally operates would be enough to overwhelm anyone. But if you’re like Arek Puzia, you could view this time as an opportunity to get creative, make some adjustments, and bring new value to your work. Read on to see how this professor and CPA is making the most of his chance to thrive alongside his students and clients in a collaborative digital space.
 
 
-## Going Back to the Classroom
+## Going back to the classroom
 
 Professor Puzia’s resume gives him plenty of real world experience to draw from when he’s teaching. As he puts it, “I’ve been in business and finance my whole life. I worked in capital markets for Merrill Lynch out of London for a few years; then I was an investment banker here in the Bay Area. I left that and, with my now-business partner, we set up PathWise, which is a wealth management firm. We have about 100 clients and manage around $100 million.”
 
 Three years ago, Puzia heard that Diablo Valley (whose Pleasant Hill campus is just a few miles from the PathWise office) was hiring faculty to teach accounting. He had attended DVC prior to completing his undergraduate degree at UCLA, so he applied, joined the team, and has been teaching in the college’s business, finance, and accounting department since then.
 
 
-## New Technology in a Changing Academic Climate
+## New technology in a changing academic climate
 {{< common/srcset "image-1.jpg" "ASIJ Stories: Distance Learning at ASIJ" >}}
 
 
@@ -39,7 +39,7 @@ The students in Puzia’s classes alone illustrate how diverse the student popul
 With so many different factors to take into account, online learning gives both the students and teachers more flexibility in what “classroom time” looks like. So whether Puzia opts for synchronous learning (i.e. all students would log into class at the same time) or asynchronous (students could complete course material and watch recorded lectures on their own schedule), having a digital whiteboard and the right tech accessories would allow him to offer both.
 
 
-## How Arek Chose Vibe
+## How Arek chose Vibe
 
 Before finding the Vibe board, Puzia had limited experience with recording his lectures, largely relying on an iPad to do the trick. But because accounting qualifies as a [Career Technical Education](https://www.cde.ca.gov/ci/ct/) course in California, he secured funding through the state’s Strong Workforce Program to put together a tech setup that would help him to create more professional and accessible presentations for his students.
 
@@ -48,7 +48,7 @@ Before finding the Vibe board, Puzia had limited experience with recording his l
 After thorough research (which he says included a lot of marketing videos), the Vibe board proved to be the best option for Puzia. In addition to its price point, Vibe was the only digital whiteboard that [offered a demo](https://vibe.us/demo/) to review the product’s functionality, and the board’s variety of solutions gave him options for creating an ideal learning environment.
 
 
-## Using Vibe for Asynchronous Learning
+## Using Vibe for asynchronous learning
 {{< common/srcset "image-2.png" "" >}}
 
 
@@ -71,7 +71,7 @@ While it’s still possible to purchase physical copies of textbooks, Puzia says
 Traditional office hours are off the table for fall, too, which Puzia sees as an opportunity to be even more responsive to his students’ needs. He plans on using Zoom to schedule one-on-one meetings with his students as needed.
 
 
-## Using Today’s Challenges for Future Success
+## Using today’s challenges for future success
 
 The biggest takeaway from Puzia’s preparation for the 2020-21 school year is that using new tech tools simply for the sake of using new tech isn’t the point; the point is to make sure you’re adding value to your classes for the benefit of the students.
 

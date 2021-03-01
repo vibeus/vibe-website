@@ -21,12 +21,13 @@ With many colleges and universities unsure of what the fall semester will look l
 Dr. Henry Silverman, MD, MA, is a Professor of Medicine at the University of Maryland’s School of Medicine. In addition to being a physician of pulmonary & critical care, Dr. Silverman teaches graduate students online and leads international training workshops throughout the Middle East and Myanmar.
 
 For someone who regularly travels to conduct multi-day and multi-week workshops over the course of the year, the spread of COVID-19 put an immediate hold on his 2020 program plans.
+
 “All my traveling had to stop. In fact, I taught my last workshop in Cairo in the first week of March; I tell everybody I got back to the U.S. just in time,” Dr. Silverman says.
 
 He found himself in a position that educators everywhere are experiencing: he needed a way to engage with his students and colleagues despite the restrictions on group gatherings and international travel.
 
 
-## Finding a Solution
+## Finding a solution
 
 While he is comfortable with asynchronous online teaching (“I do all of my teaching online at my graduate school,” he explains), Dr. Silverman didn’t want to rely solely on Zoom sessions to replace his face-to-face workshops.
 
@@ -39,7 +40,7 @@ His search began for a digital whiteboard that could meet this criteria, though 
 After a couple of sessions with Vibe’s customer service team, Dr. Silverman says that setting up the board was “not a steep learning curve at all. You go out there and try it, and you have to be prepared for some hiccups—that’s par for anything. Now it’s just second nature, running the Vibe board. There’s a lot of things that one could do with the board, and I’m still getting my feet wet.”
 
 
-## Engaging Your Audience With Using the Vibe Board
+## Engaging your audience by using the Vibe board
 
 In a time where millions of people are working, learning, and even socializing remotely, the ability to share engaging visuals is crucial. On that note, Dr. Silverman describes teaching as a performance and says that planning ahead is important for an online setting.
 
@@ -59,12 +60,12 @@ Another engagement activity involves “polling” on  the Zoom platform; “I w
 Finally, with so many of his students and colleagues living in different time zones and with unreliable internet connections, the ability to record his Zoom presentations is essential so that he can easily send the link to anyone who missed the live lesson. 
 
 
-## Obtaining Feedback
+## Obtaining feedback
 
 While Dr. Silverman has already begun to find different ways to interact through the Vibe board, he still regularly asks for feedback from students and colleagues to improve his presentations. (As he says, “I always get feedback. You can’t improve unless you know what the heck you’re doing!”) His main focus: going into every collaboration with a few strategic engagement activities.
 
 
-## What’s Next
+## What’s next
 
 While this new suite of tech tools will enhance the classes he already teaches online, it will completely change the way Dr. Silverman approaches what used to be his in-person workshops. Because although his students have already had positive experiences via the Vibe board (even saying, “I felt like it was a face-to-face lecture” in one of the professor’s post-class surveys), there’s still plenty of room for growth and experimentation in this remote workspace.
 

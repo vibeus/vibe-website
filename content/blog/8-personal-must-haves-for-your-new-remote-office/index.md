@@ -1,6 +1,6 @@
 ---
-title: "8 Personal Must-Haves for your New Remote Office"
-slug: 8-Personal-Must-Haves-for-your-New-Remote-Office
+title: "8 Personal Must-Haves for Your New Remote Office"
+slug: 8-personal-must-haves-for-your-new-remote-office
 author: Karen Belz
 date: 2020-04-03
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
@@ -35,7 +35,7 @@ If you have the space, it'd be great to invest in one of Vibe's digital whiteboa
 For me, it's a small desk fountain. It doesn't make a lot of noise, but the noise it produces is very calming. It can also be a plant, or a zen garden, or just a photo of your family to help remind you of the truly important things to focus on right now. When you work remotely, sometimes it's hard for motivated employees to get up, take a break, and remember that there's more to life than work. 
 
 
-## A Comfortable Chair. 
+## A comfortable chair. 
 
 
 {{< common/srcset "image-2.jpg" "" >}}
@@ -44,12 +44,12 @@ For me, it's a small desk fountain. It doesn't make a lot of noise, but the nois
 If you're working from a kitchen stool or a folding chair right now, consider investing in something that's better for your posture. You're sitting in that chair for hours a day, and your comfort and spinal health are a big priority. 
 
 
-## A Cardigan. 
+## A cardigan. 
 
 It sounds strange, but you should become one of those people who has a cardigan draped over their chair. Right now the weather has been a little unpredictable, and it can still get a little chilly. Consider this period of time to be a bonus, just because you have full control over the thermostat at home. But if you're just feeling a little cold, a cardigan will warm you up and make you more well-situated.
 
 
-## A Coffee Maker. 
+## A coffee maker. 
 
 If you're a coffee fanatic, know that it's totally normal to bring a small brewer into your workspace. The one issue to think about is whether or not you might be tempted for another mug just because it's there. Caffeine is a trial-and-error drug. Sometimes, it's the perfect pick-me-up to get ideas flowing. Other times, it might make you focus on anything but work. The call is yours. That said, if a cup of coffee was the way you started every morning back at the office, that tradition may make you feel more motivated to sit down and get work done. 
 
@@ -63,7 +63,9 @@ Even though most of your work is done through screen, having a pen and paper han
 {{< common/srcset "image-3.jpg" "" >}}
 
 
-When was the last time you were allowed to burn a candle in the office? Likely never, unless it was a coworker's birthday and it was on top of a cupcake. "No one is allowed to claim dominion over the air," [Caity Weaver said in a Gawker column](https://gawker.com/thatz-not-okay-can-i-turn-my-office-into-a-scented-can-1502604245) from 2014 regarding the subject. "Scented candles in the office preserve all the annoying aspects of a person doused in CVS Impression of White Diamonds, with an added element of DANGER." That said, since you're now on your own, candles can help ease your mind and make your space a little more appealing. Just remember to be safe and never leave them lit when you're not in the room — even if it's just for a brief break. 
+When was the last time you were allowed to burn a candle in the office? Likely never, unless it was a coworker's birthday and it was on top of a cupcake. "No one is allowed to claim dominion over the air," [Caity Weaver said in a Gawker column](https://gawker.com/thatz-not-okay-can-i-turn-my-office-into-a-scented-can-1502604245) from 2014 regarding the subject. "Scented candles in the office preserve all the annoying aspects of a person doused in CVS Impression of White Diamonds, with an added element of DANGER."
+
+That said, since you're now on your own, candles can help ease your mind and make your space a little more appealing. Just remember to be safe and never leave them lit when you're not in the room — even if it's just for a brief break. 
 
 
 ## A small mirror. 

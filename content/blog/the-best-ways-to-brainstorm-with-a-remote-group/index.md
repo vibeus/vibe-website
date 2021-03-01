@@ -1,5 +1,5 @@
 ---
-title: "The Best Ways To Brainstorm With A Remote Group"
+title: "The Best Ways to Brainstorm with a Remote Group"
 slug: the-best-ways-to-brainstorm-with-a-remote-group
 author: Karen Belz
 date: 2020-04-13
@@ -67,7 +67,7 @@ Someone who's in the midst of a virtual brainstorm at 9 AM will be slightly shar
 {{< common/srcset "image-3.jpg" "" >}}
 
 
-It's a great way to set the mood. If it's a funny ice breaker, even better. With remote workers, especially remote workers who just started working remotely, there's a lot going on in their head that might block them from expressing their best work-related thoughts. Having some fun is almost crucial to get the best work out of your employees. Even asking a group question that'll get them thinking will help warm them up. [Owl Labs](https://www.owllabs.com/blog/ice-breakers) believes in the Time Machine method. "Ask team members where they'd go if they had a time machine," they write. "Use follow up questions about why they chose that time, if they would try to visit anyone in particular, or if they would stay in that period. Based on their answers, you'll get a better understanding of what they find interesting, and gain a unique perspective of your team."
+It's a great way to set the mood. If it's a funny ice breaker, even better. With remote workers, especially remote workers who just started working remotely, there's a lot going on in their head that might block them from expressing their best work-related thoughts. Having some fun is almost crucial to get the best work out of your employees. Even asking a group question that'll get them thinking will help warm them up. O[wl Labs](https://www.owllabs.com/blog/ice-breakers) believes in the Time Machine method. "Ask team members where they'd go if they had a time machine," they write. "Use follow up questions about why they chose that time, if they would try to visit anyone in particular, or if they would stay in that period. Based on their answers, you'll get a better understanding of what they find interesting, and gain a unique perspective of your team."
  
 
 ## Acknowledge the people on your team with praise. 
