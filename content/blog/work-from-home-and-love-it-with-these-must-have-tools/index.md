@@ -1,7 +1,7 @@
 ---
 title: "Work from Home and Love It with These Must-have Tools"
 slug: work-from-home-and-love-it-with-these-must-have-tools
-author: Vibe Team
+author: Paige Smith
 date: 2021-03-01
 tags: ["remote work", "collaborate", "work from home"]
 description: 
