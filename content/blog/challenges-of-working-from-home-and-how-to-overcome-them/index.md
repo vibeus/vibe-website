@@ -19,12 +19,11 @@ If you’re currently working at home or about to make the transition, here are 
 
 Effective communication is critical when working remotely. Without the right processes and tools, remote workers can easily miscommunicate.
 
-**Causes of communication issues**
 With everything remote, it’s **easy to miss key information** if you aren’t on the right Slack channel or miss an important meeting or email.
 
 Additionally, **communicating via text leaves out many subtleties of human interaction**, leading to more frequent misunderstandings between coworkers.
 
-Tips for improved communication
+**Tips for improved communication:**
 
 1. **Get the right software.** If you’re worried about your team missing crucial information, effective collaboration software can help keep everyone in the loop. ****[**Vibe’s**](https://vibe.us/) **smart whiteboards allow you to innovate and collaborate across devices in real-time.** If you missed a meeting, don’t worry! You can save and send Vibe boards later.
 2. **Clarify miscommunications.** It’s easy to be a keyboard warrior when you aren’t face-to-face, and with most miscommunications, coworkers don’t mean any harm. But bringing up issues can help resolve them quickly. Human resources should be equipped to handle these miscommunications if needed.
@@ -36,10 +35,9 @@ Tips for improved communication
 
 Just because your team is remote doesn’t mean they don’t need to bond.
 
-**Causes of lack of team building**
 When working remote, **it’s a lot harder to bring people together.** You can’t hold conferences or go out to lunch. People get siloed into their work and stop bouncing ideas around.
 
-Tips for building up your team
+**Tips for building up your team:**
 
 1. **Schedule happy hours.** While these don’t have to be mandatory, they do give teammates a time to swap stories and share insights.
 2. **Facilitate game nights or movie nights.** These scheduled events help create a sense of community when everyone can share in an experience.
@@ -52,33 +50,30 @@ Tips for building up your team
 
 ## Diminished Creativity
 
-**Causes of diminished creativity**
-Working remotely means collaboration stalls. **As employees become more specialized,** [**collaboration becomes critical**](https://insight.kellogg.northwestern.edu/article/the-science-behind-the-growing-importance-of-collaboration) ****so that one person can fill in the knowledge gaps of another. Without this, creativity can stagnate.
+Working remotely means collaboration stalls. As employees become more specialized, [collaboration becomes critical](https://insight.kellogg.northwestern.edu/article/the-science-behind-the-growing-importance-of-collaboration) so that one person can fill in the knowledge gaps of another. Without this, creativity can stagnate.
 
 Additionally, remote work can feel isolating. The chance to be creative can fall by the wayside as people **buckle down into their roles** and don’t get a chance to hear their teammates’ perspectives.
 
-Tips for inspiring creativity
+**Tips for inspiring creativity:**
 
 1. **Group brainstorming sessions.** This fosters creativity and collaboration simultaneously.
 2. **Group activities.** Team building, as previously mentioned, allows for bonding. When you trust your coworkers, you more freely ask them for help or offer up advice. This communication increases creativity and problem-solving.
 ## Disturbances
 
-**Causes of disturbances**
-**Working from home means your pets, kids, the deliveryman, and neighbors can disrupt work**. Although you avoid coworkers stopping in and interrupting your focused work, you open yourself to many other disturbances.
+Working from home means your pets, kids, the deliveryman, and neighbors can disrupt work. Although you avoid coworkers stopping in and interrupting your focused work, you open yourself to many other disturbances.
 
-Tips to minimize disturbances
+**Tips to minimize disturbances:**
 
 1. **Consider getting childcare.** If you have small children, balancing being a parent with work demands can be particularly challenging. Consider getting help with a nanny, babysitter, or childcare service, even if it’s just for a couple days a week. If getting childcare isn’t ideal for your child, consider asking your company for more flexible hours.
 2. **Keep regular work hours.** Don’t answer social calls or play with your dog when you’re in work mode.
 3. **Let others know when you’re busy.** This can be a shut door, headphones, or a sign, which tells people when to leave you alone.
 ## Overworking
 
-**Causes of overworking**
 With traditional work taking place in an office, it’s easy to turn on and shut off. When you arrive at the office, work starts. When you leave, work is done. Although some people always took work home with them, many others found it easier to keep work at the office to prevent overworking.
 
 When you work in the same place that you eat, sleep, and relax, **lines start to blur**. Work can feel infinite, and **there are always reasons to keep at it**. Working at home exacerbates this challenge.
 
-Tips to avoid overworking
+**Tips to avoid overworking:**
 
 1. **Take breaks.** You can even go as far as to schedule these. Where before you could say hi to a coworker or visit the break room, you now need to be much more intentional about breaking up your work. Set reminders to stretch, take a brief walk, or pet your dog.
 2. **Don’t work where you sleep or relax.** Try to set up your home office in a separate room so you aren’t constantly reminded of work when eating or sleeping. Physically shutting the door can help, too.
@@ -88,12 +83,11 @@ Tips to avoid overworking
 
 ## Isolation
 
-**Causes of isolation**
 Before, you worked with coworkers and got to collaborate frequently in-person. **But** **remote work means you’re by yourself**. You don’t get those pleasantries and moments of office gossip anymore.
 
 With remote work, people get up, begin work, and end the day all in the same space. **It’s easy to forgo social interaction over lunch or during breaks**. Even on the weekends, you may not go out and see people, increasing the problem.
 
-Tips to avoid isolation
+**Tips to avoid isolation:**
 
 1. **Work elsewhere.** If it’s safe to do so, try visiting local shops or even a friend’s house to get some work done there. This change of pace and being around people can help shake off some loneliness.
 2. **Call friends or family.** This doesn’t have to wait until the weekend. You can schedule a call with your mom or best friend during the workday. You could even grab lunch with a friend.
@@ -106,26 +100,24 @@ Tips to avoid isolation
 
 ## Unhealthy Habits
 
-**Causes of unhealthy habits**
 Unfortunately, working from home means your fridge is always right there. It’s even more tempting to **snack between meals or even skip them** because work is omnipresent.
 
 Additionally, you may be **sacrificing your sleep** to work longer or **not getting enough time outdoors**. Continually staring at a screen never helped anyone.
 
 Health is always of critical importance, so it’s helpful if you notice your poor health habits and start being mindful about correcting them.
 
-Tips to combat poor health habits
+**Tips to combat poor health habits:**
 
 1. **Schedule mealtimes and stick to them.** Whether you forget to eat or snack too frequently, committing to mealtimes and only eating during these times reminds you to eat and prevents you from oversnacking.
 2. **Set an end-of-day.** Overworking leads to a lack of sleep. Setting an official end-of-day time helps to prevent both. Further, stop using any devices one hour before bed. That’s been found to [improve sleep](https://www.sleepfoundation.org/how-sleep-works/how-electronics-affect-sleep).
 3. **Meal prep.** If you have some extra time on weekends, meal prep for your workweek. This prevents too much snacking due to a lack of time to make nutritious meals, and it helps make sure you eat if you won’t have to cook.
-## Poor Time Management ****
+## Poor Time Management
 
-**Causes of poor time management**
 Poor time management arises more frequently in a work-from-home environment where **distractions** abound and people aren’t peering over your shoulder. With Facebook and Netflix open in another tab, it’s easy to get sidetracked.
 
 Since nobody is there to notice you’re slacking (and we don’t mean sending messages!), you may be tempted to, well, slack off. Distractions also factor into this, including tending to the kids and your pets.
 
-Tips for better time management
+**Tips for better time management:**
 
 1. **Schedule everything.** Putting all items onto your calendar helps ensure you get everything done. This includes planned distractions, like picking up the kids and Netflix, as well as important deadlines.
 2. **Out of sight, out of mind.** Close distracting tabs, turn off the TV, work in a separate room from your pet, or leave your phone elsewhere. This helps you stay focused.
