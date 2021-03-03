@@ -86,9 +86,16 @@ apps:
 - id: com.estrongs.android.pop
   name: ES File Explorer
   type: file
-- id: com.explaineverything.explaineverything
-  name: Explain Everything™
+- id: com.evernote
+  name: Evernote
   type: productivity
+
+- id: com.explaineverything.explaineverything
+  name: Explain Everything
+  type: productivity
+- id: com.facebook.Origami
+  name: Origami
+  type: communication
 - id: com.google.android.calculator
   name: Calculator
   type: productivity
