@@ -42,9 +42,9 @@ products:
       price: 500
       figure: img/order/accessory-stand-r.png
       sold_out: false
-      backorder: false
-        #item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
-        #cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
+      backorder: 
+        item_notice: '**Shipping Delayed.** Expected to ship in 1 to 2 weeks.'
+        cart_notice: Shipping Delayed. Expected to ship in 1 to 2 weeks.
   - item: &id004
       product_name: stylus
       title: i18n-content-order-_index-products-i_3-item-title
