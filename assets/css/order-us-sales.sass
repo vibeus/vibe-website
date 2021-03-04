@@ -27,6 +27,7 @@
     hr.top
       margin: 24px 0 16px
     hr.bottom
+      display: none
       margin: 24px 0
   .discount-ads
     margin-top: 24px
@@ -34,7 +35,7 @@
     .discount-info
       display: inline-block
       font-family: $vibe-family-heading
-      font-weight: 500
+      font-weight: $vibe-bold
       font-size: 12px
       line-height: 15px
       background-color: $vibe-purple
@@ -95,12 +96,26 @@
     font-weight: $vibe-bold
     font-family: $vibe-family-heading
     color: $vibe-purple
-  .content.is-shipping, .content.is-amazon
+  .content.is-shipping, .content.is-amazon, .content.is-global-sales
     font-size: 16px
+    line-height: 1.5
+    +mobile
+      font-size: 14px
   .content.is-shipping .affirm svg
     height: 16px
+  .content.is-global-sales
+    display: flex
+    align-items: center
+    .icon.global-sales-icon
+      margin-right: 4px
+    a.global-sales-link
+      font-weight: 400
+      line-height: 1
+      margin-top: 2px
   .field.is-grouped
-    margin-top: 24px
+    margin-top: 36px
+    +mobile
+      margin-top: 24px
     > .control:not(:last-child)
       margin-right: 24px
       +mobile

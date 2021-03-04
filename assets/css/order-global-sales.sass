@@ -1,23 +1,31 @@
 @import "_shared.sass"
 
-$container-padding: 0
-+desktop
-  $container-padding: 0 8%
-+fullhd
-  $container-padding: 0 10%
+$container-padding: 0 2%
+$container-max-width-desktop: 900px
+$container-max-width-widescreen: 1100px
+$container-max-width-fullhd: 1200px
 
 .hero
   .hero-body
     +vertical-padding(90px, 90px, 60px, 0px)
   .container
+    padding: 0 2%
     +desktop
-      padding: $container-padding
+      max-width: $container-max-width-desktop
+    +widescreen
+      max-width: $container-max-width-widescreen
+    +fullhd
+      max-width: $container-max-width-fullhd
+
   .is-content-wrapper
     position: relative
     max-width: 805px
     +tablet-only
       margin: auto
     +tablet
+      & > *
+        max-width: 500px
+    +desktop
       & > *
         max-width: 550px
     +widescreen
@@ -34,8 +42,9 @@ $container-padding: 0
         width: 487px
         top: -80px
         right: -185px
-      @media screen and ( min-width: 1200px )
-        right: -385px
+      +widescreen
+        width: 600px
+        right: -500px
     .title
       +mobile
         font-size: 34px
@@ -67,8 +76,10 @@ $container-padding: 0
           width: 480px
           right: -400px
         +desktop
-          width: 707px
-          right: -600px
+          width: 650px
+          right: -550px
+        +widescreen
+          top: -50px
       .is-store-list
         margin-top: 48px
         +mobile
@@ -87,7 +98,7 @@ $container-padding: 0
             margin: 12px 0
             width: 100%
             +tablet-only
-              width: 220px
+              width: 200px
               &.is-contry-store-2
                 width: 100px
             +desktop-only
@@ -108,8 +119,13 @@ $container-padding: 0
   +vertical-padding(90px, 90px, 60px, 60px)
   background-color: $vibe-white
   .container
+    padding: $container-padding
     +desktop
-      padding: $container-padding
+      max-width: $container-max-width-desktop
+    +widescreen
+      max-width: $container-max-width-widescreen
+    +fullhd
+      max-width: $container-max-width-fullhd
     .is-form
       +tablet-only
         margin: auto

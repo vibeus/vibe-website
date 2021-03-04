@@ -1,9 +1,9 @@
 ---
 title: Global Sales
 description: We’ve shipped Vibe Boards around the world and proudly support customers on 6 continents.
-url: /global-sales
+url: /order/global-sales
 layout: global-sales
-stylesPath: css/global-sales.sass
+stylesPath: css/order-global-sales.sass
 navbar:
   extra:
     - title: See a Demo
@@ -43,7 +43,8 @@ hero:
           - name: Canada
             url: https://www.amazon.ca/dp/B081LPL772?ref=myi_title_dp
           - name: United States
-            url: https://www.amazon.com/dp/B081LPL772?ref=myi_title_dp
+            url: /order/us-sales
+            target: _self
 request_a_quote:
   form:
     title: Can't find your country above? Request a quote.
