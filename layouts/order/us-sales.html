@@ -90,6 +90,14 @@
             </p>
             {{ .shipping | markdownify }}
           </div>
+          {{ with .global_sales }}
+          <div class="content is-global-sales">
+            <span class="icon global-sales-icon">
+              {{ (resources.Get "img/order/global-sales-icon.svg" | resources.Minify).Content | safeHTML }}
+            </span>
+            <a class="global-sales-link" href="{{ .url }}">{{ .text }}</a>
+          </div>
+          {{ end }}
           <hr class="bottom">
           <div class="field is-grouped is-add-to-cart" data-product-id="{{ .item.product_id }}">
             <div class="control is-count has-icons-left has-icons-right">

@@ -9,7 +9,7 @@
         <figure class="image is-hero-bg">
           {{ partial "common/srcset" (dict "resource" (resources.Get .bg) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png") }}
         </figure>
-  
+
         {{ with .stores }}
         <div class="is-stores">
           <figure class="image is-bg">
@@ -25,7 +25,17 @@
               <div class="is-contries">
                 {{ range $idx, $val := .contries }}
                 <div class="is-contry-store is-contry-store-{{ $idx }}">
-                  <a href="{{ .url }}" target="_blank" class="is-store-link">{{ .name }}</a>
+                  <a
+                    href="{{ .url }}"
+                    class="is-store-link"
+                    {{ with .target }}
+                    target="{{ . }}"
+                    {{ else }}
+                    target="_blank"
+                    {{ end }}
+                  >
+                    {{ .name }}
+                  </a>
                 </div>
                 {{ end }}
               </div>
