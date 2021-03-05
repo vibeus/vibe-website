@@ -201,10 +201,6 @@ apps:
 - id: com.procore.activities
   name: Procore
   type: productivity
-- id: com.realtimeboard
-  name: Miro
-  use_case: presentation
-  type: productivity
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
   use_case: remote
