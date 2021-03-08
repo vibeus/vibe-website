@@ -21,9 +21,9 @@ Vibe wraps all these components up in one. Most third party apps are available o
 
 Breaking down film is an essential part of a team’s success. Whether it’s reviewing your previous game or looking ahead to next week by scouting your opponent, film can help you devise a game plan to smooth out your own weaknesses while capitalizing on your opponent’s. 
 
-With Vibe, there are several options for watching film. The first being that you can simply pull up [YouTube videos]({{< common/srcset "image-1.jpg" "" >}}&feature=emb_logo) and annotate directly over the video as you go. Another option is downloading apps like [Coach’s Eye](https://www.coachseye.com/) where you can import or upload film and then slow it down frame-by-frame. Whatever platform you prefer to use, Vibe lets you draw directly over the app to highlight specific parts of every play. 
+With Vibe, there are several options for watching film. The first being that you can simply pull up [YouTube videos](https://www.youtube.com/watch?v=9lMp9jN8soI&feature=emb_logo) and annotate directly over the video as you go. Another option is downloading apps like [Coach’s Eye](https://www.coachseye.com/) where you can import or upload film and then slow it down frame-by-frame. Whatever platform you prefer to use, Vibe lets you draw directly over the app to highlight specific parts of every play. 
 
-{{< common/srcset "image-2.png" "Annotate over film on the Vibe Board." >}}
+{{< common/srcset "image-1.png" "Annotate over film on the Vibe Board." >}}
 
 
 
@@ -35,7 +35,7 @@ The Vibe board allows you to create [templates](https://knowledge.vibe.us/using-
 
 Players can also access the canvas remotely on their personal devices so that they can review saved plays at their leisure. 
 
-{{< common/srcset "image-3.png" "Basketball court template on Vibe." >}}
+{{< common/srcset "image-2.png" "Basketball court template on Vibe." >}}
 
 
 

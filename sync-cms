@@ -116,11 +116,13 @@ def download_images(content, directory, allow_large_image):
                                 basename = "cover-fullwidth"
 
                     if ext == ".png" and len(resp.content) > MAX_PNG_SIZE:
-                        message = "{}: Image [{}] size {} bytes exceeds limit of {}.".format(
-                            os.path.basename(directory),
-                            basename + ext,
-                            len(resp.content),
-                            MAX_PNG_SIZE,
+                        message = (
+                            "{}: Image [{}] size {} bytes exceeds limit of {}.".format(
+                                os.path.basename(directory),
+                                basename + ext,
+                                len(resp.content),
+                                MAX_PNG_SIZE,
+                            )
                         )
 
                         if allow_large_image:
@@ -241,7 +243,9 @@ def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     md_path = os.path.join(git_root, "content", subfolder, slug, "index.md")
     os.makedirs(os.path.dirname(md_path), exist_ok=True)
 
-    body, video_ids = process_video_links(body)
+    video_ids = []
+    if cms_type == "video":
+        body, video_ids = process_video_links(body)
     body = download_images(body, os.path.dirname(md_path), allow_large_image)
 
     with open(md_path, "w") as f:

@@ -122,7 +122,7 @@ Similar to Cisco Webex’s offerings (which we’ll cover further down), Microso
 It’s also important to note that [Microsoft Teams is replacing Skype for Business](https://support.skype.com/en/faq/FA34551/what-s-the-difference-between-skype-microsoft-teams-and-skype-for-business), so if that’s your current conferencing platform, consider what Teams has to offer.
 
 
-- [How to use Microsoft Teams on Vibe - Video]({{< common/srcset "image-2.jpg" "" >}})
+- [How to use Microsoft Teams on Vibe - Video](https://www.youtube.com/watch?v=hRNAZdKkcaM)
 - [How to use Microsoft Teams on Vibe - Help Article](https://knowledge.vibe.us/how-to-use-vibe-within-microsoft-teams-app)
 ----------
 # RingCentral Meetings Review
@@ -286,8 +286,8 @@ Zoom is popular for a reason: the company’s plans and prices are comparable to
 Beyond being a must-have solution for so many businesses right now, the right video conferencing tool creates an opening for more flexible work schedules in the future. Having the option to work from home while still having access to co-workers is a huge plus for productivity, and this flexibility keeps your employees happy while making your life a little easier, too.
 
 
-- [How to use Zoom on Vibe - Video]({{< common/srcset "image-3.jpg" "" >}})
-- [How to use Zoom on Vibe - Help Article]({{< common/srcset "image-3.jpg" "" >}}) 
+- [How to use Zoom on Vibe - Video](https://www.youtube.com/watch?v=lZaq_qFOsaM)
+- [How to use Zoom on Vibe - Help Article](https://www.youtube.com/watch?v=lZaq_qFOsaM) 
 
 
 

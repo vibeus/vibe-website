@@ -77,7 +77,7 @@ His co-workers are now using the board in the same way—that is, if they can ge
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
 
-***Check out Jonathan's*** [***"How I Vibe" story***]({{< common/srcset "image-3.jpg" "" >}}) ***on our YouTube channel.***
+***Check out Jonathan's*** [***"How I Vibe" story***](https://www.youtube.com/watch?v=nNTwK6mEU_4) ***on our YouTube channel.***
 
 
 ----------
