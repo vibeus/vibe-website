@@ -6,6 +6,7 @@ import re
 import requests
 import subprocess
 import sys
+import time
 from PIL import Image
 from colorama import Fore, Style
 from io import BytesIO
@@ -30,19 +31,34 @@ access_token = os.environ.get("VIBE_CMS_TOKEN", "")
 
 
 def get_doc(doc_id):
-    arg = {"doc_id": doc_id, "export_format": {".tag": "markdown"}}
-    resp = requests.post(
-        "https://api.dropboxapi.com/2/paper/docs/download",
-        headers={
-            "authorization": "Bearer {}".format(access_token),
-            "Dropbox-API-Arg": json.dumps(arg),
-        },
-    )
+    retry_count = 3
 
-    if resp.status_code != 200:
-        raise RuntimeError("Failed to download doc id: {}".format(doc_id))
+    while True:
+        arg = {"doc_id": doc_id, "export_format": {".tag": "markdown"}}
+        resp = requests.post(
+            "https://api.dropboxapi.com/2/paper/docs/download",
+            headers={
+                "authorization": "Bearer {}".format(access_token),
+                "Dropbox-API-Arg": json.dumps(arg),
+            },
+        )
 
-    return resp.content.decode("utf-8")
+        if resp.status_code != 200:
+            if retry_count <= 0:
+                raise RuntimeError("Failed to download doc id: {}".format(doc_id))
+            else:
+                retry_count -= 1
+                print(
+                    Style.DIM
+                    + "Download {} failed with code {}. Retry in 10s...".format(
+                        doc_id, resp.status_code
+                    )
+                    + Style.RESET_ALL
+                )
+                time.sleep(10)
+                continue
+
+        return resp.content.decode("utf-8")
 
 
 def parse_doc_list(content):
