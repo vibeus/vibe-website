@@ -51,7 +51,7 @@ To make the transition to collaboration tools easier, employees attended a tutor
 **How they're using Vibe:**
 One of the ways in which the SBW team uses the Vibe board is for navigating construction site logistics. The annotation feature combined with the infinite canvas lets them quickly map the potential layout for a new project, such as where to park the equipment, where to station the flagger, and the location of access points in and out of the site.
 
-{{< common/srcset "image-2.jpg" "construction blueprints on an ipad" >}}
+{{< common/srcset "image-2.jpg" "Construction blueprints on an ipad" >}}
 
 
 “It’s kind of like making basketball plays,” Wong said. “Where are the players, where are we moving; and everybody just puts their notes on the board. Sometimes that’s just the conversation piece that you need with some illustration...it’s a productivity tool, which is what I try to illustrate it as.”
@@ -76,6 +76,8 @@ While Wong and his team are still discovering everything Vibe can do, he said th
 His co-workers are now using the board in the same way—that is, if they can get to the office before him.
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
+
+***Check out Jonathan’s*** [***“How I Vibe” story***](https://youtu.be/nNTwK6mEU_4) ***on our YouTube channel.***
 
 
 ----------
