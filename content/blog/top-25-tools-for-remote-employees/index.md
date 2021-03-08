@@ -13,7 +13,7 @@ draft: false
 
 Today, more and more companies have discovered and begun implementing resources and tools that allow their employees to optimize productivity and efficiency while working from the [comfort of their own homes](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/). Below we've put together a list of some of the best tools your remote team can use to collaborate.
 
-***Related:*** [***Help Your Employees Find – and Maintain – Meaning in Their Work***](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
+***Related:*** [Help Your Employees Find – and Maintain – Meaning in Their Work](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
 
 ## 1. Vibe Interactive Whiteboard
 
@@ -35,7 +35,7 @@ This [remote working tool](https://pukkateam.com/) offers a solution for **teams
 
 [Google Drive](https://www.google.com/intl/en_in/drive/) is a widely-used tool for creating an **easy-to-use folder structure** that is straightforward to use and helps your team members locate the files and assets they need. As the creator of a folder, you can choose who can see what items, what level of access they should have, and even directly share items by sending a link. Not only does this structure keep private data secure, but it also simplifies folder sharing for all of your team members.
 
-***Related:*** [***Create Effective Onboarding Practices for Your Remote Team***](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
+***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
 
 ## 6. Asana
 
@@ -118,7 +118,7 @@ Communicating a team announcement is often **better done verbally.** Use [Loom](
 
 For client productivity or billing purposes, you may need to keep an eye on how your team is spending their time. [Time Doctor](https://www.timedoctor.com/) is a tool to **create projects and start a clock** when you and your team begin a new task. Time Doctor's dashboard displays a report of the number of hours your team member has worked throughout the day and the projects they've spent the most time on. 
 
-***Related:*** [***Revamp Your Remote Interview Game with These Tips***](https://vibe.us/blog/revamp-your-remote-interview-game-with-these-tips/)
+***Related:*** [Revamp Your Remote Interview Game with These Tips](https://vibe.us/blog/revamp-your-remote-interview-game-with-these-tips/)
 
 
 ## Closing thoughts 

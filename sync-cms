@@ -210,6 +210,25 @@ def process_video_links(content):
     return "\n".join(lines), video_ids
 
 
+def fix_link_format(content):
+    lines = []
+    for line in content.splitlines():
+        # [***blah blah***](https://address) => [blah blah](https://address)
+        # [******](https://address) => delete
+        for match in re.finditer("""\[\*\*\*([^*\[\]]*)\*\*\*\](\([^()]+\))""", line):
+            if match:
+                if len(match.group(1)) > 0:
+                    line = line.replace(
+                        match.group(0), "[{}]{}".format(match.group(1), match.group(2))
+                    )
+                else:
+                    line = line.replace(match.group(0), "")
+
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
 def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     content = get_doc(doc_id)
 
@@ -246,6 +265,7 @@ def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     video_ids = []
     if cms_type == "video":
         body, video_ids = process_video_links(body)
+    body = fix_link_format(body)
     body = download_images(body, os.path.dirname(md_path), allow_large_image)
 
     with open(md_path, "w") as f:

@@ -20,7 +20,7 @@ We’re not alone in this remote setup. There are already companies with [comple
 
 You may not know when you’ll be commuting to the office next, or if your new permanent workspace is now just a few steps away from your kitchen. But you’ll be a better communicator and more productive employee by learning more about your team’s synchronous and asynchronous communication methods.
 
-***Related:*** [******](https://vibe.us/blog/the-vocabulary-of-remote-work/)[***The vocabulary of remote work***](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [The vocabulary of remote work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
 ## Synchronous communication
 
@@ -68,7 +68,7 @@ But you can’t always plan on having your best ideas when the whole team is aro
 
 The right mix of both communication strategies will largely depend on your team and its unique needs. Laura Reigel, Vibe’s Director of Marketing, estimates that the team’s time spent communicating sync/async are “probably 25/75. When we do have scheduled meetings, there’s always an agenda and we’ve typically started collaborating and reviewing the project ahead of time,” which further helps to keep the synchronous time focused.
 
-***Related:*** [******](https://vibe.us/blog/the-vocabulary-of-remote-work/)[***Videoconference Apps you can use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [Videoconference Apps you can use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ## Team collaboration software

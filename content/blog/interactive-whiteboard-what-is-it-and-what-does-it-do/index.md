@@ -16,7 +16,7 @@ draft: false
 
 Many interactive whiteboards have on-board programs to **assist in sharing and collaboration.** Interactive whiteboards can help with education in ways that an analog whiteboard can't do. Before, employees needed to physically write notes on analog whiteboards and would have to take photos of the board or slap "Do Not Touch" signs on it to save their work. **Interactive whiteboards take away that time and effort: they automatically bring the analog notes you used to use and bring them into the digital era.** By writing down notes on the touchscreen surface, you can share, archive, and save your notes as digital content.
 
-***Related:*** [***The vocabulary of remote work***](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [The vocabulary of remote work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
 **Vibe's** [**interactive whiteboard solutions**](https://vibe.us/software/) **allow for mobile devices like laptops, tablets, and smartphones to be integrated.** You can connect your devices to the Vibe board either wirelessly or using an HDMI cable, and easily annotate on top of the content pulled from the connected device. You can also use it the other way around; share your Vibe project from the board for instant real-time co-creating from another Vibe board, computer web browser, or tablet, taking your collaboration to the next level.
 
@@ -33,7 +33,7 @@ Old-school projector-based interactive whiteboards may need more time. The calib
 
 **Moreover, projector-based solutions can be more expensive to maintain long-term,** as they need to have their bulbs regularly changed and filters replaced or cleaned. Display solutions eliminate the costs of overhead plastics and filters. Maintenance is solely on an as-needed basis.
  
-***Related:*** [***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [Video Conferencing Apps You Can Use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 When installing an interactive whiteboard, you need to make sure that the solution's wall is **mounted with sufficient room.** Proper structural support in the wall and appropriate mounting techniques, especially for more massive displays, are crucial. It's essential to choose an optimal location for easy viewing. **Pick a place in your classroom or boardroom that most participants will be able to see easily.**
 
@@ -68,7 +68,7 @@ Vibe boards are directly linked to the internet, **allowing you access to all of
 **Proven effectiveness****.** ****
 Interactive technology [raises student engagement](https://link.springer.com/article/10.1007/s10639-020-10107-5). More engaged students are more attentive, and this leads to a whole host of benefits. Comprehension rises, test scores improve, and literacy goes up. **Learning is directly linked to engagement!** The same holds for **corporate training and learning in adults**, making the Vibe board a useful learning tool in any collaborative learning situation.
 
-***Related:*** [***Making Sure Your Kids Still Have An Active Social Life While Learning Remotely***](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
+***Related:*** [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
 {{< common/srcset "image-2.png" "" >}}

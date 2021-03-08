@@ -54,7 +54,7 @@ Google is wonderful for so many reasons. They offer a great email system and hav
 
 Whiteboarding is a huge part of meetings, and [Vibe](https://vibe.us/) makes it easy for remote clients to join in. For any project that involves team collaboration or creativity, Vibe is a great way to make sure everyone's on the same level. The board itself can be purchased and placed right in an office, but even those team members not physically at the meeting will be able to access it. And, you'll be able to identify who made changes on the board, meaning that you can give credit where credit is due when it comes to brainstorming. Vibe also connects to applications like Zoom, making it easier than ever to connect with people. 
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 {{< common/srcset "image-3.png" "" >}}
 

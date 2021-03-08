@@ -52,7 +52,7 @@ As work cultures have evolved to center collaboration over solitary deliberation
 
 Amenities that make collaboration more natural, from good lighting to healthy snacks in kitchens, are growing in popularity to meet the needs of an evolving workforce.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***What to Know About Synchronous Communication and Asynchronous Communication***](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 # New tools
 
@@ -66,7 +66,7 @@ The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to we
 {{< common/srcset "image-2.png" "Integrated zoom for remote collaboration" >}}
 
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 # Co-working for coworkers
 

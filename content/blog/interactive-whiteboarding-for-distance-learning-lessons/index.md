@@ -55,7 +55,7 @@ Of course, there are times when it’s just not possible to have students in the
 
 Lessons done with Vibe can be recorded with both visual and audio components using popular video conferencing apps like Zoom or Teams, as well as with programs like Xrecorder.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***How I Vibe - Henry Silverman, Professor of Medicine***](https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/)
+***Related:*** [How I Vibe - Henry Silverman, Professor of Medicine](https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/)
 
 ## Direct teacher-to-student communication
 {{< common/srcset "image-5.png" "video conferencing tools for the classroom" >}}
@@ -67,7 +67,7 @@ In many situations, video conferencing just isn’t enough for engaged learning.
 
 Vibe makes it simple for teachers to combine video conferencing with whiteboard and other apps so that learning spans multiple modalities.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [Video Conferencing Apps You Can Use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ## Use your favorite device 

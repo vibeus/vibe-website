@@ -28,7 +28,7 @@ For [asynchronous communication](https://vibe.us/blog/what-you-need-to-know-abou
 - Watch out for idioms or expressions that could be regional, insensitive, or just difficult to understand. 
 - Give messages a quick proof before hitting send to avoid confusing typos or grammatical errors.
 
-***Related:*** [***How to Design a Remote-first Workplace***](https://vibe.us/blog/how-to-design-a-remote-first-workplace/)
+***Related:*** [How to Design a Remote-first Workplace](https://vibe.us/blog/how-to-design-a-remote-first-workplace/)
 
 ## Set the tone to avoid misunderstandings
 

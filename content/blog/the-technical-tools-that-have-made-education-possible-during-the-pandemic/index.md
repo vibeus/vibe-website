@@ -14,12 +14,12 @@ summary: Is a good education still obtainable during the pandemic? Check out the
 
 During the pandemic, [remote learning has become the new normal](https://vibe.us/lp/scenario-distance-learning/), and technical tools have been popping up to make education remain possible and even improve it. While we don’t know how long we will be learning from home instead of in a classroom, there are **resources that you can take advantage of to get the best possible learning experience**. Let’s look at how the pandemic has changed what we know about education. 
 
-***Related:*** **[***What Is an Interactive Whiteboard?***](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
+***Related:*** **[What Is an Interactive Whiteboard?](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
 
 
 ## Remote learning
 
-***How has technology changed remote learning? See how*** [***the Vibe board is reinventing education***](https://vibe.us/order/)***.***
+***How has technology changed remote learning? See how*** [the Vibe board is reinventing education](https://vibe.us/order/)***.***
 
 **Rise of** **distance learning platforms**
 The pandemic has led to many students having to learn from home rather than physically going to school, and [**distance learning platforms**](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) **like Zoom play a vital role** in their continued education. Students get to learn and stay on a regular schedule while not losing any time from their semesters.
@@ -53,7 +53,7 @@ Social learning platforms streamline a lot of the work for teachers by **hosting
 {{< common/srcset "image-1.jpg" "A young girl learning remotely." >}}
 
 
-***Related:*** [***Positive Aspects of Distance Learning***](https://vibe.us/blog/10-positive-aspects-to-distance-learning/)
+***Related:*** [Positive Aspects of Distance Learning](https://vibe.us/blog/10-positive-aspects-to-distance-learning/)
 **
 **Delivering** **o****nline** **l****essons**
 Learning management systems are the easiest way for teachers to deliver their online lessons and provide them with additional resources. These systems **let the teachers run virtual or in-person classrooms**, **track student progress and connect with the parents**.
@@ -88,7 +88,7 @@ While it’s not a perfect substitute, [**video chat programs**](https://vibe.us
 {{< common/srcset "image-2.jpg" "A child learning remotely with a video chat program." >}}
 
 
-***Related:*** [***Make Sure Your Kids Have an Active Social Life While Learning from Home***](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
+***Related:*** [Make Sure Your Kids Have an Active Social Life While Learning from Home](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
 ## The new normal post-COVID?

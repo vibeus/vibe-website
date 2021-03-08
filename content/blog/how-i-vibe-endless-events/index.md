@@ -22,7 +22,7 @@ Read on to learn how the Vibe interactive whiteboard is helping the team collabo
 
 Will Curran, officially the Chief Event Einstein at Endless Events, is used to collaborating from afar. With 25 hubs located across the United States, his team has been working remotely for years, so they had effective workflows in place before the pandemic hit. But Curran knew they could be even better by adding an element of fun to their work sessions.
 
-***Related:*** [***How to Design a Remote-first Workplace***](https://vibe.us/blog/how-to-design-a-remote-first-workplace/)
+***Related:*** [How to Design a Remote-first Workplace](https://vibe.us/blog/how-to-design-a-remote-first-workplace/)
 
 “The search for Vibe really came when we were trying to figure out a way to do this brainstorming beyond just a typical clicking, screen sharing, PowerPoint presentation,” Curran explained. 
 

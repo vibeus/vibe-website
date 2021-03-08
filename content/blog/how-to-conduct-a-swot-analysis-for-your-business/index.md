@@ -51,7 +51,7 @@ Companies with departments made up of 10 or more people could have each team com
 
 If you’re making a decision that will directly impact customers—like opening a new store or revamping a popular product line—consider giving customers the opportunity to weigh in. You can use an email or social media survey to gather a few data points, then add them to what your team comes up with.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***What to Know About Synchronous Communication and Asynchronous Communication***](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 
 ## How do I complete a S.W.O.T. analysis?

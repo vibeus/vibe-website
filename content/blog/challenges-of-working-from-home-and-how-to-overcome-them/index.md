@@ -29,7 +29,7 @@ Additionally, **communicating via text leaves out many subtleties of human inter
 2. **Clarify miscommunications.** It’s easy to be a keyboard warrior when you aren’t face-to-face, and with most miscommunications, coworkers don’t mean any harm. But bringing up issues can help resolve them quickly. Human resources should be equipped to handle these miscommunications if needed.
 3. **Schedule 1:1s.** Checking in with teammates helps combat isolation and keeps you informed of important work or deadlines you might have missed. Schedule these with your boss, manager, and coworkers.
 
-***Related:*** [***Top 25 Tools For Remote Employees***](https://vibe.us/blog/top-25-tools-for-remote-employees/)
+***Related:*** [Top 25 Tools For Remote Employees](https://vibe.us/blog/top-25-tools-for-remote-employees/)
 
 ## Lack of Team Building
 
@@ -43,7 +43,7 @@ When working remote, **it’s a lot harder to bring people together.** You can�
 2. **Facilitate game nights or movie nights.** These scheduled events help create a sense of community when everyone can share in an experience.
 3. **Go on retreats.** If you have the budget, consider team retreats. These can be as little as annually, but they help boost morale.
 
-***Related:*** [***Find the Right Remote Work Model for Your Team***](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)
+***Related:*** [Find the Right Remote Work Model for Your Team](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)
 
 
 {{< common/srcset "image-1.jpg" "Creative work can be a challenge if your team isn’t accessible." >}}
@@ -79,7 +79,7 @@ When you work in the same place that you eat, sleep, and relax, **lines start to
 2. **Don’t work where you sleep or relax.** Try to set up your home office in a separate room so you aren’t constantly reminded of work when eating or sleeping. Physically shutting the door can help, too.
 3. **Set an end-of-day.** If you usually left the office by 5:30 pm each evening, set a calendar reminder to shut off your computer and stop working at that same time.
 
-***Related:*** [***Help Your Employees Find – and Maintain – Meaning in Their Work***](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
+***Related:*** [Help Your Employees Find – and Maintain – Meaning in Their Work](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
 
 ## Isolation
 
@@ -93,7 +93,7 @@ With remote work, people get up, begin work, and end the day all in the same spa
 2. **Call friends or family.** This doesn’t have to wait until the weekend. You can schedule a call with your mom or best friend during the workday. You could even grab lunch with a friend.
 3. **Meetups, remote or otherwise.** Using Facebook or NextDoor to find meet-ups in your local area can help you get out and see new faces. Additionally, services like [LunchClub](https://lunchclub.com/) allow you to connect with new people and expand your network.
 
-***Related:*** [***7 Ways to Turn Your Home Office Into a Place You Love***](https://vibe.us/blog/7-ways-to-turn-your-home-office-into-a-place-you-love/)
+***Related:*** [7 Ways to Turn Your Home Office Into a Place You Love](https://vibe.us/blog/7-ways-to-turn-your-home-office-into-a-place-you-love/)
 
 
 {{< common/srcset "image-2.jpg" "Schedule snack breaks so they don’t take over your day." >}}

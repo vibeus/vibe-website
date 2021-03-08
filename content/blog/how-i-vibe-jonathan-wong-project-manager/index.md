@@ -20,7 +20,7 @@ Adding to the challenge was that many of Wong’s co-workers still preferred usi
 
 Read on to see how Jonathan Wong and the rest of the construction team made the Vibe Board part of their new daily routine.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***How to Build a Collaborative Workspace (And Why You Should)***](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
+***Related:*** [How to Build a Collaborative Workspace (And Why You Should)](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
 
 **The search for a solution:**
 Without the ability to work together or look at a co-worker’s computer screen in-person, adopting new practices was necessary. SBW wanted to incorporate digital whiteboards into their workflow prior to the onset of COVID-19, but the pandemic hastened their search, as did the company’s move to a new office.
@@ -37,7 +37,7 @@ Wong also looked into [Samsung](https://vibe.us/comparison/vibe-vs-samsung-flip/
 
 “We didn’t have to assemble anything,” Wong said. “[And] the touchscreen capability is more seamless than someone clicking a mouse and keyboard. It’s good that you have those options; it’s just when you’re in the thick of things, moving around on the page or on the screen, [the touchscreen] is easier instead of scrolling or adjusting your window so you can zoom in or zoom out.”
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***Digital Whiteboards: the 11 Best Reasons To Invest***](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 **Getting the team on board through onboarding:**
 A well-defined onboarding process makes it easier to embrace new methods. Wong explained, “Part of my job is to convince people of the technology, what its use is, and what it can do above and beyond our standard practices.”
@@ -68,7 +68,7 @@ The team uses Microsoft Teams, [Procore](https://www.procore.com/), and Bluebeam
 
 “And the good thing is a lot of people can view it, or I can share it across multiple screens, so people in a larger office and still see what’s happening while I’m on the back end of the room, drawing on the Vibe Board.”
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***3rd Party App Integrations for the Vibe board***](https://vibe.us/android-app-store/)
+***Related:*** [3rd Party App Integrations for the Vibe board](https://vibe.us/android-app-store/)
 
 **Building on ideas:**
 While Wong and his team are still discovering everything Vibe can do, he said that so far, “The one thing that I find the best is that you don’t need to really lose any of your ideas, even though you may not know what to do with them right away. You just kinda put it on the smartboard and can be like, “Let me go take a look.’ Maybe there’s something here and you can expand on it, versus, ‘I don’t remember where I put that piece of paper.’”
@@ -77,7 +77,7 @@ His co-workers are now using the board in the same way—that is, if they can ge
 
 “The first thing I’ll do in the morning is start loading up drawings and notes... I use it like my whiteboard as a selfish thing right now,” Wong said with a laugh. “But people can grab it whenever they want.”
 
-***Check out Jonathan's*** [***"How I Vibe" story***](https://www.youtube.com/watch?v=nNTwK6mEU_4) ***on our YouTube channel.***
+***Check out Jonathan's*** ["How I Vibe" story](https://www.youtube.com/watch?v=nNTwK6mEU_4) ***on our YouTube channel.***
 
 
 ----------

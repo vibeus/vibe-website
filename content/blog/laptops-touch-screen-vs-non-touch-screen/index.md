@@ -15,7 +15,7 @@ There are plenty of factors to account for when you’re [searching for a new la
 
 This article will discuss how the touchscreen feature works, its pros and cons, and some recommended models of touchscreen and non-touchscreen laptops. 
 
-***Related:*** [***Help Your Employees Find – and Maintain – Meaning in Their Work***](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
+***Related:*** [Help Your Employees Find – and Maintain – Meaning in Their Work](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
 
 
 ## The functions of the touchscreen feature on laptops
@@ -39,7 +39,7 @@ The main goal of having a touchscreen on laptops is to streamline navigation. Co
 **Expressive, high-quality displays.**
 Touchscreen laptops tend to come with **fantastic brightness and superior color vibrancy, accuracy, and reproduction** compared to non-touchscreen displays. The majority of touchscreen models feature displays with higher resolution. [Glossy touchscreen displays](https://vibe.us/blog/choose-the-right-touch-screen-display-for-you/) respond to touch better than matte ones. Many users who work with color often typically choose touchscreen models due to their fantastic color brightness and accuracy.
 
-***Related:*** [***How to: Workout with Vibe***](https://vibe.us/blog/how-to-workout-with-vibe/)
+***Related:*** [How to: Workout with Vibe](https://vibe.us/blog/how-to-workout-with-vibe/)
 
 
 ## Touchscreen cons
@@ -77,7 +77,7 @@ This [HP laptop](https://www.awin1.com/pclick.php?p=25945185787&a=103504&m=7168&
 **Dell XPS 13 (2020)**
 The [Dell XPS 13](https://www.awin1.com/pclick.php?p=25945185787&a=103504&m=7168&clickref=trd-us-1028020368766802400) holds a high ranking in every list of best touchscreen laptops and remains one of the best laptops on the market years after its first release. This luxurious device comes with reliable performance, an **all-day battery life**, and a streamlined design. While the price tag is on the higher end, the Dell XPS 13 is worth every cent.
 
-***Looking for an interactive tool for remote collaboration?*** [***Order Vibe today!***](https://vibe.us/order/)
+***Looking for an interactive tool for remote collaboration?*** [Order Vibe today!](https://vibe.us/order/)
 
 
 ## Top 3 non-touchscreen laptops
@@ -93,7 +93,7 @@ Engineered for both work and games, these Dell laptops offer a robust structure 
 [**Microsoft Surface Laptop 2**](https://amzn.to/2WjG94P)  ****
 Microsoft Surface Laptop 2 provides the user with a **powerful and pure Windows 10 laptop experience.** The Surface Laptop 2 does not have modern ports, but this problem can be circumvented since the spec improvements make the laptop force to be reckoned with. 
 
-***Related:*** [***Create Effective Onboarding Practices for Your Remote Team***](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
+***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
 
 
 ## Final thoughts 

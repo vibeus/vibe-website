@@ -15,7 +15,7 @@ draft: false
 
 There are many reasons for **integrating** [**touchscreen displays**](https://midshire.co.uk/audio-visual/equipment/interactive-screen/) **in your business.** But how exactly does this seemingly "magical" technology work? This article will break down how touchscreens work, the kinds of touchscreens available, and some benefits of using touchscreen technology for your business or classroom collaboration. 
 
-***Related:*** [***Making Sure Your Kids Still Have An Active Social Life While Learning Remotely***](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
+***Related:*** [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
 ## How is a touchscreen different from a keyboard? 
@@ -38,7 +38,7 @@ The most basic and standard touch screens you'll come into contact with are resi
 
 While resistive touch screens are consistent and durable, **they're the least sensitive option because the multiple layers reflect a lot of ambient light.** Moreover, they can only handle a single touch at once, limiting its use significantly. 
 
-***Related:*** [***The vocabulary of remote work***](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [The vocabulary of remote work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
 **Capacitive**
  ****
@@ -69,7 +69,7 @@ Additionally, **touchscreens don't have any moving parts**. This means that ther
 {{< common/srcset "image-2.png" "Meeting using touchscreen whiteboard." >}}
 
 
-***Related:*** [***Video Conferencing Apps You Can Use with Vibe Whiteboarding***](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+***Related:*** [Video Conferencing Apps You Can Use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ----------

@@ -17,14 +17,14 @@ Every business wants their employees to be as efficient and productive as possib
 
 [Remote working](https://vibe.us/blog/the-vocabulary-of-remote-work/) is becoming increasingly popular, and the way we work is changing. We’ll show you why dual monitor setups are one of the best ways to make working at home even better.
 
-***Are you searching for even more ways to increase productivity and efficiency in the workplace?*** [***Learn more about what Vibe has to offer***](https://vibe.us/about/)***!***
+***Are you searching for even more ways to increase productivity and efficiency in the workplace?*** [Learn more about what Vibe has to offer](https://vibe.us/about/)***!***
 
 
 ## What is a dual monitor set-up?
 
 Dual monitor setups allow you to use two screens that operate from a single computer -- like [**a visual extension of your workspace**](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors. Here are seven key advantages to using more than one computer monitor:
 
-***Related:*** [***Must-Haves for Your Remote Office***](https://vibe.us/blog/8-personal-must-haves-for-your-new-remote-office/)
+***Related:*** [Must-Haves for Your Remote Office](https://vibe.us/blog/8-personal-must-haves-for-your-new-remote-office/)
 
 
 ## It increases productivity.
@@ -55,7 +55,7 @@ Dual monitors are extremely simple to use in regards to the many advantages that
 
 ## It can benefit your employees (and you).
 
-***Related:*** [***Benefits of Standup Meetings***](https://vibe.us/blog/8-benefits-of-daily-stand-up-meetings/)
+***Related:*** [Benefits of Standup Meetings](https://vibe.us/blog/8-benefits-of-daily-stand-up-meetings/)
 
 **Increase collaboration.**
 Dual monitors make collaboration between employees easier than ever; you can **communicate with team members on one screen while working on a project on the other one**. Having a second monitor gives you a lot of additional space to collaborate with the rest of the organization. 
@@ -104,7 +104,7 @@ Dual monitors essentially **give you double the desktop space**, which reduces t
 
 That’s it--you’re ready to use your dual monitor setup!
 
-***Related:*** [***How to Build a Collaborative Workspace***](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
+***Related:*** [How to Build a Collaborative Workspace](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)
 
 ## Should you invest in dual monitors?
 {{< common/srcset "image-2.jpg" "A dual monitor setup ideal for work and gaming." >}}
@@ -114,7 +114,7 @@ Want to go super size? Vibe’s 55” touchscreen display can be used as a secon
 
 A dual monitor setup is one of many ways to **boost productivity, collaboration, and communication in the workplace**--there are rarely any situations when one monitor is better than two. If you want to learn about other ways to increase collaboration in your business, Vibe offers multiple solutions for enhanced workplace engagement and efficiency.
 
-***How can Vibe help increase your efficiency and productivity?*** [***Check out the Vibe board***](https://vibe.us/order/)***!***
+***How can Vibe help increase your efficiency and productivity?*** [Check out the Vibe board](https://vibe.us/order/)***!***
 
 
 ----------

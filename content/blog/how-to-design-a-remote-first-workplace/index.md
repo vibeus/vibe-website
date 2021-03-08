@@ -32,7 +32,7 @@ Being a remote-first company means team members can work from anywhere—whether
 
 At Vibe, we’re a remote-first team located in five cities on two continents. Like many fully remote and remote-first teams, we’ve found that with the number of reliable [collaborative apps](https://vibe.us/software/) and services available, this kind of work situation is more possible now than ever before.
 
-***Related:*** [***The Vocabulary of Remote Work***](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [The Vocabulary of Remote Work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 ****
 
 ## Who should consider going remote-first?
@@ -64,7 +64,7 @@ The asynchronous communication toolkit should be robust enough to keep every emp
  
 Communication needs will vary between departments, so take the time to gather input from your team and be open to testing different platforms.
 
-***Related:*** [******](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[***What to Know About Synchronous Communication and Asynchronous Communication***](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
 **2. Decide how productivity will be measured.**
 One of the biggest concerns with remote work is whether or not teams will manage to be as productive outside of the office as they would be on-site. Fortunately, companies like Zillow have found their employees to be as engaged and on-target as before their WFH shift.
@@ -92,7 +92,7 @@ With the ability to work from anywhere, you will inevitably have employees who w
 
 And if possible, remote workers should be encouraged to spend some time on-site as well. In both cases, your employees can benefit from the insight that comes from experiencing what a typical day is like for their co-workers in various situations.
 
-***Related:*** [***8 Ways to Brainstorm with Remote Workers***](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
+***Related:*** [8 Ways to Brainstorm with Remote Workers](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
 
 
 ## The takeaway
