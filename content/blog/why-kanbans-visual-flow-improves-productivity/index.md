@@ -46,31 +46,31 @@ Cards are the tasks that need to be accomplished. A card could simply contain th
 
 Generally, a kanban board is a pretty basic system for managing projects that could result in millions of dollars in revenue, or billions in the case of successful kanban users [Pixar, Spotify, and Zara](https://theleadershipnetwork.com/article/kanban) — just to name a few. Other than the potential for increased revenue, there are so many reasons to start using the kanban system. Here are some benefits to consider as you begin your kanban journey:
 
-**See the whole process in one view**
+**See the whole process in one view.**
 [Our brains process visual information 60,000 times faster than text](http://web.archive.org/web/20001014041642/http://www.3m.com:80/meetingnetwork/files/meetingguide_pres.pdf), so it only makes sense that we use visual cues to get our work done. A kanban board provides the big picture of the whole process at one glance.
 
-**Find and eliminate the bottlenecks and increase accountability**
+**Find and eliminate the bottlenecks and increase accountability.**
 When there are multiple steps and contributors involved in a process, it’s not uncommon for a holdup to occur. The transparent nature of a Kanban system allows you to easily see the task’s status and who is responsible for it at that stage, giving you power to nudge away the root of the bottleneck and keep the process flowing.
 
-**Keep your team in the know**
+**Keep your team in the know.**
 Rather than hassling teammates about the status of a project, stay in-the-know by simply following a task’s progress on a kanban board. Intuitive apps like [Trello](https://trello.com/en-US) even have the option to notify teammates when a change has been made to a task, helping you maximize your time and resources.
  
-**Prevent employees from being overloaded**
+**Prevent employees from being overloaded.**
 Though it’s ultimately up to each company [how to divvy up assignments](https://www.americanexpress.com/en-us/business/trends-and-insights/articles/5-mistakes-managers-may-want-to-avoid-when-distributing-a-workload/), the kanban approach makes it easier to see who’s working on what, preventing individuals from being overburdened with too many tasks at once. Many kanban apps even let you set a WIP (work in progress) limit for how many tasks a team member can take on at a time.
 
 {{< common/srcset "image-2.jpg" "Organize your next big project with Vibe’s kanban template." >}}
 
 
-**Maximize the brain’s ability to focus**
+**Maximize the brain’s ability to focus.**
 You may have several cards assigned to you, but that doesn’t mean you should do them all at once. A balancing act of tasks may seem efficient, but [multitasking can reduce productivity by 40%](https://www.verywellmind.com/multitasking-2795003). The kanban approach stresses the importance of working on one specific task at a time, helping you tune out distractions and harness your brain’s focus power. Plus, that satisfaction from checking off one task gives you a boost to keep doing more.
 
-**Improve employee and customer satisfaction**
+**Improve employee and customer satisfaction.**
 Everyone is happier when deadlines are met and a service or product holds up to the standards promised by the brand. A streamlined workflow keeps everything in check to reach those goals, leaving you with a satisfied team and even happier customers.
 
-**Let your ideas flow freely**
+**Let your ideas flow freely.**
 There are certainly [pros and cons to using a digital or physical kanban board](https://www.shmula.com/digital-vs-physical-kanban-boards/22755/#:~:text=Unlike%20their%20online%20counterparts%2C%20a,not%20require%20an%20internet%20connection.&text=Physical%20Kanban%20boards%20utilize%20items,do%2C%20doing%2C%20or%20done.). But a primary consideration is that a paper card or post-it can only hold so much information. When your kanban board lives in the digital world, you can include pertinent links, hold discussions with your team, and write notes to your heart’s content.
 
-**Stay adaptable when priorities change**
+**Stay adaptable when priorities change.**
 Change happens, and it can happen quickly. The needs of a client, the availability of technology, or maybe a pandemic could drastically change your original plans. A kanban board allows for easy re-prioritization at the click of a button.
 
 ## How kanban is helping top industries succeed
