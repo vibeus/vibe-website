@@ -4,5 +4,5 @@ go 1.13
 
 require (
 	github.com/vibeus/hugo-common/v2 v2.0.2-0.20210224094112-ec97a0fa111b // indirect
-	github.com/vibeus/vibe-cms/v2 v2.0.1-0.20210311180249-7c3df848c944 // indirect
+	github.com/vibeus/vibe-cms/v2 v2.0.1-0.20210311182044-4eb1c3f94cfd // indirect
 )
