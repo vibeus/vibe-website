@@ -49,7 +49,7 @@ Marketing, sales, PR, design, or any team that needs to collaborate visually on 
 
 ## **Slack**
 
-[Slack](https://slack.com/) is a remote collaboration tool that allows members of your company to stay connected. Teammates can ****chat with each other across channels, so ideas and projects remain organized. Additionally, you can reply to messages within threads to notify only those who need to stay in the loop.
+[Slack](https://slack.com/) is a remote collaboration tool that allows members of your company to stay connected. Teammates can chat with each other across channels, so ideas and projects remain organized. Additionally, you can reply to messages within threads to notify only those who need to stay in the loop.
 
 If you work with other companies or vendors, you can **share specific channels** with them rather than giving access to your entire conversations. Keep private information private.
 If needed, you can also use Slack for **video and voice calls**.
@@ -73,7 +73,7 @@ If you’re in an industry or job that requires **frequent travel,** this remote
 
 ## **Spark**
 
-Many of us suffer the plight of an overflowing email inbox. [Spark](https://sparkmailapp.com/) allows you to **clean up your inbox and quickly find important emails**. You can also snooze emails ****and get back to them once you have more time.
+Many of us suffer the plight of an overflowing email inbox. [Spark](https://sparkmailapp.com/) allows you to **clean up your inbox and quickly find important emails**. You can also snooze emails and get back to them once you have more time.
 
 Spark further revolutionizes email by allowing you to **collaborate on email drafts, discuss emails with teammates, and use pre-written templates** to create emails more quickly.
 
@@ -94,7 +94,7 @@ If you work in an industry that uses many different technologies, each with its 
 
 Google Drive also includes Google Meet, a secure, enterprise-grade form of video conferencing. It allows up to 150 participants per call, and you can record video conferences for those who can’t make it.
 
-This free remote collaboration tool integrates with Microsoft Office, enables offline access, and allows team members to work from any device. ****There are also paid tiers depending on your business needs.
+This free remote collaboration tool integrates with Microsoft Office, enables offline access, and allows team members to work from any device. There are also paid tiers depending on your business needs.
 
 Google Drive is particularly useful in industries or jobs where you’re constantly sharing documents (or spreadsheets, presentations, etc.) externally, such as sales or freelancing.
 
