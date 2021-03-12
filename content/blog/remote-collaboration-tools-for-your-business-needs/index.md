@@ -4,7 +4,7 @@ slug: remote-collaboration-tools-for-your-business-needs
 author: Vibe Team
 date: 2021-03-12
 tags: ["remote collaboration", "interactive whiteboard"]
-draft: true
+draft: false
 isfeatured: false
 description: Remote work is the way of the future. What remote collaboration tools do you need to make sure your work runs smoothly?
 ---
@@ -137,6 +137,7 @@ Toggl Plan and Hire are better suited for large companies with more demanding pr
 ## **Remote collaboration tools will boost productivity and communication**
 
 Remote work is the new normal. To increase productivity and facilitate collaboration between remote employees, you must get the best tools for your team. Whether you’re a team of one or work at a Fortune 500 company, these are some of the best tools for productivity.
+
 
 
 ----------
