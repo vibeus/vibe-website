@@ -4,7 +4,7 @@ slug: stuck-at-home-try-these-inspiring-and-interactive-virtual-museum-tours
 author: Mary Clark Navarro
 date: 2021-03-15
 tags: ["remote learning", "distance learning", "interactive whiteboard"]
-draft: true
+draft: false
 isfeatured: false
 description: Can't get to a museum? You can still explore these inspiring institutions virtually.
 ---
