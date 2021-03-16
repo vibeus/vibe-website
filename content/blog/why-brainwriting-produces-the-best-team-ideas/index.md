@@ -4,7 +4,7 @@ slug: why-brainwriting-produces-the-best-team-ideas
 author: Paige Smith
 date: 2021-03-16
 tags: ["meeting techniques", "brainwriting", "brainstorming"]
-draft: true
+draft: false
 isfeatured: false
 description: Brainwriting helps teams generate their best ideas in a short amount of time. Learn why you should try it today.
 ---
