@@ -43,7 +43,7 @@ products:
       product_id: '31815731609651'
       price: 500
       figure: img/order/accessory-stand-r.png
-      sold_out: false
+      sold_out: *sold_out
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 1 to 2 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 1 to 2 weeks.
