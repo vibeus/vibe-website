@@ -4,7 +4,7 @@ slug: the-biggest-threat-to-productivity-is-work-about-work-heres-how-to-fix-it
 author: Paige Smith
 date: 2021-03-18
 tags: ["leadership", "remote work"]
-draft: true
+draft: false
 isfeatured: false
 description: Take back your time for focused, creative work by learning to manage work about work.
 ---
