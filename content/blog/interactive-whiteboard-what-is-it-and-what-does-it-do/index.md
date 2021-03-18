@@ -53,19 +53,19 @@ Interactive whiteboards are an excellent way for kids to interact with the mater
 **Enhanced lessons.**
 Interactive whiteboards are a useful tool for integrating several [learning styles](https://www.time4learning.com/learning-styles/). Students can experience an extra layer of connection to learning by hearing, seeing, and interacting with the board through touch. Because of this, students learn better and remember more. 
 
-**Easy to use****.** ****
+**Easy to use.**
 One of the biggest perks of interactive whiteboards is that they don’t require a lot of maintenance. No messy chalk prints or marker stains! Data is easily marked using a stylus for highlighting, drawing, and writing. There is no need for extra writing tools or ink, which means no mess and no clean up.
 
-**Flexibility in the classroom****.**
+**Flexibility in the classroom.**
 An interactive whiteboard can host a diverse range of media types. Teachers have a wide array of options to choose from: photos, graphs, maps, illustrations, videos, and more. Our easy-to-use digital toolbox supports teachers as they create inspiring lessons plans for their students.
 
-**Connected to the internet****.** ****
+**Connected to the internet.**
 Vibe boards are directly linked to the internet, giving you access to all of the tools and information you can find online. [Teachers](https://vibe.us/lp/scenario-distance-learning/) can access many resources to support and enhance their lessons through articles, images, videos, learning tools, and more. Access to online resources also gives students a rich resource for learning and research.
 
-**Integrated technology****.**
+**Integrated technology.**
 Vibe board technology lets you integrate many other technologies to help your students learn to their fullest potential. From computers to microscopes to cameras, you can attach nearly any device you can think of to the board’s HDMI-IN to further enhance instruction.
 
-**Proven effectiveness****.** ****
+**Proven effectiveness.**
 Interactive technology [raises student engagement](https://link.springer.com/article/10.1007/s10639-020-10107-5). More engaged students are more attentive, and this leads to a whole host of benefits: comprehension rises, test scores improve, and literacy goes up. The same engagement/attentiveness relationship holds true for corporate training and learning in adults, making the Vibe board a useful learning tool in any collaborative learning situation.
 
 ***Related:*** [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)

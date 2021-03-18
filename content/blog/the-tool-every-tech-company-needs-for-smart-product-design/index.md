@@ -11,7 +11,7 @@ description: Learn how a decision matrix can help your design team determine the
 
 
 
-Within the two seconds it took you to read this post’s title, 254 new devices connected to the internet. And let’s not forget that 90% of the world’s data was generated within the past two years alone. ****[Technology is changing faster than ever](https://techjury.net/blog/how-fast-is-technology-growing/#gref). Keeping up with the needs and demands of a tech-hungry society is no small feat. The pressure is on product designers to make improvements and introduce the latest and greatest technology.
+Within the two seconds it took you to read this post’s title, 254 new devices connected to the internet. And let’s not forget that 90% of the world’s data was generated within the past two years along. Technology is [changing faster than ever](https://techjury.net/blog/how-fast-is-technology-growing/#gref). Keeping up with the needs and demands of a tech-hungry society is no small feat. The pressure is on product designers to make improvements and introduce the latest and greatest technology.
 
 What consumers may not realize is that behind every product design are countless hours of research, [brainstorming](https://vibe.us/blog/5-ways-a-whiteboard-will-help-your-brainstorming-session/), and testing. Because, at the end of the day, a [good design solves problems](https://www.freecodecamp.org/news/how-design-decisions-are-made-c18201c052d1/). Luckily, designers can effectively prioritize and work through these problems with the help of a decision matrix.
 
@@ -20,6 +20,7 @@ What consumers may not realize is that behind every product design are countless
 Many designers struggle with an overabundance of tasks, each competing for their immediate attention. But how do you know which tasks should take precedence? The decision matrix helps to uncover the items that take top priority while weeding out the items of least importance. This visual tool, similar to an [action priority matrix](https://vibe.us/blog/using-an-action-priority-matrix-to-maximize-your-time-and-talent/), allows you to prioritize your list of tasks based on the criteria that are most essential to the needs of your company and target audience — some commonly used attributes in this practice are value and effort. 
 
 (y) Value = How essential/necessary something is for the customer
+
 (x) Effort = The energy/resources required by the organization
 
 As your tasks are weighed against these attributes, they will find their place in one of the four quadrants of the decision matrix: do, decide, delegate, or delete.
@@ -120,4 +121,5 @@ Product designers need to be in tune with the needs of their consumers to delive
 ----------
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+
 **Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
