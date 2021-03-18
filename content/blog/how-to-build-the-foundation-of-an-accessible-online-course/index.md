@@ -2,7 +2,7 @@
 title: "How to Build the Foundation of an Accessible Online Course"
 slug: how-to-build-the-foundation-of-an-accessible-online-course
 author: Mary Clark Navarro
-date: 2021-03-22
+date: 2021-03-25
 tags: ["distance learning", "remote education", "accessible design"]
 draft: true
 isfeatured: false
@@ -39,7 +39,7 @@ In many ways, online courses offer greater flexibility and convenience for stude
 
 Review the format, content, visual, and audio elements of your course instruction and material to ensure it is accessible.
 
-*Formatting and written communication:*
+***Formatting and written communication:***
 
 - Use headings to break up content in a logical, consistent manner
 - Choose sans-serif fonts that are at least 14pt for easy reading
@@ -52,7 +52,8 @@ Review the format, content, visual, and audio elements of your course instructio
 - Include descriptive hyperlinks
 - [Check the color accessibility of your materials and website](https://www.inside.iastate.edu/article/2016/07/21/color)
 
-*Access:*
+
+***Access:***
 
 - [Leverage programs and technologies](https://vibe.us/blog/the-technical-tools-that-have-made-education-possible-during-the-pandemic/) students are already familiar with whenever possible
 - *Set expectations and review instructions aloud and provide a text-based reference* 
@@ -61,14 +62,16 @@ Review the format, content, visual, and audio elements of your course instructio
 - Ensure material can be accessed by smartphones, tablets, laptops, and personal computers
 - [Use interactive tools](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/) to encourage collaboration
 
-*Audio:*
+
+***Audio:***
 
 - Caption videos 
 - Record class meetings and use technology to creates written transcripts 
 - Provide dial-in information for meetings
 - [Select accessible media players](https://www.oaisd.org/about-us/ada-compliance/digital-accessibility-resources/creating-accessible-media/)
 
-*Instruction:*
+
+***Instruction:***
 
 - Allow students to demonstrate learning and mastery through graded and non-graded activities
 - Include time for group and independent practice of concepts
