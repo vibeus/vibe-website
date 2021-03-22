@@ -79,3 +79,11 @@ Review the format, content, visual, and audio elements of your course instructio
 - Offer opportunities to correct and improve on assignments and other deliverables
 
 At Vibe, we’re proud to offer a [remote learning hub](https://vibe.us/) for effective collaboration, instruction, and engagement through our interactive digital whiteboard and smart software. Learn more about Vibe’s [education solutions here](https://vibe.us/lp/scenario-education/).
+
+
+
+----------
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+
+**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
