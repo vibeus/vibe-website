@@ -10,9 +10,6 @@ apps:
   use_case: remote
   type: communication
   featured: true
-- id: com.Tableau.TableauApp
-  name: Tableau
-  type: data_viz
 - id: com.adobe.cc
   name: Creative Cloud
   type: design
@@ -59,9 +56,6 @@ apps:
 - id: com.bombbomb.prod.android
   name: BombBomb
   type: productivity
-- id: com.canva.editor
-  name: Canva
-  type: design  
 - id: com.cisco.webex.meetings
   name: Webex
   use_case: remote
@@ -95,6 +89,7 @@ apps:
 - id: com.evernote
   name: Evernote
   type: productivity
+
 - id: com.explaineverything.explaineverything
   name: Explain Everything
   type: productivity
