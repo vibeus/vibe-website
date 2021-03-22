@@ -40,17 +40,54 @@ demo:
           type: tel
       - - name: company
           placeholder: i18n-content-demo-_index-demo-form-controls-i_2-i_0-placeholder
-      - - name: which_best_describes_your_interest_in_a_vibe_whiteboard_
-          placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder
+          required: true
+        - name: industry_category
+          placeholder: i18n-content-demo-_index-demo-form-controls-i_2-i_1-placeholder
+          required: true
           dropdown:
-            - Learning at Home
-            - Education
-            - Marketing
-            - Professional Services
-            - Technology
-            - Personal Use & Entertainment
-            - General
-            - Architecture, Construction, Engineering
+              - Education
+              - Coaching and Training
+              - Health Care
+              - IT Services
+              - Computer Software
+              - Real Estate
+              - Architecture and Construnction
+              - Engineering
+              - Financial Services
+              - Consulting
+              - Marketing and Advertising
+              - Arts and Design
+              - Government and Organizations
+              - Home Office
+              - Personal Use and Entertainment
+              - Others
+      - - name: company_size_classification
+          placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder
+          required: true
+          dropdown:
+            - 1-10
+            - 11-100
+            - 101-500
+            - 501-1000
+            - 1001-5000
+            - 5001-10000
+            - 10000+
+        - name: job_role
+          placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_1-placeholder
+          required: true
+          dropdown:
+            - CXO / VP / President / Owner
+            - Principal
+            - Director
+            - Manager
+            - Designer
+            - Engineer
+            - IT
+            - Consultant
+            - Teacher / Professor
+            - Instructor
+            - Influencer
+            - Others
       - - name: anything_else_we_should_know_
           placeholder: i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder
           type: textarea
