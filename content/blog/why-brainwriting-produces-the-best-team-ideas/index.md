@@ -4,7 +4,7 @@ slug: why-brainwriting-produces-the-best-team-ideas
 author: Paige Smith
 date: 2021-03-16
 tags: ["meeting techniques", "brainwriting", "brainstorming"]
-draft: true
+draft: false
 isfeatured: false
 description: Brainwriting helps teams generate their best ideas in a short amount of time. Learn why you should try it today.
 ---
@@ -42,7 +42,8 @@ Brainwriting creates a level playing field. Each team member has the same amount
 The perks to brainwriting are as numerous as the ideas that come from using this productive system. Consider the following:
 
 **Employees have the inside scoop.** 
-Some companies hire consultants to help solve problems. But the best people for the job are those who see the problems daily and, often, have the solutions. [Your employees’ insider knowledge and perspective are often superior to outside sources](https://www.businessinsider.com/why-we-all-hate-consultants-and-why-its-okay-2011-6) and comes without the high price tag. Choose to add an incentive to your team’s brainwriting to provide motivation.   
+Some companies hire consultants to help solve problems. But the best people for the job are those who see the problems daily and, often, have the solutions. [Your employees’ insider knowledge and perspective are often superior to outside sources](https://www.businessinsider.com/why-we-all-hate-consultants-and-why-its-okay-2011-6) and comes without the high price tag. Choose to add an incentive to your team’s brainwriting to provide motivation.
+  
 **Let every voice be heard.** 
 Some people are ready and willing to share their thoughts with the team. But sometimes the shy, quiet personalities are the deepest thinkers — capable of producing some of the best ideas. Harness the power of every mind with a technique that helps every voice be heard.
 

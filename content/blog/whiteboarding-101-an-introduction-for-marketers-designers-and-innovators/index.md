@@ -12,21 +12,21 @@ blogHeroMask: 0
 
 
 
-The whiteboard has been a popular medium for problem solving since its early introduction to the workplace in the 90s. So popular, in fact, that whole modes of collaboration have sprung up around it.
+The whiteboard has been a popular medium for problem solving since its early introduction to the workplace in the 1990s. So popular, in fact, that whole modes of collaboration have sprung up around it.
 
-Whiteboarding has always been around in some form or another. Of course, chalkboards are most obvious predecessor to the whiteboard. But so are plans written on the back of cocktail napkins and envelopes, or little diagrams and doodles that become incredible products. The digital whiteboard is only the latest, greatest way to bring your vision to life.
+Whiteboarding has always been around in some form or another. Of course, chalkboards are the most obvious predecessor to the whiteboard, but so are plans written on the back of cocktail napkins and envelopes, or little diagrams and doodles that become incredible products. The digital whiteboard is only the latest, greatest way to bring your vision to life.
 
 Whiteboarding is used throughout the workplace to solve problems, visualize ideas, and define workflows. This process allows team to structure their thoughts in a public setting, where they can generate actionable feedback. The whiteboard is much more than just a place to scribble out notes — it’s a critical element in the session, a place for mapping and brainstorming.
 
 
 # What is whiteboarding?
 
-At the most basic level, it’s using a whiteboard to organize and document ideas. This can involve a literal whiteboard hung on the wall or a freestanding easel with a pad of paper. The modern solution is a digital whiteboard that can take notes, translate handwriting into legible text, auto-save your sessions, and more (i.e. the [Vibe Board](https://vibe.us/)).
+At the most basic level, whiteboarding is using a whiteboard to organize and document ideas. This can involve a literal whiteboard hung on the wall or a freestanding easel with a pad of paper. The modern solution is a digital whiteboard that can take notes, translate handwriting into legible text, auto-save your sessions, and more (i.e. the [Vibe Board](https://vibe.us/)).
 
 However, there’s so much more to whiteboarding than just writing notes. It can refer to anything from collaboration in classrooms to conducting sales presentations to displaying skills on the spot for a job interview.
 
 
-{{< common/srcset "image-1.png" "Presentation infront of Vibe Whitaboard" >}}
+{{< common/srcset "image-1.png" "Presenting in front of Vibe whiteboard" >}}
 
 
 The whiteboard is a source of inspiration as much as it is a place for tracking it. A whiteboard can serve as the organizational locus for a brainstorming session or the place where the abstract threads and visions swirling in your imagination take shape and come to life.
@@ -85,7 +85,7 @@ Often, bad handwriting is the result of poor spacing. Whiteboards can quickly ge
 When you’re working on a Vibe board, your ideation isn’t confined by physical limitations. Think outside the frame!
 
 
-{{< common/srcset "image-4.png" "Brainstorming session in front of Vibeboard" >}}
+{{< common/srcset "image-4.png" "Brainstorming session in front of a Vibe whiteboard" >}}
 
 # 5 Key Tips:
 

@@ -1,9 +1,9 @@
 ---
 title: "Makeover Your Renovation Presentation"
 slug: makeover-your-renovation-presentation
-author: Vibe Team
+author: Megan Snyder
 date: 2020-03-10
-tags: ["presentation", "presenting", "powerpoint"]
+tags: ["presentation", "presenting", "powerpoint", "meeting techniques"]
 draft: false
 isfeatured: false
 description: Using interactive technology during client presentations brings renovations to life.
@@ -24,10 +24,10 @@ In many cases, homeowners will need to vet at least a contractor to begin seriou
 Contractors who can deliver on presentation will set themselves up for success—and not just in the short term. A recent [analysis from HomeAdvisor](https://www.homeadvisor.com/r/true-cost-report/) showed that across four generations, anywhere from 23-35% of homeowners consulted a contractor they had already worked with to get an estimate on project costs. So making a good first impression can secure work now and potentially lead to a growing roster of return clients in the future.
  
 
-## Creating the Presentation
+## Creating the presentation
 
 
-{{< common/srcset "image-1.jpg" "two woman looking at laptop screen" >}}
+{{< common/srcset "image-1.jpg" "Two women looking at a laptop screen" >}}
 
 
 The first step on your way to making a great presentation is to take as many measurements, photos, and notes as possible in the initial tour of the home. This is the time to ask the homeowners all the questions necessary to get a grasp on what the project will require. All of the material you gather in the walk-through will help you create the presentation that lands you the job.
@@ -39,7 +39,7 @@ This type of project will have multiple parts, so it’s important to stay organ
 Providing a variety of visuals can make a big impact. A rendering of what the space could look like helps the homeowners to envision themselves in the remodel. You could also include images of flooring, paint, or other material samples in your presentation. Then go a step further and provide links to sources you plan to get materials from so that the homeowner can browse through options. A collaborative creative process shows that this is a team effort.
  
 
-## Make It Work
+## Make it work
 
 
 {{< common/srcset "image-2.png" "Makeover presentation on an interactive whiteboard" >}}
@@ -47,11 +47,11 @@ Providing a variety of visuals can make a big impact. A rendering of what the sp
 
 Let’s say the homeowner wants to remodel their kitchen. (And there’s a good chance they will. A recent [survey by Houzz](https://blog.houzz.com/from-pricier-kitchens-to-the-connected-home-top-remodeling-trends-according-to-houzz/) shows that 28 percent of homeowners remodeled their kitchens in 2019 and spent an average of $14,000 to complete it.) There are a lot of moving parts in a kitchen renovation: construction, plumbing, gas, electrical—and that’s before you even start on the decorative features like paint, countertop materials, flooring, and hardware.
  
-A collaborative online workspace is the perfect way to present ideas while keeping clients, sub-contractors, and designers up-to-date on every aspect of the project. If someone on the team can’t be on-site one day, you can upload the pictures of the team’s progress to the board. Then anyone can sketch or make notes on the pictures or ask questions about the next steps.
+A [collaborative online workspace](https://vibe.us/lp/scenario-engineering/) is the perfect way to present ideas while keeping clients, sub-contractors, and designers up-to-date on every aspect of the project. If someone on the team can’t be on-site one day, you can upload the pictures of the team’s progress to the board. Then anyone can sketch or make notes on the pictures or ask questions about the next steps.
  
 This is also a great way for everyone on the project to share design ideas and inspiration through screenshots and links. The homeowners can make notes of what they like and which features are must-haves in their newly remodeled home. (Remember the farmhouse sink from earlier? Plan on that.) And it gives the design team a space to show off their design expertise and creative know-how in creating a beautiful space.
 
-Vibe makes it easy to integrate as many apps as you need to make your presentation feel complete. The touchscreen allows you to sketch, make notes, and move components in a way that makes sense for the project. Instead of figuring out how to get everything you need in one place, focus on a job well done instead.
+Vibe makes it easy to [integrate as many apps](https://vibe.us/android-app-store/) as you need to make your presentation feel complete. The touchscreen allows you to sketch, make notes, and move components in a way that makes sense for the project. Instead of figuring out how to get everything you need in one place, focus on a job well done instead.
  
 You’re in charge of the project, and that includes making this place feel like home. It all starts with the kind of presentation that has major curb appeal.
 
