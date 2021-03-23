@@ -23,7 +23,7 @@ contact:
           type: email
           required: true
       - - name: country
-          placeholder: Please Select
+          placeholder: Country/Region
           required: true
           dropdown:
             - United States
@@ -285,10 +285,11 @@ contact:
           type: textarea
       - - name: what_does_your_ideal_partnership_with_vibe_look_like_
           placeholder: What does your ideal partnership with Vibe look like?
+          type: textarea
       - - name: instagram_account
           placeholder: Instagram Account
         - name: how_many_followers_do_you_have_on_instagram_
-          placeholder: How many followers do you have on Instagram?
+          placeholder: How many followers do you have on Ins?
       - - name: youtube_channel
           placeholder: YouTube Channel
         - name: how_many_followers_do_you_have_on_youtube_
