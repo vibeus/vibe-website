@@ -16,7 +16,7 @@ draft: false
 
 Many interactive whiteboards have on-board programs to **assist in sharing and collaboration.** Interactive whiteboards can help with education in ways that an analog whiteboard can't do. Before, employees needed to physically write notes on analog whiteboards and would have to take photos of the board or slap "Do Not Touch" signs on it to save their work. **Interactive whiteboards take away that time and effort: they automatically bring the analog notes you used to use and bring them into the digital era.** By writing down notes on the touchscreen surface, you can share, archive, and save your notes as digital content.
 
-***Related:*** [The vocabulary of remote work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
+***Related:*** [The Vocabulary of Remote Work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
 **Vibe's** [**interactive whiteboard solutions**](https://vibe.us/software/) **allow for mobile devices like laptops, tablets, and smartphones to be integrated.** You can connect your devices to the Vibe board either wirelessly or using an HDMI cable, and easily annotate on top of the content pulled from the connected device. You can also use it the other way around; share your Vibe project from the board for instant real-time co-creating from another Vibe board, computer web browser, or tablet, taking your collaboration to the next level.
 
@@ -47,26 +47,26 @@ Capturing children's hearts and the attention of adults is a difficult task in t
 
 **Here are some ways interactive whiteboards can assist your classroom learning.**
 
-**Interactive learning****.** ****
-Interactive whiteboards are an excellent way for kids to interact with the material they're learning from. **(**By interacting with the lesson material, they can even teach each other!) Children are often tactile learners, so their understanding of the material comes from touching, drawing, or writing on the board. Entire classrooms can join in on educational games, even if you're distance learning during the pandemic. **Since** [**interactive whiteboards**](https://vibe.us/lp/scenario-remote/) **offer immediate feedback**, students and teachers can easily assess student progress.
+**Interactive learning.**
+Interactive whiteboards are an excellent way for kids to interact with the material they're learning.(By interacting with the lesson material, they can even teach each other!) Children are often tactile learners, so their understanding of the material comes from touching, drawing, or writing on the board. Entire classrooms can join in on educational games, even if you're distance learning during the pandemic. Since [interactive whiteboards](https://vibe.us/lp/scenario-remote/) offer immediate feedback, students and teachers can easily assess student progress.
 
-**Enhanced lessons****.** ****
-Interactive whiteboards are a **useful tool for integrating** [**several learning styles**](https://www.time4learning.com/learning-styles/). Students can experience an extra layer of connection to their learning by hearing, seeing, and interacting with the board through touch. Because of this, students learn better and remember more. 
+**Enhanced lessons.**
+Interactive whiteboards are a useful tool for integrating several [learning styles](https://www.time4learning.com/learning-styles/). Students can experience an extra layer of connection to learning by hearing, seeing, and interacting with the board through touch. Because of this, students learn better and remember more. 
 
-**Easy to use****.** ****
-One of the biggest perks of interactive whiteboards is that they **don't require a lot of maintenance.** No messy chalk prints or marker stains! **Data is easily marked using a stylus for highlighting, drawing, and writing.** There is no need for extra writing tools or ink, which means no mess and no cleanup.
+**Easy to use.**
+One of the biggest perks of interactive whiteboards is that they don’t require a lot of maintenance. No messy chalk prints or marker stains! Data is easily marked using a stylus for highlighting, drawing, and writing. There is no need for extra writing tools or ink, which means no mess and no clean up.
 
-**Flexibility in the classroom****.**
-An interactive whiteboard can **host a diverse range of media types.** Teachers have a wide array of options to choose from photos, graphs, and maps to illustrations and videos. Our **prominent, easy-to-use digital toolbox** arms teachers with creative lessons to inspire your students.
+**Flexibility in the classroom.**
+An interactive whiteboard can host a diverse range of media types. Teachers have a wide array of options to choose from: photos, graphs, maps, illustrations, videos, and more. Our easy-to-use digital toolbox supports teachers as they create inspiring lessons plans for their students.
 
-**Connected to the internet****.** ****
-Vibe boards are directly linked to the internet, **allowing you access to all of the tools and information you can access online.** [Teachers](https://vibe.us/lp/scenario-distance-learning/) can access many resources to support and enhance their lessons through articles, images, videos, learning tools, and more. Access to online resources also gives students a **rich resource for learning and research.**
+**Connected to the internet.**
+Vibe boards are directly linked to the internet, giving you access to all of the tools and information you can find online. [Teachers](https://vibe.us/lp/scenario-distance-learning/) can access many resources to support and enhance their lessons through articles, images, videos, learning tools, and more. Access to online resources also gives students a rich resource for learning and research.
 
-**Integrated technology****.**
-**Vibe board technology** lets you integrate many other technologies to help your students learn to their fullest potential. From computers and microscopes to cameras and video cameras, you can attach **any device you can think of to the boards HDMI-IN, and enhance instruction.** The possibilities are endless!
+**Integrated technology.**
+Vibe board technology lets you integrate many other technologies to help your students learn to their fullest potential. From computers to microscopes to cameras, you can attach nearly any device you can think of to the board’s HDMI-IN to further enhance instruction.
 
-**Proven effectiveness****.** ****
-Interactive technology [raises student engagement](https://link.springer.com/article/10.1007/s10639-020-10107-5). More engaged students are more attentive, and this leads to a whole host of benefits. Comprehension rises, test scores improve, and literacy goes up. **Learning is directly linked to engagement!** The same holds for **corporate training and learning in adults**, making the Vibe board a useful learning tool in any collaborative learning situation.
+**Proven effectiveness.**
+Interactive technology [raises student engagement](https://link.springer.com/article/10.1007/s10639-020-10107-5). More engaged students are more attentive, and this leads to a whole host of benefits: comprehension rises, test scores improve, and literacy goes up. The same engagement/attentiveness relationship holds true for corporate training and learning in adults, making the Vibe board a useful learning tool in any collaborative learning situation.
 
 ***Related:*** [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 

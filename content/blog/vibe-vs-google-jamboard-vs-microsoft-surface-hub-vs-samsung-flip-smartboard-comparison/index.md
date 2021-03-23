@@ -1,5 +1,5 @@
 ---
-title: "Vibe vs Microsoft Surface Hub vs Google Jamboard vs Samsung Flipboard: Smartboard Comparison"
+title: "Vibe vs. Microsoft Surface Hub vs. Google Jamboard vs. Samsung Flipboard: Smartboard Comparison"
 slug: vibe-vs-google-jamboard-vs-microsoft-surface-hub-vs-samsung-flip-smartboard-comparison
 author: Vibe Team
 isfeatured: false
@@ -19,8 +19,9 @@ These large interactive devices allow users to draw and write using touch-sensit
 
 Some smartboards take advantage of the cloud to allow for simultaneous viewing of the canvas across desktop and mobile devices. Some go the other way as well, allowing for screencasting from external devices to the smartboard. Certain products, like [Vibe](https://vibe.us/), also use the cloud to auto-save sessions securely for easy recall — which means no more eureka moments lost to the dreaded eraser.
 
-There are several digital whiteboards on the market. Which is the best interactive whiteboard? What sets each of these devices apart, and which one is right for your needs? You’ll find all of that information in Vibe’s digital whiteboard reviews.
+There are several digital whiteboards on the market, so which is the best interactive whiteboard? What sets each of these devices apart, and which one is right for your needs? You’ll find all of that information in Vibe’s digital whiteboard reviews.
 
+***Related:*** [Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 # Digital Whiteboards Providers
 
@@ -31,7 +32,7 @@ Microsoft is one of the originators of digital whiteboard technology, and their 
 
 Surface Hub does have some significant drawbacks. Offices that don’t run predominantly on Microsoft software will find connectivity to be a challenge; the Surface Hub is heavily reliant on the Universal Windows 10 application ecosystem. For example, connecting via Skype requires an Exchange Server or an Office 365 for Business account along with Skype for Business. Calling non-Skype users — e.g. most of your freelancers and remote employees — isn’t easy.
 
-Oh, and the Surface Hub costs nearly $3,000 more than its closest competitor, coming in at a hair under $9,000 per unit.
+The Surface Hub costs nearly $3,000 more than its closest competitor, coming in at a hair under $9,000 per unit.
 
 
 ## Google Jamboard
@@ -47,9 +48,9 @@ The Jamboard costs just under $5,000 per board.
 
 ## Samsung Flip
 
-The budget answer to the more powerful Jamboard and Surface Hub, the Samsung Flip is a bare-bones smartboard for small- to mid-sized businesses. It comes with an attractive price tag, and features real-time whiteboard capabilities on its UHD 4K touch display. Flip is designed to work wirelessly with Samsung mobile devices (as well as other manufactuer’s products using an app, though with more limited functionality).
+The budget answer to the more powerful Jamboard and Surface Hub, the Samsung Flip is a bare-bones smartboard for small- to mid-sized businesses. It comes with an attractive price tag, and features real-time whiteboard capabilities on its UHD 4K touch display. Flip is designed to work wirelessly with Samsung mobile devices (as well as other manufacturer’s products using an app, though with more limited functionality).
 
-The Flip’s most visible feature (and the one that gives it its name) is that its 55-inch screen can pivot on it’s stand (sold separately), going from horizontal to vertical in an instant.
+The Flip’s most visible feature (and the one that gives it its name) is that its 55-inch screen can pivot on its stand (sold separately), going from horizontal to vertical in an instant.
 
 Like Jamboard, the Flip doesn’t come with a full-featured operating system. While you can share whiteboarding sessions with remote users, there’s no webcam, so you can’t connect with them face to face.
 
@@ -81,7 +82,7 @@ With Vibe, sharing ideas with collaborators — in-house, across town, or ar
 
 One less obvious advantage Vibe has over its competitors is it’s small production and development team. Vibe offers white-glove customer support, and their team consistently makes changes to VibeOS based on user requests.
 
-“Overall, we’ve been very impressed by Vibe and the team behind it,” says Vibe user Peter Parker, Director of Advanced Analytics at Attunix. “They’ve been super receptive to our feedbacks and have incorporated suggestions and requests, both big and small, into the product. We’re often finding new ways of integrating Vibe into our everyday work to make us all more productive and efficient.”
+“Overall, we’ve been very impressed by Vibe and the team behind it,” says Vibe user Peter Parker, Director of Advanced Analytics at Attunix. “They’ve been super receptive to our feedback and have incorporated suggestions and requests, both big and small, into the product. We’re often finding new ways of integrating Vibe into our everyday work to make us all more productive and efficient.”
 
 **Ready to think outside the rectangle?** [**Request a Vibe demo**](https://landing.vibe.us/request-demo)**.**
 

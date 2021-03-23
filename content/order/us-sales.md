@@ -43,7 +43,7 @@ products:
       product_id: '31815731609651'
       price: 500
       figure: img/order/accessory-stand-r.png
-      sold_out: false
+      sold_out: *sold_out
       backorder:
         item_notice: '**Shipping Delayed.** Expected to ship in 1 to 2 weeks.'
         cart_notice: Shipping Delayed. Expected to ship in 1 to 2 weeks.
@@ -62,7 +62,7 @@ hero:
     icon: img/order/global-sales-icon.svg
     url: /order/global-sales/
     text: Outside of US?
-  amazon: https://www.amazon.com/gp/product/B081LPL772/ref=as_li_tl?ie=UTF8&tag=vibe0be-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B081LPL772&linkId=95dfdc3f7512c0ee8f046c0f1d4e59ae
+  amazon: https://www.amazon.com/stores/page/ABA64842-2BE0-4E76-B2CA-C89969C54D16?channel=US-website
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png
