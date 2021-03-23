@@ -23,7 +23,7 @@ contact:
           type: email
           required: true
       - - name: country
-          placeholder: Country/Region
+          placeholder: Country/Region*
           required: true
           dropdown:
             - United States
