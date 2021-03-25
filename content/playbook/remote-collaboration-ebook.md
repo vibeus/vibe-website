@@ -48,7 +48,7 @@ playbook:
             - 501-1000
             - 1001-5000
             - 5001-10000
-            - 10000+
+            - 10001+
       - - name: industry_category
           placeholder: Industry
           dropdown:
