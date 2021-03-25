@@ -95,15 +95,15 @@ After recording, Fluvid enables you to manage, edit, and share videos from your 
 
 {{< common/srcset "image-3.jpg" "Remote employees have freedom to work where their focus is better." >}}
 
-## Calendly ****
+## Calendly
 
-[Calendly](https://calendly.com/) ****is a meeting scheduler that centralizes communication and eliminates back-and-forth emails. Calendly connects up to six different calendars to verify availability for one-on-one meetings or with larger teams.
+[Calendly](https://calendly.com/) is a meeting scheduler that centralizes communication and eliminates back-and-forth emails. Calendly connects up to six different calendars to verify availability for one-on-one meetings or with larger teams.
 
-This feature-rich scheduler automates confirmations, reminders, buffers and can even cap the number of meetings held per day. You can customize your settings to set limits and restrictions on meetings, hopefully eliminating last minute meetings where you don’t have time to prepare.
+This feature-rich scheduler automates confirmations, reminders, buffers and can even cap the number of meetings held per day. You can customize your settings to set limits and restrictions on meetings, hopefully eliminating last-minute meetings where you don’t have time to prepare.
 
 ## Proofhub
 
-[Proofhub](https://www.proofhub.com/features) is a project management software to help you manage remote workers and stay on track. It allows your team to ****create discussion threads to keep conversations organized. You can even mention people to get their attention.
+[Proofhub](https://www.proofhub.com/features) is a project management software to help you manage remote workers and stay on track. It allows your team to create discussion threads to keep conversations organized. You can even mention people to get their attention.
 
 Proofhub means you can assign tasks and share critical information with the people who need to know. By sorting tasks and projects, your team knows what’s important.
 
@@ -113,19 +113,11 @@ Break tasks up into workflow stages to allow your workers to manage their own ti
 
 Now you know what software you need for managing remote employees, but what are some general tips for increasing productivity and collaboration? Consider these:
 
-- **Team building. With everyone spread out, make sure to schedule regular socials and online events to bring your team together. This helps combat isolation and creates a sense of community.**
-- **Breaks. Encourage your team to take frequent breaks and stop working at a reasonable hour. With their desk right by their bedroom, it’s tempting for employees to work extra long hours. This induces burnout and harms overall productivity.**
-- **Distractions. Teach your team how to combat at-home distractions, such as pets, kids, or neighbors. Tips include investing in daycare or signaling when you’re working, such as closing the door or putting on headphones.**
-- **Collaboration. Encourage your team to schedule regular meetings with each other to discuss new ideas and induce teamwork. Being in separate locations and perhaps across different time zones means the ability to bounce ideas around is limited. Being intentional about it helps.**
+- **Team building.** With everyone spread out, make sure to schedule regular socials and online events to bring your team together. This helps combat isolation and creates a sense of community.
+- **Breaks.** Encourage your team to take frequent breaks and stop working at a reasonable hour. With their desk right by their bedroom, it’s tempting for employees to work extra long hours. This induces burnout and harms overall productivity.
+- **Distractions.** Teach your team how to combat at-home distractions, such as pets, kids, or neighbors. Tips include investing in daycare or signaling when you’re working, such as closing the door or putting on headphones.
+- **Collaboration.** Encourage your team to schedule regular meetings with each other to discuss new ideas and induce teamwork. Being in separate locations and perhaps across different time zones means the ability to bounce ideas around is limited. Being intentional about it helps.
 
 ***Related:*** [9 Benefits You’re Getting While Working From Home](https://vibe.us/blog/9-benefits-youre-getting-from-working-from-home/)
 
 Collaborating is more crucial than ever for innovation and creativity, so it's essential when managing remote employees to use software that best allows for it. [Vibe](https://vibe.us/software/) interactive whiteboards were designed for innovation, collaboration, and ideation in real-time across the globe. Combine video conferencing with other applications and draw out ideas, making traditional meetings more productive. Collaboration has never been more seamless!
-
-
-
-----------
-
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
-
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/) 
