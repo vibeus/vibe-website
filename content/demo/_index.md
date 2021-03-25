@@ -71,7 +71,7 @@ demo:
             - 501-1000
             - 1001-5000
             - 5001-10000
-            - 10000+
+            - 10001+
         - name: job_role
           placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_1-placeholder
           required: true
