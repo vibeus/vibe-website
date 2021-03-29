@@ -11,7 +11,7 @@ description: Learn how a decision matrix can help your design team determine the
 
 
 
-Within the two seconds it took you to read this post’s title, 254 new devices connected to the internet. And let’s not forget that 90% of the world’s data was generated within the past two years along. Technology is [changing faster than ever](https://techjury.net/blog/how-fast-is-technology-growing/#gref). Keeping up with the needs and demands of a tech-hungry society is no small feat. The pressure is on product designers to make improvements and introduce the latest and greatest technology.
+Within the two seconds it took you to read this post’s title, 254 new devices connected to the internet. And let’s not forget that 90% of the world’s data was generated within the past two years alone. Technology is [changing faster than ever](https://techjury.net/blog/how-fast-is-technology-growing/#gref). Keeping up with the needs and demands of a tech-hungry society is no small feat. The pressure is on product designers to make improvements and introduce the latest and greatest technology.
 
 What consumers may not realize is that behind every product design are countless hours of research, [brainstorming](https://vibe.us/blog/5-ways-a-whiteboard-will-help-your-brainstorming-session/), and testing. Because, at the end of the day, a [good design solves problems](https://www.freecodecamp.org/news/how-design-decisions-are-made-c18201c052d1/). Luckily, designers can effectively prioritize and work through these problems with the help of a decision matrix.
 
