@@ -4,7 +4,7 @@ slug: the-beginners-guide-to-finding-the-right-virtual-event-platform
 author: Mary Clark Navarro
 date: 2021-03-29
 tags: ["virtual event", "remote collaboration", "work from anywhere"]
-draft: true
+draft: false
 isfeatured: false
 description: Use these expert tips to make your next virtual event a success.
 ---
