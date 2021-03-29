@@ -21,18 +21,15 @@ To facilitate these events, you may be considering using a virtual event platfor
 
 When the pandemic began, the primary benefit of virtual events was that they were remote. There was no need to worry about in-person contact and contributing to a superspreader event. However, the benefits of virtual events aren’t just limited to the needs of a pandemic.
 
-**Greater Potential Audience**
-
+**Greater potential audience:**
 Your attendees can participate in your event from anywhere in the world. This is an especially attractive benefit for events that would otherwise be located in high-cost or more remote locations. Your audience is more likely to sign up if they don’t have to factor travel costs and days off into the equation.
 
 Corrine Stratton, Director of Marketing at [Banzai](https://www.banzai.io/), explains the value of this benefit, “People have realized that virtual events allow us a new sense of flexibility that in-person events don’t necessarily enable. It opens up the potential audience significantly. With virtual events, you can reach a wider audience and get your message out to people you normally wouldn’t be able to reach.”
 
-**Format Variety**
-
+**Format variety:**
 Hybrid professional events are definitely on the rise. In the past, many organizations relied on streaming to offer remote attendees a chance to attend in-person events. Today, the expectations for hybrid events are higher. Virtual attendees will want to receive as close to an in-person experience as possible. So, you’ll need to consider ways to offer avenues for engagement, networking, and other interactions (more on that below!).
 
-**Savings on Expenses**
-
+**Savings on expenses:**
 Let’s face it: putting on a completely in-person event can be extremely costly. There’s the venue to book, speakers to pay, food and refreshments to budget for, and the list goes on. Virtual events are significantly less expensive to host. In some cases, you may choose to pass on those cost savings to your attendees.
 
 ***Related:*** [What to Know About Synchronous and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)

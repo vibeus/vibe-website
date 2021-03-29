@@ -22,21 +22,31 @@ Group activities shouldn’t be complicated — neither should the components of
 1. **The physical space**
 
 When embarking on redesigning a classroom or workspace, flexibility is the name of the game. A flexible environment allows users to quickly reconfigure the space to accommodate a wide range of group activities and learning experiences. Rooms should be equipped with mobile furniture and technology that can be reconfigured for easy collaboration.
-Of course, the actual size of a room could be a barrier to change — but before you jump to the conclusion that your space is unfit for this kind of flexibility, first consider how your real estate is being utilized (and by whom). 
+
+Of course, the actual size of a room could be a barrier to change — but before you jump to the conclusion that your space is unfit for this kind of flexibility, first consider how your real estate is being utilized (and by whom).
+
 “The teacher’s desk and space in the classroom nearly occupy a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is made possible.
+
 
 2. **The right technology and tools**
 
-Technology that’s bolted to a wall tends to, consequently, keep students bolted to their seats. Because an experiential learning environment requires free movement and adaptability, mobile technology is the best fit. Virtual whiteboards have become an integral part of a collaborative space. 
-“Now, with the innovation of the [Vibe board](https://vibe.us/hardware/), the front of the classroom could be anywhere,” explains Anthony. With Vibe’s portable stand and real-time editing capabilities on the board, or a laptop or tablet, education can take place wherever it’s best for the student. 
+Technology that’s bolted to a wall tends to, consequently, keep students bolted to their seats. Because an experiential learning environment requires free movement and adaptability, mobile technology is the best fit. Virtual whiteboards have become an integral part of a collaborative space.
+
+“Now, with the innovation of the [Vibe board](https://vibe.us/hardware/), the front of the classroom could be anywhere,” explains Anthony. With Vibe’s portable stand and real-time editing capabilities on the board, or a laptop or tablet, education can take place wherever it’s best for the student.
+
 “It’s a product that you don’t need to be tethered to, and you can easily wirelessly connect to it as a student or teacher,” explains Anthony. “It helps facilitate what 21st-century learning should be in terms of streamlining the process of people being able to connect to a device.”
-The programs you use in a classroom are just as important as the technology — which is why Vibe has over [80 integrated apps](https://vibe.us/android-app-store/) to help facilitate the best learning. Remote teachers will especially love the ability to use a virtual whiteboard during a [Zoom](https://zoom.us/) call or other video conferencing. 
+
+The programs you use in a classroom are just as important as the technology — which is why Vibe has over [80 integrated apps](https://vibe.us/android-app-store/) to help facilitate the best learning. Remote teachers will especially love the ability to use a virtual whiteboard during a [Zoom](https://zoom.us/) call or other video conferencing.
+
 
 3. **A change in focus**
 
-You can have all the right furniture, tools, and technology needed for a collaborative environment — but it will amount to nothing if you don’t have the right approach and mindset to collaboration. In an educational space, the focus should be on the students and their learning. 
+You can have all the right furniture, tools, and technology needed for a collaborative environment — but it will amount to nothing if you don’t have the right approach and mindset to collaboration. In an educational space, the focus should be on the students and their learning.
+
 Anthony sums up this concept, “The idea is moving to student-centered learning where students know how to access information quickly, and with that information, they know how to apply it to solve a problem. The whole physical classroom needs to make sure that we’re promoting this mindset.”
-Work shouldn’t just keep kids busy — it should be intentional and provide an opportunity for them to collaborate and create. Ensure that the practices and activities you carry out allow students to be hands-on and present in their education. Several teachers have turned to [STEAM projects](https://fluxspace.io/fluxosc/) to accomplish this. 
+
+Work shouldn’t just keep kids busy — it should be intentional and provide an opportunity for them to collaborate and create. Ensure that the practices and activities you carry out allow students to be hands-on and present in their education. Several teachers have turned to [STEAM projects](https://fluxspace.io/fluxosc/) to accomplish this.
+
 Above all, [help students feel safe](https://wabisabilearning.com/blogs/inquiry/create-safe-learning-environments) to share their ideas. Foster an environment where the classic “there’s no such thing as a dumb question” ideology rules the roost. This, combined with a focus on student-centered learning, creates a culture where students thrive.
 
 {{< common/srcset "image-0.jpg" "" >}}
