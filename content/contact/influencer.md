@@ -275,17 +275,21 @@ contact:
             - Zimbabwe
             - Åland Islands
       - - name: why_do_you_want_to_become_an_influencer_for_vibe_
-          placeholder: Why do you want to become an influencer for Vibe?
+          placeholder: Why do you want to become an influencer for Vibe? *
           type: textarea
+          required: true
       - - name: please_tell_us_about_your_followers__any_demographic_information_would_be_helpful_here_as_well__we_
-          placeholder: Please tell us about your followers. Any demographic information would be helpful here as well, we want to make sure your audience is a good match for our target market, and they are ultimately people who would LOVE Vibe.
+          placeholder: Please tell us about your followers (i.e., general demographics). We want to make sure your audience is a good match for our target market and would LOVE Vibe. *
           type: textarea
+          required: true
       - - name: would_you_be_interested_in_our_affiliate_program__you_would_receive_a_discount_code_for_your_follow
-          placeholder: Would you be interested in our affiliate program? You would receive a discount code for your followers and receive commission for every board purchased.
+          placeholder: Would you be interested in our affiliate program? You would receive a discount code for your followers and receive commission for every board purchased. *
           type: textarea
+          required: true
       - - name: what_does_your_ideal_partnership_with_vibe_look_like_
-          placeholder: What does your ideal partnership with Vibe look like?
+          placeholder: What does your ideal partnership with Vibe look like? *
           type: textarea
+          required: true
       - - name: instagram_account
           placeholder: Instagram Account
         - name: how_many_followers_do_you_have_on_instagram_
