@@ -4,12 +4,13 @@ slug: how-the-right-work-space-can-spark-creativity
 author: Paige Smith
 date: 2021-03-31
 tags: ["distance learning", "remote collaboration", "education"]
-draft: true
+draft: false
 isfeatured: false
-description: 
+description: Learn how the right design can encourage creative thinking and collaboration at school or at work.
 ---
 
-NEED IMAGE FROM RYNE
+
+
 Have you ever noticed that you’re more productive in a certain room or building? Maybe you’re drawn to the configuration of furniture, the technology available, or even the general culture of the space. Whatever the reason, the way we think, feel, and act has a lot to do with the environment we’re working in.
 
 Schools and organizations have come to recognize the value of collaborative spaces and have turned to professionals to help improve their workspaces. Ryne Anthony, Director of Innovation at [Flux](https://fluxspace.io/), is an expert at creating innovative spaces that take learning and collaboration to the next level. In this post, Anthony shares the proven practices educators and professionals need to build an environment where enriching experiences can flourish.
@@ -49,7 +50,9 @@ Work shouldn’t just keep kids busy — it should be intentional and provide an
 
 Above all, [help students feel safe](https://wabisabilearning.com/blogs/inquiry/create-safe-learning-environments) to share their ideas. Foster an environment where the classic “there’s no such thing as a dumb question” ideology rules the roost. This, combined with a focus on student-centered learning, creates a culture where students thrive.
 
-{{< common/srcset "image-0.jpg" "" >}}
+***Related:*** [Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)
+
+{{< common/srcset "image-1.jpg" "Teaching students through engaged collaboration." >}}
 
 ## How a collaborative space makes all the difference
 
@@ -94,8 +97,7 @@ Schools have rolled out a hybrid approach to education that combines remote and 
 
 Anthony invites educators to consider, “How can we be a little bit more intentional about not just giving kids busy work after the pandemic, but more of an opportunity to collaborate and be creative when they’re in the seats working together?”
 
-
-{{< common/srcset "image-1.jpg" "With the right technology, remote collaboration can work as well as in-office group work." >}}
+{{< common/srcset "image-2.jpg" "Anthony and his team using Vibe to design collaborative spaces." >}}
 
 
 **In the workplace:**
@@ -106,6 +108,8 @@ Since the pandemic, workers have learned several strategies to [work from home m
 In order to take advantage of your resources, Anthony recommends reviewing things like, “How do we use features in Zoom? What video platform works best for my organization? What other products are out there that will make me feel like I’m at an office with other individuals, so my productivity is boosted?”
 
 As employees tap into the many [remote collaboration tools](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/) now available, the experiences they share with colleagues through a virtual space can be more productive and meaningful.
+
+***Related:*** [Ways to Inspire Your Remote Team to Get More Creative](https://vibe.us/blog/ways-to-inspire-your-remote-team-to-get-more-creative/)
 
 ## A collaborative space that goes where you go
 
