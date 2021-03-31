@@ -26,7 +26,7 @@ When embarking on redesigning a classroom or workspace, flexibility is the name 
 
 Of course, the actual size of a room could be a barrier to change — but before you jump to the conclusion that your space is unfit for this kind of flexibility, first consider how your real estate is being utilized (and by whom).
 
-“The teacher’s desk and space in the classroom nearly occupy a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is made possible.
+“The teacher’s desk and space in the classroom occupy nearly a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is made possible.
 
 
 2. **The right technology and tools**
