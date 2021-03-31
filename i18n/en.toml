@@ -273,28 +273,22 @@ other = "Choose a video that shows how you’d use Vibe"
 other = "Tell us more about you"
 
 [i18n-content-demo-_index-demo-form-controls-i_0-i_0-placeholder]
-other = "First Name*"
+other = "First Name"
 
 [i18n-content-demo-_index-demo-form-controls-i_0-i_1-placeholder]
-other = "Last Name*"
+other = "Last Name"
 
 [i18n-content-demo-_index-demo-form-controls-i_1-i_0-placeholder]
-other = "Email Address*"
+other = "Email Address"
 
 [i18n-content-demo-_index-demo-form-controls-i_1-i_1-placeholder]
 other = "Phone Number"
 
 [i18n-content-demo-_index-demo-form-controls-i_2-i_0-placeholder]
-other = "Company Name*"
-
-[i18n-content-demo-_index-demo-form-controls-i_2-i_1-placeholder]
-other = "Industry*"
+other = "Company Name"
 
 [i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder]
-other = "Company Size*"
-
-[i18n-content-demo-_index-demo-form-controls-i_3-i_1-placeholder]
-other = "Role*"
+other = "Which best describes your interest in Vibe?"
 
 [i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder]
 other = "Anything else we should know?"
@@ -307,6 +301,9 @@ other = "Watch Demo Video"
 
 [i18n-content-demo-_index-demo-form-submitted-body]
 other = "# We've sent you an email with the video link. Enjoy!"
+
+[i18n-content-order-trusted_by-title]
+other = "Trusted by"
 
 [i18n-content-order-_index-title]
 other = "Order your Vibe"
@@ -632,13 +629,10 @@ other = "Phone Number*"
 other = "Company Name*"
 
 [i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder]
-other = "Industry*"
+other = "Job Title"
 
 [i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder]
-other = "Company Size*"
-
-[i18n-content-contact-_index-contact-form-controls-i_3-i_1-placeholder]
-other = "Role*"
+other = "Which best describes your interest in Vibe?"
 
 [i18n-content-contact-_index-contact-form-controls-i_4-i_0-placeholder]
 other = "Message*"

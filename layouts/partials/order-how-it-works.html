@@ -1,0 +1,33 @@
+<section class="section how-it-works">
+  <div class="container">
+    <h1 class="title how-it-works-title">{{ .title1 }}</h1>
+    <h1 class="title how-it-works-title">{{ .title2 }}</h1>
+    <section class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure)  "options" "jpg") }}
+    </section>
+
+    <a href="#" class="button is-outlined is-rounded is-in-brand is-hidden-mobile">
+      <span>See How it Works</span>
+    </a>
+  </div>
+  <div class="mobile-container">
+    <h1 class="title how-it-works-title">{{ .title1 }} {{ .title2 }}</h1>
+    <section class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .mobilefigure)  "options" "jpg") }}
+    </section>
+    <h2>Connections</h2>
+    <p>HDMI In&Out, 3.5mm Audio out, USB 2.0/3.0</p>
+    <h2>Easy to install, easy to set up</h2>
+    <p>Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also wall mounts.</p>
+    <h2>Portable Stand</h2>
+    <p>With Vibe’s portable stand, any room becomes a dynamic meeting space.
+      Red or white</p>
+    <h2>A 55” 4K UHD touch screen and maganetic stylus</h2>
+    <p>8ms response time makes the stylus-to-touchscreen experience natural and familiar.</p>
+    <h2>10 Multi-touch points</h2>
+    <p>10 multi-touch points allow multiple people to interact with the screen simultaneously via touch or stylus.</p>
+    <a href="#" class="button is-outlined is-rounded is-in-brand is-hidden-mobile">
+      <span>See How it Works</span>
+    </a>
+  </div>
+</section>

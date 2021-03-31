@@ -355,3 +355,210 @@ input[type=number]
       font-size: 16px
     .checkout .button
       font-weight: $vibe-bold
+
+
+.section.trusted-by
+  .container
+    +touch
+      padding: 0 90px
+    +mobile
+      padding: 0 16px
+    +widescreen
+      padding: 0 64px
+      max-width: 1152px
+    +fullhd
+      max-width: 1100px
+  .title.is-section-title
+    display: none
+    font-size: 24px
+    padding: 0 32px
+    margin-bottom: 0
+    white-space: nowrap
+    +touch
+    //   margin-bottom: 36px
+    // +mobile
+    //   font-size: 16px
+    //   line-height: 23px
+    //   margin-bottom: 24px
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      right: 0
+      top: 0
+      bottom: 0
+      margin: auto
+      width: 1px
+      height: 36px
+      background-color: black
+      +touch
+        left: 0
+        right: 0
+        top: auto
+        bottom: -8px
+        width: 48px
+        height: 1px
+      +mobile
+        width: 36px
+
+  .references-wrapper
+    width: 800px
+    overflow: hidden
+    .imgbox
+      width: 18%
+      height: 120px
+      display: inline-block
+      &:is-hidden
+        display: none
+      img
+    width: 980px
+    // flex-grow: 1
+    // display: flex
+    // flex-direction: row
+    // justify-content: space-between
+    // align-items: center
+    width: 100%
+
+.section.what-is-vibe
+  .container
+    .is-what-is-vibe-title
+      text-align: center
+    .content
+      .what-is-vibe-content
+          display: flex
+          margin: auto
+          width: 800px
+          +mobile
+            width: 350px
+          text-align: center
+ 
+
+.how-it-works
+  text-align: center
+
+  .container
+    .how-it-works-title
+      line-height: 20px
+    +mobile
+      display: none
+    
+    .image
+      width: 1062px
+      height: 850px
+      text-align: center
+      max-width: 100%
+      margin: auto
+    a
+      border: 3px solid #111111
+      width: 250px
+      height: 45px
+      color: #111111
+      span
+        font-weight: 600
+      &:hover 
+        background: #111111
+        span
+          color: white
+  .mobile-container
+    width: 95%
+    h2
+      font-weight: 900
+      text-align: left
+      margin-left: 20px
+    p
+      text-align: left
+      margin-left: 20px
+      
+    display: none
+    +mobile
+      display: block
+      .how-it-works-title
+        line-height: 30px
+      
+     
+.book-a-free-demo
+  text-align: center
+  a
+    margin-top: 30px
+    width: 250px
+    height: 45px
+    border-color: #111111
+    color: #111111
+    border: 3px solid #111111
+    span
+      font-weight: 600
+    &:hover
+      background: #111111
+      span
+        color: white
+  .container
+    display: flex
+    width: 1080px
+    justify-content: center
+    +mobile
+      display: block
+      
+      width: 350px
+    .content
+      width: 380px
+      margin: 0 50px 0 50px
+      +mobile
+        width: 300px
+        margin: 0
+      span
+        width: 380px
+        height: 50px
+        font-weight: 600
+        font-size: 24px
+
+.ready-to-see
+  background: #66CCCC;
+  position: relative
+  padding-top: 120px - 12px
+  min-height: 810px
+  +lang-override(".lang-zh")
+    padding-top: 120px
+    min-height: 743px
+    .content
+      margin-top: 48px
+  .container, .column.is-image
+    position: static
+  .column.is-form-header
+    z-index: 1
+  .image
+    width: 993px
+    bottom: 0
+    left: -300px
+    +from(1024px)
+      left: -150px
+    +from(1480px)
+      left: 0
+    +from(1920px)
+      left: auto
+      right: 50%
+    .overlay
+      +tablet
+        background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 50%,rgba(102, 204, 204, 0.9) 75%)
+      +from(1100px)
+        background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 55%,rgba(102, 204, 204, 0.9) 80%)
+      +from(1230px)
+        background: none
+        
+    .is-form form .is-buttons .column .control
+      .schedule-demo
+        color: #fff
+        background-color: #111111
+        border: 3px solid #111111
+        width: 236px
+        text-align: center
+      .watch-demo
+        text-align: center
+        width: 236px
+        color: #111111
+        background-color: #fff
+        border: 3px solid #111111
+        &:hover
+          background: #111111
+          color: #fff
+          
+  height: 720px

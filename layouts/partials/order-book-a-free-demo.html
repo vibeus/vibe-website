@@ -1,0 +1,16 @@
+<section class="section book-a-free-demo">
+  <h1 class="title book-a-free-demo-title">{{ .title1 }}</h1>
+  <h1 class="title book-a-free-demo-title">{{ .title2 }}</h1>
+  <div class="container">
+    {{ range .items }}
+      <div class="content">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure)  "options" "jpg") }}
+        <span> {{ .title }}</span>
+        <p> {{ .content }}</p>
+      </div>
+    {{ end }}
+  </div>
+  <a href="#" class="button is-outlined is-rounded is-in-brand is-hidden-mobile">
+    <span>Book a Free Demo</span>
+  </a>
+</section>

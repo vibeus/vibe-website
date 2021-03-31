@@ -11,7 +11,7 @@
 {{ $plusIconSrc := resources.Get "mdi/svg/plus.svg" | resources.Minify }}
 {{ $minusIconSrc := resources.Get "mdi/svg/minus.svg" | resources.Minify }}
 */
-import { toggleActive, bindEventWithTarget } from '{{ $js.RelPermalink }}';
+import { toggleActive, bindEventWithTarget, setupForm, activateOneOf } from '{{ $js.RelPermalink }}';
 
 const e = React.createElement;
 const { useState, useEffect } = React;
@@ -396,3 +396,11 @@ toggleActive('.faq-title', false);
 setupGallery();
 setupCart();
 setupAddCart();
+setupForm(document.querySelector('.form.is-vibe-form'));
+activateOneOf('.is-tab-panel .is-tab-title', true);
+document.querySelector('.is-tab-titles').addEventListener('click',el => {
+  document.querySelectorAll('.is-tab-title').forEach(item => {
+      item.classList.remove('is-active')
+  })
+  el.target.classList.toggle('is-active')
+})

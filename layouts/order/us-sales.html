@@ -185,8 +185,32 @@
 </section>
 {{ end }}
 
-{{ with .Params.faq }}
-{{ partial "faq" . }}
+{{ with .Params.trusted_by }}
+{{ partial "order-trusted-by" . }}
+{{ end }}
+
+{{ with .Params.what_is_vibe }}
+{{ partial "order-what-is-vibe" . }}
+{{ end }}
+
+{{ with .Params.how_it_works }}
+{{ partial "order-how-it-works" . }}
+{{ end }}
+
+{{ with .Params.book_a_free_demo }}
+{{ partial "order-book-a-free-demo" . }}
+{{ end }}
+
+{{ with .Params.ready_to_see }}
+{{ partial "order-ready-to-see" . }}
+{{ end }}
+
+{{ with .Params.why_vibe }}
+{{ partial "order-why-vibe" . }}
+{{ end }}
+
+{{ with .Params.buyer_faq }}
+{{ partial "order-buyer-faq" . }}
 {{ end }}
 
 {{ with .Params.reviews }}
