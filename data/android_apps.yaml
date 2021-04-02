@@ -1,4 +1,7 @@
 apps:
+- id: air.com.adobe.connectpro
+  name: Connect
+  type: vc
 - id: cards.boom.boom
   name: Boom Cards
   type: education
@@ -59,6 +62,9 @@ apps:
 - id: com.bombbomb.prod.android
   name: BombBomb
   type: productivity
+- id: com.box.android
+  name: Box
+  type: file
 - id: com.canva.editor
   name: Canva
   type: design
@@ -114,6 +120,9 @@ apps:
 - id: com.gotomeeting
   name: GoToMeeting
   type: vc
+- id: com.hulu.plus
+  name: Hulu
+  type: av
 - id: com.instructure.candroid
   name: Canvas
   type: education
