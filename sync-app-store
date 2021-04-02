@@ -8,7 +8,7 @@ from colorama import Fore, Style
 
 def sync_apps(app_list_json, app_list_yaml, black_list):
     resp = requests.get(app_list_json)
-
+        
     remote_list = resp.json()
 
     local_map = {}
@@ -29,13 +29,9 @@ def sync_apps(app_list_json, app_list_yaml, black_list):
             print(Style.DIM + "Ignore app: {}".format(app_id) + Style.RESET_ALL)
             continue
         local_icon = "assets/img/android-app-store/icons/{}.png".format(app_id)
-        # try:
         icon_resp = requests.get(remote_icon)
         with open(local_icon, "wb") as f:
             f.write(icon_resp.content)
-        # except requests.exceptions.SSLError:
-        #     print(f'{local_icon} 404')
-
         app_obj = local_map.get(app_id, {})
         if app_id in local_map:
             del local_map[app_id]
@@ -87,12 +83,12 @@ def main():
     sync_apps(
         "https://dl.vibe.cn/configs/apps/ss/prod.json",
         "./data/android_apps_zh.yaml",
-        ["com.android.rk", "ai.inlight.board.app"],
+        ["com.android.rk","ai.inlight.board.app"],
     )
     sync_apps(
         "https://dl.vibe.us/configs/apps/ss/prod.json",
         "./data/android_apps.yaml",
-        ["com.android.rk", "ai.inlight.board.app"],
+        ["com.android.rk","ai.inlight.board.app","com.realtimeboard"],
     )
 
 
