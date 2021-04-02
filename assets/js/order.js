@@ -398,9 +398,10 @@ setupCart();
 setupAddCart();
 setupForm(document.querySelector('.form.is-vibe-form'));
 activateOneOf('.is-tab-panel .is-tab-title', true);
-document.querySelector('.is-tab-titles').addEventListener('click',el => {
-  document.querySelectorAll('.is-tab-title').forEach(item => {
-      item.classList.remove('is-active')
-  })
-  el.target.classList.toggle('is-active')
-})
+// document.querySelector('.is-tab-titles').addEventListener('click',el => {
+//   document.querySelectorAll('.is-tab-title').forEach(item => {
+//       item.classList.remove('is-active')
+//   })
+//   el.target.classList.toggle('is-active')
+// })
+console.log(1)

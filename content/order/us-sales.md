@@ -116,7 +116,7 @@ how_it_works:
   title1: A touchscreen whiteboard built
   title2: for the modern workspace
   figure: img/order/how-it-works.png
-  mobilefigure: img/order/4K-vibe.png
+  mobilefigure: img/order/4K-vibe-mobile.png
   link: 
 book_a_free_demo:
   title1: Collaboration software for however,
@@ -271,16 +271,20 @@ buyer_faq:
     title: i18n-content-order-_index-faq-see_all-title
     url: /buyer-faq
   items:
-    - title: i18n-content-order-_index-faq-items-i_0-title
-      body: i18n-content-order-_index-faq-items-i_0-body
-    - title: i18n-content-order-_index-faq-items-i_1-title
-      body: i18n-content-order-_index-faq-items-i_1-body
-    - title: i18n-content-order-_index-faq-items-i_2-title
-      body: i18n-content-order-_index-faq-items-i_2-body
-    - title: i18n-content-order-_index-faq-items-i_3-title
-      body: i18n-content-order-_index-faq-items-i_3-body
-    - title: i18n-content-order-_index-faq-items-i_4-title
-      body: i18n-content-order-_index-faq-items-i_4-body
+    - title: Is Vibe compatible with any wall mount?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
+    - title: Does Vibe has HDMI ports?
+      body: Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts or stands which support at least 65 lbs.
 
 reviews:
   title: i18n-content-order-_index-reviews-title

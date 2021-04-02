@@ -4,17 +4,17 @@
     <div class="faq-section-title">
       <div class="is-tab-panel" id="tab-panel">
         <div class="is-tab-titles">
-          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-overview-tab is-active"
+          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-hardware-tab is-active"
             data-target="video-overview-tab-body">
             Hardware
             <span class="is-split-line"></span>
           </div>
-          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-overview-tab"
+          <div class="is-tab-title is-Stratos-title is-tab-title-1 is-software-tab"
             data-target="video-overview-tab-body">
             Software
             <span class="is-split-line"></span>
           </div>
-          <div class="is-tab-title is-Stratos-title is-tab-title-2 is-resources-tab" data-target="resources-tab-body">
+          <div class="is-tab-title is-Stratos-title is-tab-title-2 is-shipping-tab" data-target="resources-tab-body">
             Shipping
             <span class="is-split-line"></span>
           </div>
@@ -28,11 +28,12 @@
     </div>
     
     <ul class="faq-items">
+      
       {{ range $idx, $it := .items }}
       <li class="faq-item{{ if eq $idx 0 }} is-active{{ end }}" id="faq-{{ $idx }}">
         <h2 class="faq-title" data-target="faq-{{ $idx }}">
           <span>
-            {{ T .title }}
+            {{ .title }}
           </span>
           <span class="icon is-chevron">
             <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,11 +42,27 @@
             </svg>
           </span>
         </h2>
-        <div class="content">{{ T .body | markdownify }}</div>
+        <div class="content">{{ .body | markdownify }}</div>
       </li>
       {{ end }}
     </ul>
   </div>
 </section>
 
-{{ partial "common/template-script" (dict "asset" "js/order.js") }}
+<script>
+  let tabs = document.querySelectorAll('.is-tab-title')
+  tabs.forEach(tab => {
+    tab.addEventListener('click',el => {
+      tabs.forEach(item => {
+        item.classList.remove('is-active')
+      })
+      el.target.classList.toggle('is-active')
+    })
+  })
+  {{/*  document.querySelector('.is-tab-titles').addEventListener('click',el => {
+    document.querySelectorAll('.is-tab-title').forEach(item => {
+        item.classList.remove('is-active')
+    })
+    el.target.classList.toggle('is-active')
+  })  */}}
+</script>

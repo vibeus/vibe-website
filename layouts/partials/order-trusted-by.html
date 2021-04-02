@@ -31,15 +31,17 @@
         {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
       </span>
     </div>  */}}
-    <span style="margin-left: 60px;transform:scale(1.3)" id="r">
+    
+
+    {{/*  <span style="margin-left: 60px;transform:scale(1.3)" id="r">
       {{ partial "common/srcset" (dict "resource" (resources.Get "img/order/is-right.png") "desktop" "640x" "tablet" "480x" "mobile" "375x" "options" "jpg") }}
-    </span>
+    </span>  */}}
   </div>
 </section>
 
 
 <script>
-  let index = 0
+  {{/*  let index = 0
   let right = document.getElementById('r')
   right.addEventListener('click', () => {
   })
@@ -53,5 +55,5 @@
     Array.from(document.querySelector('.references-wrapper').children).forEach(item => {
       item.classList.remove('is-hidden')
     })
-  }
+  }  */}}
 </script>

@@ -453,6 +453,7 @@ input[type=number]
       width: 250px
       height: 45px
       color: #111111
+      margin-bottom: 50px
       span
         font-weight: 600
       &:hover 
@@ -460,11 +461,97 @@ input[type=number]
         span
           color: white
   .mobile-container
+    position: relative
     width: 95%
+    .orange-dots
+      display: inline-block
+      height: 20px
+      width: 20px
+      margin-left: -20px
+      position: relative
+      top: 3px
+      left: -5px
+      background: #ffcc00
+      border-radius: 50%
+      color: #fff
+      text-align: center
     h2
       font-weight: 900
       text-align: left
       margin-left: 20px
+    .button
+      margin-top: 10px
+      border: 2px solid #111111
+    .title1
+      &::before
+        content: '1'
+        display: inline-block
+        height: 20px
+        width: 20px
+        margin-left: -20px
+        position: relative
+        top: 3px
+        left: -5px
+        background: #ffcc00
+        border-radius: 50%
+        color: #fff
+        text-align: center
+    .title2
+      &::before
+        content: '2'
+        display: inline-block
+        height: 20px
+        width: 20px
+        margin-left: -20px
+        position: relative
+        top: 3px
+        left: -5px
+        background: #ffcc00
+        border-radius: 50%
+        color: #fff
+        text-align: center
+    .title3
+      &::before
+        content: '3'
+        display: inline-block
+        height: 20px
+        width: 20px
+        margin-left: -20px
+        position: relative
+        top: 3px
+        left: -5px
+        background: #ffcc00
+        border-radius: 50%
+        color: #fff
+        text-align: center
+    .title4
+      &::before
+        content: '4'
+        display: inline-block
+        height: 20px
+        width: 20px
+        margin-left: -20px
+        position: relative
+        top: 3px
+        left: -5px
+        background: #ffcc00
+        border-radius: 50%
+        color: #fff
+        text-align: center
+    .title5
+      &::before
+        content: '5'
+        display: inline-block
+        height: 20px
+        width: 20px
+        margin-left: -20px
+        position: relative
+        top: 3px
+        left: -5px
+        background: #ffcc00
+        border-radius: 50%
+        color: #fff
+        text-align: center
     p
       text-align: left
       margin-left: 20px
@@ -477,11 +564,25 @@ input[type=number]
       
      
 .book-a-free-demo
+  .book-a-free-demo-title
+    &:nth-child(1)
+      margin: 0 auto 0
+    &:nth-child(2)
+      margin: 0 auto 70px
+    +mobile
+      display: none
+  .mobile-title
+    display: none
+    +mobile
+      display: block
+      margin: 10px 0 50px
+    
+  background: #F4F4F4
   text-align: center
   a
-    margin-top: 30px
+    margin: 60px 0 60px
     width: 250px
-    height: 45px
+    height: 50px
     border-color: #111111
     color: #111111
     border: 3px solid #111111
@@ -504,7 +605,7 @@ input[type=number]
       margin: 0 50px 0 50px
       +mobile
         width: 300px
-        margin: 0
+        margin: 0 0 50px
       span
         width: 380px
         height: 50px
@@ -512,23 +613,33 @@ input[type=number]
         font-size: 24px
 
 .ready-to-see
-  background: #66CCCC;
+  
+  background: #66CCCC
   position: relative
   padding-top: 120px - 12px
   min-height: 810px
-  +lang-override(".lang-zh")
-    padding-top: 120px
-    min-height: 743px
-    .content
-      margin-top: 48px
+  .container
+    display: inline-block
+  +mobile
+    min-height: 1210px
   .container, .column.is-image
+    max-width: 840px
+    z-index: 10
     position: static
+    
   .column.is-form-header
     z-index: 1
   .image
+    &:nth-child(2)
+      display: none
+    @media screen and (max-width: 1024px)
+      width: 350px
+      position: relative
+      top: 920px
     width: 993px
     bottom: 0
-    left: -300px
+    position: relative
+    top: 15px
     +from(1024px)
       left: -150px
     +from(1480px)
@@ -536,29 +647,51 @@ input[type=number]
     +from(1920px)
       left: auto
       right: 50%
-    .overlay
-      +tablet
-        background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 50%,rgba(102, 204, 204, 0.9) 75%)
-      +from(1100px)
-        background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 55%,rgba(102, 204, 204, 0.9) 80%)
-      +from(1230px)
-        background: none
-        
-    .is-form form .is-buttons .column .control
-      .schedule-demo
-        color: #fff
-        background-color: #111111
-        border: 3px solid #111111
-        width: 236px
+  .container .is-form
+    @media screen and ( max-width: 1024px )
+      transform: translateX(-50%)
+    +mobile
+      width: 350px
+      height: 980px
+      
+    border-top: #111111 solid 8px
+    position: absolute
+    top: 48px
+    left: 50%
+    margin-right: -10px
+    background: #FFFFFF
+    width: 600px
+    height: 680px
+    padding: 50px
+    .is-section-title
+      text-align: center
+    .form.is-vibe-form
+      padding: 10px
+      .is-buttons .column .control
         text-align: center
-      .watch-demo
-        text-align: center
-        width: 236px
-        color: #111111
-        background-color: #fff
-        border: 3px solid #111111
-        &:hover
-          background: #111111
+        input
+          width: 80%
+        .schedule-demo
           color: #fff
+          background-color: #111111
+          border: 3px solid #111111
+          width: 236px
+          text-align: center
+          +mobile
+            text-align: center
+        .watch-demo
+          text-align: center
+          width: 236px
+          color: #111111
+          background-color: #fff
+          border: 3px solid #111111
+          &:hover
+            background: #111111
+            color: #fff
           
   height: 720px
+  +mobile
+    height: 1024px
+.ready-to-see .container .is-image
+  @media screen and ( max-width: 1024px )
+      display: none
