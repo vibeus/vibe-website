@@ -26,6 +26,7 @@ Generally speaking, a wireframe is more akin to a sketch than a prototype. They 
 - **Mid-fidelity:** A step up from lo-fi, mid-fidelity wireframes also contain grid, scale, and pixel elements. 
 - **High fidelity:** This version will likely include branding and user interface (UI) and look more like a “real” app or webpage.
 
+
 ***Related:*** [7 Reasons to Invest in Dual Monitors](https://vibe.us/blog/7-reasons-to-invest-in-dual-monitors/)
 
 ## Who uses wireframes?

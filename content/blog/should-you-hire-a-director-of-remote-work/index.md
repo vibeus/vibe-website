@@ -33,6 +33,7 @@ However, directors of remote work have [unique challenges to overcome](https://v
 - Reviewing [remote work tools and technologies](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/)
 - Taking in feedback from employees through regular surveys and implementing changes
 
+
 ***Related:*** [How Will Your Company Define WFH Guidelines?](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/)
 
 ## Who needs a director of remote work?

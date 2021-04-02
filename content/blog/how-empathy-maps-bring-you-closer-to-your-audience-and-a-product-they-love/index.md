@@ -20,28 +20,29 @@ The purpose of your job is to provide consumers with the product or service that
 A consumer *wants* a product that they actually *need* — you *need* a deeper understanding of a consumer’s *wants*. This is where the mutually beneficial empathy map comes to the rescue. An empathy map is a visual tool that helps companies identify with their audience and pinpoint their attitudes and behaviors.
 
 By funneling qualitative research through an empathy map, teams can better recognize the needs of their users and offer them custom-made products. Companies begin this process by looking at users' statements, thoughts, actions, and feelings and recording findings in the four quadrants of an empathy map (Says, Thinks, Does, Feels). These four quadrants are broken down as follows:
-**Says**
+
+**Says:**
 What statements has the user vocalized? Look to interviews or usability studies for direct quotes that can support what the user is sharing with others about their product/service experiences.
 
 - *“I need a reliable product.”* 
 - *“This product is so user-friendly.”*
 - *“I only buy from brands with quality customer service.”*
 
-**Thinks**
+**Thinks:**
 What is the user’s thought process throughout their experience? This section may cross paths with the *Says* quadrant but captures the details they may not feel comfortable sharing vocally.
 
 - *“My peers may judge me for choosing this brand.”*
 - *“This interface is super frustrating.”*
 - *“Am I missing out on extra features?”* 
 
-**Does** 
+**Does:** 
 What actions does the user take? Are they interacting with certain content on a webpage? What are their purchasing habits? A user’s physical steps indicate the type of behavior that propels them toward a purchasing decision. 
 
 - *Spends a lot of time researching similar products.*
 - *Turns to peers for recommendations.* 
 - *Prefers to see and experience the product in person before purchasing.*
 
-**Feels**
+**Feels:**
 How does the user feel about the experience of using your product or service? Do they indicate frustration or joy? Do they trust your brand? Though users may not openly share their specific feelings, try to deduce what emotions they experience through their comments.  
 
 - *Anxious about committing to a purchase*
