@@ -1,9 +1,9 @@
 ---
 title: "How I Vibe: Hannah Brown, Kindergarten Teacher"
 slug: how-i-vibe-hannah-brown-kindergarten-teacher
-author: Megan Snyder
+author: Vibe Team
 date: 2020-11-02
-tags: ["education", "family"]
+tags: ["education", "remote learning", "interactive whiteboard"]
 draft: false
 isfeatured: false
 summary: Interactive digital whiteboards in the classroom are a fun way to bring STEM to students. If you're interested in a digital whiteboard for teachers, see some of Hannah B's ideas for using technology in the classroom.

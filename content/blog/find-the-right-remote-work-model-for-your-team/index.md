@@ -24,7 +24,7 @@ Below, we’ll review a few major categories of remote work to help you determin
 
 Bessemer Venture Partners describes the [hub-and-spoke model](https://www.bvp.com/atlas/remote-work) as, “A company has an HQ and a network of regional hubs to tap into talent across markets.” While this model existed before COVID-19, the idea of working remotely was traditionally limited to working at a regional office. That idea has now expanded to working from wherever is most convenient for the individual.
 
-{{< common/srcset "image-1.jpg" "flexible workspaces like hot desks are made for remote work" >}}
+{{< common/srcset "image-1.jpg" "Flexible workspaces, like hot desks, are made for remote work" >}}
 
 
 That being said, real estate service and investment firm [CBRE notes](https://www.cbre.us/canada/about/advantage-insights/articles/how-the-hub-and-spoke-model-could-evolve-into-the-office-of-the-future) that the central headquarters and regional offices were “meant to work hand-in-hand with the rise of remote work and flexible workspaces,” even before anyone knew what kind of workplace upheaval 2020 would bring. And now that “spokes” have come to include home offices, vacation rentals, and other locations where people can safely keep to themselves while working, more companies are realizing that they might not need as much office space as they once did.
@@ -63,7 +63,7 @@ Even if almost everyone in the company works from a location of their choice and
 
 For some companies, there is no longer a need for any kind of office headquarters. And for an even smaller group, there never was in the first place.
 
-{{< common/srcset "image-3.jpg" "man working on his laptop from a park" >}}
+{{< common/srcset "image-3.jpg" "Man working on his laptop from a park" >}}
 
 
 A company operating on the nomadic model of remote work is 100% office-free. Employees work wherever they want, which opens up opportunities for the company to hire globally and for those especially adventurous employees to travel around, working from wherever they land.

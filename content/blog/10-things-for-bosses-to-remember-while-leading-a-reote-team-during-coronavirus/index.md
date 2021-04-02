@@ -1,7 +1,7 @@
 ---
 title: "10 Things for Bosses to Remember While Leading a Remote Team During Coronavirus"
 slug: 10-things-for-bosses-to-remember-while-leading-a-reote-team-during-coronavirus
-author: Vibe team
+author: Vibe Team
 date: 2020-03-26
 tags: ["remote work", "remote team", "collaborate", "Coronavirus"]
 draft: false
