@@ -2,7 +2,7 @@
 title: i18n-content-pricing-_index-title
 stylesPath: css/pricing.sass
 no_sitemap: true
-allowIndex: false
+draft: true
 plans: &plans
   - class: starter is-one-third
     title: Starter
