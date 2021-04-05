@@ -1,5 +1,5 @@
 ---
-title: "Wireframing 101: Everything You Need to Know"
+title: "Wireframing 101: What You Need to Know"
 slug: wireframing-basics-everything-you-need-to-know
 author: Mary Clark Navarro
 date: 2021-04-02
