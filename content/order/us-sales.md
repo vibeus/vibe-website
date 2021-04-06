@@ -95,6 +95,48 @@ faq:
 reviews:
   title: i18n-content-order-_index-reviews-title
   items:
+    - author: RDG
+      channel: Amazon Review
+      stars: 5
+      date: 03/29/2021
+      body: i18n-content-order-_index-reviews-items-i_13-body
+      url: 'https://www.amazon.com/review/R3M6OJLVOA6TLL/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: Justin Jones
+      channel: Amazon Review
+      stars: 5
+      date: 03/17/2021
+      body: i18n-content-order-_index-reviews-items-i_12-body
+      url: 'https://www.amazon.com/review/RN53PCAH5M6OS/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: A. Farmer
+      channel: Amazon Review
+      stars: 5
+      date: 03/01/2021
+      body: i18n-content-order-_index-reviews-items-i_11-body
+      url: 'https://www.amazon.com/review/R81NG0WBD4QMX/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: Kiran R
+      channel: Amazon Review
+      stars: 3
+      date: 02/14/2021
+      body: i18n-content-order-_index-reviews-items-i_10-body
+      url: 'https://www.amazon.com/review/RB2C6XB8MKAHR/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: Lee C
+      channel: Amazon Review
+      stars: 5
+      date: 02/14/2021
+      body: i18n-content-order-_index-reviews-items-i_9-body
+      url: 'https://www.amazon.com/review/R1LE9ZWHGV504G/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: Peter Skalla
+      channel: Amazon Review
+      stars: 5
+      date: 01/30/2021
+      body: i18n-content-order-_index-reviews-items-i_8-body
+      url: 'https://www.amazon.com/review/R2G2IWCG3EA1Y1/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
+    - author: Chris K
+      channel: Amazon Review
+      stars: 5
+      date: 12/16/2020
+      body: i18n-content-order-_index-reviews-items-i_7-body
+      url: 'https://www.amazon.com/review/R319EWPB53CPMB/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=0e27a3989025154ae1f8f2e4cf58dce5&camp=1789&creative=9325'
     - author: Ernst U Frevert
       channel: Amazon Review
       stars: 5
