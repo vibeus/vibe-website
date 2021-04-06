@@ -118,6 +118,22 @@ how_it_works:
   figure: img/order/how-it-works.png
   mobilefigure: img/order/4K-vibe-mobile.png
   link: 
+  links:
+    - title: A 55” 4K UHD touch screen and maganetic stylus
+      body: 8ms response time makes the stylus-to-touchscreen experience natural and familiar.
+      index: 1
+    - title: 10 Multi-touch points
+      body: 10 multi-touch points allow multiple people to interact with the screen simultaneously via touch or stylus.
+      index: 2
+    - title: Connections
+      body: HDMI In&Out, 3.5mm Audio out, USB 2.0/3.0
+      index: 3
+    - title: Easy to install, easy to set up
+      body: Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also wall mounts.
+      index: 4
+    - title: Portable Stand
+      body: With Vibe’s portable stand, any room becomes a dynamic meeting space.Red or white
+      index: 5
 book_a_free_demo:
   title1: Collaboration software for however,
   title2: wherever, you work

@@ -4,7 +4,7 @@
   <h1 class="title mobile-title">{{ .title1 }} {{ .title2 }}</h1>
   <div class="container">
     {{ range .items }}
-      <div class="content">
+      <div class="contents">
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure)  "options" "jpg") }}
         <span> {{ .title }}</span>
         <p> {{ .content }}</p>
