@@ -26,7 +26,7 @@
 {{ define "main" }}<main class="order">
 
 {{ with .Params.hero }}
-<section class="hero">
+<section class="hero" id="hero">
   <div class="hero-body">
     <div class="container">
       <div class="columns is-desktop is-vcentered">
@@ -185,6 +185,30 @@
 </section>
 {{ end }}
 
+{{ with .Params.trust }}
+{{ partial "common/trust-section" . }}
+{{ end }}
+
+{{ with .Params.what_is_vibe }}
+{{ partial "what-is-vibe" . }}
+{{ end }}
+
+{{ with .Params.how_it_works }}
+{{ partial "order-how-it-works" . }}
+{{ end }}
+
+{{ with .Params.book_a_free_demo }}
+{{ partial "order-book-a-free-demo" . }}
+{{ end }}
+
+{{ with .Params.ready_to_see }}
+{{ partial "order-ready-to-see" . }}
+{{ end }}
+
+{{ with .Params.why_vibe }}
+{{ partial "common/compare" (merge (dict "Site" $.Site) .) }}
+{{ end }}
+
 {{ with .Params.faq }}
 {{ partial "faq" . }}
 {{ end }}
@@ -288,4 +312,6 @@
 {{ else }}
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products ) }}
 {{ end }}
+{{ partial "common/template-script" (dict "asset" "js/common/trust.js") }}
+{{ partial "common/template-script" (dict "asset" "js/common/what-is-vibe-video-setup.js") }}
 </main>{{ end }}

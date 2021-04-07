@@ -1,0 +1,24 @@
+<section class="section ready-to-see" id="section-book-demo">
+  <div class="container">
+    <div class="column is-image">
+      <figure class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/feature-eng.png") "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg " (default "#66cccc" ))) }}
+      </figure>
+    </div>
+    <div class="is-form">
+      <div class="title-wrapper">
+        <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
+        {{ with .body }}
+        <div class="content">{{ default . (T .) | markdownify }}</div>
+        {{ end }}
+      </div>
+      {{ with .form }}
+      {{ partial "common/form" . }}
+      {{ end }}
+    </div>
+    <figure class="image">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/feature-eng.png") "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg " (default "#66cccc" ))) }}
+    </figure>
+  </div>
+</section>
+{{ partial "common/template-script" (dict "asset" "js/contact.js") }}

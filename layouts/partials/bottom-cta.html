@@ -21,7 +21,11 @@
       {{ range .buttons }}
       <a class="button is-rounded {{ default "is-black is-outlined" .class }}"
          href="{{ .url | relLangURL }}"
-         target="_blank">
+         target="_blank"
+         {{ range .data }}
+         data-{{ .key }}="{{ .value }}"
+         {{ end }}
+      >
         {{ default .title (T .title) }}
       </a>
       {{ end }}

@@ -11,7 +11,7 @@
 {{ $plusIconSrc := resources.Get "mdi/svg/plus.svg" | resources.Minify }}
 {{ $minusIconSrc := resources.Get "mdi/svg/minus.svg" | resources.Minify }}
 */
-import { toggleActive, bindEventWithTarget } from '{{ $js.RelPermalink }}';
+import { toggleActive, bindEventWithTarget, setupForm, activateOneOf, bindScrollTo } from '{{ $js.RelPermalink }}';
 
 const e = React.createElement;
 const { useState, useEffect } = React;
@@ -396,3 +396,10 @@ toggleActive('.faq-title', false);
 setupGallery();
 setupCart();
 setupAddCart();
+
+const navbar = document.querySelector('.navbar');
+const navbarHeight = navbar ? navbar.clientHeight : 0;
+bindScrollTo(
+  '.is-order-now',
+  -navbarHeight
+);

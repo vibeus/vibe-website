@@ -5,15 +5,32 @@
     max-width: 1120px
     +tablet
       font-size: 18px
+    .title.is-section-title
+      text-align: center
+      margin: 0 0 20px
   .faq-section-title
     margin-bottom: 32px
     display: flex
     align-items: center
     justify-content: space-between
-    .title.is-section-title
-      margin: 0
+
+    .is-tab-panel
+      .is-tab-titles
+        a
+          margin-left: 1000px
+          +mobile
+            display: none
+        .is-tab-title
+          display: inline-flex
+          margin-right: 50px
+          margin-bottom: -20px
+          font-size: 18px
+          &.is-active
+            border-bottom: 3px solid $vibe-black
+          +mobile
+            margin-right: 10px
+          
   .faq-items
-    border-top: 1px solid $vibe-black
     border-bottom: 1px solid $vibe-black
   .faq-item:not(:last-child)
     border-bottom: 1px solid $vibe-black

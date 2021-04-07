@@ -9,28 +9,28 @@
   <section class="hero">
     <div class="hero-inner-wrapper">
       <div class="hero-body">
-        <div class="container">      
+        <div class="container">
           <h1 class="title">{{.title }}
             <span>{{.title1 }}</span>
             {{.title2 }}
           </h1>
-          <div class="content">{{.body | markdownify }}</div> 
+          <div class="content">{{.body | markdownify }}</div>
           <div class="hero-bg">
             {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
-          </div> 
+          </div>
         </div>
       </div>
     </div>
   </section>
   {{ end }}
-  
+
   {{ with .Params.trust }}
   <section class="section video-section">
-    <div class="container"> 
+    <div class="container">
       <div class="video-wrapper {{ with .video.class }}{{ . }}{{ end }}">
         <div class="columns">
         {{ partial "video-column" . }}
-        </div> 
+        </div>
       </div>
     </div>
   </section>
@@ -39,8 +39,8 @@
 
 {{ with .Params.trust }}
 <section class="section is-trust">
-  <div class="container"> 
-    {{ partial "customers" $.Page }}      
+  <div class="container">
+    {{ partial "common/customers" $.Page }}
   </div>
 </section>
 {{ end }}
@@ -49,12 +49,12 @@
 <section class="section teams-collaborate">
   <div class="picture"></div>
   <div class="teams-collaborate-body">
-    <div class="container">       
+    <div class="container">
       <h1 class="title">{{.title }}</h1>
       <div class="content">{{.body | markdownify }}</div>
       <div class="line"></div>
     </div>
-    <div class="glidecontainer">       
+    <div class="glidecontainer">
       <div class="column is-gallery">
         <div class="product-gallery">
           <div class="glide-wrapper">
@@ -63,7 +63,7 @@
                 <ul class="glide__slides">
                   {{ range .gallery }}
                   <a href={{.url}} target="_blank">
-                    <li class="glide__slide">  
+                    <li class="glide__slide">
                       <div class="cardboxmob">
                         <div class="author">
                           <figure class="imagemob">
@@ -74,15 +74,15 @@
                         <span class="logo">
                           {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
                         </span>
-                      </div>                      
+                      </div>
                       <figure class="blog-cover image">
                         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-                      </figure>                                            
+                      </figure>
                       <div class="tip">
                         <div class="toppart-body">
-                          <div class="container">                                 
+                          <div class="container">
                             <h1 class="title">{{.title }}</h1>
-                            <div class="content">{{.body | markdownify }}</div>  
+                            <div class="content">{{.body | markdownify }}</div>
                           </div>
                         </div>
                         <div class="logo">
@@ -94,14 +94,14 @@
                       </div>
                       <div class="tipmob">
                         <div class="toppartmob-body">
-                          <div class="container">                                 
+                          <div class="container">
                             <h1 class="title">{{.title }}</h1>
-                            <div class="content">{{.body | markdownify }}</div>  
+                            <div class="content">{{.body | markdownify }}</div>
                           </div>
                         </div>
                       </div>
                     </li>
-                  </a> 
+                  </a>
                   {{ end }}
                 </ul>
               </div>
@@ -123,12 +123,12 @@
           <figure class="image">
             {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "options" "jpg") }}
           </figure>
-          <div class="container">       
+          <div class="container">
             <h1 class="title">{{.title }}</h1>
             <div class="content">{{.body | markdownify }}</div>
-          </div>   
-        </div>   
-        {{ end }}                  
+          </div>
+        </div>
+        {{ end }}
       </div>
     <div>
   </div>
@@ -220,7 +220,7 @@
       <span class="icon is-large glide-nav is-left">
         {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
       </span>
-  
+
       <span class="icon is-large glide-nav is-right" data-go=">">
         {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
       </span>
