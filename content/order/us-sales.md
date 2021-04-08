@@ -7,6 +7,22 @@ stylesPath: css/order-us-sales.sass
 noFixedNavbar: true
 is_order: true
 # promo_code: 'NOVEMBER200'
+navbar:
+    brandURL: "/"
+    # menu: []
+    extra:
+      - title: See a Demo
+        url: /demo/
+        class: is-primary is-outlined is-rounded is-in-brand is-request-demo is-request-demo-gtm
+        in_brand_mobile: true
+        data:
+          - key: target
+            value: section-book-demo
+      - title: Order a Vibe
+        url: https://vibe.us/order/
+        class: is-primary is-rounded is-in-brand is-nav-cart
+        in_brand_mobile: true
+
 product_notices:
   sold_out: &sold_out
     item_notice:
@@ -157,7 +173,7 @@ feature_columns:
 book_demo:
   title: Ready to see Vibe in action?
   body: Book a demo to see a product overview.
-  figure: img/home/feature-eng.png
+  figure: img/order/book-demo-bg.png
   form:
     action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/1270333f-4cc2-4450-901d-d4f9b29fed58'
     controls:
