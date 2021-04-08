@@ -455,99 +455,50 @@ input[type=number]
           color: white
   .mobile-container
     position: relative
-    width: 95%
-    .orange-dots
-      display: inline-block
-      height: 20px
-      width: 20px
-      margin-left: -20px
+    // width: 95%
+    .icons
       position: relative
-      top: 3px
-      left: -5px
-      background: #ffcc00
-      border-radius: 50%
-      color: #fff
-      text-align: center
-    h2
-      font-weight: 900
-      text-align: left
-      margin-left: 20px
+      .icon
+        display: inline-block
+        position: absolute
+        transform: scale(1.1)
+        top: 2px
+        left: -7px
+      h2
+        font-weight: 600
+        width: 290px
+        text-align: left
+        margin-left: 25px
+        line-height: 28px
+        font-size: 20px
+      // &[data-f]::before
+      //   content: attr(data-f) ''
+      //   display: inline-block
+      //   height: 18px
+      //   width: 18px
+      //   margin-left: -20px
+      //   position: relative
+      //   top: -3px
+      //   left: -5px
+      //   background: #ffcc00
+      //   border-radius: 100%
+      //   color: #fff
+      //   text-align: center
+      //   line-height: 28px
+      //   font-size: 14px
     .button
       margin-top: 10px
       border: 2px solid #111111
-    .title1
-      &::before
-        content: '1'
-        display: inline-block
-        height: 20px
-        width: 20px
-        margin-left: -20px
-        position: relative
-        top: 3px
-        left: -5px
-        background: #ffcc00
-        border-radius: 50%
+      &:hover
+        background: #000
         color: #fff
-        text-align: center
-    .title2
-      &::before
-        content: '2'
-        display: inline-block
-        height: 20px
-        width: 20px
-        margin-left: -20px
-        position: relative
-        top: 3px
-        left: -5px
-        background: #ffcc00
-        border-radius: 50%
-        color: #fff
-        text-align: center
-    .title3
-      &::before
-        content: '3'
-        display: inline-block
-        height: 20px
-        width: 20px
-        margin-left: -20px
-        position: relative
-        top: 3px
-        left: -5px
-        background: #ffcc00
-        border-radius: 50%
-        color: #fff
-        text-align: center
-    .title4
-      &::before
-        content: '4'
-        display: inline-block
-        height: 20px
-        width: 20px
-        margin-left: -20px
-        position: relative
-        top: 3px
-        left: -5px
-        background: #ffcc00
-        border-radius: 50%
-        color: #fff
-        text-align: center
-    .title5
-      &::before
-        content: '5'
-        display: inline-block
-        height: 20px
-        width: 20px
-        margin-left: -20px
-        position: relative
-        top: 3px
-        left: -5px
-        background: #ffcc00
-        border-radius: 50%
-        color: #fff
-        text-align: center
     p
       text-align: left
-      margin-left: 20px
+      width: 290px
+      margin: 10px 0 32px 25px
+      font-size: 16px
+      line-height: 23px
+      font-weight: 400
 
     display: none
     +mobile
@@ -555,9 +506,10 @@ input[type=number]
       .how-it-works-title
         line-height: 30px
 
-
 .book-a-free-demo
   .book-a-free-demo-title
+    width: 320px
+    line-height: 63px
     &:nth-child(1)
       margin: 0 auto 0
     &:nth-child(2)
@@ -569,7 +521,6 @@ input[type=number]
     +mobile
       display: block
       margin: 10px 0 50px
-
   background: #F4F4F4
   text-align: center
   a
@@ -579,6 +530,8 @@ input[type=number]
     border-color: #111111
     color: #111111
     border: 3px solid #111111
+    +mobile
+      margin: -20px 0 -0px 0
     span
       font-weight: 600
     &:hover
@@ -587,26 +540,47 @@ input[type=number]
         color: white
   .container
     display: flex
-    width: 1080px
+    width: 1280px
     justify-content: center
-    +mobile
+    @media screen and (min-width: 900px) and (max-width: 1024px)
+      display: flex
+      max-width: 900px
+    @media screen and (max-width: 800px)
       display: block
-
       width: 350px
-    .content
+      padding: 10px
+      margin-left: -15px
+      justify-content: center
+      .contents
+        width: 90%
+        p
+          width: 300px
+          text-align: center
+    .contents
       width: 380px
       margin: 0 50px 0 50px
-      +mobile
-        width: 300px
+      @media screen and (max-width: 800px)
+        width: 100%
         margin: 0 0 50px
+        padding: 10px
       span
         width: 380px
         height: 50px
         font-weight: 600
         font-size: 24px
+        line-height: 33px
+        margin-bottom: 20px
+      p
+        line-height: 23px
+        font-weight: 400
+        font-size: 16px
+        margin-top: 16px
+        +mobile
+          font-weight: 400
+          font-size: 16px
+          margin-top: 16px
 
 .ready-to-see
-
   background: #66CCCC
   position: relative
   padding-top: 120px - 12px
@@ -626,9 +600,10 @@ input[type=number]
     &:nth-child(2)
       display: none
     @media screen and (max-width: 1024px)
-      width: 350px
+      width: 400px
       position: relative
-      top: 920px
+      top: 900px
+      left: -40px
     width: 993px
     bottom: 0
     position: relative
