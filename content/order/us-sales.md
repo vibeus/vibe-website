@@ -14,7 +14,6 @@ navbar:
       - title: See a Demo
         url: /demo/
         class: is-primary is-outlined is-rounded is-in-brand is-request-demo is-request-demo-gtm
-        in_brand_mobile: true
         data:
           - key: target
             value: section-book-demo
