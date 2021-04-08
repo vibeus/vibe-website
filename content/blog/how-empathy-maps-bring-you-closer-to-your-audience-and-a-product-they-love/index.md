@@ -4,7 +4,7 @@ slug: how-empathy-maps-bring-you-closer-to-your-audience-and-a-product-they-love
 author: Paige Smith
 date: 2021-04-07
 tags: ["product design", "remote collaboration", "interactive whiteboard"]
-draft: true
+draft: false
 isfeatured: false
 description: 
 ---
@@ -67,7 +67,8 @@ The beauty of empathy mapping is that you don’t have to spend a lot of time or
 **Improve sales and brand trust.**
 As you create more products and services that satisfy the needs of your users, they will develop greater trust in your brand and opt to buy your products over the competition. Significant payoff comes when attention is given to details that affect your users.
 
-IMAGE OF EMPATHY MAP
+
+{{< common/srcset "image-1.jpg" "Using Vibe’s empathy map template to create an ideal product" >}}
 
 ## How to create an empathy map
 
@@ -110,7 +111,7 @@ Let the map be your guide as you fulfill your user-related goals. Place the map 
 Remember that an empathy map is never fully finished. Thoughts and opinions can and will change as the world around us changes. Make adjustments to your users’ empathy maps and use them to [conduct market research](https://blog.hubspot.com/marketing/market-research-buyers-journey-guide) in areas that are lacking or need clarification.
 
 
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-2.jpg" "" >}}
 
 ## Tips for making an empathy map with a remote team
 

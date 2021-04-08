@@ -223,7 +223,7 @@
         {{ range .items }}
         {{ $total = add $total .stars }}
         {{ end }}
-        {{ partial "review-stars" (div $total (len .items)) }}
+        {{ partial "review-stars" (div $total (mul 1.0 (len .items))) }}
       </div>
       <div class="column">
         Based on {{ len .items }} {{ if eq 1 (len .items) }}review{{ else }}reviews{{ end }}
