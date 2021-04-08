@@ -287,8 +287,14 @@ other = "Phone Number"
 [i18n-content-demo-_index-demo-form-controls-i_2-i_0-placeholder]
 other = "Company Name"
 
+[i18n-content-demo-_index-demo-form-controls-i_2-i_1-placeholder]
+other = "Industry"
+
 [i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder]
 other = "Which best describes your interest in Vibe?"
+
+[i18n-content-demo-_index-demo-form-controls-i_3-i_1-placeholder]
+other = "Role"
 
 [i18n-content-demo-_index-demo-form-controls-i_4-i_0-placeholder]
 other = "Anything else we should know?"
