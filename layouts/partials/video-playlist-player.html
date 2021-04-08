@@ -13,7 +13,7 @@
   <figure {{ with .player.thumbnailPlaceholderClass }}class="{{ . }}"{{ end }} {{ with .player.thumbnailPlaceholderId }}id="{{ . }}"{{ end }}>
     <img {{ with .player.thumbnailImageClass }}class="{{ . }}"{{ end }}>
     <span class="player-button-icon">
-      {{ (resources.Get "img/demo/player-button.svg" ).Content | safeHTML }}
+      {{ (resources.Get "img/common/video-player-button.svg" ).Content | safeHTML }}
     </span>
   </figure>
   {{ end }}

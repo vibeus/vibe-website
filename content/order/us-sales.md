@@ -55,6 +55,7 @@ products:
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder: false
+
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns
@@ -62,7 +63,7 @@ hero:
     icon: img/order/global-sales-icon.svg
     url: /order/global-sales/
     text: Outside of US?
-  amazon: https://www.amazon.com/stores/page/ABA64842-2BE0-4E76-B2CA-C89969C54D16?channel=US-website
+  amazon: https://www.amazon.com/gp/product/B081LPL772/ref=as_li_tl?ie=UTF8&tag=vibe0be-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B081LPL772&linkId=95dfdc3f7512c0ee8f046c0f1d4e59ae
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png
@@ -76,6 +77,201 @@ accessories:
     - item: *id003
     - item: *id004
       precision: 2
+
+trust:
+  title: Trusted by
+  glide: true
+
+what_is_vibe:
+  title: What is Vibe?
+  body: Vibe is a collaboration solution that combines an interactive digital whiteboard and smart software. Activate your brainstorming sessions, client presentations, and virtual trainings by combining video conferencing and your favorite applications with an infinite writing canvas.
+  mobile_body: Vibe is a collaboration solution that combines an interactive digital whiteboard and smart software.
+  player:
+    playlistClass: switch-video
+    triggerClass: player-trigger
+    thumbnail: true
+    thumbnailPlaceholderId: thumbnail-placeholder
+    thumbnailPlaceholderClass: thumbnail-placeholder
+    thumbnailImageClass: thumbnail-image
+  playlist:
+    - title: Collaborate
+      body: Bring remote teams closer with video conferencing and real-time digital whiteboard.
+      videoId: 4L2LLp1Mais
+    - title: Create
+      body: Sketching on Vibe feels like second nature. Keep the ideas flowing from any device, anywhere in the world.
+      videoId: 2fYKegdx-Gg
+    - title: Engage
+      body: Activate your meetings with sharable content from any source, building trust through mutual feedback.
+      videoId: A1HIFoPZIEM
+  cta:
+    buttons:
+      - title: See a Demo
+        url: /demo/
+        class: is-hero-cta is-black is-outlined is-rounded is-request-demo
+        data:
+          - key: target
+            value: section-book-demo
+
+hardware_features:
+  title: A touchscreen whiteboard built for the modern workspace
+  figure: img/order/hardware-features.png
+  figure_mobile: img/order/hardware-features-mobile.png
+  features:
+    - title: A 55” 4K UHD touch screen and maganetic stylus
+      body: 8ms response time makes the stylus-to-touchscreen experience natural and familiar.
+    - title: 10 Multi-touch points
+      body: 10 multi-touch points allow multiple people to interact with the screen simultaneously via touch or stylus.
+    - title: Connections
+      body: HDMI In&Out, 3.5mm Audio out, USB 2.0/3.0
+    - title: Easy to install, easy to set up
+      body: Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also supports wall mounts.
+    - title: Portable Stand
+      body: With Vibe’s portable stand, any room becomes a dynamic meeting space. Red or white.
+  cta:
+    title: Tech Specs
+    url: /resources/Vibe_Tech_Specs.pdf
+    class: is-black is-outlined is-rounded
+    target: _blank
+
+feature_columns:
+  title: Collaboration software for however, wherever, you work
+  features:
+    - figure: img/order/feature-columns-1.png
+      title: Video Conferencing with your remote teams
+      body: Join or start meetings with the apps your team loves. Use Zoom, Microsoft Teams, Skype, WebEx to connect around the world.
+    - figure: img/order/feature-columns-2.png
+      title: Edit in real time on your choice of device
+      body: Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC, or on your mobile device.
+    - column_class: is-hidden-tablet-only
+      figure: img/order/feature-columns-3.png
+      title: Screencast enhanced with touch
+      body: Fluidly bring content to Vibe by wirelessly casting your screen to Vibe and you can annotate as needed.
+  # cta:
+  #   title: See a Demo
+  #   url: /demo/
+  #   class: is-black is-outlined is-rounded is-request-demo
+  #   data:
+  #     - key: target
+  #       value: section-book-demo
+
+book_demo:
+  title: Ready to see Vibe in action?
+  body: Book a demo to see a product overview.
+  figure: img/home/feature-eng.png
+  form:
+    action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/1270333f-4cc2-4450-901d-d4f9b29fed58'
+    controls:
+      - - name: firstname
+          placeholder: First Name*
+          required: true
+        - name: lastname
+          placeholder: Last Name*
+          required: true
+      - - name: email
+          placeholder: Email Address*
+          type: email
+          required: true
+        - name: phone
+          placeholder: Phone Number
+          type: tel
+      - - name: company
+          placeholder: Company Name*
+          required: true
+        - name: industry_category
+          placeholder: Industry*
+          required: true
+          dropdown:
+            - Education
+            - Coaching and Training
+            - Health Care
+            - IT Services
+            - Computer Software
+            - Real Estate
+            - Architecture and Construnction
+            - Engineering
+            - Financial Services
+            - Consulting
+            - Marketing and Advertising
+            - Arts and Design
+            - Government and Organizations
+            - Home Office
+            - Personal Use and Entertainment
+            - Others
+      - - name: company_size_classification
+          placeholder: Company Size*
+          required: true
+          dropdown:
+            - 1-10
+            - 11-100
+            - 101-500
+            - 501-1000
+            - 1001-5000
+            - 5001-10000
+            - 10000+
+        - name: job_role
+          placeholder: Role*
+          required: true
+          dropdown:
+            - CXO / VP / President / Owner
+            - Principal
+            - Director
+            - Manager
+            - Designer
+            - Engineer
+            - IT
+            - Consultant
+            - Teacher / Professor
+            - Instructor
+            - Influencer
+            - Others
+    hidden_values:
+      vibe_from_education_landing_page: "false"
+      vibe_lp_live_demo_request: "false"
+    buttons:
+      - type: submit
+        title: Schedule a Live Demo
+        class: button is-rounded is-black schedule-demo is-fullwidth
+        name: request-demo
+        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
+      - type: submit
+        title: Watch Demo Video
+        class: button is-rounded is-black is-outlined watch-demo is-fullwidth
+        name: request-video
+    submitted:
+      choices:
+        - class: is-live-demo
+          body: |
+            # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
+          cta:
+            title: Watch Demo Video First
+            target: _blank
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo
+        - class: is-video-demo
+          body: |
+            # We've sent you an email with the video link. Enjoy!
+          cta:
+            title: Watch Now
+            target: _blank
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo
+            subcta:
+              body: Still want to talk to an expert?
+              link:
+                class: is-live-demo-meeting-link
+                body: Schedule a live demo
+                url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+
+why_vibe:
+  title: Why Vibe?
+  cta:
+    title: Order Now
+    url: "#hero"
+    class: is-hero-cta is-black is-outlined is-rounded is-order-now
+    data:
+      - key: target
+        value: hero
+
 faq:
   title: i18n-content-order-_index-faq-title
   see_all:
@@ -92,6 +288,7 @@ faq:
       body: i18n-content-order-_index-faq-items-i_3-body
     - title: i18n-content-order-_index-faq-items-i_4-title
       body: i18n-content-order-_index-faq-items-i_4-body
+
 reviews:
   title: i18n-content-order-_index-reviews-title
   items:
@@ -186,9 +383,12 @@ bottom_cta:
     # title: i18n-content-order-_index-bottom_cta-cta-title
     # url: /contact/
     buttons:
-      - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title
-        url: /contact/request-a-quote
-        class: is-black
       - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_1-title
         url: /contact
+      - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title
+        url: "#hero"
+        class: is-black is-order-now
+        data:
+          - key: target
+            value: hero
 ---

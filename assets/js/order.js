@@ -11,7 +11,7 @@
 {{ $plusIconSrc := resources.Get "mdi/svg/plus.svg" | resources.Minify }}
 {{ $minusIconSrc := resources.Get "mdi/svg/minus.svg" | resources.Minify }}
 */
-import { toggleActive, bindEventWithTarget } from '{{ $js.RelPermalink }}';
+import { toggleActive, bindEventWithTarget, setupForm, bindScrollTo } from '{{ $js.RelPermalink }}';
 
 const e = React.createElement;
 const { useState, useEffect } = React;
@@ -396,3 +396,36 @@ toggleActive('.faq-title', false);
 setupGallery();
 setupCart();
 setupAddCart();
+
+const navbar = document.querySelector('.navbar');
+const navbarHeight = navbar ? navbar.clientHeight : 0;
+bindScrollTo(
+  '.is-order-now',
+  -navbarHeight
+);
+
+bindScrollTo(
+  '.is-request-demo',
+  -navbarHeight
+);
+
+document.querySelectorAll('.form.is-vibe-form').forEach((el) => {
+  setupForm(el, {
+    'click.after': (name, type, form) => {
+      if (name === 'request-demo') {
+        form.parentElement.classList.add('is-live-demo');
+        form.parentElement.classList.remove('is-video-demo');
+      } else {
+        form.parentElement.classList.add('is-video-demo');
+        form.parentElement.classList.remove('is-live-demo');
+      }
+
+      return false;
+    },
+    'submit.after': (name, type, form) => {
+      document.getElementById('section-book-demo').classList.add('is-submitted');
+
+      return false;
+    }
+  });
+});

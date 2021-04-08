@@ -1,5 +1,12 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 @import "_shared.sass"
+@import "_trust-section.sass"
+@import "_trust-glide.sass"
+@import "_what-is-vibe.sass"
+@import "_compare.sass"
+@import "_hardware-features.sass"
+@import "_feature-columns.sass"
+@import "_book-demo.sass"
 @import "_faq.sass"
 @import "_review-stars.sass"
 @import "_order-cart.sass"
@@ -205,7 +212,9 @@ input[type=number]
     text-align: center
 
 .section.is-accessories
-  +vertical-padding(0, 120px)
+  +vertical-padding(0, 60px)
+  +tablet-only
+    padding-bottom: 60px
   .container
     max-width: 1150px
   .title.is-section-title
@@ -234,6 +243,72 @@ input[type=number]
     width: 100px
   .control.is-add-cart
     width: 142px
+
+.section.is-trust
+  +touch
+    .glide-nav
+      width: 36px
+      height: 36px
+      &.is-right
+        right: 0
+      &.is-left
+        left: 0
+      svg
+        width: 34px
+        height: 34px
+    .customers
+      padding-left: 36px
+      padding-right: 36px
+  +mobile
+    .glide-nav
+      &.is-right
+        right: -18px
+      &.is-left
+        left: -18px
+    .customers
+      padding-left: 18px
+      padding-right: 18px
+      margin: auto
+  +tablet-only
+    .customers
+      padding-left: 0
+    .glide-nav.is-left
+      display: none
+    .customer-logo-column
+      padding: 15px
+  +desktop
+    .customers
+      padding-right: 48px
+    .glide-nav.is-left
+      display: none
+    .glide-nav.is-right
+      right: 0
+    .customer-logo-column
+      padding: 25px
+  .glide-dots
+    display: none
+  .glide-nav
+    svg
+      circle
+        fill: transparent
+      path
+        stroke: black
+
+.section.is-feature-columns
+  background-color: $vibe-white
+
+.section.is-compare,
+.section.is-book-demo,
+.section.is-hardware-features,
+.section.is-feature-columns,
+  .cta .button
+    font-size: 18px
+    border-width: 3px
+    min-width: 250px
+    height: 50px
+    +mobile
+      font-size: 16px
+      min-width: 170px
 
 .section.is-reviews
   +vertical-padding(120px)
@@ -355,3 +430,84 @@ input[type=number]
       font-size: 16px
     .checkout .button
       font-weight: $vibe-bold
+
+.book-a-free-demo
+  .book-a-free-demo-title
+    width: 320px
+    line-height: 63px
+    &:nth-child(1)
+      margin: 0 auto 0
+    &:nth-child(2)
+      margin: 0 auto 70px
+    +mobile
+      display: none
+  .mobile-title
+    display: none
+    +mobile
+      display: block
+      margin: 10px 0 50px
+  background: #F4F4F4
+  text-align: center
+  a
+    margin: 60px 0 60px
+    width: 250px
+    height: 50px
+    border-color: #111111
+    color: #111111
+    border: 3px solid #111111
+    +mobile
+      margin: -20px 0 -0px 0
+    span
+      font-weight: 600
+    &:hover
+      background: #111111
+      span
+        color: white
+  .container
+    display: flex
+    width: 1280px
+    justify-content: center
+    @media screen and (min-width: 900px) and (max-width: 1024px)
+      display: flex
+      max-width: 900px
+    @media screen and (max-width: 800px)
+      display: block
+      width: 350px
+      padding: 10px
+      margin-left: -15px
+      justify-content: center
+      .contents
+        width: 90%
+        p
+          width: 300px
+          text-align: center
+    .contents
+      width: 380px
+      margin: 0 50px 0 50px
+      @media screen and (max-width: 800px)
+        width: 100%
+        margin: 0 0 50px
+        padding: 10px
+      span
+        width: 380px
+        height: 50px
+        font-weight: 600
+        font-size: 24px
+        line-height: 33px
+        margin-bottom: 20px
+      p
+        line-height: 23px
+        font-weight: 400
+        font-size: 16px
+        margin-top: 16px
+        +mobile
+          font-weight: 400
+          font-size: 16px
+          margin-top: 16px
+
+  height: 720px
+  +mobile
+    height: 1024px
+.ready-to-see .container .is-image
+  @media screen and ( max-width: 1024px )
+      display: none

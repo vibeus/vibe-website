@@ -136,7 +136,7 @@
     <div class="glide_tablet">{{ partial "customer-entry" .testimonials_for_tablet }}</div>
     <div class="glide_mobile">{{ partial "customer-entry" .testimonials_for_mobile }}</div>
     {{ partial "common/video-player" (dict "playerId" "video-popup-player" "triggerClass" ".video-popup" "isInplace" false) }}
-    {{ partial "customers" $.Page }}
+    {{ partial "common/customers" $.Page }}
   </div>
 </section>
 {{ end }}
