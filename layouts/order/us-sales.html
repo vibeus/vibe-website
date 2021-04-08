@@ -190,19 +190,19 @@
 {{ end }}
 
 {{ with .Params.what_is_vibe }}
-{{ partial "what-is-vibe" . }}
+{{ partial "common/what-is-vibe" . }}
 {{ end }}
 
-{{ with .Params.how_it_works }}
-{{ partial "order-how-it-works" . }}
+{{ with .Params.hardware_features }}
+{{ partial "common/hardware-features" . }}
 {{ end }}
 
-{{ with .Params.book_a_free_demo }}
-{{ partial "order-book-a-free-demo" . }}
+{{ with .Params.feature_columns }}
+{{ partial "common/feature-columns" . }}
 {{ end }}
 
-{{ with .Params.ready_to_see }}
-{{ partial "order-ready-to-see" . }}
+{{ with .Params.book_demo }}
+{{ partial "common/book_demo" . }}
 {{ end }}
 
 {{ with .Params.why_vibe }}

@@ -55,6 +55,7 @@ products:
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder: false
+
 hero:
   item: *id001
   shipping: Complimentary U.S. Shipping + 30-Day Returns
@@ -76,9 +77,11 @@ accessories:
     - item: *id003
     - item: *id004
       precision: 2
+
 trust:
   title: Trusted by
   glide: true
+
 what_is_vibe:
   title: What is Vibe?
   body: Vibe is a collaboration solution that combines an interactive digital whiteboard and smart software. Activate your brainstorming sessions, client presentations, and virtual trainings by combining video conferencing and your favorite applications with an infinite writing canvas.
@@ -109,59 +112,52 @@ what_is_vibe:
           - key: target
             value: section-book-demo
 
-how_it_works:
-  title1: A touchscreen whiteboard built
-  title2: for the modern workspace
-  figure: img/order/how-it-works.png
-  mobilefigure: img/order/4K-vibe-mobile.png
-  link:
-  links:
+hardware_features:
+  title: A touchscreen whiteboard built for the modern workspace
+  figure: img/order/hardware-features.png
+  figure_mobile: img/order/hardware-features-mobile.png
+  features:
     - title: A 55” 4K UHD touch screen and maganetic stylus
       body: 8ms response time makes the stylus-to-touchscreen experience natural and familiar.
-      index: 1
-      icon: img/order/dots-01.png
     - title: 10 Multi-touch points
       body: 10 multi-touch points allow multiple people to interact with the screen simultaneously via touch or stylus.
-      index: 2
-      icon: img/order/dots-02.png
     - title: Connections
       body: HDMI In&Out, 3.5mm Audio out, USB 2.0/3.0
-      index: 3
-      icon: img/order/dots-03.png
     - title: Easy to install, easy to set up
-      body: Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also wall mounts.
-      index: 4
-      icon: img/order/dots-04.png
+      body: Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also supports wall mounts.
     - title: Portable Stand
-      body: With Vibe’s portable stand, any room becomes a dynamic meeting space.Red or white
-      index: 5
-      icon: img/order/dots-05.png
-book_a_free_demo:
-  title1: Collaboration software for however,
-  title2: wherever, you work
-  items:
-    - class: book-demo1
-      figure: img/order/book-demo1.png
-      title: Video Conferencing with your remote teams
-      content: Join or start meetings with the apps your team loves. Use Zoom, Microsoft Teams, Skype, WebEx to connect around the world.
-    - class: book-demo2
-      figure: img/order/book-demo2.png
-      title: Edit in real time on your choice of device
-      content: Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC, or on your mobile device.
-    - class: book-demo3
-      figure: img/order/book-demo3.png
-      title: Screencast enhanced with touch
-      content: Fluidly bring content to Vibe by wirelessly casting your screen to Vibe and you can annotate as needed.
-ready_to_see:
-  title: Ready to see Vibe in action?
-  body: Book a demo to see a product overview
+      body: With Vibe’s portable stand, any room becomes a dynamic meeting space. Red or white.
   cta:
-    title: i18n-content-contact-_index-bottom_cta-cta-title
-    buttons:
-      - title: Schedule a Live Demo
-        link: #
-      - title: Watch Demo Video
-        link: #
+    title: Tech Specs
+    url: /resources/Vibe_Tech_Specs.pdf
+    class: is-black is-outlined is-rounded
+    target: _blank
+
+feature_columns:
+  title: Collaboration software for however, wherever, you work
+  features:
+    - figure: img/order/feature-columns-1.png
+      title: Video Conferencing with your remote teams
+      body: Join or start meetings with the apps your team loves. Use Zoom, Microsoft Teams, Skype, WebEx to connect around the world.
+    - figure: img/order/feature-columns-2.png
+      title: Edit in real time on your choice of device
+      body: Don't limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac or PC, or on your mobile device.
+    - column_class: is-hidden-tablet-only
+      figure: img/order/feature-columns-3.png
+      title: Screencast enhanced with touch
+      body: Fluidly bring content to Vibe by wirelessly casting your screen to Vibe and you can annotate as needed.
+  # cta:
+  #   title: See a Demo
+  #   url: /demo/
+  #   class: is-black is-outlined is-rounded is-request-demo
+  #   data:
+  #     - key: target
+  #       value: section-book-demo
+
+book_demo:
+  title: Ready to see Vibe in action?
+  body: Book a demo to see a product overview.
+  figure: img/home/feature-eng.png
   form:
     action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/1270333f-4cc2-4450-901d-d4f9b29fed58'
     controls:
@@ -234,12 +230,12 @@ ready_to_see:
     buttons:
       - type: submit
         title: Schedule a Live Demo
-        class: button is-rounded is-primary schedule-demo
+        class: button is-rounded is-black schedule-demo is-fullwidth
         name: request-demo
         target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
       - type: submit
         title: Watch Demo Video
-        class: button is-rounded is-primary is-outlined watch-demo
+        class: button is-rounded is-black is-outlined watch-demo is-fullwidth
         name: request-video
     submitted:
       choices:
@@ -248,6 +244,7 @@ ready_to_see:
             # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
           cta:
             title: Watch Demo Video First
+            target: _blank
             class: is-primary is-video-demo-link
             url: https://vibe.us/demo/video-demo
         - class: is-video-demo
@@ -264,6 +261,7 @@ ready_to_see:
                 class: is-live-demo-meeting-link
                 body: Schedule a live demo
                 url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+
 why_vibe:
   title: Why Vibe?
   cta:
@@ -273,6 +271,7 @@ why_vibe:
     data:
       - key: target
         value: hero
+
 faq:
   title: i18n-content-order-_index-faq-title
   see_all:
