@@ -286,6 +286,9 @@ apps:
   name: Blue Mail
   use_case: remote
   type: communication
+- id: tv.fipe.fplayer
+  name: FX player
+  type: av
 - id: us.zoom.videomeetings
   name: Zoom
   use_case: remote
