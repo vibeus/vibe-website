@@ -33,25 +33,25 @@ The whiteboard is as much a source of inspiration as it is a place for tracking 
 
 In this guide, we’ll discuss how using a whiteboard to visualize and document ideas can transform your ideation process. Here we go!
 
-***Related:*** ******[Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** [Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
 ## Successful whiteboarding use cases
 
-**Presenting ideas and getting feedback****.**
+**Presenting ideas and getting feedback.**
 Whiteboarding can create a valuable [competitive advantage for sales teams](https://corporatevisions.com/why-you-should-be-whiteboarding/). The ability to illustrate pain points and follow them to resolution gives prospective clients something visual to grasp onto during a presentation. Rather than simply saying, “Our product does X,” you can guide your prospect through the process, highlighting value and empowering them to participate in your presentation.
 
 For your account managers and customer-facing teams, whiteboards can lead to more productive meetings, organize recaps, drive collaboration, and much more. Having a place to organize everyone’s thoughts can keep meetings on track and ensure that key touchpoints are addressed.
 
-**Visualizing complex problems****.**
+**Visualizing complex problems.**
 Using verbal communication to describe complex systems or define workflows isn’t ideal for every setting. In many instances, a simple diagram can make a concept easier to grasp. Using graphic representations of abstractions can give people the concrete foothold they need to develop a firm understanding. For [UX designers](https://uxdesign.cc/practical-whiteboarding-for-ux-designers-2329d6e7d254), this visual [brainstorming component](https://vibe.us/lp/scenario-brainstorming/) is indispensable.
 
 
 {{< common/srcset "image-2.png" "Whiteboarding UX design on a Vibe smartboard" >}}
 
 
-***Related:*** **[The Best Ways to Brainstorm with a Remote Group](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
+***Related:*** [The Best Ways to Brainstorm with a Remote Group](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
-**Boosting internal productivity****.**
+**Boosting internal productivity.**
 Sometimes, it’s the little things that inspire productivity. For avid list makers, few things are as satisfying as the physical action of crossing an action item off. Whiteboards can serve as active sites for task planning, but they can also serve to document wins.
 
 **Connecting all team members.**
@@ -65,7 +65,7 @@ Whiteboarding isn’t a recipe for success all the time. Without proper planning
 
 Here are a few instances where whiteboarding can become a hazard, along with easy solutions to remedy the situation:
 
-**Focus isn’t clearly defined at the start****:**
+**Focus isn’t clearly defined at the start:**
 [A study](https://meeting-report.com/personal-impact-of-meetings/0) found that 43% of participants felt meetings became ineffective when there were unclear actions, which lead to confusion. Productive meetings [focus on a specific purpose](https://hbr.org/2017/07/stop-the-meeting-madness) with an agenda that defines and drills into key specifics relating to the meeting’s purpose.
 
 Without a clear and defined focus, your team may end up trying to solve several different problems at the same time. That’s why whiteboarding sessions need a facilitator who is prepared to guide everyone toward an established goal. Before you start brainstorming and problem solving, your facilitator should take a moment to define what problem is being resolved during the session, and set an itinerary for the meetup.
@@ -85,7 +85,7 @@ When whiteboarding sessions are flowing with ideas, sometimes the board can beco
 
 You can take an idea from one board and create a new board around the idea to drill down on details. Think of it like creating a hyperlink on a webpage: some whiteboards can include high-level ideas with links to other boards that go into greater detail. This strategy organizes your ideas and makes them easy to digest.
 
-**Handwriting isn’t legible****:**
+**Handwriting isn’t legible:**
 When people can’t read what you write on the whiteboard, the power of the exercise is lost.
 This can present a problem — what if the best facilitator you have can’t write on the whiteboard? You can assign someone to write for them or use a digital whiteboard that translates handwritten notes into text, so everyone can read along.
 
@@ -100,7 +100,7 @@ When you’re working on a Vibe board, your ideation isn’t confined by physica
 
 There’s a lot to whiteboarding — much more than we can cover in one blog post. To get you started, here are some rules for the road:
 
-**Don’t** **f****ear the** **e****raser****.**
+**Don’t fear the eraser.**
 Traditional whiteboarding will always create some amount of clutter as people unload their brains — it’s part of the process. During a session, not everything written on the board will create value. When something no longer fits into the picture, we don’t hesitate to remove it.
 
 A digital whiteboarding session is no different. At the end of the meeting, erase or move any ideas that don’t contribute value to the session’s driving purpose. When you save the whiteboarding session, send the most relevant details via email to keep your team members on task and working toward the most productive ideas.
@@ -120,7 +120,7 @@ Use whiteboarding as a way to promote inclusivity. Whiteboarding can break down 
 
 A digital whiteboard offers even more inclusivity because everyone controls the ability to draw on the board instead of passing the marker on a traditional dry erase board. By nature of giving everyone the right to add to the board, you’re demonstrating that each person’s opinions and ideas bring value to the whiteboarding session.
 
-**Have** **s****ome** **f****un****!**
+**Have some fun!**
 There’s more to whiteboarding than just work, work, work. Whiteboards tend to become hubs for inside jokes, workplace graffiti, even games. All these can be part of a productive day, and creative facilitators can even use this joyful approach to whiteboarding in guiding their ideation.
 With whiteboarding, the sky’s the limit when it comes to creativity.
 
