@@ -291,7 +291,7 @@ other = "Company Name"
 other = "Industry"
 
 [i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder]
-other = "Which best describes your interest in Vibe?"
+other = "Company Size"
 
 [i18n-content-demo-_index-demo-form-controls-i_3-i_1-placeholder]
 other = "Role"
