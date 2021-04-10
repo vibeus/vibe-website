@@ -87,7 +87,7 @@ features:
     class: is-feature-5
 
 trust:
-  title_part1: Trusted by   
+  title_part1: Trusted by
   title_part2: 900+
   title_part3: companies all over the world.
   content: Read more customer stories →
@@ -107,20 +107,20 @@ trust:
             class: figure-for-tablet
         video:
           Id: OXzhLPXXj14
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo1.png
             class: figure-for-desktop
           - url: img/home/customer-entry/logo1.png
             class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo1.png
-            class: figure-for-mobile 
-        partial: "customer-story-card"
+            class: figure-for-mobile
+        partial: "common/customer-story-card"
     - item: &id02
         title: Marketing Agency
         name: Adam Elbendary,
         content: CEO of Cleverman, Inc.
         content_for_mobile: CEO of Cleverman, Inc.
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo2.png
             class: figure-for-desktop
           - url: img/home/customer-entry/logo2.png
@@ -135,7 +135,7 @@ trust:
           - url: img/home/customer-entry/tablet-img2.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-adam-elbendary/"
-        partial: "customer-story-card"
+        partial: "common/customer-story-card"
     - item: &id03
         testimonials:
           - author:
@@ -146,29 +146,29 @@ trust:
             body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
         partial: "common/testimonial-section"
     - item: &id04
-        title: Education 
+        title: Education
         name: Henrt Silverman,
         content: Professor of Medicine
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo4.png
             class: figure-for-desktop
           - url: img/home/customer-entry/logo4.png
             class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo4.png
             class: figure-for-mobile
-        figure: 
+        figure:
           - url: img/home/customer-entry/img4.png
             class: figure-for-desktop
           - url: img/home/customer-entry/tablet-img4.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/"
-        partial: "customer-story-card"
+        partial: "common/customer-story-card"
     - item: &id05
         title: Education
         name: Arek Puzia,
         content: Professor of Diablo Valley College
         content_for_mobile: Professor of Diablo Valley College
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo5.png
             class: figure-for-desktop
           - url: img/home/customer-entry/logo5.png
@@ -183,20 +183,20 @@ trust:
           - url: img/home/customer-entry/tablet-img5.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/"
-        partial: "customer-story-card"
+        partial: "common/customer-story-card"
     - item: &id06
         title: Consulting
-        name: Peter Parker, 
+        name: Peter Parker,
         content: Advanced Analytics Practice Director at Redapt
         content_for_mobile: Advanced Analytics Practice
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo6.png
             class: figure-for-desktop
           - url: img/home/customer-entry/tablet-logo6.png
             class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo6.png
             class: figure-for-mobile
-        figure: 
+        figure:
           - url: img/home/customer-entry/img6.png
             class: figure-for-desktop
           - url: img/home/customer-entry/mobile-img4.png
@@ -204,7 +204,7 @@ trust:
           - url: img/home/customer-entry/tablet-img6.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/"
-        partial: "customer-story-card"
+        partial: "common/customer-story-card"
     - item: &id07
         testimonials:
           - author:
@@ -219,14 +219,14 @@ trust:
         name: Mark Smith,
         content: CEO of Leadership Resourse Institute
         content_for_mobile: CEO of LRI
-        logo: 
+        logo:
           - url: img/home/customer-entry/logo8.png
             class: figure-for-desktop
           - url: img/home/customer-entry/tablet-logo8.png
             class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo8.png
             class: figure-for-mobile
-        figure: 
+        figure:
           - url: img/home/customer-entry/img8.png
             class: figure-for-desktop
           - url: img/home/customer-entry/mobile-img5.png
@@ -234,7 +234,7 @@ trust:
           - url: img/home/customer-entry/tablet-img8.png
             class: figure-for-tablet
         url: "https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/"
-        partial: "customer-story-card"
+        partial: "common/customer-story-card"
   testimonials_for_desktop:
     - - - item: *id01
           class: is-reversed

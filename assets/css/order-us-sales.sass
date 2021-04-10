@@ -244,60 +244,12 @@ input[type=number]
   .control.is-add-cart
     width: 142px
 
-.section.is-trust
-  +touch
-    .glide-nav
-      width: 36px
-      height: 36px
-      &.is-right
-        right: 0
-      &.is-left
-        left: 0
-      svg
-        width: 34px
-        height: 34px
-    .customers
-      padding-left: 36px
-      padding-right: 36px
-  +mobile
-    .glide-nav
-      &.is-right
-        right: -18px
-      &.is-left
-        left: -18px
-    .customers
-      padding-left: 18px
-      padding-right: 18px
-      margin: auto
-  +tablet-only
-    .customers
-      padding-left: 0
-    .glide-nav.is-left
-      display: none
-    .customer-logo-column
-      padding: 15px
-  +desktop
-    .customers
-      padding-right: 48px
-    .glide-nav.is-left
-      display: none
-    .glide-nav.is-right
-      right: 0
-    .customer-logo-column
-      padding: 25px
-  .glide-dots
-    display: none
-  .glide-nav
-    svg
-      circle
-        fill: transparent
-      path
-        stroke: black
-
 .section.is-feature-columns
   background-color: $vibe-white
   .title.is-section-title
     max-width: 700px
+    +touch
+      max-width: 600px
 
 .section.is-compare,
 .section.is-book-demo,

@@ -8,6 +8,7 @@
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
+@import "_customer-story-section.sass"
 
 .hero
   position: relative
@@ -223,42 +224,6 @@
     .column.is-text .content
       max-width: 436px
 
-.section.is-trust
-  +vertical-padding(120px)
-  background-color: $vibe-white
-  .is-section-title
-    text-align: center
-    margin: auto
-    max-width: 650px
-    span.underline
-      position: relative
-      display: inline-block
-      z-index: 5
-      &::after
-        content: ""
-        display: inline-block
-        position: absolute
-        left: 0px
-        bottom: 3px
-        width: 100%
-        height: 30%
-        background-color: $vibe-yellow
-        z-index: -1
-  .is-section-content
-    text-align: center
-    margin-top: 16px
-    a
-      font-weight: 500
-      color: $vibe-purple 
-      &:hover
-        color: $primary
-  .container
-    max-width: 1440px
-    .glide_desktop, .glide_tablet, .glide_mobile
-      display: none
-    .figure-for-desktop, .figure-for-tablet, .figure-for-mobile
-      display: none
-
 .section.is-trust .container
   @media screen and (min-width: 1200px) // 3 columns
     width: calc(1100px + 2 * 0.75rem)
@@ -273,7 +238,7 @@
           width: 40%
         .column-1
           width: 26.5%
-        .column-2 
+        .column-2
           width: 33.5%
           .content
             font-size: 14px
@@ -384,7 +349,7 @@
       background-color: white
       flex-direction: row
       display: flex
-      padding-bottom: 15px 
+      padding-bottom: 15px
       padding-top: 15px
       justify-content: space-between
       .is-content
@@ -408,7 +373,7 @@
         .is-blog-content
           font-family: $vibe-family-heading
           font-weight: 400
-          color: black   
+          color: black
           position: relative
           @media screen and (max-width: 899px)
             display: none

@@ -202,7 +202,7 @@
 {{ end }}
 
 {{ with .Params.book_demo }}
-{{ partial "common/book_demo" . }}
+{{ partial "common/book-demo" . }}
 {{ end }}
 
 {{ with .Params.why_vibe }}
@@ -312,6 +312,4 @@
 {{ else }}
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products ) }}
 {{ end }}
-{{ partial "common/template-script" (dict "asset" "js/common/trust.js") }}
-{{ partial "common/template-script" (dict "asset" "js/common/what-is-vibe-video-setup.js") }}
 </main>{{ end }}
