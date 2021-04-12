@@ -132,7 +132,7 @@ hardware_features:
   figure: img/order/hardware-features.png
   figure_mobile: img/order/hardware-features-mobile.png
   features:
-    - title: A 55” 4K UHD touch screen and maganetic stylus
+    - title: A 55” 4K UHD touch screen and magnetic stylus
       body: 8ms response time makes the stylus-to-touchscreen experience natural and familiar.
     - title: 10 Multi-touch points
       body: 10 multi-touch points allow multiple people to interact with the screen simultaneously via touch or stylus.
