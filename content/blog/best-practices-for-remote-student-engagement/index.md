@@ -6,7 +6,7 @@ date: 2021-04-12
 tags: ["remote learning", "distance learning", "interactive whiteboard"]
 draft: true
 isfeatured: false
-description: 
+description: Remote learning can be a challenge. These tips will help you keep your students engaged with every lesson.
 ---
 
 
