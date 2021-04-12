@@ -140,7 +140,7 @@ hardware_features:
       body: HDMI In&Out, 3.5mm Audio out, USB 2.0/3.0
     - title: Easy to install, easy to set up
       body: Installation couldn’t be simpler. Vibe takes less than five minutes to install. Vibe also supports wall mounts.
-    - title: Portable Stand
+    - title: Portable stand
       body: With Vibe’s portable stand, any room becomes a dynamic meeting space. Red or white.
   cta:
     title: Tech Specs
