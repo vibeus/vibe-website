@@ -152,7 +152,7 @@ feature_columns:
   title: Collaboration software for however, wherever, you work
   features:
     - figure: img/order/feature-columns-1.png
-      title: Video Conferencing with your remote teams
+      title: Video conferencing with your remote teams
       body: Join or start meetings with the apps your team loves. Use Zoom, Microsoft Teams, Skype, WebEx to connect around the world.
     - figure: img/order/feature-columns-2.png
       title: Edit in real time on your choice of device
