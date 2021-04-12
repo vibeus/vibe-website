@@ -4,7 +4,7 @@ slug: best-practices-for-remote-student-engagement
 author: Mary Clark Navarro
 date: 2021-04-12
 tags: ["remote learning", "distance learning", "interactive whiteboard"]
-draft: true
+draft: false
 isfeatured: false
 description: Remote learning can be a challenge. These tips will help you keep your students engaged with every lesson.
 ---
@@ -23,7 +23,9 @@ It’s important to gauge the understanding of your students as you progress thr
 
 Give students opportunities to share their understanding throughout the lesson in a fun way. You can have students ask and answer short questions via chat. For a quick temperature check, request thumbs up or thumbs down emojis. You may even have them share their favorite and least favorite emojis to serve as a “Yes, I get it” or “No, I need help” to put a more creative spin on things.
 
-Need to do a quick overview of yesterday’s concepts? Try a Zoom chat quiz. These informal tests don’t have to be taken for a grade. Instead, they can help you determine what to review and what to move onto next. For best results, stick to a handful of key questions. You can try True/False or multiple choice for easy scanning of responses. 
+Need to do a quick overview of yesterday’s concepts? Try a Zoom chat quiz. These informal tests don’t have to be taken for a grade. Instead, they can help you determine what to review and what to move onto next. For best results, stick to a handful of key questions. You can try True/False or multiple choice for easy scanning of responses.
+
+***Related:*** [Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)
 
 ## Put a new spin on discussion for middle and high school students
 
