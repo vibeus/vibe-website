@@ -147,7 +147,7 @@ trust:
         partial: "common/testimonial-section"
     - item: &id04
         title: Education
-        name: Henrt Silverman,
+        name: Henry Silverman,
         content: Professor of Medicine
         logo:
           - url: img/home/customer-entry/logo4.png
