@@ -89,6 +89,8 @@ apps:
 - id: com.dropbox.paper
   name: DropBox Paper
   type: productivity
+- id: com.duolingo
+  name: Duolingo
 - id: com.dynamixsoftware.printershare
   name: PrinterShare
   type: productivity
@@ -140,6 +142,8 @@ apps:
 - id: com.meisterlabs.meistertask.native
   name: MeisterTask
   type: productivity
+- id: com.microblink.photomath
+  name: Photomath
 - id: com.microsoft.office.excel
   name: Microsoft Excel
   type: productivity
@@ -215,6 +219,8 @@ apps:
 - id: com.procore.activities
   name: Procore
   type: productivity
+- id: com.remind101
+  name: Remind
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
   use_case: remote
@@ -279,6 +285,8 @@ apps:
   name: Zoho Projects
   use_case: project
   type: project
+- id: com.zwift.android.prod
+  name: Companion
 - id: io.screencloud.player
   name: ScreenCloud Player
   type: productivity
