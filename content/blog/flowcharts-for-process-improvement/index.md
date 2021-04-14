@@ -4,7 +4,7 @@ slug: flowcharts-for-process-improvement
 author: Paige Smith
 date: 2021-04-14
 tags: ["remote collaboration", "brainstorming", "interactive whiteboard"]
-draft: true
+draft: false
 isfeatured: false
 description: Learn how using a flowchart can organize your team and put your project on the right track.
 ---
@@ -76,7 +76,9 @@ Whether you design a chart using markers and sticky notes or go digital with an 
 5. **Identify problems, wastes, and opportunities**
 
 Review your flowchart as a team and pinpoint areas that need attention. Do you see recurring issues that need to be addressed? Do you find signs of waste throughout the process (e.g., time, talent, over-processing)? On the other hand, you may see opportunities for growth or improving marketing efforts. If efficiency is what you’re after, you can make a list of whether or not an action is necessary or positive using a [habits scorecard](https://jamesclear.com/habits-scorecard). There’s a lot you can learn about your company’s present and future by reviewing a flowchart. 
-**Bonus step: Design a best-case scenario flowchart** 
+
+6. **Bonus step: Design a best-case scenario flowchart** 
+
 Help your team understand what a perfect process should look like. Redesign your initial flowchart with the steps and decisions that would yield the best outcomes. Once this chart is complete, design company protocols and procedures around the expectations present in your flowchart. Obviously, this may not apply to every scenario as change happens rapidly. But a lot of good comes from mutually sharing an understanding of the “who,” “what,” and “when” involved in a process.
 
 ***Related:*** [The Best Ways to Brainstorm with a Remote Group](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
