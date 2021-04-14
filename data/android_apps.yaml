@@ -91,6 +91,7 @@ apps:
   type: productivity
 - id: com.duolingo
   name: Duolingo
+  type: education
 - id: com.dynamixsoftware.printershare
   name: PrinterShare
   type: productivity
@@ -144,6 +145,7 @@ apps:
   type: productivity
 - id: com.microblink.photomath
   name: Photomath
+  type: education
 - id: com.microsoft.office.excel
   name: Microsoft Excel
   type: productivity
@@ -221,6 +223,7 @@ apps:
   type: productivity
 - id: com.remind101
   name: Remind
+  type: education
 - id: com.ringcentral.meetings
   name: RingCentral Meetings
   use_case: remote
@@ -287,6 +290,7 @@ apps:
   type: project
 - id: com.zwift.android.prod
   name: Companion
+  type: other
 - id: io.screencloud.player
   name: ScreenCloud Player
   type: productivity
