@@ -82,12 +82,6 @@
           <div class="item-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</div>
           {{ end }}
           <div class="content is-shipping">
-            <p class="affirm">
-              Buy now, pay later with
-              <a href="https://www.affirm.com/how-it-works" target="_blank">
-                {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
-              </a>
-            </p>
             {{ .shipping | markdownify }}
           </div>
           {{ with .global_sales }}
@@ -313,3 +307,8 @@
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
 {{ end }}
 </main>{{ end }}
+{{ define "foot" }}
+<div style="toyond-footer">
+  © Copyright 2020 Toyond GmhH | <a href="https://toyond.de/#2b5a5583-73b7-4499-9ca9-0e3eb0bdf46c" target="_blank">Contact us</a>
+</div>
+{{ end }}
