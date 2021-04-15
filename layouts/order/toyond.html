@@ -75,11 +75,11 @@
             <span class="copy-promo-code">Copy promo code</span>
           </div>
           <div class="discount-item-price">
-            <span class="original-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</span>
-            <span class="discount-price">${{ .item.discount_price | lang.NumFmt (default 0 .precision) }}</span>
+            <span class="original-price">{{ lang.NumFmt (default 0 .precision) .item.price "- , ."}} €</span>
+            <span class="discount-price">{{ lang.NumFmt (default 0 .precision) .item.discount_price  "- , ." }} €</span>
           </div>
           {{ else }}
-          <div class="item-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</div>
+          <div class="item-price">{{ lang.NumFmt (default 0 .precision) .item.price "- , ." }} €</div>
           {{ end }}
           <div class="content is-shipping">
             {{ .shipping | markdownify }}
@@ -140,7 +140,7 @@
           {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "600x" "mobile" "750x" "options" "jpg #FFFFFF") }}
         </figure>
         <h3 class="title">{{ T .title }}</h3>
-        <p class="price">${{ .price | lang.NumFmt (default 0 .precision) }}</p>
+        <p class="price">{{ lang.NumFmt (default 0 .precision) .price "- , ." }} €</p>
         <div class="field is-grouped is-add-to-cart" data-product-id="{{ .product_id }}">
           <div class="control is-count has-icons-left has-icons-right{{ if .sold_out }} is-disabled{{ end }}">
             <input class="input is-rounded is-black" type="number" value="1" {{ if .sold_out }}disabled{{ end }} />
@@ -286,7 +286,7 @@
         </div>
         <div class="level-right">
           <div class="level-item">
-            <p class="title is-amount">$2,999.00</p>
+            <p class="title is-amount">2.999,00€</p>
           </div>
         </div>
       </div>
@@ -302,13 +302,13 @@
 </div>
 
 {{ if .Params.promo_code }}
-{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "promoCode" .Params.promo_code) }}
+{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "promoCode" .Params.promo_code "shopifyHost" "vibe.toyond.de") }}
 {{ else }}
-{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
+{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "shopifyHost" "vibe.toyond.de") }}
 {{ end }}
 </main>{{ end }}
 {{ define "foot" }}
-<div style="toyond-footer">
-  © Copyright 2020 Toyond GmhH | <a href="https://toyond.de/#2b5a5583-73b7-4499-9ca9-0e3eb0bdf46c" target="_blank">Contact us</a>
+<div class="toyond-footer">
+  © Copyright 2021 Toyond GmhH | <a href="https://toyond.de/#2b5a5583-73b7-4499-9ca9-0e3eb0bdf46c" target="_blank">Contact us</a>
 </div>
 {{ end }}

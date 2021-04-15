@@ -28,8 +28,8 @@ products:
       product_name: vibe_board
       title: i18n-content-order-_index-products-i_0-item-title
       body: i18n-content-order-_index-products-i_0-item-body
-      product_id: '31815758250035'
-      price: 2999
+      product_id: '39540681474222'
+      price: 2550
       # discount_price: 2799
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
@@ -40,8 +40,8 @@ products:
   - item: &id002
       product_name: white_stand
       title: i18n-content-order-_index-products-i_1-item-title
-      product_id: '31815731576883'
-      price: 500
+      product_id: '39541172666542'
+      price: 425
       figure: img/order/accessory-stand-w.png
       sold_out: false
       backorder: false
@@ -50,8 +50,8 @@ products:
   - item: &id003
       product_name: red_stand
       title: i18n-content-order-_index-products-i_2-item-title
-      product_id: '31815731609651'
-      price: 500
+      product_id: '39540746846382'
+      price: 425
       figure: img/order/accessory-stand-r.png
       sold_out: false
       backorder: false
@@ -60,8 +60,8 @@ products:
   - item: &id004
       product_name: stylus
       title: i18n-content-order-_index-products-i_3-item-title
-      product_id: '31815737016371'
-      price: 15
+      product_id: '39540762181806'
+      price: 13
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder: false

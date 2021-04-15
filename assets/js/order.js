@@ -1,5 +1,6 @@
 /*
 {{ $cartIcon := resources.Get "img/order/cart.svg" | resources.Minify }}
+{{ $shopifyHost := default "order.vibe.us" .shopifyHost }}
 {{ $promoCode := default "" .promoCode }}
 {{ $products := slice }}
 {{ range .products }}
@@ -23,10 +24,18 @@ const products_i18n = {};
 products_i18n['{{ $i18nKey }}'] = '{{ $i18nValue }}';
 // {{ end }}
 const storageKey = 'order/cart';
-const moneyFmt = new Intl.NumberFormat('en-US', {
+const shopifyHost = '{{ $shopifyHost }}';
+let moneyFmt = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
 });
+
+if (shopifyHost === 'vibe.toyond.de') {
+  moneyFmt = new Intl.NumberFormat('de-DE', {
+    style: 'currency',
+    currency: 'EUR',
+  });
+}
 
 const promoCode = '{{ $promoCode }}';
 if (promoCode) {
@@ -246,7 +255,7 @@ function getCartCheckoutUrl() {
     return acc;
   }, []);
 
-  return `https://order.vibe.us/cart/${lineItems.join(',')}${
+  return `https://${shopifyHost}/cart/${lineItems.join(',')}${
     promoCode ? '?discount=' + promoCode : ''
   }`;
 }
