@@ -32,6 +32,7 @@ as_seen_in:
     - class: forbes-link
       figure: img/home/logo-forbes-gray.png
       figure_on_hover: img/home/logo-forbes.png
+      link: https://www.instagram.com/p/CLa-FgKlDSQ/?utm_source=ig_web_copy_link
     - class: cioreview-link
       figure: img/home/logo-cioreview-gray.png
       figure_on_hover: img/home/logo-cioreview.png
