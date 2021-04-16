@@ -110,6 +110,9 @@ apps:
 - id: com.facebook.Origami
   name: Origami
   type: communication
+- id: com.google.android.apps.youtube.unplugged
+  name: YouTube TV
+  type: av
 - id: com.google.android.calculator
   name: Calculator
   type: productivity
@@ -221,6 +224,9 @@ apps:
 - id: com.procore.activities
   name: Procore
   type: productivity
+- id: com.quizlet.quizletandroid
+  name: Quizlet
+  type: education
 - id: com.remind101
   name: Remind
   type: education
