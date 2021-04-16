@@ -49,7 +49,7 @@ A common mistake to avoid is to mount your [touchscreen](https://www.data-modul.
 The flexibility of space is also crucial in meeting and presentation rooms and decreases overall cost as you won’t have to install a touchscreen display in every place. Touchscreen displays are fixed to a wall mostly due to saving space and aesthetics, but if you’re looking for flexibility and affordability, then **investing in a rolling stand may be your best option.** Of course, screen share technology allows [people in different rooms](https://vibe.us/lp/scenario-remote/) to access the meeting from their private screens!
 
 **What computer to choose?**
- ****
+ 
 Ease of use is the crux of adopting any tool. When something works well, it should be able to integrate seamlessly into your current environment, minimizing the need for support and training. However, security is another aspect you need to consider for a device that is generally left in shared office spaces.
 
 Typically speaking, users don’t care about what the OS or PC of a screen is, as long as they can use it easily and the screen is powerful enough to have a good experience. **Vibe boards are able to be** [integrated with both Macs and PCs](https://vibe.us/software/)**.** There are three common PC options:

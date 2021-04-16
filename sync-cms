@@ -263,6 +263,7 @@ def fix_unnecessary_stars(content):
             diff = l != line
             line = l
 
+        line = re.sub(r"\*\*\*\*+", "", line)
         lines.append(line)
 
     return "\n".join(lines)

@@ -90,7 +90,7 @@ The number of people working from home increases every single day. [Remote worke
 [2019 Newest Dell Vostro 5000 15.6″ FHD Laptop](https://amzn.to/2KnFXsX)
 Engineered for both work and games, these Dell laptops offer a robust structure and build. If you’re looking for a powerful laptop, this laptop comes with a **Core i7 processor** that is fantastic for accounting and software engineering along with gaming. Nvidia Graphics is the best GPU for fluent gaming, which this laptop also has. This laptop offers a luxurious 16GB of RAM plus DDR4, which means a double data rate 4 for maximum speed. 
 
-[Microsoft Surface Laptop 2](https://amzn.to/2WjG94P)  ****
+[Microsoft Surface Laptop 2](https://amzn.to/2WjG94P)  
 Microsoft Surface Laptop 2 provides the user with a **powerful and pure Windows 10 laptop experience.** The Surface Laptop 2 does not have modern ports, but this problem can be circumvented since the spec improvements make the laptop force to be reckoned with. 
 
 ***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)

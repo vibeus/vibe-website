@@ -25,7 +25,7 @@ A touchscreen can be conceptualized as an **invisible keyboard** attached to the
 Every key on a keyboard works like an electrical switch. When you push a key, an electric circuit is completed, and the current flows. Your computer knows what you're typing based on the type of current. If you look inside a keyboard, you'll see two layers of electrically conducting plastic separated by a plastic membrane with holes in it. There is a hole under each key. When you press a key, the top conductor layer is pushed down towards the bottom layer, so the two layers touch through the hole, completing a circuit. **Touchscreens work on this premise, but with different technology.**  
 
 ***Looking for innovative ways to collaborate?*** [Order a Vibe board today!](https://vibe.us/order/)
-****
+
 ## How touchscreens work
 {{< common/srcset "image-1.png" "Man using touchscreen device." >}}
 

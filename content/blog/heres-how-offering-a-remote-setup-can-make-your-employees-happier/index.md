@@ -40,7 +40,7 @@ It seems crazy, but dogs can be very beneficial to someone's work environment. "
 
 ## For fully remote workers, they seem to enjoy their coworkers more. 
 
-Raise your hand if you've ever gotten annoyed at a cubicle neighbor before. ****When you work remotely, you don't need to deal with your coworker's small quirks. That means if they overly click their mouse (which I do, personally) or happen to cough a lot, you can get your work done and be blissfully unaware. You might even be able to play your favorite music in the background. It's also a plus for new moms. As they often have to pump during the day, they can do so without worrying that a coworker might barge in.
+Raise your hand if you've ever gotten annoyed at a cubicle neighbor before. When you work remotely, you don't need to deal with your coworker's small quirks. That means if they overly click their mouse (which I do, personally) or happen to cough a lot, you can get your work done and be blissfully unaware. You might even be able to play your favorite music in the background. It's also a plus for new moms. As they often have to pump during the day, they can do so without worrying that a coworker might barge in.
 
 *Related:* [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 

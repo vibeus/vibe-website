@@ -97,7 +97,7 @@ Digital whiteboards allow participants to import documents and images that can b
 
 ## Top-notch security for information storage
 
-Cybersecurity is a growing threat that requires constant vigilance. You’ll need to ensure proper VPNs, software, and ****[applications are secure](https://vibe.us/security/) within your meetings. Vibe’s interactive whiteboard provides:
+Cybersecurity is a growing threat that requires constant vigilance. You’ll need to ensure proper VPNs, software, and [applications are secure](https://vibe.us/security/) within your meetings. Vibe’s interactive whiteboard provides:
 
 - Identity Management
 - Data Protection

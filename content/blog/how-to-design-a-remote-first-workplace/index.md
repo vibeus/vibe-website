@@ -33,7 +33,7 @@ Being a remote-first company means team members can work from anywhere—whether
 At Vibe, we’re a remote-first team located in five cities on two continents. Like many fully remote and remote-first teams, we’ve found that with the number of reliable [collaborative apps](https://vibe.us/software/) and services available, this kind of work situation is more possible now than ever before.
 
 ***Related:*** [The Vocabulary of Remote Work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
-****
+
 
 ## Who should consider going remote-first?
 

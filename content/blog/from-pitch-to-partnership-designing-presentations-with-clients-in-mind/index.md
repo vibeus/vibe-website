@@ -53,7 +53,7 @@ For example, if your prospective client is active on Instagram and Pinterest, yo
     “Imagination is everything. It is the preview of life’s coming 
     attractions.” –Albert Einstein
 
- ****
+ 
 You did the research and feel pretty good about the information you gathered. Now it’s time to create. You’ll want your company’s voice to have a chance to shine through—after all, you’re trying to sell your services, too—but ultimately, the presentation should be tailored to the prospective client. This is a perfect opportunity to show how this partnership can be a success.
  
 Although every company is different, there can be similarities in tone within specific industries. Lucy Alexander at HubSpot points out that [the type of information](https://blog.hubspot.com/sales/sales-presentation-titles-excerpt) you’re including in your presentation can help to determine your design. Knowing this, there are certain design choices you can make to help get you started.
