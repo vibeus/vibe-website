@@ -25,7 +25,7 @@ Additionally, **communicating via text leaves out many subtleties of human inter
 
 **Tips for improved communication:**
 
-1. **Get the right software.** If you’re worried about your team missing crucial information, effective collaboration software can help keep everyone in the loop. ****[**Vibe’s**](https://vibe.us/) **smart whiteboards allow you to innovate and collaborate across devices in real-time.** If you missed a meeting, don’t worry! You can save and send Vibe boards later.
+1. **Get the right software.** If you’re worried about your team missing crucial information, effective collaboration software can help keep everyone in the loop. [Vibe’s](https://vibe.us/) **smart whiteboards allow you to innovate and collaborate across devices in real-time.** If you missed a meeting, don’t worry! You can save and send Vibe boards later.
 2. **Clarify miscommunications.** It’s easy to be a keyboard warrior when you aren’t face-to-face, and with most miscommunications, coworkers don’t mean any harm. But bringing up issues can help resolve them quickly. Human resources should be equipped to handle these miscommunications if needed.
 3. **Schedule 1:1s.** Checking in with teammates helps combat isolation and keeps you informed of important work or deadlines you might have missed. Schedule these with your boss, manager, and coworkers.
 
@@ -130,4 +130,4 @@ Working from home has many benefits, but it also brings with it some challenges.
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

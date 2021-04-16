@@ -32,7 +32,7 @@ Consider buying a small pad that can fit in your pocket or on your desk. If it t
 
 The good thing about digital whiteboards is that you can access them very easily. A board like Vibe has plenty of canvases that are able to be saved and reflected upon later. It’s kind of like having a notepad, but you won’t have to worry about locating a pen to jot your ideas down.
 
-*Related:* [*The Best Ways to Brainstorm with a Remote Group*](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
+*Related:* [The Best Ways to Brainstorm with a Remote Group](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
 ## 4. Consider making voice recordings. 
 
@@ -56,4 +56,4 @@ Organizing your thoughts may take a little bit of practice. It can be hard to tr
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

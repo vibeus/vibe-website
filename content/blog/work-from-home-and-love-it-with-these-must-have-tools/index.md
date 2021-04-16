@@ -49,11 +49,11 @@ Still moving tasks over from your email to your planner or task management softw
 
 Spotify is about more than the latest hits and upcoming artists. The leading digital music service has just about everything audio-related, including podcasts and themed playlists. No matter what kind of music you enjoy listening to while working, you’ll find plenty of options on Spotify.
  
-The “[Work From Home playlist](https://open.spotify.com/playlist/38dwWU3iWZSHb9umKBJNTQ)” is an excellent starting place with over 100 songs to jam out to. You can even integrate the [**Spotify app with Vibe**](https://youtu.be/Jp1WT8u6HnQ) to add a little pizzazz to your brainstorming sessions.
+The “[Work From Home playlist](https://open.spotify.com/playlist/38dwWU3iWZSHb9umKBJNTQ)” is an excellent starting place with over 100 songs to jam out to. You can even integrate the [Spotify app with Vibe](https://youtu.be/Jp1WT8u6HnQ) to add a little pizzazz to your brainstorming sessions.
 
 
 ----------
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

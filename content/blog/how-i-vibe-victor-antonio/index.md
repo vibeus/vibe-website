@@ -41,7 +41,7 @@ When he resumed his search in the early 2020, his wife suggested that he see if 
 
 After that, Antonio was convinced: Vibe was the solution he’d been looking for, and he was ready to start his virtual ventures in May 2020.
 
-***Related:*** **[*What’s an Interactive Whiteboard, and What Does It Do?*](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
+***Related:*** **[What’s an Interactive Whiteboard, and What Does It Do?](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
 
 ## Using the Vibe board to establish virtual presence and know-how
 
@@ -55,7 +55,7 @@ And he has definitely been having fun. For his popular “[Sales After Dark](htt
  
 While his goal with “Sales After Dark” was to create free live content a few nights a week, Antonio has found that using the Vibe board during the livestream has generated even more business for him. He says that after people see it, they reach out to ask if he can make the board work for their team, too. As he puts it, “The board just sells you.”
  
-***Related:*** **[*How to Turn Your Home Office Into a Place You Love*](https://vibe.us/blog/7-ways-to-turn-your-home-office-into-a-place-you-love/)
+***Related:*** **[How to Turn Your Home Office Into a Place You Love](https://vibe.us/blog/7-ways-to-turn-your-home-office-into-a-place-you-love/)
 
 ## Antonio’s favorite Vibe features
 
@@ -82,4 +82,4 @@ Put more simply: “If you’re into the virtual game, just buy it. It’s the b
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

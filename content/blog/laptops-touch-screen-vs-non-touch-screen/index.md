@@ -84,13 +84,13 @@ The [Dell XPS 13](https://www.awin1.com/pclick.php?p=25945185787&a=103504&m=7168
 {{< common/srcset "image-2.png" "HP Laptops, Premium 2019 Flagship 15.6" >}}
 
 
-[**HP Laptops, Premium 2019 Flagship 15.6 HD Laptop**](https://amzn.to/2VKswbE)
+[HP Laptops, Premium 2019 Flagship 15.6 HD Laptop](https://amzn.to/2VKswbE)
 The number of people working from home increases every single day. [Remote workers](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/) need a laptop with a **minimum of 8GB of RAM**, a powerful processor, and solid battery life. This HP non-touchscreen laptop is ideal for [teaching remotely](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/), offering 12 hours of battery life, 8GB of RAM, and a fast processor. If you prioritize battery life, non-touchscreen laptops are typically the best choice since touchscreen displays eat up battery rapidly. 
 
-[**2019 Newest Dell Vostro 5000 15.6″ FHD Laptop**](https://amzn.to/2KnFXsX)
+[2019 Newest Dell Vostro 5000 15.6″ FHD Laptop](https://amzn.to/2KnFXsX)
 Engineered for both work and games, these Dell laptops offer a robust structure and build. If you’re looking for a powerful laptop, this laptop comes with a **Core i7 processor** that is fantastic for accounting and software engineering along with gaming. Nvidia Graphics is the best GPU for fluent gaming, which this laptop also has. This laptop offers a luxurious 16GB of RAM plus DDR4, which means a double data rate 4 for maximum speed. 
 
-[**Microsoft Surface Laptop 2**](https://amzn.to/2WjG94P)  ****
+[Microsoft Surface Laptop 2](https://amzn.to/2WjG94P)  ****
 Microsoft Surface Laptop 2 provides the user with a **powerful and pure Windows 10 laptop experience.** The Surface Laptop 2 does not have modern ports, but this problem can be circumvented since the spec improvements make the laptop force to be reckoned with. 
 
 ***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
@@ -106,4 +106,4 @@ Whether you choose a laptop with touchscreen features or not is up to your indiv
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

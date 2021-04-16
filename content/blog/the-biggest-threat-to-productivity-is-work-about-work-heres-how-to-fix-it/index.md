@@ -27,7 +27,7 @@ Knowledge workers spend the majority of their time on tasks that can easily be d
 
 Unfortunately, remote work hasn’t completely removed barriers to productivity. Water cooler chats have largely been replaced by meetings (and lots of them). As a result, [87% of workers are taking on longer hours](https://blog.asana.com/2021/01/anatomy-of-work-index/#close) and 76% struggle to disconnect from work.
 
-***Related:*** **[*Help Your Employees Find — and Maintain — Meaning in Their Work*](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
+***Related:*** **[Help Your Employees Find — and Maintain — Meaning in Their Work](https://vibe.us/blog/help-your-employees-find-and-maintain-meaning-in-their-work/)
 
 ## Actionable ways to reduce work about work hours
 
@@ -68,4 +68,4 @@ For more effective remote working sessions, use [Vibe’s interactive smart whit
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

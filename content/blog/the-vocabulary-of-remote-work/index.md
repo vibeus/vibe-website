@@ -20,7 +20,7 @@ Let this be your quick reference for some of the common words and sayings you’
 
 
 **Agile**
-*“A project management methodology characterized by building products that customers really want, using short cycles of work that allow for rapid production and constant revision if necessary.” (*[*Wrike*](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)*)*
+*“A project management methodology characterized by building products that customers really want, using short cycles of work that allow for rapid production and constant revision if necessary.” (*[Wrike](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)*)*
 
 Agile is a sprawling methodology with a language seemingly all its own, but the core concept is simple enough: individuals are important, customer collaboration is valued, and flexibility is key. Some companies pick-and-choose parts of the Agile methodology to adopt with their teams, and one of those components is the stand-up meeting, which we’ll cover later.
 
@@ -32,7 +32,7 @@ Any time you send some type of work communication, whether it’s a Slack messag
 
 Fully remote and/or hybrid teams will almost always work asynchronously at some point during the work day. And depending on the size of the team and how far everyone is distributed (around the state? Country? World?), asynchronous work could be how everything gets done for your business.
 
-*Related:* [*What to Know About Synchronous Communication and Asynchronous Communication*](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication)
+*Related:* [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication)
 
 
 
@@ -41,7 +41,7 @@ Fully remote and/or hybrid teams will almost always work asynchronously at some 
 
 **Coworking**
 *“[W]hen people assemble in a neutral space to work independently on different projects, or in groups on the same projects.”*
-*(*[*DropDesk*](https://drop-desk.com/what-is-coworking)*)*
+*(*[DropDesk](https://drop-desk.com/what-is-coworking)*)*
 
 We normally hear “coworking” preceding the word “space,” but with the pandemic many people have been working outside of a group setting. Still, when coworking spaces are a safe and healthy option, having a different place to work outside of the home or traditional office adds some variety (or peace and quiet) to your work day.
 
@@ -68,7 +68,7 @@ Maybe this one doesn’t come up in conversation as often as the others, but if 
 
 
 **Hybrid team**
-*“[A] flexible work structure where some employees work remotely and other team members work from a central location or office.” (*[*Owl Labs*](https://www.owllabs.com/blog/hybrid-team)*)*
+*“[A] flexible work structure where some employees work remotely and other team members work from a central location or office.” (*[Owl Labs](https://www.owllabs.com/blog/hybrid-team)*)*
 
 Not every company has said goodbye to the office forever. But with so many teams working remotely and finding solutions to distanced collaboration, the option to work from home at least some of the time is more logical than ever, and more appealing, too. Digital whiteboards and software like Vibe make it easy to connect office and remote workers, wherever they may be.
 
@@ -98,7 +98,7 @@ Of these, screen sharing comes up most often in a remote work situation, since b
 
 Vibe boards enable both [HDMI-connected or wireless screen mirroring and screen casting](https://knowledge.vibe.us/how-to-do-annotation). People collaborating on a project can do work together using [Vibe’s whiteboarding apps](https://knowledge.vibe.us/save-share-board), and since Vibe projects are stored securely in the cloud there’s no need to provide access to another person’s workspace via screen sharing.
 
-*Related:* [*How do I screencast with Vibe?*](https://knowledge.vibe.us/screencasting)
+*Related:* [How do I screencast with Vibe?](https://knowledge.vibe.us/screencasting)
 
 
 **Stand-up meeting**
@@ -109,7 +109,7 @@ Sometimes shortened to simply “standup,” this technique can be done both rem
 
 [Learn more about running a productive stand-up meeting.](https://vibe.us/blog/10-rules-for-running-an-efficient-daily-stand-up-meeting/)
 
-*Related:* [*The Complete Guide to Conducting Remote Stand-up Meetings*](https://vibe.us/blog/the-complete-guide-to-conducting-remote-stand-up-meetings/)
+*Related:* [The Complete Guide to Conducting Remote Stand-up Meetings](https://vibe.us/blog/the-complete-guide-to-conducting-remote-stand-up-meetings/)
 
 
 
@@ -118,7 +118,7 @@ Sometimes shortened to simply “standup,” this technique can be done both rem
 
 **Telecommute**
 *“[T]o work from a remote location, usually a home office, by electronically linking to a company.”* 
-*(*[*The Balance Careers*](https://www.thebalancecareers.com/telecommuting-terms-to-know-3542563)*)*
+*(*[The Balance Careers](https://www.thebalancecareers.com/telecommuting-terms-to-know-3542563)*)*
 
 Think of telecommuting as a subset of remote work. Telecommuting is traditionally viewed as being completed off-site, though according to [remote work site Virtual Vocations](https://www.virtualvocations.com/blog/telecommuting-job-search-help/differences-working-remotely-telecommuting-working-home/), the telecommuter would live closer to the company’s office than, say, a digital nomad would.
 
@@ -131,11 +131,11 @@ Think of telecommuting as a subset of remote work. Telecommuting is traditionall
 
 It is totally possible to be worn out from countless video conferencing calls. So many of us are meeting online for work, to talk to family, to socialize with friends, and this is the substitute we have for in-person get togethers. Is it perfect? No. Is it acceptable to feel overwhelmed? Absolutely.
 
-*Related:* [*Ways to Build Trusted Relationships with your Remote Team*](https://vibe.us/blog/ways-to-build-trusted-relationships-with-your-remote-team/)
+*Related:* [Ways to Build Trusted Relationships with your Remote Team](https://vibe.us/blog/ways-to-build-trusted-relationships-with-your-remote-team/)
 
 
 ----------
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

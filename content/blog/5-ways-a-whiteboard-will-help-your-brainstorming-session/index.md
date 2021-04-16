@@ -28,7 +28,7 @@ When it comes to brainstorming, sometimes one idea might turn into something muc
 
 By using different color markers and occasionally drawing out an idea instead of using text, you're making it easier for all members of your brainstorm to follow along. If you have anyone on your team who may be a little rusty with your language (either the language you speak or the language and lingo of the office and your field) using a whiteboard will help them digest information better. When everyone on your team understands your main goal, you're destined to have a successful brainstorm.
 
-*Related:* [*8 ways to Brainstorm with Remote Workers*](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
+*Related:* [8 ways to Brainstorm with Remote Workers](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)
 
 ## 3. They're easy to assemble. 
 
@@ -39,7 +39,7 @@ Once it's in your office space, you're good to go. While PowerPoints are a great
 
 If you are in a meeting with potential clients, a digital whiteboard will truly impress them. But for the team in your office, they're a great way to connect to each other while brainstorming together. If your boss happens to be in another country while a meeting happens, he or she can easily connect to your whiteboard using Zoom and participate in the meeting virtually. They will also have access to the canvases and notes that the team put together in their absence. No fax machine or email attachments necessary.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*3rd Party App Integrations for the Vibe board*](https://vibe.us/android-app-store/)
+*Related:* [3rd Party App Integrations for the Vibe board](https://vibe.us/android-app-store/)
 
 
 ## 5. Your presentation will be more engaging. 
@@ -58,4 +58,4 @@ If you're serious about getting the most out of your team in terms of brainstorm
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

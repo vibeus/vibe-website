@@ -53,9 +53,8 @@ This portable USB 3.0 powered [monitor](https://vibe.us/blog/7-reasons-to-invest
 **Image quality:**
 Enjoy a full-quality Blu-ray movie, play high-resolution games, and browse your office applications in the crispest text. With a Full HD resolution of 1920 x 1080 pixels, you can do all that and more with this monitor.
 
-*******Related:*** [How to: Workout with Vibe](https://vibe.us/blog/how-to-workout-with-vibe/)
-
-
+***Related:*** [How to Workout with Vibe](https://vibe.us/blog/how-to-workout-with-vibe/)
+[](https://vibe.us/blog/how-to-workout-with-vibe/)
 ## Best budget 1080p office monitor (Acer CB242Y)
 
 LED backlight technology is an industry leader in using less hazardous materials and minimal power consumption. 250 Nit brightness levels offer captivating visuals, and fast-moving dramatic and action sequences are rendered smoothly without any annoying smearing or ghosting.
@@ -110,11 +109,12 @@ Compared to conventional displays, the HDR-compatible monitors display blacker b
 
 ## Before you go
 
-The kind of monitor you decide on will depend heavily on the features you are looking for and the type of usage. [Vibe](https://vibe.us/) offers smart-software integrated interactive whiteboards for remote collaboration. Vibe boards can also function as a 55” touchscreen monitor, connecting wirelessly or via HDMI cord.
- 
-***How can Vibe help increase your efficiency and productivity?*** [Check out the Vibe board](https://vibe.us/hardware/)***!***
+The kind of monitor you decide on will depend heavily on the features you are looking for and the type of usage. [Vibe](https://vibe.us/) offers smart software integrated interactive whiteboards for remote collaboration. Vibe boards can also function as a 55” touchscreen monitor, connecting wirelessly or via HDMI cord.
+
 
 
 ----------
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+
+Looking for the latest in interactive whiteboard technology? [Check out Vibe today!](https://vibe.us/order/)

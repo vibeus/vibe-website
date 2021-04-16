@@ -23,7 +23,7 @@ But, it makes sense to be on the fence about it, especially if it takes you some
 
 If you have a company with employees all around the globe, an online whiteboard is a great way to get them in the same space as you. Digital whiteboards like the Vibe board connect with apps like Zoom, meaning that you can call someone in for a group meeting and have them projected on the screen. They can also have access to the whiteboard your group is working with, so it's like they're right there with you even if they're actually thousands of miles away.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Video Conferencing Apps You Can Use with Vibe Whiteboarding*](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
+*Related:* [Video Conferencing Apps You Can Use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
 
 ## 2. All notes on your canvas can be saved. 
@@ -64,7 +64,7 @@ Digital whiteboards are fairly easy to figure out and very user friendly. But if
 
 Digital whiteboards are a great tool for children. They're wonderful for learning, but also play. If you're in the midst of an at-home call and need to keep your kids busy, they can play games on it. And, based on the way that Vibe boards save canvases, you can feel secure in knowing that they won't accidentally delete any notes or work that was done on the board prior to.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Robyn C., Mother of Four and Homeschool Expert*](https://vibe.us/blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/)
+*Related:* [How I Vibe: Robyn C., Mother of Four and Homeschool Expert](https://vibe.us/blog/how-i-vibe-robyn-mother-of-four-and-homeschool-expert/)
 
 ## 9. If you happen to be a teacher who teaches the same class multiple times per day, they can save you time. 
 
@@ -75,7 +75,7 @@ How many times have you had to draw the same diagram for different groups of chi
 
 Many teachers work with the same subject year after year. Sometimes, the information can get stale. And if a teacher doesn't seem all that enthusiastic about a particular topic, their students will feed off this lack of energy and not pay attention. Adding an online whiteboard to the equation will help a teacher revamp their lesson plans and get excited about creating a fresh lecture. Keeping up with technology is incredibly important in regards to education. 
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Arek Puzia, Professor and CPA*](https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/)
+*Related:* [How I Vibe: Arek Puzia, Professor and CPA](https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/)
 
 ## 11. Digital whiteboards are the future. 
 
@@ -86,4 +86,4 @@ Even back in 2008, [President Obama](https://imaginenext.ingrammicro.com/ucc/whe
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

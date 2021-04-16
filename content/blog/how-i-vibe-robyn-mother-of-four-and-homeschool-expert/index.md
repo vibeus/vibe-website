@@ -24,7 +24,7 @@ The Vibe board has enough integration to apps and programs to be seamlessly inco
 
 Let’s take a look at how the family uses the board on a typical school day.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*How I Vibe: Hannah Brown, Kindergarten Teacher*](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
+*Related:* [How I Vibe: Hannah Brown, Kindergarten Teacher](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
 
 
 ## Handwriting Tips Using the Template
@@ -76,7 +76,7 @@ The screencasting feature is particularly helpful when addressing her small grou
 
 “Because I have four children wanting to see the screen, sitting around a small computer isn’t easy, so we do a lot of screencasting. That way, I also have control of the keyboard” she says.
 
-*Related:* [**](https://vibe.us/blog/8-ways-to-brainstorm-with-remote-workers/)[*Making Sure Your Kids Still Have An Active Social Life While Learning Remotely*](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
+*Related:* [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
 
 ## Use Your Favorite Apps
@@ -104,4 +104,4 @@ Though Robyn’s children are still relatively young, the Vibe Board helps them 
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

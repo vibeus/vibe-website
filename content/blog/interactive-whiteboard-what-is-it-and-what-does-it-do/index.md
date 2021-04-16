@@ -18,7 +18,7 @@ Many interactive whiteboards have on-board programs to **assist in sharing and c
 
 ***Related:*** [The Vocabulary of Remote Work](https://vibe.us/blog/the-vocabulary-of-remote-work/)
 
-**Vibe's** [**interactive whiteboard solutions**](https://vibe.us/software/) **allow for mobile devices like laptops, tablets, and smartphones to be integrated.** You can connect your devices to the Vibe board either wirelessly or using an HDMI cable, and easily annotate on top of the content pulled from the connected device. You can also use it the other way around; share your Vibe project from the board for instant real-time co-creating from another Vibe board, computer web browser, or tablet, taking your collaboration to the next level.
+**Vibe's** [interactive whiteboard solutions](https://vibe.us/software/) **allow for mobile devices like laptops, tablets, and smartphones to be integrated.** You can connect your devices to the Vibe board either wirelessly or using an HDMI cable, and easily annotate on top of the content pulled from the connected device. You can also use it the other way around; share your Vibe project from the board for instant real-time co-creating from another Vibe board, computer web browser, or tablet, taking your collaboration to the next level.
 
 Directly sharing content from devices gives meetings more fluidly, and cuts downtime in the classroom spent organizing notes. After you're done, **there's no physical storage space needed;** the annotated content is saved on Vibe cloud to use later on your Vibe board, in browser on your PC, or by using Vibe’s mobile app on your tablet.
 
@@ -80,4 +80,4 @@ Interactive technology [raises student engagement](https://link.springer.com/art
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

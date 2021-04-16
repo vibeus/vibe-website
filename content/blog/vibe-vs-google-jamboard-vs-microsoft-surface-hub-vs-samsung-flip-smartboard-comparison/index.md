@@ -84,7 +84,7 @@ One less obvious advantage Vibe has over its competitors is it’s small product
 
 “Overall, we’ve been very impressed by Vibe and the team behind it,” says Vibe user Peter Parker, Director of Advanced Analytics at Attunix. “They’ve been super receptive to our feedback and have incorporated suggestions and requests, both big and small, into the product. We’re often finding new ways of integrating Vibe into our everyday work to make us all more productive and efficient.”
 
-**Ready to think outside the rectangle?** [**Request a Vibe demo**](https://landing.vibe.us/request-demo)**.**
+**Ready to think outside the rectangle?** [Request a Vibe demo](https://landing.vibe.us/request-demo)**.**
 
 
 
@@ -92,4 +92,4 @@ One less obvious advantage Vibe has over its competitors is it’s small product
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

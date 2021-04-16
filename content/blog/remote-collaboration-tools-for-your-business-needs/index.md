@@ -45,7 +45,7 @@ While other digital whiteboards do exist, many of them rely on native software a
 
 Marketing, sales, PR, design, or any team that needs to collaborate visually on a whiteboard will do better with Vibe. [Check out our demo](https://vibe.us/demo/) to see what the Vibe board can do.
 
-***Related:*** **[*Interactive Whiteboarding for Distance Learning Lessons*](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)
+***Related:*** **[Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)
 
 ## **Slack**
 
@@ -69,7 +69,7 @@ This remote collaboration tool allows you to **access your work or home computer
 
 If you’re in an industry or job that requires **frequent travel,** this remote collaboration tool is a lifesaver should you leave your computer behind.
 
-***Related:*** **[*Find the Right Remote Work Model for Your Team*](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)
+***Related:*** **[Find the Right Remote Work Model for Your Team](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)
 
 ## **Spark**
 
@@ -130,7 +130,7 @@ For any teams that use a variety of different tools, this saves you busy work. W
 
 **Toggl Hire** helps you save time when screening candidates. It reduces time to hire by 80% and allows you to create tests that filter candidates based on the most relevant skills.
 
-***Related:*** **[*Create Effective Onboarding Practices for Your Remote Team*](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
+***Related:*** **[Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
 
 Toggl Plan and Hire are better suited for large companies with more demanding projects and hiring needs. Track can be used by just about anyone in any industry who wants to maximize their time.
 
@@ -144,4 +144,4 @@ Remote work is the new normal. To increase productivity and facilitate collabora
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

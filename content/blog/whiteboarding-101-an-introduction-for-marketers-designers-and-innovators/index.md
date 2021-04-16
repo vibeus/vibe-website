@@ -105,17 +105,17 @@ Traditional whiteboarding will always create some amount of clutter as people un
 
 A digital whiteboarding session is no different. At the end of the meeting, erase or move any ideas that don’t contribute value to the session’s driving purpose. When you save the whiteboarding session, send the most relevant details via email to keep your team members on task and working toward the most productive ideas.
 
-**Save** **c****ontinually****.**
+**Save** **continually.**
 Whiteboarding in a shared space comes with some degree of risk. When you leave for a lunch break, things may get erased by your colleagues. When using traditional whiteboards, use your phone camera to document progress before stepping away. If you have a digital smartboard like Vibe, that’s not necessary — everything you do is being saved in the cloud, all the time. You’ll never lose a session to the dreaded eraser again.
 
 A digital whiteboard can also track iterations and progression on specific topics or problems. You can save each board to a categorized index for further evaluation, analysis, or prototyping — creating a layered repository of innovation and problem-solving.
 
-**Tag and** **s****hare****.**
+**Tag and** **share.**
 Assigning action items and putting the new ideas to work is a big part of whiteboarding. With Vibe, you can use integrations that connect to your existing workflows to tag colleagues and remote workers for review.
 
 By integrating your workflow and task management with a digital whiteboard, you’ll be able to share the whiteboard session with key contributors who may have missed the meeting. Granting access to the board and the assignments from the collaboration lets your coworkers quickly get up to speed on the discussion.
 
-**Be** **i****nclusive****.**
+**Be** **inclusive.**
 Use whiteboarding as a way to promote inclusivity. Whiteboarding can break down power dynamics in a collaborative setting, allowing people who are less assertive to comfortably contribute their ideas. It can also make tracking ideas and recognizing people for their contributions easier for facilitators.
 
 A digital whiteboard offers even more inclusivity because everyone controls the ability to draw on the board instead of passing the marker on a traditional dry erase board. By nature of giving everyone the right to add to the board, you’re demonstrating that each person’s opinions and ideas bring value to the whiteboarding session.
@@ -140,4 +140,4 @@ Start thinking about your next great idea. [See what Vibe can do for you](https:
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

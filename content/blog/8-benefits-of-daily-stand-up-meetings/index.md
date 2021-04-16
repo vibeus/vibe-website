@@ -49,7 +49,7 @@ Remember what we said earlier about getting caught up in your own work? You coul
 
 A daily stand-up is a great way to assess how members of your team could be working together on present or future projects. We’re all striving for excellence, and if one person’s skills could boost someone else’s work, you’ll be able to piece that partnership together from information in a standup.
 
-*Related:* [*The Best Ways to Brainstorm with a Remote Group*](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
+*Related:* [The Best Ways to Brainstorm with a Remote Group](https://vibe.us/blog/the-best-ways-to-brainstorm-with-a-remote-group/)
 
 {{< common/srcset "image-2.jpg" "" >}}
 
@@ -69,4 +69,4 @@ The right mindset goes a long way in making stand-up meetings a successful daily
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

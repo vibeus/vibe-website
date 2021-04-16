@@ -231,14 +231,37 @@ def fix_link_format(content):
     for line in content.splitlines():
         # [***blah blah***](https://address) => [blah blah](https://address)
         # [******](https://address) => delete
-        for match in re.finditer("""\[\*\*\*([^*\[\]]*)\*\*\*\](\([^()]+\))""", line):
+        for match in re.finditer(r"\[(\*+)([^*\[\]]*)(\1)](\([^()]+\))", line):
             if match:
-                if len(match.group(1)) > 0:
+                if len(match.group(2)) > 0:
                     line = line.replace(
-                        match.group(0), "[{}]{}".format(match.group(1), match.group(2))
+                        match.group(0), "[{}]{}".format(match.group(2), match.group(4))
                     )
                 else:
                     line = line.replace(match.group(0), "")
+
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
+def fix_unnecessary_stars(content):
+    lines = []
+    for line in content.splitlines():
+        # (*[n])hel(*[n])(*[m])lo(*[m]) => (*[n])hello(*[n])
+        diff = True
+        while diff:
+            l = re.sub(
+                r"(^|[^*])(\*+)([^*]+)(\2)(\*+)([^*]+)(\5)",
+                lambda m: m.group(1)
+                + m.group(2)
+                + m.group(3)
+                + m.group(6)
+                + m.group(2),
+                line,
+            )
+            diff = l != line
+            line = l
 
         lines.append(line)
 
@@ -282,6 +305,7 @@ def process_doc(doc_id, is_dev, allow_large_image, cms_type):
     if cms_type == "video":
         body, video_ids = process_video_links(body)
     body = fix_link_format(body)
+    body = fix_unnecessary_stars(body)
     body = download_images(body, os.path.dirname(md_path), allow_large_image)
 
     with open(md_path, "w") as f:

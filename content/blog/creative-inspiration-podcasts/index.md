@@ -2,7 +2,7 @@
 title: "10 Inspiring, Creative-focused Podcasts to Add to Your Playlist"
 slug: creative-inspiration-podcasts
 author: Mary Clark Navarro
-date: 2021-04-15
+date: 2021-04-19
 tags: ["remote collaboration", "brainstorming", "creative work"]
 draft: true
 isfeatured: false
@@ -76,4 +76,4 @@ Looking for more ways to find inspiration? Collaborate and share ideas in real-t
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

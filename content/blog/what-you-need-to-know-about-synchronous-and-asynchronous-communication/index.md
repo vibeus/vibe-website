@@ -75,10 +75,10 @@ The right mix of both communication strategies will largely depend on your team 
 
 Now that you know the types of communication you’re working with, you can consider ways to make the most of the collaboration software applications and tools you already use. Or maybe your communication toolkit could use a refresh. While the exact apps you’ll use will depend on your business and the type of projects you’re working on, here are a few options that we like.
 
-[**Slack**](https://slack.com/)
+[Slack](https://slack.com/)
 This messaging platform is great for quick communication and lets us send reminders, files, and updates whether or not the entire team is online. Creating separate threads for different teams and projects keeps everything organized, too, especially if you’re working after-hours and want to make sure your co-workers know exactly where the project stands.
 
-[**Notion**](https://www.notion.so/product)
+[Notion](https://www.notion.so/product)
 Every team has their set of workflows they like best, or a combination of steps that helps them work more efficiently. And for those asynchronous times, co-workers need to know what’s going on at any given time. Notion organizes timelines, workflows, and other work-related schedules in a reader-friendly and customizable layout.
 
 *Laura says: “We use Notion for just about everything. I think that it's been most embraced by team members who have planning as a significant part of their role; product road maps and marketing campaign targets come to mind. We also use it for team meeting minutes and for weekly/quarterly updates.”*
@@ -86,7 +86,7 @@ Every team has their set of workflows they like best, or a combination of steps 
 **Google Drive**
 Google Sheets and Docs are easily shareable and have an easy-to-access edit history. It’s simple to see who is simultaneously working on the document and to message within that file without having to switch to a separate messaging platform.
 
-[**Figma**](https://www.figma.com/)
+[Figma](https://www.figma.com/)
 We at Vibe love a brainstorm, and we have a strong need for a design app that encourages that kind of creative collaboration. Figma is a browser-based app that lets us brainstorm as well as create UI/UX design, graphic design, wireframes, and more.
 
 *Laura says: “Our design team uses Figma daily. It's what they use to wireframe for product design, on top of any changes we're making to the website or to graphics. If we're meeting in real-time, we'll follow the presenter—click on their icon and then the view goes wherever they go—through the project. We're much more likely to do this sort of visual communication—in Figma or on Vibe—than using video conferencing.”*
@@ -99,4 +99,4 @@ As our work situations evolve and the phrase “traditional office” takes on a
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
-**Looking for the latest in interactive whiteboard technology?** [**Check out Vibe today!**](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
