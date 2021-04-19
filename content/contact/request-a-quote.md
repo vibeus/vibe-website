@@ -46,7 +46,7 @@ contact:
             - Personal Use and Entertainment
             - Others
         - name: company_size_classification
-          placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder
+          placeholder: Company Size*
           required: true
           dropdown:
             - 1-10
@@ -57,7 +57,7 @@ contact:
             - 5001-10000
             - 10001+
       - - name: job_role
-          placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_1-placeholder
+          placeholder: Role*
           required: true
           dropdown:
             - CXO / VP / President / Owner
