@@ -50,7 +50,7 @@ products:
       figure: img/order/accessory-stand-w.png
       sold_out: false
       backorder:
-        item_notice: 'item_notice: Expected to ship in 2 weeks from Shopify. Immediate shipping from [Amazon](https://www.amazon.com/Vibe-Interactive-Touchscreen-Collaboration-Whiteboard/dp/B0829BYC5K).'
+        item_notice: 'Expected to ship in 2 weeks from Shopify. Immediate shipping from [Amazon](https://www.amazon.com/Vibe-Interactive-Touchscreen-Collaboration-Whiteboard/dp/B0829BYC5K).'
         cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id003
       product_name: red_stand
