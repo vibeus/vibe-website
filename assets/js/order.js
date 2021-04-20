@@ -295,7 +295,7 @@ function setupCart() {
     '.navbar .button.is-nav-cart, .navbar .navbar-brand .button.is-in-brand-mobile';
   document.querySelectorAll(cartSelector).forEach((el) => {
     el.innerHTML =
-      '{{ $cartIcon.Content | safeHTML }}<span class="cart-icon-count"></span>';
+      `{{ $cartIcon.Content | safeHTML }}<span class="cart-icon-count"></span>`;
     el.classList.add('is-cart-icon');
     el.classList.remove('is-outlined');
     if (el.nodeName === 'A') {
