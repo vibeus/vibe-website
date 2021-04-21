@@ -4,7 +4,7 @@ slug: collaborative-meetings-plan
 author: Vibe Team
 date: 2021-04-21
 tags: ["remote collaboration", "meeting techniques", "remote meetings"]
-draft: true
+draft: false
 isfeatured: false
 description: Need to boost the effectiveness of your collaborative meetings? Vibe offers essential tips for engaging participants.
 ---
