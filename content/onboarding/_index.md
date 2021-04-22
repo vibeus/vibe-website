@@ -49,7 +49,8 @@ setup:
         url: img/onboarding/step-number-1.svg
       columns:
         - class: content-text-column
-          title: 'Unbox and install your Vibe board and stand.'
+          header:
+            title: 'Unbox and install your Vibe board and stand.'
           cta:
             - link:
                 text: 'Vibe 55” digital whiteboard user manual'
@@ -89,7 +90,8 @@ setup:
         url: img/onboarding/step-number-2.svg
       columns:
         - class: content-text-column
-          title: 'Set up your device and Vibe account.'
+          header:
+            title: 'Set up your device and Vibe account.'
           body:
             - figure:
                 class: is-hidden-from-900px
@@ -118,12 +120,9 @@ setup:
           title: 'Submit'
       columns:
         - class: content-form-column
-          title: 'Register your device.'
-          cta:
-            - body: 'Your Vibe board purchase includes a 1-year warranty.'
-            - link:
-                text: 'Read warranty policy'
-                url: /warranty/
+          header:
+            title: 'Register your device.'
+            body: Your Vibe board purchase includes a [1-year warranty](/warranty/).
           body:
             - form:
                 action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/3d3eac66-7345-4825-a6e8-df8d0575832e
@@ -434,7 +433,8 @@ setup:
         url: img/onboarding/step-number-4.svg
       columns:
         - class: content-text-column
-          title: 'You are all set!'
+          header:
+            title: 'You are all set!'
           body:
             - figure:
                 url: img/onboarding/desktop-screen.png

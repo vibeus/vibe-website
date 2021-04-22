@@ -1,9 +1,12 @@
 <div class="column {{ with .class}}{{ . }}{{ end }} {{ with .column_size }}{{ . }}{{ end }}">
-  {{ with .title}}
-  <div class="is-column-title">
+  {{ with .header }}
+  <div class="is-column-header">
     <h3 class="title">
-      {{ . | markdownify }}
+      {{ .title | markdownify }}
     </h3>
+    <div class="body">
+      {{ .body | markdownify }}
+    </div>
   </div>
   {{ end }}
 
@@ -31,27 +34,27 @@
   </div>
   {{ end }}
 
-
-  {{ with .cta}}
+  {{ with .cta }}
   <div class="is-column-cta">
     {{ range . }}
     <div class="cta-item {{ with .class }}{{ . }}{{ end }}">
       {{ with .body }}
-        <span class="text">{{ . }}</span>
+      <span class="text">{{ . | markdownify }}</span>
       {{ end }}
 
       {{ with .link }}
-        <a class="link{{ with .class }} {{ . }}{{ end }}" href="{{ with .url }}{{ . }}{{ end }}" target="_blank" data-scroll-to-id="{{ with .scroll_to_id }}{{ . }}{{ end }}">
-          {{ with .text }}
-          <span class="text">{{ . }}</span>
-          {{ end }}
-          {{ with .icon }}
-          <span class="link-icon {{ with .class }}{{ . }}{{ end }}">
-            {{ with .text }}<span class="text-icon">{{ . }}</span>{{ end }}
-            {{ with .url }}{{ (resources.Get . ).Content | safeHTML }}{{ end }}
-          </span>
-          {{ end }}
-        </a>
+      <a class="link{{ with .class }} {{ . }}{{ end }}" href="{{ with .url }}{{ . }}{{ end }}" target="_blank"
+        data-scroll-to-id="{{ with .scroll_to_id }}{{ . }}{{ end }}">
+        {{ with .text }}
+        <span class="text">{{ . }}</span>
+        {{ end }}
+        {{ with .icon }}
+        <span class="link-icon {{ with .class }}{{ . }}{{ end }}">
+          {{ with .text }}<span class="text-icon">{{ . }}</span>{{ end }}
+          {{ with .url }}{{ (resources.Get . ).Content | safeHTML }}{{ end }}
+        </span>
+        {{ end }}
+      </a>
       {{ end }}
     </div>
     {{ end }}

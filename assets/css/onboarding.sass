@@ -244,7 +244,7 @@ html, body
         .column
           padding-left: 0
           padding-right: 0
-      .is-column-title
+      .is-column-header
         .title
           color: $vibe-purple
           font-weight: 600
@@ -323,9 +323,17 @@ html, body
 
     .step.step-3
       .content-form-column
-        .is-column-cta
-          .cta-item
+        .is-column-header
+          .title
+            margin-bottom: 24px
+          .body
             margin-top: 8px
+            font-size: 16px
+            a
+              color: #66c
+              text-decoration: underline
+              &:hover
+                color: $link-hover
         .is-column-body
           .form-wrapper.is-submitted
             visibility: hidden
@@ -338,6 +346,8 @@ html, body
             margin-top: 32px
             .column
               padding: 0.375rem
+              +mobile
+                padding: 0.375rem 0
             .input, .select select, .textarea
               background-color: #F4F4F4
               padding-left: 10px
@@ -393,7 +403,9 @@ html, body
 
       .submit-button-column
         position: relative
-        height: 412px
+        height: 406px
+        @at-root #{selector-nest(".gdpr-enabled", &)}
+          height: 461px
         &.is-submitted
           visibility: hidden
         #label-for-submit-button
@@ -416,7 +428,7 @@ html, body
             width: 437px
             margin: auto
 
-        .is-column-title .title
+        .is-column-header .title
           margin-bottom: 24px
         .is-column-cta .cta-item:last-child
           margin-top: 8px
