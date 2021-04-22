@@ -51,6 +51,7 @@ apps:
   type: entertainment
 - id: com.autodesk.autocadws
   name: AutoCAD
+  type: productivity
 - id: com.blackboard.android.bbstudent
   name: Blackboard
   type: education
@@ -215,6 +216,7 @@ apps:
   type: productivity
 - id: com.onshape.app
   name: Onshape
+  type: productivity
 - id: com.opera.browser
   name: Opera
   type: browser
