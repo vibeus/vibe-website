@@ -49,6 +49,8 @@ apps:
 - id: com.att.tv.watchtv
   name: AT&T WatchTV
   type: entertainment
+- id: com.autodesk.autocadws
+  name: AutoCAD
 - id: com.blackboard.android.bbstudent
   name: Blackboard
   type: education
@@ -211,6 +213,8 @@ apps:
 - id: com.nokoprint
   name: NokoPrint
   type: productivity
+- id: com.onshape.app
+  name: Onshape
 - id: com.opera.browser
   name: Opera
   type: browser
