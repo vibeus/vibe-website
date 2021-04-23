@@ -1,5 +1,5 @@
 github.com/vibeus/hugo-common/v2 v2.0.2-0.20210129070057-9ed010ce4038/go.mod h1:BV2Id6B7n27onuS0tNKYTtwEn4IkLXhMTYWPaknbLfs=
-github.com/vibeus/hugo-common/v2 v2.0.2-0.20210423200542-d4061997f552 h1:x/NHF1/dQHvUpz/AW4fQCl1FFGX7N187wWp+BbS2KLg=
-github.com/vibeus/hugo-common/v2 v2.0.2-0.20210423200542-d4061997f552/go.mod h1:bsHgyqpSaSb7EtxUr8FOK08Cew6pxkjuxAn0k2YKZ6k=
+github.com/vibeus/hugo-common/v2 v2.0.2-0.20210423213834-8cebeeb88ce4 h1:vFz77NJfQIb8RY7uzeceCZIMCYDRSkxoYuzef2rDuZQ=
+github.com/vibeus/hugo-common/v2 v2.0.2-0.20210423213834-8cebeeb88ce4/go.mod h1:bsHgyqpSaSb7EtxUr8FOK08Cew6pxkjuxAn0k2YKZ6k=
 github.com/vibeus/vibe-cms/v2 v2.0.1-0.20210311182044-4eb1c3f94cfd h1:ui9cY2sslS35yPv8gH3RmOCGmhtQ/nDxBmmwuWvth88=
 github.com/vibeus/vibe-cms/v2 v2.0.1-0.20210311182044-4eb1c3f94cfd/go.mod h1:QSkJKblCRPud+kIi7iGHtoS1CqmvB5uApN9DEa5TZDw=
