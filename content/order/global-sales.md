@@ -29,15 +29,25 @@ hero:
       - region: EUROPE
         contries:
           - name: France
-            url: https://www.amazon.fr/dp/B081LPL772?ref=myi_title_dp
+            url: https://vibe.toyond.de
+            target: _self
+            # url: https://www.amazon.fr/dp/B081LPL772?ref=myi_title_dp
           - name: Germany
-            url: https://www.amazon.de/dp/B081LPL772?ref=myi_title_dp
+            url: https://vibe.toyond.de
+            target: _self
+            # url: https://www.amazon.de/dp/B081LPL772?ref=myi_title_dp
           - name: Italy
-            url: https://www.amazon.it/dp/B081LPL772?ref=myi_title_dp
+            url: https://vibe.toyond.de
+            target: _self
+            # url: https://www.amazon.it/dp/B081LPL772?ref=myi_title_dp
           - name: Spain
-            url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
+            url: https://vibe.toyond.de
+            target: _self
+            # url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
           - name: United Kingdom
-            url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
+            url: https://vibe.toyond.de
+            target: _self
+            # url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
       - region: NORTH AMERICA
         contries:
           - name: Canada
