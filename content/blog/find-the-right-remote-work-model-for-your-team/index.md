@@ -38,7 +38,7 @@ Of the different types of remote work, the distributed team seems to have the mo
 
 Taking a slightly different angle, [TalentDesk.io defines](https://blog.talentdesk.io/blog/what-is-distributed-team) distributed teams as, “a team where all members are physically located away from each other. This could mean team members are working from home, coffee shops, or co-working spaces, but that they are working where no other colleagues are based.”
 
-And finally, video conferencing company [Lifesize defines](https://www.lifesize.com/en/distributed-work-hub) distributed as “companies that have one or more employees who work in different physical locations. This blended work model may comprise on-site teams at one or more office locations as well as remote employees who work from home, coworker spaces or public spaces or on the go.”
+And finally, video conferencing company Lifesize defines distributed as “companies that have one or more employees who work in different physical locations. This blended work model may comprise on-site teams at one or more office locations as well as remote employees who work from home, coworker spaces or public spaces or on the go.”
 
 Essentially, once you start discussing distributed teams, it’s likely that you have employees working for the same company in more than one time zone. 
 Using time zones as a defining characteristic for just how distributed a team is, 

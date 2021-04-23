@@ -1,5 +1,5 @@
 ---
-title: "Digital Technology to Use if You're Working From Home and Haven't Prepped"
+title: "Digital Tools to Use if You're Working at Home and Haven't Prepped"
 slug: digital-technology-to-use-if-youre-working-from-home-and-havent-prepped
 author: Vibe Team
 date: 2020-03-23

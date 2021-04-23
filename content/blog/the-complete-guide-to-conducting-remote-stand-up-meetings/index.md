@@ -6,8 +6,8 @@ date: 2020-04-20
 tags: ["meetings", "stand-up", "huddle"]
 draft: false
 isfeatured: false
-summary: You already know how beneficial stand-up meetings can be for your team, but what if your team is distributed across multiple offices?
-description: A quick guide to successful remote stand up meetings
+summary: Need to run your first stand-up meeting? We're here to help with a quick guide to successful remote stand-up meetings.
+description: Need to run your first stand-up meeting? We're here to help with a quick guide to successful remote stand-up meetings.
 ---
 
 

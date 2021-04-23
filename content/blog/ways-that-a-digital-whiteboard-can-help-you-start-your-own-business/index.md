@@ -1,5 +1,5 @@
 ---
-title: "Ways That A Digital Whiteboard Can Help You Start Your Own Business"
+title: "Ways That A Digital Whiteboard Can Help You Start a Business"
 slug: ways-that-a-digital-whiteboard-can-help-you-start-your-own-business
 author: Karen Belz
 date: 2020-06-17
@@ -7,7 +7,7 @@ tags: ["meetings", "remote", "presentations"]
 draft: false
 isfeatured: false
 summary: Even if you currently lack a physical office space, a whiteboard like the Vibe board will provide you with everything you need to stay on task.
-description: Keeo your new business connected to prospects and new clients with a digital whiteboard.
+description: Keep your new business connected to prospects and new clients with a digital whiteboard.
 ---
 
 

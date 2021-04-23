@@ -1,5 +1,5 @@
 ---
-title: "From Pitch to Partnership: Designing Presentations with Clients in Mind"
+title: "Designing Presentations with Clients in Mind"
 slug: from-pitch-to-partnership-designing-presentations-with-clients-in-mind
 author: Megan Snyder
 date: 2020-03-16

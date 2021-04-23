@@ -4,7 +4,7 @@ slug: how-to-design-a-remote-first-workplace
 author: Megan Snyder
 date: 2020-11-18
 tags: ["remote work", "brainstorm", "collaborate", "Online whiteboard"]
-description: Tips to make your workplace remote-first vs. remote-friendly
+description: What's the difference between remote-first and remote-friendly? Learn that and more helpful tips to design your ideal remote work plan.
 draft: false
 isfeatured: false
 ---

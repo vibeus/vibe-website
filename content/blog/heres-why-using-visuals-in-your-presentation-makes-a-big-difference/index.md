@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-03-12
 tags: ["remote work", "presentation", "collaborate", "meetings"]
 draft: false
-description: Visual presentation styles enourage active audience engagement
+description: Visual presentation styles encourage active audience engagement. Sounds good to us! Follow this advice to make an impact.
 ---
 
 

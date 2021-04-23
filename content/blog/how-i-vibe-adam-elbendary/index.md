@@ -6,8 +6,8 @@ date: 2020-07-31
 tags: ["CEO", "new business", "marketing"]
 draft: false
 isfeatured: false
-summary: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard to keep his projects on the move for his new business.
-description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard to keep his projects on the move for his new business.
+summary: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard for his new business.
+description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard for his new business.
 hero_styles:
   background: "#f4f4f4"
 ---

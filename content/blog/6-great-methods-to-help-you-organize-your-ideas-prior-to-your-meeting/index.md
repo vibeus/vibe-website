@@ -1,10 +1,10 @@
 ---
-title: "6 Great Methods to Help You Organize Your Ideas Prior to Your Meeting"
+title: "6 Great Methods to Help Organize Your Ideas Before a Meeting"
 slug: 6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting
 author: Karen Belz
 date: 2020-05-22
 tags: ["meetings", "stand-up", "huddle"]
-description: Learn techniques for running an effective meeting and keep your ideas organized
+description: Learn techniques for running an effective meeting and keep your ideas organized.
 draft: false
 isfeatured: false
 ---

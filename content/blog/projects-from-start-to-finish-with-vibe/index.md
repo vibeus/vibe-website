@@ -6,7 +6,7 @@ date: 2019-07-22
 isfeatured: false
 tags: ["Vibe Smartboard"]
 draft: false
-description: Project management is more collaborative and engaging with Vibe
+description: Project management is more collaborative and engaging with a Vibe interactive whiteboard.
 blogHeroMask: 0
 ---
 

@@ -72,7 +72,7 @@ To lead an effective meeting, you need tools and applications that will encourag
 An effective collaborative meeting requires taking vigilant notes to capture all the contributors’ ideas and input. Not only will these notes keep track of decisions, vision, and solutions, but it creates a reference for future meetings and determining measurable tasks for participants. Using an interactive whiteboard is an easy solution for taking notes.
 
 
-{{< common/srcset "image-2.jpg" "The Vibe digital whiteboard create opportunities for team collaboration." >}}
+{{< common/srcset "image-2.jpg" "The Vibe digital whiteboard creates opportunities for team collaboration." >}}
 
 ## How an interactive whiteboard can help in your next collaborative meeting
 
@@ -114,4 +114,4 @@ These safeguards are essential in today’s marketplace. By integrating these ti
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
-Looking for the latest in interactive whiteboard technology? [Check out Vibe today!](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

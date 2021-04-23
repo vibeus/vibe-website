@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-03-14
 tags: ["remote work", "presenting", "powerpoint"]
 draft: false
-description: Adding a visual presentation style makes meetings more engaging.
+description: Adding visuals to your presentation can make every meeting more interesting. We'll show you the right way to use more images in presentations.
 isfeatured: false
 ---
 

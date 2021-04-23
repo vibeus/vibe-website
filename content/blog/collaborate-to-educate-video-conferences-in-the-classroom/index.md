@@ -5,7 +5,7 @@ author: Megan Snyder
 date: 2020-03-17
 tags: ["video conference", "presenting", "powerpoint", "Classroom" ]
 draft: false
-description: Using video conferencing in the classroom boosts learning
+description: Using video conferencing in the classroom boosts engaged learning, but where do you get started? We'll show the way.
 isfeatured: false
 ---
 

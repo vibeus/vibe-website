@@ -4,7 +4,7 @@ slug: how-i-vibe-endless-events
 author: Vibe Team
 date: 2021-02-25
 tags: ["remote work", "brainstorm", "collaborate", "how i vibe"]
-description: When this hybrid event production company needed to pivot their business, the Vibe interactive whiteboard made the transition seamless and their remote collaboration better than ever.
+description: When this event production company had to pivot their business, Vibe's interactive whiteboard made the transition seamless and collaboration better than ever.
 draft: false
 isfeatured: false
 ---

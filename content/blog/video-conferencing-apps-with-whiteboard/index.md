@@ -1,11 +1,11 @@
 ---
-title: "Video Conferencing Apps You Can Use with Vibe Whiteboarding"
+title: "Video Conferencing Apps You Can Use with the Vibe Whiteboard"
 slug: video-conferencing-apps-with-whiteboard
 author: Megan Snyder
 date: 2020-10-14
 isfeatured: false
 tags: ["Interactive Whiteboard", "Smart Whiteboard", "Video Conferencing", "Smartboard Collaboration"]
-description: What Video Conferencing Apps Have Whiteboards? Learn how to use Zoom, Microsoft Teams, Cisco WebEx, BlueJeans Meetings, UberConference, and RingCentral Meetings with Vibe digital whiteboard
+description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, BlueJeans Meetings, GoToMeeting, and RingCentral Meetings with Vibe digital whiteboard.
 draft: false
 blogHeroMask: 0
 ---
@@ -68,7 +68,7 @@ All in all, Blue Jeans is a solid option for teams with straightforward video co
 ----------
 # GoToMeeting Review
 
-GoToMeeting is among the most well-known video conferencing platforms available. Founded in 2004, [GoToMeeting](https://www.gotomeeting.com/b) has expanded to include a large suite of technological offerings to make the online workspace a welcoming and collaborative one.
+GoToMeeting is among the most well-known video conferencing platforms available. Founded in 2004, [GoToMeeting](https://www.gotomeeting.com/) expanded to include a large suite of technological offerings to make the online workspace a welcoming and collaborative one.
 
 
 ## How much does GoToMeeting cost?

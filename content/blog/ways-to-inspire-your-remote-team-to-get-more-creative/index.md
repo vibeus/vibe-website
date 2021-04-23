@@ -5,7 +5,7 @@ author: Karen Belz
 date: 2020-03-15
 tags: ["remote work", "presenting", "powerpoint"]
 draft: false
-description: Learn strategies to inspire creativity amongst remote employees
+description: Everybody could use a little inspiration sometimes. Learn strategies to inspire creativity amongst remote employees.
 isfeatured: false
 ---
 
