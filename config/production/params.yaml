@@ -2,5 +2,10 @@ defaultDescription: Vibe packs digital whiteboard technology, video conferencing
 appURL: https://app.vibe.us/
 apiURL: https://api.vibe.us/v1/
 allowIndex: true
-gtmId: GTM-5GF6X7Z
 microsoftIdentityAssociation: '71a7c2ef-6e5f-4d3d-8665-119a2bef0035'
+# The following are used for gdpr website compliance
+hsId: 5698963
+gtmId: GTM-5GF6X7Z
+hsScriptLoaderId: hs-script-loader
+hsCookieBannerId: hs-eu-cookie-confirmation
+cookieConfirmationButtonId: hs-eu-confirmation-button
