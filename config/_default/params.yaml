@@ -3,8 +3,10 @@ appURL: https://app.vibe-beta.com/
 apiURL: https://api.vibe-beta.com/v1/
 allowIndex: false
 microsoftIdentityAssociation: 'e11766e4-36e3-426a-80fb-b357f1a8bbfc'
-gtmId: GTM-5GF6X7Z
+# The following are used for gdpr website change debugging
+# Comment out hsId to disable it
 hsId: 5698963
+gtmId: GTM-5GF6X7Z
 hsScriptLoaderId: hs-script-loader
 hsCookieBannerId: hs-eu-cookie-confirmation
 cookieConfirmationButtonId: hs-eu-confirmation-button
