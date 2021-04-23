@@ -8,19 +8,19 @@ noFixedNavbar: true
 is_order: true
 # promo_code: 'NOVEMBER200'
 navbar:
-    brandURL: "/"
-    # menu: []
-    extra:
-      - title: See a Demo
-        url: /demo/
-        class: is-primary is-outlined is-rounded is-in-brand is-request-demo is-request-demo-gtm
-        data:
-          - key: target
-            value: section-book-demo
-      - title: Order a Vibe
-        url: https://vibe.us/order/
-        class: is-primary is-rounded is-in-brand is-nav-cart
-        in_brand_mobile: true
+  brandURL: "/"
+  # menu: []
+  extra:
+    - title: See a Demo
+      url: /demo/
+      class: is-primary is-outlined is-rounded is-in-brand is-request-demo is-request-demo-gtm
+      data:
+        - key: target
+          value: section-book-demo
+    - title: Order a Vibe
+      url: https://vibe.us/order/
+      class: is-primary is-rounded is-in-brand is-nav-cart
+      in_brand_mobile: true
 
 product_notices:
   sold_out: &sold_out
@@ -173,109 +173,6 @@ book_demo:
   title: Ready to see Vibe in action?
   body: Book a demo to see a product overview.
   figure: img/order/book-demo-bg.png
-  form:
-    action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/1270333f-4cc2-4450-901d-d4f9b29fed58'
-    controls:
-      - - name: firstname
-          placeholder: First Name*
-          required: true
-        - name: lastname
-          placeholder: Last Name*
-          required: true
-      - - name: email
-          placeholder: Email Address*
-          type: email
-          required: true
-        - name: phone
-          placeholder: Phone Number
-          type: tel
-      - - name: company
-          placeholder: Company Name*
-          required: true
-        - name: industry_category
-          placeholder: Industry*
-          required: true
-          dropdown:
-            - Education
-            - Coaching and Training
-            - Health Care
-            - IT Services
-            - Computer Software
-            - Real Estate
-            - Architecture and Construnction
-            - Engineering
-            - Financial Services
-            - Consulting
-            - Marketing and Advertising
-            - Arts and Design
-            - Government and Organizations
-            - Home Office
-            - Personal Use and Entertainment
-            - Others
-      - - name: company_size_classification
-          placeholder: Company Size*
-          required: true
-          dropdown:
-            - 1-10
-            - 11-100
-            - 101-500
-            - 501-1000
-            - 1001-5000
-            - 5001-10000
-            - 10000+
-        - name: job_role
-          placeholder: Role*
-          required: true
-          dropdown:
-            - CXO / VP / President / Owner
-            - Principal
-            - Director
-            - Manager
-            - Designer
-            - Engineer
-            - IT
-            - Consultant
-            - Teacher / Professor
-            - Instructor
-            - Influencer
-            - Others
-    hidden_values:
-      vibe_from_education_landing_page: "false"
-      vibe_lp_live_demo_request: "false"
-    buttons:
-      - type: submit
-        title: Schedule a Live Demo
-        class: button is-rounded is-black schedule-demo is-fullwidth
-        name: request-demo
-        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
-      - type: submit
-        title: Watch Demo Video
-        class: button is-rounded is-black is-outlined watch-demo is-fullwidth
-        name: request-video
-    submitted:
-      choices:
-        - class: is-live-demo
-          body: |
-            # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
-          cta:
-            title: Watch Demo Video First
-            target: _blank
-            class: is-primary is-video-demo-link
-            url: https://vibe.us/demo/video-demo
-        - class: is-video-demo
-          body: |
-            # We've sent you an email with the video link. Enjoy!
-          cta:
-            title: Watch Now
-            target: _blank
-            class: is-primary is-video-demo-link
-            url: https://vibe.us/demo/video-demo
-            subcta:
-              body: Still want to talk to an expert?
-              link:
-                class: is-live-demo-meeting-link
-                body: Schedule a live demo
-                url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
 
 why_vibe:
   title: Why Vibe?
