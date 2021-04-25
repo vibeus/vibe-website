@@ -58,7 +58,12 @@ products:
       product_id: '31815731609651'
       price: 500
       figure: img/order/accessory-stand-r.png
-      sold_out: false
+      sold_out:
+        item_notice:
+          Temporarily unavailable. Compatible 3rd party stand options
+          are listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
+        item_notice_text_align: center
+        cart_notice: Temporarily unavailable.
       backorder: false
         #item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
