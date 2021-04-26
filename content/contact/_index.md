@@ -84,7 +84,7 @@ contact:
             - Instructor
             - Influencer
             - Others
-      - - name: message
+      - - name: anything_else_we_should_know_
           placeholder: i18n-content-contact-_index-contact-form-controls-i_4-i_0-placeholder
           type: textarea
           required: true
@@ -92,6 +92,12 @@ contact:
       - type: submit
         title: i18n-content-contact-_index-contact-form-buttons-i_0-title
         class: button is-rounded is-primary
+        column_class: is-hidden-eu
+      - type: submit
+        title: i18n-content-contact-_index-contact-form-buttons-i_0-title
+        class: button is-rounded is-primary
+        column_class: is-hidden-non-eu
+        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/89a0d8cc-cde8-409f-a1e3-c82cd2a5e0f3'
     submitted:
       title: i18n-content-contact-_index-contact-form-submitted-title
       body: i18n-content-contact-_index-contact-form-submitted-body
