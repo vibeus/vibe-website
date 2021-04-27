@@ -9,18 +9,24 @@ noFixedNavbar: true
 is_order: true
 # promo_code: 'NOVEMBER200'
 navbar:
-    brandURL: "/"
-    menu: []
-    extra:
-      - title: Order a Vibe
-        url: /
-        class: is-primary is-rounded is-in-brand is-nav-cart
-        in_brand_mobile: true
+  brandURL: https://vibe.us/
+  #menu: []
+  extra:
+    - title: See a Demo
+      url: /demo/
+      class: is-primary is-outlined is-rounded is-in-brand is-request-demo is-request-demo-gtm
+      data:
+        - key: target
+          value: section-book-demo
+    - title: Order a Vibe
+      url: https://vibe.toyond.de
+      class: is-primary is-rounded is-in-brand is-nav-cart
+      in_brand_mobile: true
 
 product_notices:
   sold_out: &sold_out
     item_notice:
-      Temporarily unavailable. [Let us know](https://toyond.de/#2b5a5583-73b7-4499-9ca9-0e3eb0bdf46c) if you want to
+      Temporarily unavailable. [Let us know](https://vibe.us/contact/) if you want to
       be contacted when this item becomes available again.
     cart_notice: Temporarily unavailable.
 products:
@@ -68,7 +74,7 @@ products:
 
 hero:
   item: *id001
-  shipping: Complimentary Shipping + 30-Day Returns
+  shipping: 30-Day Returns
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png
@@ -108,6 +114,14 @@ what_is_vibe:
     - title: Engage
       body: Activate your meetings with sharable content from any source, building trust through mutual feedback.
       videoId: A1HIFoPZIEM
+  cta:
+    buttons:
+      - title: See a Demo
+        url: /demo/
+        class: is-hero-cta is-black is-outlined is-rounded is-request-demo
+        data:
+          - key: target
+            value: section-book-demo
 
 hardware_features:
   title: A touchscreen whiteboard built for the modern workspace
@@ -143,6 +157,11 @@ feature_columns:
       figure: img/order/feature-columns-3.png
       title: Screencast enhanced with touch
       body: Fluidly bring content to Vibe by wirelessly casting your screen to Vibe and you can annotate as needed.
+
+book_demo:
+  title: Ready to see Vibe in action?
+  body: Book a demo to see a product overview.
+  figure: img/order/book-demo-bg.png
 
 why_vibe:
   title: Why Vibe?

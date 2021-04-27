@@ -169,7 +169,7 @@
         </div>
         {{ if .sold_out }}
         <div class="content is-sold-out">
-          {{ .sold_out.item_notice | markdownify }}
+          {{ .sold_out.item_notice | $.Page.RenderString }}
         </div>
         {{ else if .backorder }}
         <div class="content is-backorder">
@@ -312,4 +312,5 @@
 {{ else }}
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
 {{ end }}
+{{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
 </main>{{ end }}

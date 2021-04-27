@@ -303,9 +303,5 @@
 {{ else }}
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "shopifyHost" "vibe.toyond.de") }}
 {{ end }}
+{{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
 </main>{{ end }}
-{{ define "foot" }}
-<div class="toyond-footer">
-  © Copyright 2021 Toyond GmbH | <a href="https://toyond.de/#2b5a5583-73b7-4499-9ca9-0e3eb0bdf46c" target="_blank">Contact us</a>
-</div>
-{{ end }}
