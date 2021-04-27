@@ -68,6 +68,9 @@ apps:
 - id: com.box.android
   name: Box
   type: file
+- id: com.calm.android
+  name: Calm
+  type: other
 - id: com.canva.editor
   name: Canva
   type: design
@@ -250,9 +253,15 @@ apps:
 - id: com.smartsheet.android
   name: Smartsheet
   type: productivity
+- id: com.spirohq.spiro.beta
+  name: Spiro
+  type: productivity
 - id: com.spotify.music
   name: Spotify
   type: entertainment
+- id: com.spotlightsix.zentimerlite2
+  name: Insight Timer
+  type: other
 - id: com.teamviewer.quicksupport.addon.universal
   name: TeamViewer Universal Add-On
   type: productivity
