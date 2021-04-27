@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+import argparse
+import requests
+import yaml
+import time
+import os
+import jwt
+from markdownify import markdownify as md
+from markdown import markdown
+
+API_ROOT = "https://cms.vibe.dev/wp-json/wp/v2"
+MAX_IMAGE_SIZE = 3 * 1024 * 1024
+
+jwt_secret = os.environ.get("VIBE_CMS_JWT_SECRET", "")
+jwt_token = ""
+users = {}
+tags = {}
+
+
+def main(args):
+    global jwt_secret
+
+    if args.secret:
+        jwt_secret = args.secret
+
+    init_users_dict()
+    init_tags_dict()
+    init_jwt_token()
+
+    if args.create:
+        create_post(args.create)
+    else:
+        pull_posts()
+
+
+def init_users_dict():
+    resp = requests.get(f"{API_ROOT}/users")
+    for o in resp.json():
+        users[o["id"]] = o
+
+
+def init_tags_dict():
+    resp = requests.get(f"{API_ROOT}/tags")
+    for o in resp.json():
+        tags[o["id"]] = o
+
+
+def init_jwt_token():
+    global jwt_token
+
+    now = int(time.time())
+    jwt_token = jwt.encode(
+        {
+            "iss": "https://cms.vibe.dev",
+            "iat": now,
+            "nbf": now - 60,
+            "exp": now + 600,
+            "data": {"user": {"id": "2"}},
+        },
+        jwt_secret,
+        algorithm="HS256",
+    )
+
+
+def create_post(directory):
+    with open(os.path.join(directory, "index.md"), "r") as f:
+        content = f.read()
+
+    post = {}
+    post["title"] = "test"
+    post["content"] = markdown(content)
+
+    headers = {}
+    headers["Content-Type"] = "application/json"
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    resp = requests.post(f"{API_ROOT}/posts", headers=headers, json=post)
+    print(jwt_token)
+    print(resp.json())
+    print(resp.status_code)
+
+
+def pull_posts():
+    resp = requests.get(f"{API_ROOT}/posts")
+    post = resp.json()[0]
+
+    # process_post(post)
+    pass
+
+
+def process_post(post):
+    front_matter = {}
+    front_matter["title"] = md(post["title"]["rendered"]).strip()
+    front_matter["slug"] = post["slug"]
+    front_matter["author"] = users[post["author"]]["name"]
+    front_matter["date"] = post["date"].split("T")[0]
+    front_matter["tags"] = [tags[x]["name"] for x in post["tags"]]
+    front_matter["isfeatured"] = post["sticky"]
+    front_matter["description"] = md(post["excerpt"]["rendered"]).strip()
+
+    # TODO: use post category to determine blog or video
+    subfolder = "blog"
+    directory = os.path.join("content", subfolder, post["slug"])
+    os.makedirs(directory, exist_ok=True)
+
+    content = md(post["content"]["rendered"], heading_style="ATX", bullets="-+*")
+    content = process_post_images(content, directory)
+
+    with open(os.path.join(directory, "index.md"), "w") as f:
+        f.write("---\n")
+        yaml.dump(front_matter, f, sort_keys=False, width=120)
+        f.write("---\n")
+
+        f.write(content)
+        if not content.endswith("\n"):
+            f.write("\n")
+
+    # content = post["content"]["rendered"]
+    # print(md(content, heading_style="ATX", bullets="-+*"))
+
+
+def process_post_images(content, directory):
+    return content
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--secret", help="JWT signing secret.")
+    parser.add_argument("--create", help="Create a post in WordPress from a directory.")
+
+    args = parser.parse_args()
+
+    main(args)
