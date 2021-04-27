@@ -1,4 +1,4 @@
 colorama==0.4.1
-Pillow==8.0.0
+Pillow==8.1.1
 requests==2.22.0
 PyYAML==5.4
