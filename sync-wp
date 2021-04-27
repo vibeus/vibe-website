@@ -4,9 +4,12 @@ import requests
 import yaml
 import time
 import os
+import re
 import jwt
+import sys
 from markdownify import markdownify as md
 from markdown import markdown
+from colorama import Fore, Style
 
 API_ROOT = "https://cms.vibe.dev/wp-json/wp/v2"
 MAX_IMAGE_SIZE = 3 * 1024 * 1024
@@ -15,6 +18,10 @@ jwt_secret = os.environ.get("VIBE_CMS_JWT_SECRET", "")
 jwt_token = ""
 users = {}
 tags = {}
+
+
+class exit_failure(Exception):
+    pass
 
 
 def main(args):
@@ -27,10 +34,13 @@ def main(args):
     init_tags_dict()
     init_jwt_token()
 
-    if args.create:
-        create_post(args.create)
-    else:
-        pull_posts()
+    try:
+        if args.create:
+            create_post(args.create)
+        else:
+            pull_posts()
+    except exit_failure:
+        sys.exit(1)
 
 
 def init_users_dict():
@@ -63,21 +73,30 @@ def init_jwt_token():
 
 
 def create_post(directory):
-    with open(os.path.join(directory, "index.md"), "r") as f:
+    md_path = os.path.join(directory, "index.md")
+    with open(md_path, "r") as f:
         content = f.read()
 
+    match = re.search(r"---\n(.*?)---\n", content, re.DOTALL)
+    if not match:
+        print(Fore.RED + f"Cannot find front matter in {md_path}" + Style.RESET_ALL)
+        raise exit_failure()
+
+    front_matter = yaml.safe_load(match.group(1))
+    content = content[match.end() :].strip()
+
     post = {}
-    post["title"] = "test"
+    post["title"] = front_matter["title"]
     post["content"] = markdown(content)
 
     headers = {}
     headers["Content-Type"] = "application/json"
     headers["Authorization"] = "Bearer " + jwt_token
 
-    resp = requests.post(f"{API_ROOT}/posts", headers=headers, json=post)
-    print(jwt_token)
-    print(resp.json())
-    print(resp.status_code)
+    # resp = requests.post(f"{API_ROOT}/posts", headers=headers, json=post)
+    # print(jwt_token)
+    # print(resp.json())
+    # print(resp.status_code)
 
 
 def pull_posts():
