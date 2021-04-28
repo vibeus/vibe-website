@@ -262,12 +262,16 @@ def pull_posts():
     headers = {}
     headers["Authorization"] = "Bearer " + jwt_token
 
-    all_posts = list_all(f"{API_ROOT}/posts", headers, {"status": "any"})
+    all_posts = list_all(f"{API_ROOT}/posts", headers, {"status[]": ["publish" ,"future"]})
     print(f"There are {len(all_posts)} to process.")
 
     counter = 0
     for post in all_posts:
         counter += 1
+        if not post["slug"]:
+            print(f"{Fore.RED}Skip a post because it does not have slug. id={post['id']}.{Style.RESET_ALL}")
+            continue
+
         print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
         process_post(post)
 
@@ -281,6 +285,7 @@ def process_post(post):
         datetime.datetime.fromisoformat(post["date"]).date().isoformat()
     )
     front_matter["tags"] = [tags_by_id[x]["name"] for x in post["tags"]]
+    front_matter["draft"] = post["status"] != "publish"
     front_matter["isfeatured"] = post["sticky"]
     front_matter["description"] = md(post["excerpt"]["rendered"]).strip()
 
