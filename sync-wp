@@ -262,14 +262,18 @@ def pull_posts():
     headers = {}
     headers["Authorization"] = "Bearer " + jwt_token
 
-    all_posts = list_all(f"{API_ROOT}/posts", headers, {"status[]": ["publish" ,"future"]})
+    all_posts = list_all(
+        f"{API_ROOT}/posts", headers, {"status[]": ["publish", "future"]}
+    )
     print(f"There are {len(all_posts)} to process.")
 
     counter = 0
     for post in all_posts:
         counter += 1
         if not post["slug"]:
-            print(f"{Fore.RED}Skip a post because it does not have slug. id={post['id']}.{Style.RESET_ALL}")
+            print(
+                f"{Fore.RED}Skip a post because it does not have slug. id={post['id']}.{Style.RESET_ALL}"
+            )
             continue
 
         print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
@@ -329,7 +333,7 @@ def download_cover_image(post, directory):
     if not resp.ok:
         raise exit_failure(f"Get cover image {media_id} failed: {resp.text}")
 
-    image_url = resp.json()["source_url"]
+    image_url = get_original_image_url(resp.json()["source_url"])
     resp = requests.get(image_url, headers=headers)
     if not resp.ok:
         raise exit_failure(f"Download image {image_url} failed: {resp.text}")
@@ -354,7 +358,7 @@ def process_post_images(content, directory):
         nonlocal counter
 
         caption = match.group(1)
-        url = match.group(2)
+        url = get_original_image_url(match.group(2))
         if not url in images:
             resp = requests.get(url, headers=headers)
             if len(resp.content) > MAX_IMAGE_SIZE:
@@ -394,6 +398,32 @@ def get_image_file_ext(content_type):
         return ".jpg"
     else:
         raise exit_failure(f"Unsupported image content type: {content_type}")
+
+
+originnal_url_map = {}
+
+
+def get_original_image_url(url):
+    if url in originnal_url_map:
+        return originnal_url_map[url]
+
+    known_suffix = r"(-scaled|-\d+x\d+)\.(jpg|png)$"
+
+    if not re.search(known_suffix, url):
+        return url
+
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+    original_url = re.sub(known_suffix, r".\2", url)
+
+    resp = requests.head(original_url, headers=headers)
+    if resp.ok:
+        print(f"  Use {original_url} instead of {url}.")
+        originnal_url_map[url] = original_url
+        return original_url
+
+    originnal_url_map[url] = url
+    return url
 
 
 if __name__ == "__main__":
