@@ -54,7 +54,7 @@ def init_users_dict():
     headers = {}
     headers["Authorization"] = "Bearer " + jwt_token
 
-    all_users = list_all(f"{API_ROOT}/users", headers=headers)
+    all_users = list_all(f"{API_ROOT}/users", headers)
     for o in all_users:
         users_by_id[o["id"]] = o
         users_by_name[o["name"]] = o
@@ -94,7 +94,7 @@ def init_jwt_token():
 def list_all(url, headers, params=None):
     results = []
 
-    params_with_offset = params.clone() if params is not None else {}
+    params_with_offset = params.copy() if params is not None else {}
     while True:
         resp = requests.get(url, headers=headers, params=params_with_offset)
         if not resp.ok:
@@ -261,10 +261,15 @@ def upload_media(src_path):
 def pull_posts():
     headers = {}
     headers["Authorization"] = "Bearer " + jwt_token
-    resp = requests.get(f"{API_ROOT}/posts")
 
-    post = resp.json()[0]
-    process_post(post)
+    all_posts = list_all(f"{API_ROOT}/posts", headers, {"status": "any"})
+    print(f"There are {len(all_posts)} to process.")
+
+    counter = 0
+    for post in all_posts:
+        counter += 1
+        print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
+        process_post(post)
 
 
 def process_post(post):
@@ -288,6 +293,9 @@ def process_post(post):
     content = strip_newlines(content)
 
     content = md(content, heading_style="ATX", bullets="-+*")
+
+    clear_images(directory)
+    download_cover_image(post, directory)
     content = process_post_images(content, directory)
 
     with open(os.path.join(directory, "index.md"), "w") as f:
@@ -299,17 +307,88 @@ def process_post(post):
         f.write(content.strip())
         f.write("\n")
 
-    # content = post["content"]["rendered"]
-    # print(md(content, heading_style="ATX", bullets="-+*"))
-
 
 def strip_newlines(content):
     lines = content.splitlines()
     return "".join([l for l in lines if l.strip()])
 
 
+def download_cover_image(post, directory):
+    media_id = post.get("featured_media")
+    if not media_id:
+        return
+
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+    resp = requests.get(f"{API_ROOT}/media/{media_id}", headers=headers)
+    if not resp.ok:
+        raise exit_failure(f"Get cover image {media_id} failed: {resp.text}")
+
+    image_url = resp.json()["source_url"]
+    resp = requests.get(image_url, headers=headers)
+    if not resp.ok:
+        raise exit_failure(f"Download image {image_url} failed: {resp.text}")
+
+    ext = get_image_file_ext(resp.headers["Content-Type"])
+    path = os.path.join(directory, f"cover{ext}")
+
+    with open(path, "wb") as f:
+        f.write(resp.content)
+
+    print(f"{Style.DIM}  Downloaded cover image {image_url} as {path}{Style.RESET_ALL}")
+
+
 def process_post_images(content, directory):
-    return content
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    counter = 1
+    images = {}
+
+    def repl(match):
+        nonlocal counter
+
+        caption = match.group(1)
+        url = match.group(2)
+        if not url in images:
+            resp = requests.get(url, headers=headers)
+            if len(resp.content) > MAX_IMAGE_SIZE:
+                raise exit_failure(
+                    f"{directory}: image {url} size {len(resp.content)} exceeds limit of {MAX_IMAGE_SIZE}."
+                )
+
+            ext = get_image_file_ext(resp.headers["Content-Type"])
+            fn = f"image-{counter}{ext}"
+            images[url] = fn
+            counter += 1
+
+            with open(os.path.join(directory, fn), "wb") as f:
+                f.write(resp.content)
+
+            print(
+                f"{Style.DIM}  Downloaded image {url} as {directory}/{fn}{Style.RESET_ALL}"
+            )
+
+        file_name = images[url]
+        return f'{{{{< common/srcset "{file_name}" "{caption}" >}}}}'
+
+    return re.sub(r"!\[(.*?)\]\((.+?)\)", repl, content)
+
+
+def clear_images(directory):
+    for f in os.listdir(directory):
+        path = os.path.join(directory, f)
+        if f.endswith(".jpg") or f.endswith(".png"):
+            os.remove(path)
+
+
+def get_image_file_ext(content_type):
+    if content_type == "image/png":
+        return ".png"
+    elif content_type == "image/jpeg" or content_type == "image/jpg":
+        return ".jpg"
+    else:
+        raise exit_failure(f"Unsupported image content type: {content_type}")
 
 
 if __name__ == "__main__":
