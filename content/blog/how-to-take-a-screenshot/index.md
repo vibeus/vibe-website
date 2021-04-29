@@ -2,7 +2,7 @@
 title: Take a Screenshot Like a Pro With This Handy Cheatsheet
 slug: how-to-take-a-screenshot
 author: Paige Smith
-date: '2021-05-03'
+date: '2021-04-30'
 tags:
 - digital whiteboard
 - how-to
@@ -41,7 +41,7 @@ Almost every device is capable of helping you take a screenshot for these purpos
 
 There are a lot of [differences between Macs and PCs](https://www.businessinsider.com/the-biggest-differences-between-macs-and-pcs#macs-and-iphone-are-the-best-team-12). With different designs, interfaces, and buttons it’s hard to know how to properly take a screenshot. Whether you’re a Mac or PC person, we’ve got you covered. 
 
-### How to take a screenshot on a Mac
+### *How to take a screenshot on a Mac*
 
 There are multiple options for Mac users to grab their desired screenshots. If your computer is running [MacOS Mojave (2018) software](https://support.apple.com/en-us/HT201685) or newer, you can access the screenshot tool by pressing ***Command+Shift+5*** together at the same time or by going to **Launchpad > Other > Screenshot**. Either choice will bring up a panel of screenshot options that will let you choose to capture the entire screen, a window, or a selection of your screen. This panel also gives you the option to capture a video recording of your screen.
 
@@ -57,7 +57,7 @@ After using any of these combinations, the screenshot will appear as a thumbnail
 
 {{< common/srcset "image-1.jpg" "A woman types at her desktop computer while viewing colorful images on the screen." >}}
 
-### How to take a screenshot in Windows 10
+### *How to take a screenshot in Windows 10*
 
 Using the Print Screen button is the quickest way to take a screenshot in [Windows 10](https://support.microsoft.com/en-us/windows/windows-10-keyboard-shortcuts-3d444b08-3a00-abd6-67da-ecfc07e86b98). This button is generally found in the top-right corner of your keyboard. Think of the Print Screen button (sometimes shortened to “prt sc”) as a sibling to the commonly used copy (***Ctrl+C***) function. 
 
@@ -67,7 +67,7 @@ Using the Print Screen button is the quickest way to take a screenshot in [Windo
 
 **Capture a portion of the screen:** You may be familiar with Microsoft’s Snipping Tool. This app allows you to take free-form, rectangular, window, or full-screen screenshots, with the option to delay the image capture up to 10 seconds. However, the Windows update in May 2019 welcomed a new screenshot tool called [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab). This app has all the bells and whistles of the Snipping Tool but boasts a more user-friendly design than its predecessor.
 
-**Related: [The Right Way to Clean Your Home Office Tech](https://vibe.us/blog/how-to-clean-home-office-tech/)**
+***Related:*** [The Right Way to Clean Your Home Office Tech](https://vibe.us/blog/how-to-clean-home-office-tech/)
 
 ## Take a screenshot on a Chromebook
 
@@ -83,24 +83,22 @@ Any of these methods will result in a notification at the bottom-right corner of
 
 Tablets are pretty much an oversized smartphone. Functions and size vary, but their designs are generally the same. Both Apple and Android users will notice that taking a screenshot on their phone or tablet is a fairly similar process.
 
-### How to take a screenshot on an iPhone or iPad
+### *How to take a screenshot on an iPhone or iPad*
 
 Though [iPhone](https://www.apple.com/iphone/compare/) and [iPad](https://www.apple.com/ipad/compare/) models may differ in appearance, the concept of screen capturing remains pretty much the same — and it only involves two buttons. Older iPhone and iPad models that feature a home button can capture a screenshot by briefly pressing the home button and the sleep/wake button (found on the right side or top of the device, depending on the model) at the same time. This action will be followed by a flash on the screen and a camera shutter sound (if your sound is on). 
 
 Newer iPhone and iPad models (iPhone X, 11, 12, and the latest iPad Pro and iPad Air devices) no longer have the home button. Instead, users can briefly press the sleep/wake button and the volume up button at the same time. If you use an [Apple Pencil](https://www.apple.com/apple-pencil/?afid=p238%7CsraIMFAgF-dc_mtid_1870765e38482_pcrid_378126887195_pgrid_76054337646_&cid=aos-us-kwgo-btb-applepencil--slid---product-) with your iPad, you can take a screenshot by using the tool to swipe up from the bottom corner of the screen. 
 
-**How to find and edit screenshots on an iPhone or iPad:**
-
+**How to find and edit screenshots on an iPhone or iPad:**  
 All models running iOS 11 or later will find that the image immediately appears in the bottom left corner of the screen, giving you easy access to crop and annotate the image. You’ll also find your screen capture in the Photos application in both the camera roll and screenshots albums, where you can also markup the image. Simply choose the photo you want to markup, select “Edit,” select the circle icon with three dots at the top of the screen, select “Markup,” and then write or draw whatever you’d like. Remember to save your work.
 
-### How to take a screenshot on an Android phone or tablet
+### *How to take a screenshot on an Android phone or tablet*
 
 Because there are multiple [Android device manufacturers](https://www.android.com/phones-tablets/) (e.g., Google, Motorola, Samsung, TCL, etc.), taking a screenshot on an [Android phone or tablet](https://www.android.com/phones-tablets/) may vary slightly. 
 
 On most newer devices, you can capture an image by briefly pressing the power and volume down buttons at the same time. If your device has a home button, you can also try pressing the home and volume down buttons. Alternatively, some Android devices also feature a screenshot button in the Quick Settings menu. Should you encounter issues, you can always consult your [manufacturer’s support site](https://support.google.com/android/answer/3094742#zippy=%2Cmore-manufacturers) for help.  
 
-**Helpful screenshot features for Android users:**
-
+**Helpful screenshot features for Android users:**  
 There are also a few other ways to take a screenshot on an Android without pressing a physical button. If your device has a voice assistant like Google Assistant or Samsung’s Bixby, you can ask the assistant to take a screenshot for you. 
 
 If you have a Samsung device, swipe the edge of your hand across the screen to grab an image. Turn this setting on by visiting **Settings > Advanced Features > Palm swipe to capture**. Samsung users can use the [S Pen](https://www.samsung.com/global/galaxy/galaxy-note10/s-pen/) stylus to take screenshots via the Air Command menu by selecting “Screen Write” and then editing the image to their liking.

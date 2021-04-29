@@ -2,12 +2,12 @@
 title: "What is Attention Residue? Why It\u2019s Bad for Your Team"
 slug: what-is-attention-residue
 author: Mary Clark Navarro
-date: '2021-04-30'
+date: '2021-04-29'
 tags:
 - leadership
 - remote work
 - work from home
-draft: true
+draft: false
 isfeatured: false
 description: Help your team manage both their emotions and their workload by understanding the effects of attention residue.
 ---
@@ -26,7 +26,7 @@ No wonder you feel so tired at the end of the work day. Add in [household distra
 
 Attention residue is becoming more common as our workdays grow longer. Research shows that [the average workday increased by 48.5 minutes](https://www.washingtonpost.com/business/2020/08/04/remote-work-longer-days/) following the pandemic. Meetings have increased by 13%. Longer hours, the pressure to be readily accessible, and fragmentation caused by meetings do a real number on your attention supply.
 
-**Related:** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
+***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
 
 ## The impact of attention residue on teams
 
@@ -62,4 +62,4 @@ Finally, make sure your team has the tools they need to collaborate effectively 
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
-Looking for the latest in interactive whiteboard technology? [Check out Vibe today!](https://vibe.us/order/)
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
