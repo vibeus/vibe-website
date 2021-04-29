@@ -359,6 +359,10 @@ def main():
     )
     args = parser.parse_args()
 
+    if args.cms_type == "blog":
+        print("Use sync-wp for blog.")
+        return
+
     if args.token:
         access_token = args.token
 
