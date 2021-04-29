@@ -20,8 +20,7 @@ Schools and organizations have come to recognize the value of collaborative spac
 
 Group activities shouldn’t be complicated — neither should the components of a collaborative space. There are three simple elements that every organization can implement. Anthony explains, “All these three things need to be balanced really well to achieve a new type of learning style or environment.”
 
-
-1. **The physical space**
+**1. The physical space**
 
 When embarking on redesigning a classroom or workspace, flexibility is the name of the game. A flexible environment allows users to quickly reconfigure the space to accommodate a wide range of group activities and learning experiences. Rooms should be equipped with mobile furniture and technology that can be reconfigured for easy collaboration.
 
@@ -29,8 +28,7 @@ Of course, the actual size of a room could be a barrier to change — but before
 
 “The teacher’s desk and space in the classroom occupy nearly a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is made possible.
 
-
-1. **The right technology and tools**
+**2. The right technology and tools**
 
 Technology that’s bolted to a wall tends to, consequently, keep students bolted to their seats. Because an experiential learning environment requires free movement and adaptability, mobile technology is the best fit. Virtual whiteboards have become an integral part of a collaborative space.
 
@@ -40,8 +38,7 @@ Technology that’s bolted to a wall tends to, consequently, keep students bolte
 
 The programs you use in a classroom are just as important as the technology — which is why Vibe has over [80 integrated apps](https://vibe.us/android-app-store/) to help facilitate the best learning. Remote teachers will especially love the ability to use a virtual whiteboard during a [Zoom](https://zoom.us/) call or other video conferencing.
 
-
-1. **A change in focus**
+**3. A change in focus**
 
 You can have all the right furniture, tools, and technology needed for a collaborative environment — but it will amount to nothing if you don’t have the right approach and mindset to collaboration. In an educational space, the focus should be on the students and their learning.
 
@@ -85,7 +82,7 @@ What happens in the classroom shouldn’t just stay in the classroom. Students h
 
 Flux has helped students have this experience by introducing innovative tools like the [Fork Farms hydroponics kit](https://fluxspace.io/partners2/forkfarms/). This unique vertical farming technology has helped students feed their communities, while simultaneously nurturing their minds.
 
-“Students want to give back to their community; they just need to see some products, programs, and options for that to happen,” says Anthony. 
+“Students want to give back to their community; they just need to see some products, programs, and options for that to happen,” says Anthony.
 
 ## How to optimize your space for remote and in-person collaboration
 

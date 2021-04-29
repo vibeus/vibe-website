@@ -27,7 +27,14 @@ Knowing this, it’s easy to see why a standard, by-the-book presentation won’
 
 ## Design in the Details
 
-“In order to be irreplaceable one must always be different.”-Coco ChanelWe’ll assume you already know the basics of what your prospective client does, or you wouldn’t be trying to work with them in the first place. And you know the ins-and-outs of your company and why this collaboration makes sense. Now, you need to dig deeper to make a great impression.
+
+> “In order to be irreplaceable one must always be different.”
+> 
+> -Coco Chanel
+> 
+> 
+
+We’ll assume you already know the basics of what your prospective client does, or you wouldn’t be trying to work with them in the first place. And you know the ins-and-outs of your company and why this collaboration makes sense. Now, you need to dig deeper to make a great impression.
 
 One of the easiest ways to better understand a potential client is to visit their company website. But you’re not just there to read the “About” page and see what services they offer. Of course that information is important, but this mission is focused on the finer points. Studying a new client’s site design is a great strategy for understanding a company’s vibe.
 
@@ -43,7 +50,14 @@ For example, if your prospective client is active on Instagram and Pinterest, yo
 
 ## Setting the Tone
 
-“Imagination is everything. It is the preview of life’s coming attractions.” –Albert EinsteinYou did the research and feel pretty good about the information you gathered. Now it’s time to create. You’ll want your company’s voice to have a chance to shine through—after all, you’re trying to sell your services, too—but ultimately, the presentation should be tailored to the prospective client. This is a perfect opportunity to show how this partnership can be a success.
+
+> “Imagination is everything. It is the preview of life’s coming attractions.”
+> 
+> –Albert Einstein
+> 
+> 
+
+You did the research and feel pretty good about the information you gathered. Now it’s time to create. You’ll want your company’s voice to have a chance to shine through—after all, you’re trying to sell your services, too—but ultimately, the presentation should be tailored to the prospective client. This is a perfect opportunity to show how this partnership can be a success.
 
 Although every company is different, there can be similarities in tone within specific industries. Lucy Alexander at HubSpot points out that [the type of information](https://blog.hubspot.com/sales/sales-presentation-titles-excerpt) you’re including in your presentation can help to determine your design. Knowing this, there are certain design choices you can make to help get you started.
 
@@ -61,7 +75,14 @@ If the prospective client is in the creative field, you have different design op
 
 ## Clear the Way for Collaboration
 
-“Great things in business are never done by one person; they’re done by a team of people.” –Steve JobsDesign is a key component of a great presentation, but how you frame the pitch matters, too. It’s expected that a business owner would be protective of their processes and they way they’ve always conducted business. Your goal, then, is not only to demonstrate your knowledge of the client, but how you can help them.
+
+> “Great things in business are never done by one person; they’re done by a team of people.”
+> 
+> –Steve Jobs
+> 
+> 
+
+Design is a key component of a great presentation, but how you frame the pitch matters, too. It’s expected that a business owner would be protective of their processes and they way they’ve always conducted business. Your goal, then, is not only to demonstrate your knowledge of the client, but how you can help them.
 
 It would be easy to simply state what your company does and expect the client to follow along. But instead of letting them draw their own conclusion, illustrate how you can add value to their business. People tend to resist change, so it’s important to offer more than one solution. This gives clients the chance to make a choice and feel like their voice is being heard.
 

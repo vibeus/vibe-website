@@ -71,29 +71,24 @@ Thankless tasks sit at the very bottom of your priorities. If possible, try to d
 
 If you have “create an action priority matrix” on your to-do list, you’ll be pleased to find that it easily falls into the “quick wins” category. This life-changing tool can be created and used in five easy steps:
 
-
-1. **Set the time frame**
+**1. Set the time frame**
 
 Are you going to focus on the tasks for the upcoming day, month, or year? Pick a time frame that will allow you to feasibly accomplish your goals without getting overwhelmed. When in doubt, start with a small timetable and work your way up to more long-term goals.
 
-
-1. **List tasks**
+**2. List tasks**
 
 Determine which tasks you would like to accomplish within your time frame. Using a tool like an [interactive whiteboard](https://vibe.us/lp/scenario-remote/) is super helpful for this step, especially when brainstorming with your team. If possible, make a note of how long certain tasks take — this will help with the next step.
 
-
-1. **Score tasks**
+**3. Score tasks**
 
 Rank each item on its impact and effort levels. Tasks can be scored using a 1-10 scale (with one as the lowest and 10 as the highest), a school grading scale (with A as the highest and F as the lowest), or any method that works best for you.  
 Think carefully about the effort level when assigning tasks to quadrants. You may feel like a task is high effort if it’s emotionally or mentally draining, but it might not take very long to complete. There may be more quick wins on your list than you think.
 
-
-1. **Plot tasks**
+**4. Plot tasks**
 
 This step may bring back memories of algebra class. Label each axis with even increments from 1-10, or whichever scale you chose when scoring. Plot each task directly on the matrix according to the score given.
 
-
-1. **Plan and prioritize**
+**5. Plan and prioritize**
 
 Review your matrix to create an organized plan for tackling each project, assigning items to teammates if applicable. Although there is no right or wrong way to select the order for your tasks to be completed, as a rule of thumb, quick wins usually take priority, and major projects come next. After these tasks are completed, or where there are holes in your schedule, work on fill-in activities or delegate them out. Try to completely eliminate thankless tasks or assign them to someone else.
 

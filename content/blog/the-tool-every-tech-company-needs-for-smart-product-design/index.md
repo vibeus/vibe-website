@@ -18,7 +18,7 @@ What consumers may not realize is that behind every product design are countless
 
 ## What is a decision matrix?
 
-Many designers struggle with an overabundance of tasks, each competing for their immediate attention. But how do you know which tasks should take precedence? The decision matrix helps to uncover the items that take top priority while weeding out the items of least importance. This visual tool, similar to an [action priority matrix](https://vibe.us/blog/using-an-action-priority-matrix-to-maximize-your-time-and-talent/), allows you to prioritize your list of tasks based on the criteria that are most essential to the needs of your company and target audience — some commonly used attributes in this practice are value and effort. 
+Many designers struggle with an overabundance of tasks, each competing for their immediate attention. But how do you know which tasks should take precedence? The decision matrix helps to uncover the items that take top priority while weeding out the items of least importance. This visual tool, similar to an [action priority matrix](https://vibe.us/blog/using-an-action-priority-matrix-to-maximize-your-time-and-talent/), allows you to prioritize your list of tasks based on the criteria that are most essential to the needs of your company and target audience — some commonly used attributes in this practice are value and effort.
 
 (y) Value = How essential/necessary something is for the customer
 
@@ -44,21 +44,18 @@ The fate of a task is determined by its location on the matrix. Once a task is p
 
 In a few simple steps, product designers can use a decision matrix to lighten the burden of decision-making and start giving users what they need. Here are the steps to get started:
 
+**1. Determine what you’re prioritizing.**
 
-1. **Determine what you’re prioritizing.**
+That mile-long to-do list may include tasks with varying timeframes and categories. First, decide which items you would like to include in your decision matrix (e.g., features to implement, projects, needs of buyer personas, or research ideas). Then, consider the general timeline you’re focused on (e.g., the next month, quarter, or year).
 
-That mile-long to-do list may include tasks with varying timeframes and categories. First, decide which items you would like to include in your decision matrix (e.g., features to implement, projects, needs of buyer personas, or research ideas). Then, consider the general timeline you’re focused on (e.g., the next month, quarter, or year). 
-
-
-1. **Design the matrix according to your needs and specifications.**
+**2. Design the matrix according to your needs and specifications.**
 
 This matrix is meant to work for YOU. Choose the criteria and scale that best fits your needs. Although value and effort are common attributes to assign, you may wish to substitute them with criteria like: ease of implementation, effect on other systems, customer pain from problem, or return on investment (ROI).  
 Some items may be more number-based, such as the ROI of a certain product launch or the time taken to implement an item. These matrices aren’t meant to be a perfect science — especially when you’re not certain of how a new feature or product will be received by users. Estimates and guesses are perfectly acceptable. You may opt to leave numbers aside and simply place items based on their perceived value and effort levels.
 
+**3. Research.**
 
-1. **Research.**
-
-When dollars and customer satisfaction are on the line, it pays to do your homework. Before placing items on the matrix, conduct some brief research. Get a feel for an item’s value and effort levels by viewing the results of similar tasks or features that were previously rolled out. We can learn a lot about the future from our past. You may also want to ask the following questions about each item to guide your thought process: 
+When dollars and customer satisfaction are on the line, it pays to do your homework. Before placing items on the matrix, conduct some brief research. Get a feel for an item’s value and effort levels by viewing the results of similar tasks or features that were previously rolled out. We can learn a lot about the future from our past. You may also want to ask the following questions about each item to guide your thought process:
 
 
 - Does the feature affect many people?
@@ -69,15 +66,13 @@ When dollars and customer satisfaction are on the line, it pays to do your homew
 - **Let the group cast votes.**
 
 The life of a product, from inception to delivery, involves a lot of different individuals — developers, designers, marketing specialists, and other skilled minds work together to make things happen. With that said, their opinions matter, and they need to be heard.  
-Give your team an opportunity to provide input by letting them mark items they believe should take priority. Keep things anonymous by numbering the items (in no particular order) and letting team members share a ballot with their top numbers. Or use a [digital poll](https://www.surveymonkey.com/mp/online-polls/) to compile the responses. 
+Give your team an opportunity to provide input by letting them mark items they believe should take priority. Keep things anonymous by numbering the items (in no particular order) and letting team members share a ballot with their top numbers. Or use a [digital poll](https://www.surveymonkey.com/mp/online-polls/) to compile the responses.
 
+**4. Place items on the matrix.**
 
-1. **Place items on the matrix.**
+With your research and team discussion complete, plotting items on the matrix should be the easiest step. Once all the items are placed, you can make a plan for accomplishing the items based on their location on the matrix. Does your gut tell you that an item isn’t quite where it needs to be? Revisit the matrix to see if the needle has moved for certain items.
 
-With your research and team discussion complete, plotting items on the matrix should be the easiest step. Once all the items are placed, you can make a plan for accomplishing the items based on their location on the matrix. Does your gut tell you that an item isn’t quite where it needs to be? Revisit the matrix to see if the needle has moved for certain items. 
-
-
-1. **Plan and prioritize.**
+**5. Plan and prioritize.**
 
 There is no set way that a team needs to prioritize. Tech companies with so many unique skills may find that it’s best to assign items from each quadrant among their team members. Whereas, a group of product designers may decide that each taking a high priority item and then working their way through the lower priority items may make the most sense.
 

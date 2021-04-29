@@ -24,23 +24,20 @@ Toyota primarily uses the kanban system to improve efficiency and eliminate wast
 
 ## 3 simple elements of a kanban board
 
-A kanban board is going to look different for each user depending on their needs. The board may be a collection of post-its on a wall, a template on an [interactive whiteboard](https://vibe.us/), or a virtual app like [Asana](https://asana.com/) or [Trello](https://trello.com/?&aceid=&adposition=&adgroup=105703214328&campaign=9843285532&creative=432679446204&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p53016490704&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=EAIaIQobChMIkLLM2-iG7wIVuz6tBh1t9g68EAAYASAAEgJdtPD_BwE&gclsrc=aw.ds). Regardless of the form it takes, each kanban board shares a few simple elements: 
+A kanban board is going to look different for each user depending on their needs. The board may be a collection of post-its on a wall, a template on an [interactive whiteboard](https://vibe.us/), or a virtual app like [Asana](https://asana.com/) or [Trello](https://trello.com/?&aceid=&adposition=&adgroup=105703214328&campaign=9843285532&creative=432679446204&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p53016490704&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=EAIaIQobChMIkLLM2-iG7wIVuz6tBh1t9g68EAAYASAAEgJdtPD_BwE&gclsrc=aw.ds). Regardless of the form it takes, each kanban board shares a few simple elements:
 
 {{< common/srcset "image-1.png" "The elements of kanban: board, list, and card." >}}
 
+**1. Board**
 
-1. **Board**
+A kanban board provides a bird’s eye view of a project’s workflow. Within this workflow live the various cards (tasks) that move right along each of the board’s lists (columns).
 
-A kanban board provides a bird’s eye view of a project’s workflow. Within this workflow live the various cards (tasks) that move right along each of the board’s lists (columns). 
-
-
-1. **List/Lane**
+**2. List/Lane**
 
 The columns of a kanban board, referred to as “lists,” feature a stage in a project. Traditionally, a board has a minimum of three lists positioned as follows from left to right: to do, in progress, and done. But depending on the project and industry, these columns are adaptable, just like the kanban process.  
-Some kanban boards also contain horizontal lists called swimlanes. Swimlanes are a helpful way to separate tasks by factors like priority, team, or service. 
+Some kanban boards also contain horizontal lists called swimlanes. Swimlanes are a helpful way to separate tasks by factors like priority, team, or service.
 
-
-1. **Card**
+**3. Card**
 
 Cards are the tasks that need to be accomplished. A card could simply contain the name of the task, a short description of what needs to be done, and the name of the person assigned to the task. But, thanks to the perks of digital boards, you can also attach relevant links and images to aid the user in the card’s completion. Cards get dragged to the right along each list to indicate their current stage in the process.
 
@@ -90,14 +87,14 @@ Engineering and construction involve so many moving parts (no pun intended). Kee
 
 Due to the evolving nature of engineering and construction tasks, a kanban board is the perfect project management route to help users see a task through to completion. Teams can also use kanban boards to gauge how long certain tasks take or where recurring issues appear to improve future processes.
 
-Whether you need to efficiently transform parts into working machines, [like Toyota](https://www.allaboutlean.com/toyota-kanban/), or coordinate the steps for a structure to transform from a blueprint to reality, a kanban process helps you manage your projects from start to finish. Take project planning to the next level by [using Vibe to integrate engineering and construction apps and save valuable annotations.](https://vibe.us/blog/how-i-vibe-jonathan-wong-project-manager/) 
+Whether you need to efficiently transform parts into working machines, [like Toyota](https://www.allaboutlean.com/toyota-kanban/), or coordinate the steps for a structure to transform from a blueprint to reality, a kanban process helps you manage your projects from start to finish. Take project planning to the next level by [using Vibe to integrate engineering and construction apps and save valuable annotations.](https://vibe.us/blog/how-i-vibe-jonathan-wong-project-manager/)
 
 {{< common/srcset "image-3.jpg" "" >}}
 
 **Marketing:**  
-Good marketing teams produce a consistent flow of creative pieces. From blog and social posts to marketing campaigns and events, the initiatives are constant. The very best marketing teams create content that consistently meets the needs and expectations of a target audience, building some of the strongest brands out there. What sets a good marketing team apart from the best? Efficient planning and execution. 
+Good marketing teams produce a consistent flow of creative pieces. From blog and social posts to marketing campaigns and events, the initiatives are constant. The very best marketing teams create content that consistently meets the needs and expectations of a target audience, building some of the strongest brands out there. What sets a good marketing team apart from the best? Efficient planning and execution.
 
-A kanban board is the best hack for keeping track of a myriad of pieces through each step as you schedule, write, edit, publish, and promote your work. Reduce the stress that accompanies those complex marketing campaigns and events by using your board to plan and carry out each step. For inspiration on how to better manage your processes, check out these [examples of how to set up your kanban board for marketing projects](https://www.agilesherpas.com/blog/marketing-kanban-boards). 
+A kanban board is the best hack for keeping track of a myriad of pieces through each step as you schedule, write, edit, publish, and promote your work. Reduce the stress that accompanies those complex marketing campaigns and events by using your board to plan and carry out each step. For inspiration on how to better manage your processes, check out these [examples of how to set up your kanban board for marketing projects](https://www.agilesherpas.com/blog/marketing-kanban-boards).
 
 **Technology:**  
 A $1.9 trillion industry, [the tech sector is the third largest sector in the U.S. economy](https://www.prnewswire.com/news-releases/us-tech-employment-surpasses-12-million-workers-accounts-for-10-of-nations-economy-301044415.html#:~:text=Tech%20workers%20make%20up%20an,behind%20only%20manufacturing%20and%20government.) behind only manufacturing and government. With so many new tech companies emerging, maintaining an organized system for keeping track of processes is essential. Where companies were once using the [waterfall methodology](https://learn.marsdd.com/article/product-development-the-waterfall-methodology-model-in-software-development/) to develop products, which involved sticking to fixed project specifications and delivering an end-product at the same time, innovative leaders now turn to kanban to match the demands of products with constantly changing features.
