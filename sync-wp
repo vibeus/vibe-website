@@ -14,7 +14,7 @@ from markdown import markdown
 from colorama import Fore, Style
 
 API_ROOT = "https://cms.vibe.dev/wp-json/wp/v2"
-MAX_IMAGE_SIZE = 3 * 1024 * 1024
+MAX_PNG_IMAGE_SIZE = 3 * 1024 * 1024
 
 jwt_secret = os.environ.get("VIBE_CMS_JWT_SECRET", "")
 jwt_token = ""
@@ -361,12 +361,13 @@ def process_post_images(content, directory):
         url = get_original_image_url(match.group(2))
         if not url in images:
             resp = requests.get(url, headers=headers)
-            if len(resp.content) > MAX_IMAGE_SIZE:
+            ext = get_image_file_ext(resp.headers["Content-Type"])
+
+            if ext == ".png" and len(resp.content) > MAX_PNG_IMAGE_SIZE:
                 raise exit_failure(
-                    f"{directory}: image {url} size {len(resp.content)} exceeds limit of {MAX_IMAGE_SIZE}."
+                    f"{directory}: image {url} size {len(resp.content)} exceeds limit of {MAX_PNG_IMAGE_SIZE}."
                 )
 
-            ext = get_image_file_ext(resp.headers["Content-Type"])
             fn = f"image-{counter}{ext}"
             images[url] = fn
             counter += 1
