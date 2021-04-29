@@ -1,25 +1,21 @@
 ---
-title: "How I Vibe: Adam Elbendary, CEO of Cleverman, Inc."
+title: 'How I Vibe: Adam Elbendary, CEO of Cleverman, Inc.'
 slug: how-i-vibe-adam-elbendary
 author: Vibe Team
-date: 2020-07-31
-tags: ["CEO", "new business", "marketing"]
+date: '2020-07-31'
+tags:
+- CEO
+- marketing
+- new business
 draft: false
 isfeatured: false
-summary: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard for his new business.
-description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard for his new business.
-hero_styles:
-  background: "#f4f4f4"
+description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard
+  for his new business.
 ---
-
-
-
-
 
 Being a young CEO of a marketing start-up requires hustle. And with the need to move fast in a competitive market, you need tools that will keep pace with your ideas.
 
 So when Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was building his business, he immediately began looking for the right digital whiteboard to keep his projects on the move.
-
 
 ## Finding a solution
 
@@ -27,8 +23,7 @@ So when Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was bui
 
 “I looked at DTEN, SMART Board, and Jamboard, but I knew those weren’t for me,” he said. “The DTEN was something like $5,000 and I thought, ‘This isn’t for the creative environment; this is for professional services.’ I needed a collaborative space.” After learning about the Vibe board, Elbendary found that it has everything he needs and more.
 
-
-## Ideate and brainstorm 
+## Ideate and brainstorm
 
 With a roster of demanding Fortune 50 clients, Elbendary is constantly developing unique marketing plans with his team. Having the Vibe board lets them brainstorm as a team, continuously switching between boards and collaborating between screens.
 
@@ -36,14 +31,11 @@ With a roster of demanding Fortune 50 clients, Elbendary is constantly developin
 
 Cleverman, Inc.’s clients are scattered across the globe, so reliable communication is imperative. The Vibe board lets users take calls and notes simultaneously without having to switch between screens, paper notes, and devices; ideas and brainstorms can move seamlessly into planning and strategizing. Elbendary said that the fact that he can be on a Zoom meeting while taking notes on the board lets him stay engaged while still on the call.
 
-
 {{< common/srcset "image-1.png" "" >}}
-
 
 As a self-professed “mover and shaker,” Elbendary doesn’t like to wait too long before jumping on a good idea. So when his best friend and agency co-founder came up with an app concept in January 2020, they were quick to take action.
 
 “We took the idea to a venture studio in mid-February, and we’re just about done with the platform now,” he said. “We wouldn’t have been able to move as fast without the tools that we had, and one of those very important tools was Vibe, 100 percent.”
-
 
 ## More possibilities
 
@@ -59,7 +51,7 @@ The app integration comes into play when it’s time to relax, too. Elbendary wi
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

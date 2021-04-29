@@ -1,17 +1,18 @@
 ---
-title: "Vibe vs. Microsoft Surface Hub vs. Google Jamboard vs. Samsung Flipboard: Smartboard Comparison"
+title: 'Vibe vs. Microsoft Surface Hub vs. Google Jamboard vs. Samsung Flipboard: Smartboard Comparison'
 slug: vibe-vs-google-jamboard-vs-microsoft-surface-hub-vs-samsung-flip-smartboard-comparison
 author: Vibe Team
-isfeatured: false
-date: 2019-04-29
-tags: ["Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration", "Remote Collaboration"]
+date: '2019-04-29'
+tags:
+- interactive whiteboard
+- remote collaboration
+- Small Business
+- Smart Whiteboard
+- Smartboard Collaboration
 draft: false
-summary: "The latest digital whiteboards reviews. You’ll find all of that information in Vibe’s digital whiteboard reviews.Smartboards were invented to bring the tried-and-true dry erase whiteboard into the digital age."
+isfeatured: false
 description: Smartboard comparison for Microsoft Surface Hub, Google Jamboard, Samsung Flip, and Vibe
-listHeroDesktopFont: ["45px", "55px"]
 ---
-
-
 
 Digital whiteboards, or smartboards, were invented to bring the tried-and-true dry erase whiteboard into the digital age.
 
@@ -25,7 +26,6 @@ There are several digital whiteboards on the market, so which is the best intera
 
 # Digital Whiteboards Providers
 
-
 ## Microsoft Surface Hub
 
 Microsoft is one of the originators of digital whiteboard technology, and their [Surface Hub](https://www.pcmag.com/review/343777/microsoft-surface-hub) is a popular choice in this space. Surface Hub features a responsive touch-screen display and robust integrations with Microsoft applications. With its collaboration-focused custom version of Windows and video conferencing capabilities, Surface Hub makes hosting meetings easy.
@@ -33,7 +33,6 @@ Microsoft is one of the originators of digital whiteboard technology, and their 
 Surface Hub does have some significant drawbacks. Offices that don’t run predominantly on Microsoft software will find connectivity to be a challenge; the Surface Hub is heavily reliant on the Universal Windows 10 application ecosystem. For example, connecting via Skype requires an Exchange Server or an Office 365 for Business account along with Skype for Business. Calling non-Skype users — e.g. most of your freelancers and remote employees — isn’t easy.
 
 The Surface Hub costs nearly $3,000 more than its closest competitor, coming in at a hair under $9,000 per unit.
-
 
 ## Google Jamboard
 
@@ -45,7 +44,6 @@ However, the Jamboard doesn’t support simultaneous app usage. This severely li
 
 The Jamboard costs just under $5,000 per board.
 
-
 ## Samsung Flip
 
 The budget answer to the more powerful Jamboard and Surface Hub, the Samsung Flip is a bare-bones smartboard for small- to mid-sized businesses. It comes with an attractive price tag, and features real-time whiteboard capabilities on its UHD 4K touch display. Flip is designed to work wirelessly with Samsung mobile devices (as well as other manufacturer’s products using an app, though with more limited functionality).
@@ -53,7 +51,6 @@ The budget answer to the more powerful Jamboard and Surface Hub, the Samsung Fli
 The Flip’s most visible feature (and the one that gives it its name) is that its 55-inch screen can pivot on its stand (sold separately), going from horizontal to vertical in an instant.
 
 Like Jamboard, the Flip doesn’t come with a full-featured operating system. While you can share whiteboarding sessions with remote users, there’s no webcam, so you can’t connect with them face to face.
-
 
 ## Vibe
 
@@ -67,10 +64,7 @@ Vibe is also a powerful multitasker that seamlessly shifts from app to app. Comp
 
 One of the big selling points? The price. At $2,999.00, Vibe is almost half the price of the Google Jamboard and one third of the price of Surface Hub.
 
-
 {{< common/srcset "image-1.png" "Digital whiteboard reviews comparing Microsoft Surface Hub, Google Jamboard, Samsung Flip, and Vibe" >}}
-
-
 
 # Why Vibe?
 
@@ -88,7 +82,7 @@ One less obvious advantage Vibe has over its competitors is it’s small product
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

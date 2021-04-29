@@ -1,0 +1,482 @@
+#!/usr/bin/env python3
+import argparse
+import requests
+import uuid
+import yaml
+import time
+import datetime
+import os
+import re
+import jwt
+import sys
+from markdownify import markdownify as md
+from markdown import markdown
+from colorama import Fore, Style
+
+API_ROOT = "https://cms.vibe.dev/wp-json/wp/v2"
+MAX_PNG_IMAGE_SIZE = 3 * 1024 * 1024
+
+jwt_secret = os.environ.get("VIBE_CMS_JWT_SECRET", "")
+jwt_token = ""
+users_by_id = {}
+users_by_name = {}
+tags_by_id = {}
+tags_by_name = {}
+
+
+class exit_failure(Exception):
+    def __init__(self, message):
+        self.message = message
+
+
+def main(args):
+    global jwt_secret
+
+    if args.secret:
+        jwt_secret = args.secret
+
+    init_jwt_token()
+
+    try:
+        init_users_dict()
+        init_tags_dict()
+
+        if args.create:
+            create_post(args.create)
+        else:
+            pull_posts()
+    except exit_failure as e:
+        print(Fore.RED + e.message + Style.RESET_ALL)
+        sys.exit(1)
+
+
+def init_users_dict():
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    all_users = list_all(f"{API_ROOT}/users", headers)
+    for o in all_users:
+        users_by_id[o["id"]] = o
+        users_by_name[o["name"]] = o
+
+    print(Style.DIM + f"Fetched {len(all_users)} users." + Style.RESET_ALL)
+
+
+def init_tags_dict():
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    all_tags = list_all(f"{API_ROOT}/tags", headers)
+    for o in all_tags:
+        tags_by_id[o["id"]] = o
+        tags_by_name[o["name"].lower()] = o
+
+    print(Style.DIM + f"Fetched {len(all_tags)} tags." + Style.RESET_ALL)
+
+
+def init_jwt_token():
+    global jwt_token
+
+    now = int(time.time())
+    jwt_token = jwt.encode(
+        {
+            "iss": "https://cms.vibe.dev",
+            "iat": now,
+            "nbf": now - 60,
+            "exp": now + 600,
+            "data": {"user": {"id": "2"}},
+        },
+        jwt_secret,
+        algorithm="HS256",
+    )
+
+
+def list_all(url, headers, params=None):
+    results = []
+
+    params_with_offset = params.copy() if params is not None else {}
+    while True:
+        resp = requests.get(url, headers=headers, params=params_with_offset)
+        if not resp.ok:
+            raise exit_failure(f"list_all {url} failed: {resp.text}")
+
+        items = resp.json()
+        if len(items) == 0:
+            break
+
+        results.extend(items)
+
+        offset = params_with_offset.get("offset", 0)
+        offset += len(items)
+        params_with_offset["offset"] = offset
+
+    return results
+
+
+def create_post(directory):
+    md_path = os.path.join(directory, "index.md")
+    with open(md_path, "r") as f:
+        content = f.read()
+
+    match = re.search(r"---\n(.*?)---\n", content, re.DOTALL)
+    if not match:
+        raise exit_failure(f"Cannot find front matter in {md_path}")
+
+    front_matter = yaml.safe_load(match.group(1))
+    content = content[match.end() :].strip()
+
+    author_id = 1
+    user = users_by_name.get(front_matter["author"])
+    if user is not None:
+        author_id = user["id"]
+    else:
+        author_id = create_author(front_matter["author"])
+
+    post_tags = []
+    for name in front_matter.get("tags", []):
+        tag = tags_by_name.get(name.lower())
+        if tag is not None:
+            post_tags.append(tag["id"])
+        else:
+            post_tags.append(create_tag(name))
+
+    post = {}
+    post["title"] = front_matter["title"]
+    post["slug"] = front_matter["slug"]
+    post["author"] = author_id
+
+    post_date = front_matter["date"]
+    if isinstance(post_date, datetime.date):
+        post_date = datetime.datetime.combine(post_date, datetime.time.min)
+
+    post["date"] = post_date.isoformat()
+    post["tags"] = post_tags
+    if front_matter.get("draft", False):
+        post["status"] = "draft"
+    else:
+        post["status"] = "publish"
+    post["sticky"] = front_matter.get("isfeatured", False)
+    post["excerpt"] = front_matter.get("description", "")
+
+    cover_media = upload_cover_image_if_any(directory)
+    if cover_media:
+        post["featured_media"] = cover_media["id"]
+
+    content = create_post_media(directory, content)
+    post["content"] = markdown(content)
+
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    resp = requests.post(f"{API_ROOT}/posts", headers=headers, json=post)
+    if not resp.ok:
+        raise exit_failure(f"Create post failed: {resp.text}")
+
+
+def create_tag(name):
+    headers = {}
+    headers["Content-Type"] = "application/json"
+    headers["Authorization"] = "Bearer " + jwt_token
+    resp = requests.post(f"{API_ROOT}/tags", headers=headers, json={"name": name})
+    if not resp.ok:
+        raise exit_failure(f"Create tag {name} failed: {resp.text}")
+
+    tag_id = resp.json()["id"]
+    print(Style.DIM + f"Created tag {name} as tag id {tag_id}" + Style.RESET_ALL)
+
+    return tag_id
+
+
+def create_author(name):
+    headers = {}
+    headers["Content-Type"] = "application/json"
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    username = "".join([w for w in name.split(" ") if w]).lower()
+
+    user = {}
+    user["username"] = username
+    user["password"] = str(uuid.uuid4())
+    user["name"] = name
+    user["email"] = f"cms+{username}@vibe.us"
+    user["roles"] = ["author"]
+
+    resp = requests.post(
+        f"{API_ROOT}/users",
+        headers=headers,
+        json=user,
+    )
+    if not resp.ok:
+        raise exit_failure(f"Create user {name} failed: {resp.text}")
+
+    user_id = resp.json()["id"]
+    print(Style.DIM + f"Created author {name} as user id {user_id}" + Style.RESET_ALL)
+
+    return user_id
+
+
+def upload_cover_image_if_any(directory):
+    for f in os.listdir(directory):
+        if os.path.isfile(os.path.join(directory, f)) and f.lower().startswith("cover"):
+            return upload_media(os.path.join(directory, f))
+
+    return None
+
+
+def create_post_media(directory, content):
+    def repl(match):
+        file_name = match.group(1)
+        caption = match.group(2)
+        media = upload_media(os.path.join(directory, file_name))
+        url = media["source_url"]
+        return f"![{caption}]({url})"
+
+    return re.sub(
+        r"{{<\s*common/srcset\s*\"([^\"]+)\"\s*\"(.*?)\"\s*>}}", repl, content
+    )
+
+
+def upload_media(src_path):
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    file_name = os.path.basename(src_path)
+    with open(src_path, "rb") as f:
+        resp = requests.post(
+            f"{API_ROOT}/media", headers=headers, files={"file": (file_name, f)}
+        )
+
+    if not resp.ok:
+        raise exit_failure(f"Upload media f{src_path} failed: {resp.text}")
+
+    media = resp.json()
+    media_id = media["id"]
+    print(
+        Style.DIM + f"Uploaded file {src_path} as media id {media_id}" + Style.RESET_ALL
+    )
+
+    return media
+
+
+def pull_posts():
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    all_posts = list_all(
+        f"{API_ROOT}/posts", headers, {"status[]": ["publish", "future"]}
+    )
+    print(f"There are {len(all_posts)} to process.")
+
+    counter = 0
+    for post in all_posts:
+        counter += 1
+        if not post["slug"]:
+            print(
+                f"{Fore.RED}Skip a post because it does not have slug. id={post['id']}.{Style.RESET_ALL}"
+            )
+            continue
+
+        print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
+        process_post(post)
+
+
+def process_post(post):
+    front_matter = {}
+    front_matter["title"] = md(post["title"]["rendered"]).strip()
+    front_matter["slug"] = post["slug"]
+    front_matter["author"] = users_by_id[post["author"]]["name"]
+    front_matter["date"] = (
+        datetime.datetime.fromisoformat(post["date"]).date().isoformat()
+    )
+    front_matter["tags"] = [tags_by_id[x]["name"] for x in post["tags"]]
+    front_matter["draft"] = post["status"] != "publish"
+    front_matter["isfeatured"] = post["sticky"]
+    front_matter["description"] = md(post["excerpt"]["rendered"]).strip()
+
+    # TODO: use post category to determine blog or video
+    subfolder = "blog"
+    directory = os.path.join("content", subfolder, post["slug"])
+    os.makedirs(directory, exist_ok=True)
+
+    content = post["content"]["rendered"]
+    content = strip_newlines(content)
+
+    content = md(content, heading_style="ATX", bullets="-+*")
+    content = fix_link_format(content)
+    content = fix_unnecessary_stars(content)
+
+    clear_images(directory)
+    download_cover_image(post, directory)
+    content = process_post_images(content, directory)
+
+    with open(os.path.join(directory, "index.md"), "w") as f:
+        f.write("---\n")
+        yaml.dump(front_matter, f, sort_keys=False, width=120)
+        f.write("---\n")
+
+        f.write("\n")
+        f.write(content.strip())
+        f.write("\n")
+
+
+def strip_newlines(content):
+    lines = content.splitlines()
+    return "".join([l for l in lines if l.strip()])
+
+
+def download_cover_image(post, directory):
+    media_id = post.get("featured_media")
+    if not media_id:
+        return
+
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+    resp = requests.get(f"{API_ROOT}/media/{media_id}", headers=headers)
+    if not resp.ok:
+        raise exit_failure(f"Get cover image {media_id} failed: {resp.text}")
+
+    image_url = get_original_image_url(resp.json()["source_url"])
+    resp = requests.get(image_url, headers=headers)
+    if not resp.ok:
+        raise exit_failure(f"Download image {image_url} failed: {resp.text}")
+
+    ext = get_image_file_ext(resp.headers["Content-Type"])
+    path = os.path.join(directory, f"cover{ext}")
+
+    with open(path, "wb") as f:
+        f.write(resp.content)
+
+    print(f"{Style.DIM}  Downloaded cover image {image_url} as {path}{Style.RESET_ALL}")
+
+
+def process_post_images(content, directory):
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    counter = 1
+    images = {}
+
+    def repl(match):
+        nonlocal counter
+
+        caption = match.group(1)
+        url = get_original_image_url(match.group(2))
+        if not url in images:
+            resp = requests.get(url, headers=headers)
+            ext = get_image_file_ext(resp.headers["Content-Type"])
+
+            if ext == ".png" and len(resp.content) > MAX_PNG_IMAGE_SIZE:
+                raise exit_failure(
+                    f"{directory}: image {url} size {len(resp.content)} exceeds limit of {MAX_PNG_IMAGE_SIZE}."
+                )
+
+            fn = f"image-{counter}{ext}"
+            images[url] = fn
+            counter += 1
+
+            with open(os.path.join(directory, fn), "wb") as f:
+                f.write(resp.content)
+
+            print(
+                f"{Style.DIM}  Downloaded image {url} as {directory}/{fn}{Style.RESET_ALL}"
+            )
+
+        file_name = images[url]
+        return f'{{{{< common/srcset "{file_name}" "{caption}" >}}}}'
+
+    return re.sub(r"!\[(.*?)\]\((.+?)\)", repl, content)
+
+
+def clear_images(directory):
+    for f in os.listdir(directory):
+        path = os.path.join(directory, f)
+        if f.endswith(".jpg") or f.endswith(".png"):
+            os.remove(path)
+
+
+def get_image_file_ext(content_type):
+    if content_type == "image/png":
+        return ".png"
+    elif content_type == "image/jpeg" or content_type == "image/jpg":
+        return ".jpg"
+    else:
+        raise exit_failure(f"Unsupported image content type: {content_type}")
+
+
+originnal_url_map = {}
+
+
+def get_original_image_url(url):
+    if url in originnal_url_map:
+        return originnal_url_map[url]
+
+    known_suffix = r"(-scaled|-\d+x\d+)\.(jpg|png)$"
+
+    if not re.search(known_suffix, url):
+        return url
+
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+    original_url = re.sub(known_suffix, r".\2", url)
+
+    resp = requests.head(original_url, headers=headers)
+    if resp.ok:
+        print(f"  Use {original_url} instead of {url}.")
+        originnal_url_map[url] = original_url
+        return original_url
+
+    originnal_url_map[url] = url
+    return url
+
+
+def fix_link_format(content):
+    lines = []
+    for line in content.splitlines():
+        # [***blah blah***](https://address) => [blah blah](https://address)
+        # [******](https://address) => delete
+        for match in re.finditer(r"\[(\*+)([^*\[\]]*)(\1)](\([^()]+\))", line):
+            if match:
+                if len(match.group(2)) > 0:
+                    line = line.replace(
+                        match.group(0), "[{}]{}".format(match.group(2), match.group(4))
+                    )
+                else:
+                    line = line.replace(match.group(0), "")
+
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
+def fix_unnecessary_stars(content):
+    lines = []
+    for line in content.splitlines():
+        # (*[n])hel(*[n])(*[m])lo(*[m]) => (*[n])hello(*[n])
+        diff = True
+        while diff:
+            l = re.sub(
+                r"(^|[^*])(\*+)([^*]+)(\2)(\*+)([^*]+)(\5)",
+                lambda m: m.group(1)
+                + m.group(2)
+                + m.group(3)
+                + m.group(6)
+                + m.group(2),
+                line,
+            )
+            diff = l != line
+            line = l
+
+        line = re.sub(r"\*\*\*\*+", "", line)
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--secret", help="JWT signing secret.")
+    parser.add_argument("--create", help="Create a post in WordPress from a directory.")
+
+    args = parser.parse_args()
+
+    main(args)

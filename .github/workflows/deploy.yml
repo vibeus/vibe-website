@@ -44,12 +44,12 @@ jobs:
       - name: Sync blogs
         if: github.event_name == 'deployment' && github.event.deployment.task == 'sync-blogs'
         env:
-          VIBE_CMS_TOKEN: ${{ secrets.VIBE_CMS_TOKEN }}
+          VIBE_CMS_JWT_SECRET: ${{ secrets.VIBE_CMS_JWT_SECRET }}
         run: |
-          python3 sync-cms blog
+          python3 sync-wp
           git config user.name '${{ github.event.deployment.creator.login }} via GitHub Actions'
           git config user.email '${{ github.event.deployment.creator.login }}@users.noreply.github.com'
-          if git add -A && git commit -m "Sync blogs using ./sync-cms command"; then
+          if git add -A && git commit -m "Sync blogs using ./sync-wp command"; then
             git push
           fi
       - name: Sync video tutorials

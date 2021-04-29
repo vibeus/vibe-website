@@ -1,15 +1,15 @@
 ---
-title: "Save Time and Get Paid with These Invoicing Apps for Freelancers"
+title: Save Time and Get Paid with These Invoicing Apps for Freelancers
 slug: save-time-and-get-paid-with-these-invoicing-apps-for-freelancers
 author: Paige Smith
-date: 2021-03-22
-tags: ["work from anywhere", "remote work"]
+date: '2021-03-22'
+tags:
+- remote work
+- work from anywhere
 draft: false
 isfeatured: false
 description: Make it easy to track invoices and run your business with these helpful apps.
 ---
-
-
 
 Freelancers make up [34 percent of the United States workforce](https://www.linkedin.com/pulse/2020-50-americans-expected-working-independent-zubair-alexander/). This number is growing fast as people look for ways to create new means of income or supplement their salaries. One of the most attractive elements of freelancing is the freedom to be your own boss.
 
@@ -18,7 +18,7 @@ But that also means you’re your own bookkeeper. If you want to collect payment
 ## Wave: Free Billing and Invoicing Tools
 
 Looking for an affordable tool to send invoices and perform accounting-related tasks for your business? [Wave is better than affordable](https://www.waveapps.com/); it’s free. The suite of billing and invoicing products is designed for small-to-medium businesses. Accounting, invoicing, and receipts are all free features. Payments and payroll incur pay-per-use and monthly charges, respectively. 
- 
+
 The invoices are customizable, meaning you can customize them to suit your brand and create a professional appearance. The simple-to-use interface allows you to create invoices quickly; you can also create recurring billing for repeat customers or retainers. The invoices and receipts are updated automatically. Wave also offers the option for credit card payments and has a mobile app so you can send invoices on the go. For more efficient bookkeeping, sync the invoices with the free Wave accounting software. 
 
 ## Bonsai: Invoicing and Payment Automation
@@ -45,6 +45,7 @@ One nice thing about Zoho is its expansive ecosystem. You’ll also find CRM, ac
 
 Sometimes getting paid faster is a matter of having the right details on your invoice. While the contents will vary based on your work and contract, include the following items as a best practice:
 
+
 - Your name or business name
 - Address (especially important if you’re planning on receiving a check)
 - Your business logo, if applicable
@@ -58,11 +59,11 @@ Sometimes getting paid faster is a matter of having the right details on your in
 - Methods of payment accepted
 - Any late fees or terms
 
-There are a lot of moving parts to keep track of when you're running a freelancing business. Using the right software can make your work life easier to manage.
+There are a lot of moving parts to keep track of when you’re running a freelancing business. Using the right software can make your work life easier to manage.
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

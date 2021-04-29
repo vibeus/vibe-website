@@ -1,15 +1,16 @@
 ---
-title: "Wireframing 101: What You Need to Know"
+title: 'Wireframing 101: What You Need to Know'
 slug: wireframing-basics-everything-you-need-to-know
 author: Mary Clark Navarro
-date: 2021-04-02
-tags: ["virtual event", "remote collaboration", "work from anywhere"]
+date: '2021-04-02'
+tags:
+- remote collaboration
+- virtual event
+- work from anywhere
 draft: false
 isfeatured: false
 description: The basics of wireframing and how it can help with your next design project.
 ---
-
-
 
 When you’re building something, you need a relatively simple way to convey the creation to stakeholders. In the world of architecture, that’s a blueprint. In the tech space, it’s a wireframe. Wondering what wire and frames have to do with applications and webpages? Not to worry; we’re breaking everything down for you below. 
 
@@ -21,11 +22,11 @@ Here’s the thing about wireframes: they’re not set in stone. In fact, they�
 
 Generally speaking, a wireframe is more akin to a sketch than a prototype. They won’t include every detail or interaction possible but will [focus on the visual flow](https://vibe.us/blog/why-kanbans-visual-flow-improves-productivity/) of the app or page. Most wireframes fall into one of these categories:
 
+
 - **Hand-drawn sketch:** Made with a pen, paper, and maybe a ruler. The most basic of all wireframes.
 - **Low-fidelity:** These wireframes have simple schematics and a grayscale color palette.
 - **Mid-fidelity:** A step up from lo-fi, mid-fidelity wireframes also contain grid, scale, and pixel elements. 
 - **High fidelity:** This version will likely include branding and user interface (UI) and look more like a “real” app or webpage.
-
 
 ***Related:*** [7 Reasons to Invest in Dual Monitors](https://vibe.us/blog/7-reasons-to-invest-in-dual-monitors/)
 

@@ -1,15 +1,17 @@
 ---
-title: "Essential Tools to Boost Remote Employee Engagement"
+title: Essential Tools to Boost Remote Employee Engagement
 slug: essential-tools-to-boost-remote-employee-engagement
 author: Vibe Team
-date: 2021-03-26
-tags: ["remote work", "remote collaboration", "work from anywhere"]
+date: '2021-03-26'
+tags:
+- remote collaboration
+- remote work
+- work from anywhere
 draft: false
 isfeatured: false
-description: Want to boost your remote employee engagement? Here are some of the most effective tools to promote employee producitivity.
+description: Want to boost your remote employee engagement? Here are some of the most effective tools to promote employee
+  producitivity.
 ---
-
-
 
 Work from home is here to stay, and although it brings with it many benefits, it also comes with a unique set of challenges. From keeping productivity up to boosting employee morale, it’s more important than ever to know how to manage a remote team.
 
@@ -24,7 +26,6 @@ With all these challenges in mind, you can find solutions to address those feeli
 This is ideal for keeping your team on track and productive. It’s easy to let deadlines fall by the wayside when working remotely; this organizational tool can help.
 
 ***Related:*** [Find the Right Remote Work Model for Your Team](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)
-
 
 {{< common/srcset "image-1.jpg" "" >}}
 
@@ -54,12 +55,11 @@ With the workload management tool, you can help prevent burnout and stress in yo
 
 ## Notion
 
-[Notion](https://www.notion.so/) [](https://www.notion.so/)offers a comprehensive workspace for notes, tasks, wikis, and databases. Notion allows you to embed over 500 applications into a central hub for collaboration within the organization. Its primary functionality creates company wikis for easy-to-find answers, manages projects and tasks, and organizes notes and docs.
+[Notion](https://www.notion.so/) offers a comprehensive workspace for notes, tasks, wikis, and databases. Notion allows you to embed over 500 applications into a central hub for collaboration within the organization. Its primary functionality creates company wikis for easy-to-find answers, manages projects and tasks, and organizes notes and docs.
 
 Built to accommodate every department including engineering, accounting, sales, and marketing, Notion centralizes all your tools for improved productivity, efficiency, and transparency.
 
 ***Related:*** [How Will Your Company Define WFH Guidelines?](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/)
-
 
 {{< common/srcset "image-2.jpg" "Stay on top of tasks and organized with your team at the same time." >}}
 
@@ -69,11 +69,13 @@ Built to accommodate every department including engineering, accounting, sales, 
 
 Trello utilizes built-in automation and app integration for a seamless workflow. The Trello Butler automates across functionality to eliminate redundancy and empower cross-collaboration between teams. And Trello can integrate with all the top collaboration apps like:
 
+
 - Slack
 - Dropbox
 - Google Drive
 - Evernote
 - Confluence
+
 ## Microsoft Teams
 
 [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) is an all-in-one software for managing a remote workforce. It offers a variety of services, including video conferencing and online meetings. You can host 1:1s, live events up to 10,000, and a standard team meeting across all platforms. Teams offers high-quality audio, video, and screen sharing.
@@ -88,10 +90,9 @@ You can also help organize your team’s email since Teams enables employees to 
 
 [Fluvid](https://fluvid.com/) is a tool for innovatively recording your screen. It’s installed as a chrome extension, at which point you can choose a recording mode: screen and cam, screen only, and cam only.
 
-You can interact while recording, including drawing on your screen, highlighting with various colors, or changing your webcam's location and size.
+You can interact while recording, including drawing on your screen, highlighting with various colors, or changing your webcam’s location and size.
 
 After recording, Fluvid enables you to manage, edit, and share videos from your dashboard. Screen recording has never been more interactive or customized. Fluvid is perfect for managing remote employees by increasing creativity, collaboration, and productivity.
-
 
 {{< common/srcset "image-3.jpg" "Remote employees have freedom to work where their focus is better." >}}
 
@@ -107,11 +108,12 @@ This feature-rich scheduler automates confirmations, reminders, buffers and can 
 
 Proofhub means you can assign tasks and share critical information with the people who need to know. By sorting tasks and projects, your team knows what’s important.
 
-Break tasks up into workflow stages to allow your workers to manage their own time. They’ll get alerted when a task moves from one workflow to another, so they know if it's their turn to take something on.
+Break tasks up into workflow stages to allow your workers to manage their own time. They’ll get alerted when a task moves from one workflow to another, so they know if it’s their turn to take something on.
 
-## Tips for managing remote teams 
+## Tips for managing remote teams
 
 Now you know what software you need for managing remote employees, but what are some general tips for increasing productivity and collaboration? Consider these:
+
 
 - **Team building.** With everyone spread out, make sure to schedule regular socials and online events to bring your team together. This helps combat isolation and creates a sense of community.
 - **Breaks.** Encourage your team to take frequent breaks and stop working at a reasonable hour. With their desk right by their bedroom, it’s tempting for employees to work extra long hours. This induces burnout and harms overall productivity.
@@ -120,4 +122,4 @@ Now you know what software you need for managing remote employees, but what are 
 
 ***Related:*** [9 Benefits You’re Getting While Working From Home](https://vibe.us/blog/9-benefits-youre-getting-from-working-from-home/)
 
-Collaborating is more crucial than ever for innovation and creativity, so it's essential when managing remote employees to use software that best allows for it. [Vibe](https://vibe.us/software/) interactive whiteboards were designed for innovation, collaboration, and ideation in real-time across the globe. Combine video conferencing with other applications and draw out ideas, making traditional meetings more productive. Collaboration has never been more seamless!
+Collaborating is more crucial than ever for innovation and creativity, so it’s essential when managing remote employees to use software that best allows for it. [Vibe](https://vibe.us/software/) interactive whiteboards were designed for innovation, collaboration, and ideation in real-time across the globe. Combine video conferencing with other applications and draw out ideas, making traditional meetings more productive. Collaboration has never been more seamless!

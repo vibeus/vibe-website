@@ -1,15 +1,17 @@
 ---
-title: "The Right Way to Clean Your Home Office Tech"
+title: The Right Way to Clean Your Home Office Tech
 slug: how-to-clean-home-office-tech
 author: Paige Smith
-date: 2021-04-26
-tags: ["remote work", "work from home", "interactive whiteboard"]
+date: '2021-04-26'
+tags:
+- interactive whiteboard
+- remote work
+- work from home
 draft: false
 isfeatured: false
-description: Do you actually know how to clean a laptop, digital whiteboard, or tablet? Try these simple and effective tips for cleaning all of the tech in your home office.
+description: Do you actually know how to clean a laptop, digital whiteboard, or tablet? Try these simple and effective tips
+  for cleaning all of the tech in your home office.
 ---
-
-
 
 After a year of working from home, your home office is probably past due for a deep clean. But before you spray a bottle of Windex on everything or use your last precious Clorox wipe, ask yourself: do I actually know the best way to clean everything on my desk? This post features smart strategies to help your electronic devices stay clean and functioning at their best so you can work from home like a champ.
 
@@ -20,7 +22,7 @@ Your trusty partner through the [challenges of working from home](https://vibe.u
 **Why a laptop needs to be cleaned**
 
 Crumbs, dust, hair, and other nasty particles can wreak havoc on the sensitive components within your laptop. When dust makes its way into a laptop’s fans and vents they lose their essential cooling power, making the laptop susceptible to overheating. If keys and ports are not properly cleaned they could easily lose their functionality, leaving you with a (very expensive) giant paperweight.
-  
+
 **How often should you clean a laptop?**
 
 The type of environment that your laptop is exposed to will ultimately determine how frequently it needs to be cleaned. Laptops that live in a home office around pet hair, poor ventilation, smoke, or other harmful factors may need to be cleaned every 3-6 months. However, if your environment is free of these things, aim to give your laptop a detailed cleaning once a year.
@@ -29,9 +31,7 @@ The type of environment that your laptop is exposed to will ultimately determine
 
 **The interior:** Accessing a laptop’s interior could potentially void your warranty. However, you can still dislodge some of the dust and grime without going under the hood. Simply grab a can of compressed air (or a more eco-friendly [electric air duster](https://www.amazon.com/XPOWER-Airrow-Multi-Use-Electric-Computer/dp/B01BI4UQK0/ref=sxin_10?ascsubtag=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&creativeASIN=B01BI4UQK0&cv_ct_cx=canless+air&cv_ct_id=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=canless+air&linkCode=oas&pd_rd_i=B01BI4UQK0&pd_rd_r=36047ace-1312-4114-9bbd-136217aa8388&pd_rd_w=kWLkg&pd_rd_wg=dasC2&pf_rd_p=e666d5aa-04ca-46aa-86b0-07ac28e037d4&pf_rd_r=2J8NHZKHZS2MSJ24NPND&qid=1617853097&s=electronics&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=mashcontent-20)) and direct the air at any vents and ports on the bottom or sides of your laptop. This process may result in a flurry of dust so make sure to work in a place that you don’t mind getting dirty from whatever particles come flying out of your laptop (like a garage or outside).
 
-
 {{< common/srcset "image-1.jpg" "Snack at your desk every now and then? Then it’s time to clean the keyboard." >}}
-
 
 **The keyboard:** A shot of air also comes in handy for giving keyboards a clean sweep. Using short, quick bursts, spray the air between the laptop’s keys. Use a clean [microfiber cloth](https://www.amazon.com/MagicFiber-Microfiber-Cleaning-Cloths-PACK/dp/B0050R67U0?ref_=ws_cp_a04215707a81e71b59ce_p_1_i_p) to wipe away any excess dust. For regular maintenance, you can use a [soft brush](https://www.amazon.com/OXO-Grips-Sweep-Laptop-Cleaner/dp/B07W1L7TCF?ots=1&slotNum=9&imprToken=38bc59ae-d708-558b-011&tag=hgxrt136-20&linkCode=w50) to sweep away crumbs or dust on the daily. Reach stains or greasy keys with a cotton swab lightly dipped in rubbing alcohol. Be careful not to leave too much moisture on the keys.
 
@@ -40,6 +40,7 @@ The type of environment that your laptop is exposed to will ultimately determine
 **The exterior:** Make use of the microfiber cloth that comes with your glasses or electronics and give the outside of your laptop a gentle rub down. Put a few drops of rubbing alcohol on the cloth to amp up the cleaning power. When the laptop is free of all exterior nastiness, dry the laptop with a clean microfiber cloth.
 
 **Helpful hints:**
+
 
 - Place a screen protector on your laptop as soon as you purchase a new computer or after a good, thorough cleaning. Not only will a screen protector protect your screen from damage, but it can withstand the sanitizing strength of rubbing alcohol. 
 - Keep bursts of air short when spraying compressed air near a fan. If a fan spins too fast it could break. 
@@ -67,10 +68,10 @@ Depending on the type of digital whiteboard, it may include a [passive or active
 
 **Helpful hints**
 
+
 - Strong chemicals like alcohol or ammonia can damage your whiteboard. Avoid them like the plague.
 - Make sure power is turned off and disconnected from the board while cleaning and until dry. 
 - If you’re using a Vibe board, check out our other [helpful cleaning tips](https://knowledge.vibe.us/tips-for-cleaning)
-
 
 {{< common/srcset "image-2.jpg" "Clean your touchscreen devices regularly for crystal clear images." >}}
 
@@ -94,12 +95,12 @@ For added sterilization, there are also [UV sterilizers](https://www.forbes.com/
 
 **Helpful hints**
 
+
 - The [CDC](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/disinfecting-your-home.html) recommends putting a wipeable cover on devices to allow for regular cleaning that won’t affect the delicate coating and components within your touchscreens. Screen protectors and a good case for the device can help with this. 
 - Use distilled or filtered water to avoid streaks and mineral build-up.
 - Never spray a solution directly on the device.
 
 ***Related:*** [Work from Home and Love It With These Must-have Tools](https://vibe.us/blog/work-from-home-and-love-it-with-these-must-have-tools/)
-
 
 {{< common/srcset "image-3.jpg" "" >}}
 
@@ -122,6 +123,7 @@ First, unplug the mouse from your computer or, if it’s cordless, remove its ba
 The final step is to clean the inside of the mouse. You can do this by following the manufacturer’s instructions on how to remove the top — you may be able to gently pull it off or it could require the removal of a screw. Once inside, take a fresh Q-Tip or corner of a microfiber cloth dampened with alcohol and wipe down the inside of the buttons and other crevices. Allow all parts of the mouse to dry before reassembling.
 
 **Helpful hints**
+
 
 - A clean mouse needs a clean surface to rest and roll on. Make sure your mouse pad is ready for use by running a lint roller over it to remove dust. Follow this up with a rub from a damp cloth.
 

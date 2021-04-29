@@ -1,15 +1,16 @@
 ---
-title: "Use This Easy Game Plan to Make the Most of Collaborative Meetings"
+title: Use This Easy Game Plan to Make the Most of Collaborative Meetings
 slug: collaborative-meetings-plan
 author: Vibe Team
-date: 2021-04-21
-tags: ["remote collaboration", "meeting techniques", "remote meetings"]
+date: '2021-04-21'
+tags:
+- meeting techniques
+- remote collaboration
+- remote meetings
 draft: false
 isfeatured: false
 description: Need to boost the effectiveness of your collaborative meetings? Vibe offers essential tips for engaging participants.
 ---
-
-
 
 Collaborative meetings are an excellent way to get different expertise, perspectives, and ideas from various organizational teams. This kind of meeting is certainly catching on: a [recent Harvard study](https://hbr.org/2016/01/collaborative-overload) found that employees spend 50% or more of their day in collaborative activities.
 
@@ -20,6 +21,7 @@ While you can have collaborative meetings either in person or virtually, it’s 
 ## Make sure that it’s convenient for everyone
 
 Schedule the meeting at a time that works for everyone. This can be a challenge because you need to be mindful of:
+
 
 - Different department schedules and work hours
 - Time zones if teams are global or throughout the country
@@ -38,6 +40,7 @@ Are there better ways to communicate the information (maybe via email, forum, or
 
 A [Harvard study](#) found that 75% of cross-functional teams were dysfunctional because they couldn’t:
 
+
 - Stay on budget
 - Stay on schedule
 - Follow project specifications
@@ -45,7 +48,6 @@ A [Harvard study](#) found that 75% of cross-functional teams were dysfunctional
 - Align with corporate goals and strategy
 
 To avoid these issues, create a clear agenda to share beforehand so the team can come to the meeting prepared to contribute and invested in its purpose.
-
 
 {{< common/srcset "image-1.jpg" "" >}}
 
@@ -61,7 +63,7 @@ To facilitate an atmosphere where participants can innovate or think creatively,
 
 Using an interactive whiteboard makes it easy to share, contribute, and brainstorm in a “startup” mentality that encourages innovation. Create that napkin idea on an interactive whiteboard that can capture ideas more effectively.
 
-***Related:*** [Why Brainwriting Produces the Best Team Ideas](https://vibe.us/blog/why-brainwriting-produces-the-best-team-ideas/)                  
+***Related:*** [Why Brainwriting Produces the Best Team Ideas](https://vibe.us/blog/why-brainwriting-produces-the-best-team-ideas/) 
 
 ## Encourage engagement among your audience
 
@@ -71,33 +73,34 @@ To lead an effective meeting, you need tools and applications that will encourag
 
 An effective collaborative meeting requires taking vigilant notes to capture all the contributors’ ideas and input. Not only will these notes keep track of decisions, vision, and solutions, but it creates a reference for future meetings and determining measurable tasks for participants. Using an interactive whiteboard is an easy solution for taking notes.
 
-
 {{< common/srcset "image-2.jpg" "The Vibe digital whiteboard creates opportunities for team collaboration." >}}
 
 ## How an interactive whiteboard can help in your next collaborative meeting
 
 An [interactive whiteboard](https://vibe.us/software/) is an ideal tool for collaborative meetings. The whiteboard is intuitive, allowing participants to easily:
 
+
 - Share and draw ideas on an unlimited canvas.
 - Utilize smart objects to create easy to follow and read.
 - Import documents and images for faster workflow.
 - Connect across different devices for seamless collaboration.
 
-**Bring teams together with active collaboration:**
+**Bring teams together with active collaboration:**  
 You can start the meeting with an activity designed to encourage participation from your team. This activity can be fun or directed toward the project. Create mini discussions between smaller subsets of the larger meeting to drill down on specific problems or tasks.
 
-**App integrations for improved workflow:**
+**App integrations for improved workflow:**  
 Using an interactive whiteboard, you can integrate with other apps, documents, and images to create a shared space where participants can bounce ideas off of each other or inspire better workflow. Vibe’s interactive whiteboard integrates with over [50 popular collaboration apps](https://vibe.us/android-app-store/) such as Slack, Zoom, Canvas, Creative Cloud, and more.
 
-**Edit and annotate in real time:**
+**Edit and annotate in real time:**  
 During brainstorming or problem-solving meetings, you’ll want a tool that allows for dynamic editing in real time. An interactive whiteboard lets all participants edit, modify, remove, or annotate ideas that can be saved for later or shared among the team to encourage workflow outside of the meeting.
 
-**Easily access and share files with your team:**
+**Easily access and share files with your team:**  
 Digital whiteboards allow participants to import documents and images that can be edited, annotated, and saved as a PDF. This provides a digital record you can keep in a shared folder for people to access later for reference.
 
 ## Top-notch security for information storage
 
 Cybersecurity is a growing threat that requires constant vigilance. You’ll need to ensure proper VPNs, software, and [applications are secure](https://vibe.us/security/) within your meetings. Vibe’s interactive whiteboard provides:
+
 
 - Identity Management
 - Data Protection
@@ -110,7 +113,7 @@ These safeguards are essential in today’s marketplace. By integrating these ti
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 

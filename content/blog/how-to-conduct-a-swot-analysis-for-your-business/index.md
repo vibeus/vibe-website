@@ -1,25 +1,25 @@
 ---
-title: "How to Conduct a S.W.O.T. Analysis for Your Business"
+title: How to Conduct a S.W.O.T. Analysis for Your Business
 slug: how-to-conduct-a-swot-analysis-for-your-business
 author: Megan Snyder
-date: 2020-04-18
-tags: ["meetings", "SWOT analysis", "template"]
+date: '2020-04-18'
+tags:
+- meetings
+- SWOT analysis
+- template
 draft: false
 isfeatured: false
-summary: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years.
-description: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years.
+description: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies
+  while setting goals for the coming years.
 ---
-
-
 
 On any given day, business owners have a lot to keep track of. And while they’re working to propel the business forward, it can be easy to get overwhelmed by so much information. That’s why it’s essential to create a simple strategy to focus their attention and make smart plans for the future.
 
 Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies while setting goals for the coming years. We’ll cover what goes into a S.W.O.T. analysis, why it makes sense for every business, and how to complete one with your team.
 
-
 ## What is a S.W.O.T. analysis?
-{{< common/srcset "image-1.jpg" "SWOT Analysis overview" >}}
 
+{{< common/srcset "image-1.jpg" "SWOT Analysis overview" >}}
 
 A S.W.O.T. analysis determines the **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats of a business, a marketing campaign, a client proposal—really, any number of business decisions can benefit from a S.W.O.T. analysis. It’s an effective way to get a handle on the current scope of the company and make more strategic plans.
 
@@ -42,7 +42,6 @@ Any business decision that affects a majority of the company would benefit from 
 
 A full-scale S.W.O.T. analysis isn’t necessary for every single decision you make, but it’s worth going through a quick rundown of the basic principles on a regular basis. 
 
-
 ## Who should complete the S.W.O.T. analysis?
 
 While each section’s list will ideally be data-driven, it’s still helpful to have different points of view contributing to the project. Your sales team could develop a totally different list of the company’s strengths than the IT department, and the marketing team might think of more opportunities than customer service does. So, depending on the size of the company, as many people as possible should participate in the analysis.
@@ -52,7 +51,6 @@ Companies with departments made up of 10 or more people could have each team com
 If you’re making a decision that will directly impact customers—like opening a new store or revamping a popular product line—consider giving customers the opportunity to weigh in. You can use an email or social media survey to gather a few data points, then add them to what your team comes up with.
 
 ***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
-
 
 ## How do I complete a S.W.O.T. analysis?
 
@@ -66,9 +64,7 @@ Once everyone’s had their say, you’ll hopefully see a few patterns. Notice w
 
 Let’s take a look at how a small business might use a S.W.O.T. analysis. This locally owned shoe store has a well-established customer base. In general, things are going well and the company is able to cover their costs, but with the ongoing popularity of online shopping, it’s time to think of new ways to attract and retain customers.
 
-
 {{< common/srcset "image-2.jpg" "SWOT Analysis is simple on a Vibe interactive whiteboard" >}}
-
 
 After a team brainstorming session, the owner is able to see that his well-trained staff and good location could help to set his business apart from the competition and make hosting community events a strong possibility for attracting more customers. Launching an online store would also make the store’s inventory more widely available and could increase his sales over the competition.
 
@@ -78,7 +74,7 @@ Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysi
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

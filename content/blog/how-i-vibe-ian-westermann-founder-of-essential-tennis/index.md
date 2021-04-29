@@ -1,15 +1,17 @@
 ---
-title: "How I Vibe: Ian Westermann, Founder of Essential Tennis"
+title: 'How I Vibe: Ian Westermann, Founder of Essential Tennis'
 slug: how-i-vibe-ian-westermann-founder-of-essential-tennis
 author: Vibe Team
-date: 2021-03-25
-tags: ["How I Vibe", "remote collaboration", "customer case study"]
+date: '2021-03-25'
+tags:
+- customer case study
+- how i vibe
+- remote collaboration
 draft: false
 isfeatured: false
-description: Learn how tennis coach Ian Westermann leverages technology to connect with the tennis community and help his players improve on the court.
+description: Learn how tennis coach Ian Westermann leverages technology to connect with the tennis community and help his
+  players improve on the court.
 ---
-
-
 
 Tennis coach and business owner Ian Westermann created a unique position for himself. What began as an everyday job as a tennis professional gradually evolved into a business that relies heavily on social media to grow, build, and maintain an active audience in the tennis community.
 
@@ -19,20 +21,19 @@ Through the sale of online resources and one-on-one coaching sessions, Westerman
 
 Westermann, who has played tennis since he was around 10, graduated from college in 2004 and immediately started coaching. While he was certain of his career field, he quickly realized that being a tennis pro could take its toll further down the road.
 
-“I was a normal on-courts tennis pro from 2004 on...but I saw that I was going to have to sacrifice my body if I wanted that to be my job for the next 20, 30, 40 years,” he explained. “I wanted to spend more time with people who really had a passion for challenging themselves and growing, and really pushing themselves and improving.” 
+“I was a normal on-courts tennis pro from 2004 on…but I saw that I was going to have to sacrifice my body if I wanted that to be my job for the next 20, 30, 40 years,” he explained. “I wanted to spend more time with people who really had a passion for challenging themselves and growing, and really pushing themselves and improving.” 
 
 Driven by his aspiration to help tennis students grow as both people and athletes, Westermann moved his platform online in 2008 with the goal of connecting with more people who wanted to improve their game. After publishing content online for three years, Westermann knew how to monetize well enough that he could quit his job and devote all of his time and attention to [Essential Tennis, LLC](https://www.essentialtennis.com/).
- 
+
 Westermann has accomplished a lot with a relatively small team. “Until recently, I had two other coaches on staff. They left at the beginning of the pandemic, unfortunately, so right now it’s just me on the coaching side, but I employ two production people full time and an administrative/customer support person full time.” He also employs a web developer and marketing specialist part-time.
 
 ## The challenge
 
 While Westermann’s vision for Essential Tennis is clear, even he had to adapt to swift and major changes brought on by the COVID-19 pandemic. His team had established a good system for creating and publishing content online, but when his two staff coaches left at the start of the pandemic, Westermann saw that the system had to change. 
- 
+
 “When I found out that it was going to be down to me—which is how it started, making content on my own, and coaching on my own without other coaches with me—I knew I was going to have to make some kind of pivot or shift in how I created content, how I coached, how I interacted with my viewers and my students who come work with me in person,” Westermann said.
 
 He still wanted his content to be engaging, but not having multiple touchpoints, voices and personalities appearing in the videos anymore made that a challenge. “I felt like I needed something to help make the shift in a more dynamic way to things being focused only on me again,” he explained. “So that’s when I started researching smart boards.”
- 
 
 ## How Westermann chose Vibe
 
@@ -42,12 +43,12 @@ But there was another surprising factor that helped him choose Vibe: “I went t
 
 With that, Westermann was sold on Vibe and has been using the interactive whiteboard since April 2020.
 
-“It’s rare that I don’t use it once a day,” he said. “I’m either working with a student or I’m creating content every day...Pretty much every day I come to work, I use it.”
+“It’s rare that I don’t use it once a day,” he said. “I’m either working with a student or I’m creating content every day…Pretty much every day I come to work, I use it.”
 
 ## How he uses the Vibe board on a daily basis
 
 Westermann breaks down his use of the board into two major categories: content and coaching.
- 
+
 “On the content side of things, I use it for slides and presentations to show images, text, graphs, that sort of thing,” he said. But he finds himself using it even more frequently for strategy diagramming, where he uses a picture of a tennis court and two players to illustrate his points. “I’m able to move the players around and draw lines; it’s super flexible for setting up different point scenarios and then making an instructional piece of content around different patterns or targets.”
 
 The other content component is video analysis. He can pull up different video clips for strategy lessons or technique analysis, and Vibe’s annotation feature lets him draw over top of the footage as he breaks it down frame-by-frame.

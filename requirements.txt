@@ -1,4 +1,7 @@
 colorama==0.4.1
-Pillow==8.1.1
-requests==2.22.0
-PyYAML==5.4
+Markdown==3.3.4
+git+git://github.com/jiulongw/python-markdownify@v1.0-vibe#egg=markdownify
+Pillow==8.1.2
+requests==2.25.1
+PyJWT==2.0.1
+PyYAML==5.4.1

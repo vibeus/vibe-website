@@ -1,15 +1,15 @@
 ---
-title: "Coaching with the Vibe Board"
+title: Coaching with the Vibe Board
 slug: coaching-with-the-vibe-board
 author: Stephanie Prince
-date: 2021-01-12
-tags: ["sports"]
+date: '2021-01-12'
+tags:
+- sports
 draft: false
 isfeatured: false
-description: Technology has been improving team performance for years. Digital whiteboards, like Vibe, take practices to the next level.
+description: Technology has been improving team performance for years. Digital whiteboards, like Vibe, take practices to the
+  next level.
 ---
-
-
 
 Facilitating a successful week of practices requires a lot of up-front planning and communication. Coaches have to meet and create a practice plan, review the previous game, and scout the upcoming opponent amongst other tasks. 
 
@@ -25,8 +25,6 @@ With Vibe, there are several options for watching film. The first being that you
 
 {{< common/srcset "image-1.png" "Annotate over film on the Vibe Board." >}}
 
-
-
 ## Creating plays
 
 Another key to a strong game plan is creating plays. Most coaches use whiteboards to quickly draw out plays and explain them to the team. The disadvantage of using a traditional whiteboard is that you can’t save the plays as you go. Every time you have to erase and draw a new one. 
@@ -36,8 +34,6 @@ The Vibe board allows you to create [templates](https://knowledge.vibe.us/using-
 Players can also access the canvas remotely on their personal devices so that they can review saved plays at their leisure. 
 
 {{< common/srcset "image-2.png" "Basketball court template on Vibe." >}}
-
-
 
 ## Planning and communication
 
@@ -50,7 +46,8 @@ Running a successful week of practices takes a lot more work than expected. Coac
 New technology like Vibe can help smooth out this process. It centralizes all aspects of coaching through its own whiteboard software as well as integrating third party apps. Technology like Vibe gives coaches the opportunity to stay ahead of the competition.
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

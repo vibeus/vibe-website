@@ -1,15 +1,17 @@
 ---
-title: "Remote Training Tips to Help Your Modern Work Team Thrive"
+title: Remote Training Tips to Help Your Modern Work Team Thrive
 slug: remote-training-tips
 author: Vibe Team
-date: 2021-04-16
-tags: ["remote collaboration", "remote training", "meeting techniques"]
+date: '2021-04-16'
+tags:
+- meeting techniques
+- remote collaboration
+- remote training
 draft: false
 isfeatured: false
-description: Want the best tips for developing a remote training plan? The Vibe team touches on the essentials of hosting remote training.
+description: Want the best tips for developing a remote training plan? The Vibe team touches on the essentials of hosting
+  remote training.
 ---
-
-
 
 Remote work options are becoming more prevalent than ever, even among some of the world’s biggest companies. In fact, a survey from KPMG showed that [68% of large enterprises](https://amp.cnn.com/cnn/2020/08/25/business/office-space-remote-work-pandemic/index.html) are shifting to permanent remote work options and downsizing their office space. To facilitate a productive and effective remote workforce, many corporations are investing in remote training tools to help with the transition, [onboard new employees](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/), and create an environment of lifelong learning.
 
@@ -18,6 +20,7 @@ Key to engaging remote training is leveraging [social tools and collaboration so
 ## Choose a remote training platform you can rely on
 
 You’ll need a reliable remote meeting platform to conduct training. There are several options on the market, and you’ll want to pick a platform that fits your budget. To encourage better training, look for a [platform that has interactive elements](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) such as:
+
 
 - Breakout rooms
 - [Whiteboards](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
@@ -34,12 +37,13 @@ When you want your workforce to contribute ideas and best practices on a topic, 
 
 ## Understand your audience’s goals
 
-Before creating your remote training schedule, you should determine the goal of the meeting. Are you conducting a required or elective training session? Is this training necessary to solve an organizational problem? Are you improving your participants’ skill set by the end of the session?
+Before creating your remote training schedule, you should determine the goal of the meeting. Are you conducting a required or elective training session? Is this training necessary to solve an organizational problem? Are you improving your participants’ skill set by the end of the session?  
 When you clearly define the purpose and goal of the meeting, you’ll be able to articulate a schedule that produces results.
 
 ## Make good use of existing circumstances
 
 Remote work offers a range of benefits that you can use to improve your workforce’s productivity and well-being. By providing remote training opportunities regularly, you can improve communication, education, and management skills. When training in a remote environment, you can:
+
 
 - Make courses accessible across different devices for flexibility and on-demand training.
 - Engage participants through forums, chat, video conferencing, and interactive whiteboards to focus and motivate collaboration.
@@ -57,7 +61,6 @@ Interaction can be challenging when everyone is remote, but utilizing interactiv
 
 ***Related:*** [Create Effective Onboarding Practices for Your Remote Team](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/)
 
-
 {{< common/srcset "image-1.jpg" "" >}}
 
 ## Gather remote employees (if possible)
@@ -72,10 +75,11 @@ Encourage participants to learn from each other by creating opportunities for th
 
 Remember to schedule breaks from training. This lets your employees rest their minds and take care of other pressing tasks or personal needs. Ideally, you’ll want to offer a break every 10 minutes. There are many techniques (for example, the Pomodoro technique) that combine sessions of focused work alternated with frequent, short breaks that have been proven to increase productivity. These breaks could be:
 
+
 - Personal breaks
 - Discussions/ use cases
 - Knowledge checks
-- Snack breaks                                                                                     
+- Snack breaks 
 
 Giving your participants a break helps them retain information and allows them to re-engage when you reset for the next topic. [Studies](https://www.forbes.com/sites/alankohll/2018/05/29/new-study-shows-correlation-between-employee-engagement-and-the-long-lost-lunch-break/?sh=5f0625384efc) have found that breaks improve productivity, well-being, and performance while reducing stress that can lead to job burnout.
 
@@ -91,17 +95,13 @@ Give participants access to notes from the meeting and an opportunity to revisit
 
 It’s also vital to provide additional resources for participants to deepen their understanding. These resources could be:
 
+
 - Training videos
 - Interactive workbooks
 - Online knowledge quizzes
 - Other educational resources on the topic
 
- 
-
 {{< common/srcset "image-2.jpg" "" >}}
-
-
- 
 
 ## Remote training offers some challenges, but many benefits
 
@@ -110,7 +110,8 @@ As the workforce grows more remote, collaborative training will become essential
 ***Related:*** [10 Remote Collaboration Tools for Your Business Needs](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/)
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

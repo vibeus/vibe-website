@@ -1,14 +1,17 @@
 ---
-title: "What to Know About Synchronous and Asynchronous Communication"
+title: What to Know About Synchronous and Asynchronous Communication
 slug: what-you-need-to-know-about-synchronous-and-asynchronous-communication
 author: Megan Snyder
-date: 2020-11-06
-tags: ["brainstorming", "whiteboard"]
+date: '2020-11-06'
+tags:
+- asynchronous communication
+- brainstorming
+- digital whiteboard
+- synchronous communication
 draft: false
-description: Teams can use Synchronous Communication or Asynchronous Communication for group collaboration.
 isfeatured: false
+description: Teams can use Synchronous Communication or Asynchronous Communication for group collaboration.
 ---
-
 
 ## Synchronous communication vs. asynchronous communication
 
@@ -26,9 +29,7 @@ You may not know when you’ll be commuting to the office next, or if your new p
 
 Synchronous communication is a form of communicating that happens in real-time or near-real-time. Most people are familiar with synchronous communication in an office setting. For example, any time a co-worker stopped by your office for a progress check or your boss sent a question over Slack when they knew you were at your desk, they were using synchronous communication. **Synchronous communication occurs when team members expect an immediate response.**
 
-
 {{< common/srcset "image-1.jpg" "Synchronous communication via fist bumps." >}}
-
 
 In addition to face-to-face conversations and instant messaging, other synchronous examples include phone calls, live online chats, and live video conferences. The biggest defining characteristic of synchronous messaging is that if you send out a message, you can reasonably expect a reply within seconds to minutes.
 
@@ -36,11 +37,11 @@ Synchronous communication is an excellent way to build personal connections or t
 
 **Synchronous works best in scenarios where:**
 
+
 - meetings can be scheduled ahead of time.
 - answers are needed immediately.
 - you’re building workplace camaraderie, such as hosting a team outing (either in-person or virtual).
 - you’re brainstorming a new product or planning a launch and want everyone to start on the same page.
-
 
 ## Asynchronous communication
 
@@ -50,13 +51,9 @@ Asynchronous communication examples include recorded video meetings, email, shar
 
 If your team is working remotely in any capacity, asynchronous communication has to be part of the productivity conversation. Working from home means that distractions can arise, schedules might get shifted, and despite your best efforts, you might not make it to every Zoom call on time. An asynchronous strategy ensures that no one gets left behind.
 
-
-
 {{< common/srcset "image-2.jpg" "Async communication works well for flexible workplaces." >}}
 
-
 There are other benefits to asynchronous messaging, too. Face-to-face conversations enhance connection, but they can also steal time away from your work. And it’s hard to concentrate on doing deep work when your email inbox is open and constantly filling up. Establishing an asynchronous plan lets workers focus during a time that works best for them, instead of constantly feeling the pressure to respond to every email as it rolls in.
-
 
 ## Collaboration and communication at Vibe
 
@@ -70,32 +67,31 @@ The right mix of both communication strategies will largely depend on your team 
 
 ***Related:*** [Videoconference Apps you can use with Vibe Whiteboarding](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)
 
-
 ## Team collaboration software
 
 Now that you know the types of communication you’re working with, you can consider ways to make the most of the collaboration software applications and tools you already use. Or maybe your communication toolkit could use a refresh. While the exact apps you’ll use will depend on your business and the type of projects you’re working on, here are a few options that we like.
 
-[Slack](https://slack.com/)
+[Slack](https://slack.com/)  
 This messaging platform is great for quick communication and lets us send reminders, files, and updates whether or not the entire team is online. Creating separate threads for different teams and projects keeps everything organized, too, especially if you’re working after-hours and want to make sure your co-workers know exactly where the project stands.
 
-[Notion](https://www.notion.so/product)
+[Notion](https://www.notion.so/product)  
 Every team has their set of workflows they like best, or a combination of steps that helps them work more efficiently. And for those asynchronous times, co-workers need to know what’s going on at any given time. Notion organizes timelines, workflows, and other work-related schedules in a reader-friendly and customizable layout.
 
-*Laura says: “We use Notion for just about everything. I think that it's been most embraced by team members who have planning as a significant part of their role; product road maps and marketing campaign targets come to mind. We also use it for team meeting minutes and for weekly/quarterly updates.”*
+*Laura says: “We use Notion for just about everything. I think that it’s been most embraced by team members who have planning as a significant part of their role; product road maps and marketing campaign targets come to mind. We also use it for team meeting minutes and for weekly/quarterly updates.”*
 
-**Google Drive**
+**Google Drive**  
 Google Sheets and Docs are easily shareable and have an easy-to-access edit history. It’s simple to see who is simultaneously working on the document and to message within that file without having to switch to a separate messaging platform.
 
-[Figma](https://www.figma.com/)
+[Figma](https://www.figma.com/)  
 We at Vibe love a brainstorm, and we have a strong need for a design app that encourages that kind of creative collaboration. Figma is a browser-based app that lets us brainstorm as well as create UI/UX design, graphic design, wireframes, and more.
 
-*Laura says: “Our design team uses Figma daily. It's what they use to wireframe for product design, on top of any changes we're making to the website or to graphics. If we're meeting in real-time, we'll follow the presenter—click on their icon and then the view goes wherever they go—through the project. We're much more likely to do this sort of visual communication—in Figma or on Vibe—than using video conferencing.”*
+*Laura says: “Our design team uses Figma daily. It’s what they use to wireframe for product design, on top of any changes we’re making to the website or to graphics. If we’re meeting in real-time, we’ll follow the presenter—click on their icon and then the view goes wherever they go—through the project. We’re much more likely to do this sort of visual communication—in Figma or on Vibe—than using video conferencing.”*
 
 As our work situations evolve and the phrase “traditional office” takes on a new meaning, asynchronous communication will become more prevalent. With a growing [list of app integrations](https://vibe.us/android-app-store/) and a design that fits your communication style, the Vibe board can be one of the solutions to your remote team’s collaboration needs.
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 
