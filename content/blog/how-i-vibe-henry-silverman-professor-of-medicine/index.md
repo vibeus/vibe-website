@@ -1,20 +1,17 @@
 ---
-title: "How I Vibe: Henry Silverman, Professor of Medicine "
+title: 'How I Vibe: Henry Silverman, Professor of Medicine'
 slug: how-i-vibe-henry-silverman-professor-of-medicine
 author: The Vibe Team
-date: 2020-07-22
-tags: ["higher educaiton", "online teaching", "distance learning"]
+date: '2020-07-22'
+tags:
+- distance learning
+- higher educaiton
+- online teaching
 draft: false
 isfeatured: false
-summary: Dr. Henry Silverman, a professor at the University of Maryland, teaches graduate students online and leads international training workshops.
-description: Dr. Henry Silverman, a professor at the University of Maryland, teaches graduate students online and leads international training workshops.
-hero_styles:
-  background: "#f4f4f4"
+description: Dr. Henry Silverman, a professor at the University of Maryland, teaches graduate students online and leads international
+  training workshops.
 ---
-
-
-
-
 
 With many colleges and universities unsure of what the fall semester will look like amidst the coronavirus pandemic, at least one professor already has his plan in place.
 
@@ -25,7 +22,6 @@ For someone who regularly travels to conduct multi-day and multi-week workshops 
 “All my traveling had to stop. In fact, I taught my last workshop in Cairo in the first week of March; I tell everybody I got back to the U.S. just in time,” Dr. Silverman says.
 
 He found himself in a position that educators everywhere are experiencing: he needed a way to engage with his students and colleagues despite the restrictions on group gatherings and international travel.
-
 
 ## Finding a solution
 
@@ -39,7 +35,6 @@ His search began for a digital whiteboard that could meet this criteria, though 
 
 After a couple of sessions with Vibe’s customer service team, Dr. Silverman says that setting up the board was “not a steep learning curve at all. You go out there and try it, and you have to be prepared for some hiccups—that’s par for anything. Now it’s just second nature, running the Vibe board. There’s a lot of things that one could do with the board, and I’m still getting my feet wet.”
 
-
 ## Engaging your audience by using the Vibe board
 
 In a time where millions of people are working, learning, and even socializing remotely, the ability to share engaging visuals is crucial. On that note, Dr. Silverman describes teaching as a performance and says that planning ahead is important for an online setting.
@@ -48,22 +43,19 @@ In a time where millions of people are working, learning, and even socializing r
 
 With this in mind, Dr. Silverman’s goal with using the Vibe board is to replicate the kind of interactive energy that occurs naturally in the classroom between the instructor and students. By having his students turn on their cameras at the start of class, they can get close to mimicking that kind of environment.
 
-[Zoom, the video conferencing app,](https://youtu.be/bNUe4elKEug) plays a big role in Dr. Silverman’s lessons and workshops. One of his  go-to tactics for collaboration is forming breakout groups in Zoom and working on case studies as a class.  “I email the case study ahead of time, then when [the participants] go in the breakout rooms they work on the case study. Then, I bring them all back so they can share the case studies with everybody on Zoom. Plus, everybody can have a separate work page if you send out a multi-page Vibe board,” adding that he appreciates how easily people can annotate on the shared board.
+[Zoom, the video conferencing app,](https://youtu.be/bNUe4elKEug) plays a big role in Dr. Silverman’s lessons and workshops. One of his go-to tactics for collaboration is forming breakout groups in Zoom and working on case studies as a class. “I email the case study ahead of time, then when [the participants] go in the breakout rooms they work on the case study. Then, I bring them all back so they can share the case studies with everybody on Zoom. Plus, everybody can have a separate work page if you send out a multi-page Vibe board,” adding that he appreciates how easily people can annotate on the shared board.
 
-Vibe’s [annotation feature](https://youtu.be/wOL_Oi2ZwIw) also allows Dr. Silverman to further illustrate his points during Zoom sessions or on [PowerPoint slides](https://youtu.be/ennY8AU-a5U). His students seem to appreciate the annotation tools as well, with one student in particular noting, “I liked that words were stressed by underlines or circles while explaining important points.”  This seemingly small detail goes a long way in effective communication, and Dr. Silverman plans on using it more often as more of his conferences and training workshops move to being virtual events.
+Vibe’s [annotation feature](https://youtu.be/wOL_Oi2ZwIw) also allows Dr. Silverman to further illustrate his points during Zoom sessions or on [PowerPoint slides](https://youtu.be/ennY8AU-a5U). His students seem to appreciate the annotation tools as well, with one student in particular noting, “I liked that words were stressed by underlines or circles while explaining important points.” This seemingly small detail goes a long way in effective communication, and Dr. Silverman plans on using it more often as more of his conferences and training workshops move to being virtual events.
 
-Another engagement activity involves “polling” on  the Zoom platform; “I was talking to someone about using polling as knowledge checks. Every 15 or 20 minutes, you can ask a question and see if people took in what you were trying to teach.”  Dr. Silverman adds that another technique is that “you can ask a question and have people write their answers on the Vibe board in real time”.
+Another engagement activity involves “polling” on the Zoom platform; “I was talking to someone about using polling as knowledge checks. Every 15 or 20 minutes, you can ask a question and see if people took in what you were trying to teach.” Dr. Silverman adds that another technique is that “you can ask a question and have people write their answers on the Vibe board in real time”.
 
 {{< common/srcset "image-1.png" "" >}}
 
-
 Finally, with so many of his students and colleagues living in different time zones and with unreliable internet connections, the ability to record his Zoom presentations is essential so that he can easily send the link to anyone who missed the live lesson. 
-
 
 ## Obtaining feedback
 
 While Dr. Silverman has already begun to find different ways to interact through the Vibe board, he still regularly asks for feedback from students and colleagues to improve his presentations. (As he says, “I always get feedback. You can’t improve unless you know what the heck you’re doing!”) His main focus: going into every collaboration with a few strategic engagement activities.
-
 
 ## What’s next
 
@@ -76,7 +68,8 @@ While this new suite of tech tools will enhance the classes he already teaches o
 With Dr. Silverman’s attention to detail and enthusiasm for creating interactive learning experiences, keeping his audience engaged with the Vibe board should be no problem.
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

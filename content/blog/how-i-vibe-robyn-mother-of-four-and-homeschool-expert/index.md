@@ -1,16 +1,17 @@
 ---
-title: "How I Vibe: Robyn C., Mother of Four and Homeschool Expert"
+title: 'How I Vibe: Robyn C., Mother of Four and Homeschool Expert'
 slug: how-i-vibe-robyn-mother-of-four-and-homeschool-expert
 author: Vibe Team
-date: 2020-05-14
-tags: ["homeschool", "collaboative learning", "digital whiteboard", "teaching"]
-isfeatured: false
+date: '2020-05-14'
+tags:
+- collaboative learning
+- digital whiteboard
+- homeschool
+- teaching
 draft: false
-summary: Robyn Cooper has continued to teach at home over the past six-plus years. Now she is using Vibe for her homeschooling.
+isfeatured: false
 description: Using technology for homeschooling is simpler with the right tools. Learn how one family makes it work.
 ---
-
-
 
 Millions of parents around the world have recently taken on a new profession: teaching their children from home. While some households are figuring out how to run an at-home classroom for the first time, others have already established a homeschooling routine.
 
@@ -26,7 +27,6 @@ Let’s take a look at how the family uses the board on a typical school day.
 
 *Related:* [How I Vibe: Hannah Brown, Kindergarten Teacher](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)
 
-
 ## Handwriting Tips Using the Template
 
 When asked about her favorite feature of the Vibe board, Robyn quickly replied, “I love the template feature.” And because Vibe provides a selection of templates as well as the option to create your own, Robyn is able to customize templates for specific lesson plans, including handwriting for her younger children.
@@ -35,24 +35,17 @@ When asked about her favorite feature of the Vibe board, Robyn quickly replied, 
 
 She explained that her family’s style of homeschooling focuses on building upon the previous day’s lessons, likening it to building a castle. “You start with teaching the foundation a brick at a time, and then you build layers, brick by brick. So the template is a phenomenal tool because you can add to what you’ve already done. Adding the layers of learning to what’s already there is amazing. One page gives us our review, plus our new material. This only works because I can cut and move objects.
 
-
-
-
-
-
 ## History Class on an Infinite Canvas
 
 In addition to templates, the Vibe board’s infinite canvas is another useful tool for building on earlier lessons. You can draw, write, add images, and change the board without ever running out of space, making this feature ideal for when Robyn’s family is creating and adding to historical timelines.
 
 “We use the Vibe to build a history timeline. The board is useful because you can move pictures and text, so if the timeline is expanding or shrinking, you can zoom in and out, and the timeline can go on and on. We keep adding characters, events, locations, and geography to that board.”
 
-
-## Getting Creative with Cursive and Sticky Notes 
+## Getting Creative with Cursive and Sticky Notes
 
 Using the template tool makes handwriting sessions easier and more fun, but there are other features of the Vibe board that can add variety to standard lesson plans. Robyn’s family discovered a fun and creative way to work on a couple of different skills at once using the board’s virtual sticky notes.
 
-“We use the clock face to teach my children where to start and stop round letters - we call them clock letters” Robyn said. “If you think of writing cursive ‘c,’ you start the letter at the baseline, curve up to the midline, stop at the two o’clock position, and roll back down to the baseline passing back through 1 o’clock, 12 o’clock, 11 o’clock, 10 o’clock, and 9 o’clock. So, I put 12 sticky notes on the board, each with one number on it (1 to 12) and ask my child to arrange the sticky notes like a clock face. It’s fun for him. He is learning how to tell time, but also sharpen his handwriting skills. I’m also saving time, the next day, I just pull up the template for this, and he can do it again for any of his letters or telling time.”
-
+“We use the clock face to teach my children where to start and stop round letters – we call them clock letters” Robyn said. “If you think of writing cursive ‘c,’ you start the letter at the baseline, curve up to the midline, stop at the two o’clock position, and roll back down to the baseline passing back through 1 o’clock, 12 o’clock, 11 o’clock, 10 o’clock, and 9 o’clock. So, I put 12 sticky notes on the board, each with one number on it (1 to 12) and ask my child to arrange the sticky notes like a clock face. It’s fun for him. He is learning how to tell time, but also sharpen his handwriting skills. I’m also saving time, the next day, I just pull up the template for this, and he can do it again for any of his letters or telling time.”
 
 ## Make Geographical Maps with Sketch and Write
 
@@ -61,8 +54,6 @@ When it’s time for geography, Robyn’s kids can interact with maps in several
 “We do an exercise called blob mapping,” Robyn explained. “One way to do this is by literally tracing a map; the other way, is to put an image of the map on one side of the screen, then have the child drawing and copy the image as best as they can on the whiteboard using the split screen feature.” The board’s coloring feature makes showcasing different sections of the map easy to do, too.
 
 {{< common/srcset "image-1.png" "" >}}
-
-
 
 ## Involve the Whole Family
 
@@ -78,19 +69,15 @@ The screencasting feature is particularly helpful when addressing her small grou
 
 *Related:* [Making Sure Your Kids Still Have An Active Social Life While Learning Remotely](https://vibe.us/blog/making-sure-your-kids-still-have-an-active-social-life-while-learning-remotely/)
 
-
 ## Use Your Favorite Apps
 
 Being able to cast images between screens using the Vibe app also helps when Robyn is running Zoom meetings with other parents and children. She also lists the Slack integration as one of her most-used features because a few of her groups use that platform for communicating.
 
 With a large selection of app integrations and the ability to run different apps simultaneously, Robyn can keep her lessons on track without having to stop and switch between screens and programs. She explains, “We do integrated studies, so if we’re doing a character study, we’re also learning about an animal and a Bible character. We’ll pull up a YouTube video, and I’ll split-screen a whiteboard, and we stop the video and take notes on the whiteboard so that we’re retaining and reviewing as we’re going.”
 
-
 {{< common/srcset "image-2.png" "" >}}
 
-
-
-## Encourages Movement and Saves Space 
+## Encourages Movement and Saves Space
 
 Kids like to move, and studies have shown that moving while learning helps children to retain information and maintain focus. Robyn’s kids are no different, so when they need to work out a math problem, they make their way up to the board. She has found that simply asking them to write on the board instead of looking down at a piece of paper extends their focus time and interest levels. It’s also better for their posture!
 
@@ -100,7 +87,7 @@ Though Robyn’s children are still relatively young, the Vibe Board helps them 
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

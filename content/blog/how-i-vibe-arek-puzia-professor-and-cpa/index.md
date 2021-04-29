@@ -1,23 +1,20 @@
 ---
-title: "How I Vibe: Arek Puzia, Professor and CPA"
+title: 'How I Vibe: Arek Puzia, Professor and CPA'
 slug: how-i-vibe-arek-puzia-professor-and-cpa
 author: The Vibe Team
-date: 2020-08-05
-tags: ["higher education", "professor", "distance learning"]
+date: '2020-08-05'
+tags:
+- distance learning
+- higher education
+- professor
 draft: false
 isfeatured: false
-summary: Are you curious about how professionals Vibe? Join us as we learn all about Arek Puzia, professor and CPA.
 description: Are you curious about how professionals Vibe? Join us as we learn all about Arek Puzia, professor and CPA.
-hero_styles:
-  background: "#f4f4f4"
 ---
-
-
 
 Diablo Valley College, a two-year community college in Northern California, serves a diverse population of 28,000 students across its two campuses in Pleasant Hill and San Ramon. When it came time to decide what the fall 2020 semester would look like for its students and faculty, the answer seemed pretty clear: the majority of classes would be taught online.
 
 This overhaul from how the school in the San Francisco Bay Area normally operates would be enough to overwhelm anyone. But if you’re like Arek Puzia, you could view this time as an opportunity to get creative, make some adjustments, and bring new value to your work. Read on to see how this professor and CPA is making the most of his chance to thrive alongside his students and clients in a collaborative digital space.
-
 
 ## Going back to the classroom
 
@@ -25,10 +22,9 @@ Professor Puzia’s resume gives him plenty of real world experience to draw fro
 
 Three years ago, Puzia heard that Diablo Valley (whose Pleasant Hill campus is just a few miles from the PathWise office) was hiring faculty to teach accounting. He had attended DVC prior to completing his undergraduate degree at UCLA, so he applied, joined the team, and has been teaching in the college’s business, finance, and accounting department since then.
 
-
 ## New technology in a changing academic climate
-{{< common/srcset "image-1.jpg" "ASIJ Stories: Distance Learning at ASIJ" >}}
 
+{{< common/srcset "image-1.jpg" "ASIJ Stories: Distance Learning at ASIJ" >}}
 
 Before the coronavirus pandemic hit, the drive to make more courses available online wasn’t necessarily a top goal for many schools, although Puzia wanted to create more of these opportunities when he started teaching. Now that the change is imperative, he says, “Trying to transition a lot of courses to online learning is a bit of a challenge for any institution, but certainly for a public one where there isn’t much history of it, so it’s been an interesting summer.”
 
@@ -38,7 +34,6 @@ The students in Puzia’s classes alone illustrate how diverse the student popul
 
 With so many different factors to take into account, online learning gives both the students and teachers more flexibility in what “classroom time” looks like. So whether Puzia opts for synchronous learning (i.e. all students would log into class at the same time) or asynchronous (students could complete course material and watch recorded lectures on their own schedule), having a digital whiteboard and the right tech accessories would allow him to offer both.
 
-
 ## How Arek chose Vibe
 
 Before finding the Vibe board, Puzia had limited experience with recording his lectures, largely relying on an iPad to do the trick. But because accounting qualifies as a [Career Technical Education](https://www.cde.ca.gov/ci/ct/) course in California, he secured funding through the state’s Strong Workforce Program to put together a tech setup that would help him to create more professional and accessible presentations for his students.
@@ -47,10 +42,9 @@ Before finding the Vibe board, Puzia had limited experience with recording his l
 
 After thorough research (which he says included a lot of marketing videos), the Vibe board proved to be the best option for Puzia. In addition to its price point, Vibe was the only digital whiteboard that [offered a demo](https://vibe.us/demo/) to review the product’s functionality, and the board’s variety of solutions gave him options for creating an ideal learning environment.
 
-
 ## Using Vibe for asynchronous learning
-{{< common/srcset "image-2.png" "" >}}
 
+{{< common/srcset "image-2.png" "" >}}
 
 Planning for the fall semester is in full swing, and Puzia says that using the Vibe board so far has been “pretty straightforward. I feel like I’m a 6 or 7 out of 10 in technology, so good enough to be dangerous,” he jokes. “But so far, using the board seems pretty intuitive.”
 
@@ -70,7 +64,6 @@ While it’s still possible to purchase physical copies of textbooks, Puzia says
 
 Traditional office hours are off the table for fall, too, which Puzia sees as an opportunity to be even more responsive to his students’ needs. He plans on using Zoom to schedule one-on-one meetings with his students as needed.
 
-
 ## Using today’s challenges for future success
 
 The biggest takeaway from Puzia’s preparation for the 2020-21 school year is that using new tech tools simply for the sake of using new tech isn’t the point; the point is to make sure you’re adding value to your classes for the benefit of the students.
@@ -81,11 +74,12 @@ Still, in his efforts to keep things user-friendly, he also wants to challenge h
 
 “Pushing my students to start thinking that way and doing it, I think, is really valuable because at the end of the day I want my students to have jobs. No one’s really going to my accounting classes because they’re bored; they’re usually going to my classes because they want a job. Part of having a job is you have to be comfortable with technology, almost no matter what you’re doing for work. So that was my idea with the digital whiteboard: how can I take things to the next level, and how can I utilize it?” 
 
-With the Vibe board, Puzia can easily see more opportunities than obstacles for himself and his students, and can already recognize that the investment will be worth it.
-“If I’m teaching 200 students a semester, then even a whiteboard that costs a few thousand dollars...I mean, if I can help 10 students a semester by having that, that’s pretty low cost, in my opinion.”
+With the Vibe board, Puzia can easily see more opportunities than obstacles for himself and his students, and can already recognize that the investment will be worth it.  
+“If I’m teaching 200 students a semester, then even a whiteboard that costs a few thousand dollars…I mean, if I can help 10 students a semester by having that, that’s pretty low cost, in my opinion.”
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

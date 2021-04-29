@@ -1,15 +1,16 @@
 ---
-title: "Should You Hire a Director of Remote Work?"
+title: Should You Hire a Director of Remote Work?
 slug: should-you-hire-a-director-of-remote-work
 author: Mary Clark Navarro
-date: 2021-04-05
-tags: ["remote collaboration", "work from anywhere", "work from home"]
+date: '2021-04-05'
+tags:
+- remote collaboration
+- work from anywhere
+- work from home
 draft: false
 isfeatured: false
 description: Is hiring a director of remote work the right decision for your company? That all depends.
 ---
-
-
 
 Options for remote work are much more vast than they were even a year ago. As employees and employers navigate a new workplace, new challenges will arise around employee engagement, talent acquisition, productivity, and benefits. Traditional HR department functions may not take these challenges into consideration from a remote or hybrid perspective.
 
@@ -25,6 +26,7 @@ There is some overlap between this role and a traditional HR or people operation
 
 However, directors of remote work have [unique challenges to overcome](https://vibe.us/blog/challenges-of-working-from-home-and-how-to-overcome-them/) that differ from the traditional HR function, including:
 
+
 - Connecting in-office and remote employees to prevent silos and ensure collaboration
 - Translating in-office perks to at-home benefits
 - Researching and [setting criteria for remote worker pay](https://www.payscale.com/content/whitepaper/Remote-Work-Pay-Strategy.pdf) (This is critical to setting yourself apart from the competition as less than 25% provided any kind of stipend to remote employees last year.)
@@ -32,7 +34,6 @@ However, directors of remote work have [unique challenges to overcome](https://v
 - Determining which positions make sense in a remote capacity and which need to include an in-office component
 - Reviewing [remote work tools and technologies](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/)
 - Taking in feedback from employees through regular surveys and implementing changes
-
 
 ***Related:*** [How Will Your Company Define WFH Guidelines?](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/)
 

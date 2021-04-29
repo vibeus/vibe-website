@@ -1,15 +1,16 @@
 ---
-title: "How to Build the Foundation of an Accessible Online Course"
+title: How to Build the Foundation of an Accessible Online Course
 slug: how-to-build-the-foundation-of-an-accessible-online-course
 author: Mary Clark Navarro
-date: 2021-03-24
-tags: ["distance learning", "remote education", "accessible design"]
+date: '2021-03-24'
+tags:
+- accessible design
+- distance learning
+- remote education
 draft: false
 isfeatured: false
 description: Design your distance learning courses with accessibility in mind by using these helpful tips.
 ---
-
-
 
 More students are learning online than ever before. While many educators are gradually making the move back to the classroom, we can expect to see virtual learning continue. Accessibility remains a critical consideration for educators; online courses require review and structuring to ensure all students have an equal opportunity to learn. 
 
@@ -19,10 +20,12 @@ Accessible courses allow students with disabilities to participate in a more equ
 
 According to the Office of Civil Rights and the United States Department of Education, [for a course to be accessible it must](https://www.justice.gov/crt/vi-accessibility-standards-electronic-and-information-technology-accessibility-standards):
 
+
 - Allow students to acquire the same information
 - Afford students to engage in the same interactions
 - Enable students to receive the same services as those without disabilities
 - Be equally effective and integrated for all students
+
 ## Why is accessibility important in an online environment?
 
 Research shows that the number of students with disabilities is growing in the United States. According to the most recent data released by the National Center for Education Statistics, [students with disabilities make up 14% of national public school enrollment](https://nces.ed.gov/programs/coe/indicator_cgg.asp). This accounts for nearly 7 million students.
@@ -35,11 +38,12 @@ Accessible courses support these students in their pursuit of education by offer
 
 ## The key elements of accessible online courses
 
-In many ways, online courses offer greater flexibility and convenience for students than in-person classes. However, simply moving a course to a virtual format does not make it accessible.  Accessibility needs to be integrated into all courses, from the start, to be successful. 
+In many ways, online courses offer greater flexibility and convenience for students than in-person classes. However, simply moving a course to a virtual format does not make it accessible. Accessibility needs to be integrated into all courses, from the start, to be successful. 
 
 Review the format, content, visual, and audio elements of your course instruction and material to ensure it is accessible.
 
 ***Formatting and written communication:***
+
 
 - Use headings to break up content in a logical, consistent manner
 - Choose sans-serif fonts that are at least 14pt for easy reading
@@ -52,8 +56,8 @@ Review the format, content, visual, and audio elements of your course instructio
 - Include descriptive hyperlinks
 - [Check the color accessibility of your materials and website](https://www.inside.iastate.edu/article/2016/07/21/color)
 
-
 ***Access:***
+
 
 - [Leverage programs and technologies](https://vibe.us/blog/the-technical-tools-that-have-made-education-possible-during-the-pandemic/) students are already familiar with whenever possible
 - *Set expectations and review instructions aloud and provide a text-based reference* 
@@ -62,16 +66,16 @@ Review the format, content, visual, and audio elements of your course instructio
 - Ensure material can be accessed by smartphones, tablets, laptops, and personal computers
 - [Use interactive tools](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/) to encourage collaboration
 
-
 ***Audio:***
+
 
 - Caption videos 
 - Record class meetings and use technology to creates written transcripts 
 - Provide dial-in information for meetings
 - [Select accessible media players](https://www.oaisd.org/about-us/ada-compliance/digital-accessibility-resources/creating-accessible-media/)
 
-
 ***Instruction:***
+
 
 - Allow students to demonstrate learning and mastery through graded and non-graded activities
 - Include time for group and independent practice of concepts
@@ -82,7 +86,7 @@ At Vibe, we’re proud to offer a [remote learning hub](https://vibe.us/) for ef
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

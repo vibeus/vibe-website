@@ -1,25 +1,28 @@
 ---
-title: "Work from Home and Love It with These Must-have Tools"
+title: Work from Home and Love It with These Must-have Tools
 slug: work-from-home-and-love-it-with-these-must-have-tools
 author: Paige Smith
-date: 2021-03-01
-tags: ["remote work", "collaborate", "work from home"]
-description: 
+date: '2021-03-01'
+tags:
+- collaborate
+- remote work
+- work from home
 draft: false
 isfeatured: false
+description: "While remote work has been around ages, working from home is new for the majority of Americans. Before the pandemic,\
+  \ only 20% of employed adults whose jobs are suited for telecommuting actually worked from home. Today, 71% of these workers\
+  \ do their jobs from home. When the pandemic struck, many workers only had days, or [\u2026]"
 ---
 
-
-
 While remote work has been around ages, working from home is new for the majority of Americans. Before the pandemic, [only 20% of employed adults](https://www.pewresearch.org/social-trends/2020/12/09/how-the-coronavirus-outbreak-has-and-hasnt-changed-the-way-americans-work/) whose jobs are suited for telecommuting actually worked from home. Today, 71% of these workers do their jobs from home.
- 
+
 When the pandemic struck, many workers only had days, or just hours, to transition to remote work. Bringing home laptops, monitors, and keyboards is only the beginning of working from home.
 
 The work from home lifestyle is touted for its benefits, including flexibility, productivity, and savings. To achieve those advantages, you need an environment designed for productive work and a well-stocked toolkit. There are countless apps out there to help you stay focused and motivated at home. In our list below, we cut through the noise and share the essentials for a WFH lifestyle. 
 
 ## Take breaks the smart way with the PomoDoneApp
 
-Breaks tend to come a bit more naturally in the office than at home — there’s typically an actual break room, after all. While you may have established a routine for keeping your flow going at the office, chances are it's been more challenging to maintain at home. You don’t have to take breaks the same way at home as you did in the office. But [research says you should take them](https://ehs.stanford.edu/subtopic/microbreaks) to keep your mind and body healthy.
+Breaks tend to come a bit more naturally in the office than at home — there’s typically an actual break room, after all. While you may have established a routine for keeping your flow going at the office, chances are it’s been more challenging to maintain at home. You don’t have to take breaks the same way at home as you did in the office. But [research says you should take them](https://ehs.stanford.edu/subtopic/microbreaks) to keep your mind and body healthy.
 
 Having trouble remembering to take a break? Not sure how to establish a routine for breaks at home?
 
@@ -48,11 +51,12 @@ Still moving tasks over from your email to your planner or task management softw
 ## Vibe with Spotify
 
 Spotify is about more than the latest hits and upcoming artists. The leading digital music service has just about everything audio-related, including podcasts and themed playlists. No matter what kind of music you enjoy listening to while working, you’ll find plenty of options on Spotify.
- 
+
 The “[Work From Home playlist](https://open.spotify.com/playlist/38dwWU3iWZSHb9umKBJNTQ)” is an excellent starting place with over 100 songs to jam out to. You can even integrate the [Spotify app with Vibe](https://youtu.be/Jp1WT8u6HnQ) to add a little pizzazz to your brainstorming sessions.
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

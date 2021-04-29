@@ -1,15 +1,16 @@
 ---
-title: "Best Practices for Remote Student Engagement at All Levels"
+title: Best Practices for Remote Student Engagement at All Levels
 slug: best-practices-for-remote-student-engagement
 author: Mary Clark Navarro
-date: 2021-04-12
-tags: ["remote learning", "distance learning", "interactive whiteboard"]
+date: '2021-04-12'
+tags:
+- distance learning
+- interactive whiteboard
+- remote learning
 draft: false
 isfeatured: false
 description: Remote learning can be a challenge. These tips will help you maintain student engagement with every lesson.
 ---
-
-
 
 Getting your students’ attention? Not always easy. Keeping their attention? A challenge. Retaining it in a remote setting? It can feel like a real struggle.
 
@@ -31,6 +32,7 @@ Need to do a quick overview of yesterday’s concepts? Try a Zoom chat quiz. The
 
 The discussion format is one of the most popular options for in-person and remote learning. Allowing multiple students to chat in one space is doable in a traditional classroom setting. Online classes can accommodate this set-up through [break-out rooms](https://edtechmagazine.com/k12/article/2020/11/5-best-practices-managing-virtual-breakout-rooms). Here’s how you do it:
 
+
 - Start by providing your students with an open-ended prompt on a pertinent topic.
 - Divide students into pairs or small groups through breakout rooms.
 - Have students discuss their thoughts for a predetermined amount of time.
@@ -49,7 +51,8 @@ Missing the conversations that tend to flow before and after class? Provide a pl
 We’d be remiss if we didn’t mention just how engaging a smart whiteboard from Vibe can make your distance learning experiences. You’ll love working with students in real-time, sharing canvases, and bringing some of that in-person interaction to the remote classroom. Check out our [Vibe FAQs](https://vibe.us/faqs-for-teachers-and-educators/) for educators to learn more.
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

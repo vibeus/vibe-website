@@ -1,23 +1,23 @@
 ---
-title: "The Whiteboard for Cooperative Learning"
+title: The Whiteboard for Cooperative Learning
 slug: the-whiteboard-for-cooperative-learning
 author: Vibe Team
-date: 2020-05-11
-tags: ["interactive whiteboard", "the whiteboard", "cooperative learning"]
-description: Use Vibe's interactive whiteboard in school to express ideas and concepts to students. Vibe smart boards are idea for STEM classrooms that engage and challenge students.
+date: '2020-05-11'
+tags:
+- cooperative learning
+- interactive whiteboard
+- the whiteboard
 draft: false
+isfeatured: false
+description: "Use Vibe\u2019s interactive whiteboard in school to express ideas and concepts to students. Vibe smart boards\
+  \ are idea for STEM classrooms that engage and challenge students."
 ---
-
-
-
-
 
 In education, learning and working together is becoming more important than ever. At Vibe, learning and teamwork are at the core of everything we do. We believe that cooperative learning and collaborative working lead to successes and discoveries that one person alone could never have imagined.
 
 As a company that looks to the future, cooperative learning has always been a source of fascination and inspiration to the Vibe team. Traditional education, limited by the tech of the distant past, has never truly accommodated the range of ways in which young people learn, or even taken full advantage of some of the most widely effective and proven techniques. 
 
 The Vibe interactive whiteboard aims to modernize education and give teachers the tools they need to nurture a generation of bright, informed, innovative thinkers who excel at working together.
-
 
 ## Interactive whiteboard in the classroom
 
@@ -29,18 +29,14 @@ Simple tools are available on the interactive whiteboard, like screen capture an
 
 Interactive whiteboards give teachers and students the capability to create full concept maps as a group. These spatial charts of information are especially helpful for more visual learners, as noted by [the University of North Carolina School of Education](https://learningcenter.unc.edu/tips-and-tools/using-concept-maps/), and can be used in lots of contexts, from review sessions to creative brainstorming.
 
-Vibe’s interactive whiteboard has an infinite canvas, enabling teachers and students to create concept maps of any shape or size, which can then be saved, shared, and referred to again and again. Vibe's software can also be used on different devices - so for group projects, students can continue working on a Vibe board from a computer browser or iPad, allowing for collaborating and brainstorming in real time even from different locations.
-
+Vibe’s interactive whiteboard has an infinite canvas, enabling teachers and students to create concept maps of any shape or size, which can then be saved, shared, and referred to again and again. Vibe’s software can also be used on different devices – so for group projects, students can continue working on a Vibe board from a computer browser or iPad, allowing for collaborating and brainstorming in real time even from different locations.
 
 {{< common/srcset "image-1.jpg" "Using the Vibe web app" >}}
 
-
 Being able to do this together, whether to make a quick point or to flesh out an idea too big to fit within a Google document, brings cooperative learning to a whole new level that can easily translate to better workplace collaboration as well.
 
-*“Using active learning strategies does not require abandoning the lecture format. Rather, adding small active learning strategies can make lecturing more effective for student learning.”* 
-*-- University of Minnesota* 
-
-
+*“Using active learning strategies does not require abandoning the lecture format. Rather, adding small active learning strategies can make lecturing more effective for student learning.”*  
+*— University of Minnesota* 
 
 ## Advantages of collaborative learning
 
@@ -50,7 +46,7 @@ Whether in the workplace or the classroom, true success depends on the quality o
 
 
 
-----------
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 

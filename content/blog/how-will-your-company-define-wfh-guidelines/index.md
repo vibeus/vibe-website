@@ -1,15 +1,15 @@
 ---
-title: "How Will Your Company Define WFH Guidelines?"
+title: How Will Your Company Define WFH Guidelines?
 slug: how-will-your-company-define-wfh-guidelines
 author: Megan Snyder
-date: 2020-11-23
-tags: ["remote work", "wfh"]
-description: Creating transparent guidelines for work from home policies is key to successful remote collaboration.
+date: '2020-11-23'
+tags:
+- remote work
+- wfh
 draft: false
 isfeatured: false
+description: Creating transparent guidelines for work from home policies is key to successful remote collaboration.
 ---
-
-
 
 The shift to remote collaboration has presented many unique challenges, but it has also been an eye-opening experience for millions of people who used to work outside the home. The realization that so many jobs can be done well from nearly anywhere has expanded the possibility of offering flexible work options and giving employees more freedom in how to structure the work week.
 
@@ -30,12 +30,12 @@ Trust between coworkers at every level is imperative to the success of any busin
 Every section of your company’s WFH guidelines is likely to evolve through research, trial-and-error, and employee feedback. Write these guidelines as a living document, knowing that your team will continually collaborate to take the best parts of today’s workplace experiments into the future.
 
 ## Consider which structures make sense for you
-{{< common/srcset "image-1.jpg" "" >}}
 
+{{< common/srcset "image-1.jpg" "" >}}
 
 While there are companies who already operate with mostly or completely remote teams, there are many others still determining the right combination of on- and off-site employees. What works for one business won’t necessarily work for everyone, so although you can look at similar companies for ideas, think of this as an opportunity to create your own best practices.
 
-**Office, hybrid, and remote teams**
+**Office, hybrid, and remote teams**  
 In August 2020, digital marketing platform [HubSpot announced plans](https://www.hubspot.com/careers-blog/future-of-work-hybrid) to offer its employees three different work options. At the start of 2021, employees can choose to work in the office most days of the week; part-time at the office and part-time at home; or from home most days of the week.
 
 Prior to the coronavirus pandemic, HubSpot was a self-described “remote-friendly” business where most of their employees worked from company offices. Most companies operate this way. So while it might be hard to imagine doing things differently, HubSpot’s plan demonstrates that with planning and thoughtful consideration, you can find options that work. A few big points to consider include:
@@ -50,10 +50,11 @@ You might also find through firsthand experience or team feedback that certain d
 
 And while the flexibility of remote work will be ideal for some people, it’s just as likely you have employees who don’t necessarily want to work from home, or employees who simply can’t. So creating a selection of options can either make the transition easier or give your teams the chance to test run the different scenarios.
 
-**Defining productivity, availability, and other expectations**
+**Defining productivity, availability, and other expectations**  
 One of the chief concerns about people working from home long term is whether or not they would actually be productive. So far, [reports have shown](https://www.cnn.com/2020/08/27/success/work-from-home-employer-plans-for-more-flexible-policies/index.html) that productivity hasn’t suffered to the degree businesses feared (if at all). Teams can maintain and even exceed productivity numbers by determining how, and what, to measure. 
 
 There won’t be a one-size-fits-all marker for the entire company. For example, the goals and objectives for the marketing team are going to be measured differently than a sales team. Here are a few questions your teams can discuss to get started:
+
 
 - How will we delegate assignments and/or divide responsibilities between in-office and remote staff?
 - What performance standards have we used in the past, and do they work in a remote setting?
@@ -64,10 +65,10 @@ There won’t be a one-size-fits-all marker for the entire company. For example,
 - What will be standard protocol for team meetings and 1-on-1s?
 - What apps will we use for collaborating between in-office and remote staff?
 
-**Technology and office equipment**
+**Technology and office equipment**  
 Remote teams rely heavily on technology to collaborate and communicate with coworkers, so WFH plans must include a focus on equipping team members with tech that will work. This ranges from providing adequate equipment to ensuring reliable internet connections to evaluating data security.
 
-Going back to our HubSpot example, [the company clearly outlines](https://www.hubspot.com/careers-blog/future-of-work-hybrid) what employees can expect in the three different work scenarios. For the team members who work from home, “HubSpot makes sure your WFH set-up is safe, sound, and sets you up for success.”
+Going back to our HubSpot example, [the company clearly outlines](https://www.hubspot.com/careers-blog/future-of-work-hybrid) what employees can expect in the three different work scenarios. For the team members who work from home, “HubSpot makes sure your WFH set-up is safe, sound, and sets you up for success.”  
 In addition to having the technology to ensure success, employees who primarily work outside the office could also benefit from a home office stipend, since they won’t have regular access to on-site supplies. This can be used to purchase a desk chair, printer, paper supplies, and other must-haves.
 
 ## Determining compensation and vacation time
@@ -78,7 +79,9 @@ Time tracking will factor into compensation decisions as well. When people can w
 
 Location also comes into play when determining vacation time. Doist, a completely remote company, has people working all around the world, so setting a standard holiday calendar didn’t make much sense. To accommodate the many beliefs, practices, and time zones represented among their employees, they found that offering [40 vacation days to every employee](https://blog.doist.com/lessons-remote-companies/) simplified the increasingly complicated situation. Creative solutions like this accommodate every member of the team, regardless of where they work.
 
-----------
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+
+---
+
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.  
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

@@ -1,17 +1,19 @@
 ---
-title: "How to Build a Collaborative Workspace (And Why You Should)"
+title: How to Build a Collaborative Workspace (And Why You Should)
 slug: how-to-build-a-collaborative-workspace-and-why-you-should
 author: Vibe Team
-date: 2019-03-25
-isfeatured: false
-tags: ["Coworking", "Interactive Whiteboard", "Smart Whiteboard", "Small Business", "Smartboard Collaboration"]
+date: '2019-03-25'
+tags:
+- Coworking
+- interactive whiteboard
+- Small Business
+- Smart Whiteboard
+- Smartboard Collaboration
 draft: false
-summary: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
-description: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons you should.
-blogHeroMask: 0
+isfeatured: false
+description: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons
+  you should.
 ---
-
-
 
 The workforce is more diverse and distributed than ever, and this new paradigm needs a new style of workspace to thrive. A lot of companies are experimenting with ways to create new spaces for their teams to operate in that are optimized to support outside the box thinking.
 
@@ -62,9 +64,7 @@ When meeting in-person, a digital whiteboard lets teams organize ideation sessio
 
 The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to welcome remote workers to collaborative sessions from anywhere. All your notes are automatically saved to the Vibe cloud, where they can be quickly shared or revisited.
 
-
 {{< common/srcset "image-2.png" "Integrated zoom for remote collaboration" >}}
-
 
 ***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
@@ -76,33 +76,27 @@ Co-working has gone from an informal practice, established by freelancers and cr
 
 Collaborative spaces now need to include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
 
-
 # What does a collaborative workspace look like?
 
 Here are a few of our favorite examples:
 
-
 {{< common/srcset "image-3.jpg" "" >}}
-
 
 Spotify provides a variety of different spaces throughout their office to curate feel for their employees. Many of these spaces are more like those you’d find in a university library or hip cafe than a classic corporate office.
 
-
 {{< common/srcset "image-4.jpg" "" >}}
-
 
 Slack’s San Francisco HQ features a “forest floor” to introduce the calmness of the natural environment to the collaborative experience.
 
-
 {{< common/srcset "image-5.png" "" >}}
-
 
 Google’s second location on LA’s westside is housed in the old Spruce Goose hangar. They refit this massive open space with a variety of smaller collaborative nooks to give it context and proportion, creating “spaces that are moldable and flexible,” according to Google spokesperson Katherine Will.
 
 Want better tools for seamless collaboration? [Check out the Vibe demo](https://vibe.us/demo/).
 
 
-----------
+
+---
 
 [Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
 

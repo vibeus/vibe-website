@@ -1,15 +1,17 @@
 ---
-title: "How to Attract Top Talent Without a Fancy Corporate Office"
+title: How to Attract Top Talent Without a Fancy Corporate Office
 slug: how-to-attract-top-talent-without-a-fancy-corporate-office
 author: Mary Clark Navarro
-date: 2021-02-23
-tags: ["remote work", "remote collaboration", "hiring"]
-description: With remote work becoming more popular, the best way to hire a great team is to rethink what the ideal job looks like.
+date: '2021-02-23'
+tags:
+- hiring
+- remote collaboration
+- remote work
 draft: false
 isfeatured: false
+description: With remote work becoming more popular, the best way to hire a great team is to rethink what the ideal job looks
+  like.
 ---
-
-
 
 Attracting top talent has changed significantly in recent years. It used to be all about decked-out offices, snacks on demand, stocked beverage carts, and lots of company swag. But today, when [80% of company leaders](https://www.hrdive.com/news/gartner-over-80-of-company-leaders-plan-to-permit-remote-work-after-pande/581744/) plan to allow employees to work remotely at least part of the time post-pandemic, these tactics can feel quite dated. Today’s workforce is more diverse than ever with employees who strictly work onsite, workers who come in a couple of times a week, and those who never set foot in the office.
 
@@ -20,6 +22,7 @@ This hybrid workforce was a long time coming, and the pandemic certainly acceler
 The pandemic put remote work to the stress test; some companies only had a matter of days to move their entire workforce online. There have been plenty of hurdles along the way, but overall, research shows that working from home (WFH) has been a measurable success. According to PwC, [83% of employers say the shift to remote work](https://www.pwc.com/us/en/library/covid-19/us-remote-work-survey.html) has been successful at their companies. Employees echo that sentiment as [65% of those currently working remotely](https://www.flexjobs.com/blog/post/survey-productivity-balance-improve-during-pandemic-remote-work/) want to WFH full-time post-pandemic, while 31% prefer a hybrid work environment.
 
 As remote work becomes expected among job seekers, the traditional bells-and-whistles corporate office is becoming less of a meaningful job perk. Attracting talent is no longer about what you can bring to the office for employees. Instead, employees cite the following as the [most desirable perks](http://incentiveandmotivation.com/perkbox-reveals-perks-employees-want-2021/):
+
 
 - Discounts and subscriptions
 - Flexible working hours
