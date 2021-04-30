@@ -104,7 +104,7 @@ Microsoft Teams offers a free version with no time commitment. The Microsoft 365
 
 ## What’s the difference between Microsoft Teams plans?
 
-The free version of Teams has several components you would expect from comparable free plans: screen sharing, chat features, file sharing, etc. Some of the unexpected extras include custom backgrounds, scheduled meetings, larger file attachments in chat (up to 2 GB per user), and access to 250+ app integrations. You can host meetings with up to 300 people, and while there’s no dedicated tech support, Microsoft does provide resources for resolving any tech issues on your end. 
+The free version of Teams has several components you would expect from comparable free plans: screen sharing, chat features, file sharing, etc. Some of the unexpected extras include custom backgrounds, scheduled meetings, larger file attachments in chat (up to 2 GB per user), and access to 250+ app integrations. You can host meetings with up to 300 people, and while there’s no dedicated tech support, Microsoft does provide resources for resolving any tech issues on your end.
 
 The next step up is Business Basic, where meeting recordings are available and the file attachments in chat increase to 1 TB per user. You also have single sign-on capabilities, advanced reporting, administrative tools for managing users, and access to tech support via call-in or online assistance.
 
@@ -128,7 +128,7 @@ It’s also important to note that [Microsoft Teams is replacing Skype for Busin
 
 # RingCentral Meetings Review
 
-[RingCentral Meetings](https://www.ringcentral.com/online-meetings/overview.html) is the video conferencing component of the larger RingCentral system of tech solutions. 
+[RingCentral Meetings](https://www.ringcentral.com/online-meetings/overview.html) is the video conferencing component of the larger RingCentral system of tech solutions.
 
 ## How much does RingCentral Meetings cost?
 
@@ -211,20 +211,10 @@ The differentiating features between the plans are as follows:
 
 
 - Free: 1 host, 50-minute meetings, up to 100 participants. Online-only customer support.
-
-
 - Starter: Up to 9 hosts, 24-hour time limit, up to 100 participants. 5 GB cloud storage for recordings. MP4 recording. Recording transcription. Alternate host option. File transfer (maxes out at 2 GB for in-session file transfers). Online chat and call-in customer support.
-
-
 - Plus: Up to 50 hosts, 24-hour time limit, up to 100 participants. 5 GB cloud storage for recordings. MP4 recording. Recording transcriptions. Alternate host option. File transfer (2 GB max). Online chat and call-in customer support.
-
-
 - Business: Up to 100 hosts, 24-hour time limit, up to 200 participants. 10 GB cloud storage for recordings. MP4 recording. Recording transcriptions. Alternate host option. File transfer (2 GB max). Online chat and call-in customer support.
-
-
 - Enterprise: Unlimited hosts, 24-hour time limit, up to 100,000 participants. Unlimited cloud storage. MP4 recording. Recording transcriptions. Alternate host option. File transfer (2 GB max). Online chat, call-in, and dedicated customer service rep.
-
-
 
 ## Is Cisco Webex Right For You?
 
@@ -282,7 +272,7 @@ Beyond being a must-have solution for so many businesses right now, the right vi
 
 
 - [How to use Zoom on Vibe – Video](https://www.youtube.com/watch?v=lZaq_qFOsaM)
-- [How to use Zoom on Vibe – Help Article](https://www.youtube.com/watch?v=lZaq_qFOsaM) 
+- [How to use Zoom on Vibe – Help Article](https://www.youtube.com/watch?v=lZaq_qFOsaM)
 
 
 
