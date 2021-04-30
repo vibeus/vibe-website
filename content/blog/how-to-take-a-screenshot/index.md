@@ -8,7 +8,7 @@ tags:
 - how-to
 - interactive whiteboard
 - remote collaboration
-draft: true
+draft: false
 isfeatured: false
 description: Learn how to take a screenshot on almost any device with our handy guide.
 ---
@@ -41,7 +41,7 @@ Almost every device is capable of helping you for these purposes and more. Learn
 
 There are a lot of [differences between Macs and PCs](https://www.businessinsider.com/the-biggest-differences-between-macs-and-pcs#macs-and-iphone-are-the-best-team-12). With different designs, interfaces, and buttons, it’s hard to know how to properly take a screenshot. Whether you’re a Mac or PC person, we’ve got you covered. 
 
-### *Step-by-step guide for Mac users*
+### Step-by-step guide for Mac users
 
 There are multiple options for Mac users to grab their desired screenshots. If your computer is running [MacOS Mojave (2018) software](https://support.apple.com/en-us/HT201685) or newer, you can access the screenshot tool by pressing ***Command+Shift+5*** together at the same time. Or, you can try going to **Launchpad > Other > Screenshot**. Either choice will bring up a panel of screenshot options that will let you choose to capture the entire screen, a window, or a selection of your screen. This panel also gives you the option to capture a video recording of your screen.
 
@@ -57,9 +57,9 @@ After using any of these combinations, the screenshot will appear as a thumbnail
 
 {{< common/srcset "image-1.jpg" "A woman types at her desktop computer while viewing colorful images on the screen." >}}
 
-### *Step-by-step guide for Windows 10 users*
+### Step-by-step guide for Windows 10 users
 
-Using the Print Screen button is the quickest way to take a screenshot in [Windows 10](https://support.microsoft.com/en-us/windows/windows-10-keyboard-shortcuts-3d444b08-3a00-abd6-67da-ecfc07e86b98). This button is generally found in the top-right corner of your keyboard. Think of the Print Screen button (sometimes shortened to “prt sc”) as a sibling to the commonly used copy (***Ctrl+C***) function. 
+Using the Print Screen button is the quickest way to take a screenshot in [Windows 10](https://support.microsoft.com/en-us/windows/windows-10-keyboard-shortcuts-3d444b08-3a00-abd6-67da-ecfc07e86b98). This button is generally found in the top-right corner of your keyboard. Think of the Print Screen button (sometimes shortened to “prt sc”) as a sibling to the commonly used copy (***Ctrl+C***) function.
 
 **Capture the entire screen:** Press the Print Screen button, and an image of the entire screen will be copied to your clipboard. To view the capture you must then paste (Ctrl+V) the image into a word processor or editing platform such as Word, Google Docs, Paint, or Photoshop. 
 
@@ -83,7 +83,7 @@ Any of these methods will result in a notification at the bottom-right corner of
 
 Tablets are pretty much an oversized smartphone. Functions and size vary, but their designs are generally the same. Both Apple and Android users will notice that taking a screenshot on their phone or tablet is a similar process.
 
-### *Step-by-step guide for iPhone or iPad users*
+### Step-by-step guide for iPhone or iPad users
 
 Though [iPhone](https://www.apple.com/iphone/compare/) and [iPad](https://www.apple.com/ipad/compare/) models may differ in appearance, the concept of screen capturing remains pretty much the same — it only involves two buttons. Older iPhone and iPad models that feature a home button can capture a screenshot by briefly pressing the home button and the sleep/wake button and the same time. (The sleep/wake button can be found on the right side or top of the device, depending on the model). This action will be followed by a flash on the screen and a camera shutter sound (if your sound is on). 
 
@@ -92,7 +92,7 @@ Newer iPhone and iPad models (iPhone X, 11, 12, and the latest iPad Pro and iPad
 **How to find and edit screenshots on an iPhone or iPad:**  
 All models running iOS 11 or later will find that the image immediately appears in the bottom left corner of the screen. This gives you easy access to crop and annotate the image. You’ll also find your screen capture in the Photos application in both the camera roll and screenshots albums. Here, you can also markup the image. Choose the photo you want to markup, select “Edit,” select the circle icon with three dots at the top of the screen, then select “Markup.” Now you can write or draw whatever you’d like. (Remember to save your work!)
 
-### *Step-by-step guide for Android phone or tablet users*
+### Step-by-step guide for Android phone or tablet users
 
 Because there are multiple [Android device manufacturers](https://www.android.com/phones-tablets/) (e.g., Google, Motorola, Samsung, TCL, etc.), taking a screenshot on an [Android phone or tablet](https://www.android.com/phones-tablets/) may vary slightly. 
 

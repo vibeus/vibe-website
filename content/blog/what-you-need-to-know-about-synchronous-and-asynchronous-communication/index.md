@@ -80,21 +80,21 @@ The right mix of both communication strategies will largely depend on your team 
 
 Now that you know the types of communication you’re working with, you can consider ways to make the most of the collaboration software applications and tools you already use. Or maybe your communication toolkit could use a refresh. While the exact apps you’ll use will depend on your business and the type of projects you’re working on, here are a few options that we like.
 
-### *Slack*
+### Slack
 
 This messaging platform is great for quick communication and lets us send reminders, files, and updates whether or not the entire team is online. Creating separate threads for different teams and projects keeps everything organized, too, especially if you’re working after-hours and want to make sure your co-workers know exactly where the project stands.
 
-### *Notion*
+### Notion
 
 Every team has their set of workflows they like best, or a combination of steps that helps them work more efficiently. And for those asynchronous times, co-workers need to know what’s going on at any given time. Notion organizes timelines, workflows, and other work-related schedules in a reader-friendly and customizable layout.
 
 *Laura says: “We use Notion for just about everything. I think that it’s been most embraced by team members who have planning as a significant part of their role; product road maps and marketing campaign targets come to mind. We also use it for team meeting minutes and for weekly/quarterly updates.”*
 
-### *Google Drive*
+### Google Drive
 
 Google Sheets and Docs are easily shareable and have an easy-to-access edit history. It’s simple to see who is simultaneously working on the document and to message within that file without having to switch to a separate messaging platform.
 
-### *Figma*
+### Figma
 
 We at Vibe love a brainstorm, and we have a strong need for a design app that encourages that kind of creative collaboration. Figma is a browser-based app that lets us brainstorm as well as create UI/UX design, graphic design, wireframes, and more.
 
