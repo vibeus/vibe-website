@@ -78,7 +78,7 @@ products:
 
 hero:
   item: *id001
-  shipping: Complimentary U.S. Shipping + 30-Day Returns
+  shipping: Free Shipping in the Contiguous U.S. + 30-Day Returns
   global_sales:
     icon: img/order/global-sales-icon.svg
     url: /order/global-sales/
