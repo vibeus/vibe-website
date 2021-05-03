@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: New option for clearing only the strokes, but keep the image, or sticky notes on the canvas.
 videoId: uRMJUEROMvQ
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

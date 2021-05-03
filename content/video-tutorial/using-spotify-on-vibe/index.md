@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to use Spotify on Vibe.
 videoId: Jp1WT8u6HnQ
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

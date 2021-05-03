@@ -5,8 +5,8 @@ date: 2020-12-31
 draft: false
 isfeatured: false
 videoId: ZV7yC0v81Kw
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

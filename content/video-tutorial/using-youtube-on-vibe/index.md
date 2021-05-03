@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to use YouTube on Vibe.
 videoId: 9lMp9jN8soI
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

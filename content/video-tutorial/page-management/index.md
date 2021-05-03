@@ -6,8 +6,8 @@ draft: false
 isfeatured: true
 summary: With page management, you can add a new page, reorder the pages, and edit the pages as you please.
 videoId: 20atL2lvoR8
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

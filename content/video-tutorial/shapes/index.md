@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of our brand new feature - Shapes. Now you can create diagrams and flowcharts with ease.
 videoId: j2Q-2MPLQkg
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

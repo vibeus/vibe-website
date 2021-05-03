@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: With Vibe, you can annotate on the screen dynamically during your meeting. 
 videoId: wOL_Oi2ZwIw
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

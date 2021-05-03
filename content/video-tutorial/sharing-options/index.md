@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to share the Vibe board with remote participants. 
 videoId: j3fxzVYUCvk
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

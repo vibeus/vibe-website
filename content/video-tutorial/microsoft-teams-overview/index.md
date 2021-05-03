@@ -6,11 +6,10 @@ draft: false
 isfeatured: false
 summary: Use Microsoft Teams? Come to see how to have better collaboration with the aid of Vibe. 
 videoId: hRNAZdKkcaM
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 
 
 Use Microsoft Teams? Come to see how to have better collaboration with the aid of Vibe. 
-

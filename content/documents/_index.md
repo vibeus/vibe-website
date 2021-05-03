@@ -1,5 +1,5 @@
 ---
-no_sitemap: true
+noSitemap: true
 cascade:
   stylesPath: css/documents.sass
 ---

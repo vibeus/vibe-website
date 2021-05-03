@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: With the 55'' screen, organizing your projects becomes easier (and more fun!) 
 videoId: v_4TwHmdf7Y
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

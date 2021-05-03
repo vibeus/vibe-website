@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to use the board management to help you stay organized.
 videoId: dMWHnSviiH0
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

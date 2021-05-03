@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to turn off your Vibe board.
 videoId: y7M9xO6h1w8
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

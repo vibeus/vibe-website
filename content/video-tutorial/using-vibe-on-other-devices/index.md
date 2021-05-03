@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Don’t limit yourself to a single screen. Access your canvas through the Vibe Board, through your Mac, PC, or other tablets. 
 videoId: Vp2eUNmtbdI
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

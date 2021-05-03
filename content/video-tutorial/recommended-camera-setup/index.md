@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Come to see the recommended camera setup with Vibe for your training, demo, or presentations.
 videoId: dYkU62fuGgA
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

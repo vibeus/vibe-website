@@ -5,8 +5,8 @@ date: 2020-04-17
 draft: false
 isfeatured: false
 videoId: D9Q0EjzTnLg
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

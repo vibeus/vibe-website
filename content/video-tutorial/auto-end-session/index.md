@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Let's walk through how to set up the auto end session feature.
 videoId: HBc_I-4yjvE
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

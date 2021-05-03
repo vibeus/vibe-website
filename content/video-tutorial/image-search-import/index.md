@@ -6,8 +6,8 @@ draft: false
 isfeatured: true
 summary: You can browse the images on 'Google Image', and import into the canvas.
 videoId: NyVSnrVr5nE
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

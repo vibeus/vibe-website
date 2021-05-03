@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Using Eshare for your wireless screencast, and you can even touch back to control the screen on the Vibe board!
 videoId: i3rdKdnmEp0
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

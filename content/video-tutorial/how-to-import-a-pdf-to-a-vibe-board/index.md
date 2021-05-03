@@ -5,8 +5,8 @@ date: 2020-02-24
 draft: false
 summary: With this brand new feature, now you can serach images on 'Google Image', and import into the canvas.
 videoId: dqFyFakRp8M
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

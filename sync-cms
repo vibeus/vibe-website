@@ -317,10 +317,10 @@ def process_doc(doc_id, is_dev, allow_large_image, cms_type):
         if cms_type == "video" and len(video_ids) > 0:
             f.write("\nvideoId: {}".format(video_ids[0]))
             f.write(
-                "\nallowIndex: false"
+                "\nnoIndex: true"
             )  # for now simply redirect to youtube so hide single page.
             f.write(
-                "\nno_sitemap: true"
+                "\nnoSitemap: true"
             )  # for now simply redirect to youtube so hide single page.
         if is_dev:
             f.write(

@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Using HDMI to connect your computer with Vibe to enlarge your screen. In addition, you can do annotation on the video screen.
 videoId: grSA_4RjYz4
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

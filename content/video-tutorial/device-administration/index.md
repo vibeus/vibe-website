@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Let's walk through how to set up the device administration. 
 videoId: Z2J8iC97rvI
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

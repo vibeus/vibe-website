@@ -6,8 +6,8 @@ draft: false
 isfeatured: true
 summary: Now you can save the board back to Google Drive, OneDrive, Dropbox, and Box!
 videoId: uxfZWCbqYqM
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

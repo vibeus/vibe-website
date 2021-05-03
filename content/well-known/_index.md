@@ -1,4 +1,4 @@
 ---
 cascade:
-  no_sitemap: true
+  noSitemap: true
 ---

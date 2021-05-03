@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Let's walk through how to set up the screen lock on the Vibe board.
 videoId: QU4479oDB5Y
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

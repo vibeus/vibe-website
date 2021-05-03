@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to use 3rd party applications on Vibe.
 videoId: sLhud0K7NKM
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

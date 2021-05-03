@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Get an overview of how to set up cloud storage to your Vibe account. You can easily import files or export your Vibe boards to cloud drives.
 videoId: L1dxhc0tdFM
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 

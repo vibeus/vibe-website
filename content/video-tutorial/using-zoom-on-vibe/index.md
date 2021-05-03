@@ -6,8 +6,8 @@ draft: false
 isfeatured: false
 summary: Working from home? Join a Zoom video call through Vibe and share the whiteboard screen in real-time for better collaboration. 
 videoId: lZaq_qFOsaM
-allowIndex: false
-no_sitemap: true
+noIndex: true
+noSitemap: true
 ---
 
 
