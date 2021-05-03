@@ -206,7 +206,7 @@
 {{ end }}
 
 {{ with .Params.why_vibe }}
-{{ partial "common/compare" (merge (dict "Site" $.Site) .) }}
+{{ partial "common/compare-in-brief" (merge (dict "Site" $.Site) .) }}
 {{ end }}
 
 {{ with .Params.faq }}
