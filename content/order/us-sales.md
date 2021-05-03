@@ -178,6 +178,7 @@ book_demo:
   title: Ready to see Vibe in action?
   body: Book a demo to see a product overview.
   figure: img/order/book-demo-bg.png
+  figure_background_color: "#66cccc"
 
 why_vibe:
   title: Why Vibe?
