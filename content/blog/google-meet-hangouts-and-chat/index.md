@@ -2,14 +2,15 @@
 title: The Best Uses for Google Meet, Hangouts, and Chat
 slug: google-meet-hangouts-and-chat
 author: Paige Smith
-date: '2021-05-06'
+date: '2021-05-03'
 tags:
 - Google Meet
 - meeting techniques
 - video conferencing
-draft: true
+draft: false
 isfeatured: false
-description: "Google Meet, Hangouts, and Chat: what\u2019s the difference? We review the best features of each Google app."
+description: "Google Meet, Hangouts, and Chat: what\u2019s the difference? We review the best features of each Google conferencing\
+  \ app."
 ---
 
 Do you chat, hang out, or meet? Every team has its own style of communicating, which is why Google created over [271 products and services](https://www.matrics360.com/google-products-and-services/) to improve the way we work together. There’s an app for everything, but knowing which is right for you and your team can be challenging. To help you out, here’s a breakdown of Google’s top communication apps, their unique features, and examples of when to use each one.
@@ -18,15 +19,15 @@ Do you chat, hang out, or meet? Every team has its own style of communicating, w
 
 Our world went through a lot of change in a short period — and Google was no exception. As of October 2020, [G Suite is now Google Workspace](https://support.google.com/a/answer/10075155?hl=en#:~:text=On%20October%206%2C%202020%2C%20we,Suite%20is%20now%20Google%20Workspace.). But the tools you once knew and loved in G Suite are still around, just with some new names and improved features. Here’s what you need to know about Google’s three main messaging and video conferencing apps. 
 
-### *Google Meet*
+### Google Meet
 
 Think of Google Meet as the Google equivalent of Zoom. This is the app to use for all your video conferencing, whether it be work-related or personal. Once the pandemic hit in early 2020, Google made this app free for all to use. However, just like Zoom, [Google Meet has varying plans](https://apps.google.com/intl/en/meet/pricing/) to accommodate larger audiences and longer meetings. Up to 250 internal or external participants (or 100,000 [live stream viewers](https://support.google.com/meet/answer/9308630?co=GENIE.Platform%3DDesktop&hl=en)) can join a Meet call. Certain plans also allow hosts to record meetings, introduce polls and Q&A, hold breakout sessions, and other helpful features.  
 
-### *Google Hangouts (or “classic Hangouts”)*
+### Google Hangouts (or “classic Hangouts”)
 
 You may have heard of Hangouts Meet and Hangouts Chat. But, as of May 2020 Google rebranded these to Google Meet and Google Chat. Even though classic Hangouts still exists, it appears that Google may encourage the switch to these other apps. In the meantime, Hangouts is still found in the Gmail app as an option for more casual messaging. You can conveniently instant message people in your organization or invite people to join a conversation. 
 
-### *Google Chat*
+### Google Chat
 
 Primarily a messaging app, Google Chat essentially has the same functionality as Hangouts but includes new features specifically geared toward team or project collaboration — the most helpful being the option to [create rooms](https://support.google.com/chat/answer/7659784?hl=en). Users can stay better organized with this space to easily brainstorm with others, share files (conveniently saved in a list format), and create and assign tasks to teammates.
 
