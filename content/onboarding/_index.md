@@ -489,7 +489,7 @@ help:
     - title: 'Help Center'
       body: 'See guides on popular features and search for answers to your questions.'
       figure: img/onboarding/help-2.png
-      url: https://help.vibe.us
+      url: https://knowledge.vibe.us
     - title: 'Warranty'
       body: 'Detailed information about your Vibe warranty.'
       figure: img/onboarding/help-3.png
