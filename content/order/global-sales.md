@@ -53,7 +53,7 @@ hero:
           - name: Canada
             url: https://www.amazon.ca/dp/B081LPL772?ref=myi_title_dp
           - name: United States
-            url: /order/us-sales
+            url: /order/us-sales/
             target: _self
 request_a_quote:
   form:
