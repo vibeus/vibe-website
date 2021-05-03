@@ -2,6 +2,8 @@
 title: 'Slack x Vibe: Organize Vibe boards with Slack channels and access them without leaving Slack.'
 stylesPath: css/apps/slack.sass
 layout: slack
+noIndex: true
+noSitemap: true
 
 hero:
   title: Slack x Vibe

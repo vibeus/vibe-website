@@ -5,6 +5,8 @@ description: Terms of Use for Vibe Inc. Products and Services
 aliases:
   - /term/
   - /documents/term-of-use/
+noIndex: true
+noSitemap: true
 ---
 
 # OVERVIEW

@@ -3,6 +3,9 @@ title: Got what it takes to be a Vibe Influencer?
 description: Love Vibe as much as we do? We’re always looking for new people to partner with. Tell us more about you below and we will get back to you.
 layout: contact
 stylesPath: css/influencer.sass
+noIndex: true
+noSitemap: true
+
 hero:
   title: Got what it takes to be a Vibe Influencer?
   body:

@@ -4,6 +4,8 @@ description: Vibe end-user license agreement
 url: /eula/
 aliases:
   - /documents/eula/
+noIndex: true
+noSitemap: true
 ---
 
 # PART I – SOFTWARE LICENSE AGREEMENT
