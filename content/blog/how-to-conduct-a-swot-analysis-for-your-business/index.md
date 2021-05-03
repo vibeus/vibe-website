@@ -40,7 +40,7 @@ Any business decision that affects a majority of the company would benefit from 
 - Research for a company or product rebrand
 - Expanding the company’s presence in a new location
 
-A full-scale S.W.O.T. analysis isn’t necessary for every single decision you make, but it’s worth going through a quick rundown of the basic principles on a regular basis. 
+A full-scale S.W.O.T. analysis isn’t necessary for every single decision you make, but it’s worth going through a quick rundown of the basic principles on a regular basis.
 
 ## Who should complete the S.W.O.T. analysis?
 
@@ -70,7 +70,7 @@ After a team brainstorming session, the owner is able to see that his well-train
 
 Running through this kind of evaluation gives him an honest assessment of where the business stands and where he and his staff can direct their attention next. And with practice, a S.W.O.T. analysis can give your team this kind of insight, too.
 
-Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysis, brainstorming session, or group project by checking out [vibe.us](http://vibe.us/).
+Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysis, brainstorming session, or group project by checking out [vibe.us](https://vibe.us/).
 
 
 

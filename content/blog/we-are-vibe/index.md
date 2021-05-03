@@ -13,7 +13,7 @@ description: Have you been wondering what Vibe is all about? Discover how Vibe g
 
 # Why called Vibe?
 
-The idea for [Vibe](http://vibe.us/) came from the things that inspired me as a child.
+The idea for [Vibe](https://vibe.us/) came from the things that inspired me as a child.
 
 I was a huge fan of science fiction. I loved Dragon Ball, Ghost in the Shell, and Blade Runner since I was young. Like many science fiction fans, I dreamt of being a futuristic thinker, creating marvelous machines that break down the boundaries of space and time.
 
@@ -49,9 +49,9 @@ And we’re not done yet. We’re constantly innovating to create new solutions 
 
 {{< common/srcset "image-2.jpg" "Seattle Team-New Year Party" >}}
 
-After two years, more and more creative young people have joined Vibe globally. Our offices are currently located in different countries and cities, expanding from Seattle to Shanghai, Hangzhou, and Shenzhen (3 cities in China). 
+After two years, more and more creative young people have joined Vibe globally. Our offices are currently located in different countries and cities, expanding from Seattle to Shanghai, Hangzhou, and Shenzhen (3 cities in China).
 
-Our team members also have diverse backgrounds. We have people that have studied or worked in America, Canada, France, Korea, Egypt and Algeria! Past positions held by Vibe team members include Designer at Facebook, Product Manager at Apple, Software Development Engineers at Twitter and Microsoft. The list goes on. 
+Our team members also have diverse backgrounds. We have people that have studied or worked in America, Canada, France, Korea, Egypt and Algeria! Past positions held by Vibe team members include Designer at Facebook, Product Manager at Apple, Software Development Engineers at Twitter and Microsoft. The list goes on.
 
 But now we are a part of Vibe, because we all share the values of passion for great products, open-mind, integrity, and customer first.
 
