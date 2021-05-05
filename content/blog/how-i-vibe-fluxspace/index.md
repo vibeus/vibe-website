@@ -7,7 +7,7 @@ tags:
 - Collaborative Space
 - how i vibe
 - remote collaboration
-draft: true
+draft: false
 isfeatured: false
 description: Learn how the innovators at Fluxspace are using Vibe to design the collaborative learning environments of the
   future.
