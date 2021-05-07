@@ -12,7 +12,7 @@ isfeatured: false
 description: "Stay connected to colleagues, friends, and family when you\u2019re working from home."
 ---
 
-Right now, you may be fully adjusted to work-from-home life. You’ve likely mastered Zoom, and may have even interviewed new candidates for your company without ever meeting them in person. But even though work offers some methods of socialization through text apps and virtual meet-ups, you may be looking for other ways to talk to people. If you were the type to enjoy watercooler conversations, that was likely a big part of your workday that’s tough to recreate during times like these.
+Right now, you may be fully adjusted to work-from-home life. You’ve likely mastered Zoom, and may have even interviewed new candidates for your company without ever meeting them in person. But even though work offers some methods for socializing online through text apps and virtual meet-ups, you may be looking for other ways to talk to people. If you were the type to enjoy water cooler conversations, that was likely a big part of your workday that’s tough to recreate during times like these.
 
 It’s also important to socialize with others outside of work. Remember, you want to keep your work and your personal life balanced. The second your colleagues become your best friends, the harder it’ll be to ever leave the job for more prosperous opportunities.
 
@@ -20,15 +20,15 @@ Here are ways you can branch out and improve your social life while still follow
 
 ## 1. Consider online dating.
 
-If you’ve been single throughout the pandemic, now might be the time to branch out and meet someone. For many households, it’s been refreshing to have a partner there to ride this out with. By now, you’re used to talking online. So, you’ve likely built up more confidence than you realize to shoot someone a message or ask them out on a video date. Of course, people are still meeting in person these days. They’re just being more careful. “For a first in-the-flesh date, keep it outside, where the risk of coronavirus transmission is lower,” writes [The New York Times](https://www.nytimes.com/2020/07/18/at-home/coronavirus-pandemic-dating.html). “For the nearly 20 people interviewed for this article, walks were by far the top choice, followed by picnics and then backyard barbecues or a drink at a restaurant with outdoor seating.”
+If you’ve been single throughout the pandemic, now might be the time to branch out and meet someone. For many households, it’s been refreshing to have a partner there to ride this out with. By now, you’re used to talking online. So, you’ve likely built up more confidence than you realize to shoot someone a message or ask them out on a video date.
+
+Of course, people are still meeting in person these days. They’re just being more careful. “For a first in-the-flesh date, keep it outside, where the risk of coronavirus transmission is lower,” writes [The New York Times](https://www.nytimes.com/2020/07/18/at-home/coronavirus-pandemic-dating.html). “For the nearly 20 people interviewed for this article, walks were by far the top choice, followed by picnics and then backyard barbecues or a drink at a restaurant with outdoor seating.”
 
 ## 2. Ask friends to play an online game with you.
 
 {{< common/srcset "image-1.png" "Vibe supports Google Play store." >}}
 
-Whether it’s Words With Friends, Animal Crossing, or even Call of Duty, games can bring friends together. It’s especially good to choose a fun game if you’re trying to ease back into an old friendship. Gaming with someone is a good way to lift their spirits, along with your own. And the best part? It’s a completely safe activity. You should see what types of games you can find using your Vibe board. It has multiple apps that you can integrate, and they’re continually adding more.
-
-*Related:* [3rd Party App Integrations for the Vibe board](https://vibe.us/android-app-store/)
+Whether it’s Words With Friends, Animal Crossing, or even Call of Duty, games can bring friends together. It’s especially good to choose a fun game if you’re trying to ease back into an old friendship. Gaming with someone is a good way to lift their spirits, along with your own. And the best part? It’s a completely safe activity. You should see what types of games you can find using your Vibe board. It has [multiple apps that you can integrate](https://vibe.us/android-app-store/), and they’re continually adding more.
 
 ## 3. Try out TikTok.
 
@@ -37,6 +37,8 @@ On the subject of apps that work with Vibe, there’s always TikTok. Chances are
 ## 4. Send long emails.
 
 Long gone are the days of snail mail pen pals. While it’s still great to write letters, it’s also pretty nice to get a long email. Use your downtime to construct a great email to a long lost friend you haven’t heard from in a long time. It’ll keep you busy, and it’ll make them feel loved. Time is so limited these days, so sending a thought-out message means even more. If you feel like putting pen to paper? More power to you. It’d also be a great way to help support the USPS.
+
+***Related:* [3 Easy Methods for Better Asynchronous Communication](https://vibe.us/blog/easy-methods-for-better-asynchronous-communication/)**
 
 ## 5. Set up time for a phone call.
 
@@ -52,12 +54,12 @@ Online forums are great, since they’ll allow you to further explore your inter
 
 It’s easy to Amazon something small and send it to a friend as a surprise. It can be something self-care related, like a pedicure kit or face masks, or something fun like a desk accessory or funny t-shirt. Selecting and sending items is fun, and it’s even better to wait and see how they respond to it. During these times, it’s important to check up on your friends and make sure they’re doing okay. A small gift is a nice way to let them know you’re thinking about them.
 
-We may be growing tired of texts and virtual meet-ups, but it’s much better than nothing. Socialization is very important. Besides lifting our moods, it’s also a good way to stay connected. If you’re on the introverted side, it’s important to practice being social. Even if you’re not in a position where you’d like to add more friends to your roster, it’s also a great way to get ahead in your career.
+We may be growing tired of texts and virtual meet-ups, but it’s much better than nothing. Socialization is very important. Besides lifting our moods, it’s also a good way to stay connected. If you’re on the introverted side, it’s important to practice being social online. Even if you’re not in a position where you’d like to add more friends to your roster, it’s also a great way to get ahead in your career.
 
 
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! **Collaborate today with Vibe.**
+[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. **Collaborate today with Vibe.**
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

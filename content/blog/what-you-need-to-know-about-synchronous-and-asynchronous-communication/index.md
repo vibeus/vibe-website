@@ -10,7 +10,8 @@ tags:
 - synchronous communication
 draft: false
 isfeatured: false
-description: Teams can use Synchronous Communication or Asynchronous Communication for group collaboration.
+description: Teams can use synchronous or asynchronous communication for group collaboration. Learn the difference and when
+  to use each method.
 ---
 
 ## Synchronous communication vs. asynchronous communication

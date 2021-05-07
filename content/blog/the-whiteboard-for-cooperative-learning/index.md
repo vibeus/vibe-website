@@ -9,13 +9,13 @@ tags:
 - the whiteboard
 draft: false
 isfeatured: false
-description: "Use Vibe\u2019s interactive whiteboard in school to express ideas and concepts to students. Vibe smart boards\
-  \ are idea for STEM classrooms that engage and challenge students."
+description: "Use Vibe\u2019s digital whiteboard in the classroom to express ideas and concepts. Vibe smart boards are ideal\
+  \ for cooperative learning that engages students."
 ---
 
-In education, learning through collaboration is more important than ever. Cooperative learning and collaborative work lead to the kinds of success and discovery that one person alone could never imagine. At Vibe, learning and teamwork are at the core of everything we do.
+In education, learning through collaboration is more important than ever. Cooperative learning and collaborative work lead to the kinds of success and discovery that one person alone could never imagine. Learning and teamwork are at the core of everything we do at Vibe.
 
-As a company that looks to the future, cooperative learning is a source of fascination and inspiration for our team. Traditional education, limited by the tech of the past, no longer truly accommodates the range of ways in which young people learn. And even some of the new classroom technology still doesn’t take full advantage of the most widely effective and proven techniques.
+As a company that looks to the future, cooperative learning is a source of fascination and inspiration for our team. Traditional education, limited by the tech of the past, no longer truly accommodates the range of ways in which young people learn. And even some of the new classroom technology still doesn’t utilize the most widely effective and proven techniques.
 
 The Vibe interactive whiteboard aims to modernize education and give teachers the tools they need to nurture a generation of bright, informed, innovative thinkers who excel at working together.
 

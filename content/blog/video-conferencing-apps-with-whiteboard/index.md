@@ -10,8 +10,8 @@ tags:
 - video conferencing
 draft: false
 isfeatured: false
-description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, BlueJeans Meetings, GoToMeeting, and RingCentral Meetings
-  with Vibe digital whiteboard.
+description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, RingCentral Meetings, and other popular video conferencing
+  apps before your next meeting.
 ---
 
 ## Video Conference Apps Compatible with Vibe
@@ -30,7 +30,7 @@ description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, BlueJeans Meet
 
 The shift to remote work means many of us are spending more time on video conferences —and that’s not a bad thing. Video conferencing gives businesses of all sizes the opportunity to foster new connections, expand creatively and technologically, and communicate more efficiently. (We’ve all felt the despair of being stuck in endless email threads, right?)
 
-Many of us are familiar with the Zoom app, and it’s a great tool. But it’s not the only video conferencing solution out there. Just as every business has different needs, video conferencing apps offer a variety of features for a wide range of prices and time commitments. Let’s take a look at some of the Vibe board-friendly conferencing apps that could be a fit for your business.
+Many of us are familiar with the Zoom app, and it’s a great tool. But it’s not the only video conference solution out there. Just as every business has different needs, video conferencing apps offer a variety of features for a wide range of prices and time commitments. Let’s take a look at some of the Vibe board-friendly conferencing apps that could be a fit for your business.
 
 {{< common/srcset "image-1.png" "How do I choose a video conferencing app?" >}}
 
@@ -62,7 +62,7 @@ Regardless of the plan you choose, each video conference is delivered in HD vide
 
 According to the [BlueJeans website](https://store.bluejeans.com/), “The Standard package is for small businesses and teams who are getting started with video conferencing,” and it’s important to remember that this plan doesn’t include many third-party app integrations. The Pro and Enterprise plans are a better fit for larger teams who depend on more third-party apps and want access to meeting analytics.
 
-All in all, Blue Jeans is a solid option for teams with straightforward video conferencing needs. If your team plans on working remotely and is new to the video conferencing environment, BlueJeans is a good place to start.
+All in all, Blue Jeans is a solid option for teams with straightforward video conference needs. If your team plans on working remotely and is new to the video conferencing environment, BlueJeans is a good place to start.
 
 
 
@@ -86,7 +86,7 @@ With the **Enterprise package**, you’ll receive all of the features of the Pro
 
 ### Is GoToMeeting right for you?
 
-The Professional plan is a good option if you plan on having a lot of meetings but don’t necessarily need a lot of bells and whistles. The Business plan has some really great features to help you get the most out of your video conferencing experience (transcription, downloaded meetings, ability to annotate, etc.).
+The Professional plan is a good option if you plan on having a lot of meetings but don’t necessarily need a lot of bells and whistles. The Business plan has some really great features to help you get the most out of your video conference experience (transcription, downloaded meetings, ability to annotate, etc.).
 
 It comes down to this: GoToMeeting has a wide variety of services available, including GoToWebinar and GoToConnect. So if your company is serious about creating more remote work roles, having a full suite of options to mix-and-match is a smart route to take.
 
@@ -96,7 +96,7 @@ It comes down to this: GoToMeeting has a wide variety of services available, inc
 
 ## Microsoft Teams Review
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/video-conferencing) is probably one of the most widely recognized video conferencing solutions. Businesses that already operate on Microsoft products have likely tried at least some of Teams’ features, but there’s plenty to learn about this service.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/video-conferencing) is probably one of the most widely recognized video conference solutions. Businesses that already operate on Microsoft products have likely tried at least some of Teams’ features, but there’s plenty to learn about this service.
 
 ### How much does Microsoft Teams cost?
 
@@ -136,7 +136,7 @@ While RingCentral Meetings doesn’t offer an official trial period, they do hav
 
 ### What’s the difference between RingCentral Meetings plans?
 
-Compared to other video conferencing apps, **RingCentral Meetings’ Free plan** is fairly robust. Users get up to 100 participants per meeting, unlimited 1:1 meetings, and 40-minute group meetings. Participants can join from desktop, mobile device, or phone and have access to screen sharing, whiteboarding, annotation, and team messaging. The Free plan also includes local recording as well as Outlook integration for scheduling ease.
+Compared to other video conference apps, **RingCentral Meetings’ Free plan** is fairly robust. Users get up to 100 participants per meeting, unlimited 1:1 meetings, and 40-minute group meetings. Participants can join from desktop, mobile device, or phone and have access to screen sharing, whiteboarding, annotation, and team messaging. The Free plan also includes local recording as well as Outlook integration for scheduling ease.
 
 With the **Essentials** plan, you get unlimited time for group and 1:1 meetings; however, group meetings remain capped at 100 participants. In addition to the Free plan’s meeting features, Essentials plan users get 24/7 phone support and scheduling assistance. The team messaging has more advanced options as well.
 
@@ -152,7 +152,7 @@ RingCentral Meetings’ Free plan is an excellent option for a variety of teams:
 
 ## UberConference Review
 
-[UberConference](https://www.uberconference.com/), a video conferencing app from Dialpad, is the most bare-bones option in this roundup. It may not be as flashy as some of the other apps out there, but there’s still plenty to like about this streamlined solution.
+[UberConference](https://www.uberconference.com/), a video conference app from Dialpad, is the most bare-bones option in this roundup. It may not be as flashy as some of the other apps out there, but there’s still plenty to like about this streamlined solution.
 
 ### How much does UberConference cost?
 

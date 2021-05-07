@@ -10,7 +10,7 @@ tags:
 draft: false
 isfeatured: false
 description: Do you actually know how to clean a laptop, digital whiteboard, or tablet? Try these simple and effective tips
-  for cleaning all of the tech in your home office.
+  for cleaning all of your home office tech.
 ---
 
 After a year of working from home, your home office is probably past due for a deep clean. But before you spray a bottle of Windex on everything or use your last precious Clorox wipe, ask yourself: do I actually know the best way to clean everything on my desk? This post features smart strategies to help your home office tech devices stay clean and functioning at their best so you can work from home like a champ.
