@@ -124,7 +124,7 @@ Use whiteboarding as a way to promote inclusivity. Whiteboarding can break down 
 
 A digital whiteboard offers even more inclusivity because everyone controls the ability to draw on the board instead of passing the marker on a traditional dry erase board. By nature of giving everyone the right to add to the board, you’re demonstrating that each person’s opinions and ideas bring value to the whiteboarding session.
 
-### Have some fun
+### Have some fun!
 
 There’s more to whiteboarding than just work, work, work. Whiteboards tend to become hubs for inside jokes, workplace graffiti, even games. All these can be part of a productive day, and creative facilitators can even use this joyful approach to whiteboarding in guiding their ideation.  
 With whiteboarding, the sky’s the limit when it comes to creativity.
