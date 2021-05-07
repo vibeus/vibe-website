@@ -16,6 +16,9 @@ apps:
 - id: com.Tableau.TableauApp
   name: Tableau
   type: data_viz
+- id: com.abbyy.mobile.finescanner.free
+  name: FineReader
+  type: productivity
 - id: com.adobe.cc
   name: Creative Cloud
   type: design
@@ -116,6 +119,12 @@ apps:
 - id: com.facebook.Origami
   name: Origami
   type: communication
+- id: com.garmin.android.apps.connectmobile
+  name: Connect
+  type: other
+- id: com.glip.mobile
+  name: RingCentral
+  type: productivity
 - id: com.google.android.apps.youtube.unplugged
   name: YouTube TV
   type: av
@@ -226,6 +235,9 @@ apps:
 - id: com.panopto.androidapp
   name: Panapto
   type: education
+- id: com.peaksware.trainingpeaks
+  name: TrainingPeaks
+  type: other
 - id: com.prezi.android
   name: Prezi
   use_case: presentation
@@ -272,6 +284,9 @@ apps:
   name: TeamViewer
   use_case: remote
   type: productivity
+- id: com.techsmith.apps.coachseye.free
+  name: Coach
+  type: other
 - id: com.tencent.mm
   name: WeChat
   type: communication
@@ -281,6 +296,9 @@ apps:
 - id: com.tencent.wework
   name: WeCom
   type: communication
+- id: com.trainerroad.android.production
+  name: TrainerRoad
+  type: other
 - id: com.trello
   name: Trello
   use_case: project
