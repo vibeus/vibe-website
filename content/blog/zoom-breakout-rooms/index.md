@@ -7,7 +7,7 @@ tags:
 - meeting techniques
 - video conference
 - Zoom
-draft: true
+draft: false
 isfeatured: false
 description: "Heard of Zoom breakout rooms but aren\u2019t sure what they\u2019re about? We\u2019ll teach you the best practices\
   \ for using them in team meetings."
