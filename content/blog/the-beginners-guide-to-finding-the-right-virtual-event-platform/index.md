@@ -49,12 +49,11 @@ Don’t forget to make sure whatever platform you choose will integrate with oth
 **Methods for engagement.**  
 The most important customer-facing metric for events is engagement. With virtual events, you have to consider a variety of ways to interact with attendees from afar. According to Statista, [the top five ways to engage with attendees](https://www.statista.com/statistics/1134517/global-virtual-conference-engagement-methods/) are:
 
-
 1. Live chat to ask questions for speakers
 2. Live chat for participants to communicate
 3. Online community to facilitate engagement
 4. Polls with real-time results
-5. Virtual “Happy Hour” breakouts 
+5. Virtual “Happy Hour” breakouts
 
 When comparing potential solutions, take stock of their tools for engagement. Chat and polls are a good starting point, but you can take things to the next level with break-out rooms, polls, virtual vendor booths, and online swag.
 

@@ -57,7 +57,6 @@ This part doesn’t have to be all about work, though. Send a welcome kit with c
 
 **Onboarding Documents**
 
-
 - official job offer and contract
 - payroll, tax, and legal forms
 - employee handbook

@@ -21,7 +21,6 @@ description: Looking for the right touchscreen display for your needs? We cover 
 
 Firstly, what is your primary purpose for this touchscreen display? **Identifying your specific uses and needs is key to getting the** [most service](https://www.bbc.co.uk/bitesize/guides/z9bqrwx/revision/4) **out of your touchscreen display.** Vibe products are most frequently installed in these environments:
 
-
 - **Ideation or collaboration room:** This kind of space is used to generate ideas or solve complex problems together, and sessions can last several hours to several days. This set-up allows for flexibility of movement so that you can go with smaller screen sizes. Aim for portability.
 - **Presentation room:** In a presentation room, the presenter needs to command the attention of an audience. In this case, the only person who interacts with the screen will be the presenter/or facilitator. It’s essential to choose a large enough touchscreen to be seen clearly and installed in a prominent position.
 - **Meeting room:** Meeting rooms are there to make decisions. Corporate meetings typically only last a couple of hours, max, and users usually have to display documents on the screen and sketch and annotate easily. In this case, touch experience and multi-touch should be a priority and link to personal devices.
@@ -53,7 +52,6 @@ The flexibility of space is also crucial in meeting and presentation rooms and d
 Ease of use is the crux of adopting any tool. When something works well, it should be able to integrate seamlessly into your current environment, minimizing the need for support and training. However, security is another aspect you need to consider for a device that is generally left in shared office spaces.
 
 Typically speaking, users don’t care about what the OS or PC of a screen is, as long as they can use it easily and the screen is powerful enough to have a good experience. **Vibe boards are able to be** [integrated with both Macs and PCs](https://vibe.us/software/)**.** There are three common PC options:
-
 
 - Built-in PC
 - OPS PC

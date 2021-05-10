@@ -38,7 +38,6 @@ This kind of communication is excellent for building personal connections or con
 
 **Synchronous works best in scenarios where:**
 
-
 - meetings can be scheduled ahead of time.
 - answers are needed immediately.
 - you’re building workplace camaraderie, such as hosting a team outing (either in-person or virtual).
@@ -49,7 +48,6 @@ This kind of communication is excellent for building personal connections or con
 Also known as async, asynchronous communication is any communication that is sent without the expectation of an immediate reply. **This type of communication occurs when team members can expect lag time between the sent message and response.**
 
 Asynchronous communication examples include:
-
 
 - recorded video meetings
 - email

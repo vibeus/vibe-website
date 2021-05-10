@@ -23,12 +23,11 @@ Remember high school term papers? If you were like many students, you did whatev
 
 For [asynchronous communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/), write like you talk:
 
-
-- Keep it conversational with contractions and everyday language. 
-- Avoid fluffy words and phrases. (Think “use” versus “utilize.”) 
-- When appropriate, lean on emojis, memes, gifs and typeface to support your message. 
-- Stick to a common vocabulary easily understood by all instead of acronyms and [corporate speak](https://www.theatlantic.com/health/archive/2020/02/most-annoying-corporate-buzzwords/606748/). 
-- Watch out for idioms or expressions that could be regional, insensitive, or just difficult to understand. 
+- Keep it conversational with contractions and everyday language.
+- Avoid fluffy words and phrases. (Think “use” versus “utilize.”)
+- When appropriate, lean on emojis, memes, gifs and typeface to support your message.
+- Stick to a common vocabulary easily understood by all instead of acronyms and [corporate speak](https://www.theatlantic.com/health/archive/2020/02/most-annoying-corporate-buzzwords/606748/).
+- Watch out for idioms or expressions that could be regional, insensitive, or just difficult to understand.
 - Give messages a quick proof before hitting send to avoid confusing typos or grammatical errors.
 
 ***Related:*** [How to Design a Remote-first Workplace](https://vibe.us/blog/how-to-design-a-remote-first-workplace/)
@@ -53,11 +52,10 @@ Do you wake up to a flurry of texts, alerts, and emails each morning? You’re n
 
 To establish healthy working hours and boundaries, consider the timing of your communications. 
 
-
-- Be mindful of “deep focus hours,” which for many employees includes the first half of the day. 
-- Check your colleagues’ calendars for blocked-off times and PTO before messaging or [scheduling meetings](https://vibe.us/blog/the-complete-guide-to-conducting-remote-stand-up-meetings/). 
-- Acknowledge messages promptly even if it’s just a thumbs up or note that you’ll get back to it later. 
-- Schedule messages to send during your company’s working hours if you’re crafting them outside of those hours. 
+- Be mindful of “deep focus hours,” which for many employees includes the first half of the day.
+- Check your colleagues’ calendars for blocked-off times and PTO before messaging or [scheduling meetings](https://vibe.us/blog/the-complete-guide-to-conducting-remote-stand-up-meetings/).
+- Acknowledge messages promptly even if it’s just a thumbs up or note that you’ll get back to it later.
+- Schedule messages to send during your company’s working hours if you’re crafting them outside of those hours.
 - Update your status on communication platforms when you’re away, on PTO, or otherwise unavailable.
 
 It can take some time to master the art of asynchronous communication, but these methods will certainly take you far. As you hone your remote communication skills, [integrate collaboration tools](https://vibe.us/) like Vibe into your toolkit to better engage with your colleagues.

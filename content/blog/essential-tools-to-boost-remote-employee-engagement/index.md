@@ -69,7 +69,6 @@ Built to accommodate every department including engineering, accounting, sales, 
 
 Trello utilizes built-in automation and app integration for a seamless workflow. The Trello Butler automates across functionality to eliminate redundancy and empower cross-collaboration between teams. And Trello can integrate with all the top collaboration apps like:
 
-
 - Slack
 - Dropbox
 - Google Drive
@@ -113,7 +112,6 @@ Break tasks up into workflow stages to allow your workers to manage their own ti
 ## Tips for managing remote teams
 
 Now you know what software you need for managing remote employees, but what are some general tips for increasing productivity and collaboration? Consider these:
-
 
 - **Team building.** With everyone spread out, make sure to schedule regular socials and online events to bring your team together. This helps combat isolation and creates a sense of community.
 - **Breaks.** Encourage your team to take frequent breaks and stop working at a reasonable hour. With their desk right by their bedroom, it’s tempting for employees to work extra long hours. This induces burnout and harms overall productivity.

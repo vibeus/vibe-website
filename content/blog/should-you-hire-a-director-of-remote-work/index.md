@@ -26,7 +26,6 @@ There is some overlap between this role and a traditional HR or people operation
 
 However, directors of remote work have [unique challenges to overcome](https://vibe.us/blog/challenges-of-working-from-home-and-how-to-overcome-them/) that differ from the traditional HR function, including:
 
-
 - Connecting in-office and remote employees to prevent silos and ensure collaboration
 - Translating in-office perks to at-home benefits
 - Researching and [setting criteria for remote worker pay](https://www.payscale.com/content/whitepaper/Remote-Work-Pay-Strategy.pdf) (This is critical to setting yourself apart from the competition as less than 25% provided any kind of stipend to remote employees last year.)

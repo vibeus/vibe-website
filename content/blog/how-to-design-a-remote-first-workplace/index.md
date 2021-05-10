@@ -55,11 +55,10 @@ While synchronous communication still has its place in a remote-first company, t
 
 The asynchronous communication toolkit should be robust enough to keep every employee, regardless of location, fully informed and reachable as needed. This means using applications that allow for (but aren’t limited to):
 
-
 - the easy exchange of large files
 - meeting recordings and transcription
 - team chats with searchable histories
-- [remote collaboration](https://vibe.us/lp/scenario-remote/) 
+- [remote collaboration](https://vibe.us/lp/scenario-remote/)
 
 Communication needs will vary between departments, so take the time to gather input from your team and be open to testing different platforms.
 

@@ -57,7 +57,6 @@ Some items may be more number-based, such as the ROI of a certain product launch
 
 When dollars and customer satisfaction are on the line, it pays to do your homework. Before placing items on the matrix, conduct some brief research. Get a feel for an item’s value and effort levels by viewing the results of similar tasks or features that were previously rolled out. We can learn a lot about the future from our past. You may also want to ask the following questions about each item to guide your thought process:
 
-
 - Does the feature affect many people?
 - Will the feature increase revenue?
 - Will you gain new customers from the product?

@@ -22,7 +22,6 @@ While you can have collaborative meetings either in person or virtually, it’s 
 
 Schedule the meeting at a time that works for everyone. This can be a challenge because you need to be mindful of:
 
-
 - Different department schedules and work hours
 - Time zones if teams are global or throughout the country
 - Other meetings that pull cross-functional team members
@@ -39,7 +38,6 @@ Before scheduling anything, you should have a clear goal for the meeting. Identi
 Are there better ways to communicate the information (maybe via email, forum, or chat) that won’t monopolize everyone’s time? If your meeting is to solve a problem, create or review a plan, make decisions, or delegate responsibility, you may benefit from a collaborative meeting.
 
 A [Harvard study](#) found that 75% of cross-functional teams were dysfunctional because they couldn’t:
-
 
 - Stay on budget
 - Stay on schedule
@@ -79,7 +77,6 @@ An effective collaborative meeting requires taking vigilant notes to capture all
 
 An [interactive whiteboard](https://vibe.us/software/) is an ideal tool for collaborative meetings. The whiteboard is intuitive, allowing participants to easily:
 
-
 - Share and draw ideas on an unlimited canvas.
 - Utilize smart objects to create easy to follow and read.
 - Import documents and images for faster workflow.
@@ -100,7 +97,6 @@ Digital whiteboards allow participants to import documents and images that can b
 ## Top-notch security for information storage
 
 Cybersecurity is a growing threat that requires constant vigilance. You’ll need to ensure proper VPNs, software, and [applications are secure](https://vibe.us/security/) within your meetings. Vibe’s interactive whiteboard provides:
-
 
 - Identity Management
 - Data Protection
