@@ -23,14 +23,13 @@ A screenshot is an image that captures visible content on a device’s screen. T
 
 Being able to take a simple screenshot opens the door to a multitude of benefits. Whether you use this function for work, school, travel, or your personal life, taking a screenshot is super handy. Here are some of the ways that a screenshot can help you out:
 
-
 - Save an image from a web browser
 - Take a picture of a digital document and add annotations
-- Capture a recipe or instructions 
+- Capture a recipe or instructions
 - Remember some bullet points from a slideshow presentation
 - Send an image of a computer error to your IT team
-- Show others how to perform a function or where to navigate to 
-- Save a text message conversation 
+- Show others how to perform a function or where to navigate to
+- Save a text message conversation
 - Capture the birds-eye view of a location and route instructions from a GPS app
 - Save confirmation numbers for flights and reservations for easy access
 - Share contact information

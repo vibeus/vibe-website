@@ -16,7 +16,6 @@ description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, RingCentral Me
 
 ## Video Conference Apps Compatible with Vibe
 
-
 - BlueJeans Meetings
 - RingCentral Meetings
 - Microsoft Teams
@@ -118,7 +117,6 @@ Similar to Cisco Webex’s offerings (which we’ll cover further down), Microso
 
 It’s also important to note that [Microsoft Teams is replacing Skype for Business](https://support.skype.com/en/faq/FA34551/what-s-the-difference-between-skype-microsoft-teams-and-skype-for-business), so if that’s your current conferencing platform, consider what Teams has to offer.
 
-
 - **[How to use Microsoft Teams on Vibe – Video](https://www.youtube.com/watch?v=hRNAZdKkcaM)**
 - **[How to use Microsoft Teams on Vibe – Help Article](https://knowledge.vibe.us/how-to-use-vibe-within-microsoft-teams-app)**
 
@@ -180,7 +178,6 @@ If UberConference was the most streamlined of the video conferencing apps, then 
 
 Users can choose from the following packages:
 
-
 - **Free:** No cost. (This would be the best route to take in lieu of a trial period.)
 - **Starter:** $14.95/month
 - **Plus:** $19.95/month
@@ -192,7 +189,6 @@ Discounted prices are available on all plans when choosing annual over monthly s
 ### Notable features
 
 There’s a lot to take into account with Webex meeting packages, so we’ll start with what you can expect from every plan:
-
 
 - Screen sharing
 - Mobile screen sharing
@@ -208,7 +204,6 @@ There’s a lot to take into account with Webex meeting packages, so we’ll sta
 ### What’s the difference between Webex plans?
 
 The differentiating features between the plans are as follows:
-
 
 - **Free:** 1 host, 50-minute meetings, up to 100 participants. Online-only customer support.
 - **Starter:** Up to 9 hosts, 24-hour time limit, up to 100 participants. 5 GB cloud storage for recordings. MP4 recording. Recording transcription. Alternate host option. File transfer (maxes out at 2 GB for in-session file transfers). Online chat and call-in customer support.
@@ -244,7 +239,6 @@ The **Pro plan** also hosts up to 100 participants but gives you more licenses p
 
 With the **Business plan**, you receive these additional features (among others):
 
-
 - Up to 300 participants in a group meeting
 - 10-99 licenses
 - Single sign-on
@@ -255,7 +249,6 @@ With the **Business plan**, you receive these additional features (among others)
 - Language interpretations
 
 And the **Enterprise license** includes even more:
-
 
 - Up to 500 participants
 - 100+ licenses
@@ -269,7 +262,6 @@ And the **Enterprise license** includes even more:
 Zoom is popular for a reason: the company’s plans and prices are comparable to many of the other most popular video conferencing tools. Plus, it’s easy to use. Combine that with Zoom’s newly strengthened security settings, and businesses of any size can find a plan that suits their needs.
 
 Beyond being a must-have solution for so many businesses right now, the right video conferencing tool creates an opening for more flexible work schedules in the future. Having the option to work from home while still having access to co-workers is a huge plus for productivity. This flexibility keeps your employees happy while making your life a little easier, too.
-
 
 - **[How to use Zoom on Vibe – Video](https://www.youtube.com/watch?v=lZaq_qFOsaM)**
 - **[How to use Zoom on Vibe – Help Article](https://www.youtube.com/watch?v=lZaq_qFOsaM)**

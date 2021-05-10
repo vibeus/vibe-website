@@ -81,14 +81,12 @@ Dual monitors essentially **give you double the desktop space**, which reduces t
 
 **There’s not much that you need to** [install dual monitors](https://www.cedarville.edu/insights/blog/monitor-dual-screen-setup-for-desktop-computers.aspx) **other than a computer and the two monitors** that you want to use. Monitors and computers have multiple ways to connect to each other, and there are a few different types of cables you may need. Your monitors will connect with one (or more) of these:
 
-
 - HDMI
 - VGA
 - DVI
 - DisplayPort
 
 **Setting up dual monitors is simple:**
-
 
 1. Connect the second monitor to a power source and your computer.
 2. In your computer’s display settings, choose “Extend these displays” in the multiple displays window.

@@ -28,7 +28,6 @@ The problems we set out to solve were the same problems that we faced ourselves.
 
 When we created Vibe, our goals were to:
 
-
 - Unlock creative potential by offering an unlimited workspace.
 - Create the experience of [face-to-face collaboration from anywhere.](https://vibe.us/product/#teamwork)
 - Intuitively react to the needs of teams.

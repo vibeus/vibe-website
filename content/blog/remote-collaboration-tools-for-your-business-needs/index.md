@@ -16,7 +16,6 @@ Remote work is at its peak since the start of the COVID-19 pandemic in early 202
 
 Remote collaboration tools are critical for keeping a team **functioning smoothly** from around the globe. Challenges these technologies can solve include:
 
-
 - conducting meetings.
 - collaborating on projects.
 - keeping your teammates informed.
@@ -103,7 +102,6 @@ Google Drive is particularly useful in industries or jobs where you’re constan
 ## **Google Assistant**
 
 [Google Assistant](https://assistant.google.com/) helps you do many different things, including:
-
 
 - searching the web hands-free using only your voice.
 - playing a 40-second song while you wash your hands.

@@ -31,7 +31,6 @@ You want to keep the stand-up meeting short, so using a collaborative visual aid
 
 Even short meetings benefit from some organization, so assign one of your team members the job of keeping meeting notes. This doesn’t have to be anything elaborate; the main points you’ll need from everyone attending are:
 
-
 1. What did you accomplish yesterday?
 2. What three goals do you have for today?
 3. What, if anything, is preventing you from making progress?

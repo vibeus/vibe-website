@@ -21,7 +21,6 @@ Key to engaging remote training is leveraging [social tools and collaboration so
 
 You’ll need a reliable remote meeting platform to conduct training. There are several options on the market, and you’ll want to pick a platform that fits your budget. To encourage better training, look for a [platform that has interactive elements](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/) such as:
 
-
 - Breakout rooms
 - [Whiteboards](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)
 - Chat
@@ -43,7 +42,6 @@ When you clearly define the purpose and goal of the meeting, you’ll be able to
 ## Make good use of existing circumstances
 
 Remote work offers a range of benefits that you can use to improve your workforce’s productivity and well-being. By providing remote training opportunities regularly, you can improve communication, education, and management skills. When training in a remote environment, you can:
-
 
 - Make courses accessible across different devices for flexibility and on-demand training.
 - Engage participants through forums, chat, video conferencing, and interactive whiteboards to focus and motivate collaboration.
@@ -75,11 +73,10 @@ Encourage participants to learn from each other by creating opportunities for th
 
 Remember to schedule breaks from training. This lets your employees rest their minds and take care of other pressing tasks or personal needs. Ideally, you’ll want to offer a break every 10 minutes. There are many techniques (for example, the Pomodoro technique) that combine sessions of focused work alternated with frequent, short breaks that have been proven to increase productivity. These breaks could be:
 
-
 - Personal breaks
 - Discussions/ use cases
 - Knowledge checks
-- Snack breaks 
+- Snack breaks
 
 Giving your participants a break helps them retain information and allows them to re-engage when you reset for the next topic. [Studies](https://www.forbes.com/sites/alankohll/2018/05/29/new-study-shows-correlation-between-employee-engagement-and-the-long-lost-lunch-break/?sh=5f0625384efc) have found that breaks improve productivity, well-being, and performance while reducing stress that can lead to job burnout.
 
@@ -94,7 +91,6 @@ Some interactive tools like digital whiteboards can also capture work done durin
 Give participants access to notes from the meeting and an opportunity to revisit the training material after the session. Remote learning can make this more accessible because the collaboration tools can track, save, and easily send materials at the end of the session.
 
 It’s also vital to provide additional resources for participants to deepen their understanding. These resources could be:
-
 
 - Training videos
 - Interactive workbooks

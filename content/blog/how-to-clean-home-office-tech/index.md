@@ -41,7 +41,6 @@ The type of environment that your laptop is exposed to will ultimately determine
 
 ### Helpful hints
 
-
 - Place a screen protector on your laptop as soon as you purchase a new computer or after a good, thorough cleaning. Not only will a screen protector protect your screen from damage, but it can withstand the sanitizing strength of rubbing alcohol.
 - Keep bursts of air short when spraying compressed air near a fan. If a fan spins too fast it could break.
 - If you’re using an electric air compressor, don’t touch the tool to any internal parts of the laptop.
@@ -68,7 +67,6 @@ Depending on the type of digital whiteboard, it may include a [passive or active
 
 ### Helpful hints
 
-
 - Strong chemicals like alcohol or ammonia can damage your whiteboard. Avoid them like the plague.
 - Make sure power is turned off and disconnected from the board while cleaning and until dry.
 - If you’re using a Vibe board, check out our other [helpful cleaning tips](https://knowledge.vibe.us/tips-for-cleaning)
@@ -94,7 +92,6 @@ If you’re looking to remove smudges and grime, simply wipe a microfiber cloth 
 For added sterilization, there are also [UV sterilizers](https://www.forbes.com/sites/forbes-personal-shopper/2020/04/02/these-uv-sanitizers-can-kill-off-bacteria-and-viruses-including-the-coronavirus-that-caused-covid-19/?sh=550ac7c6b035) for phones and other touchscreen devices that you can use. Some of these products even include a charger so your device can refuel while it cleans up.
 
 ### Helpful hints
-
 
 - The [CDC](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/disinfecting-your-home.html) recommends putting a wipeable cover on devices to allow for regular cleaning that won’t affect the delicate coating and components within your touchscreens. Screen protectors and a good case for the device can help with this.
 - Use distilled or filtered water to avoid streaks and mineral build-up.
@@ -123,7 +120,6 @@ First, unplug the mouse from your computer or, if it’s cordless, remove its ba
 The final step is to clean the inside of the mouse. You can do this by following the manufacturer’s instructions on how to remove the top — you may be able to gently pull it off or it could require the removal of a screw. Once inside, take a fresh Q-Tip or corner of a microfiber cloth dampened with alcohol and wipe down the inside of the buttons and other crevices. Allow all parts of the mouse to dry before reassembling.
 
 ### Helpful hints
-
 
 - A clean mouse needs a clean surface to rest and roll on. Make sure your mouse pad is ready for use by running a lint roller over it to remove dust. Follow this up with a rub from a damp cloth.
 

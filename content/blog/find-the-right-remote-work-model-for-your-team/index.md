@@ -45,7 +45,6 @@ Joel Gascoigne, CEO and co-founder of Buffer, imagined [remote work developing a
 
 Buffer’s remote work model breaks down as follows:
 
-
 - Office-based teams
 - Office based with a work-from-home option
 - Remote team in a single time zone

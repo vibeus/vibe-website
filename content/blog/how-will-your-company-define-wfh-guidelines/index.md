@@ -40,7 +40,6 @@ In August 2020, digital marketing platform [HubSpot announced plans](https://www
 
 Prior to the coronavirus pandemic, HubSpot was a self-described “remote-friendly” business where most of their employees worked from company offices. Most companies operate this way. So while it might be hard to imagine doing things differently, HubSpot’s plan demonstrates that with planning and thoughtful consideration, you can find options that work. A few big points to consider include:
 
-
 - how many employees you have
 - how many employees already work remotely
 - your total number of office locations
@@ -54,7 +53,6 @@ And while the flexibility of remote work will be ideal for some people, it’s j
 One of the chief concerns about people working from home long term is whether or not they would actually be productive. So far, [reports have shown](https://www.cnn.com/2020/08/27/success/work-from-home-employer-plans-for-more-flexible-policies/index.html) that productivity hasn’t suffered to the degree businesses feared (if at all). Teams can maintain and even exceed productivity numbers by determining how, and what, to measure. 
 
 There won’t be a one-size-fits-all marker for the entire company. For example, the goals and objectives for the marketing team are going to be measured differently than a sales team. Here are a few questions your teams can discuss to get started:
-
 
 - How will we delegate assignments and/or divide responsibilities between in-office and remote staff?
 - What performance standards have we used in the past, and do they work in a remote setting?

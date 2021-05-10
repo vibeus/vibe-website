@@ -23,13 +23,12 @@ The pandemic put remote work to the stress test; some companies only had a matte
 
 As remote work becomes expected among job seekers, the traditional bells-and-whistles corporate office is becoming less of a meaningful job perk. Attracting talent is no longer about what you can bring to the office for employees. Instead, employees cite the following as the [most desirable perks](http://incentiveandmotivation.com/perkbox-reveals-perks-employees-want-2021/):
 
-
 - Discounts and subscriptions
 - Flexible working hours
 - Recognition at work
 - Unlimited PTO, or more vacation time in general
 - At-home entertainment
-- Remote work 
+- Remote work
 - Time off for mental health
 
 There’s a common theme to this list of benefits: the desire to make working remotely and staying home more comfortable. Many employees are putting in more hours and working more productively than ever before. They want employers to recognize these efforts and provide a means to bring some of the convenience of office life to their homes.

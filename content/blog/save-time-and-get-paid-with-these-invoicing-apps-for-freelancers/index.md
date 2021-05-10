@@ -45,7 +45,6 @@ One nice thing about Zoho is its expansive ecosystem. You’ll also find CRM, ac
 
 Sometimes getting paid faster is a matter of having the right details on your invoice. While the contents will vary based on your work and contract, include the following items as a best practice:
 
-
 - Your name or business name
 - Address (especially important if you’re planning on receiving a check)
 - Your business logo, if applicable

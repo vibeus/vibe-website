@@ -88,13 +88,11 @@ Help your team understand what a perfect process should look like. Redesign your
 Every industry has decisions to make and processes to capture and improve. Here are some of the ways that different professionals use flowcharts to succeed in their industry.  
 *UX or Product Designer*
 
-
 - Capture the user’s experience with a product
 - Document the design process of a product or service
 - Chart research strategies
 
 *Engineering*
-
 
 - Record the process for designing a structure or product
 - Assign duties to those involved in bringing a design to life
@@ -102,25 +100,21 @@ Every industry has decisions to make and processes to capture and improve. Here 
 
 *Marketing/Sales*
 
-
 - Follow the steps a user takes to purchase something
 - Document the plans to follow should a PR crisis arise
 
 *Education*
-
 
 - Design the format of a lecture or presentation
 - Lay out the steps for a research project (the roots of scientific inquiry starts with a flowchart)
 
 *Professional services*
 
-
 - Display a legal process, like the life of a case
 - Share the process of training new hires
 - Map out the plan for treating medical patients
 
 *Personal life*
-
 
 - Record your personal habits to help you create an identity that brings you joy and meaning
 - Create a step-by-step strategy for becoming debt-free

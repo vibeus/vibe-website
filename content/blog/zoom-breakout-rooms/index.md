@@ -25,11 +25,10 @@ Alternatively, hosts can allow participants to choose their own room prior to la
 
 To set up breakout rooms in your Zoom account, follow these steps:
 
-
 1. Log into your **Zoom account** on [zoom.us](https://zoom.us/).
 2. Head to **Account Settings**.
-3. Enable the **Breakout Room** feature under the **In Meeting (Advanced)** setting. 
-4. To create breakout rooms during meetings, click on the **“Breakout Rooms” icon** (found on the lower right hand section of the toolbar). 
+3. Enable the **Breakout Room** feature under the **In Meeting (Advanced)** setting.
+4. To create breakout rooms during meetings, click on the **“Breakout Rooms” icon** (found on the lower right hand section of the toolbar).
 
 Once you enable the breakout room feature, there are a few more features to be aware of. If you select “move all participants to breakout rooms,” you can move all of participants automatically to their rooms. If you want to control the amount of time people are in the rooms, you can set a timer. You may consider also applying a countdown timer after closing the room so participants can see how much time they have left. Finally, you may also choose to allow participants to head back to the main session at any time.
 
@@ -39,12 +38,9 @@ These sessions are often used in education for group projects and focused work. 
 
 To get the most out of breakout rooms, try these actionable tips:
 
-
 - Try naming your rooms based on themes.
 - For specific conversations, pre-assign people to different rooms.
 - To make administering multiple breakout rooms easier, upload a CSV file of their email addresses [as detailed by Zoom support](https://support.zoom.us/hc/en-us/articles/360032752671-Pre-assigning-participants-to-breakout-rooms).
-
-
 - For large-scale sales or [marketing events](https://vibe.us/blog/the-beginners-guide-to-finding-the-right-virtual-event-platform/), consider organizing breakout rooms by product, service line, industry, or topic so participants can explore them in greater detail.
 - Integrate your Zoom account with an [interactive smartboard](https://vibe.us/lp/scenario-remote/) like Vibe to foster greater engagement and collaboration.
 

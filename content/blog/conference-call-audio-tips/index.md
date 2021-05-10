@@ -35,11 +35,10 @@ Dealing with a lot of ambient noise? You can’t control when the dog will bark,
 
 Feedback is one of the most irritating audio problems. That high-pitched noise is enough to distract even the most focused of participants. It occurs when sound from speakers creates a feedback loop that circulates between speakers and your microphone. Here are simple ways to prevent feedback from derailing your next meeting:
 
-
 - Always make sure you’ve disconnected your computer microphone if you dial into a meeting.
-- If two computers join a conference call from the same room, have one participant mute their microphone and speaker. 
+- If two computers join a conference call from the same room, have one participant mute their microphone and speaker.
 - Ask speakers to lower their volume or use headphones if high volume appears to be causing the feedback.
-- Unplug and replug your microphone to reset. 
+- Unplug and replug your microphone to reset.
 - Keep electronic devices, including smartphones, away from your microphone.
 - Mute your microphone when you aren’t speaking.
 

@@ -33,7 +33,6 @@ Each item on the list should be based on facts and actual data. Your team’s cu
 
 Any business decision that affects a majority of the company would benefit from a S.W.O.T. analysis. Some scenarios to consider:
 
-
 - Part of a company’s annual review
 - Research for a product launch
 - Developing a new marketing campaign

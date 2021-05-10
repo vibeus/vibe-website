@@ -22,7 +22,6 @@ Coined by German marketing professional, [Bernd Rohrbach](https://www.agileallia
 
 In its simplest form, brainwriting goes something like this: 
 
-
 1. Each participant writes three ideas on a piece of paper.
 2. Participants exchange papers, review the ideas, and add three original ideas to the sheet.
 3. After this process repeats for several rounds, participants discuss the list of ideas produced.
@@ -68,11 +67,10 @@ Brainwriting has undergone a lot of change since its takeoff in the late 1960s. 
 **6-3-5 Brainwriting:**  
 Let’s talk numbers. To use the 6-3-5 method, you need a group of six people who each write three ideas in five minutes. This process is repeated for six rounds, leaving you with 108 written ideas in 30 minutes. Now that’s efficiency. For the smoothest process possible, follow these tips: 
 
-
-1. Choose a session moderator to track time, provide directions, and facilitate discussion at the end of the session. This individual also shares the prompt or question that the group must answer. 
-2. Establish the best format and timeframe for your team. For example, if you have more than six participants, you can have multiple groups of six. Or, if you’re short on time, limit the number of rounds or amount of time allotted for idea writing. 
-3. Provide a space for everyone’s thoughts by giving each participant a document (paper or digital) to compile their thoughts and stay on course. Use a pre-made brainwriting template or create your own by including numbered idea spaces labeled with the corresponding round number. 
-4. Allow participants to quietly write their ideas on the documents. After the time is up for each round, the moderator collects the documents and redistributes them among the group. Participants must write three original thoughts, or further develop another person’s ideas, on the new document they received. 
+1. Choose a session moderator to track time, provide directions, and facilitate discussion at the end of the session. This individual also shares the prompt or question that the group must answer.
+2. Establish the best format and timeframe for your team. For example, if you have more than six participants, you can have multiple groups of six. Or, if you’re short on time, limit the number of rounds or amount of time allotted for idea writing.
+3. Provide a space for everyone’s thoughts by giving each participant a document (paper or digital) to compile their thoughts and stay on course. Use a pre-made brainwriting template or create your own by including numbered idea spaces labeled with the corresponding round number.
+4. Allow participants to quietly write their ideas on the documents. After the time is up for each round, the moderator collects the documents and redistributes them among the group. Participants must write three original thoughts, or further develop another person’s ideas, on the new document they received.
 5. Put all the ideas on display for the team to easily see. [An interactive whiteboard is a great place to compile and save ideas](https://vibe.us/). Together, the team can pick ideas that have the greatest potential and make plans to implement them in their company’s goals.
 
 **Collaborative Brainwriting:**  

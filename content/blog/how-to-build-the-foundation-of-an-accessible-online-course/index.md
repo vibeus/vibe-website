@@ -20,7 +20,6 @@ Accessible courses allow students with disabilities to participate in a more equ
 
 According to the Office of Civil Rights and the United States Department of Education, [for a course to be accessible it must](https://www.justice.gov/crt/vi-accessibility-standards-electronic-and-information-technology-accessibility-standards):
 
-
 - Allow students to acquire the same information
 - Afford students to engage in the same interactions
 - Enable students to receive the same services as those without disabilities
@@ -44,7 +43,6 @@ Review the format, content, visual, and audio elements of your course instructio
 
 ***Formatting and written communication:***
 
-
 - Use headings to break up content in a logical, consistent manner
 - Choose sans-serif fonts that are at least 14pt for easy reading
 - Avoid low-contrast backgrounds and color palettes
@@ -58,9 +56,8 @@ Review the format, content, visual, and audio elements of your course instructio
 
 ***Access:***
 
-
 - [Leverage programs and technologies](https://vibe.us/blog/the-technical-tools-that-have-made-education-possible-during-the-pandemic/) students are already familiar with whenever possible
-- *Set expectations and review instructions aloud and provide a text-based reference* 
+- *Set expectations and review instructions aloud and provide a text-based reference*
 - *Offer support resources for acquiring new technology skills*
 - Present the same ideas in multiple formats
 - Ensure material can be accessed by smartphones, tablets, laptops, and personal computers
@@ -68,14 +65,12 @@ Review the format, content, visual, and audio elements of your course instructio
 
 ***Audio:***
 
-
-- Caption videos 
-- Record class meetings and use technology to creates written transcripts 
+- Caption videos
+- Record class meetings and use technology to creates written transcripts
 - Provide dial-in information for meetings
 - [Select accessible media players](https://www.oaisd.org/about-us/ada-compliance/digital-accessibility-resources/creating-accessible-media/)
 
 ***Instruction:***
-
 
 - Allow students to demonstrate learning and mastery through graded and non-graded activities
 - Include time for group and independent practice of concepts
