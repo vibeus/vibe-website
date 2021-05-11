@@ -29,23 +29,23 @@ hero:
       - region: EUROPE
         contries:
           - name: France
-            url: https://vibe.toyond.de
+            url: /order/eu-sales/
             target: _self
             # url: https://www.amazon.fr/dp/B081LPL772?ref=myi_title_dp
           - name: Germany
-            url: https://vibe.toyond.de
+            url: /order/eu-sales/
             target: _self
             # url: https://www.amazon.de/dp/B081LPL772?ref=myi_title_dp
           - name: Italy
-            url: https://vibe.toyond.de
+            url: /order/eu-sales/
             target: _self
             # url: https://www.amazon.it/dp/B081LPL772?ref=myi_title_dp
           - name: Spain
-            url: https://vibe.toyond.de
+            url: /order/eu-sales/
             target: _self
             # url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
           - name: United Kingdom
-            url: https://vibe.toyond.de
+            url: /order/eu-sales/
             target: _self
             # url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
       - region: NORTH AMERICA

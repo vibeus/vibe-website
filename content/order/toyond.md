@@ -1,8 +1,7 @@
 ---
-draft: true
 title: i18n-content-order-_index-title
 description: Order your Vibe Board, Stylus, and Stand
-url: /order/toyond
+url: /order/eu-sales
 layout: toyond
 stylesPath: css/order-us-sales.sass
 noFixedNavbar: true
@@ -19,7 +18,7 @@ navbar:
         - key: target
           value: section-book-demo
     - title: Order a Vibe
-      url: https://vibe.toyond.de
+      url: /order/eu-sales/
       class: is-primary is-rounded is-in-brand is-nav-cart
       in_brand_mobile: true
 
