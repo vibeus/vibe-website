@@ -1,0 +1,6 @@
+{{if eq (.Get 0) "h1"}}
+<h1 id="{{(.Get 1)}}" class="title is-1" is-observed-header>{{.Inner}}</h1>
+{{end}}
+{{if eq (.Get 0) "h2"}}
+<h2 id="{{(.Get 1)}}" class="title is-2" is-observed-header>{{.Inner}}</h2>
+{{end}}

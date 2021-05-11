@@ -1,0 +1,47 @@
+<section class="toc">
+  <ul>
+    {{range .}}
+    <li data-id="{{.id}}" class="title">
+      <a href="#{{.id}}">{{.value}}</a>
+      {{with .subitems}}
+      <ul class="subtitles">
+        {{range .}}
+        <li data-id="{{.id}}" class="subtitle">
+          <a href="#{{.id}}">{{.value}}</a>
+        </li>
+        {{end}}
+      </ul>
+      {{end}}
+    </li>
+    {{end}}
+  </ul>
+</section>
+<style>
+  .toc {
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    width: 324px;
+  }
+
+  .title,
+  .subtitle {
+    line-height: 1.5;
+  }
+
+  .title.is-active>a,
+  .subtitle.is-active>a {
+    color: plum;
+    transition: color 0.2s linear;
+  }
+
+  .subtitles {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .title.is-active>.subtitles,
+  .subtitles.is-expand {
+    height: auto;
+  }
+</style>

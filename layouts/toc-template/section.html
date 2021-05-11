@@ -1,0 +1,41 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="test">
+
+  {{ with .Params.hero }}
+  <section class="hero">
+    <div class="bg-logo">
+      {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">{{ T .title }}</h1>
+        {{ with .body }}
+        <div class="content">
+          {{ T . | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="columns is-main-body">
+    <div class="column is-4 is-nav">
+      <div class="nav">
+        <input type="checkbox" id="toggle-toc"></input>
+        {{ partial "toc" .Params.toc }}
+      </div>
+    </div>
+    
+    <div class="column" style="margin-left: 50px;">{{.Content}}</div>
+  </section>
+
+  {{ with .Params.bottom_cta }}
+  {{ partial "bottom-cta" . }}
+  {{ end }}
+
+  {{ partial "common/template-script" (dict "asset" "js/toc-template.js") }}
+</main>{{ end }}

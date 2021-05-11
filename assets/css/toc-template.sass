@@ -1,0 +1,35 @@
+@import "@glidejs/glide/src/assets/sass/glide.core"
+@import "_shared.sass"
+@import "_testimonial-section.sass"
+@import "_testimonial.sass"
+@import "_vibe-locations.sass"
+@import "_get-in-touch.sass"
+@import "_bottom-cta.sass"
+
+.is-main-body
+  max-width: 1200px
+  margin: 0 auto
+  .nav
+    position: sticky
+    top: 100px
+    left: 20px
+    margin-top: 40px
+  .is-nav
+    +mobile
+      position: sticky
+      top: 20px
+      left: 0
+  h1, h2
+    scroll-margin-top: 70px
+
+  #toggle-toc
+    +mobile
+      &:not(:checked)
+        + .toc
+          position: fixed
+          top: -100%
+    +tablet
+      &
+        display: none
+
+
