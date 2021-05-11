@@ -44,7 +44,6 @@ Clarification is one of the major drivers behind meetings. There are some instan
 
 An internal wiki serves as an accessible knowledge base for employees. Company wikis often include:
 
-
 - company policies
 - collateral
 - workflows

@@ -27,14 +27,12 @@ By funneling qualitative research through an empathy map, teams can better recog
 **Says:**  
 What statements has the user vocalized? Look to interviews or usability studies for direct quotes that can support what the user is sharing with others about their product/service experiences.
 
-
 - *“I need a reliable product.”*
 - *“This product is so user-friendly.”*
 - *“I only buy from brands with quality customer service.”*
 
 **Thinks:**  
 What is the user’s thought process throughout their experience? This section may cross paths with the *Says* quadrant but captures the details they may not feel comfortable sharing vocally.
-
 
 - *“My peers may judge me for choosing this brand.”*
 - *“This interface is super frustrating.”*
@@ -43,14 +41,12 @@ What is the user’s thought process throughout their experience? This section m
 **Does:**  
 What actions does the user take? Are they interacting with certain content on a webpage? What are their purchasing habits? A user’s physical steps indicate the type of behavior that propels them toward a purchasing decision.
 
-
 - *Spends a lot of time researching similar products.*
 - *Turns to peers for recommendations.*
 - *Prefers to see and experience the product in person before purchasing.*
 
 **Feels:**  
 How does the user feel about the experience of using your product or service? Do they indicate frustration or joy? Do they trust your brand? Though users may not openly share their specific feelings, try to deduce what emotions they experience through their comments.
-
 
 - *Anxious about committing to a purchase*
 - *Excited about cutting-edge updates*
@@ -88,7 +84,6 @@ Who are you trying to understand and empathize with? An empathy map could hold i
 
 Why do you want to create an empathy map? Before you start delving into the minds of your users, determine how this map will help your team. Here are some possible reasons to create an empathy map:
 
-
 - Create a new product or service tailored to the target audience
 - Form buyer personas for your audience
 - Improve user experience for a product
@@ -123,7 +118,6 @@ Remember that an empathy map is never fully finished. Thoughts and opinions can 
 
 We’ve recently come to learn that remote collaboration is not only possible, but it can be very effective. If you have a remote team, take pride in the fact that there are more [remote collaboration tools](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/) available now than ever before. So, when the time comes to remotely create an empathy map with your team, here are some tips for a successful experience:
 
-
 - **Kick off the mapping with a** [Zoom](https://zoom.us/) **call.** Use this first meeting to review the company’s purpose behind mapping, assign research duties to your teammates, and set a deadline and protocol for finding data.
 - **Use project management tools to stay on track.** It’s super easy to get overwhelmed with the scope of a research assignment. Create a [kanban board](https://vibe.us/blog/why-kanbans-visual-flow-improves-productivity/) or utilize project management sites like [Asana](https://asana.com/) to break a project into bite-sized tasks and follow the team’s progress.
 - **Gather content in a shared document.** Use a [virtual whiteboard](https://vibe.us/) or [Google Doc](https://www.google.com/docs/about/) to store data in the same place. Vibe even has an empathy map template to simplify the process. See who added information to the map by assigning a different colored sticky note to each teammate.
@@ -134,7 +128,6 @@ We’ve recently come to learn that remote collaboration is not only possible, b
 Once you have an empathy map in your pocket, you have the power to resolve disagreements and make educated choices. Instead of relying on what actions the company would take, decision-making falls on the shoulders of your users.
 
 Using an empathy map to guide your various decisions will involve asking a lot of questions on behalf of your user. Prior to making a user-related decision, consider the following:
-
 
 - *Will this improve the user’s experience?*
 - *Will this increase the user’s trust in the brand?*

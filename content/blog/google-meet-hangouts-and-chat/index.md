@@ -37,22 +37,11 @@ Primarily a messaging app, Google Chat essentially has the same functionality as
 
 Many organizations have incorporated video conferencing apps into their [remote work model](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/). Zoom definitely took the stage as one of the top platforms for remote meetings. But a [comparison of Google Meet and Zoom](https://www.businessinsider.com/google-meet-vs-zoom) reveals some notable features of Google Meet that companies should take into consideration. Some of the helpful features found in Google Meet include: 
 
-
-- **No app downloads required**. Guests with a link can join a Google Meet video conference straight from a web browser. 
-
-
-- **Better video and audio clarity.** Users can enjoy a more coherent video feed as Google Meet adjusts to your network speed. Adding to the experience, new AI enhancements filter out sound that isn’t speech so that lawnmower or siren in the background won’t wreck your meeting. 
-
-
-- **Stay in the know with live captions**. Google put their speech recognition technology to use by offering live captions throughout a meeting. This is a huge benefit to those with a hearing impairment, non-native English speakers, or simply those who want to follow along better and review what was said by others during a meeting. Live captions also [create more accessible online learning](https://vibe.us/blog/how-to-build-the-foundation-of-an-accessible-online-course/). 
-
-
-- **Integrated with Google Workplace.** Users can easily pull up a slideshow presentation, document, or image during a Google Meet call. The Google Calendar app also provides a link to all scheduled calls for easy access. 
-
-
-- **Host a live stream event.** Certain Google Meet plans let you [hold a live stream event](https://support.google.com/meet/answer/9308630?co=GENIE.Platform%3DDesktop&hl=en) within your organization. These events are easy to set up in Google Calendar and allow up to 100,000 view-only guests to attend. 
-
-
+- **No app downloads required**. Guests with a link can join a Google Meet video conference straight from a web browser.
+- **Better video and audio clarity.** Users can enjoy a more coherent video feed as Google Meet adjusts to your network speed. Adding to the experience, new AI enhancements filter out sound that isn’t speech so that lawnmower or siren in the background won’t wreck your meeting.
+- **Stay in the know with live captions**. Google put their speech recognition technology to use by offering live captions throughout a meeting. This is a huge benefit to those with a hearing impairment, non-native English speakers, or simply those who want to follow along better and review what was said by others during a meeting. Live captions also [create more accessible online learning](https://vibe.us/blog/how-to-build-the-foundation-of-an-accessible-online-course/).
+- **Integrated with Google Workplace.** Users can easily pull up a slideshow presentation, document, or image during a Google Meet call. The Google Calendar app also provides a link to all scheduled calls for easy access.
+- **Host a live stream event.** Certain Google Meet plans let you [hold a live stream event](https://support.google.com/meet/answer/9308630?co=GENIE.Platform%3DDesktop&hl=en) within your organization. These events are easy to set up in Google Calendar and allow up to 100,000 view-only guests to attend.
 - **Consistently improving for users**. Get the most out of Google Meet by staying up-to-date with the [latest Google Meet additions and changes](https://support.google.com/meet/answer/9545619?hl=en).
 
 {{< common/srcset "image-1.jpg" "When you work on a distributed team, video conference features are important for communication." >}}
@@ -61,41 +50,21 @@ Many organizations have incorporated video conferencing apps into their [remote 
 
 Google Hangouts may not be the latest and greatest app anymore, but there are still several ways to use its core features. Improve your professional and personal communication with the following functions: 
 
-
-- **Stay in touch with all your contacts.** This messaging platform allows you to chat with up to 250 people at a time. Embellish your messages with photos, emojis, stickers, and GIFs to your heart’s content. 
-
-
-- **Use as an SMS substitute.** Google Hangouts has a similar format and functionality to standard text messaging. So, if you lose your phone or find yourself without cell service, this app is a quick and easy way to send messages. 
-
-
-- **Quickly switch from a chat to a video call.** You can start a chat and instantly turn it into a video call. Simply click the video icon, and a link will appear that will take you straight to a Google Meet call ready for you and your guests. 
-
-
+- **Stay in touch with all your contacts.** This messaging platform allows you to chat with up to 250 people at a time. Embellish your messages with photos, emojis, stickers, and GIFs to your heart’s content.
+- **Use as an SMS substitute.** Google Hangouts has a similar format and functionality to standard text messaging. So, if you lose your phone or find yourself without cell service, this app is a quick and easy way to send messages.
+- **Quickly switch from a chat to a video call.** You can start a chat and instantly turn it into a video call. Simply click the video icon, and a link will appear that will take you straight to a Google Meet call ready for you and your guests.
 - **Sync conversations across devices.** Hangouts saves all your messages so you can start a conversation on one device and continue it later on another.
 
 ## Google Chat’s top features
 
 Google Chat is full of new features guaranteed to simplify the way you work remotely. Check out these added functions that you won’t want to live without:
 
-
-- **Direct message with all the frills.** Google Chat lets you send private messages to a person or group. Make the most of your messages with the ability to include high-quality photos, videos, and files. 
-
-
-- **Use rooms to collaborate and share.** Creating a room in Google Chat gives your team a space to share and create files, assign tasks, and coordinate the details of a project. 
-
-
-- **Keep everything in the same window**. Not only can you create documents, but you can also edit the document as a team from the chat room, all without leaving the window. 
-
-
-- **Assign and keep track of tasks.** Help your team stay on top of duties by assigning tasks to the members of a room. These tasks populate within a room so you can track progress, but also sync with the Google Tasks app so you can keep up with all your tasks. 
-
-
-- **Stay organized with threaded messages.** The option to save threaded conversations in a room gives users a record of the things shared, and lets you easily reference specific items in a conversation.  
-
-
+- **Direct message with all the frills.** Google Chat lets you send private messages to a person or group. Make the most of your messages with the ability to include high-quality photos, videos, and files.
+- **Use rooms to collaborate and share.** Creating a room in Google Chat gives your team a space to share and create files, assign tasks, and coordinate the details of a project.
+- **Keep everything in the same window**. Not only can you create documents, but you can also edit the document as a team from the chat room, all without leaving the window.
+- **Assign and keep track of tasks.** Help your team stay on top of duties by assigning tasks to the members of a room. These tasks populate within a room so you can track progress, but also sync with the Google Tasks app so you can keep up with all your tasks.
+- **Stay organized with threaded messages.** The option to save threaded conversations in a room gives users a record of the things shared, and lets you easily reference specific items in a conversation.
 - **Use a bot for extra assistance.** A bot is a special account that can help you do things like schedule a meeting, poll a group, and search your calendar. [Utilize a bot](https://support.google.com/chat/answer/7655820?hl=en&ref_topic=7649114) by adding it to a room or sending a direct message to one with a request. [Google offers multiple bots](https://support.google.com/chat/answer/9649420?hl=en&ref_topic=7649114), such as the Meet, Google Drive, Asana, and Gify bots.
-
-
 - **Find exactly what you need.** Search for a specific phrase or project name by using the search feature in Chat. The results will then show message threads that match your search.
 
 ***Related:* [Video Conferencing Apps You Can Use with the Vibe Whiteboard](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)**

@@ -44,7 +44,6 @@ The first step to helping your team overcome this challenge is to address it. Sh
 
 Then, set your team up for success. Express your confidence in your employees’ ability to do their job and do it well. Even if you’ve said it before, say it again. Model ways to regain focus and curb distractions, such as:
 
-
 - Set and stick to working hours
 - Turn off notifications for after-working hours
 - If you must compose an email or message after hours, schedule it to send during work hours
@@ -52,7 +51,7 @@ Then, set your team up for success. Express your confidence in your employees’
 - Use calendar blocking or time boxing to allow for deep work
 - Put away your phone and mute communications platforms during deep work
 - Make a note of what you’ve completed and next steps before switching to a new task
-- Consider implementing “[Zoom Free Fridays](https://www.nytimes.com/2021/03/24/business/citi-zoom-free-fridays.html)” or the like to give employees a break 
+- Consider implementing “[Zoom Free Fridays](https://www.nytimes.com/2021/03/24/business/citi-zoom-free-fridays.html)” or the like to give employees a break
 
 Finally, make sure your team has the tools they need to collaborate effectively from anywhere. [Vibe’s interactive smartboard](https://vibe.us/lp/scenario-remote/) is built for 21st-century collaboration, with tools to capture ideas, annotate, organize, create, and distribute in real-time.
 

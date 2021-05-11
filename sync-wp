@@ -23,6 +23,8 @@ users_by_name = {}
 tags_by_id = {}
 tags_by_name = {}
 
+originnal_url_map = {}
+
 
 class exit_failure(Exception):
     def __init__(self, message):
@@ -44,7 +46,7 @@ def main(args):
         if args.create:
             create_post(args.create)
         else:
-            pull_posts()
+            pull_posts(args)
     except exit_failure as e:
         print(Fore.RED + e.message + Style.RESET_ALL)
         sys.exit(1)
@@ -258,13 +260,19 @@ def upload_media(src_path):
     return media
 
 
-def pull_posts():
+def pull_posts(args):
     headers = {}
     headers["Authorization"] = "Bearer " + jwt_token
 
-    all_posts = list_all(
-        f"{API_ROOT}/posts", headers, {"status[]": ["publish", "future"]}
-    )
+    if args.filter_slug:
+        all_posts = list_all(
+            f"{API_ROOT}/posts", headers, {"status": "any", "slug": args.filter_slug}
+        )
+    else:
+        all_posts = list_all(
+            f"{API_ROOT}/posts", headers, {"status[]": ["publish", "future"]}
+        )
+
     print(f"There are {len(all_posts)} to process.")
 
     counter = 0
@@ -302,6 +310,7 @@ def process_post(post):
     content = strip_newlines(content)
 
     content = md(content, heading_style="ATX", bullets="-+*")
+    content = process_embedded_video(content)
     content = fix_link_format(content)
     content = fix_unnecessary_stars(content)
 
@@ -403,9 +412,6 @@ def get_image_file_ext(content_type):
         raise exit_failure(f"Unsupported image content type: {content_type}")
 
 
-originnal_url_map = {}
-
-
 def get_original_image_url(url):
     if url in originnal_url_map:
         return originnal_url_map[url]
@@ -427,6 +433,14 @@ def get_original_image_url(url):
 
     originnal_url_map[url] = url
     return url
+
+
+def process_embedded_video(content):
+    def repl(match):
+        return f"{{{{< youtube id=\"{match.group(1)}\" autoplay=\"false\" >}}}}"
+
+    # <!-- https://www.youtube.com/embed/4L2LLp1Mais?feature=oembed -->
+    return re.sub(r"<!--\s*https:\/\/(?:www\.)?youtube\.com\/embed\/(\w+)\S*\s*-->", repl, content)
 
 
 def fix_link_format(content):
@@ -476,6 +490,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--secret", help="JWT signing secret.")
     parser.add_argument("--create", help="Create a post in WordPress from a directory.")
+    parser.add_argument("--filter_slug", help="Only process post with given slug.")
 
     args = parser.parse_args()
 

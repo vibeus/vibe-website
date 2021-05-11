@@ -33,7 +33,6 @@ A collaborative workspace involves a physical infrastructure that enables cultur
 
 Collaborative workspaces take influence from freelancing practices by offering a variety of spaces to suit different moods, objectives, and tasks. In addition to conference rooms, a collaborative workspace often features a few basic formations:
 
-
 - Common areas that enable informal, unstructured teamwork
 - An open floor plan with shared work spaces for quiet work (with easy access to impromptu conversations and connections)
 - Lounge areas with sofas, outdoor patios, and other informal spaces for community life
