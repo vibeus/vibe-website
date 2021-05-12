@@ -5,8 +5,7 @@ author: Karen Belz
 date: '2020-09-01'
 tags:
 - Remote
-- socialize
-- working from home
+- Work From Home
 draft: false
 isfeatured: false
 description: "Stay connected to colleagues, friends, and family when you\u2019re working from home."

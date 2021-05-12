@@ -6,7 +6,7 @@ date: '2020-03-10'
 tags:
 - Meeting Techniques
 - PowerPoint
-- presentation
+- Presentation
 - Presenting
 draft: false
 isfeatured: false

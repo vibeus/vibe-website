@@ -4,7 +4,7 @@ slug: 8-benefits-of-daily-stand-up-meetings
 author: Megan Snyder
 date: '2020-05-05'
 tags:
-- huddle
+- Huddle
 - Meetings
 - Stand-up
 draft: false

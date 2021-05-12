@@ -7,7 +7,7 @@ tags:
 - Collaborative Learning
 - Digital Whiteboard
 - homeschool
-- teaching
+- Teaching
 draft: false
 isfeatured: false
 description: Using technology for homeschooling is simpler with the right tools. Learn how one family makes it work.

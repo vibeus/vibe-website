@@ -6,7 +6,8 @@ date: '2020-08-05'
 tags:
 - Distance Learning
 - Higher Education
-- professor
+- How I Vibe
+- Remote Learning
 draft: false
 isfeatured: false
 description: Are you curious about how educators and professionals are using Vibe? Join us as we learn all about Arek Puzia,

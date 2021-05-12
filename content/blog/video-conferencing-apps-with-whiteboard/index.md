@@ -7,7 +7,7 @@ tags:
 - Interactive Whiteboard
 - Smart Whiteboard
 - Smartboard Collaboration
-- video conferencing
+- Video Conference
 draft: false
 isfeatured: false
 description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, RingCentral Meetings, and other popular video conferencing

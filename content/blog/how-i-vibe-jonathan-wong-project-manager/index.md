@@ -4,7 +4,7 @@ slug: how-i-vibe-jonathan-wong-project-manager
 author: Megan Snyder
 date: '2021-01-20'
 tags:
-- huddle
+- Huddle
 - Meetings
 - Stand-up
 draft: false

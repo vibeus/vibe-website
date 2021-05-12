@@ -5,7 +5,7 @@ author: Karen Belz
 date: '2020-08-03'
 tags:
 - Remote
-- working from home
+- Work From Home
 draft: false
 isfeatured: false
 description: "Working remotely can be beneficial. Learn the perks you\u2019re getting by working from home."

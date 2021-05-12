@@ -6,7 +6,7 @@ date: '2020-03-12'
 tags:
 - Collaborate
 - Meetings
-- presentation
+- Presentation
 - Remote Work
 draft: false
 isfeatured: false

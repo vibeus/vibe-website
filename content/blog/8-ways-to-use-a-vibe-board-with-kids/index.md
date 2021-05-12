@@ -7,7 +7,7 @@ tags:
 - Classroom
 - Education
 - Homeschooling
-- training
+- Training
 draft: false
 isfeatured: false
 description: "A Vibe board is a quick and easy way to turn your home into a classroom that\u2019ll inspire distance learning."

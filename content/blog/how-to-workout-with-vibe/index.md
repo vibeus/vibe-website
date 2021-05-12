@@ -4,7 +4,6 @@ slug: how-to-workout-with-vibe
 author: Stephanie Prince
 date: '2020-12-16'
 tags:
-- exercise
 - WFH
 draft: false
 isfeatured: false

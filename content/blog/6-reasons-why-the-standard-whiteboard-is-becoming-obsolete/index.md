@@ -6,7 +6,7 @@ date: '2020-08-25'
 tags:
 - Digital Whiteboard
 - Interactive Whiteboard
-- standard whiteboard
+- Whiteboard
 draft: false
 isfeatured: false
 description: Traditional whiteboards are being replaced with digital whiteboards with touchscreens.

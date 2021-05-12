@@ -5,7 +5,7 @@ author: Megan Snyder
 date: '2020-04-18'
 tags:
 - Meetings
-- SWOT analysis
+- SWOT Analysis
 - Template
 draft: false
 isfeatured: false

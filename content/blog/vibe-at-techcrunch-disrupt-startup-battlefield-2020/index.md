@@ -6,7 +6,7 @@ date: '2020-09-15'
 tags:
 - Interactive Whiteboard
 - Remote
-- startup
+- Startup
 draft: false
 isfeatured: true
 description: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising

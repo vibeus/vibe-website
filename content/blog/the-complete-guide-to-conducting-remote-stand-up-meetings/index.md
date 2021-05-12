@@ -4,7 +4,7 @@ slug: the-complete-guide-to-conducting-remote-stand-up-meetings
 author: Megan Snyder
 date: '2020-04-20'
 tags:
-- huddle
+- Huddle
 - Meetings
 - Stand-up
 draft: false

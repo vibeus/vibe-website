@@ -4,6 +4,7 @@ slug: how-i-vibe-peter-parker-advanced-analytics-practice-director
 author: Vibe Team
 date: '2020-08-12'
 tags:
+- How I Vibe
 - Meetings
 - Presentations
 - Remote

@@ -4,7 +4,7 @@ slug: how-to-attract-top-talent-without-a-fancy-corporate-office
 author: Mary Clark Navarro
 date: '2021-02-23'
 tags:
-- hiring
+- Hiring
 - Remote Collaboration
 - Remote Work
 draft: false

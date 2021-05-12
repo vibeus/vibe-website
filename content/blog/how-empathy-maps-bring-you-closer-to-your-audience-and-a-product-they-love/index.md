@@ -5,7 +5,7 @@ author: Paige Smith
 date: '2021-04-07'
 tags:
 - Interactive Whiteboard
-- product design
+- Product Design
 - Remote Collaboration
 draft: false
 isfeatured: false

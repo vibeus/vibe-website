@@ -5,7 +5,7 @@ author: Megan Snyder
 date: '2020-03-16'
 tags:
 - Client Presentations
-- partnership
+- Partnership
 - PowerPoint
 - Presenting
 draft: false

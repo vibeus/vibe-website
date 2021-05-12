@@ -5,8 +5,9 @@ author: The Vibe Team
 date: '2020-07-22'
 tags:
 - Distance Learning
-- higher educaiton
-- online teaching
+- Higher Education
+- How I Vibe
+- Remote Meetings
 draft: false
 isfeatured: false
 description: Dr. Henry Silverman, a professor at the University of Maryland, teaches graduate students online and leads international

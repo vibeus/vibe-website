@@ -4,7 +4,7 @@ slug: 6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting
 author: Karen Belz
 date: '2020-05-22'
 tags:
-- huddle
+- Huddle
 - Meetings
 - Stand-up
 draft: false

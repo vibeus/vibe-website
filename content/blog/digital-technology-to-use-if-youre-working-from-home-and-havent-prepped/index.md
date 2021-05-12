@@ -5,7 +5,7 @@ author: Vibe Team
 date: '2020-03-23'
 tags:
 - Remote Work
-- tools
+- Tools
 - working from home
 draft: false
 isfeatured: false
