@@ -4,9 +4,9 @@ slug: 8-ways-to-use-a-vibe-board-with-kids
 author: Karen Belz
 date: '2020-06-03'
 tags:
-- classroom
-- education
-- homeschooling
+- Classroom
+- Education
+- Homeschooling
 - training
 draft: false
 isfeatured: false

@@ -4,7 +4,7 @@ slug: video-conferencing-apps-with-whiteboard
 author: Megan Snyder
 date: '2020-10-14'
 tags:
-- interactive whiteboard
+- Interactive Whiteboard
 - Smart Whiteboard
 - Smartboard Collaboration
 - video conferencing

@@ -4,9 +4,9 @@ slug: the-best-ways-to-brainstorm-with-a-remote-group
 author: Karen Belz
 date: '2020-04-13'
 tags:
-- brainstorm
-- meetings
-- remote
+- Brainstorm
+- Meetings
+- Remote
 draft: false
 isfeatured: false
 description: Are you are part of a remote group? We can show you the best ways to brainstorm with your group.

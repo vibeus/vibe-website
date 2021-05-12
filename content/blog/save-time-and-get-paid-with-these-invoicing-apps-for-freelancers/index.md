@@ -4,8 +4,8 @@ slug: save-time-and-get-paid-with-these-invoicing-apps-for-freelancers
 author: Paige Smith
 date: '2021-03-22'
 tags:
-- remote work
-- work from anywhere
+- Remote Work
+- Work From Anywhere
 draft: false
 isfeatured: false
 description: Make it easy to track invoices and run your business with these helpful apps.

@@ -4,8 +4,8 @@ slug: remote-collaboration-tools-for-your-business-needs
 author: Vibe Team
 date: '2021-03-12'
 tags:
-- interactive whiteboard
-- remote collaboration
+- Interactive Whiteboard
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Remote work is the way of the future. What remote collaboration tools do you need to make sure your work runs

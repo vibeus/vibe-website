@@ -4,9 +4,9 @@ slug: flowcharts-for-process-improvement
 author: Paige Smith
 date: '2021-04-14'
 tags:
-- brainstorming
-- interactive whiteboard
-- remote collaboration
+- Brainstorming
+- Interactive Whiteboard
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how using a flowchart can organize your team and put your project on the right track.

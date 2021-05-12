@@ -5,7 +5,7 @@ author: Karen Belz
 date: '2020-09-21'
 tags:
 - digital
-- entertainment
+- Entertainment
 - whiteboards
 draft: false
 isfeatured: false

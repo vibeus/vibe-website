@@ -3,8 +3,7 @@ title: 'Touchscreen or Non-touchscreen Laptop: Which is Right for You?'
 slug: laptops-touch-screen-vs-non-touch-screen
 author: Vibe Team
 date: '2021-01-26'
-tags:
-- seo
+tags: []
 draft: false
 isfeatured: false
 description: Are you wondering if you should buy a laptop with a touchscreen feature? Check out our guide to touchscreen vs

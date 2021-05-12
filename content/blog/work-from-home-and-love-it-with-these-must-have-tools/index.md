@@ -4,9 +4,9 @@ slug: work-from-home-and-love-it-with-these-must-have-tools
 author: Paige Smith
 date: '2021-03-01'
 tags:
-- collaborate
-- remote work
-- work from home
+- Collaborate
+- Remote Work
+- Work From Home
 draft: false
 isfeatured: false
 description: "While remote work has been around ages, working from home is new for the majority of Americans. Before the pandemic,\

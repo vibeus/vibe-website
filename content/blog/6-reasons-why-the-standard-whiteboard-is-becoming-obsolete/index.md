@@ -4,8 +4,8 @@ slug: 6-reasons-why-the-standard-whiteboard-is-becoming-obsolete
 author: Karen Belz
 date: '2020-08-25'
 tags:
-- digital whiteboard
-- interactive whiteboard
+- Digital Whiteboard
+- Interactive Whiteboard
 - standard whiteboard
 draft: false
 isfeatured: false

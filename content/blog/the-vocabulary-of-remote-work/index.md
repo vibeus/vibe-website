@@ -5,8 +5,8 @@ author: Megan Snyder
 date: '2020-10-26'
 tags:
 - huddle
-- remote meetings
-- stand-up
+- Remote Meetings
+- Stand-up
 draft: false
 isfeatured: false
 description: The vocabulary of remote work is expanding, and this glossary of remote work terminology is here to help you

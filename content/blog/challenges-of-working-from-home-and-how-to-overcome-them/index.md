@@ -4,9 +4,9 @@ slug: challenges-of-working-from-home-and-how-to-overcome-them
 author: Vibe Team
 date: '2021-03-03'
 tags:
-- interactive whiteboard
-- remote collaboration
-- remote work
+- Interactive Whiteboard
+- Remote Collaboration
+- Remote Work
 draft: false
 isfeatured: false
 description: Working from home has many challenges. Here are the top challenges and how you can overcome them.

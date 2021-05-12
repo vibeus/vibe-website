@@ -4,8 +4,8 @@ slug: 7-ways-to-turn-your-home-office-into-a-place-you-love
 author: Karen Belz
 date: '2020-10-12'
 tags:
-- home office
-- remote work
+- Home Office
+- Remote Work
 draft: false
 isfeatured: false
 description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with

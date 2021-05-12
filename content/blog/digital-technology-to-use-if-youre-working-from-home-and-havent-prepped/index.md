@@ -4,7 +4,7 @@ slug: digital-technology-to-use-if-youre-working-from-home-and-havent-prepped
 author: Vibe Team
 date: '2020-03-23'
 tags:
-- remote work
+- Remote Work
 - tools
 - working from home
 draft: false

@@ -4,8 +4,8 @@ slug: 5-ways-a-whiteboard-will-help-your-brainstorming-session
 author: Karen Belz
 date: '2020-04-15'
 tags:
-- brainstorming
-- whiteboard
+- Brainstorming
+- Whiteboard
 draft: false
 isfeatured: false
 description: Make whiteboard brainstorming sessions even more effective with these meeting techniques.

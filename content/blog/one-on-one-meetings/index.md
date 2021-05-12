@@ -4,9 +4,9 @@ slug: one-on-one-meetings
 author: Paige Smith
 date: '2021-05-12'
 tags:
-- meeting techniques
-- remote team
-draft: true
+- Meeting Techniques
+- Remote Team
+draft: false
 isfeatured: false
 description: "Every team benefits from one-on-one meetings, but they\u2019re especially important for remote teams. Learn\
   \ how to get the most value from your one-on-ones."
@@ -16,7 +16,7 @@ Do you know who your employees are beyond their job title? What are their goals,
 
 ## What is a one-on-one?
 
-A one-on-one is an employee-focused meeting that allows a manager to support and connect with an employee through genuine conversation. When regularly scheduled, one-on-ones foster trust and respect between managers and their employees.
+A one-on-one is an employee-focused meeting that allows a manager to support and connect with an employee through genuine conversation. When regularly scheduled, one-on-one meetings foster trust and respect between managers and their employees.
 
 ## Why you should schedule one-on-one meetings
 

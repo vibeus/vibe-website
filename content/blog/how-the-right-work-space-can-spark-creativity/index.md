@@ -4,9 +4,9 @@ slug: how-the-right-work-space-can-spark-creativity
 author: Paige Smith
 date: '2021-03-31'
 tags:
-- distance learning
-- education
-- remote collaboration
+- Distance Learning
+- Education
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how the right design can encourage creative thinking and collaboration at school or at work.

@@ -4,10 +4,10 @@ slug: makeover-your-renovation-presentation
 author: Megan Snyder
 date: '2020-03-10'
 tags:
-- meeting techniques
-- powerpoint
+- Meeting Techniques
+- PowerPoint
 - presentation
-- presenting
+- Presenting
 draft: false
 isfeatured: false
 description: Using interactive technology during client presentations brings renovations to life.

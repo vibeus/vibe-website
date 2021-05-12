@@ -4,9 +4,9 @@ slug: 6-uses-for-digital-whiteboards-outside-of-the-office
 author: Karen Belz
 date: '2020-05-27'
 tags:
-- entertainment
+- Entertainment
 - video
-- whiteboard
+- Whiteboard
 draft: false
 isfeatured: false
 description: Digital whiteboards can go beyond meetings to make your home office and distance learning more effective.

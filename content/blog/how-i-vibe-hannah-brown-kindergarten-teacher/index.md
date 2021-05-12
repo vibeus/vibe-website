@@ -4,9 +4,9 @@ slug: how-i-vibe-hannah-brown-kindergarten-teacher
 author: Vibe Team
 date: '2020-11-02'
 tags:
-- education
-- interactive whiteboard
-- remote learning
+- Education
+- Interactive Whiteboard
+- Remote Learning
 draft: false
 isfeatured: false
 description: "Interactive digital whiteboards in the classroom are a fun way to bring STEM to students. If you\u2019re interested\

@@ -4,8 +4,8 @@ slug: vibe-vs-google-jamboard-vs-microsoft-surface-hub-vs-samsung-flip-smartboar
 author: Vibe Team
 date: '2019-04-29'
 tags:
-- interactive whiteboard
-- remote collaboration
+- Interactive Whiteboard
+- Remote Collaboration
 - Small Business
 - Smart Whiteboard
 - Smartboard Collaboration

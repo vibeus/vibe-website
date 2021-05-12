@@ -4,8 +4,8 @@ slug: create-effective-onboarding-practices-for-your-remote-team
 author: Megan Snyder
 date: '2020-12-15'
 tags:
-- remote work
-- wfh
+- Remote Work
+- WFH
 draft: false
 isfeatured: false
 description: Onboarding remote employees can be tricky, but these best practices have you covered.

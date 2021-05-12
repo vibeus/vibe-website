@@ -4,7 +4,7 @@ slug: how-i-vibe-henry-silverman-professor-of-medicine
 author: The Vibe Team
 date: '2020-07-22'
 tags:
-- distance learning
+- Distance Learning
 - higher educaiton
 - online teaching
 draft: false

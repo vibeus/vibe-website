@@ -4,7 +4,7 @@ slug: 7-reasons-to-invest-in-dual-monitors
 author: Vibe Team
 date: '2020-11-19'
 tags:
-- home office
+- Home Office
 draft: false
 isfeatured: false
 description: "How can dual monitors help you work more efficiently? We\u2019ll show you our top reasons to invest in a dual\

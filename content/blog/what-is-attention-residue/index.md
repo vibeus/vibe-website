@@ -4,9 +4,9 @@ slug: what-is-attention-residue
 author: Mary Clark Navarro
 date: '2021-04-29'
 tags:
-- leadership
-- remote work
-- work from home
+- Leadership
+- Remote Work
+- Work From Home
 draft: false
 isfeatured: false
 description: Help your team manage both their emotions and their workload by understanding the effects of attention residue.

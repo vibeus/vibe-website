@@ -4,9 +4,9 @@ slug: easy-methods-for-better-asynchronous-communication
 author: Paige Smith
 date: '2021-03-08'
 tags:
-- asynchronous communication
-- interactive whiteboard
-- remote collaboration
+- Asynchronous Communication
+- Interactive Whiteboard
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Asynchronous communication is becoming more common. Learn how to create clear messages for yourself and your

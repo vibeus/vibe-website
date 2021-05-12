@@ -4,8 +4,8 @@ slug: vibe-at-techcrunch-disrupt-startup-battlefield-2020
 author: Vibe Team
 date: '2020-09-15'
 tags:
-- interactive whiteboard
-- remote
+- Interactive Whiteboard
+- Remote
 - startup
 draft: false
 isfeatured: true

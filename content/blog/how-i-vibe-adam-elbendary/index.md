@@ -5,7 +5,7 @@ author: Vibe Team
 date: '2020-07-31'
 tags:
 - CEO
-- marketing
+- Marketing
 - new business
 draft: false
 isfeatured: false

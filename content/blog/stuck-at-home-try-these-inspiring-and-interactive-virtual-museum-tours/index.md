@@ -4,9 +4,9 @@ slug: stuck-at-home-try-these-inspiring-and-interactive-virtual-museum-tours
 author: Mary Clark Navarro
 date: '2021-03-15'
 tags:
-- distance learning
-- interactive whiteboard
-- remote learning
+- Distance Learning
+- Interactive Whiteboard
+- Remote Learning
 draft: false
 isfeatured: false
 description: "Can\u2019t get to a museum? You can still explore these inspiring institutions virtually."

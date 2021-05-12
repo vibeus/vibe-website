@@ -4,9 +4,9 @@ slug: interactive-whiteboarding-for-distance-learning-lessons
 author: Vibe Team
 date: '2020-11-11'
 tags:
-- distance learning
-- education
-- interactive whiteboard
+- Distance Learning
+- Education
+- Interactive Whiteboard
 draft: false
 isfeatured: false
 description: Learn how to use interactive whiteboards for distance learning and in the classroom.

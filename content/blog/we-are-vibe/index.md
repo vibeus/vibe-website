@@ -4,7 +4,7 @@ slug: we-are-vibe
 author: Charles Yang
 date: '2019-03-04'
 tags:
-- interactive whiteboard
+- Interactive Whiteboard
 - Smartboard Collaboration
 draft: false
 isfeatured: false

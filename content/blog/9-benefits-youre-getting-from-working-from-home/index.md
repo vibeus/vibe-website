@@ -4,7 +4,7 @@ slug: 9-benefits-youre-getting-from-working-from-home
 author: Karen Belz
 date: '2020-08-03'
 tags:
-- remote
+- Remote
 - working from home
 draft: false
 isfeatured: false

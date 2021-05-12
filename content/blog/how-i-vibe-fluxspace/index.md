@@ -5,8 +5,8 @@ author: Megan Snyder
 date: '2021-05-05'
 tags:
 - Collaborative Space
-- how i vibe
-- remote collaboration
+- How I Vibe
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how the innovators at Fluxspace are using Vibe to design the collaborative learning environments of the

@@ -4,10 +4,10 @@ slug: 8-personal-must-haves-for-your-new-remote-office
 author: Karen Belz
 date: '2020-04-03'
 tags:
-- brainstorm
-- collaborate
-- Online whiteboard
-- remote work
+- Brainstorm
+- Collaborate
+- Online Whiteboard
+- Remote Work
 draft: false
 isfeatured: false
 description: "You\u2019re working from home, so set yourself up for success. Create a home office that you\u2019ll love working\

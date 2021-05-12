@@ -4,9 +4,9 @@ slug: how-i-vibe-ian-westermann-founder-of-essential-tennis
 author: Vibe Team
 date: '2021-03-25'
 tags:
-- customer case study
-- how i vibe
-- remote collaboration
+- Customer Case Study
+- How I Vibe
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how tennis coach Ian Westermann leverages technology to connect with the tennis community and help his

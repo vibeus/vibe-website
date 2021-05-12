@@ -5,7 +5,7 @@ author: The Vibe Team
 date: '2020-07-08'
 tags:
 - CEO
-- remote
+- Remote
 - video conferencing
 draft: false
 isfeatured: false

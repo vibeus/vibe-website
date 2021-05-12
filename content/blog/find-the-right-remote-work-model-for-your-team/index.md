@@ -4,7 +4,7 @@ slug: find-the-right-remote-work-model-for-your-team
 author: Megan Snyder
 date: '2021-01-25'
 tags:
-- remote work
+- Remote Work
 draft: false
 isfeatured: false
 description: "What\u2019s the best remote work model for your company? Look at our guide to find out."

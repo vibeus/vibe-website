@@ -4,8 +4,8 @@ slug: how-i-vibe-robyn-mother-of-four-and-homeschool-expert
 author: Vibe Team
 date: '2020-05-14'
 tags:
-- collaboative learning
-- digital whiteboard
+- Collaborative Learning
+- Digital Whiteboard
 - homeschool
 - teaching
 draft: false

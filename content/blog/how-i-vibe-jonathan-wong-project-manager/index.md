@@ -5,8 +5,8 @@ author: Megan Snyder
 date: '2021-01-20'
 tags:
 - huddle
-- meetings
-- stand-up
+- Meetings
+- Stand-up
 draft: false
 isfeatured: false
 description: Learn how construction project management software paired with a Vibe whiteboard helps make complex engineering

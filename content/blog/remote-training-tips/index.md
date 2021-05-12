@@ -4,8 +4,8 @@ slug: remote-training-tips
 author: Vibe Team
 date: '2021-04-16'
 tags:
-- meeting techniques
-- remote collaboration
+- Meeting Techniques
+- Remote Collaboration
 - remote training
 draft: false
 isfeatured: false

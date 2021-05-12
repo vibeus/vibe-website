@@ -4,8 +4,8 @@ slug: zoom-breakout-rooms
 author: Mary Clark Navarro
 date: '2021-05-10'
 tags:
-- meeting techniques
-- video conference
+- Meeting Techniques
+- Video Conference
 - Zoom
 draft: false
 isfeatured: false

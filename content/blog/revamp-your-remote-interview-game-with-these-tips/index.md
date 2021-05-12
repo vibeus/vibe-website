@@ -4,10 +4,10 @@ slug: revamp-your-remote-interview-game-with-these-tips
 author: Megan Snyder
 date: '2020-12-07'
 tags:
-- interview
-- Online whiteboard
-- remote work
-- video conference
+- Interview
+- Online Whiteboard
+- Remote Work
+- Video Conference
 draft: false
 isfeatured: false
 description: Make the most of remote interviews with proven techniques for both interviewers and job seekers
