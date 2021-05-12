@@ -93,13 +93,61 @@ demo:
           type: textarea
     buttons:
       - type: submit
-        title: i18n-content-demo-_index-demo-form-buttons-i_1-title
-        class: button is-rounded is-primary is-outlined is-fullwidth
+        title: Watch Demo Video
+        class: button is-rounded is-primary is-outlined watch-demo is-fullwidth
+        column_class: is-hidden-eu
         name: request-video
+      - type: submit
+        title: Watch Demo Video
+        class: button is-rounded is-primary is-outlined watch-demo is-fullwidth
+        column_class: is-hidden-non-eu
+        name: request-video
+        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/83454bfb-2634-4bb9-b4c2-94b0c244ab5c'
+      - type: submit
+        title: Schedule a Live Demo
+        class: button is-rounded is-primary schedule-demo is-fullwidth
+        column_class: is-hidden-eu
+        name: request-demo
+        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
+      - type: submit
+        title: Contact Sales
+        class: button is-rounded is-primary is-fullwidth
+        column_class: is-hidden-non-eu
+        name: contact-sales
+        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/89a0d8cc-cde8-409f-a1e3-c82cd2a5e0f3'
     submitted:
-      body: i18n-content-demo-_index-demo-form-submitted-body
-      cta:
-        title: Watch Now
-        class: is-primary is-video-demo-link
-        url: /demo/video-demo
+      choices:
+        - class: is-live-demo
+          body: |
+            # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
+          cta:
+            title: Watch Demo Video First
+            target: _blank
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo
+        - class: is-video-demo
+          body: |
+            # We've sent you an email with the video link. Enjoy!
+          cta:
+            title: Watch Now
+            target: _blank
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo
+            subcta:
+              class: is-hidden-eu
+              body: Still want to talk to an expert?
+              link:
+                class: is-live-demo-meeting-link
+                body: Schedule a live demo
+                url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+        - class: is-contact-sales
+          body: |
+            # Thanks!
+
+            We will get back to you as soon as we can.
+          cta:
+            title: Watch Demo Video Now
+            target: _blank
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo
 ---
