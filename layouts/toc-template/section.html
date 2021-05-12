@@ -2,7 +2,7 @@
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
-{{ define "main" }}<main class="test">
+{{ define "main" }}<main class="toc-template">
 
   {{ with .Params.hero }}
   <section class="hero">
@@ -22,20 +22,32 @@
   </section>
   {{ end }}
 
-  <section class="columns is-main-body">
-    <div class="column is-4 is-nav">
-      <div class="nav">
-        <input type="checkbox" id="toggle-toc"></input>
+  <div class="dropdown toc-dropdown">
+    <div class="dropdown-trigger">
+      <div>
+        <span>Table of Contents</span>
+        <span class="icon is-small">
+          <i class="fas fa-angle-down" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+      <div class="dropdown-content">
         {{ partial "toc" .Params.toc }}
       </div>
     </div>
-    
-    <div class="column" style="margin-left: 50px;">{{.Content}}</div>
-  </section>
+  </div>
 
-  {{ with .Params.bottom_cta }}
-  {{ partial "bottom-cta" . }}
-  {{ end }}
+  <section class="main-body">
+    <div class="sidebar">
+      <div class="toc-card">
+        <div class="toc-title">Table of Contents</div>
+        <div class="toc-content">{{ partial "toc" .Params.toc }}</div>
+      </div>
+    </div>
+    
+    <div class="main-content">{{.Content}}</div>
+  </section>
 
   {{ partial "common/template-script" (dict "asset" "js/toc-template.js") }}
 </main>{{ end }}

@@ -1,13 +1,13 @@
 <section class="toc">
-  <ul>
+  <ul class="items">
     {{range .}}
-    <li data-id="{{.id}}" class="title">
-      <a href="#{{.id}}">{{.value}}</a>
+    <li class="item" data-id="{{.id}}">
+      <a href="#{{.id}}" class="item-label">{{.value}}</a>
       {{with .subitems}}
-      <ul class="subtitles">
+      <ul class="subitems">
         {{range .}}
-        <li data-id="{{.id}}" class="subtitle">
-          <a href="#{{.id}}">{{.value}}</a>
+        <li class="subitem" data-id="{{.id}}">
+          <a href="#{{.id}}" class="item-label">{{.value}}</a>
         </li>
         {{end}}
       </ul>
@@ -16,32 +16,3 @@
     {{end}}
   </ul>
 </section>
-<style>
-  .toc {
-    padding: 1em;
-    background-color: #fff;
-    border: 1px solid #bdbdbd;
-    width: 324px;
-  }
-
-  .title,
-  .subtitle {
-    line-height: 1.5;
-  }
-
-  .title.is-active>a,
-  .subtitle.is-active>a {
-    color: plum;
-    transition: color 0.2s linear;
-  }
-
-  .subtitles {
-    height: 0;
-    overflow: hidden;
-  }
-
-  .title.is-active>.subtitles,
-  .subtitles.is-expand {
-    height: auto;
-  }
-</style>

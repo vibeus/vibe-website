@@ -1,0 +1,29 @@
+.toc
+  background-color: #fff
+  
+  .item,
+  .subitem
+    color: $vibe-black
+    font-size: 16px
+    line-height: 1.5
+  
+    &.is-active > .item-label
+      color: $vibe-purple
+      transition: color 0.2s linear
+
+  .item:not(:last-child)
+    margin-bottom: 24px
+  .subitem
+    margin-top: 24px
+
+  .item > .item-label
+      font-weight: bold 
+
+  .subitems
+    height: 0
+    overflow: hidden
+  
+  .item.is-active .subitems,
+  .subitems.is-expand
+    height: auto
+  

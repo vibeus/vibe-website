@@ -1,6 +1,13 @@
+/*
+{{ $src := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
+*/
+import { toggleActive } from '{{ $src.RelPermalink }}';
+
+toggleActive('.dropdown.toc-dropdown', true);
+
 const updateToc = (function () {
   const tocItems = document.querySelectorAll('.toc [data-id]')
-  const subItemsEls = document.querySelectorAll('.toc .subtitles')
+  const subItemsEls = document.querySelectorAll('.toc .subitems')
 
   return (ativeId) => {
     tocItems.forEach(el => {
@@ -10,7 +17,7 @@ const updateToc = (function () {
 
     });
     subItemsEls.forEach(el => {
-      const hasActiveChild = el.querySelector('.subtitle.is-active');
+      const hasActiveChild = el.querySelector('.subitem.is-active');
 
       const op = hasActiveChild ? 'add' : 'remove';
       el.classList[op]('is-expand');
@@ -21,7 +28,7 @@ const updateToc = (function () {
 observeHeaders(updateToc);
 
 function observeHeaders(notify) {
-  const headers = document.querySelectorAll('[is-observed-header]')
+  const headers = document.querySelectorAll('h2, h3')
   const options = {
     rootMargin: `0% 0% -80% 0%`
   }
