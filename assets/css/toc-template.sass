@@ -1,14 +1,55 @@
 @import "_shared.sass"
 @import "_toc.sass"
 
+
+.hero
+  position: relative
+  .hero-body
+    +vertical-padding(160px)
+    background-color: #F9F9FC
+  .image.is-hero-bg
+    +absolute-fill
+    &.is-hidden-fullhd
+      @media screen and ( max-width: 1023px )
+        display: none
+    &.is-fullhd
+      @media screen and ( max-width: 1407px )
+        display: none
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  .container
+    max-width: 637px
+    +mobile
+      max-width: 359px
+    
+    .title
+      font-size: 60px
+      line-height: 73px
+      text-align: center
+      +mobile
+        font-size: 30px
+        line-height: 40px
+
 .toc-template
+  font-size: 16px
+  font-family: $vibe-family-body
   .toc-dropdown
     +mobile
       display: block
+      .is-angle-up
+        display: none
+      &.is-active 
+        .is-angle-down
+          display: none
+        .is-angle-up
+          display: block
     display: none
     position: sticky
     top: 4.125rem
-    z-index: 999
+    z-index: 29
+
     .dropdown-trigger
       height: 48px
       color: $vibe-black
@@ -23,10 +64,11 @@
     .dropdown-menu
       padding-top: 0
       width: 100%
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+      border-radius: 0
+      overflow-y: auto
       .dropdown-content
         padding: 24px
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
-        border-radius: 0
       
   .main-body
     max-width: 1440px
@@ -53,40 +95,64 @@
         box-shadow: -2px 1px 16px rgba(0, 0, 0, 0.08)
         border-radius: 8px
         padding: 32px
+
+      .toc-content
+        overflow-y: auto
       
       .toc-title
+        font-size: 22px
+        font-weight: $vibe-bold
+        color: $vibe-black
+        margin-bottom: 35px
+        position: relative
+        &::after
+          content: ""
+          display: block
+          width: calc(100% + 16px)
+          border: 1px solid #e0e0e0
+          position: absolute
+          bottom: -11px
+          left: -8px
+
+    .main-content
+      a
+        text-decoration: underline
+      p
+        margin: 1em 0
+      h2, h3
+        scroll-margin-top: 4.125rem
+        +mobile
+          scroll-margin-top: calc( 4.125rem + 48px )
+      
+      h2
+        position: relative
+        display: inline-block
+        font-size: 32px
+        font-weight: 600
+        margin: 24px 0
+        &::after
+          content: ""
+          display: inline-block
+          position: absolute
+          left: 0px
+          bottom: 6px
+          width: 100%
+          height: 10px
+          z-index: -1
+          opacity: 0.3
+        &:nth-of-type(1n)::after
+          background-color: $vibe-purple
+        &:nth-of-type(2n)::after
+          background-color: #FF8A48
+        &:nth-of-type(3n)::after
+          background-color: $vibe-teal
+        &:nth-of-type(4n)::after
+          background-color: #FFB800
+      
+      h3
         font-size: 24px
         font-weight: 600
-        color: $vibe-black
-        margin-bottom: 24px
-
-    h2, h3
-      scroll-margin-top: 70px
-    
-    h2
-      position: relative
-      display: inline-block
-      font-size: 32px
-      font-weight: 600
-      margin: 24px 0
-      &::after
-        content: ""
-        display: inline-block
-        position: absolute
-        left: 0px
-        bottom: 6px
-        width: 100%
-        height: 10px
-        z-index: -1
-        opacity: 0.3
-      &:nth-of-type(1n)::after
-        background-color: $vibe-purple
-      &:nth-of-type(2n)::after
-        background-color: #FF8A48
-      &:nth-of-type(3n)::after
-        background-color: $vibe-teal
-      &:nth-of-type(4n)::after
-        background-color: #FFB800
+        margin: 24px 0
         
 
 

@@ -1,18 +1,21 @@
-<section class="toc">
+{{ $content := .content }}
+{{ $level := .level | default 1 }}
+
+<section class="toc is-level-{{ $level }}">
   <ul class="items">
-    {{range .}}
-    <li class="item" data-id="{{.id}}">
-      <a href="#{{.id}}" class="item-label">{{.value}}</a>
-      {{with .subitems}}
+    {{ range $content }}
+    <li class="item" data-id="{{ .id }}">
+      <a href="#{{.id}}" class="item-label">{{ .value }}</a>
+      {{ with .subitems }}
       <ul class="subitems">
-        {{range .}}
-        <li class="subitem" data-id="{{.id}}">
-          <a href="#{{.id}}" class="item-label">{{.value}}</a>
+        {{ range . }}
+        <li class="subitem" data-id="{{ .id }}">
+          <a href="#{{.id}}" class="item-label">{{ .value }}</a>
         </li>
-        {{end}}
+        {{ end }}
       </ul>
-      {{end}}
+      {{ end }}
     </li>
-    {{end}}
+    {{ end }}
   </ul>
 </section>

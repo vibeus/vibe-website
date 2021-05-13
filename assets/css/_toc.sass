@@ -12,9 +12,9 @@
       transition: color 0.2s linear
 
   .item:not(:last-child)
-    margin-bottom: 24px
+    margin-bottom: 1em
   .subitem
-    margin-top: 24px
+    margin-top: 1em
 
   .item > .item-label
       font-weight: bold 
@@ -22,8 +22,15 @@
   .subitems
     height: 0
     overflow: hidden
-  
+
   .item.is-active .subitems,
   .subitems.is-expand
     height: auto
+  
+  &.is-level-1
+    .item.is-expand > .item-label
+      color: $vibe-purple
+    .item.is-active .subitems,
+    .subitems.is-expand
+      height: 0
   
