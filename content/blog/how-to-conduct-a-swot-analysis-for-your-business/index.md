@@ -4,9 +4,9 @@ slug: how-to-conduct-a-swot-analysis-for-your-business
 author: Megan Snyder
 date: '2020-04-18'
 tags:
-- meetings
-- SWOT analysis
-- template
+- Meetings
+- SWOT Analysis
+- Template
 draft: false
 isfeatured: false
 description: Conducting a proper S.W.O.T. analysis helps to inform business owners on the current state of their companies

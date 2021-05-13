@@ -4,10 +4,10 @@ slug: 8-ways-to-use-a-vibe-board-with-kids
 author: Karen Belz
 date: '2020-06-03'
 tags:
-- classroom
-- education
-- homeschooling
-- training
+- Classroom
+- Education
+- Homeschooling
+- Training
 draft: false
 isfeatured: false
 description: "A Vibe board is a quick and easy way to turn your home into a classroom that\u2019ll inspire distance learning."

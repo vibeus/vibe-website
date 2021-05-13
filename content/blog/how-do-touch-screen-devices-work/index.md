@@ -4,7 +4,7 @@ slug: how-do-touch-screen-devices-work
 author: Vibe Team
 date: '2020-10-30'
 tags:
-- interactive whiteboard
+- Interactive Whiteboard
 - Smart Whiteboard
 - Smartboard Collaboration
 draft: false

@@ -4,9 +4,9 @@ slug: why-kanbans-visual-flow-improves-productivity
 author: Paige Smith
 date: '2021-03-10'
 tags:
-- interactive whiteboard
-- kanban
-- remote collaboration
+- Interactive Whiteboard
+- Kanban
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: The kanban system for project management could be the visual workflow your team has been looking for.

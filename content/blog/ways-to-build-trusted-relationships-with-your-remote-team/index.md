@@ -4,10 +4,10 @@ slug: ways-to-build-trusted-relationships-with-your-remote-team
 author: Karen Belz
 date: '2020-03-09'
 tags:
-- brainstorm
-- collaborate
-- Online whiteboard
-- remote work
+- Brainstorm
+- Collaborate
+- Online Whiteboard
+- Remote Work
 draft: false
 isfeatured: false
 description: Learn how to build trusted relationships with your remote team using these strategies.

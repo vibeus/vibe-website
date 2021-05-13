@@ -5,8 +5,8 @@ author: Vibe Team
 date: '2020-07-31'
 tags:
 - CEO
-- marketing
-- new business
+- How I Vibe
+- Marketing
 draft: false
 isfeatured: false
 description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard

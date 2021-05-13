@@ -4,9 +4,9 @@ slug: should-you-hire-a-director-of-remote-work
 author: Mary Clark Navarro
 date: '2021-04-05'
 tags:
-- remote collaboration
-- work from anywhere
-- work from home
+- Remote Collaboration
+- Work From Anywhere
+- Work From Home
 draft: false
 isfeatured: false
 description: Is hiring a director of remote work the right decision for your company? That all depends.

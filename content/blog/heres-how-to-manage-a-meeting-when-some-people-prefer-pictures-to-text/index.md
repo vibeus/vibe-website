@@ -4,9 +4,9 @@ slug: heres-how-to-manage-a-meeting-when-some-people-prefer-pictures-to-text
 author: Karen Belz
 date: '2020-03-14'
 tags:
-- powerpoint
-- presenting
-- remote work
+- PowerPoint
+- Presenting
+- Remote Work
 draft: false
 isfeatured: false
 description: "Adding visuals to your presentation can make every meeting more interesting. We\u2019ll show you the right way\

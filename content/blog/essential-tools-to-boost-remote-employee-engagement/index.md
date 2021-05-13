@@ -4,9 +4,9 @@ slug: essential-tools-to-boost-remote-employee-engagement
 author: Vibe Team
 date: '2021-03-26'
 tags:
-- remote collaboration
-- remote work
-- work from anywhere
+- Remote Collaboration
+- Remote Work
+- Work From Anywhere
 draft: false
 isfeatured: false
 description: Want to boost your remote employee engagement? Here are some of the most effective tools to promote employee

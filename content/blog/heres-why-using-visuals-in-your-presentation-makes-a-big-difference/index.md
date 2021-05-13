@@ -4,10 +4,10 @@ slug: heres-why-using-visuals-in-your-presentation-makes-a-big-difference
 author: Karen Belz
 date: '2020-03-12'
 tags:
-- collaborate
-- meetings
-- presentation
-- remote work
+- Collaborate
+- Meetings
+- Presentation
+- Remote Work
 draft: false
 isfeatured: false
 description: Visual presentation styles encourage active audience engagement. Sounds good to us! Follow this advice to make

@@ -4,9 +4,9 @@ slug: vibe-at-techcrunch-disrupt-startup-battlefield-2020
 author: Vibe Team
 date: '2020-09-15'
 tags:
-- interactive whiteboard
-- remote
-- startup
+- Interactive Whiteboard
+- Remote
+- Startup
 draft: false
 isfeatured: true
 description: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising

@@ -4,10 +4,10 @@ slug: from-pitch-to-partnership-designing-presentations-with-clients-in-mind
 author: Megan Snyder
 date: '2020-03-16'
 tags:
-- clients presentations
-- partnership
-- powerpoint
-- presenting
+- Client Presentations
+- Partnership
+- PowerPoint
+- Presenting
 draft: false
 isfeatured: false
 description: Design client presentations that impress with an interactive whiteboard session.

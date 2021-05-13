@@ -4,9 +4,8 @@ slug: making-sure-your-kids-still-have-an-active-social-life-while-learning-remo
 author: Karen Belz
 date: '2020-09-21'
 tags:
-- digital
-- entertainment
-- whiteboards
+- Digital Whiteboard
+- Entertainment
 draft: false
 isfeatured: false
 description: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.

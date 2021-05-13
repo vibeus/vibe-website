@@ -5,8 +5,9 @@ author: The Vibe Team
 date: '2020-07-08'
 tags:
 - CEO
-- remote
-- video conferencing
+- How I Vibe
+- Remote
+- Video Conference
 draft: false
 isfeatured: false
 description: Mark Smith, CEO of Leadershop Resource Institute, collaborates remotely with international clients using the

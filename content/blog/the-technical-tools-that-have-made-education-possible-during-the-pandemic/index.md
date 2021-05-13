@@ -4,7 +4,7 @@ slug: the-technical-tools-that-have-made-education-possible-during-the-pandemic
 author: Vibe Team
 date: '2020-11-20'
 tags:
-- distance learning
+- Distance Learning
 draft: false
 isfeatured: false
 description: Is a good education still obtainable during the pandemic? Check out the technical tools that make it possible!

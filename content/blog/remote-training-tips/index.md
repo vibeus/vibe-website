@@ -4,9 +4,9 @@ slug: remote-training-tips
 author: Vibe Team
 date: '2021-04-16'
 tags:
-- meeting techniques
-- remote collaboration
-- remote training
+- Meeting Techniques
+- Remote Collaboration
+- Remote Training
 draft: false
 isfeatured: false
 description: Want the best tips for developing a remote training plan? The Vibe team touches on the essentials of hosting

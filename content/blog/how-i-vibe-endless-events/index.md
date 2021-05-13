@@ -4,10 +4,10 @@ slug: how-i-vibe-endless-events
 author: Vibe Team
 date: '2021-02-25'
 tags:
-- brainstorm
-- collaborate
-- how i vibe
-- remote work
+- Brainstorm
+- Collaborate
+- How I Vibe
+- Remote Work
 draft: false
 isfeatured: false
 description: "When this event production company had to pivot their business, Vibe\u2019s interactive whiteboard made the\

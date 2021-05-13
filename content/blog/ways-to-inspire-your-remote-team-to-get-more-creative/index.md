@@ -4,9 +4,9 @@ slug: ways-to-inspire-your-remote-team-to-get-more-creative
 author: Karen Belz
 date: '2020-03-15'
 tags:
-- powerpoint
-- presenting
-- remote work
+- PowerPoint
+- Presenting
+- Remote Work
 draft: false
 isfeatured: false
 description: Everybody could use a little inspiration sometimes. Learn strategies to inspire creativity amongst remote employees.

@@ -4,7 +4,7 @@ slug: interactive-whiteboard-what-is-it-and-what-does-it-do
 author: Vibe Team
 date: '2020-11-01'
 tags:
-- interactive whiteboard
+- Interactive Whiteboard
 - Smart Whiteboard
 - Smartboard Collaboration
 draft: false

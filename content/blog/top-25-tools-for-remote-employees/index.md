@@ -4,7 +4,7 @@ slug: top-25-tools-for-remote-employees
 author: Vibe Team
 date: '2021-01-26'
 tags:
-- remote work
+- Remote Work
 draft: false
 isfeatured: false
 description: Are you looking for ways to make your remote team more efficient? Check out our guide on collaborative tools

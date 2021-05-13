@@ -4,9 +4,9 @@ slug: 6-reasons-why-the-standard-whiteboard-is-becoming-obsolete
 author: Karen Belz
 date: '2020-08-25'
 tags:
-- digital whiteboard
-- interactive whiteboard
-- standard whiteboard
+- Digital Whiteboard
+- Interactive Whiteboard
+- Whiteboard
 draft: false
 isfeatured: false
 description: Traditional whiteboards are being replaced with digital whiteboards with touchscreens.

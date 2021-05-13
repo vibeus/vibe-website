@@ -4,9 +4,9 @@ slug: using-an-action-priority-matrix-to-maximize-your-time-and-talent
 author: Paige Smith
 date: '2021-03-05'
 tags:
-- interactive whiteboard
-- remote collaboration
-- vibe feature
+- Interactive Whiteboard
+- Remote Collaboration
+- Vibe Feature
 draft: false
 isfeatured: false
 description: The key to taking on your to-do list is learning how to prioritize tasks to make the best use of your time. The

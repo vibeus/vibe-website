@@ -4,9 +4,8 @@ slug: how-to-build-the-foundation-of-an-accessible-online-course
 author: Mary Clark Navarro
 date: '2021-03-24'
 tags:
-- accessible design
-- distance learning
-- remote education
+- Accessible Design
+- Distance Learning
 draft: false
 isfeatured: false
 description: Design your distance learning courses with accessibility in mind by using these helpful tips.

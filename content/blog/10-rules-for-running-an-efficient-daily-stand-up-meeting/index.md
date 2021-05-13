@@ -4,9 +4,9 @@ slug: 10-rules-for-running-an-efficient-daily-stand-up-meeting
 author: Megan Snyder
 date: '2020-04-17'
 tags:
-- huddle
-- meetings
-- stand-up
+- Huddle
+- Meetings
+- Stand-up
 draft: false
 isfeatured: false
 description: "Any workplace can say they\u2019re agile. You can start right now by reviewing these strategies for simplifying\
