@@ -76,7 +76,7 @@ With more than 900 global customers who use Vibe boards to collaborate on projec
 
 ## Highlights
 
-{{< common/srcset "img/toc-template/image-0.png" "" >}}
+{{< image-grid urls="img/toc-template/image-grid-1.png,img/toc-template/image-grid-2.png,img/toc-template/image-grid-3.png,img/toc-template/image-grid-4.png,img/toc-template/image-grid-5.png,img/toc-template/image-grid-6.png" >}}
 
 ## What is remote collaboration?
 Remote collaboration extends an office's collaborative capabilities and translates them to a digital workspace. The goal is to enable communication and teamwork while allowing team members to work from various internet-connected locations. 
