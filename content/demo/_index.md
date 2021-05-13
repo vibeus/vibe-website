@@ -124,7 +124,7 @@ demo:
             title: Watch Demo Video First
             target: _blank
             class: is-primary is-video-demo-link
-            url: https://vibe.us/demo/video-demo
+            url: https://vibe.us/demo/video-demo/
         - class: is-video-demo
           body: |
             # We've sent you an email with the video link. Enjoy!
@@ -132,7 +132,7 @@ demo:
             title: Watch Now
             target: _blank
             class: is-primary is-video-demo-link
-            url: https://vibe.us/demo/video-demo
+            url: https://vibe.us/demo/video-demo/
             subcta:
               class: is-hidden-eu
               body: Still want to talk to an expert?
@@ -149,5 +149,5 @@ demo:
             title: Watch Demo Video Now
             target: _blank
             class: is-primary is-video-demo-link
-            url: https://vibe.us/demo/video-demo
+            url: https://vibe.us/demo/video-demo/
 ---

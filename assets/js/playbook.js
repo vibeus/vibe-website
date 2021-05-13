@@ -20,7 +20,7 @@ setupForm(document.querySelector('.form.is-vibe-form'), {
       openDemoScheduler(
         form,
         '{{ .modalId }}',
-        'https://meetings.hubspot.com/katie206/intro-call-with-vibe'
+        'https://meetings.hubspot.com/jian-zhao/vibe-follow-up'
       );
     }
 
