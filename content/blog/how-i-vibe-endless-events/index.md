@@ -18,7 +18,8 @@ In February and March 2020, it seemed like every event was canceled or postponed
 
 It made sense initially to press “pause” and assess the state of the live event industry. But determined companies soon began brainstorming ways to pivot their in-person strategies to align with the suddenly all-virtual landscape. [Endless Events](https://helloendless.com/), a hybrid event production company, committed themselves to making the most of a unique situation.
 
-Read on to learn how Vibe’s interactive whiteboard helps the team collaborate and create top-tier events in fresh, new ways.
+Read on to learn how Vibe’s interactive whiteboard helps the team collaborate and create top-tier events in fresh, new ways.  
+
 
 {{< youtube id="OqGKaAsXNDY" autoplay="false" >}}
 

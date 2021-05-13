@@ -19,6 +19,8 @@ Educators understand the importance of designing lesson plans. They need to be c
 
 Ryne Anthony, Fluxspace’s director of innovation, helps organizations plan spaces that encourage a maker mindset and forward-thinking, experiential learning. Continue reading to see why Anthony says the Vibe board plays a crucial role in the future of collaborative spaces.
 
+{{< youtube id="A_wB90fMQEk" autoplay="false" >}}
+
 ## How Fluxspace works
 
 There’s so much more to creating the ultimate learning space than simply choosing comfortable furniture. Anthony explains that at Fluxspace, they take the future of the space into consideration as well. They ask themselves, “What does the classroom of the future look like? How can we build really cool, really engaging environments? And what are the products, programs, and experiences that should take place in them?”
