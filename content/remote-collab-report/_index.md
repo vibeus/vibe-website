@@ -1,9 +1,9 @@
 ---
-title: TOC Template
-description: Just some test.
-stylesPath: css/toc-template.sass
+title: The State of Remote Collaboration 2021
+description: The State of Remote Collaboration 2021
+stylesPath: css/remote-collab-report.sass
 hero:
-  title: i18n-content-toc-template-_index-hero-title
+  title: i18n-content-remote-collab-report-_index-hero-title
   body: null
 toc:
   - id: introduction
@@ -76,7 +76,7 @@ With more than 900 global customers who use Vibe boards to collaborate on projec
 
 ## Highlights
 
-{{< image-grid urls="img/toc-template/image-grid-1.png,img/toc-template/image-grid-2.png,img/toc-template/image-grid-3.png,img/toc-template/image-grid-4.png,img/toc-template/image-grid-5.png,img/toc-template/image-grid-6.png" >}}
+{{< image-grid urls="img/remote-collab-report/image-grid-1.png,img/remote-collab-report/image-grid-2.png,img/remote-collab-report/image-grid-3.png,img/remote-collab-report/image-grid-4.png,img/remote-collab-report/image-grid-5.png,img/remote-collab-report/image-grid-6.png" >}}
 
 ## What is remote collaboration?
 Remote collaboration extends an office's collaborative capabilities and translates them to a digital workspace. The goal is to enable communication and teamwork while allowing team members to work from various internet-connected locations. 
@@ -88,23 +88,23 @@ Organizations have increasingly been making the switch to remote work after find
 
 {{< fancy-quote >}}**In Vibe’s study, 69% of respondents reported that their companies offered remote work options to at least a portion of their workforce prior to changes caused by the COVID-19 pandemic.**{{</ fancy-quote >}}
 
-{{< common/srcset "img/toc-template/image-1.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-1.png" "" >}}
 
 ### COVID-19 has changed how employers and employees think about remote work
 Remote work options changed dramatically in 2020, with the COVID-19 pandemic forcing many workplaces into a totally remote environment. Organizations had to rapidly build remote-work infrastructure to avoid a loss in productivity and earnings.
 
-{{< common/srcset "img/toc-template/image-2.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-2.png" "" >}}
 
 {{< fancy-quote >}}**Of the respondents from organizations that had previously eschewed remote roles, 63% indicated that their organization was offering remote options to at least part of their workforce in response to COVID-19.**{{</ fancy-quote >}}
 
-{{< common/srcset "img/toc-template/image-3.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-3.png" "" >}}
 
 ### How and why is remote work changing?
 COVID-19 has shifted the attitudes of both employees and employers toward remote work. As remote collaboration becomes more efficient and findings illuminate that productivity levels are better or unaffected, more companies are taking advantage of remote work benefits.
 
 {{< fancy-quote >}}**73% of respondents would prefer to work in an environment with some degree of remote options. Only 27% of respondents preferred working solely in an on-site environment.**{{</ fancy-quote >}}
 
-{{< common/srcset "img/toc-template/image-4.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-4.png" "" >}}
 
 Going a level deeper, respondents who were working remotely — either originally or in response to the pandemic — had a stronger preference to remain in environments with a remote component. Of these respondents, 42% favored completely remote work and 39% favored blended options. Only 19% of remote employees indicated that they would want to work primarily in an on-site location.
 
@@ -115,7 +115,7 @@ So what are businesses planning to do when COVID-19 restrictions are lifted? All
 
 We asked participants if they planned to return to a physical workplace after restrictions are lifted. The responses reflected that more than half expected that their roles would be either remote (18%) or hybrid (35%). 
 
-{{< common/srcset "img/toc-template/image-5.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-5.png" "" >}}
 
 Forty-eight percent of respondents reported that they would return to on-site work when it is safe to do so again. There was a gender split for those planning to return to the office full-time, with 36% of women versus 59% of men choosing this option. A distinct split in this preference still remained when comparing women and men with parenting and childcare responsibilities. 
 
@@ -124,7 +124,7 @@ In contrast, 18% of respondents indicated that their preference is to work prima
 ### The new normal
 Many employees have experienced the upsides of fully remote or hybrid work and now prefer those work styles.  Determining how strong employees’ preferences toward remote work are can help employers make the right decision for their workforce. We asked, “For your next job, would you consider taking a role that did not offer a remote option?”
 
-{{< common/srcset "img/toc-template/image-6.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-6.png" "" >}}
 
 Having no remote option was a dealbreaker for a large number of people. Twenty-six percent of respondents answered that for their next job, they would not consider taking a role that did not offer a remote option. With so many companies, from Amazon to Zillow, adopting new ways of work, employees seek out the ones that can provide the best options for them. Companies that don't offer alternatives to on-site work will see their job pool shrink. 
 
@@ -138,7 +138,7 @@ Diversity of thought is essential to an innovative workplace, and diversity in g
 ### Support workplace flexibility for parents and caregivers
 Balancing work and family life has always been a challenge for parents and caregivers. Remote work can help employees by providing a number of opportunities to be more present with their children and partners. 
 
-{{< common/srcset "img/toc-template/image-7.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-7.png" "" >}}
 
 ### Retention
 One of the ways companies can improve retention is by breaking the barrier of location. Providing remote work options can boost loyalty and retention by minimizing the downsides of in-person work like stressful commutes and undesirable office conditions, allowing employees to focus more on the nature of the work. 
@@ -157,7 +157,7 @@ Finally, this new mobile workforce has a varied skill set that they’ll carry w
 ### Culture
 One of the most obvious drawbacks of remote work is the lack of daily in-person interaction and team building that is often a part of traditional work environments.
 
-{{< common/srcset "img/toc-template/image-8.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-8.png" "" >}}
 
 ### Onboarding
 When welcoming new employees, setting the right tone is essential for building positive relationships. Many companies have strategies for this that they have perfected over decades, but remote work can make some of their past methods difficult or impossible to use. Being on-site for training and onboarding can be a boon to get a feel for a company and its culture. 
@@ -172,11 +172,11 @@ While remote workers have done a remarkable job of collaborating in virtual work
 ### Learning styles
 Everyone has a different way of learning, and many people use multiple learning styles to process new information quickly and efficiently. Organizations must take into account that what works well when teaching and training one employee may not work for others. The different learning styles are outlined in the [VARK learning model](https://www.verywellmind.com/vark-learning-styles-2795156#:~:text=The%20VARK%20model%20of%20learning,in%20the%201970s%20and%201980s.). 
 
-{{< common/srcset "img/toc-template/image-9.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-9.png" "" >}}
 
 Learning styles play neatly into how we prefer to have work materials presented. In on-site professional settings, there are many communication styles to choose from, but remote work constrains these format choices.
 
-{{< common/srcset "img/toc-template/image-10.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-10.png" "" >}}
 
 Thirty-three percent of respondents said they prefer to have materials presented to them through hands-on experience. But for remote positions, hands-on experience is limited to virtual collaboration techniques. Hands-on and physical learners may need extra attention to walk them through new processes. Tools like screen sharing can make this easier by allowing supervisors to watch employees go through tasks — to learn by doing — and give them immediate feedback.
  
@@ -184,7 +184,7 @@ Overall, no single format for learning was overwhelmingly more effective than ot
 ### Remote team collaboration preferences
 Unsurprisingly, video conferencing is preferred to any other method of communication in remote work. The format allows for a level of communication that is second only to face-to-face conversations, and respondents cited a desire for “video conference software that works like you're in the same room as your team.”
 
-{{< common/srcset "img/toc-template/image-11.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-11.png" "" >}}
 
 Results show that team members like to get as close as possible to face-to-face communication, with 42% of respondents choosing video conferencing as their preferred method of remote communication. A respondent noted, “Body language is an important way for me to relay what I'm thinking.” 
 
@@ -203,13 +203,13 @@ When working in different locations, communication can be less effective than wh
 
 Employees reported three main reasons why their remote communications are less effective. The top reason: **20% of remote workers said that they weren't able to communicate in the way that they prefer**, be it drawing or presenting in person. The proportion of those who cited lack of preferred communication style rose to 67% in professional services (consulting, legal) and in finance and financial services. This proportion rose to 83% in healthcare and pharmaceuticals.
 
-{{< common/srcset "img/toc-template/image-12.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-12.png" "" >}}
 
 Around 18% of respondents felt that their colleagues were too busy for them to share their ideas. In a remote environment workers can end up overly focused and siloed on their own tasks. With 2020 bringing disruptions to childcare and school systems, there are more distractions than ever before. Additionally, waiting for emails or documentation updates has a longer turnaround than having a quick chat with someone on-site to clarify points.
 
 **Approximately half of respondents (52%) indicated that working from home made it more difficult to express themselves.** Many noted that remote communication felt more disjointed and disconnected. 
 
-{{< common/srcset "img/toc-template/image-13.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-13.png" "" >}}
 
 The top reason cited for difficulty expressing themselves when working remotely, accounting for 22% of respondents, was that they didn't feel like they had the tools and resources needed to express themselves in the way in which they were most skilled.
 
@@ -219,7 +219,7 @@ Twelve percent of respondents felt that the time it would take to express themse
 
 These challenges all stem from a lack of tools for remote workers. Twenty-two percent of respondents said they didn't have the resources to express themselves effectively. Having proper resources can alleviate the challenges of insufficient time and lack of energy, empowering employees to communicate effectively.  
 
-{{< common/srcset "img/toc-template/image-14.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-14.png" "" >}}
 
 Forty-six percent of respondents expressed that they wanted more brainstorming sessions via phone or video conference to improve collaboration efforts. An easy fix for leadership is to schedule time for conference calls with existing virtual collaboration tools. 
 
@@ -229,13 +229,13 @@ While software allows greater levels of collaboration, remote work wouldn't be p
 
 With employees working remotely, organizations are finding different ways to provide the tools needed for home offices.
 
-{{< common/srcset "img/toc-template/image-15.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-15.png" "" >}}
 
 Most employees (67%) said that their company gave them a work laptop to take home, with a rising number going beyond the basics by providing standing desks, ergonomic chairs, and digital whiteboards.
 
 Digital whiteboards were one of the most desired tools from employees for expressing ideas. More than 30% of all employees thought that having a digital whiteboard, like a Vibe board, would make virtual collaboration easier when working from home. In the technology industry, this number was even higher at 47%. 
 
-{{< common/srcset "img/toc-template/image-16.png" "" >}}
+{{< common/srcset "img/remote-collab-report/image-16.png" "" >}}
 
 In lieu of providing employees with work-from-home equipment from the office, many employers opt to give a remote work equipment stipend. This can come as a one-time payment that may cover the basics, or employees can ask for funds to purchase needed supplies. An allowance for equipment can provide a more comfortable  space for workers to put in their hours at home. **Of the total respondents, 40% received a stipend for remote work equipment, with that number rising to 70% for workers in the technology sector.**
 

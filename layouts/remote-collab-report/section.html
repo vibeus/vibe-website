@@ -2,18 +2,18 @@
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
-{{ define "main" }}<main class="toc-template">
+{{ define "main" }}<main class="remote-collab-report">
 
   {{ with .Params.hero }}
   <section class="hero">
     <figure class="image is-hero-bg is-hidden-desktop">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/toc-template/hero-mobile.png") ) }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collab-report/hero-mobile.png") ) }}
     </figure>
     <figure class="image is-hero-bg is-hidden-fullhd">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/toc-template/hero.png") ) }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collab-report/hero.png") ) }}
     </figure>
     <figure class="image is-hero-bg is-fullhd">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/toc-template/hero-large.png") "desktop" "1440x" "tablet" "960x" "mobile" "750x") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collab-report/hero-large.png") "desktop" "1440x" "tablet" "960x" "mobile" "750x") }}
     </figure>
     <div class="hero-body">
       <div class="container">
@@ -62,5 +62,5 @@
     <div class="main-content">{{.Content}}</div>
   </section>
 
-  {{ partial "common/template-script" (dict "asset" "js/toc-template.js") }}
+  {{ partial "common/template-script" (dict "asset" "js/remote-collab-report.js") }}
 </main>{{ end }}
