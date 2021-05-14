@@ -2195,6 +2195,24 @@ other = "Experience Vibe for yourself"
 [i18n-content-comparison-_index-bottom_cta-cta-title]
 other = "Request a Demo"
 
+[i18n-content-comparison-filter-title]
+other = "Compare all"
+
+[i18n-content-comparison-filter-hero-title]
+other = "Compare all?"
+
+[i18n-content-comparison-filter-hero-body]
+other = """The interactive whiteboard is the latest, greatest way to bring your 
+vision to life, but how do you know if Vibe is right for you? We've made 
+comparisons as objective and complete as possible, with all details verified at 
+quartlerly intervals."""
+
+[i18n-content-comparison-filter-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-comparison-filter-bottom_cta-cta-title]
+other = "Request a Demo"
+
 [i18n-content-service-_index-zh-title]
 other = "服务支持"
 

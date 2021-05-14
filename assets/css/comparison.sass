@@ -217,3 +217,48 @@
       background-color: $vibe-white
   .column.is-brand-name
     font-weight: $vibe-bold
+
+main.comparison.is-filter
+  .checkbox-card
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    padding: 22px 30px
+    border: 1px solid #e0e0e080
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    cursor: pointer
+
+    .checkbox
+      margin-right: 15px
+      border-radius: 0
+    
+    .brand-name
+      font-weight: $vibe-bold
+      font-size: 24px
+      line-height: 1.5
+
+    .image 
+      margin-top: 16px
+      img
+        height: 127px
+        width: auto
+
+  .section.is-selection
+    z-index: 201
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #3C3C3C
+
+    .selection-list
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      height: 127px
+    .selection-card
+      img
+        height: 127px
+        width: auto

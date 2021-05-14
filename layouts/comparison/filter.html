@@ -1,0 +1,63 @@
+{{ define "main" }}<main class="comparison is-filter">
+
+  {{ with .Params.hero }}
+  <section class="hero">
+    <div class="bg-logo">
+      {{ (resources.Get "img/shared/what-bg.svg").Content | safeHTML }}
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">{{ T .title }}</h1>
+        <div class="content">{{ T .body | markdownify }}</div>
+        {{ with .cta }}
+        <div class="cta">
+          <a href="{{ .url }}">{{ T .title }}</a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="section is-brands">
+    <div class="container">
+      <div class="columns is-multiline">
+        {{ range $.Site.Data.comparison.brands }}
+        <div class="column is-half-tablet is-one-quarter-desktop">
+          <label class="checkbox-card" data-id="{{ .id }}" data-name="{{ .name }}">
+            <span>
+              <input type="checkbox" class="checkbox" data-id="{{ .id }}" />
+              <span class="brand-name">{{ .name }}</span>
+            </span>
+            <figure class="image">
+              {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
+            </figure>
+          </label>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section is-selection is-hidden">
+    <div class="header">
+      <div class="header-start">Compare <span id="selectedText"></span> with Vibe</div>
+      <div class="header-end">
+        <button id="clearAll">Clear all</button>
+        <a id="compareLink" href="">Compare</a>
+      </div>
+    </div>
+    <div class="body">
+      <div class="selection-card is-vibe">
+        Vibe
+      </div>
+      <div class="selection-list"></div>
+    </div>
+  </section>
+
+  {{ with .Params.bottom_cta }}
+  {{ partial "bottom-cta" . }}
+  {{ end }}
+
+  {{ partial "common/template-script" (dict "asset" "js/comparison.js") }}
+</main>{{ end }}
