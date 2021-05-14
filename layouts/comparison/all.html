@@ -18,4 +18,6 @@
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}
 {{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/comparison.all.js") }}
 </main>{{ end }}

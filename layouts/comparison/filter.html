@@ -22,7 +22,7 @@
   <section class="section is-brands">
     <div class="container">
       <div class="columns is-multiline">
-        {{ range $.Site.Data.comparison.brands }}
+        {{ range after 1 $.Site.Data.comparison.brands }}
         <div class="column is-half-tablet is-one-quarter-desktop">
           <label class="checkbox-card" data-id="{{ .id }}" data-name="{{ .name }}">
             <span>
@@ -49,7 +49,12 @@
     </div>
     <div class="body">
       <div class="selection-card is-vibe">
-        Vibe
+        {{ with index $.Site.Data.comparison.brands 0 }}
+        <span>{{ .name }}</span>
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
+        </figure>
+        {{ end }}
       </div>
       <div class="selection-list"></div>
     </div>

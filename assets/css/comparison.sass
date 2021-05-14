@@ -153,6 +153,10 @@
   tr.tbody:nth-child(even)
     background-color: $vibe-white
 
+  th[is-hidden-col],
+  td[is-hidden-col]
+    display: none
+
 .section.is-why
   +vertical-padding(80px)
   .container
@@ -253,6 +257,10 @@ main.comparison.is-filter
     left: 0
     right: 0
     background-color: #3C3C3C
+
+    .body
+      display: grid
+      grid-template-columns: 1fr 4fr
 
     .selection-list
       display: grid

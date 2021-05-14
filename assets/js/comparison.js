@@ -14,8 +14,8 @@
       const index = selected.findIndex(n => n === id);
       if (index > -1) {
         selected.splice(index, 1);
-        onChanged();
       }
+      onChanged();
       return index;
     }
 
@@ -113,7 +113,7 @@
 
     const seletedNum = selection.size();
     selectedText.innerHTML = `${seletedNum} product${seletedNum > 1 ? 's' : ''}`;
-    compareLink.href = `/comparison/all/?id=${selection.get().join(',')}`;
+    compareLink.href = `/comparison/all/?id=vibe,${selection.get().join(',')}`;
 
     selectionList.innerHTML = selection.get().map(getSelectionCardView).join('');
 

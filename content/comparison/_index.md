@@ -8,7 +8,7 @@ hero:
   body: i18n-content-comparison-_index-hero-body
   cta:
     title: i18n-content-comparison-_index-hero-cta-title
-    url: /comparison/all/
+    url: /comparison/filter/
 competitors:
   - name: i18n-content-comparison-_index-competitors-i_0-name
     figure: img/comparison/surface-hub-w.jpg

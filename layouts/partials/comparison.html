@@ -3,7 +3,7 @@
   <tr class="thead">
     <th></th>
     {{ range .brands }}
-    <th>
+    <th is-hidden-col data-id="{{ .id }}">
       <figure class="image">
         {{ partial "common/srcset" (dict "resource" (resources.Get .head_figure) "desktop" "320x") }}
       </figure>
@@ -14,7 +14,7 @@
   <tr class="thead">
     <th class="is-sticky">Compare Brands</th>
     {{ range .brands }}
-    <th class="is-sticky is-brand-name">{{ .name }}</th>
+    <th is-hidden-col data-id="{{ .id }}" class="is-sticky is-brand-name">{{ .name }}</th>
     {{ end }}
   </tr>
   {{ range .features }}
@@ -31,7 +31,7 @@
   <tr class="tbody">
     <th>{{ .title }}</th>
     {{ range $.brands }}
-    <td>
+    <td is-hidden-col data-id="{{ .id }}">
       {{ $value := index (index . $feature) $sub }}
 
       {{ if and $value (or (eq "icon" $type) (eq "icon_text" $type)) }}
