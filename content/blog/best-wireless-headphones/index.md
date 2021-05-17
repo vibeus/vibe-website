@@ -7,7 +7,7 @@ tags:
 - Meeting Techniques
 - Tech Tools
 - Video Conferencing
-draft: true
+draft: false
 isfeatured: false
 description: What makes video conferencing easier? A quality pair of wireless headphones. Find out our top picks and improve
   your next meeting.
@@ -22,7 +22,7 @@ A look at the [history of headphones](https://www.theguardian.com/technology/gal
 - **Greater freedom and comfort.** There’s no need to physically attach yourself to your computer. Cords get in the way, become tangled, and create all-around discomfort. Wireless headphones let you walk away from your device and still stay tuned into a meeting or call.
 - **Crystal clear audio.** You may not have the luxury of a quiet space when you hop on a video call. (Especially if you’re working from home.) But, the right pair of headphones will let you cancel out background noise and focus on the meeting at hand.
 - **Make yourself heard.** We all cringe a little when someone comes on a call that sounds muffled or drowned out. You have to turn the volume up every time they talk, only to then have your ears hurt from the high volume once the next person starts speaking. Don’t put your team through that misery. Get your point across clearly by using headphones.
-- **Reduce feedback sound.** When you don’t use headphones, any sound coming out of your speakers can be picked up by your computer’s microphone — resulting in that annoying echo sound that puts a pause on meetings. Today’s headphones don’t pick up that noise, meaning better sound quality for everyone.
+- **Reduce feedback sound.** When you don’t use headphones, any sound coming out of your speakers can be picked up by your computer’s microphone. Then you get that annoying echo sound that puts a pause on meetings. Today’s headphones don’t pick up that noise, meaning better sound quality for everyone.
 
 ***Related:* [How to Make Your Conference Calls Sound Better](https://vibe.us/blog/conference-call-audio-tips/)**
 
@@ -62,7 +62,7 @@ Just like other more expensive options (like the Apple Airpods Pro), these earbu
 
 4. [Plantronics BackBeat Go 810](https://www.amazon.com/Plantronics-BackBeat-Wireless-Headphones-Canceling/dp/B07G2G18YH) **– Best affordable wireless headphones for video calls**
 
-Plantronics makes quality, feature-packed headphones at a price point that everyone can appreciate. But don’t be fooled by the price — these comfortable over-the-ear headphones still offer incredible noise-canceling power, and balanced EQ presets for richer sound. You don’t have to worry about charging these when the workday ends because the BackBeat Go 810 delivers up to 22 hours of battery life if using ANC and up to 28 hours without ANC.
+Plantronics makes quality, feature-packed headphones at a price point that everyone can appreciate. But don’t be fooled by the price — these comfortable over-the-ear headphones still offer incredible noise-canceling power, and balanced EQ presets for richer sound. And you don’t have to worry about charging these when the workday ends. That’s because the BackBeat Go 810 delivers up to 22 hours of battery life if using ANC and up to 28 hours without ANC.
 
 {{< common/srcset "image-2.jpg" "A woman prepares to put on her wireless headphones as she relaxes at her desk before a video conference." >}}
 
