@@ -35,7 +35,7 @@ specs:
 privacy:
   class: is-privacy
   title: i18n-content-security-_index-privacy-title
-  items: 
+  items:
     - title: Ephemeral mode for shared workspaces
       body: |
         Vibe offers a mode for shared spaces that includes guest access roles, an expiring code to limit the sharing time, tap to clear content, multi-user sign in, and a permission control on every canvas.

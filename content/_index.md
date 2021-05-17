@@ -115,7 +115,7 @@ trust:
             class: figure-for-tablet
           - url: img/home/customer-entry/mobile-logo1.png
             class: figure-for-mobile
-        partial: "common/customer-story-card"
+        partial: 'common/customer-story-card'
     - item: &id02
         title: Marketing Agency
         name: Adam Elbendary,
@@ -135,17 +135,17 @@ trust:
             class: figure-for-mobile
           - url: img/home/customer-entry/tablet-img2.png
             class: figure-for-tablet
-        url: "https://vibe.us/blog/how-i-vibe-adam-elbendary/"
-        partial: "common/customer-story-card"
+        url: 'https://vibe.us/blog/how-i-vibe-adam-elbendary/'
+        partial: 'common/customer-story-card'
     - item: &id03
         testimonials:
           - author:
               name: |
-                    Sean Foster
+                Sean Foster
 
-                    eFocus
+                eFocus
             body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
-        partial: "common/testimonial-section"
+        partial: 'common/testimonial-section'
     - item: &id04
         title: Education
         name: Henry Silverman,
@@ -162,8 +162,8 @@ trust:
             class: figure-for-desktop
           - url: img/home/customer-entry/tablet-img4.png
             class: figure-for-tablet
-        url: "https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/"
-        partial: "common/customer-story-card"
+        url: 'https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/'
+        partial: 'common/customer-story-card'
     - item: &id05
         title: Education
         name: Arek Puzia,
@@ -183,8 +183,8 @@ trust:
             class: figure-for-mobile
           - url: img/home/customer-entry/tablet-img5.png
             class: figure-for-tablet
-        url: "https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/"
-        partial: "common/customer-story-card"
+        url: 'https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/'
+        partial: 'common/customer-story-card'
     - item: &id06
         title: Consulting
         name: Peter Parker,
@@ -204,8 +204,8 @@ trust:
             class: figure-for-mobile
           - url: img/home/customer-entry/tablet-img6.png
             class: figure-for-tablet
-        url: "https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/"
-        partial: "common/customer-story-card"
+        url: 'https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/'
+        partial: 'common/customer-story-card'
     - item: &id07
         testimonials:
           - author:
@@ -214,7 +214,7 @@ trust:
 
                 Estate Planning Attorney, Arvada, Colorado
             body: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-        partial: "common/testimonial-section"
+        partial: 'common/testimonial-section'
     - item: &id08
         title: Business Coaching
         name: Mark Smith,
@@ -234,8 +234,8 @@ trust:
             class: figure-for-mobile
           - url: img/home/customer-entry/tablet-img8.png
             class: figure-for-tablet
-        url: "https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/"
-        partial: "common/customer-story-card"
+        url: 'https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/'
+        partial: 'common/customer-story-card'
   testimonials_for_desktop:
     - - - item: *id01
           class: is-reversed

@@ -1,4 +1,3 @@
-
 const glides = document.querySelectorAll('.is-trust .glide');
 glides.forEach((el) => {
   const glide = new Glide(el, {
