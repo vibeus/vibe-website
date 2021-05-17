@@ -45,22 +45,22 @@ demo:
           placeholder: i18n-content-demo-_index-demo-form-controls-i_2-i_1-placeholder
           required: true
           dropdown:
-              - Education
-              - Coaching and Training
-              - Health Care
-              - IT Services
-              - Computer Software
-              - Real Estate
-              - Architecture and Construnction
-              - Engineering
-              - Financial Services
-              - Consulting
-              - Marketing and Advertising
-              - Arts and Design
-              - Government and Organizations
-              - Home Office
-              - Personal Use and Entertainment
-              - Others
+            - Education
+            - Coaching and Training
+            - Health Care
+            - IT Services
+            - Computer Software
+            - Real Estate
+            - Architecture and Construnction
+            - Engineering
+            - Financial Services
+            - Consulting
+            - Marketing and Advertising
+            - Arts and Design
+            - Government and Organizations
+            - Home Office
+            - Personal Use and Entertainment
+            - Others
       - - name: company_size_classification
           placeholder: i18n-content-demo-_index-demo-form-controls-i_3-i_0-placeholder
           required: true

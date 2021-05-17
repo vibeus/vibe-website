@@ -7,7 +7,7 @@ noIndex: true
 noSitemap: true
 
 navbar:
-  brandURL: "/"
+  brandURL: '/'
   extra:
     - title: Request a Quote
       url: /contact/request-a-quote/
@@ -39,7 +39,7 @@ hero:
 compare:
   title: i18n-content-demo-request-video-landing-compare-title
   data_name: compare_in_brief
-  brands_order: [1,2,3,4,5,6]
+  brands_order: [1, 2, 3, 4, 5, 6]
   cta:
     title: i18n-content-demo-request-video-landing-compare-cta-title
     class: is-primary is-outlined is-rounded

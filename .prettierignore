@@ -4,6 +4,7 @@ assets/js/react.production.min.js
 content/blog/
 content/video-tutorial/
 data/android_apps.yaml
+data/android_apps_zh.yaml
 layouts/
 node_modules/
 public/
