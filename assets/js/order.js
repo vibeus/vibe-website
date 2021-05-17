@@ -383,7 +383,9 @@ function setupCheckout() {
     .forEach((el) => {
       el.href = 'javascript:void(0)';
       el.addEventListener('click', (ev) => {
-        processCheckout();
+        if (!el.hasAttribute('disabled')) {
+          processCheckout();
+        }
       });
     });
 }
