@@ -1,116 +1,116 @@
 apps:
-  - id: chuxin.shimo.shimowendang
-    name: 石墨文档
-    use_case: file
-    type: file
-    featured: true
-  - id: cn.wps.moffice_eng
-    name: WPS Office
-    use_case: content
-    type: productivity
-  - id: com.adobe.creativeapps.draw
-    name: Adobe Draw
-    use_case: content
-    type: design
-  - id: com.adobe.psmobile
-    name: Photoshop Express
-    use_case: content
-    type: design
-  - id: com.alibaba.android.rimet
-    name: 钉钉
-    use_case: remote
-    type: communication
-    featured: true
-  - id: com.android.chrome
-    name: Chrome
-    type: browser
-    featured: true
-  - id: com.atlassian.android.jira.core
-    name: Jira
-    type: project
-  - id: com.baidu.cloudenterprise
-    name: 百度企业网盘
-    use_case: file
-    type: file
-  - id: com.baidu.netdisk
-    name: 百度网盘
-    use_case: file
-    type: file
-  - id: com.bxzz.bluelake
-    name: 蓝湖
-    use_case: content
-    type: design
-  - id: com.egeio.fangcloud
-    name: 亿方云V2
-    use_case: file
-    type: file
-  - id: com.lite.lanxin
-    name: 蓝信+
-    type: communication
-  - id: com.microsoft.office.excel
-    name: Excel
-    use_case: content
-    type: productivity
-  - id: com.microsoft.office.powerpoint
-    name: PowerPoint
-    use_case: content
-    type: productivity
-  - id: com.microsoft.office.word
-    name: Word
-    use_case: content
-    type: productivity
-  - id: com.microsoft.teams
-    name: Microsoft Teams
-    type: productivity
-  - id: com.mockingbot
-    name: 墨刀
-    use_case: content
-    type: design
-  - id: com.netease.vopen
-    name: 网易公开课
-    type: education
-  - id: com.qiyi.video.pad
-    name: 爱奇艺HD
-    type: entertainment
-  - id: com.ss.android.lark
-    name: 飞书
-    use_case: remote
-    type: communication
-  - id: com.teambition.teambition
-    name: Teambition
-    type: project
-  - id: com.tencent.androidqqmail
-    name: QQ邮箱
-    use_case: remote
-    type: communication
-  - id: com.tencent.mm
-    name: 微信
-    type: communication
-  - id: com.tencent.wemeet.app
-    name: 腾讯会议
-    use_case: remote
-    type: av
-    featured: true
-  - id: com.tencent.wework
-    name: WeChat Work
-    use_case: remote
-    type: communication
-    featured: true
-  - id: com.trello
-    name: Trello
-    type: project
-  - id: im.tower.plus.android
-    name: Tower
-    type: project
-  - id: nutstore.android
-    name: 坚果云
-    use_case: file
-    type: file
-  - id: tv.danmaku.bili
-    name: 哔哩哔哩
-    type: entertainment
-  - id: us.zoom.videomeetings
-    name: Zoom
-    use_case: remote
-    type: av
-    featured: true
+- id: chuxin.shimo.shimowendang
+  name: 石墨文档
+  use_case: file
+  type: file
+  featured: true
+- id: cn.wps.moffice_eng
+  name: WPS Office
+  use_case: content
+  type: productivity
+- id: com.adobe.creativeapps.draw
+  name: Adobe Draw
+  use_case: content
+  type: design
+- id: com.adobe.psmobile
+  name: Photoshop Express
+  use_case: content
+  type: design
+- id: com.alibaba.android.rimet
+  name: 钉钉
+  use_case: remote
+  type: communication
+  featured: true
+- id: com.android.chrome
+  name: Chrome
+  type: browser
+  featured: true
+- id: com.atlassian.android.jira.core
+  name: Jira
+  type: project
+- id: com.baidu.cloudenterprise
+  name: 百度企业网盘
+  use_case: file
+  type: file
+- id: com.baidu.netdisk
+  name: 百度网盘
+  use_case: file
+  type: file
+- id: com.bxzz.bluelake
+  name: 蓝湖
+  use_case: content
+  type: design
+- id: com.egeio.fangcloud
+  name: 亿方云V2
+  use_case: file
+  type: file
+- id: com.lite.lanxin
+  name: 蓝信+
+  type: communication
+- id: com.microsoft.office.excel
+  name: Excel
+  use_case: content
+  type: productivity
+- id: com.microsoft.office.powerpoint
+  name: PowerPoint
+  use_case: content
+  type: productivity
+- id: com.microsoft.office.word
+  name: Word
+  use_case: content
+  type: productivity
+- id: com.microsoft.teams
+  name: Microsoft Teams
+  type: productivity
+- id: com.mockingbot
+  name: 墨刀
+  use_case: content
+  type: design
+- id: com.netease.vopen
+  name: 网易公开课
+  type: education
+- id: com.qiyi.video.pad
+  name: 爱奇艺HD
+  type: entertainment
+- id: com.ss.android.lark
+  name: 飞书
+  use_case: remote
+  type: communication
+- id: com.teambition.teambition
+  name: Teambition
+  type: project
+- id: com.tencent.androidqqmail
+  name: QQ邮箱
+  use_case: remote
+  type: communication
+- id: com.tencent.mm
+  name: 微信
+  type: communication
+- id: com.tencent.wemeet.app
+  name: 腾讯会议
+  use_case: remote
+  type: av
+  featured: true
+- id: com.tencent.wework
+  name: WeChat Work
+  use_case: remote
+  type: communication
+  featured: true
+- id: com.trello
+  name: Trello
+  type: project
+- id: im.tower.plus.android
+  name: Tower
+  type: project
+- id: nutstore.android
+  name: 坚果云
+  use_case: file
+  type: file
+- id: tv.danmaku.bili
+  name: 哔哩哔哩
+  type: entertainment
+- id: us.zoom.videomeetings
+  name: Zoom
+  use_case: remote
+  type: av
+  featured: true
