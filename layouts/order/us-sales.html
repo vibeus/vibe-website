@@ -6,6 +6,15 @@
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+<script src="https://sdk.helloextend.com/extend-sdk-client/v1/extend-sdk-client.min.js"></script>
+<script src="https://sdk.helloextend.com/extend-sdk-client-shopify-addon/v1/extend-sdk-client-shopify-addon.min.js"></script>
+<script>
+  Extend.config({ storeId: '91426846-4d2c-482d-a9e9-1031f0ffb6b0' })
+</script>
+{{ $src := resources.Get "js/extend/extend-utils.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/extend/extend-product-integration.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
 {{/*  {{ define "nav" }}  */}}
@@ -100,6 +109,9 @@
           </div>
           {{ end }}
           <hr class="bottom">
+          <!-- Extend - Add Extend Offer To PDP Page -->
+          <div id="extend-offer"></div>
+          <!-- Extend - End Extend Code -->
           <div class="field is-grouped is-add-to-cart" data-product-id="{{ .item.product_id }}">
             <div class="control is-count has-icons-left has-icons-right">
               <input class="input is-medium is-rounded is-black" type="number" value="1">

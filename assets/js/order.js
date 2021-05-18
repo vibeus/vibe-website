@@ -18,6 +18,7 @@ import {
   bindScrollTo,
 } from '{{ $js.RelPermalink }}';
 
+
 const e = React.createElement;
 const { useState, useEffect } = React;
 const products = JSON.parse(atob('{{ $products | jsonify | base64Encode }}'));
@@ -120,6 +121,7 @@ const LineItem = ({ productId, count }) => {
   if (!product) {
     return null;
   }
+  
 
   let notice = null;
   if (product.sold_out) {
@@ -162,6 +164,30 @@ const LineItem = ({ productId, count }) => {
         },
         products_i18n[product.title]
       ),
+      e(
+        'div',
+        {
+          id: 'extend-cart-offer',
+          'data-extend-variant': product.product_id,
+          'data-extend-quantity': cart[product.product_id].quantity,
+        },
+      ),
+      //Extend - Add Product Name and Term to Warranty lineItems
+      e(
+        'p',
+        {
+          className: 'product-description',
+        },
+        cart[product.product_id].customAttributes && cart[product.product_id].customAttributes[1] ? `${cart[product.product_id].customAttributes[1].key}: ${cart[product.product_id].customAttributes[1].value}` : ""
+      ),
+      e(
+        'p',
+        {
+          className: 'product-description',
+        },
+        cart[product.product_id].customAttributes && cart[product.product_id].customAttributes[2] ? `${cart[product.product_id].customAttributes[2].key}: ${cart[product.product_id].customAttributes[2].value}` : ""
+      ),
+      //Extend - End Extend Code
       notice,
       e(
         'div',
@@ -232,8 +258,9 @@ function saveCart() {
 }
 
 function filterCart(obj) {
+
   return Object.keys(obj)
-    .filter((x) => !!products.find((p) => x === p.product_id))
+    // .filter((x) => !!products.find((p) => x === p.product_id))
     .reduce((o, key) => {
       // backward compatibility: old cart value is simply the quantity.
       const oo = obj[key];
@@ -372,7 +399,14 @@ function setupAddCart() {
       adjustInput(1)
     );
     el.querySelector('.button').addEventListener('click', () => {
-      addToCart(productId, parseInt(input.value) || 0);
+      //Extend - HandleAddToCart to display modal, and add plans to the cart
+      const product = products.find((x) => x.product_id === productId);
+      var productTitle = products_i18n[product.title]
+      handleAddToCart(productId, productTitle, parseInt(input.value) || 0, addToCart, function(){
+        addToCart(productId, parseInt(input.value) || 0);
+        document.querySelector('.button.is-cart-icon').click();
+      })
+      //Extend - End Extend Code
     });
   });
 }
@@ -449,7 +483,7 @@ function addToCart(productId, count, customAttributes) {
     saveCart();
     renderCart();
 
-    document.querySelector('.button.is-cart-icon').click();
+    // document.querySelector('.button.is-cart-icon').click();
   }
 }
 
