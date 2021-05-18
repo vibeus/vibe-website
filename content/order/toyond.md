@@ -24,9 +24,7 @@ navbar:
 
 product_notices:
   sold_out: &sold_out
-    item_notice:
-      Temporarily unavailable. [Let us know](https://vibe.us/contact/) if you want to
-      be contacted when this item becomes available again.
+    item_notice: Temporarily unavailable. [Let us know](https://vibe.us/contact/) if you want to be contacted when this item becomes available again.
     cart_notice: Temporarily unavailable.
 products:
   - item: &id001
