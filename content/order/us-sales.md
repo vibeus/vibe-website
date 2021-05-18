@@ -61,7 +61,9 @@ products:
       price: 500
       figure: img/order/accessory-stand-r.png
       sold_out:
-        item_notice: Temporarily unavailable. Compatible 3rd party stand options are listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
+        item_notice: |
+          Temporarily unavailable. Compatible 3rd party stand options are
+          listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
         item_notice_text_align: center
         cart_notice: Temporarily unavailable.
       backorder:
