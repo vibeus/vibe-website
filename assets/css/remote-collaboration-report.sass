@@ -1,0 +1,173 @@
+@import "_common.sass"
+@import "_image-grid.sass"
+@import "blog/_post.sass"
+
+.hero
+  position: relative
+  .hero-body
+    +vertical-padding(0)
+    +absolute-fill
+    display: flex
+    align-items: center
+  .image.is-hero-bg
+    display: none
+    &.is-hero-small
+      +touch
+        display: block
+    &.is-hero-medium
+      @media screen and ( max-width: 1599px ) and ( min-width: 1024px )
+        display: block
+    &.is-hero-large
+      @media screen and ( min-width: 1600px )
+        display: block
+    img
+      width: 100%
+      object-fit: cover
+      +mobile
+        width: auto
+        height: 277px
+  .container
+    max-width: 637px
+    +mobile
+      max-width: 359px
+    .title
+      font-size: 60px
+      text-align: center
+      line-height: 1.25
+      @media screen and ( max-width: 1599px ) and ( min-width: 1024px )
+        font-size: 48px
+      +touch
+        font-size: 30px
+    .is-section-cta
+      font-weight: $vibe-bold
+      margin-top: 40px
+      text-align: center
+      font-family: $vibe-family-heading
+
+.section.is-blog-post .content h2
+  display: inline
+  line-height: 1.25
+  & + h3
+    margin-top: 0.5rem
+  &::after
+    content: ''
+    display: block
+    margin-bottom: px-to-rem(24)
+  &:nth-of-type(1)
+    box-shadow: inset 0 -1px white, inset 0 -3px white, inset 0 -13px rgba(102, 102, 204, 0.3)
+  &:nth-of-type(3)
+    box-shadow: inset 0 -1px white, inset 0 -3px white, inset 0 -13px rgba(255, 138, 72, 0.3)
+  &:nth-of-type(4)
+    box-shadow: inset 0 -1px white, inset 0 -3px white, inset 0 -13px rgba(102, 204, 204, 0.3)
+  &:nth-of-type(5)
+    box-shadow: inset 0 -1px white, inset 0 -3px white, inset 0 -13px rgba(255, 184, 0, 0.3)
+  &:nth-of-type(6)
+    box-shadow: inset 0 -1px white, inset 0 -3px white, inset 0 -13px rgba(255, 184, 0, 0.3)
+  &:nth-of-type(2)
+    box-shadow: inset 0 -13px transparent
+  +mobile
+    &:nth-of-type(1)
+      box-shadow: inset 0 -1px white, inset 0 -2px white, inset 0 -10px rgba(102, 102, 204, 0.3)
+    &:nth-of-type(3)
+      box-shadow: inset 0 -1px white, inset 0 -2px white, inset 0 -10px rgba(255, 138, 72, 0.3)
+    &:nth-of-type(4)
+      box-shadow: inset 0 -1px white, inset 0 -2px white, inset 0 -10px rgba(102, 204, 204, 0.3)
+    &:nth-of-type(5)
+      box-shadow: inset 0 -1px white, inset 0 -2px white, inset 0 -10px rgba(255, 184, 0, 0.3)
+    &:nth-of-type(6)
+      box-shadow: inset 0 -1px white, inset 0 -2px white, inset 0 -10px rgba(255, 184, 0, 0.3)
+    &:nth-of-type(2)
+      box-shadow: inset 0 -10px transparent
+
+.section.is-blog-post
+  .fancy-quote
+    margin-top: px-to-rem(16)!important
+  +mobile
+    padding-bottom: 60px
+
+.section.is-bottom-cta
+  background-color: $vibe-white
+  overflow: hidden
+  +vertical-padding(120px)
+  &.is-submitted
+    .container
+      > .title.is-section-title, > .body
+        visibility: hidden
+  .container
+    max-width: 874px
+  .bottom-bg
+    position: absolute
+    width: 528px
+    top: 0
+    right: -528px - 42px
+  .title.is-section-title
+    text-align: center
+  .body
+    font-size: 24px
+    text-align: center
+    margin-bottom: 60px
+    +mobile
+      margin-bottom: 32px
+      font-size: 18px
+  .columns.is-buttons
+    margin: 60px auto auto auto
+    max-width: 490px
+    .control
+      text-align: center
+    .button.is-outlined
+      border-width: 3px
+    .button
+      width: 194px
+      +mobile
+        border-width: 2px
+        height: 42px
+    +mobile
+      padding: 0
+      margin: 32px auto 0 auto
+      margin-bottom: 0
+      .column:first-child
+        padding-top: 0
+      .column:last-child
+        padding-bottom: 0
+  .form-container
+    > .title
+      text-align: center
+      font-size: 50px
+      margin-bottom: 60px
+      +mobile
+        font-size: 28px
+        margin-bottom: 30px
+    &.is-submitted
+      > .title
+        visibility: hidden
+      .form
+        .columns, .privacy
+          visibility: hidden
+      .submitted
+        display: flex
+    .submitted
+      bottom: 80px
+      align-items: center
+      justify-content: center
+      .submitted-choice
+        display: none
+        text-align: center
+      .content
+        max-width: 550px
+        h2
+          font-size: 24px
+          font-family: $vibe-family-heading
+          font-weight: $vibe-bold
+        a
+          text-decoration: underline
+          font-weight: $vibe-bold
+    &.is-submitted.is-report
+      .form.is-vibe-form
+        .columns, .privacy, .button[data-name='download-report']
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-report
+            display: block

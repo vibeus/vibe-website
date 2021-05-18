@@ -1,0 +1,12 @@
+{{ $borderColor := (.Get "borderColor") | default "#6666CC"}}
+{{ $bgColor := (.Get "bgColor") | default "#6666cc1a"}}
+
+<div style="border-color: {{ $borderColor }}; background-color: {{ $bgColor }};" class="fancy-quote">{{.Inner | markdownify}}</div>
+
+<style>
+  .fancy-quote {
+    padding: 16px 32px;
+    margin: 16px 0;
+    border-left: 8px solid;
+  }
+</style>
