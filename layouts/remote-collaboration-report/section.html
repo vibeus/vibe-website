@@ -1,0 +1,87 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="remote-collaboration-report">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <figure class="image is-hero-bg is-hero-small">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collaboration-report/hero-mobile.png") "options" "jpg" ) }}
+  </figure>
+  <figure class="image is-hero-bg is-hero-medium">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collaboration-report/hero.png") "options" "jpg" ) }}
+  </figure>
+  <figure class="image is-hero-bg is-hero-large">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/remote-collaboration-report/hero-large.png") "options" "jpg" ) }}
+  </figure>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">{{ default .title (T .title) }}</h1>
+      {{ with .body }}
+      <div class="content">
+        {{ default . (T .) | markdownify }}
+      </div>
+      {{ end }}
+      {{ with .cta }}
+      {{ partial "common/section-cta" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section is-blog-post">
+  <div class="container">
+    <div class="side-bar">
+      {{ with .Params.toc }}
+      <div class="toc" id="toc">
+        <div class="toc-heading" data-target="toc">
+          <span>Table of Contents</span>
+          {{ partial "common/mdi" "chevron-down" }}
+        </div>
+        <hr />
+        <div class="toc-body" data-target="toc" data-options="no_prevent_default">
+          <nav id="TableOfContents">
+            <ul>
+              {{ range . }}
+              <li>
+                <a href="#{{ .id }}">{{ .value }}</a>
+                {{ with .subitems }}
+                <ul>
+                  {{ range . }}
+                  <li><a href="#{{ .id }}">{{ .value }}</a></li>
+                  {{ end }}
+                </ul>
+                {{ end }}
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="content has-vibe-heading">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ with .Params.bottom_cta }}
+<section class="section is-bottom-cta" {{ with .id }} id="{{ . }}" {{ end }}>
+  <div class="container">
+    <div class="bottom-bg">
+      {{ (resources.Get "img/common/outline-logo.svg").Content | safeHTML }}
+    </div>
+    <div class="form-container">
+      {{ partial "common/form" .form }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/blog/post.template.js") }}
+{{ partial "common/template-script" (dict "asset" "js/remote-collaboration-report.js") }}
+</main>{{ end }}
