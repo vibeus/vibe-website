@@ -2,8 +2,8 @@
 {{ $searchIcon := resources.Get "mdi/svg/magnify.svg" | resources.Fingerprint }}
 */
 
-const category = JSON.parse('{{ .category | jsonify }}');
-const apps = JSON.parse('{{ .apps | jsonify }}');
+const category = JSON.parse(atob('{{ .category | jsonify | base64Encode }}'));
+const apps = JSON.parse(atob('{{ .apps | jsonify | base64Encode }}'));
 const searchIcon = '{{ $searchIcon.RelPermalink }}';
 const i18n = {};
 // {{ range .category.use_cases }}

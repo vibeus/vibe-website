@@ -8,7 +8,7 @@ import {
   isInBlacklist,
 } from '{{ $src.RelPermalink }}';
 
-const BLACKLIST = JSON.parse('{{ .blacklist | jsonify }}');
+const BLACKLIST = JSON.parse(atob('{{ .blacklist | jsonify | base64Encode }}'));
 
 setupForm(document.querySelector('.form.is-vibe-form'), {
   'click.before': (name, type, form) => {
