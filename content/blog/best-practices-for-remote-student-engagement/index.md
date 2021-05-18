@@ -4,9 +4,9 @@ slug: best-practices-for-remote-student-engagement
 author: Mary Clark Navarro
 date: '2021-04-12'
 tags:
-- distance learning
-- interactive whiteboard
-- remote learning
+- Distance Learning
+- Interactive Whiteboard
+- Remote Learning
 draft: false
 isfeatured: false
 description: Remote learning can be a challenge. These tips will help you maintain student engagement with every lesson.

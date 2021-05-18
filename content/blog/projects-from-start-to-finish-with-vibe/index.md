@@ -4,7 +4,7 @@ slug: projects-from-start-to-finish-with-vibe
 author: Vibe Team
 date: '2019-07-22'
 tags:
-- Vibe Smartboard
+- Vibe Smart Board
 draft: false
 isfeatured: false
 description: Project management is more collaborative and engaging with a Vibe interactive whiteboard.

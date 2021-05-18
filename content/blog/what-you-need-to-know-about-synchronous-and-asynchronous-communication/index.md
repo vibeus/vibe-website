@@ -4,10 +4,10 @@ slug: what-you-need-to-know-about-synchronous-and-asynchronous-communication
 author: Megan Snyder
 date: '2020-11-06'
 tags:
-- asynchronous communication
-- brainstorming
-- digital whiteboard
-- synchronous communication
+- Asynchronous Communication
+- Brainstorming
+- Digital Whiteboard
+- Synchronous Communication
 draft: false
 isfeatured: false
 description: Teams can use synchronous or asynchronous communication for group collaboration. Learn the difference and when

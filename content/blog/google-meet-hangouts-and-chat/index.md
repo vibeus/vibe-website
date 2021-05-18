@@ -5,8 +5,8 @@ author: Paige Smith
 date: '2021-05-03'
 tags:
 - Google Meet
-- meeting techniques
-- video conferencing
+- Meeting Techniques
+- Video Conference
 draft: false
 isfeatured: false
 description: "Google Meet, Hangouts, and Chat: what\u2019s the difference? We review the best features of each Google conferencing\

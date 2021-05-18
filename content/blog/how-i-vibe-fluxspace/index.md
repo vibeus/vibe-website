@@ -5,8 +5,8 @@ author: Megan Snyder
 date: '2021-05-05'
 tags:
 - Collaborative Space
-- how i vibe
-- remote collaboration
+- How I Vibe
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how the innovators at Fluxspace are using Vibe to design the collaborative learning environments of the
@@ -18,6 +18,8 @@ Educators understand the importance of designing lesson plans. They need to be c
 [That’s where Fluxspace enters the picture](https://fluxspace.io/). Located outside of Philadelphia, Fluxspace is an active experience center that serves as part showroom, part classroom, part STEM lab, and all creative, innovative design space. In short, it’s where organizations can dream up their ideal learning environment.
 
 Ryne Anthony, Fluxspace’s director of innovation, helps organizations plan spaces that encourage a maker mindset and forward-thinking, experiential learning. Continue reading to see why Anthony says the Vibe board plays a crucial role in the future of collaborative spaces.
+
+{{< youtube id="A_wB90fMQEk" autoplay="false" >}}
 
 ## How Fluxspace works
 

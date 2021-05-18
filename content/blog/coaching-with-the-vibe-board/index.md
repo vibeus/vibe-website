@@ -4,7 +4,8 @@ slug: coaching-with-the-vibe-board
 author: Stephanie Prince
 date: '2021-01-12'
 tags:
-- sports
+- Coaching
+- Interactive Whiteboard
 draft: false
 isfeatured: false
 description: Technology has been improving team performance for years. Digital whiteboards, like Vibe, take practices to the

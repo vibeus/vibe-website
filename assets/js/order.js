@@ -12,11 +12,15 @@
 {{ $plusIconSrc := resources.Get "mdi/svg/plus.svg" | resources.Minify }}
 {{ $minusIconSrc := resources.Get "mdi/svg/minus.svg" | resources.Minify }}
 */
-import { toggleActive, bindEventWithTarget, bindScrollTo } from '{{ $js.RelPermalink }}';
+import {
+  toggleActive,
+  bindEventWithTarget,
+  bindScrollTo,
+} from '{{ $js.RelPermalink }}';
 
 const e = React.createElement;
 const { useState, useEffect } = React;
-const products = JSON.parse('{{ $products | jsonify }}');
+const products = JSON.parse(atob('{{ $products | jsonify | base64Encode }}'));
 const products_i18n = {};
 // {{ range $idx, $it := $products }}
 // {{ $i18nKey := $it.title }}
@@ -60,7 +64,14 @@ const PLUS_ICON_SRC =
 const MIN_ITEM_COUNT = 1;
 const MAX_ITEM_COUNT = 99;
 
+// key: product variant id
+// value:
+// {
+//   quantity : number,
+//   customAttributes: Array<{key: string, value: string}>
+// }
 let cart = {};
+let processingCheckout = false;
 
 const LineItemControl = ({ productId, count }) => {
   const [localCount, setLocalCount] = useState(count);
@@ -182,12 +193,13 @@ const LineItem = ({ productId, count }) => {
 
 const App = () => {
   const lineItems = Object.keys(cart).reduce((acc, key) => {
-    const count = cart[key];
+    const { quantity: count, customAttributes } = cart[key];
     if (count > 0) {
       acc.push(
         e(LineItem, {
           productId: key,
           count,
+          customAttributes,
         })
       );
     }
@@ -223,14 +235,23 @@ function filterCart(obj) {
   return Object.keys(obj)
     .filter((x) => !!products.find((p) => x === p.product_id))
     .reduce((o, key) => {
-      o[key] = obj[key];
+      // backward compatibility: old cart value is simply the quantity.
+      const oo = obj[key];
+      if (typeof oo === 'number') {
+        o[key] = { quantity: oo };
+      } else if (typeof oo === 'object') {
+        o[key] = {
+          quantity: oo.quantity || 0,
+          customAttributes: oo.customAttributes,
+        };
+      }
       return o;
     }, {});
 }
 
 function getCartCount() {
   return Object.keys(cart).reduce((acc, key) => {
-    return acc + cart[key];
+    return acc + cart[key].quantity;
   }, 0);
 }
 
@@ -238,26 +259,48 @@ function getCartAmount() {
   return Object.keys(cart).reduce((acc, key) => {
     const product = products.find((x) => x.product_id === key);
     if (product) {
-      return acc + (product.discount_price || product.price) * cart[key];
+      return (
+        acc + (product.discount_price || product.price) * cart[key].quantity
+      );
     } else {
       return acc;
     }
   }, 0);
 }
 
-function getCartCheckoutUrl() {
-  const lineItems = Object.keys(cart).reduce((acc, key) => {
-    const value = cart[key];
-    if (value > 0) {
-      acc.push(`${key}:${cart[key]}`);
-    }
+function processCheckout() {
+  processingCheckout = true;
+  renderCheckout();
 
-    return acc;
-  }, []);
+  const lineItems = Object.keys(cart).map((key) => ({
+    variantId: btoa(`gid://shopify/ProductVariant/${key}`),
+    quantity: cart[key].quantity,
+    customAttributes: cart[key].customAttributes,
+  }));
 
-  return `https://${shopifyHost}/cart/${lineItems.join(',')}${
-    promoCode ? '?discount=' + promoCode : ''
-  }`;
+  const client = ShopifyBuy.buildClient({
+    domain: 'vibeus.myshopify.com',
+    storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
+  });
+
+  let checkout = client.checkout
+    .create()
+    .then((co) => client.checkout.addLineItems(co.id, lineItems));
+  if (promoCode) {
+    checkout = checkout.then((co) =>
+      client.checkout.addDiscount(co.id, promoCode)
+    );
+  }
+
+  checkout
+    .then((co) => {
+      window.location = co.webUrl;
+    })
+    .catch((e) => {
+      console.error(e);
+      processingCheckout = false;
+      renderCheckout();
+    });
 }
 
 function setupGallery() {
@@ -294,8 +337,7 @@ function setupCart() {
   const cartSelector =
     '.navbar .button.is-nav-cart, .navbar .navbar-brand .button.is-in-brand-mobile';
   document.querySelectorAll(cartSelector).forEach((el) => {
-    el.innerHTML =
-      `{{ $cartIcon.Content | safeHTML }}<span class="cart-icon-count"></span>`;
+    el.innerHTML = `{{ $cartIcon.Content | safeHTML }}<span class="cart-icon-count"></span>`;
     el.classList.add('is-cart-icon');
     el.classList.remove('is-outlined');
     if (el.nodeName === 'A') {
@@ -335,6 +377,19 @@ function setupAddCart() {
   });
 }
 
+function setupCheckout() {
+  document
+    .querySelectorAll('.modal.is-cart .button.is-checkout')
+    .forEach((el) => {
+      el.href = 'javascript:void(0)';
+      el.addEventListener('click', (ev) => {
+        if (!el.hasAttribute('disabled')) {
+          processCheckout();
+        }
+      });
+    });
+}
+
 function renderCartNumbers() {
   const count = getCartCount();
   const amount = moneyFmt.format(getCartAmount());
@@ -361,12 +416,10 @@ function renderCheckout() {
   document
     .querySelectorAll('.modal.is-cart .button.is-checkout')
     .forEach((el) => {
-      if (getCartCount() <= 0) {
+      if (getCartCount() <= 0 || processingCheckout) {
         el.setAttribute('disabled', true);
-        el.href = 'javascript:void(0)';
       } else {
         el.removeAttribute('disabled');
-        el.href = getCartCheckoutUrl();
       }
     });
 }
@@ -381,16 +434,33 @@ function renderCart() {
   }
 }
 
-function addToCart(productId, count) {
+function addToCart(productId, count, customAttributes) {
   if (count > 0) {
-    const value = (cart[productId] || 0) + count;
-    setCartCount(productId, value);
+    let prev = 0;
+    if (cart[productId]) {
+      prev = cart[productId].quantity || 0;
+    }
+    const value = prev + count;
+
+    cart[productId] = {
+      quantity: value,
+      customAttributes: customAttributes,
+    };
+    saveCart();
+    renderCart();
+
     document.querySelector('.button.is-cart-icon').click();
   }
 }
 
 function setCartCount(productId, count) {
-  cart[productId] = Math.min(Math.max(count, MIN_ITEM_COUNT), MAX_ITEM_COUNT);
+  if (!cart[productId]) {
+    cart[productId] = {};
+  }
+  cart[productId].quantity = Math.min(
+    Math.max(count, MIN_ITEM_COUNT),
+    MAX_ITEM_COUNT
+  );
   saveCart();
   renderCart();
 }
@@ -405,10 +475,8 @@ toggleActive('.faq-title', false);
 setupGallery();
 setupCart();
 setupAddCart();
+setupCheckout();
 
 const navbar = document.querySelector('.navbar');
 const navbarHeight = navbar ? navbar.clientHeight : 0;
-bindScrollTo(
-  '.is-order-now',
-  -navbarHeight
-);
+bindScrollTo('.is-order-now', -navbarHeight);

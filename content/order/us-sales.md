@@ -8,7 +8,7 @@ noFixedNavbar: true
 is_order: true
 # promo_code: 'NOVEMBER200'
 navbar:
-  brandURL: "/"
+  brandURL: '/'
   # menu: []
   extra:
     - title: See a Demo
@@ -39,7 +39,8 @@ products:
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false
-      backorder: false
+      backorder:
+        false
         #item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
   - item: &id002
@@ -60,12 +61,13 @@ products:
       price: 500
       figure: img/order/accessory-stand-r.png
       sold_out:
-        item_notice:
-          Temporarily unavailable. Compatible 3rd party stand options
-          are listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
+        item_notice: |
+          Temporarily unavailable. Compatible 3rd party stand options are
+          listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
         item_notice_text_align: center
         cart_notice: Temporarily unavailable.
-      backorder: false
+      backorder:
+        false
         #item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id004
@@ -179,13 +181,13 @@ book_demo:
   title: Ready to see Vibe in action?
   body: Book a demo to see a product overview.
   figure: img/order/book-demo-bg.png
-  figure_background_color: "#66cccc"
+  figure_background_color: '#66cccc'
 
 why_vibe:
   title: Why Vibe?
   cta:
     title: Order Now
-    url: "#hero"
+    url: '#hero'
     class: is-hero-cta is-black is-outlined is-rounded is-order-now
     data:
       - key: target
@@ -305,7 +307,7 @@ bottom_cta:
       - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_1-title
         url: /contact
       - title: i18n-content-order-_index-bottom_cta-cta-buttons-i_0-title
-        url: "#hero"
+        url: '#hero'
         class: is-black is-order-now
         data:
           - key: target

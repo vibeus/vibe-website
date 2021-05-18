@@ -4,7 +4,7 @@ slug: top-office-monitors-of-2021
 author: Vibe Team
 date: '2021-01-22'
 tags:
-- home office
+- Home Office
 draft: false
 isfeatured: false
 description: Are you looking for a new office monitor? Our guide highlights the price ranges, features, and monitors you should

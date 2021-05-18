@@ -4,9 +4,9 @@ slug: wireframing-basics-everything-you-need-to-know
 author: Mary Clark Navarro
 date: '2021-04-02'
 tags:
-- remote collaboration
-- virtual event
-- work from anywhere
+- Remote Collaboration
+- Virtual Event
+- Work From Anywhere
 draft: false
 isfeatured: false
 description: The basics of wireframing and how it can help with your next design project.

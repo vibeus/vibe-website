@@ -4,9 +4,9 @@ slug: ways-that-a-digital-whiteboard-can-help-you-start-your-own-business
 author: Karen Belz
 date: '2020-06-17'
 tags:
-- meetings
-- presentations
-- remote
+- Meetings
+- Presentations
+- Remote
 draft: false
 isfeatured: false
 description: Keep your new business connected to prospects and new clients with a digital whiteboard.

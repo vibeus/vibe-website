@@ -4,8 +4,8 @@ slug: how-will-your-company-define-wfh-guidelines
 author: Megan Snyder
 date: '2020-11-23'
 tags:
-- remote work
-- wfh
+- Remote Work
+- WFH
 draft: false
 isfeatured: false
 description: Creating transparent guidelines for work from home policies is key to successful remote collaboration.

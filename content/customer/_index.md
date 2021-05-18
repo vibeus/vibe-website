@@ -234,7 +234,7 @@ comments:
           - text: and
           - text: ' @thevibeboard'
             class: is-at
-        content: 
+        content:
           - text: Girrrrrrl I will def tell ya all about it because I feel like that board is gonna save my life this school year. You can write on it and use Zoom, Netflix all kinda apps...
         date: Sep 8, 2020
         mask: img/customer/twitter-avatar1.png
@@ -254,8 +254,8 @@ comments:
           - text: Replying to
           - text: ' @rothgar'
             class: is-at
-        content: 
-          - text: I picked up a 
+        content:
+          - text: I picked up a
           - text: ' @thevibeboard '
             class: is-at
           - text: on Black Friday. Went with a Monoprice mount for it. I am in love with it. I have been heavily using the web app with the whiteboard. I usually create a canvas, share it with my coworkers and then go stand at the whiteboard and do the work.

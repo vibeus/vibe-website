@@ -4,10 +4,10 @@ slug: how-to-take-a-screenshot
 author: Paige Smith
 date: '2021-04-30'
 tags:
-- digital whiteboard
-- how-to
-- interactive whiteboard
-- remote collaboration
+- Digital Whiteboard
+- How-to
+- Interactive Whiteboard
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how to take a screenshot on almost any device with our handy guide.

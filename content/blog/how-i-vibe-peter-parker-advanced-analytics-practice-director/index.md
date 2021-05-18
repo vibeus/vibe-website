@@ -4,9 +4,10 @@ slug: how-i-vibe-peter-parker-advanced-analytics-practice-director
 author: Vibe Team
 date: '2020-08-12'
 tags:
-- meetings
-- presentations
-- remote
+- How I Vibe
+- Meetings
+- Presentations
+- Remote
 draft: false
 isfeatured: false
 description: Peter Parker helps clients all over the US develop cloud-forward data platforms. Learn how the Vibe smart whiteboard

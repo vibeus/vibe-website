@@ -4,10 +4,10 @@ slug: 8-ways-to-brainstorm-with-remote-workers
 author: Karen Belz
 date: '2020-03-06'
 tags:
-- brainstorm
-- collaborate
-- Online whiteboard
-- remote work
+- Brainstorm
+- Collaborate
+- Online Whiteboard
+- Remote Work
 draft: false
 isfeatured: false
 description: Brainstorming techniques for remote teams make for more productive meetings.

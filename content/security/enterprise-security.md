@@ -23,7 +23,7 @@ features:
       body:
         - content: |
             For companies who have the most stringent security requirements, we provide an option to allow customers to save Vibe canvas software to their own cloud server and disable the option to save on Vibe's cloud. Please refer to the following table for the status of the features in this setting.
-        - table: 
+        - table:
             - title: Whiteboard Drawing
               value: 'true'
             - title: Save & Reload Whiteboard
@@ -38,7 +38,7 @@ features:
               content: Feature Planned March 2021
             - title: Wireless Screencast
               value: 'true'
-            - title: Third-Party Apps 
+            - title: Third-Party Apps
               value: 'true'
         - content: |
             In this mode, a popular option is to save the whiteboard as a file in the device or to a cloud storage place of choice, such as Google Drive, One Drive, Dropbox, etc. 
@@ -48,7 +48,7 @@ features:
       body:
         - content: |
             Companies can also choose to keep Vibe completely disconnected from the internet. In this case, users can utilize the HDMI out port to transport the image of Vibe to the remote participants. Here is the status of the same features in this mode.
-        - table: 
+        - table:
             - title: Whiteboard Drawing
               value: 'true'
             - title: Save & Reload Whiteboard
@@ -63,7 +63,7 @@ features:
               content: Feature Planned March 2021
             - title: Wireless Screencast
               value: 'false'
-            - title: Third-Party Apps 
+            - title: Third-Party Apps
               value: 'false'
     - title: Private Deployment
       body:

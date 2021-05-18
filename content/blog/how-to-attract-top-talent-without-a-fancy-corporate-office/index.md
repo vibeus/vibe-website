@@ -4,9 +4,9 @@ slug: how-to-attract-top-talent-without-a-fancy-corporate-office
 author: Mary Clark Navarro
 date: '2021-02-23'
 tags:
-- hiring
-- remote collaboration
-- remote work
+- Hiring
+- Remote Collaboration
+- Remote Work
 draft: false
 isfeatured: false
 description: With remote work becoming more popular, the best way to hire a great team is to rethink what the ideal job looks

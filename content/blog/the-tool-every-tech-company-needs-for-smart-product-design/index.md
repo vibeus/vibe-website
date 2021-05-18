@@ -4,9 +4,9 @@ slug: the-tool-every-tech-company-needs-for-smart-product-design
 author: Paige Smith
 date: '2021-03-19'
 tags:
-- leadership
-- remote collaboration
-- template
+- Leadership
+- Remote Collaboration
+- Template
 draft: false
 isfeatured: false
 description: Learn how a decision matrix can help your design team determine their priorities in a logical way.

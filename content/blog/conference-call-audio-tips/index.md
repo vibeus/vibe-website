@@ -6,7 +6,7 @@ date: '2021-05-07'
 tags:
 - Audio Recording
 - Conference Call
-- meeting techniques
+- Meeting Techniques
 draft: false
 isfeatured: false
 description: 'No more wondering if your team heard you: make every audio recording and conference call crystal-clear with

@@ -4,7 +4,7 @@ slug: help-your-employees-find-and-maintain-meaning-in-their-work
 author: Megan Snyder
 date: '2020-12-17'
 tags:
-- collaborative workplace
+- Collaborative Workplace
 draft: false
 isfeatured: false
 description: Create an environment of feedback and continual learning for employees to promote meaningful work.

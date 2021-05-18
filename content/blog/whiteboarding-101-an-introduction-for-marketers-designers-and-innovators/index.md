@@ -4,7 +4,7 @@ slug: whiteboarding-101-an-introduction-for-marketers-designers-and-innovators
 author: Vibe Team
 date: '2021-04-09'
 tags:
-- interactive whiteboard
+- Interactive Whiteboard
 - Small Business
 - Smart Whiteboard
 - Smartboard Collaboration

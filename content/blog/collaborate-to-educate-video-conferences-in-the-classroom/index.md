@@ -4,10 +4,10 @@ slug: collaborate-to-educate-video-conferences-in-the-classroom
 author: Megan Snyder
 date: '2020-03-17'
 tags:
-- classroom
-- powerpoint
-- presenting
-- video conference
+- Classroom
+- PowerPoint
+- Presenting
+- Video Conference
 draft: false
 isfeatured: false
 description: "Using video conferencing in the classroom boosts engaged learning, but where do you get started? We\u2019ll\

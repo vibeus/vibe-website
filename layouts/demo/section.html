@@ -30,9 +30,7 @@
   <div class="container">
     <div class="columns is-desktop">
       <div class="column is-form">
-        {{ with .form }}
-        {{ partial "common/form" . }}
-        {{ end }}
+        {{ partial "common/form" (merge site.Data.common.demo_form.form (default (dict) .form)) }}
       </div>
       <div class="column is-text">
         {{ range .expect }}
@@ -53,5 +51,5 @@
   <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
 </div>
 
-{{ partial "common/template-script" (dict "asset" "js/demo.js" "modalId" $modalId "blacklist" .Site.Data.common.blacklist.emails) }}
+{{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
 </main>{{ end }}

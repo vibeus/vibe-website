@@ -5,7 +5,7 @@ author: Vibe Team
 date: '2019-03-25'
 tags:
 - Coworking
-- interactive whiteboard
+- Interactive Whiteboard
 - Small Business
 - Smart Whiteboard
 - Smartboard Collaboration

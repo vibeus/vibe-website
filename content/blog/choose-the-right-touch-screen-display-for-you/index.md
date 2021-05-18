@@ -4,8 +4,8 @@ slug: choose-the-right-touch-screen-display-for-you
 author: Vibe Team
 date: '2020-10-28'
 tags:
-- digital whiteboard
-- interactive whiteboard
+- Digital Whiteboard
+- Interactive Whiteboard
 draft: false
 isfeatured: false
 description: Looking for the right touchscreen display for your needs? We cover what you need to know to make the best decision.

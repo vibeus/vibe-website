@@ -4,9 +4,9 @@ slug: how-empathy-maps-bring-you-closer-to-your-audience-and-a-product-they-love
 author: Paige Smith
 date: '2021-04-07'
 tags:
-- interactive whiteboard
-- product design
-- remote collaboration
+- Interactive Whiteboard
+- Product Design
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: "Just like teenagers, brands aren\u2019t immune to peer pressure and a desire to \u201Cfind themselves.\u201D\

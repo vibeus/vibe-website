@@ -4,9 +4,9 @@ slug: how-to-clean-home-office-tech
 author: Paige Smith
 date: '2021-04-26'
 tags:
-- interactive whiteboard
-- remote work
-- work from home
+- Interactive Whiteboard
+- Remote Work
+- Work From Home
 draft: false
 isfeatured: false
 description: Do you actually know how to clean a laptop, digital whiteboard, or tablet? Try these simple and effective tips

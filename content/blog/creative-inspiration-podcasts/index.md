@@ -4,9 +4,9 @@ slug: creative-inspiration-podcasts
 author: Mary Clark Navarro
 date: '2021-04-19'
 tags:
-- brainstorming
-- creative work
-- remote collaboration
+- Brainstorming
+- Creative Work
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Looking for a little inspiration? Check out these podcasts for a burst of creativity.

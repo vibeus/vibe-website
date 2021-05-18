@@ -4,9 +4,8 @@ slug: 7-best-ways-to-socialize-online-while-stuck-at-home
 author: Karen Belz
 date: '2020-09-01'
 tags:
-- remote
-- socialize
-- working from home
+- Remote
+- Work From Home
 draft: false
 isfeatured: false
 description: "Stay connected to colleagues, friends, and family when you\u2019re working from home."

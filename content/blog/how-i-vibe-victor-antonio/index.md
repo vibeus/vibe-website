@@ -4,9 +4,9 @@ slug: how-i-vibe-victor-antonio
 author: Vibe Team
 date: '2021-03-11'
 tags:
-- how i vibe
-- interactive whiteboard
-- remote collaboration
+- How I Vibe
+- Interactive Whiteboard
+- Remote Collaboration
 draft: false
 isfeatured: false
 description: Learn how Vibe helped Victor Antonio pivot his business plan to make the most of an uncertain time.

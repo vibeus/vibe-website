@@ -24,9 +24,7 @@ navbar:
 
 product_notices:
   sold_out: &sold_out
-    item_notice:
-      Temporarily unavailable. [Let us know](https://vibe.us/contact/) if you want to
-      be contacted when this item becomes available again.
+    item_notice: Temporarily unavailable. [Let us know](https://vibe.us/contact/) if you want to be contacted when this item becomes available again.
     cart_notice: Temporarily unavailable.
 products:
   - item: &id001
@@ -39,7 +37,8 @@ products:
       # discount_info: November Deals $200 off!
       figure: img/order/product-gallery-1.png
       sold_out: false
-      backorder: false
+      backorder:
+        false
         #item_notice: '**Shipping Delayed.** Expected to ship in 1 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 1 weeks.
   - item: &id002
@@ -49,7 +48,8 @@ products:
       price: 425
       figure: img/order/accessory-stand-w.png
       sold_out: false
-      backorder: false
+      backorder:
+        false
         #item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id003
@@ -59,7 +59,8 @@ products:
       price: 425
       figure: img/order/accessory-stand-r.png
       sold_out: false
-      backorder: false
+      backorder:
+        false
         #item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
         #cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id004
@@ -161,13 +162,13 @@ book_demo:
   title: Ready to see Vibe in action?
   body: Book a demo to see a product overview.
   figure: img/order/book-demo-bg.png
-  figure_background_color: "#66cccc"
+  figure_background_color: '#66cccc'
 
 why_vibe:
   title: Why Vibe?
   cta:
     title: Order Now
-    url: "#hero"
+    url: '#hero'
     class: is-hero-cta is-black is-outlined is-rounded is-order-now
     data:
       - key: target
@@ -274,5 +275,4 @@ reviews:
       date: 01/17/2020
       body: i18n-content-order-_index-reviews-items-i_3-body
       url: 'https://www.amazon.com/review/R24TBM6GLRVDRL/ref=cm_cr_srp_d_rdp_perm?ie=UTF8&amp;ASIN=B081LPL772&_encoding=UTF8&tag=vibe0be-20&linkCode=ur2&linkId=fdf0cd99903266051afe8763dfa5ea17&camp=1789&creative=9325'
-
 ---

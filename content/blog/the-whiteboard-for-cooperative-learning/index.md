@@ -4,8 +4,8 @@ slug: the-whiteboard-for-cooperative-learning
 author: Vibe Team
 date: '2020-05-11'
 tags:
-- cooperative learning
-- interactive whiteboard
+- Cooperative Learning
+- Interactive Whiteboard
 - the whiteboard
 draft: false
 isfeatured: false

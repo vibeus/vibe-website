@@ -78,12 +78,18 @@
       margin: auto
     .submitted
       bottom: 80px
+      align-items: center
+      justify-content: center
+      .submitted-choice
+        display: none
+        text-align: center
+        font-size: 24px
       .content
-        max-width: 460px
-        h2
-          font-size: 36px
-          font-family: $vibe-family-heading
-          font-weight: $vibe-bold
+        max-width: 550px
+        h1
+          font-size: 28px
+        p
+          font-size: 22px
         a
           text-decoration: underline
           font-weight: $vibe-bold
@@ -95,3 +101,33 @@
           visibility: hidden
       .submitted
         display: flex
+    &.is-submitted.is-video-demo
+      .form.is-vibe-form
+        .columns, .privacy, .button[data-name='request-video']
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-video-demo
+            display: block
+    &.is-submitted.is-live-demo
+      .form.is-vibe-form
+        .columns, .privacy
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-live-demo
+            display: block
+    &.is-submitted.is-contact-sales
+      .form.is-vibe-form
+        .columns, .privacy
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-contact-sales
+            display: block
