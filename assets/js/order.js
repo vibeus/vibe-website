@@ -1,6 +1,8 @@
 /*
 {{ $cartIcon := resources.Get "img/order/cart.svg" | resources.Minify }}
 {{ $shopifyHost := default "order.vibe.us" .shopifyHost }}
+{{ $numberFormat := default "en-US" .numberFormat }}
+{{ $currency := default "USD" .currency }}
 {{ $promoCode := default "" .promoCode }}
 {{ $products := slice }}
 {{ range .products }}
@@ -29,17 +31,16 @@ products_i18n['{{ $i18nKey }}'] = '{{ $i18nValue }}';
 // {{ end }}
 const storageKey = 'order/cart';
 const shopifyHost = '{{ $shopifyHost }}';
-let moneyFmt = new Intl.NumberFormat('en-US', {
+let moneyFmt = new Intl.NumberFormat('{{ $numberFormat }}', {
   style: 'currency',
-  currency: 'USD',
+  currency: '{{ $currency }}',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 1,
 });
 
-if (shopifyHost === 'vibe.toyond.de') {
-  moneyFmt = new Intl.NumberFormat('de-DE', {
-    style: 'currency',
-    currency: 'EUR',
-  });
-}
+document.querySelectorAll('.formatted-price').forEach((priceEl) => {
+  priceEl.textContent = moneyFmt.format(parseFloat(priceEl.textContent));
+});
 
 const promoCode = '{{ $promoCode }}';
 if (promoCode) {
