@@ -278,10 +278,18 @@ function processCheckout() {
     customAttributes: cart[key].customAttributes,
   }));
 
-  const client = ShopifyBuy.buildClient({
-    domain: 'vibeus.myshopify.com',
-    storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
-  });
+  const clientConfig =
+    shopifyHost === 'order.vibe.us'
+      ? {
+        domain: 'vibeus.myshopify.com',
+        storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
+      }
+      : {
+        domain: 'toyond.myshopify.com',
+        storefrontAccessToken: '59ed50ec21cff74d3a509f4ad142bffb',
+      };
+
+  const client = ShopifyBuy.buildClient(clientConfig);
 
   let checkout = client.checkout
     .create()
