@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 import argparse
-import requests
-import uuid
-import yaml
-import time
 import datetime
+import jwt
 import os
 import re
-import jwt
+import requests
+import shutil
 import sys
-from markdownify import markdownify as md
-from markdown import markdown
+import time
+import uuid
+import yaml
 from colorama import Fore, Style
+from markdown import markdown
+from markdownify import markdownify as md
 
 API_ROOT = "https://cms.vibe.dev/wp-json/wp/v2"
 MAX_PNG_IMAGE_SIZE = 3 * 1024 * 1024
@@ -275,6 +276,7 @@ def pull_posts(args):
 
     print(f"There are {len(all_posts)} to process.")
 
+    extra_dirs = set(os.listdir(os.path.join("content", "blog")))
     counter = 0
     for post in all_posts:
         counter += 1
@@ -286,6 +288,15 @@ def pull_posts(args):
 
         print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
         process_post(post)
+        extra_dirs.remove(post["slug"])
+
+    for d in extra_dirs:
+        if d.startswith("."):
+            continue
+
+        path = os.path.join("content", "blog", d)
+        shutil.rmtree(path)
+        print(f"Deleted extra path: {path}")
 
 
 def process_post(post):
@@ -437,10 +448,12 @@ def get_original_image_url(url):
 
 def process_embedded_video(content):
     def repl(match):
-        return f"{{{{< youtube id=\"{match.group(1)}\" autoplay=\"false\" >}}}}"
+        return f'{{{{< youtube id="{match.group(1)}" autoplay="false" >}}}}'
 
     # <!-- https://www.youtube.com/embed/4L2LLp1Mais?feature=oembed -->
-    return re.sub(r"<!--\s*https:\/\/(?:www\.)?youtube\.com\/embed\/(\w+)\S*\s*-->", repl, content)
+    return re.sub(
+        r"<!--\s*https:\/\/(?:www\.)?youtube\.com\/embed\/(\w+)\S*\s*-->", repl, content
+    )
 
 
 def fix_link_format(content):

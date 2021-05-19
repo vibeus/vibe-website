@@ -23,7 +23,7 @@ They also appear to work as intended — according to [McKinsey and Company]
 
 To build a collaborative workspace for your organization, you need the right layout, the right collaborative tools, and the right mindset. Are you ready to make the shift?
 
-# What is a collaborative workspace?
+## What is a collaborative workspace?
 
 Collaborative workspaces are defined by their best qualities — diversity, inclusivity, and empowerment — more than their physical arrangements.
 
@@ -41,7 +41,7 @@ Some settings will serve multiple uses. An office bar — complete with craf
 
 {{< common/srcset "image-1.png" "Conversations in shared work spaces" >}}
 
-# Why develop collaborative workspaces?
+## Why develop collaborative workspaces?
 
 The design of a space can dramatically [transform collaborative experiences and outcomes](https://www.ciphr.com/features/how-does-office-design-affect-productivity/) of the work done there.
 
@@ -55,7 +55,7 @@ Amenities that make collaboration more natural, from good lighting to healthy sn
 
 ***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
 
-# New tools
+## New tools
 
 Technology makes the fostering of a team-forward work environment possible as well. A tech stack including tools like [Asana, Flowmap, and Trello](https://vibe.us/product/) can connect people virtually to work on the same project, at the same time, from anywhere. They help enable collaboration without making physical proximity necessary.
 
@@ -67,7 +67,7 @@ The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to we
 
 ***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
 
-# Co-working for coworkers
+## Co-working for coworkers
 
 As more companies collaborate with freelancers, consultants, and contract workers — often remotely — the physical workspace has changed to meet these new expectations.
 
@@ -75,7 +75,7 @@ Co-working has gone from an informal practice, established by freelancers and cr
 
 Collaborative spaces now need to include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
 
-# What does a collaborative workspace look like?
+## What does a collaborative workspace look like?
 
 Here are a few of our favorite examples:
 

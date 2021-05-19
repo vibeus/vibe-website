@@ -6,7 +6,6 @@ date: '2020-05-11'
 tags:
 - Cooperative Learning
 - Interactive Whiteboard
-- the whiteboard
 draft: false
 isfeatured: false
 description: "Use Vibe\u2019s digital whiteboard in the classroom to express ideas and concepts. Vibe smart boards are ideal\
