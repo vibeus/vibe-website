@@ -276,7 +276,7 @@ def pull_posts(args):
 
     print(f"There are {len(all_posts)} to process.")
 
-    extra_dirs = set(os.listdir(os.path.join("content", "blog")))
+    extra_dirs = set([x.lower() for x in os.listdir(os.path.join("content", "blog"))])
     counter = 0
     for post in all_posts:
         counter += 1
@@ -288,15 +288,16 @@ def pull_posts(args):
 
         print(f"Processing {counter} of {len(all_posts)} post: {post['slug']}...")
         process_post(post)
-        extra_dirs.remove(post["slug"])
+        extra_dirs.discard(post["slug"].lower())
 
-    for d in extra_dirs:
-        if d.startswith("."):
-            continue
+    if not args.filter_slug:
+        for d in extra_dirs:
+            if d.startswith("."):
+                continue
 
-        path = os.path.join("content", "blog", d)
-        shutil.rmtree(path)
-        print(f"Deleted extra path: {path}")
+            path = os.path.join("content", "blog", d)
+            shutil.rmtree(path)
+            print(f"Deleted extra path: {path}")
 
 
 def process_post(post):
@@ -314,7 +315,7 @@ def process_post(post):
 
     # TODO: use post category to determine blog or video
     subfolder = "blog"
-    directory = os.path.join("content", subfolder, post["slug"])
+    directory = os.path.join("content", subfolder, post["slug"].lower())
     os.makedirs(directory, exist_ok=True)
 
     content = post["content"]["rendered"]
@@ -324,6 +325,7 @@ def process_post(post):
     content = process_embedded_video(content)
     content = fix_link_format(content)
     content = fix_unnecessary_stars(content)
+    content = fix_shortcode_quotes(content)
 
     clear_images(directory)
     download_cover_image(post, directory)
@@ -497,6 +499,15 @@ def fix_unnecessary_stars(content):
         lines.append(line)
 
     return "\n".join(lines)
+
+
+def fix_shortcode_quotes(content):
+    def repl(match):
+        return match.group(0).replace("“", '"').replace("”", '"')
+
+    return re.sub(
+        r"{{<.*?>}}", repl, content
+    )
 
 
 if __name__ == "__main__":
