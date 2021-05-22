@@ -34,3 +34,17 @@ This is a fancy quote.
 > This is a normal quote, use word-press own quote block.
 > 
 > Author, if any
+
+Below are supported in-blog CTAs.
+
+First: cta-1 uses default link that redirects to /lp/interactive-whiteboard
+
+{{< blog/cta-1 "Vibe Interactive Whiteboard, for Remote Collaboration" >}}
+
+Second: cta-2, with customized redirect link to https://google.com
+
+{{< blog/cta-2 "Vibe Interactive Whiteboard with links to Google" "https://google.com">}}
+
+Third: cta-3, with default link
+
+{{< blog/cta-3 "Vibe Interactive Whiteboard with default link" >}}
