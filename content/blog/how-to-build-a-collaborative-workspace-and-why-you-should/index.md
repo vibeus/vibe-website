@@ -15,65 +15,65 @@ description: Have you been considering building a collaborative workspace? We ca
   you should.
 ---
 
-The workforce is more diverse and distributed than ever, and this new paradigm needs a new style of workspace to thrive. A lot of companies are experimenting with ways to create new spaces for their teams to operate in that are optimized to support outside the box thinking.
+The workforce is more diverse and distributed than ever, and this new paradigm needs a new style of workspace to thrive. Companies are experimenting with ways to create new team spaces that are optimized for outside-the-box thinking.
 
-These new collaborative workspaces are designed to maximize the balance between flexibility, scalability, and productivity in innovative ways.
+These new collaborative workspaces are designed to maximize the balance between flexibility, scalability, and productivity in innovative ways. And they also appear to work as intended . According to [McKinsey and Company](https://www.mckinsey.com/business-functions/organization/our-insights/mapping-the-value-of-employee-collaboration), a collaborative workspace can improve metrics for individual, team, and organization-wide performance.
 
-They also appear to work as intended — according to [McKinsey and Company](https://www.mckinsey.com/business-functions/organization/our-insights/mapping-the-value-of-employee-collaboration), a collaborative workspace can improve metrics for individual performance, team performance, and organization-wide performance.
-
-To build a collaborative workspace for your organization, you need the right layout, the right collaborative tools, and the right mindset. Are you ready to make the shift?
+You need the right layout, the right collaborative tools, and the right mindset to build a collaborative workspace. Are you ready to make the shift?
 
 ## What is a collaborative workspace?
 
 Collaborative workspaces are defined by their best qualities — diversity, inclusivity, and empowerment — more than their physical arrangements.
 
-They operate on two levels: one physical and the other operational. The collaborative workspace allows an individual the privacy and quiet needed to get work done, plus social spaces for working together, ideating, and more.
+These spaces operate on two levels: physical and operational. The collaborative workspace provides private, quiet spaces for focused work as well as social spaces for team collaboration, socializing, and more.
 
-A collaborative workspace involves a physical infrastructure that enables cultural frameworks to come to life. They also require an organizational mindset that prioritizes teamwork over competition.
+A truly collaborative workspace has a physical infrastructure that enables cultural frameworks to come to life. This kind of space also requires a design that clearly prioritizes teamwork over competition.
 
-Collaborative workspaces take influence from freelancing practices by offering a variety of spaces to suit different moods, objectives, and tasks. In addition to conference rooms, a collaborative workspace often features a few basic formations:
+In some ways, collaborative workspaces are influenced by freelancing practices. Everyone works differently and excels in different types of work settings. A collaborative design recognizes this by offering a variety of spaces to suit different moods, objectives, and tasks.
 
-- Common areas that enable informal, unstructured teamwork
-- An open floor plan with shared work spaces for quiet work (with easy access to impromptu conversations and connections)
+In addition to conference rooms, a collaborative workspace often features a few basic formations:
+
+- Common areas that cater to informal, unstructured teamwork
+- An open floor plan with separate spaces for quiet work (with easy access to impromptu conversations and connections)
 - Lounge areas with sofas, outdoor patios, and other informal spaces for community life
 
-Some settings will serve multiple uses. An office bar — complete with craft beer taps or espresso makers — can be a casual meeting space, a quiet workstation, or a social area depending on the time of day.
+Some settings serve multiple uses. Depending on the time of day, an office bar — complete with craft beer taps or espresso makers — can be a casual meeting space, a quiet workstation, or a social area.
 
 {{< common/srcset "image-1.png" "Conversations in shared work spaces" >}}
 
 ## Why develop collaborative workspaces?
 
-The design of a space can dramatically [transform collaborative experiences and outcomes](https://www.ciphr.com/features/how-does-office-design-affect-productivity/) of the work done there.
+A space’s design can dramatically [transform the collaborative experiences and outcomes](https://www.ciphr.com/features/how-does-office-design-affect-productivity/) of the work done there.
 
-Unconscious aspects of a workspace can also impact employee engagement, job satisfaction — even mental health. While some of the architectural techniques in play might be too theoretical for most people to notice, there are some decisions about layout that anyone can see and understand.
+Unconscious aspects of a workspace can also impact employee engagement, job satisfaction , and even mental health. Some of the space’s architectural techniques might be too theoretical for most people to notice. But there are some layout choices that anyone can see and understand.
 
-Take the often-maligned cubicle, for example. The cubicle was a radical departure from the norm when Herman Miller introduced Robert Propst’s “[Action Office](https://www.hermanmiller.com/products/workspaces/workstations/action-office-system/design-story/)” concept to the working world. It was considered a progressive advance that introduced the world to the idea of semi-private workspaces for the masses.
+Take the often-maligned cubicle, for example. The cubicle was a radical departure from the norm when Herman Miller introduced Robert Propst’s “[Action Office](https://www.hermanmiller.com/products/workspaces/workstations/action-office-system/design-story/)” concept to the working world. The cubicle introduced the idea of semi-private workspaces for the masses and, at the time, was considered a progressive advance.
 
-As work cultures have evolved to center collaboration over solitary deliberation, the cubicle is now seen as outmoded and isolating; it’s bad for teamwork and, in many instances, morale.
+As work cultures evolved to value collaboration over solo work, the cubicle is now seen as outmoded and isolating. It’s bad for teamwork and, in many instances, morale.
 
 Amenities that make collaboration more natural, from good lighting to healthy snacks in kitchens, are growing in popularity to meet the needs of an evolving workforce.
 
-***Related:*** [What to Know About Synchronous Communication and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)
+***Related:*** **[What to Know About Synchronous and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)**
 
-## New tools
+## New tools for collaborative spaces
 
-Technology makes the fostering of a team-forward work environment possible as well. A tech stack including tools like [Asana, Flowmap, and Trello](https://vibe.us/product/) can connect people virtually to work on the same project, at the same time, from anywhere. They help enable collaboration without making physical proximity necessary.
+Technology makes fostering a team-first work environment possible as well. A tech stack including tools like [Asana, Flowmap, and Trello](https://vibe.us/product/) can connect people virtually to work on the same project, at the same time, from anywhere. They help enable collaboration without making physical proximity necessary.
 
-When meeting in-person, a digital whiteboard lets teams organize ideation sessions, visualize concepts, save digital post-its, and more.
+When meeting in person, a digital whiteboard lets teams organize ideation sessions, visualize concepts, save digital post-its, and more.
 
-The [Vibe digital whiteboard](https://vibe.us/) even includes integrations to welcome remote workers to collaborative sessions from anywhere. All your notes are automatically saved to the Vibe cloud, where they can be quickly shared or revisited.
+The Vibe digital whiteboard even includes integrations to welcome remote workers to collaborative sessions from anywhere. All your notes are automatically saved to the Vibe cloud, where they can be quickly shared or revisited.
 
 {{< common/srcset "image-2.png" "Integrated zoom for remote collaboration" >}}
 
-***Related:*** [Digital Whiteboards: the 11 Best Reasons To Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)
+***Related:*** **[Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)**
 
 ## Co-working for coworkers
 
 As more companies collaborate with freelancers, consultants, and contract workers — often remotely — the physical workspace has changed to meet these new expectations.
 
-Co-working has gone from an informal practice, established by freelancers and creatives in libraries and cafes, to a phenomena that defines the contemporary work experience. In 2016, 43 percent of employed Americans said they spent at least some time [working remotely](https://www.nytimes.com/2017/02/15/us/remote-workers-work-from-home.html) — a number that is only on the rise.
+Co-working has gone from an informal practice to a phenomena that defines the contemporary work experience. In 2016, 43 percent of employed Americans said they spent at least some time [working remotely](https://www.nytimes.com/2017/02/15/us/remote-workers-work-from-home.html) — a number that is only on the rise.
 
-Collaborative spaces now need to include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
+Collaborative spaces now must include technology to connect in-house staff with freelancers, contractors, clients, even remote offices halfway around the world. The ability to [screen-share to and from mobile](https://vibe.us/product/#all-in-one) allows your team to comfortably collaborate from any space, in-house or remote.
 
 ## What does a collaborative workspace look like?
 

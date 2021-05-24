@@ -9,7 +9,7 @@ isfeatured: false
 description: "This is a normal paragraph. This is a heading Normal paragraph again. {{< blog/number-callout \u201C42%\u201D\
   \ >}} This is a called out number. Number is show really big! {{< /blog/number-callout >}} {{< blog/fancy-quote \u201CAuthor\
   \ Name\u201D >}} This is a fancy quote. {{< /blog/fancy-quote >}} This is a normal quote, use word-press own quote block.\
-  \ Author, if [\u2026]"
+  \ Author, if \u2026 \n\n\n[Continue reading \u201CSupported blog post formats\u201D](https://cms.vibe.dev/?p=758)"
 ---
 
 This is a normal paragraph.
@@ -37,7 +37,7 @@ This is a fancy quote.
 
 Below are supported in-blog CTAs.
 
-First: cta-1 uses default link that redirects to /lp/interactive-whiteboard
+First: cta-1 uses default link that redirects to /lp/interactive-whiteboard/
 
 {{< blog/cta-1 "Vibe Interactive Whiteboard, for Remote Collaboration" >}}
 

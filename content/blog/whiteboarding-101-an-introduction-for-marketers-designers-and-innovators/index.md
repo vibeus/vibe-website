@@ -20,7 +20,7 @@ Whiteboarding has always been around in some form or another. Chalkboards are th
 
 Whiteboarding helps us solve problems, visualize ideas, and define workflows. This process allows teams to structure their thoughts in a public setting where they can generate actionable feedback. The whiteboard is much more than just a place to scribble out notes — it’s a critical element in the session, a place for mapping and brainstorming.
 
-## What Is Whiteboarding?
+## What is whiteboarding?
 
 At its most basic level, whiteboarding is using a whiteboard to organize and document ideas. This can involve a literal whiteboard hung on the wall or a freestanding easel with a pad of paper. The modern solution is a digital whiteboard that can take notes, translate handwriting into legible text, auto-save your sessions, and more (i.e. the [Vibe Board](https://vibe.us/)).
 
@@ -32,7 +32,7 @@ In this guide, we’ll discuss how using a digital whiteboard to visualize and d
 
 ***Related:* [Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)**
 
-## Successful Whiteboarding Use Cases
+## Successful whiteboarding use cases
 
 The whiteboard is as much a source of inspiration as it is a place for tracking it. A whiteboard can serve as the organizational locus for a brainstorming session or the place where the abstract threads and visions swirling in your imagination take shape and come to life.
 
@@ -60,7 +60,7 @@ Digital whiteboards are an effective interactive tool for engaging and connectin
 
 Traditional whiteboards can be challenging to read (or even see) during a video conference, making them ineffective for remote teams. An interactive whiteboard allows remote participants to view and contribute efficiently to the shared space, [enhancing the meeting’s communication capabilities](https://vibe.us/lp/scenario-meeting/).
 
-## When Whiteboarding Goes Wrong
+## Whiteboarding mistakes to avoid
 
 Whiteboarding isn’t a recipe for success all the time. Without proper planning, the whiteboard can create confusion, constrict ideation flows, and even lead to your great ideas getting erased out of existence. Thankfully, the fixes for these problems are usually pretty straightforward.
 
@@ -96,7 +96,7 @@ When you’re working on a Vibe board, your ideation isn’t confined by physica
 
 {{< common/srcset "image-4.png" "Brainstorming session in front of a Vibe interactive whiteboard" >}}
 
-## 5 Key Tips for Better Whiteboarding
+## Key tips for better whiteboarding
 
 There’s a lot to whiteboarding — much more than we can cover in one blog post. To get you started, here are some rules for the road:
 

@@ -25,9 +25,7 @@ There are several digital boards on the market, so which is the best interactive
 
 ***Related:* [Digital Whiteboards: the 11 Best Reasons to Invest](https://vibe.us/blog/11-best-reasons-to-invest-in-a-digital-whiteboard/)**
 
-## Digital Smart Board Providers
-
-### Microsoft Surface Hub
+## Microsoft Surface Hub
 
 Microsoft is one of the originators of digital whiteboard technology, and their [Surface Hub](https://www.pcmag.com/review/343777/microsoft-surface-hub) is a popular choice in this space. Surface Hub features a responsive touchscreen display and robust integrations with Microsoft applications. With its collaboration-focused custom version of Windows and video conferencing capabilities, Surface Hub makes hosting meetings easy.
 
@@ -35,7 +33,7 @@ However, Surface Hub does have some significant drawbacks. Offices that don’t 
 
 The Surface Hub costs nearly $3,000 more than its closest competitor, coming in at just under $9,000 per unit.
 
-### Google Jamboard
+## Google Jamboard
 
 Jamboard was launched by Google as a direct competitor to Surface Hub. It’s been successful in mimicking much of that device’s functionality, but with some downsides.
 
@@ -45,7 +43,7 @@ However, the Jamboard doesn’t support simultaneous app usage. This severely li
 
 The Jamboard costs just under $5,000 per board.
 
-### Samsung Flip
+## Samsung Flip
 
 The budget answer to the more powerful Jamboard and Surface Hub, the Samsung Flip is a bare-bones smart board for small- to mid-sized businesses. It comes with an attractive price tag and features real-time whiteboard capabilities on its UHD 4K touch display. Flip is designed to work wirelessly with Samsung mobile devices (as well as other manufacturer’s products using an app, though with more limited functionality).
 
@@ -53,7 +51,7 @@ The Flip’s most visible feature (and the one that gives it its name) is that i
 
 Like Jamboard, the Flip doesn’t come with a full-featured operating system. While you can share whiteboarding sessions with remote users, there’s no webcam, so you can’t connect with them face to face.
 
-### Vibe
+## Vibe
 
 A relative newcomer to the space, the [Vibe board](https://vibe.us/product/) was designed from scratch by an independent technology company to fill a gap left behind by Samsung, Microsoft, and Google. It has similar capabilities to its competitors, with manufacturer-agnostic app integrations and a more competitive price tag to boot.
 
