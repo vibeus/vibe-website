@@ -1,6 +1,6 @@
 ---
 title: Pre-Order Vibe 75” Digital Whiteboard Now!
-description: 
+description:
 layout: contact
 stylesPath: css/preorder.sass
 hero:
@@ -8,7 +8,7 @@ hero:
   figure: img/contact/preorder-hero.png
 contact:
   form:
-    action: 
+    action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/5d8057db-db0a-41a3-a33f-46d64aa44641
     controls:
       - - name: firstname
           placeholder: First Name*
@@ -27,21 +27,22 @@ contact:
           placeholder: Industry*
           required: true
           dropdown:
+            - Arts and Design
+            - Architecture and Construction
             - Education
+            - Engineering
             - Coaching and Training
+            - Consulting
+            - Financial Services
+            - Government and Organizations
             - Health Care
             - IT Services
-            - Computer Software
-            - Real Estate
-            - Architecture and Construnction
-            - Engineering
-            - Financial Services
-            - Consulting
+            - Legal
+            - Manufacturing
             - Marketing and Advertising
-            - Arts and Design
-            - Government and Organizations
-            - Home Office
-            - Personal Use and Entertainment
+            - Real Estate
+            - Retail and Consumer Goods
+            - Technology
             - Others
         - name: company_size_classification
           placeholder: Company Size*
@@ -54,21 +55,19 @@ contact:
             - 1001-5000
             - 5001-10000
             - 10001+
-      - - name: job_role
-          placeholder: Role*
+      - - name: use_case
+          placeholder: Use Case*
           required: true
           dropdown:
-            - CXO / VP / President / Owner
-            - Principal
-            - Director
-            - Manager
-            - Designer
-            - Engineer
-            - IT
-            - Consultant
-            - Teacher / Professor
-            - Instructor
-            - Influencer
+            - Remote Collaboration
+            - Home Office
+            - Distance Learning
+            - Homeschooling
+            - Meeting & Workshop
+            - Brainstorming & Ideation
+            - Presenting & Pitching
+            - Training & Coaching
+            - Enterainment
             - Others
         - name: phone
           placeholder: Phone Number
