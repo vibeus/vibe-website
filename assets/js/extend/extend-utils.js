@@ -3,9 +3,9 @@ var ExtendShopifyBuy = {
 		var planId = planDetails.planId;
 		var planTerm = planId.split('-')[planId.split('-').length - 1]
 		var textMatching = {
-			"1y": "1 Year",
-			"2y": "2 Years",
-			"3y": "3 Years"
+			"1y": "1 year - sold by Extend",
+			"2y": "2 years - sold by Extend",
+			"3y": "3 years - sold by Extend"
 		}
 		return textMatching[planTerm]
 	},
@@ -13,13 +13,6 @@ var ExtendShopifyBuy = {
 	insertDecimal: function (num) {
 		return (num / 100).toFixed(2);
 	 },
-
-	hardRefresh: function(openCart) {
-		location.href = location.hash ? location.href.substring(0, location.href.indexOf('#')) : location.href;
-		if(openCart){
-			localStorage.setItem('ExtendOpenCart', "true")
-		}
-	},
 
 	getCustomAttribute: function(customAttributes, attributeToFind) {
 		if(!customAttributes) return false;
@@ -46,8 +39,10 @@ var ExtendShopifyBuy = {
 	},
 
 	normalizeCheckout: function (checkout, balance, callback) {
+		//checkout is string, so convert to object
 		checkout = JSON.parse(checkout);
 
+		//building out checkout items to easily getCartUpdates
 		var checkoutItems = [];
 		for(id in checkout) {
 			var quantity = checkout[id].quantity;
@@ -60,6 +55,7 @@ var ExtendShopifyBuy = {
 			checkoutItems.push(item)
 		}
 
+		//get updates, and if there are updates update the checkout variable, and return that to the callback
 		const updates = ExtendShopifyBuy.getCartUpdates(checkoutItems, balance);
 		if(updates) {
 			for(id in updates) {
@@ -70,10 +66,14 @@ var ExtendShopifyBuy = {
 			callback(false)
 		}
 	},
+
 	getCartUpdates: function(checkoutItems, balance) {
 		var products = {}
 		var updates = {}
+
+		//building out product-warranty relationship in products variable
 		checkoutItems.forEach(item => {
+			//if we're on a warranty we use the ref id otherwise we use the item id
 			const productVariantId = ExtendShopifyBuy.isWarranty(item) ? ExtendShopifyBuy.getCustomAttribute(item.customAttributes, "Ref") : String(item.id)
 			const product = products[productVariantId] || {
 			  quantity: 0,

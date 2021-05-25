@@ -28,11 +28,11 @@ function handleAddToCart(productId, productTitle, quantity, addToCart, callback)
     const product = component.getActiveProduct()
     
     if (plan) {
-        // add plan to cart, then handle form submission
+        //call back to add initial product to cart, then grab Shopify variant ID for warranty and add that to cart with attributes set
+        callback()
         ExtendShopify.getPlanVariant(plan, function(err, planVariant) {
             var term = ExtendShopifyBuy.getTerm(plan);
             addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }, { 'key': 'Price', 'value': ExtendShopifyBuy.insertDecimal(plan.price) }, { 'key': 'Vendor', 'value': 'Extend' }])
-            callback()
         })
     } else {
         // handle form submission
@@ -47,19 +47,22 @@ function handleAddToCart(productId, productTitle, quantity, addToCart, callback)
                     Extend.modal.open({
                         referenceId: productId,
                         onClose: function(plan, product) {
+                            // a user has selected a plan.  Add it to their cart.
                             if (plan && product) {
-                                // a user has selected a plan.  Add it to their cart.
+                                //call back to add initial product to cart, then grab Shopify variant ID for warranty and add that to cart with attributes set
+                                callback()
                                 ExtendShopify.getPlanVariant(plan, function(err, planVariant) {
                                     var term = ExtendShopifyBuy.getTerm(plan);
                                     addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }, { 'key': 'Price', 'value': ExtendShopifyBuy.insertDecimal(plan.price) }, { 'key': 'Vendor', 'value': 'Extend' }])
-                                    callback()
                                 })
                             } else {
+                                //call back to add initial product to cart
                                 callback()
                             }
                         },
-                        })
+                    })
                 } else {
+                    //call back to add initial product to cart
                     callback();
                 }
             })

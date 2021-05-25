@@ -21,11 +21,11 @@ function initCartOffer(addToCart, updateCart) {
         quantity = Number(quantity);
         ExtendShopify.getPlanVariant(plan, function(err, planVariant) {
             var term = ExtendShopifyBuy.getTerm(plan);
-            console.log(ExtendShopifyBuy.insertDecimal(plan.price))
             addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': product.id}, {'key': 'Product', 'value': product.name}, { 'key': 'Term', 'value': term }, { 'key': 'Price', 'value': ExtendShopifyBuy.insertDecimal(plan.price) }, { 'key': 'Vendor', 'value': 'Extend' }])
         })
      },
     });
+
 
     ExtendShopifyBuy.normalizeCheckout(cart, true, function(isUpdates, checkout){
         if(!isUpdates) return;

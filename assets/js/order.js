@@ -426,11 +426,6 @@ function setupAddCart() {
       handleAddToCart(productId, productTitle, parseInt(input.value) || 0, addToCart, function(){
         addToCart(productId, parseInt(input.value) || 0);
         document.querySelector('.button.is-cart-icon').click();
-        initCartOffer(addToCart, function(newCart) {
-          cart = newCart;
-          saveCart();
-          renderCart();
-        })
       })
       //Extend - End Extend Code
     });
@@ -489,15 +484,18 @@ function renderCart() {
   renderCheckout();
   const root = document.getElementById('app-root');
   if (root) {
-    ReactDOM.render(e(App), root);
-    //Extend - Initialize cart offers
-    initCartOffer(addToCart, function(newCart) {
-      cart = newCart;
-      saveCart();
-      renderCart();
-    })
-    //Extend - End Extend Code
+    ReactDOM.render(e(App), root, function() {
+      //Extend - Initialize cart offers
+      initCartOffer(addToCart, function(newCart) {
+        cart = newCart;
+        saveCart();
+        renderCart();
+      })
+      //Extend - End Extend Code
+    });
+    
   }
+  
 }
 
 function addToCart(productId, count, customAttributes) {

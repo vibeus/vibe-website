@@ -78,7 +78,7 @@ products:
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder: false
-  #Extend - 
+  #Extend - Add extend warranty to hard-set data, with image url
   - item: &id005
       product_name: extend-protection-plan
       title: i18n-content-order-_index-products-i_4-item-title
@@ -88,6 +88,7 @@ products:
       sold_out: false
       backorder:
         false
+  #Extend - End Extend Code
 
 hero:
   item: *id001
