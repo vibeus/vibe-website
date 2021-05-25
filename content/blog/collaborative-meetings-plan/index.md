@@ -19,7 +19,7 @@ But the challenge for each organization is making these meetings effective while
 
 Whether your collaborative meetings are in person or virtual, it’s essential to structure the meeting to get the most out of them. Read on for the best tips for designing an effective collaborative meeting.
 
-## Make sure that it’s convenient for everyone
+## Make the meeting convenient for everyone
 
 Schedule the meeting at a time that works for everyone. This can be challenging when you need to be mindful of:
 
@@ -32,7 +32,7 @@ To coordinate an ideal time for all meeting members, use an effective meeting sc
 
 ***Related:* [The Biggest Threat to Productivity is Work About Work](https://vibe.us/blog/the-biggest-threat-to-productivity-is-work-about-work-heres-how-to-fix-it/)**
 
-## Have a clear purpose in mind
+## Have a clear purpose for your meeting
 
 Before scheduling anything, you should have a clear goal for the meeting. Identify the purpose beforehand to determine if it’s necessary to bring everyone together. For example, you don’t want to take up your team’s time if the meeting is only to share information, motivate, or socialize.
 
@@ -64,7 +64,7 @@ Using an interactive whiteboard makes it easy to share, contribute, and brainsto
 
 ***Related:* [Why Brainwriting Produces the Best Team Ideas](https://vibe.us/blog/why-brainwriting-produces-the-best-team-ideas/)**
 
-## Encourage engagement among your audience
+## Encourage interaction among your audience
 
 To lead effective collaborative meetings, you need tools and applications that encourage interaction. Think about ways to boost collaboration among participants where they can offer their expertise and add value to the discussions.
 
@@ -74,7 +74,7 @@ An effective collaborative meeting requires taking vigilant notes to capture eve
 
 {{< common/srcset "image-2.jpg" "The Vibe digital whiteboard creates opportunities for team collaboration." >}}
 
-## How an interactive whiteboard can help in your next collaborative meeting
+## Use a digital whiteboard at collaborative meetings
 
 An [interactive whiteboard](https://vibe.us/software/) is an ideal tool for collaborative meetings. The whiteboard is intuitive and allows participants to easily:
 
