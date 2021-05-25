@@ -43,24 +43,18 @@ So, what does the UX research process look like? Research expert, [The Nielsen N
 
 Before you design the latest and greatest product, you need to know what your audience actually needs. The discovery phase of UX research helps you understand your audience and the things that are valuable to them. The following research methods are great for the discovery phase: 
 
-**Field study.** Visit users in their native habitat (where they might normally use your products/services) and study their habits. 
-
-*Best for:*
+**Field study.** Visit users in their native habitat (where they might normally use your products/services) and study their habits. Field studies are best for:
 
 - Understanding how a user might interact with a product
 - Discovering problems associated with their environment
 - Creating a more genuine study outside of a lab
 
-**User interview.** Meet with users one-on-one to learn about their wants, desires, and pain points.
-
-*Best for:*
+**User interview.** Meet with users one-on-one to learn about their wants, desires, and pain points. User interviews are best in these scenarios:
 
 - Interacting with the customer on a more personal level
 - Getting a first-hand account of their experience with your brand or product
 
-**Focus groups.** Hold a group conversation with people from your target audience to uncover unique perspectives and experiences. 
-
-*Best for:*
+**Focus groups.** Hold a group conversation with people from your target audience to uncover unique perspectives and experiences. Focus groups are great for:
 
 - Accessing a variety of thoughts and opinions
 - A cost-effective and convenient way to collect user information
@@ -71,23 +65,17 @@ Before you design the latest and greatest product, you need to know what your au
 
 Once you have an idea of who your customers are and what they need, it’s time to explore the designs that would benefit them. Researchers use these exploration methods to help them design with users in mind. 
 
-**Persona building.** With the data collected from interviews and field studies, create one or more [buyer personas](https://blog.hubspot.com/marketing/buyer-persona-research) that represent your audience. These could be fictional people that match the users’ demographics, interests, and needs.
-
-*Best for:*
+**Persona building.** With the data collected from interviews and field studies, create one or more [buyer personas](https://blog.hubspot.com/marketing/buyer-persona-research) that represent your audience. These could be fictional people that match the users’ demographics, interests, and needs. Persona building is useful when:
 
 - Providing a mental image of your audience that you can reference when making decisions that affect them
 - Prioritizing tasks and features that would be of greatest value to the persona(s)
 
-**Card sorting.** Using physical cards, or digital card-sorting software, participants must arrange items in an order that makes the most sense to them. Researchers may also ask participants to label the cards with titles they find most appropriate.
-
-*Best for:* 
+**Card sorting.** Using physical cards, or digital card-sorting software, participants must arrange items in an order that makes the most sense to them. Researchers may also ask participants to label the cards with titles they find most appropriate. Use this tactic when:
 
 - Building the structure of a website or application
 - Labeling page categories according to the users’ needs
 
-**Task analysis.** Follow the steps a user takes to achieve a desired outcome on your website, system, or application. 
-
-*Best for:*
+**Task analysis.** Follow the steps a user takes to achieve a desired outcome on your website, system, or application. Task analysis works for:
 
 - Understanding the tasks users perform to access content
 - Simplifying the way users interact with your products
@@ -96,23 +84,17 @@ Once you have an idea of who your customers are and what they need, it’s time 
 
 Put your design to the test by giving users hands-on experience with the product. Use these methods to study the users’ interactions: 
 
-**Usability testing.** Let users interact with your product to determine if it’s intuitive and user-friendly. 
-
-*Best for:*
+**Usability testing.** Let users interact with your product to determine if it’s intuitive and user-friendly. Usability testing works best for:
 
 - Uncovering the system’s issues and technical errors
 - Testing if the product’s functionality allows users to meet their goals
 
-**First click testing.** Using a functioning website, prototype, or [wireframe](https://vibe.us/blog/wireframing-basics-everything-you-need-to-know/), see which link or navigational tool users click on first to complete a particular task.
-
-*Best for:*
+**First click testing.** Using a functioning website, prototype, or [wireframe](https://vibe.us/blog/wireframing-basics-everything-you-need-to-know/), see which link or navigational tool users click on first to complete a particular task. First click testing is good in these scenarios:
 
 - Figuring out where to place menus, icons, and buttons on a website
 - Choosing the labels that best guide users to their destination
 
-**Eye tracking.** [Eye tracking](https://www.tobiipro.com/blog/what-is-eye-tracking/#:~:text=Market%20Research%20%E2%80%93%20Eye%20tracking%20offers,viewing%20and%20selecting%20a%20product.) technology allows you to follow where users are looking on a device, such as a phone or computer. 
-
-*Best for:*
+**Eye tracking.** [Eye tracking](https://www.tobiipro.com/blog/what-is-eye-tracking/#:~:text=Market%20Research%20%E2%80%93%20Eye%20tracking%20offers,viewing%20and%20selecting%20a%20product.) technology allows you to follow where users are looking on a device, such as a phone or computer. Use eye tracking when:
 
 - Learning which features of a design capture a user’s attention
 - Discovering whether certain areas are ignored or irrelevant
@@ -121,23 +103,17 @@ Put your design to the test by giving users hands-on experience with the product
 
 Though a design may be ready to go live, the design process never really comes to an end. Always be on the lookout for customer feedback that reveals their thoughts and feelings toward a product. Try these methods to keep tabs on your users’ experience.
 
-**Surveys.** Ask customers, or prospective customers, a series of questions to understand their opinions and behaviors relating to your product. 
-
-*Best for:* 
+**Surveys.** Ask customers, or prospective customers, a series of questions to understand their opinions and behaviors relating to your product. Surveys are excellent for:
 
 - Gauging how satisfied customers are with the product
 - Learning about product issues that can be remedied in future product versions
 
-**Analytics.** Website analytics expose the habits and patterns of users on a website. Using resources like [Google Analytics](https://analytics.google.com/analytics/web/), companies can track details like user demographics, how many users visit the site, and how much time they spend browsing. 
-
-*Best for:*
+**Analytics.** Website analytics expose the habits and patterns of users on a website. Using resources like [Google Analytics](https://analytics.google.com/analytics/web/), companies can track details like user demographics, how many users visit the site, and how much time they spend browsing. Analytics help by:
 
 - Determining if your target audience matches the site’s user demographics
 - Assisting future content creation by seeing which content users like best
 
-**Review user commentary.** Explore social media and review platforms to see what users are saying about your product.
-
-*Best for:* 
+**Review user commentary.** Explore social media and review platforms to see what users are saying about your product. Reviewing user commentary is good for:
 
 - Getting genuine feedback from users in a space they feel comfortable
 - Keeping up with how your brand compares to competitors
