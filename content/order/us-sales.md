@@ -78,22 +78,12 @@ products:
       figure: img/order/accessory-stylus.png
       sold_out: false
       backorder: false
+  #Extend - 
   - item: &id005
       product_name: extend-protection-plan
       title: i18n-content-order-_index-products-i_4-item-title
       body: 
-      product_id: '39354269794355'
-      price: 2999
-      figure: img/order/extend_icon.png
-      sold_out: false
-      backorder:
-        false
-  - item: &id006
-      product_name: extend-protection-plan
-      title: i18n-content-order-_index-products-i_4-item-title
-      body: 
-      product_id: '39354269728819'
-      price: 2999
+      product_id: 'extend-protection-plan'
       figure: img/order/extend_icon.png
       sold_out: false
       backorder:

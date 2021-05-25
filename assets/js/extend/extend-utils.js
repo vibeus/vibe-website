@@ -1,24 +1,4 @@
-
 var ExtendShopifyBuy = {
-	//Decode Base64 Shopify Global ID
-	decodeBase64Id: function (base64Id) {
-		const variantIdDecoded = atob(base64Id).split('/');
-		const variantId = variantIdDecoded[variantIdDecoded.length - 1];
-		if(variantId.includes('?')) {
-			return variantId.split('?')[0]
-		}
-		return variantId;
-	}, 
-
-
-	//Encode Base64 Shopify Global ID
-	encodeBase64Id: function (variantId, type) {
-		//if there's a type we will use that instead
-		const gid = type ? `gid://shopify/${type}/${variantId}`  : 'gid://shopify/ProductVariant/' + variantId;
-		const variantIdEncoded = btoa(gid);
-		return variantIdEncoded;
-	},
-	
 	getTerm: function(planDetails) {
 		var planId = planDetails.planId;
 		var planTerm = planId.split('-')[planId.split('-').length - 1]
@@ -30,41 +10,9 @@ var ExtendShopifyBuy = {
 		return textMatching[planTerm]
 	},
 
-	//addWarrantyToCheckout -> adds warranty to checkout, checkout must be updated after adding
-	addWarrantyToCheckout: function (productVariantId, checkoutId, planDetails, callback) {
-		ExtendShopify.getPlanVariant(planDetails, function(err, planVariant) {
-			if(planVariant){
-				var variantId = planVariant.variantId;
-				var encodedBase64Id = ExtendShopifyBuy.encodeBase64Id(variantId);
-				window.client.checkout.fetch(checkoutId)
-					.then(function(checkout) {
-						var product = checkout.lineItems.find(function(lineItem) {
-							return ExtendShopifyBuy.decodeBase64Id(lineItem.variant.id) === productVariantId;
-						})
-						if(!product) return;
-						var referenceTitle = product.title;
-
-						var term = ExtendShopifyBuy.getTerm(planDetails);
-
-						var quantity = Number(planDetails.quantity) || 1;
-
-						var lineItem = {variantId: encodedBase64Id, quantity: quantity, customAttributes: [{'key': 'Ref', 'value': productVariantId}, {'key': 'vendor', 'value': 'Extend'}, {'key': 'RefTitle', 'value': referenceTitle}, {'key': 'Term', 'value': term}]}
-						var lineItemsToAdd = [lineItem]
-						client.checkout.addLineItems(checkoutId, lineItemsToAdd)
-							.then(function(res) {
-							if(callback) {
-								callback(res);
-							}
-							return res;
-						})
-
-					})
-
-
-			}
-
-		})
-	},
+	insertDecimal: function (num) {
+		return (num / 100).toFixed(2);
+	 },
 
 	hardRefresh: function(openCart) {
 		location.href = location.hash ? location.href.substring(0, location.href.indexOf('#')) : location.href;
@@ -73,99 +21,143 @@ var ExtendShopifyBuy = {
 		}
 	},
 
-	getCustomAttribute: function(lineItem, attributeToFind) {
-		var attribute = lineItem.customAttributes.find(attribute => {
+	getCustomAttribute: function(customAttributes, attributeToFind) {
+		if(!customAttributes) return false;
+		var attribute = customAttributes.find(function(attribute) {
 			return attribute.key === attributeToFind
 		});
 		return attribute ? attribute.value : null;
 	},
 
-	warrantyAlreadyInCheckout: function (variantId, checkoutItems) {
+	warrantyAlreadyInCheckout: function (variantId, cartItems) {
+        var checkoutItems = Object.values(JSON.parse(cartItems))
 		const extendWarranties = checkoutItems.filter(function(lineItem) {
-			//filter through the customAttributes and grab the referenceId;
-			var referenceId = ExtendShopifyBuy.getCustomAttribute(lineItem, "Ref");
-			return (lineItem.customAttributes && referenceId && referenceId.toString() === variantId);
+            //filter through the customAttributes and grab the referenceId
+			var customAttributes = lineItem.customAttributes;
+			if(customAttributes && customAttributes.find)
+            var referenceId = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Ref");
+			return (customAttributes && referenceId && referenceId.toString() === variantId);
 		})
 		return extendWarranties.length > 0;
 	},
 
-	normalizeCheckout: function (checkoutId, client, callback) {
-		var Checkout = client.checkout;
-		Checkout.fetch(checkoutId)
-			.then((checkout) => {
-				var checkoutItems = checkout.lineItems;
-				//initial updates state
-				var newState = {
-					updates: false,
-					products: {},
-					warranties: checkoutItems.filter(function(lineItem) {return ExtendShopifyBuy.getCustomAttribute(lineItem, "vendor") === "Extend"})
-				}
-				checkoutItems.forEach(function(lineItem){
-					const productVariantId = ExtendShopifyBuy.getCustomAttribute(lineItem, "vendor") === "Extend" ? ExtendShopifyBuy.getCustomAttribute(lineItem, "Ref") : ExtendShopifyBuy.decodeBase64Id(lineItem.variant.id);
-					const product = newState.products[productVariantId] || {
-						productQty: 0,
-						warrantyQty: 0,
-						warranties: []
-					}
+	isWarranty: function(item) {
+		return item.customAttributes && (ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Vendor') === 'Extend')
+	},
 
-					if(ExtendShopifyBuy.getCustomAttribute(lineItem, "vendor") === "Extend") {
-						product.warrantyQty += lineItem.quantity;
-						product.warranties.push(lineItem);
-					} else {
-						product.productQty += lineItem.quantity;
-					}
+	normalizeCheckout: function (checkout, balance, callback) {
+		checkout = JSON.parse(checkout);
 
-					newState.products[productVariantId] = product
-				})
-				
-				Object.values(newState.products).forEach(function(data) {
-					//Remove warranties without products
-					if(data.warrantyQty && !data.productQty) {
-						data.warranties.forEach(function(warranty) {
-							Checkout.removeLineItems(checkout.id, [warranty.id])
-							.then(newCheckout => {	
-								callback(newCheckout)
-							})
-							.catch(err => {
-								console.log(err)
-							})
-						})
-					}
+		var checkoutItems = [];
+		for(id in checkout) {
+			var quantity = checkout[id].quantity;
+			var customAttributes = checkout[id].customAttributes || null
+			var item = {
+				id: id,
+				quantity: quantity,
+				customAttributes: customAttributes
+			}
+			checkoutItems.push(item)
+		}
 
-					var quantityDiff = data.warrantyQty - data.productQty;
+		const updates = ExtendShopifyBuy.getCartUpdates(checkoutItems, balance);
+		if(updates) {
+			for(id in updates) {
+				checkout[id].quantity = updates[id];
+			}
+			callback(true, checkout);
+		} else {
+			callback(false)
+		}
+	},
+	getCartUpdates: function(checkoutItems, balance) {
+		var products = {}
+		var updates = {}
+		checkoutItems.forEach(item => {
+			const productVariantId = ExtendShopifyBuy.isWarranty(item) ? ExtendShopifyBuy.getCustomAttribute(item.customAttributes, "Ref") : String(item.id)
+			const product = products[productVariantId] || {
+			  quantity: 0,
+			  warrantyQuantity: 0,
+			  warranties: [],
+			}
+		
+			if (ExtendShopifyBuy.isWarranty(item)) {
+			  product.warrantyQuantity += item.quantity
+			  product.warranties.push(item)
+			} else {
+			  product.quantity += item.quantity
+			  // If warranty product is coming from lead, set leadProductKey and leadQuantity on product object,
+			  // so we can get them when iterating over products
+			  if (item.customAttributes && ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Extend.LeadQuantity')) {
+				product.leadQuantity = Number(ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Extend.LeadQuantity'))
+				product.leadProductKey = item.id
+			  }
+			}
+		
+			products[productVariantId] = product
+		
+			// Remove Extend Items without Properties from Cart - Unattached Warranties
+			if (ExtendShopifyBuy.getCustomAttribute(item.customAttributes, "Vendor") === 'Extend' && (!item.customAttributes || !ExtendShopifyBuy.getCustomAttribute(item.customAttributes, "Ref"))) {
+			  updates[item.id] = 0
+			}
+		  })
+		  Object.keys(products)
+		  .map(key => products[key])
+		  .forEach(product => {
+			// If warranty product is coming from lead, and product quantity is higher than lead quantity
+			// (e.g. user manually increased product quantity after coming in from lead), then reset product quantity to lead quantity.
+			if (
+			  product.leadQuantity &&
+			  product.leadProductKey &&
+			  product.quantity > product.leadQuantity
+			) {
+			  updates[product.leadProductKey] = product.leadQuantity
+			  return
+			}
+	  
+			// remove warranties without products
+			if (product.warrantyQuantity && !product.quantity) {
+			  product.warranties.forEach(warranty => {
+				updates[warranty.id] = 0
+			  })
+			  return
+			}
+	  
+			let quantityDiff = product.warrantyQuantity - product.quantity
+	  
+			// no updates quantity === warranty quantity
+			if (quantityDiff === 0) {
+			  return
+			}
 
-					if(quantityDiff === 0) {
-						return;
-					}
-
-					if(quantityDiff < 0) {
-						return;
-					} else {
-						data.warranties.forEach(warranty => {
-							if (quantityDiff === 0) return
-							// start removing quantities until we reach our target
-							const newQuantityDiff = Math.max(0, quantityDiff - warranty.quantity)
-							const removedQuantity = quantityDiff - newQuantityDiff
-							const warrantyToUpdate = {id: warranty.id, quantity: warranty.quantity - removedQuantity};
-							Checkout.updateLineItems(checkout.id, [warrantyToUpdate])
-							.then(newCheckout => {	
-								callback(newCheckout)
-							})
-							.catch(err => {
-								console.log(err)
-							})
-							
-							quantityDiff = newQuantityDiff
-						})
-					}
-				})
+			function sortByPrice(w1, w2) {
+				return w1.price - w2.price
+			}
+	  
+			const warranties = product.warranties.sort(sortByPrice)
+	  
+			// not enough warranties
+			if (quantityDiff < 0) {
+			  // only add warranties if options.balance = true
+			  if (balance && warranties.length) {
+				const maxPriceWarranty = warranties[warranties.length - 1]
+				updates[maxPriceWarranty.id] = maxPriceWarranty.quantity - quantityDiff
+			  }
+			  return
+			}
+	  
+			// else, too many warranties
+			warranties.forEach(warranty => {
+			  if (quantityDiff === 0) return
+			  // start removing quantities until we reach our target
+			  const newQuantityDiff = Math.max(0, quantityDiff - warranty.quantity)
+			  const removedQuantity = quantityDiff - newQuantityDiff
+			  updates[warranty.id] = warranty.quantity - removedQuantity
+			  quantityDiff = newQuantityDiff
 			})
-			.catch(function(error) {
-				return error;
-			})
-	
+		  })
+		  return Object.keys(updates).length ? updates : null
 	}
-	
 }
 
 window.ExtendShopifyBuy = ExtendShopifyBuy;

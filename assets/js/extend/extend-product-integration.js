@@ -1,5 +1,4 @@
 function renderProductOffer() {
-    window.addEventListener('load', function(){
 	    //if an instance is found, do not re-render the offer
         if(window.Extend.buttons.instance('#extend-offer')){
             return;
@@ -13,10 +12,14 @@ function renderProductOffer() {
                 referenceId: referenceId
             })
         }
-    })
 }
 
+window.addEventListener('load', function(){
+    renderProductOffer();
+})
+
 function handleAddToCart(productId, productTitle, quantity, addToCart, callback) {
+
     //Extend - Handle AddToCart functions
     const component = Extend.buttons.instance('#extend-offer')
 
@@ -28,7 +31,7 @@ function handleAddToCart(productId, productTitle, quantity, addToCart, callback)
         // add plan to cart, then handle form submission
         ExtendShopify.getPlanVariant(plan, function(err, planVariant) {
             var term = ExtendShopifyBuy.getTerm(plan);
-            addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }])
+            addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }, { 'key': 'Price', 'value': ExtendShopifyBuy.insertDecimal(plan.price) }, { 'key': 'Vendor', 'value': 'Extend' }])
             callback()
         })
     } else {
@@ -48,7 +51,7 @@ function handleAddToCart(productId, productTitle, quantity, addToCart, callback)
                                 // a user has selected a plan.  Add it to their cart.
                                 ExtendShopify.getPlanVariant(plan, function(err, planVariant) {
                                     var term = ExtendShopifyBuy.getTerm(plan);
-                                    addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }])
+                                    addToCart(planVariant.variantId, quantity, [{'key': 'Ref', 'value': productId}, {'key': 'Product', 'value': productTitle}, { 'key': 'Term', 'value': term }, { 'key': 'Price', 'value': ExtendShopifyBuy.insertDecimal(plan.price) }, { 'key': 'Vendor', 'value': 'Extend' }])
                                     callback()
                                 })
                             } else {
@@ -65,5 +68,4 @@ function handleAddToCart(productId, productTitle, quantity, addToCart, callback)
     }
 }
 
-renderProductOffer();
 

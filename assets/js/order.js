@@ -19,6 +19,7 @@ import {
 } from '{{ $js.RelPermalink }}';
 
 
+
 const e = React.createElement;
 const { useState, useEffect } = React;
 const products = JSON.parse(atob('{{ $products | jsonify | base64Encode }}'));
@@ -116,11 +117,28 @@ const LineItemControl = ({ productId, count }) => {
   );
 };
 
-const LineItem = ({ productId, count }) => {
-  const product = products.find((x) => x.product_id === productId);
+const LineItem = ({ productId, count, customAttributes }) => {
+  var product = products.find((x) => x.product_id === productId);
+
+  //Extend - If it's a warranty use the title and image attributes from us-sales.md
+  var isExtend = false;
+  if(customAttributes && (ExtendShopifyBuy.getCustomAttribute(customAttributes, 'Vendor') === 'Extend')) {
+    isExtend = true;
+    product = products.find((x) => x.product_id === 'extend-protection-plan');
+
+    var price = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Price");
+    product.price = price;
+
+    var productString = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Product");
+    var termString = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Term");
+
+  }
+  //Extend - End Extend Code
+
   if (!product) {
     return null;
   }
+
   
 
   let notice = null;
@@ -164,12 +182,13 @@ const LineItem = ({ productId, count }) => {
         },
         products_i18n[product.title]
       ),
+      //Extend - Add Cart Offer Element
       e(
         'div',
         {
           id: 'extend-cart-offer',
-          'data-extend-variant': product.product_id,
-          'data-extend-quantity': cart[product.product_id].quantity,
+          'data-extend-variant': productId,
+          'data-extend-quantity': cart[productId].quantity,
         },
       ),
       //Extend - Add Product Name and Term to Warranty lineItems
@@ -178,14 +197,14 @@ const LineItem = ({ productId, count }) => {
         {
           className: 'product-description',
         },
-        cart[product.product_id].customAttributes && cart[product.product_id].customAttributes[1] ? `${cart[product.product_id].customAttributes[1].key}: ${cart[product.product_id].customAttributes[1].value}` : ""
+        isExtend ? `Product: ${productString}` : ''
       ),
       e(
         'p',
         {
           className: 'product-description',
         },
-        cart[product.product_id].customAttributes && cart[product.product_id].customAttributes[2] ? `${cart[product.product_id].customAttributes[2].key}: ${cart[product.product_id].customAttributes[2].value}` : ""
+        isExtend ? `Term: ${termString}` : ''
       ),
       //Extend - End Extend Code
       notice,
@@ -220,6 +239,7 @@ const LineItem = ({ productId, count }) => {
 const App = () => {
   const lineItems = Object.keys(cart).reduce((acc, key) => {
     const { quantity: count, customAttributes } = cart[key];
+
     if (count > 0) {
       acc.push(
         e(LineItem, {
@@ -296,6 +316,7 @@ function getCartAmount() {
 }
 
 function processCheckout() {
+  
   processingCheckout = true;
   renderCheckout();
 
@@ -405,6 +426,11 @@ function setupAddCart() {
       handleAddToCart(productId, productTitle, parseInt(input.value) || 0, addToCart, function(){
         addToCart(productId, parseInt(input.value) || 0);
         document.querySelector('.button.is-cart-icon').click();
+        initCartOffer(addToCart, function(newCart) {
+          cart = newCart;
+          saveCart();
+          renderCart();
+        })
       })
       //Extend - End Extend Code
     });
@@ -461,10 +487,16 @@ function renderCheckout() {
 function renderCart() {
   renderCartNumbers();
   renderCheckout();
-
   const root = document.getElementById('app-root');
   if (root) {
     ReactDOM.render(e(App), root);
+    //Extend - Initialize cart offers
+    initCartOffer(addToCart, function(newCart) {
+      cart = newCart;
+      saveCart();
+      renderCart();
+    })
+    //Extend - End Extend Code
   }
 }
 
@@ -495,6 +527,7 @@ function setCartCount(productId, count) {
     Math.max(count, MIN_ITEM_COUNT),
     MAX_ITEM_COUNT
   );
+
   saveCart();
   renderCart();
 }
