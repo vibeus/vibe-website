@@ -1,6 +1,6 @@
 ---
 title: Our Favorite Office Design Ideas for Small Spaces
-slug: our-favorite-office-design-ideas-for-small-spaces
+slug: office-design-ideas
 author: Paige Smith
 date: '2021-05-25'
 tags:
