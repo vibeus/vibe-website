@@ -41,21 +41,22 @@ contact:
           placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder
           required: true
           dropdown:
+            - Arts and Design
+            - Architecture and Construction
             - Education
+            - Engineering
             - Coaching and Training
+            - Consulting
+            - Financial Services
+            - Government and Organizations
             - Health Care
             - IT Services
-            - Computer Software
-            - Real Estate
-            - Architecture and Construnction
-            - Engineering
-            - Financial Services
-            - Consulting
+            - Legal
+            - Manufacturing
             - Marketing and Advertising
-            - Arts and Design
-            - Government and Organizations
-            - Home Office
-            - Personal Use and Entertainment
+            - Real Estate
+            - Retail and Consumer Goods
+            - Technology
             - Others
       - - name: company_size_classification
           placeholder: i18n-content-contact-_index-contact-form-controls-i_3-i_0-placeholder
