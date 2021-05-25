@@ -6,7 +6,7 @@ date: '2021-05-25'
 tags:
 - Remote Collaboration
 - Work From Home
-draft: true
+draft: false
 isfeatured: false
 description: "A dedicated work space is a must for remote work. But if you don\u2019t have a room to yourself, then you need\
   \ these office design ideas for small spaces."
