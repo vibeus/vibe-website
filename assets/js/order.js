@@ -278,9 +278,13 @@ function saveCart() {
 }
 
 function filterCart(obj) {
-
+  
   return Object.keys(obj)
-    // .filter((x) => !!products.find((p) => x === p.product_id))
+    /*
+    Extend - checking if it's a warranty as well, so we don't filter out plans
+    */
+    .filter((x) => !!products.find((p) => (x === (p.product_id)) || ExtendShopifyBuy.isWarranty(obj[x])))
+    //Extend - End Extend Code
     .reduce((o, key) => {
       // backward compatibility: old cart value is simply the quantity.
       const oo = obj[key];
