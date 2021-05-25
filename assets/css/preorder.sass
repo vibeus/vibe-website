@@ -1,0 +1,73 @@
+@import "contact.sass"
+
+.hero .hero-body
+  padding: 0
+  padding-top: 56px
+  .is-hero-bg
+    max-width: 590px
+  .title
+    font-size: 40px
+    line-height: 52px
+  +mobile
+    max-height: 430px
+    overflow-y: hidden
+    .title
+      width: 318px
+      margin: 0 auto
+      margin-bottom: 16px
+    .is-hero-bg
+      max-width: 375px
+      margin: 0 auto
+  +tablet
+    background: linear-gradient(to bottom, $vibe-yellow 480px, $vibe-white 220px)
+    padding-top: 73px
+    .title
+      margin-top: 50px
+    .container
+      display: flex
+      justify-content: space-between
+      .is-hero-bg
+        max-width: 590px
+        flex-shrink: 0
+  +tablet-only
+    .is-hero-bg
+      margin-right: -150px
+  +desktop-only
+    .is-hero-bg
+      margin-right: -100px
+    .title
+      max-width: 618px
+  +widescreen
+    .title
+      font-size: 50px
+      line-height: 64px
+  
+    
+
+.section.is-contact
+  +mobile
+    background: linear-gradient(to bottom, $vibe-yellow 80px, $vibe-white 80px)
+  +tablet
+    background: linear-gradient(to bottom, transparent 360px, $vibe-white 220px)
+    position: relative
+    top: -360px
+    margin-bottom: -360px
+    padding-left: 80px
+    padding-right: 80px
+  .container
+    &.is-form
+      max-width: 950px
+    @media screen and (max-width: 900px)
+      .form.is-vibe-form .columns
+        display: block
+
+.section.is-bottom-cta
+  +desktop
+    .container
+      display: flex
+      justify-content: space-between
+      padding: 0 128px
+    .title
+      margin-bottom: 0
+  .cta .button
+    min-width: auto
