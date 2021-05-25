@@ -308,8 +308,19 @@ function getCartCount() {
 
 function getCartAmount() {
   return Object.keys(cart).reduce((acc, key) => {
-    const product = products.find((x) => x.product_id === key);
+    
+    //Extend - checking if it's a warranty as well, so we don't filter out plans, and we use the 'extend-protection-plan' in us-sales.md
+    const product = products.find((x) => ExtendShopifyBuy.isWarranty(cart[key]) ? x.product_id === 'extend-protection-plan' : x.product_id === key);
+    //Extend - End Extend Code
+
     if (product) {
+      
+      //Extend - If it's a plan, we want to use the plan price to calculate cart total
+      if(cart[key].customAttributes && (ExtendShopifyBuy.getCustomAttribute(cart[key].customAttributes, 'Vendor') === 'Extend')) {
+        var price = ExtendShopifyBuy.getCustomAttribute(cart[key].customAttributes, "Price");
+        product.price = price;
+      }
+      //Extend - End Extend Code
       return (
         acc + (product.discount_price || product.price) * cart[key].quantity
       );
