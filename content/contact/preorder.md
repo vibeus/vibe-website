@@ -20,59 +20,8 @@ contact:
           placeholder: Work Email*
           type: email
           required: true
-      - - name: company
-          placeholder: Company*
-          required: true
-        - name: industry_category
-          placeholder: Industry*
-          required: true
-          dropdown:
-            - Arts and Design
-            - Architecture and Construction
-            - Education
-            - Engineering
-            - Coaching and Training
-            - Consulting
-            - Financial Services
-            - Government and Organizations
-            - Health Care
-            - IT Services
-            - Legal
-            - Manufacturing
-            - Marketing and Advertising
-            - Real Estate
-            - Retail and Consumer Goods
-            - Technology
-            - Others
-        - name: company_size_classification
-          placeholder: Company Size*
-          required: true
-          dropdown:
-            - 1-10
-            - 11-100
-            - 101-500
-            - 501-1000
-            - 1001-5000
-            - 5001-10000
-            - 10001+
-      - - name: use_case
-          placeholder: Use Case*
-          required: true
-          dropdown:
-            - Remote Collaboration
-            - Home Office
-            - Distance Learning
-            - Homeschooling
-            - Meeting & Workshop
-            - Brainstorming & Ideation
-            - Presenting & Pitching
-            - Training & Coaching
-            - Enterainment
-            - Others
-        - name: phone
-          placeholder: Phone Number
-          type: tel
-        - name: country
+      - - name: country
+          column_class: is-one-third
           placeholder: Country*
           required: true
           dropdown:
@@ -324,7 +273,7 @@ contact:
             - Zambia
             - Zimbabwe
             - Åland Islands
-      - - name: address
+        - name: address
           placeholder: Address
       - - name: city
           placeholder: City
@@ -347,7 +296,7 @@ contact:
           type: textarea
     buttons:
       - type: submit
-        title: Submit
+        title: Request a Quote
         class: button is-rounded is-primary
     submitted:
       title: Thanks!
