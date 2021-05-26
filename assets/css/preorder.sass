@@ -8,13 +8,20 @@
   .title
     font-size: 40px
     line-height: 52px
+    text-align: left
+  +tablet-only
+    .title
+      margin-left: 20px
+      font-size: 36px
   +mobile
     max-height: 430px
     overflow-y: hidden
     .title
       width: 318px
+      font-size: 36px
       margin: 0 auto
       margin-bottom: 16px
+      text-align: center
     .is-hero-bg
       max-width: 375px
       margin: 0 auto
@@ -41,8 +48,8 @@
     .title
       font-size: 50px
       line-height: 64px
-  
-    
+
+
 
 .section.is-contact
   +mobile
