@@ -52,21 +52,22 @@ playbook:
       - - name: industry_category
           placeholder: Industry
           dropdown:
+            - Arts and Design
+            - Architecture and Construction
             - Education
+            - Engineering
             - Coaching and Training
+            - Consulting
+            - Financial Services
+            - Government and Organizations
             - Health Care
             - IT Services
-            - Computer Software
-            - Real Estate
-            - Architecture and Construnction
-            - Engineering
-            - Financial Services
-            - Consulting
+            - Legal
+            - Manufacturing
             - Marketing and Advertising
-            - Arts and Design
-            - Government and Organizations
-            - Home Office
-            - Personal Use and Entertainment
+            - Real Estate
+            - Retail and Consumer Goods
+            - Technology
             - Others
       - - name: job_role
           placeholder: Role
