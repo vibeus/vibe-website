@@ -609,6 +609,18 @@ other = "Learn more about Vibe"
 [i18n-content-career-_index-bottom_cta-cta-title]
 other = "See the product"
 
+[i18n-content-landing-demo-cancelled-title]
+other = "Live demo cancelled"
+
+[i18n-content-landing-demo-cancelled-hero-title]
+other = "Your registration has been successfully cancelled."
+
+[i18n-content-landing-demo-confirmed-title]
+other = "Live demo confirmed"
+
+[i18n-content-landing-demo-confirmed-hero-title]
+other = "Your registration has been successfully confirmed. We look forward to meeting you!"
+
 [i18n-content-landing-login-success-title]
 other = "Login Succeeded"
 
