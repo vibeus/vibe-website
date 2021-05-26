@@ -6,7 +6,7 @@
   {{ with .Params.hero }}
   <section class="hero{{ with .class }} {{ . }}{{ end }}">
     <div class="hero-body">
-      <h1 class="title">{{ T .title }}</h1>
+      <div class="title">{{ T .title | markdownify }}</div>
     </div>
   </section>
   {{ end }}

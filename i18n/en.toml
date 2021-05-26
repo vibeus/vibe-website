@@ -613,13 +613,17 @@ other = "See the product"
 other = "Live demo cancelled"
 
 [i18n-content-landing-demo-cancelled-hero-title]
-other = "Your registration has been successfully cancelled."
+other = """## Live Demo Cancelled
+
+Your registration has been successfully cancelled."""
 
 [i18n-content-landing-demo-confirmed-title]
 other = "Live demo confirmed"
 
 [i18n-content-landing-demo-confirmed-hero-title]
-other = "Your registration has been successfully confirmed. We look forward to meeting you!"
+other = """## Live Demo Confirmed
+
+Your registration has been successfully confirmed. We look forward to meeting you!"""
 
 [i18n-content-landing-login-success-title]
 other = "Login Succeeded"
