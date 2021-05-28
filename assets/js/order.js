@@ -500,7 +500,7 @@ function renderCart() {
   const root = document.getElementById('app-root');
   if (root) {
     ReactDOM.render(e(App), root, function() {
-      //Extend - Initialize cart offers
+      //Extend - Initialize cart offers, and aftermarket integration
       initCartOffer(addToCart, function(newCart) {
         cart = newCart;
         saveCart();
@@ -531,6 +531,11 @@ function addToCart(productId, count, customAttributes) {
     // document.querySelector('.button.is-cart-icon').click();
   }
 }
+
+//Extend - Initialize Aftermarket Integration
+initAfterInt(addToCart)
+//Extend - End Extend Code
+
 
 function setCartCount(productId, count) {
   if (!cart[productId]) {

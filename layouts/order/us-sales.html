@@ -14,6 +14,8 @@
 </script>
 {{ $src := resources.Get "js/extend/extend-utils.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/extend/extend-aftermarket-integration.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ $src := resources.Get "js/extend/extend-product-integration.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ $src := resources.Get "js/extend/extend-cart-integration.js" | resources.Fingerprint }}
