@@ -1,13 +1,13 @@
 ---
 title: Everything You Need to Know About Agile Planning
 slug: everything-you-need-to-know-about-agile-planning
-author: msnyder@vibe.us
-date: '2021-05-29'
+author: Vibe Team
+date: '2021-05-28'
 tags:
 - Leadership
 - Product Design
 - Project Management
-draft: true
+draft: false
 isfeatured: false
 description: Are you thinking about adopting an Agile planning method? Vibe explains what agile planning can do for your business
   and how to get started.
@@ -101,7 +101,7 @@ Kanban is a very visual approach to product development and can [improve produc
 
 This is a hybrid methodology that merges the structure of Scrum with Kanban’s fluidity. Instead of Scrum time limits, it utilizes Kanban work in progress limits to define each iteration and promote continuous workflow. This method is particularly forgiving for creative development projects that shift priorities frequently.
 
-{{< common/srcset "image-1.jpg" "Elements of agile planning can be found in a variety of design processes." >}}
+{{< common/srcset "image-1.jpg" "Elements of Agile planning can be found in a variety of design processes." >}}
 
 ## **Selecting the right tools for Agile planning**
 
