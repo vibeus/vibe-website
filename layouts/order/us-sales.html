@@ -24,6 +24,10 @@
 {{/*  {{ partial "common/nav" . }}
 {{ end }}  */}}
 
+{{ define "nav" }}
+{{ partial "common/nav" . }}
+{{ end }}
+
 {{ define "main" }}<main class="order">
 
 {{ with .Params.hero }}
