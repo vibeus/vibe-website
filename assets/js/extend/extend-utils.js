@@ -33,7 +33,7 @@ var ExtendShopifyBuy = {
           'Ref'
         );
       return (
-        customAttributes && referenceId && referenceId.toString() === variantId
+        customAttributes && !ExtendShopifyBuy.getCustomAttribute(customAttributes, 'Extend.LeadToken') && referenceId && referenceId.toString() === variantId
       );
     });
     return extendWarranties.length > 0;
@@ -49,7 +49,7 @@ var ExtendShopifyBuy = {
         var refToken = ExtendShopifyBuy.getCustomAttribute(
           customAttributes,
           'Extend.LeadToken'
-        );
+		);
       return customAttributes && refToken && refToken.toString() === leadToken;
     });
     return extendWarranties.length > 0;
@@ -78,11 +78,11 @@ var ExtendShopifyBuy = {
         customAttributes: customAttributes,
       };
 	  checkoutItems.push(item);
-	  console.log(checkoutItems)
     }
 
     //get updates, and if there are updates update the checkout variable, and return that to the callback
-    const updates = ExtendShopifyBuy.getCartUpdates(checkoutItems, balance);
+	const updates = ExtendShopifyBuy.getCartUpdates(checkoutItems, balance);
+	console.log(updates)
     if (updates) {
       for (id in updates) {
         checkout[id].quantity = updates[id];
@@ -100,7 +100,7 @@ var ExtendShopifyBuy = {
     //building out product-warranty relationship in products variable
     checkoutItems.forEach((item) => {
       //if we're on a warranty we use the ref id otherwise we use the item id
-      const productVariantId = ExtendShopifyBuy.isWarranty(item)
+      const productVariantId = (ExtendShopifyBuy.isWarranty(item) && !ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Extend.LeadToken'))
         ? ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Ref')
         : String(item.id);
       const product = products[productVariantId] || {
@@ -146,11 +146,11 @@ var ExtendShopifyBuy = {
         ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Vendor') ===
           'Extend' &&
         (!item.customAttributes ||
-          !(ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Ref') || ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Extend.LeadToken')))
+          !(ExtendShopifyBuy.getCustomAttribute(item.customAttributes, 'Ref')))
       ) {
         updates[item.id] = 0;
       }
-    });
+	});
     Object.keys(products)
       .map((key) => products[key])
       .forEach((product) => {

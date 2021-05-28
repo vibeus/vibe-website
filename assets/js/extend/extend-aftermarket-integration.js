@@ -36,6 +36,7 @@ function initAfterInt(addToCart) {
           ExtendShopify.getPlanVariant(plan, function (err, planVariant) {
             var term = ExtendShopifyBuy.getTerm(plan);
             addToCart(planVariant.variantId, quantity, [
+              { key: 'Ref', value: product.id },
               { key: 'Product', value: product.name },
               { key: 'Term', value: term },
               {
