@@ -171,6 +171,9 @@ apps:
   name: Skype for Business
   use_case: remote
   type: vc
+- id: com.microsoft.office.officehubrow
+  name: Office
+  type: productivity
 - id: com.microsoft.office.onenote
   name: Microsoft OneNote
   type: productivity
@@ -274,6 +277,9 @@ apps:
 - id: com.spotlightsix.zentimerlite2
   name: Insight Timer
   type: other
+- id: com.tcx.sipphone14
+  name: 3CX
+  type: communication
 - id: com.teamviewer.quicksupport.addon.universal
   name: TeamViewer Universal Add-On
   type: productivity

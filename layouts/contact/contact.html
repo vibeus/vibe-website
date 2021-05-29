@@ -5,6 +5,11 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title">{{ default .title (T .title) }}</h1>
+      {{ with .figure }}
+      <figure class="image is-hero-bg">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg" ) }}
+      </figure>
+      {{ else }}
       <div class="content">
         {{ range .body }}
         <div class="single-content-block{{ with .class }} {{ . }}{{ end }}">
@@ -20,6 +25,7 @@
         </div>
         {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>

@@ -1,11 +1,12 @@
 {{ $urls := split (.Get "urls") "," }}
+{{ $options := default "jpg" (.Get "options") }}
 <p class="image-grid">
   {{ range $urls }}
   {{ $resource := $.Page.Resources.GetMatch . }}
   {{ if not $resource }}
   {{ $resource = resources.Get . }}
   {{ end }}
-  {{ partial "common/srcset" (dict "resource" $resource "desktop" "1400x" "tablet" "700x" "options" "jpg" "alt" ($.Get "alt")) }}
+  {{ partial "common/srcset" (dict "resource" $resource "desktop" "1400x" "tablet" "700x" "options" $options "alt" ($.Get "alt")) }}
   {{ end }}
   {{ with (.Get "alt") }}
   <span class="caption">{{ . }}</span>
