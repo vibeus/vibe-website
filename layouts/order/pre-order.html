@@ -1,0 +1,168 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/react.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/react-dom.production.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+<script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+{{ end }}
+
+{{ define "nav" }}
+{{ partial "common/nav" . }}
+{{ end }}
+
+{{ define "main" }}<main class="pre-order">
+
+{{ range $idx, $val := .Params.hero }}
+{{ if gt $idx 0 }}
+<hr class="hero-split-line">
+{{ end }}
+<section class="hero" id="hero-{{ $idx }}">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-desktop is-vcentered">
+        <div class="column is-gallery">
+          <!--
+            glidejs does not support container in a flex box so we need some tricks here.
+            1. column is a flex box, with thubmains on the left, fixed width, and product-gallery on the right, flex=1
+            2. product-gallery makes sure its aspect ratio is same as actual images.
+            3. inside product-gallery, an absolute fill wrapper wraps glide, so that glide can determine correct size.
+            https://github.com/glidejs/glide/issues/233#issuecomment-609361003
+          -->
+          <div class="product-gallery">
+            <div class="aspect-ratio-keeper">
+              <div class="glide-wrapper">
+                <div class="glide"{{ with .autoplay }} data-autoplay="{{ . }}"{{ end }}>
+                  <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                      {{ range .gallery }}
+                      <li class="glide__slide">
+                        <figure class="image">
+                          {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "1280x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                        </figure>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnails">
+            {{ range .gallery }}
+            <figure class="image">
+              {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "160x" "options" "jpg #FFFFFF") }}
+            </figure>
+            {{ end }}
+          </div>
+        </div>
+        <div class="column is-text">
+          <h1 class="title">{{ default .item.title (T .item.title) }}</h1>
+          <div class="content">{{ default .item.body (T .item.body) | markdownify }}</div>
+          <hr class="top">
+          <div class="pre-order-item-price">
+            <span class="price-tag">Price</span>
+            <span class="original-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</span>
+            <span class="price-tag">Deposit</span>
+            <span class="deposit-price">${{ .item.deposit_price | lang.NumFmt (default 0 .precision) }}</span>
+          </div>
+          <div class="content is-shipping">{{ .shipping | markdownify }}</div>
+          <hr class="bottom">
+          <div class="field is-grouped is-add-to-cart" data-product-id="{{ .item.product_id }}">
+            <div class="control is-count has-icons-left has-icons-right">
+              <input class="input is-medium is-rounded is-black" type="number" value="1">
+              <span class="icon is-small is-left">
+                {{ partial "common/mdi" "minus" }}
+              </span>
+              <span class="icon is-small is-right">
+                {{ partial "common/mdi" "plus" }}
+              </span>
+            </div>
+            <div class="control is-add-cart">
+              <button class="button is-medium is-primary is-rounded is-fullwidth">Pre-Order Now</button>
+              {{ with .amazon }}
+              <div class="content is-amazon">
+                Also available on <a href="{{ . }}" target="_blank">Amazon</a>
+              </div>
+              {{ end }}
+              {{ if .item.backorder }}
+              <div class="content is-backorder">
+                {{ .item.backorder.item_notice | markdownify }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.contact }}
+<section class="section is-contact">
+  <div class="container is-title">
+    <h1 class="title">{{ default .title (T .title) }}</h1>
+    <div class="content">{{ default .body (T .body) | markdownify }}</div>
+  </div>
+  <div class="container is-form">
+    {{ with .form }}
+    {{ partial "common/form" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+<div class="modal is-cart" id="cart">
+  <div class="modal-background" data-target="cart"></div>
+  <div class="modal-content">
+    <div class="level is-cart-head is-mobile">
+      <div class="level-left">
+        <div class="level-item">
+          <span class="icon is-large is-close" data-target="cart">
+            {{ partial "common/mdi" "chevron-right:24" }}
+          </span>
+        </div>
+        <div class="level-item">
+          <p class="cart-title">My Cart</p>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <p class="item-count">1 item</p>
+        </div>
+      </div>
+    </div>
+    <div class="cart-items" id="app-root">
+    </div>
+    <div class="cart-bottom">
+      <div class="level is-cart-total is-mobile">
+        <div class="level-left">
+          <div class="level-item">
+            <p class="title">Subtotal</p>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <p class="title is-amount">$2,999.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <p>We provide complimentary shipping in the contiguous U.S.</p>
+      </div>
+      <div class="checkout">
+        <a class="button is-checkout is-large is-primary is-rounded is-fullwidth"
+           href="#">Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/pre-order.js" "products" .Params.products) }}
+</main>{{ end }}

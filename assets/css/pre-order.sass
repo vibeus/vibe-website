@@ -1,0 +1,84 @@
+@import "order-us-sales.sass"
+
+.hero-split-line
+  background-color: #E6E6E6
+  max-width: 1440px
+  margin: auto
+
+.hero
+  .column.is-text
+    hr.top
+      margin: 24px 0
+    .pre-order-item-price
+      marign-bottom: 8px
+      .price-tag
+        font-size: 14px
+        color: #BDBDBD
+        margin-right: 8px
+      .original-price, .deposit-price
+        font-size: 24px
+        font-family: $vibe-family-heading
+        font-weight: $vibe-bold
+      .original-price
+        color: #B2B2B2
+        margin-right: 32px
+      .deposit-price
+        color: $vibe-purple
+    .is-shipping
+      margin-top: 8px
+    .is-add-to-cart
+      +mobile
+        justify-content: center
+    .is-add-to-cart, .is-add-cart
+      .is-count
+        +mobile
+          margin-right: 16px
+          width: 100px
+      .button.is-medium, .input.is-medium
+        +mobile
+          font-size: 1rem
+          padding: calc(0.5em - 1px) 2.5em
+          ~ .icon
+            font-size: 1rem
+
+.section.is-contact
+  +vertical-padding(120px)
+  background-color: $vibe-white
+  .container
+    max-width: 950px
+  .is-title
+    text-align: center
+    .title
+      font-size: 50px
+    .content p
+      margin-bottom: 0.25em
+  .is-form
+    +tablet
+      background-color: white
+      padding: 60px 80px
+      margin-top: 60px
+    @media screen and (max-width: 900px)
+      .form.is-vibe-form
+        .columns
+          display: block
+        .column
+          width: 100%
+    .columns.is-buttons .control
+      text-align: center
+      .button
+        width: 224px
+        font-size: 16px
+    &.is-submitted .form
+      .columns, .privacy
+        visibility: hidden
+        opacity: 0 // mdb hack
+      .submitted
+        display: flex
+
+.section.is-bottom-cta
+  +desktop
+    .container
+      display: flex
+      justify-content: space-between
+    .is-section-title, .cta
+        margin: 0

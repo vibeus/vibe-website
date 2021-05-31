@@ -53,12 +53,12 @@
     a
       font-weight: $vibe-bold
       text-decoration: underline
-  .container.is-form.is-submitted
-    .form
+  .is-form.is-submitted .form
+    .columns, .privacy
       visibility: hidden
-      .submitted
-        display: flex
-        visibility: visible
+      opacity: 0 // mdb hack
+    .submitted
+      display: flex
 
 .form.is-vibe-form
   .input, .select select, .button, .textarea
