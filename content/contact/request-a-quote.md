@@ -28,13 +28,14 @@ contact:
         - name: industry_category
           placeholder: Industry*
           required: true
+          sortDropdown: true
           dropdown:
             - Arts and Design
             - Architecture and Construction
-            - Education
-            - Engineering
             - Coaching and Training
             - Consulting
+            - Education
+            - Engineering
             - Financial Services
             - Government and Organizations
             - Health Care

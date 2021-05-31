@@ -49,13 +49,14 @@ playbook:
             - 10001+
       - - name: industry_category
           placeholder: Industry
+          sortDropdown: true
           dropdown:
             - Arts and Design
             - Architecture and Construction
-            - Education
-            - Engineering
             - Coaching and Training
             - Consulting
+            - Education
+            - Engineering
             - Financial Services
             - Government and Organizations
             - Health Care
