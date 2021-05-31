@@ -40,13 +40,14 @@ contact:
         - name: industry_category
           placeholder: i18n-content-contact-_index-contact-form-controls-i_2-i_1-placeholder
           required: true
+          sortDropdown: true
           dropdown:
             - Arts and Design
             - Architecture and Construction
-            - Education
-            - Engineering
             - Coaching and Training
             - Consulting
+            - Education
+            - Engineering
             - Financial Services
             - Government and Organizations
             - Health Care

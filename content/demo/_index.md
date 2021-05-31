@@ -44,13 +44,14 @@ demo:
         - name: industry_category
           placeholder: i18n-content-demo-_index-demo-form-controls-i_2-i_1-placeholder
           required: true
+          sortDropdown: true
           dropdown:
             - Arts and Design
             - Architecture and Construction
-            - Education
-            - Engineering
             - Coaching and Training
             - Consulting
+            - Education
+            - Engineering
             - Financial Services
             - Government and Organizations
             - Health Care
