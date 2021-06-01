@@ -3,7 +3,8 @@ title: Supported blog post formats
 slug: supported-blog-post-formats
 author: jiulongw@vibe.us
 date: '2099-05-21'
-tags: []
+tags:
+- random tag
 draft: true
 isfeatured: false
 description: "This is a normal paragraph. This is a heading Normal paragraph again. {{< blog/number-callout \u201C42%\u201D\
