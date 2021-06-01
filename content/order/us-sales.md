@@ -82,12 +82,11 @@ products:
   - item: &id005
       product_name: extend-protection-plan
       title: i18n-content-order-_index-products-i_4-item-title
-      body: 
+      body:
       product_id: 'extend-protection-plan'
       figure: img/order/extend_icon.png
       sold_out: false
-      backorder:
-        false
+      backorder: false
   #Extend - End Extend Code
 
 hero:
