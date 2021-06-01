@@ -20,6 +20,8 @@ import {
   bindScrollTo,
 } from '{{ $js.RelPermalink }}';
 
+
+
 const e = React.createElement;
 const { useState, useEffect } = React;
 const products = JSON.parse(atob('{{ $products | jsonify | base64Encode }}'));
@@ -116,11 +118,29 @@ const LineItemControl = ({ productId, count }) => {
   );
 };
 
-const LineItem = ({ productId, count }) => {
-  const product = products.find((x) => x.product_id === productId);
+const LineItem = ({ productId, count, customAttributes }) => {
+  var product = products.find((x) => x.product_id === productId);
+
+  //Extend - If it's a warranty use the title and image attributes from us-sales.md
+  var isExtend = false;
+  if(customAttributes && (ExtendShopifyBuy.getCustomAttribute(customAttributes, 'Vendor') === 'Extend')) {
+    isExtend = true;
+    product = products.find((x) => x.product_id === 'extend-protection-plan');
+
+    var price = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Price");
+    product.price = price;
+
+    var productString = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Product");
+    var termString = ExtendShopifyBuy.getCustomAttribute(customAttributes, "Term");
+
+  }
+  //Extend - End Extend Code
+
   if (!product) {
     return null;
   }
+
+  
 
   let notice = null;
   if (product.sold_out) {
@@ -163,6 +183,31 @@ const LineItem = ({ productId, count }) => {
         },
         products_i18n[product.title]
       ),
+      //Extend - Add Cart Offer Element
+      e(
+        'div',
+        {
+          id: 'extend-cart-offer',
+          'data-extend-variant': productId,
+          'data-extend-quantity': cart[productId].quantity,
+        },
+      ),
+      //Extend - Add Product Name and Term to Warranty lineItems
+      e(
+        'p',
+        {
+          className: 'product-description',
+        },
+        isExtend ? `Product: ${productString}` : ''
+      ),
+      e(
+        'p',
+        {
+          className: 'product-description',
+        },
+        isExtend ? `Term: ${termString}` : ''
+      ),
+      //Extend - End Extend Code
       notice,
       e(
         'div',
@@ -195,6 +240,7 @@ const LineItem = ({ productId, count }) => {
 const App = () => {
   const lineItems = Object.keys(cart).reduce((acc, key) => {
     const { quantity: count, customAttributes } = cart[key];
+
     if (count > 0) {
       acc.push(
         e(LineItem, {
@@ -233,8 +279,13 @@ function saveCart() {
 }
 
 function filterCart(obj) {
+  
   return Object.keys(obj)
-    .filter((x) => !!products.find((p) => x === p.product_id))
+    /*
+    Extend - checking if it's a warranty as well, so we don't filter out plans
+    */
+    .filter((x) => !!products.find((p) => (x === (p.product_id)) || ExtendShopifyBuy.isWarranty(obj[x])))
+    //Extend - End Extend Code
     .reduce((o, key) => {
       // backward compatibility: old cart value is simply the quantity.
       const oo = obj[key];
@@ -258,8 +309,19 @@ function getCartCount() {
 
 function getCartAmount() {
   return Object.keys(cart).reduce((acc, key) => {
-    const product = products.find((x) => x.product_id === key);
+    
+    //Extend - checking if it's a warranty as well, so we don't filter out plans, and we use the 'extend-protection-plan' in us-sales.md
+    const product = products.find((x) => ExtendShopifyBuy.isWarranty(cart[key]) ? x.product_id === 'extend-protection-plan' : x.product_id === key);
+    //Extend - End Extend Code
+
     if (product) {
+      
+      //Extend - If it's a plan, we want to use the plan price to calculate cart total
+      if(cart[key].customAttributes && (ExtendShopifyBuy.getCustomAttribute(cart[key].customAttributes, 'Vendor') === 'Extend')) {
+        var price = ExtendShopifyBuy.getCustomAttribute(cart[key].customAttributes, "Price");
+        product.price = price;
+      }
+      //Extend - End Extend Code
       return (
         acc + (product.deposit_price || product.discount_price || product.price) * cart[key].quantity
       );
@@ -270,6 +332,7 @@ function getCartAmount() {
 }
 
 function processCheckout() {
+  
   processingCheckout = true;
   renderCheckout();
 
@@ -383,7 +446,14 @@ function setupAddCart() {
       adjustInput(1)
     );
     el.querySelector('.button').addEventListener('click', () => {
-      addToCart(productId, parseInt(input.value) || 0);
+      //Extend - HandleAddToCart to display modal, and add plans to the cart
+      const product = products.find((x) => x.product_id === productId);
+      var productTitle = products_i18n[product.title]
+      handleAddToCart(productId, productTitle, parseInt(input.value) || 0, addToCart, function(){
+        addToCart(productId, parseInt(input.value) || 0);
+        document.querySelector('.button.is-cart-icon').click();
+      })
+      //Extend - End Extend Code
     });
   });
 }
@@ -438,11 +508,20 @@ function renderCheckout() {
 function renderCart() {
   renderCartNumbers();
   renderCheckout();
-
   const root = document.getElementById('app-root');
   if (root) {
-    ReactDOM.render(e(App), root);
+    ReactDOM.render(e(App), root, function() {
+      //Extend - Initialize cart offers, and aftermarket integration
+      initCartOffer(addToCart, function(newCart) {
+        cart = newCart;
+        saveCart();
+        renderCart();
+      })
+      //Extend - End Extend Code
+    });
+    
   }
+  
 }
 
 function addToCart(productId, count, customAttributes) {
@@ -460,9 +539,14 @@ function addToCart(productId, count, customAttributes) {
     saveCart();
     renderCart();
 
-    document.querySelector('.button.is-cart-icon').click();
+    // document.querySelector('.button.is-cart-icon').click();
   }
 }
+
+//Extend - Initialize Aftermarket Integration
+initAfterInt(addToCart)
+//Extend - End Extend Code
+
 
 function setCartCount(productId, count) {
   if (!cart[productId]) {
@@ -472,6 +556,7 @@ function setCartCount(productId, count) {
     Math.max(count, MIN_ITEM_COUNT),
     MAX_ITEM_COUNT
   );
+
   saveCart();
   renderCart();
 }
