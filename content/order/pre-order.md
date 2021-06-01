@@ -20,7 +20,7 @@ products:
   - item: &id001
       product_name: vibe_board_75
       title: Vibe Pro 75" Digital Whiteboard
-      body: Vibe is an all-in-one solution that combines an interactive digital whiteboard and smart software on a 75" 4K Ultra HD display.
+      body: An all-in-one solution that combines an interactive digital whiteboard and smart software on a 75" 4K Ultra HD display.
       product_id: '39333799329843'
       price: 6999
       deposit_price: 700

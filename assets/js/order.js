@@ -26,7 +26,7 @@ const products = JSON.parse(atob('{{ $products | jsonify | base64Encode }}'));
 const products_i18n = {};
 // {{ range $idx, $it := $products }}
 // {{ $i18nKey := $it.title }}
-// {{ $i18nValue := T $it.title }}
+// {{ $i18nValue := default $it.title (T $it.title) }}
 products_i18n['{{ $i18nKey }}'] = '{{ $i18nValue }}';
 // {{ end }}
 const storageKey = 'order/cart';
@@ -174,7 +174,7 @@ const LineItem = ({ productId, count }) => {
           {
             className: 'product-price',
           },
-          moneyFmt.format(product.discount_price || product.price)
+          moneyFmt.format(product.deposit_price || product.discount_price || product.price)
         ),
         e(LineItemControl, { productId, count })
       )
@@ -261,7 +261,7 @@ function getCartAmount() {
     const product = products.find((x) => x.product_id === key);
     if (product) {
       return (
-        acc + (product.discount_price || product.price) * cart[key].quantity
+        acc + (product.deposit_price || product.discount_price || product.price) * cart[key].quantity
       );
     } else {
       return acc;
@@ -313,31 +313,33 @@ function processCheckout() {
 }
 
 function setupGallery() {
-  const el = document.querySelector('.product-gallery .glide');
+  const els = document.querySelectorAll('.product-gallery .glide');
 
-  const glide = new Glide(el, {
-    type: 'carousel',
-    autoplay: 6000,
-  });
-
-  const thumbs = Array.from(
-    document.querySelectorAll('.column.is-gallery .thumbnails .image')
-  );
-
-  thumbs.forEach((d, idx) => {
-    d.addEventListener('click', () => {
-      glide.go('=' + idx);
+  els.forEach((el) => {
+    const glide = new Glide(el, {
+      type: 'carousel',
+      autoplay: el.dataset.autoplay,
     });
+
+    const thumbs = Array.from(
+      el.closest('.hero').querySelectorAll('.column.is-gallery .thumbnails .image')
+    );
+
+    thumbs.forEach((d, idx) => {
+      d.addEventListener('click', () => {
+        glide.go('=' + idx);
+      });
+    });
+
+    const updateThumbs = () => {
+      thumbs.forEach((x) => x.classList.remove('is-active'));
+      thumbs[glide.index].classList.add('is-active');
+    };
+
+    glide.on('run.after', updateThumbs);
+    glide.on('mount.after', updateThumbs);
+    glide.mount();
   });
-
-  const updateThumbs = () => {
-    thumbs.forEach((x) => x.classList.remove('is-active'));
-    thumbs[glide.index].classList.add('is-active');
-  };
-
-  glide.on('run.after', updateThumbs);
-  glide.on('mount.after', updateThumbs);
-  glide.mount();
 }
 
 function setupCart() {

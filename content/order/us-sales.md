@@ -87,6 +87,7 @@ hero:
     url: /order/global-sales/
     text: Outside of US?
   amazon: https://www.amazon.com/gp/product/B081LPL772/ref=as_li_tl?ie=UTF8&tag=vibe0be-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B081LPL772&linkId=95dfdc3f7512c0ee8f046c0f1d4e59ae
+  autoplay: 6000
   gallery:
     - img/order/product-gallery-1.png
     - img/order/product-gallery-2.png

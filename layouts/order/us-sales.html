@@ -46,7 +46,7 @@
           <div class="product-gallery">
             <div class="aspect-ratio-keeper">
               <div class="glide-wrapper">
-                <div class="glide">
+                <div class="glide"{{ with .autoplay }} data-autoplay="{{ . }}"{{ end }}>
                   <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
                       {{ range .gallery }}
