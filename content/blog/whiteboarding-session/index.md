@@ -7,7 +7,7 @@ tags:
 - Digital Whiteboard
 - Meeting Techniques
 - Meetings
-draft: true
+draft: false
 isfeatured: false
 description: Leading a whiteboarding session and need advice on making it a success? Read our best tips for your first whiteboarding
   session.
