@@ -97,31 +97,41 @@
           <div class="discount-item-price">
             <span class="original-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</span>
             <span class="discount-price">${{ .item.discount_price | lang.NumFmt (default 0 .precision) }}</span>
-          </div>
-          {{ else }}
-          <div class="item-price">${{ .item.price | lang.NumFmt (default 0 .precision) }}</div>
-          {{ end }}
-          <div class="content is-shipping">
-            <p class="affirm">
+            <span class="affirm">
               Buy now, pay later with
               <a href="https://www.affirm.com/how-it-works" target="_blank">
                 {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
               </a>
-            </p>
-            {{ .shipping | markdownify }}
-          </div>
-          {{ with .global_sales }}
-          <div class="content is-global-sales">
-            <span class="icon global-sales-icon">
-              {{ (resources.Get "img/order/global-sales-icon.svg" | resources.Minify).Content | safeHTML }}
             </span>
-            <a class="global-sales-link" href="{{ .url }}">{{ .text }}</a>
+          </div>
+          {{ else }}
+          <div class="item-price">
+            <span>${{ .item.price | lang.NumFmt (default 0 .precision) }}</span>
+            <span class="affirm">
+              Buy now, pay later with
+              <a href="https://www.affirm.com/how-it-works" target="_blank">
+                {{ (resources.Get "img/order/affirm.svg" | resources.Minify).Content | safeHTML }}
+              </a>
+            </span>
           </div>
           {{ end }}
-          <hr class="bottom">
           <!-- Extend - Add Extend Offer To PDP Page -->
           <div id="extend-offer"></div>
           <!-- Extend - End Extend Code -->
+          <div class="hero-shipping">
+            <span>30-Day Returns</span>
+            <span class="separator">|</span>
+            <span>Free Shipping in the Contiguous U.S.</span>
+            {{ with .global_sales }}
+            <span class="global-sales">
+              <span class="icon global-sales-icon">
+                {{ (resources.Get "img/order/global-sales-icon.svg" | resources.Minify).Content | safeHTML }}
+              </span>
+              <a class="global-sales-link" href="{{ .url }}">{{ .text }}</a>
+            </span>
+            {{ end }}
+          </div>
+          <hr class="bottom">
           <div class="field is-grouped is-add-to-cart" data-product-id="{{ .item.product_id }}">
             <div class="control is-count has-icons-left has-icons-right">
               <input class="input is-medium is-rounded is-black" type="number" value="1">
