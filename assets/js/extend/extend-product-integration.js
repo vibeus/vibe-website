@@ -9,9 +9,25 @@ function renderProductOffer() {
     .getAttribute('data-product-id');
   if (variant) {
     var referenceId = variant;
-    window.Extend.buttons.render('#extend-offer', {
-      referenceId: referenceId,
-    });
+    window.Extend.buttons.render(
+      '#extend-offer',
+      {
+        referenceId: referenceId,
+      },
+      function () {
+        const iframe = document.querySelector('#extend-offer iframe');
+        if (!iframe) {
+          return;
+        }
+
+        setTimeout(function () {
+          const doc = iframe.contentWindow.document;
+          doc.querySelectorAll('.btn-offer').forEach((btn) => {
+            btn.style = 'border-radius:200px;font-size:12px';
+          });
+        }, 0);
+      }
+    );
   }
 }
 
