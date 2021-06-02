@@ -61,9 +61,9 @@
   background-color: $vibe-white
   +lang-override(".lang-zh")
     +vertical-padding(70px)
-    .name 
+    .name
       p:first-child
-        font-weight: 600
+        font-weight: $vibe-bold
   .content
     text-align: center
     padding-top: 12px
@@ -80,7 +80,7 @@
         p
           margin-bottom: 0
     text-align: center
-      
+
 .section.is-team
   // bottom padding should start from dots, not from the box shadow.
   // there is no box shadow in mobile so need to adjust.
@@ -183,7 +183,7 @@
 .hero
   +mobile
     +lang-override(".lang-zh")
-      .container 
+      .container
         .title
           font-size: 42px
           line-height: 67px
@@ -199,7 +199,7 @@
           margin: 0
       &.is-values .column
         margin-top: 40px
-      .container 
+      .container
         .is-section-title.title
           margin-bottom: 32px
           font-size: 30px
@@ -223,8 +223,8 @@
       .video-launcher
         margin-top: 30px
       .content.is-footnote
-        margin-top: 16px 
-        font-size: 12px 
+        margin-top: 16px
+        font-size: 12px
         margin-bottom: 36px
       .contact .title
         font-size: 22px
