@@ -11,6 +11,25 @@ function renderProductOffer() {
     var referenceId = variant;
     window.Extend.buttons.render('#extend-offer', {
       referenceId: referenceId,
+    }, function(){
+      //select extend iframe
+      var iframe = document.querySelector('#extend-offer iframe')
+
+      //if we have an iframe we will select that iframes document
+      var extendDocument = iframe ? iframe.contentWindow.document : null;
+      
+      window.setTimeout(function(){
+        //if we have a document, we will select all of the buttons, and then we can style those buttons accordingly
+        var offerBtns = extendDocument ? extendDocument.querySelectorAll('.btn-offer') : null;
+
+        if(offerBtns){
+          console.log(offerBtns)
+          offerBtns.forEach(function(btn) {
+            //be sure to use !important 
+            btn.style = "border-radius: 20px!important;"
+          })
+        }
+      }, 0)
     });
   }
 }
