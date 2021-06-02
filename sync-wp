@@ -51,6 +51,7 @@ def main(args):
             create_post(args.create)
         else:
             pull_posts(args)
+            pull_blog_categories(args)
     except exit_failure as e:
         print(Fore.RED + e.message + Style.RESET_ALL)
         sys.exit(1)
@@ -544,6 +545,41 @@ def fix_shortcode_quotes(content):
         return match.group(0).replace("“", '"').replace("”", '"')
 
     return re.sub(r"{{<.*?>}}", repl, content)
+
+
+def pull_blog_categories(args):
+    directory = os.path.join("content", "blog", "category")
+    os.makedirs(directory, exist_ok=True)
+
+    existing = set([x for x in os.listdir(directory) if x.endswith(".md")])
+
+    for id, c in categories_by_id.items():
+        if c["slug"] == "industries":
+            continue
+
+        name = c["slug"].lower() + ".md"
+        existing.discard(name)
+
+        is_industry = is_industry_category(id)
+
+        front_matter = {}
+        front_matter["stylesPath"] = "css/blog/styles.sass"
+        front_matter["layout"] = "category/single"
+        front_matter["url"] = "/blog/{}/{}/".format(
+            "industry" if is_industry else "category", c["slug"]
+        )
+        front_matter["category"] = c["slug"]
+        front_matter["categoryName"] = c["name"]
+        front_matter["isIndustry"] = is_industry
+
+        with open(os.path.join(directory, name), "w") as f:
+            f.write("---\n")
+            yaml.dump(front_matter, f, sort_keys=False, width=120)
+            f.write("---\n")
+
+    for name in existing:
+        print(f"Delete extra category: {name}")
+        os.remove(os.path.join(directory, name))
 
 
 if __name__ == "__main__":
