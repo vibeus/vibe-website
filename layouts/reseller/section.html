@@ -1,0 +1,32 @@
+{{ define "main" }}<main class="reseller">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h1 class="title">{{ default .title (T .title) | markdownify }}</h1>
+        <p class="subtitle">{{ default .body (T .body) | markdownify }}</p>
+      </div>
+      {{ with .cta }}
+      <div class="cta">
+        <a class="button is-hero-cta{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url | relLangURL }}">
+          {{ default .title (T .title) }}
+        </a>
+      </div>
+      {{ end }}
+      {{ with .figure }}
+      <figure class="image is-hero-bg">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+      </figure>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+</main>{{ end }}
