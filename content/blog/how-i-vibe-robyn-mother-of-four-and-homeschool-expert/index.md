@@ -11,6 +11,10 @@ tags:
 draft: false
 isfeatured: false
 description: Using technology for homeschooling is simpler with the right tools. Learn how one family makes it work.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Millions of parents around the world have recently taken on a new profession: teaching their children from home. While some households are figuring out how to run an at-home classroom for the first time, others have already established a homeschooling routine.

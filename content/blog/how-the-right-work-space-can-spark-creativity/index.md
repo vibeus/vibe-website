@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Learn how the right design can encourage creative thinking and collaboration at school or at work.
+categories:
+- distance-learning
+industries: []
 ---
 
 Have you ever noticed that you’re more productive in a certain room or building? Maybe you’re drawn to the configuration of furniture, the technology available, or even the general culture of the space. Whatever the reason, the way we think, feel, and act has a lot to do with the environment we’re in.

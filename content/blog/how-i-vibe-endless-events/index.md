@@ -12,6 +12,10 @@ draft: false
 isfeatured: false
 description: "When this event production company pivoted their business, Vibe\u2019s interactive whiteboard made the transition\
   \ seamless and collaboration better than ever."
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 In February and March 2020, it seemed like every event was canceled or postponed until further notice. And with the ongoing COVID-19 pandemic, it’s hard to imagine when large-scale live events will resume on a regular basis.

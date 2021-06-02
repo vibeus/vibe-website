@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Take back your time for focused, creative work by learning to manage work about work.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 On a typical workday, how much time do you actually spend on work that makes you feel engaged and motivated? If you’re like a lot of people, it’s probably not as much time as you’d like. In fact, it may seem like you’re spending more time than ever working on things that are related to work — but not exactly your job. This phenomenon is known as “work about work,” and it’s one of the greatest threats to productivity in the workplace today.

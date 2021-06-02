@@ -12,6 +12,10 @@ draft: false
 isfeatured: false
 description: Peter Parker helps clients all over the US develop cloud-forward data platforms. Learn how the Vibe smart whiteboard
   fits into his practice.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Peter Parker is the leader of the Advanced Analytics practice at Redapt. He’s worked at Microsoft, Lockheed Martin, Sprint, and other large organizations focused on complex data platforms. 

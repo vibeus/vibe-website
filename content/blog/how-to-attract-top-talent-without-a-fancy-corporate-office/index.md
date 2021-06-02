@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: With remote work becoming more popular, the best way to hire a great team is to rethink what the ideal job looks
   like.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Attracting top talent has changed significantly in recent years. It used to be all about decked-out offices, snacks on demand, stocked beverage carts, and lots of company swag. But today, when [80% of company leaders](https://www.hrdive.com/news/gartner-over-80-of-company-leaders-plan-to-permit-remote-work-after-pande/581744/) plan to allow employees to work remotely at least part of the time post-pandemic, these tactics can feel quite dated. Today’s workforce is more diverse than ever with employees who strictly work onsite, workers who come in a couple of times a week, and those who never set foot in the office.

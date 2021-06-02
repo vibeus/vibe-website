@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Learn how to use interactive whiteboards for designing and implementing distance learning lessons and classroom
   sessions.
+categories:
+- distance-learning
+industries: []
 ---
 
 ## What is distance learning?

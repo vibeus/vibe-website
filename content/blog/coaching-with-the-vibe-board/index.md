@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: Technology has been improving team performance for years. Digital whiteboards, like Vibe, take practices to the
   next level.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Facilitating a successful week of practices requires a lot of up-front planning and communication. Coaches have to meet and create a practice plan, review the previous game, and scout the upcoming opponent amongst other tasks.

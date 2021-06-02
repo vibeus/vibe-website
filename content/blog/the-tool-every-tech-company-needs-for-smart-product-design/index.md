@@ -10,6 +10,11 @@ tags:
 draft: false
 isfeatured: false
 description: Learn how a decision matrix can help your design team determine their priorities in a logical way.
+categories:
+- remote-collaboration
+industries:
+- engineering
+- technology
 ---
 
 Within the two seconds it took you to read this post’s title, 254 new devices connected to the internet. And let’s not forget that 90% of the world’s data was generated within the past two years alone. Technology is [changing faster than ever](https://techjury.net/blog/how-fast-is-technology-growing/#gref). Keeping up with the needs and demands of a tech-hungry society is no small feat. The pressure is on product designers to make improvements and introduce the latest and greatest technology.

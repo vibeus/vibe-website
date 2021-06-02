@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: Wondering how to ensure your kids are still socially active while learning remotely? We can show you how.
+categories:
+- distance-learning
+industries: []
 ---
 
 A few days ago, my 3-year-old said the most heartbreaking thing to me. “I want to play with kids my size.” Based on trying to stay as safe as possible, she hasn’t had any opportunity to see friends since everything went down in March. The closest she’s come is an older cousin, who’s great, but not her “size.”

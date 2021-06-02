@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: Learn how to build trusted relationships with your remote team using these strategies.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 It might seem intimidating to hire remote workers, especially if you’re never planning on meeting them face-to-face. However, remote workers may turn into some of your best employees. All you need to do is put in the work to ensure that you have a trusted relationship with your new team.

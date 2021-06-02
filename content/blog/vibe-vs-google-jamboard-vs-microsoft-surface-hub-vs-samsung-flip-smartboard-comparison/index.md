@@ -13,6 +13,9 @@ draft: false
 isfeatured: false
 description: Check out our smart board comparison for Microsoft Surface Hub, Google Jamboard, Samsung Flip, and Vibe to make
   the best decision for you.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Digital whiteboards, or smart boards, were invented to bring the tried-and-true dry erase whiteboard into the digital age.

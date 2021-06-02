@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Every process can benefit from a template. Learn how using a flowchart can organize your team and put your project
   on the right track.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 We’re a finger-pointing culture. When things go wrong, we tend to look for someone to blame. However, it is often the process, rather than the people, responsible for undesirable results. This concept from the [Shingo Model](https://shingo.org/shingo-model/) suggests that understanding our processes is the key to solving problems, making decisions, and creating a more successful business. To guide your journey of dissecting processes, recruit the help of a flowchart for a detailed picture of every step.

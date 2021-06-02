@@ -11,6 +11,9 @@ draft: false
 isfeatured: true
 description: Vibe was selected to participate in TechCrunch Disrupt Startup Battlefield 2020 alongside 19 other promising
   early stage technology companies.
+categories:
+- uncategorized
+industries: []
 ---
 
 Today was a big day for Vibe. Out of thousands of startups, [Vibe was chosen for a slot at Startup Battlefield](https://techcrunch.com/2020/09/10/announcing-the-startup-battlefield-companies-at-techcrunch-disrupt-2020/?tpcc=ECTW2020), an event that TechCrunch has held as part of its Disrupt event for the last ten years.

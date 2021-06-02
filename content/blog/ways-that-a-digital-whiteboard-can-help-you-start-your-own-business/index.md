@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Keep your new business connected to prospects and new clients with a digital whiteboard.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Thanks to the internet, starting your own business has become easier than ever. There are a ton of great resources that’ll help you assemble your own website, and promoting your company is a breeze with social media. Whether your business consists of just you, or a small team, you’ll still need to make sure that you’re clear about your end goals. Where do you see your company going by the end of the year? Or, in five years?

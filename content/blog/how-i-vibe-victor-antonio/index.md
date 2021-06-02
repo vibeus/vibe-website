@@ -10,6 +10,10 @@ tags:
 draft: false
 isfeatured: false
 description: Learn how Vibe helped Victor Antonio pivot his business plan to make the most of an uncertain time.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 It takes a lot to throw expert sales trainer Victor Antonio off his game.

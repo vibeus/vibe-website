@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: Adam Elbendary, CEO of digital marketing agency Cleverman, Inc., was looking for the right digital whiteboard
   for his new business.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Being a young CEO of a marketing start-up requires hustle. And with the need to move fast in a competitive market, you need tools that will keep pace with your ideas.

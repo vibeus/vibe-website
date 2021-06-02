@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Brainwriting helps teams generate their best ideas in a short amount of time. Learn why you should try it today
   and how Vibe can help.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 When you need to impress a client or target audience, you’re desperate for a winning idea. You could turn to consultants or sister companies for inspiration. But why would you use those when the best and brightest ideas are right in the heart of your company? Those people you call colleagues/teammates/employees are a wealth of information ready to be tapped into.

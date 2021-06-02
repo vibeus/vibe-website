@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: Teams can use synchronous or asynchronous communication for group collaboration. Learn the difference and when
   to use each method.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 You might not realize it, but your workplace communication strategies fall into two main categories. No, those categories aren’t “meetings” and “email,” though some days it might feel that way. We’re talking about synchronous communication vs. asynchronous communication.

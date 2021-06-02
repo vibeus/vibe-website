@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: "Stay connected to colleagues, friends, and family when you\u2019re working from home."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Right now, you may be fully adjusted to work-from-home life. You’ve likely mastered Zoom, and may have even interviewed new candidates for your company without ever meeting them in person. But even though work offers some methods for socializing online through text apps and virtual meet-ups, you may be looking for other ways to talk to people. If you were the type to enjoy water cooler conversations, that was likely a big part of your workday that’s tough to recreate during times like these.

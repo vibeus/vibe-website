@@ -9,6 +9,10 @@ tags:
 draft: false
 isfeatured: false
 description: Design your distance learning courses with accessibility in mind by using these helpful tips.
+categories:
+- distance-learning
+industries:
+- education
 ---
 
 More students are learning online than ever before. While many educators are gradually making the move back to the classroom, we can expect to see virtual learning continue. Accessibility remains a critical consideration for educators; online courses require review and structuring to ensure all students have an equal opportunity to learn. 

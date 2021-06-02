@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: "Need to run your first stand-up meeting? We\u2019re here to help with a quick guide to conducting successful\
   \ remote stand-up meetings."
+categories:
+- meeting-techniques
+industries: []
 ---
 
 You already know how [beneficial stand-up meetings](https://vibe.us/blog/8-benefits-of-daily-stand-up-meetings/) can be for your team, so making them part of the daily office routine is a no-brainer. But what if your team is distributed across multiple offices, or if all of your employees are 100 percent work-from-home? It’s still possible to run a remote stand-up that gets the team focused for the day. You’ll just need a plan.

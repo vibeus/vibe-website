@@ -11,6 +11,11 @@ draft: false
 isfeatured: false
 description: Learn how construction project management software paired with a Vibe whiteboard helps make complex engineering
   projects successful.
+categories:
+- how-i-vibe
+industries:
+- construction
+- customer-case-study
 ---
 
 Jonathan Wong, a planner/project manager for [Smith Bros. & Wilson, Ltd.](https://www.sbw.ca/), had a new type of project on his hands at the beginning of the coronavirus pandemic.

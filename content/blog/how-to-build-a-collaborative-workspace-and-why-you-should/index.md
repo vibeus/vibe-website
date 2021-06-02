@@ -13,6 +13,9 @@ draft: false
 isfeatured: false
 description: Have you been considering building a collaborative workspace? We can tell you how to do it and all the reasons
   you should.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 The workforce is more diverse and distributed than ever, and this new paradigm needs a new style of workspace to thrive. Companies are experimenting with ways to create new team spaces that are optimized for outside-the-box thinking.

@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: 'No more wondering if your team heard you: make every audio recording and conference call crystal-clear with
   these best practices.'
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Just as they’ve caused us to take stock of our home office backgrounds, conference calls have us all adjusting our audio settings from time to time. Whether it’s an echo, feedback, or just that hollow sound, [audio issues can be a real challenge](https://vibe.us/blog/challenges-of-working-from-home-and-how-to-overcome-them/) for remote and in-office employees alike.

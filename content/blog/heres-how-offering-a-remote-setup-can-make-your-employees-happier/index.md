@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: Discover how you can make your employees happier by offering them a remote set-up for work.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 I worked in an office for around seven years prior to taking the leap and becoming a freelancer. While there are definitely things I miss about working with people (like the in-person interaction and staff birthdays) the remote schedule released a ton of anxiety that I never knew I had before.

@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: The key to tackling your to-do list is learning to prioritize tasks and make good use of your time. An action
   priority matrix helps you do just that.
+categories:
+- remote-collaboration
+industries:
+- business
 ---
 
 We all have to-do lists. Whether they live on a fridge, a phone, or in our minds, we all have varying goals we’d like to accomplish. Unfortunately, many of these goals get kicked to the curb as we run out of time and resources — leading to a serious case of unproductivity. You may find yourself experiencing the following symptoms of this common issue:

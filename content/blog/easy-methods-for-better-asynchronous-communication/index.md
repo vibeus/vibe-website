@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Asynchronous communication is becoming more common. Learn how to create clear messages for yourself and your
   team.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Today, most of our work communications take place online rather than in person. In the coming years, we can expect to see the trend of asynchronous communication continue. Many of us are finding that communicating effectively across emails, messages, and social media isn’t as simple as it might seem. Between tones and typos, online communications leave plenty of room for misinterpretation and confusion.

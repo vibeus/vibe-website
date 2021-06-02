@@ -8,6 +8,9 @@ tags:
 draft: false
 isfeatured: false
 description: "What\u2019s the best remote work model for your company? Look at our guide to find out."
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Throughout 2020, companies around the world overhauled their day-to-day operations. Those that typically worked from a central location had to find ways to keep people employed and working without the daily routine of commuting to the office. If remote work wasn’t widely pursued before the COVID-19 pandemic, it certainly made a lot more sense when people began to work from home for the health and safety of our communities.

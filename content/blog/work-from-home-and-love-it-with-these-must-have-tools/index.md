@@ -13,6 +13,9 @@ description: "While remote work has been around ages, working from home is new f
   \ only 20% of employed adults whose jobs are suited for telecommuting actually worked from home. Today, 71% of these workers\
   \ do their jobs from home. When the pandemic struck, many workers only had days, or \u2026 \n\n\n[Continue reading \u201C\
   Work from Home and Love It with These Must-have Tools\u201D](https://cms.vibe.dev/2021/03/01/work-from-home-and-love-it-with-these-must-have-tools/)"
+categories:
+- remote-collaboration
+industries: []
 ---
 
 While remote work has been around ages, working from home is new for the majority of Americans. Before the pandemic, [only 20% of employed adults](https://www.pewresearch.org/social-trends/2020/12/09/how-the-coronavirus-outbreak-has-and-hasnt-changed-the-way-americans-work/) whose jobs are suited for telecommuting actually worked from home. Today, 71% of these workers do their jobs from home.

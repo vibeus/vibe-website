@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: Learn how to use Zoom, Microsoft Teams, Cisco WebEx, RingCentral Meetings, and other popular video conferencing
   apps before your next meeting.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 ## Video Conference Apps Compatible with Vibe

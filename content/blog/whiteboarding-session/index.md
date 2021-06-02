@@ -11,6 +11,11 @@ draft: false
 isfeatured: false
 description: Leading a whiteboarding session and need advice on making it a success? Read our best tips for your first whiteboarding
   session.
+categories:
+- meeting-techniques
+industries:
+- business
+- professional-services
 ---
 
 With the increase in e-learning, digital classrooms, gamification, and remote work, more individuals must lead online whiteboarding meetings. But running a successful whiteboarding session can feel a bit daunting. We’ll give you our best tips for running this type of session to help you prepare.

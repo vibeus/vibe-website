@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: The vocabulary of remote work is expanding, and this glossary of remote work terminology is here to help you
   understand the key phrases.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 The language in hospital dramas can be utterly confusing. (Unless you work in medicine, of course.) With all of that shorthand language flying across those fictional operating rooms, it’s hard to tell what’s being said or what any of it means. But with enough repetition, you become familiar with the jargon and can confidently follow the story.

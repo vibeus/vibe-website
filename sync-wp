@@ -23,6 +23,8 @@ users_by_id = {}
 users_by_name = {}
 tags_by_id = {}
 tags_by_name = {}
+categories_by_id = {}
+categories_by_name = {}
 
 originnal_url_map = {}
 
@@ -43,6 +45,7 @@ def main(args):
     try:
         init_users_dict()
         init_tags_dict()
+        init_categories_dict()
 
         if args.create:
             create_post(args.create)
@@ -75,6 +78,31 @@ def init_tags_dict():
         tags_by_name[o["name"].lower()] = o
 
     print(Style.DIM + f"Fetched {len(all_tags)} tags." + Style.RESET_ALL)
+
+
+def init_categories_dict():
+    headers = {}
+    headers["Authorization"] = "Bearer " + jwt_token
+
+    # categories does not support pages, so no list_all.
+    resp = requests.get(f"{API_ROOT}/categories?per_page=100", headers=headers)
+    if not resp.ok:
+        raise exit_failure(f"list_all {url} failed: {resp.text}")
+
+    all_categories = resp.json()
+    for o in all_categories:
+        categories_by_id[o["id"]] = o
+        categories_by_name[o["name"].lower()] = o
+
+    print(Style.DIM + f"Fetched {len(all_categories)} categories." + Style.RESET_ALL)
+
+
+def is_industry_category(category_id):
+    parent_id = categories_by_id[category_id]["parent"]
+    if parent_id == 0:
+        return False
+
+    return categories_by_id[parent_id]["name"] == "Industries"
 
 
 def init_jwt_token():
@@ -312,6 +340,16 @@ def process_post(post):
     front_matter["draft"] = post["status"] != "publish"
     front_matter["isfeatured"] = post["sticky"]
     front_matter["description"] = md(post["excerpt"]["rendered"]).strip()
+    front_matter["categories"] = [
+        categories_by_id[x]["slug"]
+        for x in post["categories"]
+        if not is_industry_category(x)
+    ]
+    front_matter["industries"] = [
+        categories_by_id[x]["slug"]
+        for x in post["categories"]
+        if is_industry_category(x)
+    ]
 
     # TODO: use post category to determine blog or video
     subfolder = "blog"
@@ -505,9 +543,7 @@ def fix_shortcode_quotes(content):
     def repl(match):
         return match.group(0).replace("“", '"').replace("”", '"')
 
-    return re.sub(
-        r"{{<.*?>}}", repl, content
-    )
+    return re.sub(r"{{<.*?>}}", repl, content)
 
 
 if __name__ == "__main__":

@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Are you are part of a remote group? We can show you the best ways to brainstorm with your group.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Some remote workers might feel a little self conscious to brainstorm during an actual meeting. And, there’s a lot of reasons why. For one, they may feel like they’re on display. It’s often hard to think up ideas if you’re worried about what your fellow remote workers think of your living space, especially during times like these. There’s also a chance that the lag, or fear of talking over someone else, might discourage an employee from speaking up.

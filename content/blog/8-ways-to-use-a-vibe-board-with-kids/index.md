@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: "A Vibe board is a quick and easy way to turn your home into a classroom that\u2019ll inspire distance learning."
+categories:
+- distance-learning
+industries: []
 ---
 
 By now, you probably know that digital whiteboards like the Vibe board are excellent to have in the workplace — especially if you’ve been working from home these days. It’s a great way to connect you with your team, especially with all of the functions that a traditional whiteboard doesn’t have.

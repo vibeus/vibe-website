@@ -13,6 +13,9 @@ description: "Just like teenagers, brands aren\u2019t immune to peer pressure an
   \ Companies may be compelled to design certain products in an attempt to keep up with the competition or establish a desired\
   \ brand identity. But, many fail to look to their audience for the design path they need to take. The \u2026 \n\n\n[Continue\
   \ reading \u201CHow Empathy Maps Bring You Closer to Your Audience and a Product That They\u2019ll Love\u201D](https://cms.vibe.dev/2021/04/07/how-empathy-maps-bring-you-closer-to-your-audience-and-a-product-they-love/)"
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Just like teenagers, brands aren’t immune to peer pressure and a desire to “find themselves.” Companies may be compelled to design certain products in an attempt to keep up with the competition or establish a desired brand identity. But, many fail to look to their audience for the design path they need to take.

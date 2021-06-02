@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: "Have you been wondering what Vibe is all about? Discover how Vibe got its name and why we\u2019re committed\
   \ to collaboration."
+categories:
+- leadership-and-management
+industries: []
 ---
 
 ## Why are we called Vibe?

@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: "You\u2019re working from home, so set yourself up for success. Create a home office that you\u2019ll love working\
   \ in."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 If you’re typically working from a cubicle, you’ve probably started to become more adjusted to working from a remote setting these past few weeks. You’ve gotten used to your Zoom meetings, and understand the importance of sending an email back on time. But since the world is likely going to keep their home offices until the summer (at least) you want to make sure your space is as cozy as possible.

@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Are you wondering how touch screen devices work? Check out our guide on touch screen devices and how they work.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 **Touchscreen displays** are rapidly increasing in popularity and create a more **modern and productive** [working environment](https://vibe.us/lp/scenario-professional-services/)**.** Significant improvements in touch interface technology’s accuracy have allowed touchscreens to evolve from clunky devices to **sleek, straightforward tools.**

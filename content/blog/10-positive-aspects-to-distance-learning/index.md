@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Considering distance learning? We can tell you 10 positive aspects of distance learning.
+categories:
+- distance-learning
+industries: []
 ---
 
 Even though school is over for the year, it’s still uncertain how schooling will go in the fall. Some states and districts have a plan in place, while others are likely going to stay remote for at least the end of the year. The shift has been hard on a lot of working parents. But, knowing that we’re all in this together truly does help.

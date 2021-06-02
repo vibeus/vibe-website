@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: "Can\u2019t get to a museum? You can still explore these inspiring institutions virtually."
+categories:
+- distance-learning
+industries: []
 ---
 
 Need a change of scenery? Mix things up and explore new ideas, works of art, and creations with a virtual museum tour. In light of the pandemic, more and more museums are providing access to their past and current collections. Virtual tours offer a safe, fun, and interesting way to learn a topic while also discovering a new place. Educators can even find curated resources to support instruction and generate conversation in the classroom. You’re sure to find something that will intrigue you in the list below. 

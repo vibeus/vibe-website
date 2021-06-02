@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: Make whiteboard brainstorming sessions even more effective with these meeting techniques.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 ## Brainstorm sessions are even more effective with a whiteboard

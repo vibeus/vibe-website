@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: Remote work is the way of the future. What remote collaboration tools do you need to make sure your work runs
   smoothly?
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Remote work is at its peak since the start of the COVID-19 pandemic in early 2020. According to Huffington Post, when asked what style of work they’d prefer, [38% of workers](https://www.huffpost.com/entry/work-from-home-permanent-survey_l_5ecd34d6c5b67f9b9befbc86) responded that they’d like a mix of remote and office work, with [27% saying they’d want to be fully remote](https://www.huffpost.com/entry/work-from-home-permanent-survey_l_5ecd34d6c5b67f9b9befbc86). For now, remote work isn’t going anywhere.

@@ -12,6 +12,10 @@ draft: false
 isfeatured: false
 description: Mark Smith, CEO of Leadershop Resource Institute, collaborates remotely with international clients using the
   Vibe digital whiteboard.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 As CEO of the Leadership Resource Institute in Washington, D.C., Mark Smith’s career revolves around coaching business executives on effective leadership practices, facilitating workshops and brainstorming sessions, and working with partners from all over the world to improve their organizational structures.

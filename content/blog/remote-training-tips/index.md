@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Want the best tips for developing a remote training plan? The Vibe team touches on the essentials of hosting
   remote training.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Remote work options are becoming more prevalent than ever, even among some of the world’s biggest companies. In fact, a survey from KPMG showed that [68% of large enterprises](https://amp.cnn.com/cnn/2020/08/25/business/office-space-remote-work-pandemic/index.html) are shifting to permanent remote work options and downsizing their office space. To facilitate a productive and effective remote workforce, many corporations are investing in remote training tools to help with the transition, [onboard new employees](https://vibe.us/blog/create-effective-onboarding-practices-for-your-remote-team/), and create an environment of lifelong learning.

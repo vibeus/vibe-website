@@ -10,6 +10,11 @@ draft: false
 isfeatured: false
 description: Virtual and hybrid events are here to stay. Are you prepared? Use these expert tips to make your next virtual
   event a success.
+categories:
+- meeting-techniques
+industries:
+- business
+- professional-services
 ---
 
 Think back to just a couple of years ago. How many of your organization’s events were in-person? Most organizations relied on in-person expos, conventions, conferences, lunch and learns, and workshops. Online events were often relegated to webinars and content streaming.

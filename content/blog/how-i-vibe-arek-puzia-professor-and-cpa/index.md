@@ -12,6 +12,10 @@ draft: false
 isfeatured: false
 description: Are you curious about how educators and professionals are using Vibe? Join us as we learn all about Arek Puzia,
   professor and CPA.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Diablo Valley College, a two-year community college in Northern California, serves a diverse population of 28,000 students across its two campuses in Pleasant Hill and San Ramon. When it came time to decide what the fall 2020 semester would look like, the answer was pretty clear: the majority of classes would be taught online.

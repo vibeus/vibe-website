@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: Learn how tennis coach Ian Westermann leverages technology to connect with the tennis community and help his
   players improve on the court.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Tennis coach and business owner Ian Westermann created a unique position for himself. What began as an everyday job as a tennis professional gradually evolved into a business that relies heavily on social media to grow, build, and maintain an active audience in the tennis community.

@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: "Google Meet, Hangouts, and Chat: what\u2019s the difference? We review the best features of each Google conferencing\
   \ app."
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Do you chat, hang out, or meet? Every team has its own style of communicating, which is why Google created over [271 products and services](https://www.matrics360.com/google-products-and-services/) to improve the way we work together. There’s an app for everything, but knowing which is right for you and your team can be challenging. To help you out, here’s a breakdown of Google’s top communication apps, their unique features, and examples of when to use each one.

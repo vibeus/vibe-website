@@ -11,6 +11,10 @@ tags:
 draft: false
 isfeatured: false
 description: Design client presentations that impress with an interactive whiteboard session.
+categories:
+- meeting-techniques
+industries:
+- professional-services
 ---
 
 Think about your most recent work project. Whether it was writing a sales report, redesigning the company blog, or developing a new invoicing system, you put your best effort into it. After all, your name was associated with the assignment. You owned it. You were determined to make the project work.

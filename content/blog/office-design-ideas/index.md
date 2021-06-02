@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: "A dedicated work space is a must for remote work. But if you don\u2019t have a room to yourself, then you need\
   \ these office design ideas for small spaces."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 If there’s more than one person in your household working or learning from home, workspace real estate is probably limited. Not everyone has space in their home for a fully dedicated office, but there are ways to create an environment for focused work. This article covers the best office design ideas for finding the right space, decor, and storage options for a workspace tailored to you.

@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Looking for a little inspiration? Check out these podcasts for a burst of creativity.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Podcasts have taken the world by storm in recent years, with 55% of all Americans having listened to at least one episode. There are countless options out there to add to your playlist — so many that you may have trouble finding which ones are worth your time. That’s why we’ve gathered a list of 10 must-listen podcasts for creatives, entrepreneurs, designers, and audio engineers. You’re sure to find your new favorite listen in the list below.

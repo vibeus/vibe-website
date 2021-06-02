@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: "Working from home has many challenges, but they\u2019re not insurmountable. Here are the top challenges and\
   \ how you can overcome them."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 While there are many benefits to remote work, it certainly isn’t without its challenges. [Recent statistics show](https://www.statista.com/statistics/1111401/challenges-of-working-remote-2020/) that 47% of people struggle with managing at-home distractions, 35% find it challenging to collaborate with teammates, and 29% lack motivation.

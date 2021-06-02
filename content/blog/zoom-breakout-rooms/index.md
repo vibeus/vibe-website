@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: "Heard of Zoom breakout rooms but aren\u2019t sure what they\u2019re about? We\u2019ll teach you the best practices\
   \ for using them in team meetings."
+categories:
+- meeting-techniques
+industries: []
 ---
 
 One of the main challenges of video conferencing is the inability for side or one-on-one conversations in a good setting. In an in-person meeting, you’re able to easily engage with multiple people at a time and return to the main group as necessary. The nature of video meetings makes doing so seem nearly impossible, but breakout rooms help to address this issue. 

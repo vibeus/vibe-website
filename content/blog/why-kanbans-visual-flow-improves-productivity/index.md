@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: The kanban system for project management could be the visual workflow your team has been looking for.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Whether you work for a start-up or a long-standing business, no one is immune to misuse of time and resources. In fact, [60% or less of work time](https://www.atlassian.com/time-wasting-at-work-infographic) is spent productively. Even the [world’s top automotive brand of 2020](https://driving.ca/toyota/auto-news/news/toyota-named-top-automotive-brand-in-interbrands-annual-top-global-brands), Toyota, once struggled to use their resources to compete with American car manufacturers efficiently.

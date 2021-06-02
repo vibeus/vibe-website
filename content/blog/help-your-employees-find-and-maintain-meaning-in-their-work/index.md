@@ -9,6 +9,9 @@ draft: false
 isfeatured: false
 description: Create an environment of feedback and continual learning for employees to promote meaningful work by following
   these steps.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 With winter settling in around the United States, the stress of the pandemic holding steady, and a million other things filling up never-ending to-do lists, the daily routine of working remotely can feel more like just another obligation instead of a meaningful and rewarding experience.

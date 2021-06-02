@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Are you wondering about how to implement an interactive whiteboard? Check out our guide on interactive whiteboards.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 [Interactive whiteboards](https://vibe.us/hardware/) are becoming more common as a **tool for education in the classroom and the workplace**. With the ability to use a display as a **touchscreen device**, an interactive whiteboard allows you to accomplish a wide range of tasks. By using this tool, multiple people can engage in a collaborative experience through a touchscreen and take notes, annotate content, and share screens.

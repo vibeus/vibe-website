@@ -11,6 +11,11 @@ draft: false
 isfeatured: false
 description: UX research is a valuable tool for understanding your consumers and creating the best products for them. Read
   on to learn about UX research methods.
+categories:
+- leadership-and-management
+industries:
+- business
+- technology
 ---
 
 You can learn a lot from numbers and financial statements. But to truly understand the success of a product or service, companies need to look to their consumers. Customers hold the power when it comes to choosing what items meet their needs. And this means you need a way to understand those needs. 

@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: There are plenty of pros to working from home, and you can turn your home office into a place that you love with
   your Vibe board.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Ever since March, we’ve been hearing about “the second wave” of coronavirus. The truth is, the first wave never officially left — we’ve just learned the best ways to live life while actively avoiding it. That said, plenty of reopenings around the nation have already been canceled to err on the side of caution. That means that you might still be working from the comforts of your home office — which might not seem too comfortable these days. After several months, the set-up may have lost its luster.

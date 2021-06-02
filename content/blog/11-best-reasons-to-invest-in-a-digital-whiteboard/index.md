@@ -10,6 +10,10 @@ draft: false
 isfeatured: false
 description: "Using digital whiteboards for your business or classroom improves communication, but the benefits don\u2019\
   t stop there."
+categories:
+- leadership-and-management
+industries:
+- technology
 ---
 
 By now, you’ve probably heard of digital whiteboards. While the technology has been around for some time, offices and classrooms have just recently started to fully embrace them. The global shift to remote work and distance learning has made the need for digital whiteboards greater than ever.

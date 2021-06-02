@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: Learn how the innovators at Fluxspace are using Vibe to design the collaborative learning environments of the
   future.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Educators understand the importance of designing lesson plans. They need to be current, appropriately challenging, and creative in a way that keeps students interested in learning more. So wouldn’t it make sense for classrooms, school libraries, and other resource centers to evolve in the same way?

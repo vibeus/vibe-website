@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: "Use Vibe\u2019s digital whiteboard in the classroom to express ideas and concepts. Vibe smart boards are ideal\
   \ for cooperative learning that engages students."
+categories:
+- distance-learning
+industries: []
 ---
 
 In education, learning through collaboration is more important than ever. Cooperative learning and collaborative work lead to the kinds of success and discovery that one person alone could never imagine. Learning and teamwork are at the core of everything we do at Vibe.

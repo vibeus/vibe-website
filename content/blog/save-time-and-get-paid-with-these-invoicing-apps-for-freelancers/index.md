@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: Make it easy to track invoices and run your business with these helpful apps.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Freelancers make up [34 percent of the United States workforce](https://www.linkedin.com/pulse/2020-50-americans-expected-working-independent-zubair-alexander/). This number is growing fast as people look for ways to create new means of income or supplement their salaries. One of the most attractive elements of freelancing is the freedom to be your own boss.

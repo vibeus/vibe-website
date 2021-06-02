@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: "Any workplace can say they\u2019re agile. You can start right now by reviewing these strategies for simplifying\
   \ your team\u2019s daily stand-up meeting."
+categories:
+- meeting-techniques
+industries:
+- technology
 ---
 
 Any workplace can say they’re agile, but that claim doesn’t mean much if you aren’t regularly seeking ways to improve the way you work. You can start right now by reviewing these strategies for simplifying your team’s daily stand-up meeting. (See that? You’re already one step closer to a more productive work day.)

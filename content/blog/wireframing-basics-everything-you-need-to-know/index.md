@@ -10,6 +10,10 @@ tags:
 draft: false
 isfeatured: false
 description: The basics of wireframing and how it can help with your next design project.
+categories:
+- leadership-and-management
+industries:
+- technology
 ---
 
 When you’re building something, you need a relatively simple way to convey the creation to stakeholders. In the world of architecture, that’s a blueprint. In the tech space, it’s a wireframe. Wondering what wire and frames have to do with applications and webpages? Not to worry; we’re breaking everything down for you below. 

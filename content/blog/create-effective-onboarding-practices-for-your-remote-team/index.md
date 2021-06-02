@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: Onboarding remote employees can be tricky, but these best practices have you covered.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Preparing your employees to do their best work and make the most of their time with your company is always important. Yet while many companies take their employees through some form of onboarding, far fewer take the time to develop a comprehensive onboarding experience.

@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: What makes video conferencing easier? A quality pair of wireless headphones. Find out our top picks and improve
   your next meeting.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 You may wear them around your neck, stash them in your pocket, or keep them in your ears the majority of the day. There’s no doubt that wireless headphones are a regular part of our lives. But now that more of us work from home, headphones are just as essential for our personal lives as they are for our professional lives. To help you stay at the top of your work-from-home game, we’ve gathered our picks of the best wireless headphones for video conferencing.

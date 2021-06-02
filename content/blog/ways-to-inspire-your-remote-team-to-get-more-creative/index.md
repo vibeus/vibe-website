@@ -10,6 +10,10 @@ tags:
 draft: false
 isfeatured: false
 description: Everybody could use a little inspiration sometimes. Learn strategies to inspire creativity amongst remote employees.
+categories:
+- remote-collaboration
+- uncategorized
+industries: []
 ---
 
 As a remote worker, there’s one issue I often have to face. Sometimes, I feel like I start working on autopilot. This also happened when I worked in an office environment, but at least I had people nearby to encourage me. A lull in the workday could be cured by a little bit of water cooler conversation. But at home, I don’t have those resources.

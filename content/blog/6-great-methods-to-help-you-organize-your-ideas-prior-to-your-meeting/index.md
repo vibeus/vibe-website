@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Learn techniques for running an effective meeting and keep your ideas organized.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 There’s nothing better than walking into a meeting feeling prepared. However, it’s very easy to lose that confidence — especially when presenting remotely. With more meetings happening virtually, you might be afraid to speak up. Or, you may be more focused on making sure the view behind you isn’t a complete mess. (It’s okay if it is — we’re all just trying to survive right now.)

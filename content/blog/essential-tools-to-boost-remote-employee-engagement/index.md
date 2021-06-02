@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Want to boost your remote employee engagement? Here are some of the most effective tools to promote employee
   producitivity.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Work from home is here to stay, and although it brings with it many benefits, it also comes with a unique set of challenges. From keeping productivity up to boosting employee morale, it’s more important than ever to know how to manage a remote team.

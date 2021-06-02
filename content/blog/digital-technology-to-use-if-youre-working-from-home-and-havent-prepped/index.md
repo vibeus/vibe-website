@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Are you suddenly a remote worker with no prep time? We can tell you what digital tech you need to be using.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 A lot of us got word that our offices would be closing amidst the panic of COVID-19. While it’s the right decision to stay safe and avoid exposure, it didn’t give many employees a good chance to really prep for the situation, especially if they’re new to the world of remote work.

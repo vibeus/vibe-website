@@ -10,6 +10,9 @@ draft: false
 isfeatured: false
 description: "Creating guidelines for work-from-home policies is key to successful remote collaboration. We\u2019ll outline\
   \ factors to consider when making WFH guidelines."
+categories:
+- leadership-and-management
+industries: []
 ---
 
 The shift to remote collaboration has presented many unique challenges, but it has also been an eye-opening experience for millions of people who used to work outside the home. The realization that so many jobs can be done well from nearly anywhere has expanded the possibility of offering flexible work options and giving employees more freedom in how to structure the work week.

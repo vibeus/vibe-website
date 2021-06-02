@@ -11,6 +11,10 @@ tags:
 draft: false
 isfeatured: false
 description: Using interactive technology during client presentations brings renovations to life.
+categories:
+- meeting-techniques
+industries:
+- construction
 ---
 
 Farmhouse sinks. Shiplap. Waterfall edge counters. Subway tile.

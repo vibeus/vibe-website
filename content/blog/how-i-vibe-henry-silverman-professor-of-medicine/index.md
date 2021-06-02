@@ -12,6 +12,10 @@ draft: false
 isfeatured: false
 description: Dr. Henry Silverman, a professor at the University of Maryland, teaches graduate students online and leads international
   training workshops.
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 Many colleges and universities are unsure of what the fall semester will look like amidst the coronavirus pandemic. But at least one professor already has his plan in place.

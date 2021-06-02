@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: "What\u2019s the difference between remote-first and remote-friendly? Learn that and more helpful tips to design\
   \ your ideal remote work plan."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Living and working through a pandemic requires changes that were unimaginable even just five years ago. For companies hoping to sustain business or even thrive during this time, there is no more “business as usual.” Instead, they’ll need to overhaul how their teams will work together not only in the coming months, but much farther into the future. And that overhaul starts with a remote-first mentality.

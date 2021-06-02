@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: Are you thinking about adopting an Agile planning method? Vibe explains what agile planning can do for your business
   and how to get started.
+categories:
+- leadership-and-management
+industries:
+- technology
 ---
 
 Are you looking for a better product development process that can **adapt to an ever-evolving competitive market** and satisfy growing customer expectations? Then Agile planning could be right for you. Agile is a popular development methodology that focuses on end-user satisfaction and prioritizes project requirements based on customer feedback.

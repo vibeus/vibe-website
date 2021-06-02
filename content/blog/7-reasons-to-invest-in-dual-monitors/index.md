@@ -9,6 +9,9 @@ draft: false
 isfeatured: false
 description: How can dual monitors help you work more efficiently? Read our top reasons to invest in a dual monitor setup,
   plus tips for installation.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Every business wants its employees to be as efficient and productive as possible. So, how do you create a workspace that encourages this? There are many ways to boost performance in the workplace, but switching to dual monitor setups is one affordable and easy way to do it.

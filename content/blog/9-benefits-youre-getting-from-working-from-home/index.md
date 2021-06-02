@@ -9,6 +9,9 @@ tags:
 draft: false
 isfeatured: false
 description: "Working remotely can be beneficial. Learn the perks you\u2019re getting by working from home."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 You’ve probably been spending a lot of time indoors these days. Even though certain states and attractions are opening up, many locations are still seeing huge spikes in coronavirus cases. If your office is still letting you stay home, you should take them up on the offer. It’s really the best option for your health — but, it also has a lot of hidden perks.

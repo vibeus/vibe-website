@@ -9,6 +9,9 @@ draft: false
 isfeatured: false
 description: Are you looking for ways to make your remote team more efficient? Check out our guide on collaborative tools
   for your remote team.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Today, more and more companies are discovering resources and implementing tools that allow their employees to optimize productivity and efficiency while working from the [comfort of their own homes](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/). Below, we’ve put together a list of some of the best tools your remote team can use to collaborate.

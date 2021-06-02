@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Is hiring a director of remote work the right decision for your company? That all depends.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Options for remote work are much more vast than they were even a year ago. As employees and employers navigate a new workplace, new challenges will arise around employee engagement, talent acquisition, productivity, and benefits. Traditional HR department functions may not take these challenges into consideration from a remote or hybrid perspective.

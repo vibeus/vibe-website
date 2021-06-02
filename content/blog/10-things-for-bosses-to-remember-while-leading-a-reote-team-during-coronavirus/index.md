@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: How do you lead a remote team during coronavirus? We can tell you the 10 things every boss should remember.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Business owners everywhere were put in a tough spot recently. Based on the spread of the coronavirus, workers worldwide were given the opportunity to work from home. While it’s not the most ideal situation for certain households, it’s definitely better than the alternative—a layoff or a complete shutdown.

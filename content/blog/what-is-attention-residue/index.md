@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Help your team manage both their emotions and their workload by understanding the effects of attention residue.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 When it comes to working through the pandemic, many of us are feeling tired, distracted, or at least half way there. The emotional challenges of the pandemic have taken hold on the national workforce with [78% of adults citing it as a significant source of stress](https://www.apa.org/news/press/releases/stress/2020/report-october) in their lives. If it feels more difficult to concentrate on work than ever before, you may be experiencing a phenomenon known as attention residue.

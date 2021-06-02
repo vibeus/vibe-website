@@ -9,12 +9,17 @@ tags:
 - Remote Learning
 draft: false
 isfeatured: false
-description: Remote learning can be a challenge. These tips will help you maintain student engagement with every lesson.
+description: Remote learning can be a challenge for students and teachers alike. These tips will help you maintain student
+  engagement with every lesson.
+categories:
+- distance-learning
+industries:
+- education
 ---
 
 Getting your students’ attention? Not always easy. Keeping their attention? A challenge. Retaining it in a remote setting? It can feel like a real struggle.
 
-There are lots of [positive aspects to distance learning](https://vibe.us/blog/how-to-build-the-foundation-of-an-accessible-online-course/). However, for some students (of any age), it can be more difficult to stay present and engaged in a digital learning experience. Educators can help keep their students’ attention, increase engagement, and improve retention of concepts through the following best practices. 
+There are lots of [positive aspects to distance learning](https://vibe.us/blog/how-to-build-the-foundation-of-an-accessible-online-course/). However, for some students (of any age), it can be more difficult to stay present and engaged in a digital learning experience. Educators can help keep their students’ attention, increase engagement, and improve retention of concepts through the following best practices.
 
 ## Track engagement with elementary students
 
@@ -26,7 +31,7 @@ Give students opportunities to share their understanding throughout the lesson i
 
 Need to do a quick overview of yesterday’s concepts? Try a Zoom chat quiz. These informal tests don’t have to be taken for a grade. Instead, they can help you determine what to review and what to move onto next. For best results, stick to a handful of key questions. You can try True/False or multiple choice for easy scanning of responses.
 
-***Related:*** [Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)
+***Related:* [Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)**
 
 ## Put a new spin on discussion for middle and high school students
 
@@ -39,7 +44,7 @@ The discussion format is one of the most popular options for in-person and remot
 - Use a round-robin format to allow each group to share their discussion.
 - As other groups present, students can record their thoughts on the information and presentations in a Google Sheet.
 
-This new take on the traditional discussion allows for personal and group reflection while strengthening written and verbal communication skills. 
+This new take on the traditional discussion allows for personal and group reflection while strengthening written and verbal communication skills.
 
 ## Create project showcases and virtual lounges for higher education
 
@@ -53,6 +58,6 @@ We’d be remiss if we didn’t mention just how engaging a smart whiteboard fro
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

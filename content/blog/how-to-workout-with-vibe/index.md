@@ -8,6 +8,9 @@ tags:
 draft: false
 isfeatured: false
 description: Home workouts are more fun with a Vibe board. Stay healthy and active with these tips.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 Exercise is proven to better our physical and mental health, both of which have likely suffered during the pandemic. In fact, a study from International Journal of Environmental Research and Public Health found that [41.2% of at-home workers reported low back pain, while 23.5% reported neck pain](https://www.verywellhealth.com/remote-work-health-risks-5080056). Doctors suggest that [exercise can stretch, strengthen, and repair muscles to support the back](https://www.spine-health.com/wellness/exercise/how-exercise-helps-back) and alleviate pain.

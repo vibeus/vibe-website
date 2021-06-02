@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: "It\u2019s time to level up from the traditional whiteboard. Learn about digital whiteboarding sessions, presentations,\
   \ and meetings with our guide."
+categories:
+- remote-collaboration
+industries: []
 ---
 
 The whiteboard has been a popular medium for problem solving since its early introduction to the workplace in the 1990s. So popular, in fact, that whole modes of collaboration have sprung up around it.

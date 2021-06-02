@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: Learn how to take a screenshot on almost any device with our handy guide.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 With every new piece of tech equipment we invest in, the search query becomes even more inevitable: how do I take a screenshot on this? The brief click of a button, or even the sound of our voice, lets us grab any image on screen. A time-saving and versatile feature, knowing how to take a screenshot is a must for our visual world.

@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: "Using video conferencing in the classroom boosts engaged learning, but where do you get started? We\u2019ll\
   \ show the way."
+categories:
+- distance-learning
+industries: []
 ---
 
 Many of today’s educators grew up copying notes from a blackboard. (Or maybe it was more like trying to read the teacher’s handwriting amidst the swirls of chalk and faint eraser marks leftover from the previous lesson.) Younger teachers remember when overhead projectors were installed from the classroom ceilings. Then, PowerPoint presentations lit up projector screens with the shining light of progress.

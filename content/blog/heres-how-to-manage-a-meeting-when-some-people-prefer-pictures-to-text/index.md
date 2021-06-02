@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: "Adding visuals to your presentation can make every meeting more interesting. We\u2019ll show you the right way\
   \ to use more images in presentations."
+categories:
+- meeting-techniques
+industries: []
 ---
 
 It took me a long time to realize that everyone has their own strengths and weaknesses. For example, back in high school, I could study for hours for a chemistry test. But as much as I tried, my brain just wasn’t able to fully absorb the information in an easy way. When it comes to complex science, my brain often decides to shut down.

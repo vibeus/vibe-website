@@ -12,6 +12,9 @@ draft: false
 isfeatured: false
 description: Visual presentation styles encourage active audience engagement. Sounds good to us! Follow this advice to make
   an impact.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 One of my biggest faults as a person is that I’m bad with directions. Back in the day before GPS, I used to take the route I knew over a new route that would make more sense, even if it added 15 minutes to my trip. When asked what highway I took, I blanked on the numbers. The biggest fear I have is someone asking me for directions, since I know I’ll lead them in the wrong direction.

@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: Make the most of remote interviews with proven techniques for both interviewers and job seekers
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Video conferencing isn’t an entirely new medium to most of us. What is new, though, is conducting the entire interview and hiring process through a computer screen.

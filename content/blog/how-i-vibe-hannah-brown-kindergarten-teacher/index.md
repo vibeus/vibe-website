@@ -11,6 +11,10 @@ draft: false
 isfeatured: false
 description: "Interactive digital whiteboards in the classroom are a fun way to bring STEM to students. If you\u2019re interested\
   \ in a digital whiteboard for teachers, see some of Hannah B\u2019s ideas for using technology in the classroom."
+categories:
+- how-i-vibe
+industries:
+- customer-case-study
 ---
 
 In today’s kindergarten classroom, you’ll find that coloring sessions and story time look a little different than they did even just 20 years ago.

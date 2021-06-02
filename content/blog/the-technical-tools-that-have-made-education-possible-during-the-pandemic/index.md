@@ -8,6 +8,10 @@ tags:
 draft: false
 isfeatured: false
 description: Is a good education still obtainable during the pandemic? Check out the technical tools that make it possible!
+categories:
+- distance-learning
+industries:
+- technology
 ---
 
 ## The new innovation in education

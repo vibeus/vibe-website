@@ -11,6 +11,9 @@ draft: false
 isfeatured: false
 description: Foster a culture of success, create more cohesive teams, and other benefits of running Agile-style daily stand-up
   meetings.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Stand-up meetings are one of the best and most effective ways to motivate a high-performing team. The concept is pretty simple: it’s a brief team meeting, held every day, to cover key aspects of ongoing projects. And regular stand-up meetings could mean fewer meetings overall—win! So if your goal is to create a culture of success in an agile workplace, read on to learn how this daily check-in could lead to a more cohesive team.

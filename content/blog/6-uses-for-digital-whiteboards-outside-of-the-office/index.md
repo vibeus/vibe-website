@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Digital whiteboards can go beyond meetings to make your home office and distance learning more effective.
+categories:
+- remote-collaboration
+industries: []
 ---
 
 When you think of whiteboards, you probably think of office meetings. And that makes sense. That’s where many of us were first introduced to them. However, digital whiteboards are so versatile that they’ve got plenty of purposes even outside of the office.

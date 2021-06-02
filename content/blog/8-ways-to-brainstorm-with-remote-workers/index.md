@@ -11,6 +11,9 @@ tags:
 draft: false
 isfeatured: false
 description: Brainstorming techniques for remote teams make for more productive meetings.
+categories:
+- meeting-techniques
+industries: []
 ---
 
 Having a remote team can be a lot of fun. When you make connections with them and work together, you’ll be reminded by how much has changed in the working world in just the last couple of decades. Within seconds, you can easily be talking to, and collaborating with, someone from another country.

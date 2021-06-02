@@ -11,6 +11,10 @@ description: "This is a normal paragraph. This is a heading Normal paragraph aga
   \ >}} This is a called out number. Number is show really big! {{< /blog/number-callout >}} {{< blog/fancy-quote \u201CAuthor\
   \ Name\u201D >}} This is a fancy quote. {{< /blog/fancy-quote >}} This is a normal quote, use word-press own quote block.\
   \ Author, if \u2026 \n\n\n[Continue reading \u201CSupported blog post formats\u201D](https://cms.vibe.dev/?p=758)"
+categories:
+- how-i-vibe
+industries:
+- business
 ---
 
 This is a normal paragraph.

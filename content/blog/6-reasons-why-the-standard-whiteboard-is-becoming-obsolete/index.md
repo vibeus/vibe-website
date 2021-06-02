@@ -10,6 +10,9 @@ tags:
 draft: false
 isfeatured: false
 description: Traditional whiteboards are being replaced with digital whiteboards with touchscreens.
+categories:
+- leadership-and-management
+industries: []
 ---
 
 Whiteboards are, without a doubt, a great way to communicate with other people. In college, the whiteboard was the perfect addition to your dorm door. It inspired friends to draw pictures, and leave kind notes behind. Back then, it was a convenient way to see who stopped by.
