@@ -7,7 +7,7 @@ tags:
 - Leadership
 - Project Management
 - Remote Team Management
-draft: true
+draft: false
 isfeatured: false
 description: Want to be a better project manager? Vibe illuminates several project management best practices and examples
   to get you on track.
