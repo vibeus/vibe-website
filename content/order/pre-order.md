@@ -33,8 +33,8 @@ products:
       title: Portable Stand for Vibe Pro 75"
       body: Compatible with Vibe Pro 75" Digital Whiteboard. All metal design, simple and durable. Easily to move. Make any room a dynamic teamwork space.
       product_id: '39384958238771'
-      price: 1999
-      deposit_price: 200
+      price: 899
+      deposit_price: 90
       figure: img/order/pre-order/stand-gallery-1.png
       backorder:
         item_notice: Shipping begins August 2021
