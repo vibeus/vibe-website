@@ -55,7 +55,7 @@ Educational online tools and applications are videos, games, widgets, assessment
 
 A popular educational online tool is [Kahoot](https://kahoot.it/). This customizable app allows teachers to create quizzes, games, and surveys about any subject matter that engages and challenges the students to compete in course comprehension.
 
-{{< "blog/cta-1 "Learn how Vibe makes a difference in education" "https://vibe.us/lp/scenario-education" >}}
+{{< blog/cta-1 "Learn how Vibe makes a difference in education" "https://vibe.us/lp/scenario-education" >}}
 
 ## Benefits of hybrid learning
 
