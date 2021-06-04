@@ -7,7 +7,7 @@ tags:
 - Client Presentations
 - Meeting Techniques
 - PowerPoint
-draft: true
+draft: false
 isfeatured: false
 description: "You\u2019ve probably made a PowerPoint before, but how memorable was it? Learn how to make PowerPoint presentations\
   \ that impress."
