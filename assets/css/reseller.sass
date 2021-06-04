@@ -88,7 +88,8 @@
         background-color: black
         color: white
     +mobile
-      height: 410px
+      justify-content: flex-start
+      height: auto
       padding: 40px 40px
       .image
         width: 78px
@@ -98,6 +99,7 @@
       .cta .button
         font-size: 16px
         padding: 12px 28px
+        margin-top: 24px
     +tablet
       +until-widescreen
         padding: 40px 40px
@@ -117,6 +119,12 @@
           font-size: 16px
         .cta .button
           font-size: 18px
+      +tablet-only
+        padding: 40px 20px
+        &:hover
+          padding: calc(40px + 0.75rem) 20px
+          .title, .body
+            width: calc(100% - 1.5rem)
     +widescreen
       padding: 80px 40px
       &:hover
