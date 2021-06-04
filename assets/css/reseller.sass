@@ -74,7 +74,6 @@
   .column
     padding: 1.25rem
   .is-feature
-    padding: 80px 44px
     border-radius: 20px
     height: 551px
     .title, .body
@@ -105,8 +104,9 @@
         height: 460px
         &:hover
           margin: -0.75rem
+          margin-top: -1.5rem
           height: calc(460px + 1.5rem)
-          padding: calc(40px + 0.75rem) 24px
+          padding: calc(40px + 0.75rem) 40px
           .title, .body
             width: calc(100% - 1.5rem)
         .image
@@ -118,10 +118,12 @@
         .cta .button
           font-size: 18px
     +widescreen
+      padding: 80px 40px
       &:hover
         margin: -0.75rem
+        margin-top: -1.5rem
+        padding: calc(80px + 0.75rem) 40px
         height: calc(551px + 1.5rem)
-        padding: calc(80px + 0.75rem) 44px
         .title, .body
           width: calc(100% - 1.5rem)
 
