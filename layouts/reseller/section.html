@@ -4,9 +4,14 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
+      {{ with .figure }}
+      <figure class="image is-hero-bg">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+      </figure>
+      {{ end }}
       <div class="title-text">
         <h1 class="title">{{ default .title (T .title) | markdownify }}</h1>
-        <p class="subtitle">{{ default .body (T .body) | markdownify }}</p>
+        <div class="body">{{ default .body (T .body) | markdownify }}</div>
       </div>
       {{ with .cta }}
       <div class="cta">
@@ -16,17 +21,51 @@
         </a>
       </div>
       {{ end }}
-      {{ with .figure }}
-      <figure class="image is-hero-bg">
-        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-      </figure>
-      {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 
+{{ with .Params.feature_columns }}
+{{ partial "common/feature-columns" . }}
+{{ end }}
+
+{{ with .Params.benefits }}
+<section class="section is-benefits">
+  <div class="container">
+    {{ if .title }}
+    <div class="header">
+      <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
+      {{ with .body }}
+      <div class="body">{{ default . (T .) }}</div>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="benefits-grid">
+      {{ range $idx, $val := .features }}
+      <div class="is-benefit is-benefit-{{ $idx }}">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x" "options" "jpg #FFFFFF") }}
+          </figure>
+          <h2 class="title">{{ .title | markdownify }}</h2>
+          <div class="body">{{ .body | markdownify }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ with .cta }}
+  {{ partial "common/section-cta" . }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+{{ partial "common/faq-section" . }}
+{{ end }}
+
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}
 {{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/reseller.js") }}
 </main>{{ end }}
