@@ -94,24 +94,39 @@
       color: $vibe-gray
       text-decoration: line-through
     .discount-price
-      font-size: 30px
+      font-size: 24px
       color: $vibe-pink
   .item-price
     margin-top: 16px
     margin-bottom: 2px
-    font-size: 30px
+    font-size: 24px
     font-weight: $vibe-bold
     font-family: $vibe-family-heading
     color: $vibe-purple
-  .content.is-shipping, .content.is-amazon, .content.is-global-sales
+  .hero-shipping
+    font-size: 12px
+    a
+      text-decoration: underline
+    +tablet
+      .separator
+        margin-left: 16px
+        margin-right: 16px
+      .global-sales
+        margin-left: 16px
+    .global-sales
+      white-space: nowrap
+  .content.is-amazon
     font-size: 16px
     line-height: 1.5
     +mobile
       font-size: 14px
-  .content.is-shipping .affirm
-    margin-bottom: 4px
-    svg
-      height: 16px
+  .discount-item-price, .item-price
+    .affirm
+      font-size: 12px
+      font-weight: normal
+      color: #828282
+      svg
+        height: 16px
   .content.is-global-sales
     margin-top: 4px
     display: flex
@@ -411,7 +426,7 @@ input[type=number]
     +mobile
       margin: -20px 0 -0px 0
     span
-      font-weight: 600
+      font-weight: $vibe-bold
     &:hover
       background: #111111
       span
@@ -444,7 +459,7 @@ input[type=number]
       span
         width: 380px
         height: 50px
-        font-weight: 600
+        font-weight: $vibe-bold
         font-size: 24px
         line-height: 33px
         margin-bottom: 20px
