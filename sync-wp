@@ -321,7 +321,7 @@ def pull_posts(args):
 
     if not args.filter_slug:
         for d in extra_dirs:
-            if d.startswith("."):
+            if d.startswith(".") or d == "category":
                 continue
 
             path = os.path.join("content", "blog", d)
