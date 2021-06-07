@@ -1,5 +1,5 @@
 ---
-title: What is Hybrid Learning?
+title: What Is Hybrid Learning?
 slug: hybrid-learning
 author: Vibe Team
 date: '2021-06-07'
@@ -7,7 +7,7 @@ tags:
 - Distance Learning
 - Education
 - Hybrid Learning
-draft: true
+draft: false
 isfeatured: false
 description: Want to know more about hybrid learning? Vibe explains everything you need to know about creating lessons and
   planning for hybrid classes.
