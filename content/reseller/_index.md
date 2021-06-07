@@ -9,7 +9,7 @@ hero:
   cta:
     title: Become a partner today
     class: is-black is-rounded is-medium
-    url: /contact/become-a-reseller/
+    url: /contact/become-a-reseller-partner/
 feature_columns:
   title: Who is this for?
   body: Vibe's Reseller Program is the perfect match if you're
@@ -22,7 +22,7 @@ feature_columns:
       body: If you are an established IT solution vendor with a national wide customer base.
       figure: img/reseller/who-1.png
       background_color: white
-      url: /contact/reseller-support/
+      url: /contact/reseller-contact-form/
       target: _blank
       cta:
         title: Learn more
@@ -34,7 +34,7 @@ feature_columns:
       body: If you're an MSP that maintains and services information system infrastructures for other enterprises.
       figure: img/reseller/who-2.png
       background_color: white
-      url: /contact/reseller-support/
+      url: /contact/reseller-contact-form/
       target: _blank
       cta:
         title: Learn more
@@ -46,7 +46,7 @@ feature_columns:
       body: If you're an SI that specializes in AV or venue installation and management for medium-sized enterprises.
       figure: img/reseller/who-3.png
       background_color: white
-      url: /contact/reseller-support/
+      url: /contact/reseller-contact-form/
       target: _blank
       cta:
         title: Learn more
@@ -73,7 +73,7 @@ benefits:
     title: Apply now
     class: is-black is-rounded is-outlined
     target: _blank
-    url: /contact/become-a-reseller/
+    url: /contact/become-a-reseller-partner/
 faq:
   title: FAQ
   items:
@@ -87,6 +87,6 @@ bottom_cta:
   title: Still have questions?
   cta:
     title: Contact Sales
-    url: /contact/reseller-support/
+    url: /contact/reseller-contact-form/
     class: is-black is-outlined
 ---
