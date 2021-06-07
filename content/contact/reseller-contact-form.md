@@ -12,7 +12,7 @@ hero:
     - text: please
       link:
         text: fill in this form.
-        url: /contact/become-a-reseller/
+        url: /contact/become-a-reseller-partner/
 contact:
   form:
     action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/0a3da285-bc2b-41b3-9cc2-e5861643fb30

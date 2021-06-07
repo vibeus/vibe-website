@@ -2,7 +2,7 @@
 title: Contact us
 description: Have a question about our reseller program? We'd love to hear from you.
 layout: contact
-stylesPath: css/become-a-reseller.sass
+stylesPath: css/become-a-reseller-partner.sass
 hero:
   title: Become a Vibe Reseller Partner
   body:
@@ -62,7 +62,6 @@ contact:
           multiple: true
           required: true
           dropdown:
-            - Nationwide
             - The Northeast
             - The Midwest
             - The South
