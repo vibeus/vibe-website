@@ -9,7 +9,7 @@ hero:
   cta:
     title: Become a partner today
     class: is-black is-rounded is-medium
-    url: /contact/become-a-partner/
+    url: /contact/become-a-reseller/
 feature_columns:
   title: Who is this for?
   body: Vibe's Reseller Program is the perfect match if you're
@@ -73,7 +73,7 @@ benefits:
     title: Apply now
     class: is-black is-rounded is-outlined
     target: _blank
-    url: /contact/become-a-partner/
+    url: /contact/become-a-reseller/
 faq:
   title: FAQ
   items:
