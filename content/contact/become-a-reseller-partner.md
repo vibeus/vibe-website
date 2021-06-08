@@ -97,7 +97,7 @@ contact:
             - Medium-sized Business
             - Large Enterprise
       - - name: current_opportunity_size
-          placeholder: Opportunity Size* (No. of boards Considered)
+          placeholder: Opportunity Size* (No. of Boards Considered)
           required: true
           dropdown:
             - 1-2
