@@ -568,6 +568,7 @@ def pull_blog_categories(args):
         front_matter["url"] = "/blog/{}/{}/".format(
             "industry" if is_industry else "category", c["slug"]
         )
+        front_matter["title"] = c["name"]
         front_matter["category"] = c["slug"]
         front_matter["categoryName"] = c["name"]
         front_matter["isIndustry"] = is_industry
