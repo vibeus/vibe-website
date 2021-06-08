@@ -82,7 +82,7 @@ faq:
     - title: What’s the basic qualification?
       body: You must be a US based formal business entity. You must be able to provide Vibe with your Reseller Permit. You must agree to our Reseller Agreement terms.
     - title: Where can I learn more about the program?
-      body: You can reach out to our Business Dev team with this contact form.
+      body: You can reach out to our Business Dev team with this [contact form](/contact/become-a-reseller-partner/).
 bottom_cta:
   title: Still have questions?
   cta:
