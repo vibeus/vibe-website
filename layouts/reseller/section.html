@@ -16,7 +16,8 @@
       {{ with .cta }}
       <div class="cta">
         <a class="button is-hero-cta{{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url | relLangURL }}">
+           href="{{ .url | relLangURL }}"
+           {{ with .target }}target="{{ . }}"{{ end }}>
           {{ default .title (T .title) }}
         </a>
       </div>

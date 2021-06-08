@@ -10,6 +10,7 @@ hero:
     title: Become a partner today
     class: is-black is-rounded is-medium
     url: /contact/become-a-reseller-partner/
+    target: _blank
 feature_columns:
   title: Who is this for?
   body: Vibe's Reseller Program is the perfect match if you're
@@ -82,7 +83,7 @@ faq:
     - title: What’s the basic qualification?
       body: You must be a US based formal business entity. You must be able to provide Vibe with your Reseller Permit. You must agree to our Reseller Agreement terms.
     - title: Where can I learn more about the program?
-      body: You can reach out to our Business Dev team with this [contact form](/contact/become-a-reseller-partner/).
+      body: You can reach out to our Business Dev team with this [contact form](/contact/reseller-contact-form/).
 bottom_cta:
   title: Still have questions?
   cta:
