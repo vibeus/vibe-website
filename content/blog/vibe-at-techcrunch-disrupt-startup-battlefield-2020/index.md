@@ -13,7 +13,8 @@ description: Vibe was selected to participate in TechCrunch Disrupt Startup Batt
   early stage technology companies.
 categories:
 - uncategorized
-industries: []
+industries:
+- technology
 ---
 
 Today was a big day for Vibe. Out of thousands of startups, [Vibe was chosen for a slot at Startup Battlefield](https://techcrunch.com/2020/09/10/announcing-the-startup-battlefield-companies-at-techcrunch-disrupt-2020/?tpcc=ECTW2020), an event that TechCrunch has held as part of its Disrupt event for the last ten years.
@@ -26,7 +27,7 @@ Most of the 20 companies had months to prepare. We were a Wildcard team, which m
 
 With our CEO, Charles Yang, presenting from Hangzhou, China, and Katie Kalafus, Head of Sales, doing the demo from Seattle, Washington–and a 15 hour time difference–this was no easy task. Fortunately, we all have Vibe boards to help us build the presentation and sync over video conference.
 
-Since we only had six minutes to present and a very short amount of time to answer the judges’ questions, we wanted to go into more depth here. 
+Since we only had six minutes to present and a very short amount of time to answer the judges’ questions, we wanted to go into more depth here.
 
 **TechCrunch Judge, Amish Jani, FirstMark Capital** **–**
 
@@ -42,11 +43,11 @@ The buyer journey is also different. Our hardware can be used by people within d
 
 We haven’t started an official community, but our customers are already sharing content that they’ve created with Vibe. In particular, we see high-level consultants in sales, marketing, and finance using Vibe to present to their prospective clients via YouTube or other platforms. Teachers are also creating shared libraries of materials to use across their classrooms.
 
-**TechCrunch Judge, Jessica Verrilli, GV –** 
+**TechCrunch Judge, Jessica Verrilli, GV –**
 
 ## Does anyone use the product in single-player mode or is it collaborative?
 
-Vibe was designed for local and remote collaboration, but many of our customers use Vibe by themselves to brainstorm and sketch out ideas, just like they would on a standard whiteboard. Vibe layers on benefits like an infinite canvas, multiple boards, cloud-based service to access boards from anywhere, and being able to pull in any files you like for annotation. 
+Vibe was designed for local and remote collaboration, but many of our customers use Vibe by themselves to brainstorm and sketch out ideas, just like they would on a standard whiteboard. Vibe layers on benefits like an infinite canvas, multiple boards, cloud-based service to access boards from anywhere, and being able to pull in any files you like for annotation.
 
 Customers also screencast to Vibe for a second monitor and can even show 3rd party apps like Netflix or YouTube for entertainment.
 
@@ -58,7 +59,7 @@ It’s a crowded space but it is still an unsolved problem. No one has solved th
 
 It is fundamentally a product problem. The big players are so far from customers and their core business that they do not have the efficiency/determination/vantage point to solve this problem for them. Selling through channels loses the connection with customers. That can work for hardware, but for SaaS businesses, it’s a losing proposition. Vibe’s direct connection to our end-users means that we’re constantly learning from their desires and behaviors to make our products even better.
 
-The marketing environment and user needs have changed and established competitors are building out from the same channel marketing strategies that they’ve held for 30-40 years. Vibe’s direct to consumer model revolves around our customers, and our digital marketing showcases the opportunities presented by Vibe’s open app ecosystem. We want customers to use our platform in the way that’s best for them, and not lock them into Microsoft or Google applications, or limited choices. 
+The marketing environment and user needs have changed and established competitors are building out from the same channel marketing strategies that they’ve held for 30-40 years. Vibe’s direct to consumer model revolves around our customers, and our digital marketing showcases the opportunities presented by Vibe’s open app ecosystem. We want customers to use our platform in the way that’s best for them, and not lock them into Microsoft or Google applications, or limited choices.
 
 Vibe is filling a big need for many businesses, and at a much lower price point. Vibe is $2,999. In comparison, Google Jamboard is $4,999 with a $600 annual subscription, Cisco WebEx Board is $4,990 with a $199 monthly subscription, and the Microsoft Surface Hub is $8,999 and relies on an Office 365 subscription.
 
