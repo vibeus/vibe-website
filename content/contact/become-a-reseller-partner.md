@@ -72,7 +72,7 @@ contact:
           placeholder: Reseller Type*
           required: true
           dropdown:
-            - Volume-based Reseller
+            - National IT Vendor
             - Managed Service Provider
             - System Integrator
       - - name: targeted_customer_industries
@@ -97,10 +97,12 @@ contact:
             - Medium-sized Business
             - Large Enterprise
       - - name: current_opportunity_size
-          placeholder: Current Opportunity Size* (Number of Vibe Devices Considered)
+          placeholder: Opportunity Size* (No. of boards Considered)
           required: true
           dropdown:
-            - 1-10
+            - 1-2
+            - 3-5
+            - 6-10
             - 11-20
             - 21-30
             - 31+

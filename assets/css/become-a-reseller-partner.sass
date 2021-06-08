@@ -8,7 +8,9 @@
 
 .section.is-contact
   background: linear-gradient(to bottom, $vibe-teal 220px, $vibe-white 220px)
-  .is-form
+  .container.is-form
+    +mobile
+      padding: 30px 20px 20px
     .is-form-title
       text-align: left
     .columns:nth-child(3)
@@ -26,3 +28,5 @@
     &.is-submitted
       .is-form-title
         visibility: hidden
+    .select-label
+      max-width: 95%

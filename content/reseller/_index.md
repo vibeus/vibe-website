@@ -22,7 +22,7 @@ feature_columns:
       body: If you are an established IT solution vendor with a national wide customer base.
       figure: img/reseller/who-1.png
       background_color: white
-      url: /contact/reseller-contact-form/
+      url: /contact/become-a-reseller-partner/
       target: _blank
       cta:
         title: Learn more
@@ -34,7 +34,7 @@ feature_columns:
       body: If you're an MSP that maintains and services information system infrastructures for other enterprises.
       figure: img/reseller/who-2.png
       background_color: white
-      url: /contact/reseller-contact-form/
+      url: /contact/become-a-reseller-partner/
       target: _blank
       cta:
         title: Learn more
@@ -46,7 +46,7 @@ feature_columns:
       body: If you're an SI that specializes in AV or venue installation and management for medium-sized enterprises.
       figure: img/reseller/who-3.png
       background_color: white
-      url: /contact/reseller-contact-form/
+      url: /contact/become-a-reseller-partner/
       target: _blank
       cta:
         title: Learn more
