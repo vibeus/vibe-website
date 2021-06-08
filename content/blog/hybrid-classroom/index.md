@@ -7,7 +7,7 @@ tags:
 - Distance Learning
 - Education
 - Hybrid Learning
-draft: true
+draft: false
 isfeatured: false
 description: "Do you need to set up a hybrid teaching environment? Vibe walks you through what you\u2019ll need to create\
   \ a hybrid classroom."
