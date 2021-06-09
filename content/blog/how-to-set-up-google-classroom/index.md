@@ -2,12 +2,12 @@
 title: 'Google Classroom: Getting Started and Creative Features to Try'
 slug: how-to-set-up-google-classroom
 author: Mary Clark Navarro
-date: '2021-06-10'
+date: '2021-06-09'
 tags:
 - Distance Learning
 - Education
 - Hybrid Learning
-draft: true
+draft: false
 isfeatured: false
 description: Google Classroom is a popular tool for both online and in-person classes. Learn how to utilize Google Classroom
   for your lesson planning.
