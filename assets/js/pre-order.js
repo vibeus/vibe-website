@@ -23,7 +23,11 @@ import {
 
 const e = React.createElement;
 const { useState, useEffect } = React;
-const products = JSON.parse(new TextDecoder().decode(base64js.toByteArray('{{ $products | jsonify | base64Encode }}')));
+const products = JSON.parse(
+  new TextDecoder().decode(
+    base64js.toByteArray('{{ $products | jsonify | base64Encode }}')
+  )
+);
 const products_i18n = {};
 // {{ range $idx, $it := $products }}
 // {{ $i18nKey := $it.title }}
@@ -175,7 +179,9 @@ const LineItem = ({ productId, count }) => {
           {
             className: 'product-price',
           },
-          moneyFmt.format(product.deposit_price || product.discount_price || product.price)
+          moneyFmt.format(
+            product.deposit_price || product.discount_price || product.price
+          )
         ),
         e(LineItemControl, { productId, count })
       )
@@ -224,7 +230,7 @@ function loadCart() {
     try {
       const obj = JSON.parse(value);
       cart = filterCart(obj);
-    } catch { }
+    } catch {}
   }
 }
 
@@ -262,7 +268,9 @@ function getCartAmount() {
     const product = products.find((x) => x.product_id === key);
     if (product) {
       return (
-        acc + (product.deposit_price || product.discount_price || product.price) * cart[key].quantity
+        acc +
+        (product.deposit_price || product.discount_price || product.price) *
+          cart[key].quantity
       );
     } else {
       return acc;
@@ -283,13 +291,13 @@ function processCheckout() {
   const clientConfig =
     shopifyHost === 'order.vibe.us'
       ? {
-        domain: 'vibeus.myshopify.com',
-        storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
-      }
+          domain: 'vibeus.myshopify.com',
+          storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
+        }
       : {
-        domain: 'toyond.myshopify.com',
-        storefrontAccessToken: '59ed50ec21cff74d3a509f4ad142bffb',
-      };
+          domain: 'toyond.myshopify.com',
+          storefrontAccessToken: '59ed50ec21cff74d3a509f4ad142bffb',
+        };
 
   const client = ShopifyBuy.buildClient(clientConfig);
 
@@ -323,7 +331,9 @@ function setupGallery() {
     });
 
     const thumbs = Array.from(
-      el.closest('.hero').querySelectorAll('.column.is-gallery .thumbnails .image')
+      el
+        .closest('.hero')
+        .querySelectorAll('.column.is-gallery .thumbnails .image')
     );
 
     thumbs.forEach((d, idx) => {
