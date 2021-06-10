@@ -20,7 +20,7 @@ One of the most effective ways to generate new ideas is through brainstorming. B
 
 To put together an effective brainstorming session, you need the right tools, and one of the best tools to use in this situation is a whiteboard. So if you’re serious about getting the most out of your team in terms of brainstorming, it makes sense to investigate what a digital whiteboard can do for you. Read on to learn how a whiteboard can help your brainstorming session.
 
-## What happens in a brainstorming session
+## What happens in a brainstorming session?
 
 First, it’s important to understand that brainstorming sessions are different from regular meetings. Here’s what should happen during a team brainstorm:
 
