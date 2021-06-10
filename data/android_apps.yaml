@@ -354,3 +354,21 @@ apps:
 - id: videoeditor.videorecorder.screenrecorder
   name: XRecorder
   type: av
+- id: co.mangotechnologies.clickup
+  name: ClickUp
+  type: productivity
+- id: com.fusionprojects.edmodo
+  name: Edmodo
+  type: education
+- id: com.google.android.apps.meetings
+  name: Meet
+  type: vc
+- id: de.merck.pte
+  name: Merck PTE
+  type: education
+- id: gov.nasa
+  name: NASA
+  type: education
+- id: org.khanacademy.android
+  name: Khan Academy
+  type: education
