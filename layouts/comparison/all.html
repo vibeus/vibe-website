@@ -9,11 +9,18 @@
 </section>
 {{ end }}
 
+{{ with .Params.compare }}
 <section class="section is-comparison is-all">
   <div class="container">
     {{ partial "comparison" (dict "features" $.Site.Data.comparison.features "brands" $.Site.Data.comparison.brands "images" true) }}
+    {{ with .note }}
+    <div class="compare-note">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
   </div>
 </section>
+{{ end }}
 
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}

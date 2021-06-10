@@ -22,7 +22,11 @@ import {
 
 const e = React.createElement;
 const { useState, useEffect } = React;
-const products = JSON.parse(new TextDecoder().decode(base64js.toByteArray('{{ $products | jsonify | base64Encode }}')));
+const products = JSON.parse(
+  new TextDecoder().decode(
+    base64js.toByteArray('{{ $products | jsonify | base64Encode }}')
+  )
+);
 const products_i18n = {};
 // {{ range $idx, $it := $products }}
 // {{ $i18nKey := $it.title }}

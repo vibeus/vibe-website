@@ -37,7 +37,7 @@ Here is a cost roundup of digital interactive whiteboards on the market:
 
 [4]: https://vibe.us/comparison/vibe-vs-cisco-webex-board/
 
-- SMART Technology SMART Board - Costs for their comparable model runs about \$4,999, with additional software costs. [Click here][5] to see a comparison of Vibe vs the SMART Technology SMART Board.
+- SMART Technologies ULC SMART Board 6000 series - Costs for their comparable model runs about \$4,999, with additional software costs. [Click here][5] to see a comparison of Vibe vs the SMART Technologies ULC SMART Board 6000 series.
 
 [5]: https://vibe.us/comparison/vibe-vs-smart-board/
 
