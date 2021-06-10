@@ -131,7 +131,7 @@ brands:
       os: Android 6.0 Marshmallow
       connections: |
         - HDMI 2.0
-        - USB Type C 
+        - USB Type C
         - Two USB 3.0
         - 1 Gigabyte Ethernet
       wireless: |
@@ -182,7 +182,7 @@ brands:
         - HDMI 1
         - RS232C 1
         - USB 2 (ver 2.0 x2, Side 1, Sensor Assy 1)
-        - Touch Out 1 (Side, USB Upstream Type) 
+        - Touch Out 1 (Side, USB Upstream Type)
         - Touch Input, RJ45 (not for User Control)
         - Ethernet
       wireless: |
@@ -244,7 +244,7 @@ brands:
         - LED display
         - 4K camera
         - 12-microphone array
-        - Speakers 
+        - Speakers
         - Whitebording pen
       weight: 87.7 lb (39.8 kg)
       camera: Built-in
@@ -267,7 +267,7 @@ brands:
     service:
       warranty: 90 days
   - id: smart
-    name: Smart Board 6000 Series
+    name: SMART Board 6000 series
     head_figure: img/comparison/smart-g.jpg
     price:
       board: $4,999
@@ -275,7 +275,11 @@ brands:
         No stand
       accessories: "\\-"
       software: |
-        Based on Subscription (SMART meeting pro/ SMART TeamWorks)
+        SMART Notebook® basic version
+
+        Based on subscription for SMART Meeting Pro®/ SMART TeamWorks™
+
+        Free one year subscription to SMART Learning Suite
     hardware:
       screen: 4K
       touch: 8 Touchpoints
@@ -283,22 +287,24 @@ brands:
       os: Android 7.1 Nougat
       connections: |
         - HDMI 1.4 out
-        - Two USB 3.0 type-A 
+        - Two USB 3.0 type-A
         - RJ45 gigabit ethernet
       wireless: |
-        Bluetooth 4.1 802.11A/B/G/N/Ac
+        2.4G/5G Wifi
+
+        Bluetooth 4.2
       processor: |
         RK3399, Dual-core A72 + Quad-core A53, 64 bits, 2GHz
       box: |
-        - SMART board
-        - iQ appliance 8' 
-        - country-specific power cable 16' 5" 
+        - SMART Board
+        - iQ appliance 8'
+        - country-specific power cable 16' 5"
         - USB cable
         - Two pen
       weight: 134 lb. (60.9 kg)
       camera: Optional
     whiteboard:
-      remote: false
+      remote: Available through SMART kapp app and SMART Learning Suite
       app: false
       smart: true
       platforms: true
@@ -356,7 +362,7 @@ features:
     items:
       - id: remote
         title: Multi-user Realtime Whiteboard
-        type: icon
+        type: icon_text
       - id: app
         title: Simultaneous App Usage
         type: icon
@@ -384,9 +390,6 @@ features:
   - id: app
     title: App Integration
     items:
-      - id: store
-        title: App Store
-        type: icon_text
       - id: browser
         title: Web Browser
         type: icon

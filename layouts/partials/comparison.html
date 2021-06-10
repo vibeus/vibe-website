@@ -42,7 +42,11 @@
       </span>
       {{ end }}
 
-      {{ if and $value (not (eq "icon" $type)) }}
+      {{ if eq "icon_text" $type }}
+        {{ if and $value (not (eq true $value)) }}
+        {{ $value | markdownify }}
+        {{ end }}
+      {{ else if and $value (not (eq "icon" $type)) }}
       {{ $value | markdownify }}
       {{ end }}
     </td>

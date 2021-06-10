@@ -202,7 +202,7 @@
 {{ partial "common/book-demo" . }}
 {{ end }}
 
-{{ with .Params.why_vibe }}
+{{ with .Params.compare }}
 {{ partial "common/compare-in-brief" (merge (dict "Site" $.Site) .) }}
 {{ end }}
 
@@ -308,3 +308,7 @@
 {{ end }}
 {{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
 </main>{{ end }}
+
+{{ define "foot" }}
+{{ partial "common/foot-with-compare-note" . }}
+{{ end }}
