@@ -302,9 +302,9 @@
 </div>
 
 {{ if .Params.promo_code }}
-{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "promoCode" .Params.promo_code "shopifyHost" "vibe.toyond.de" "numberFormat" (default "de-DE" .Params.number_format) "currency" (default "EUR" .Params.currency)) }}
+{{ partial "common/template-script" (dict "asset" "js/pre-order.js" "products" .Params.products "promoCode" .Params.promo_code "shopifyHost" "vibe.toyond.de" "numberFormat" (default "de-DE" .Params.number_format) "currency" (default "EUR" .Params.currency)) }}
 {{ else }}
-{{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products "shopifyHost" "vibe.toyond.de" "numberFormat" (default "de-DE" .Params.number_format) "currency" (default "EUR" .Params.currency)) }}
+{{ partial "common/template-script" (dict "asset" "js/pre-order.js" "products" .Params.products "shopifyHost" "vibe.toyond.de" "numberFormat" (default "de-DE" .Params.number_format) "currency" (default "EUR" .Params.currency)) }}
 {{ end }}
 {{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
 </main>{{ end }}
