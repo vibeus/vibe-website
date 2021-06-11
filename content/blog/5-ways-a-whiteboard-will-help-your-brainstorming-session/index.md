@@ -7,13 +7,15 @@ tags:
 - Brainstorming
 - Meeting Techniques
 - Whiteboard
-draft: true
+draft: false
 isfeatured: false
 description: Want to improve your next brainstorming session? Digital whiteboards offer plenty of solutions. Read on to learn
   how to brainstorm better.
 categories:
-- remote-collaboration
-industries: []
+- meeting-techniques
+industries:
+- business
+- professional-services
 ---
 
 One of the most effective ways to generate new ideas is through brainstorming. Brainstorming involves generating ideas to solve problems, and the goal of a brainstorming session is for the team to produce a vast array of ideas. From there, the team can draw links between the ideas on their way to finding solutions. 

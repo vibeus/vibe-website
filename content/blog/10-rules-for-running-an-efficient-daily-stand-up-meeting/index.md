@@ -7,7 +7,7 @@ tags:
 - Huddle
 - Meeting Techniques
 - Stand-up
-draft: true
+draft: false
 isfeatured: false
 description: "Any workplace can say they\u2019re agile. You can start right now by reviewing these strategies for simplifying\
   \ your team\u2019s daily stand-up meeting."
