@@ -1,0 +1,522 @@
+@import "@glidejs/glide/src/assets/sass/glide.core"
+@import "_shared.sass"
+@import "_faq.sass"
+@import "_video-section.sass"
+@import "_testimonial-glide.sass"
+@import "_testimonial-section.sass"
+@import "_testimonial.sass"
+@import "_bottom-cta.sass"
+
+.hero
+  position: relative
+  font-size: 18px
+  +mobile
+    font-size: 16px
+  .image.is-hero-bg
+    +absolute-fill
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      +mobile
+        object-position: 48% 50%
+  +mobile
+    .hero-body
+      padding-bottom: 0
+  .container
+    +fullhd
+      max-width: 1100px
+    margin-left: 6.5rem
+  .title-text
+    max-width: 520px
+    margin-bottom: 88px
+    +mobile
+      margin-bottom: 32px
+    .subtitle
+      font-size: 28px
+      +lang-override(".lang-zh")
+        font-size: 16px
+      line-height: 36px
+      +mobile
+        font-size: 12px
+        line-height: 14px
+    .title
+      font-size: 56px
+      +lang-override(".lang-zh")
+        font-size: 48px
+      line-height: 73px
+      +mobile
+        font-size: 48px
+        line-height: 60px
+    p
+      max-width: 516px
+      +lang-override(".lang-zh")
+        font-size: 18px
+    .title p
+      +lang-override(".lang-zh")
+        font-size: 50px
+  .cta
+    +mobile
+      display: flex
+      flex-direction: column
+      margin-bottom: 24px
+    +tablet
+      margin-left: -8px
+    .button.is-hero-cta
+      +tablet
+        font-size: 20px
+        height: 58px
+      font-weight: $vibe-bold
+      &:not(:last-child)
+        +mobile
+          margin-bottom: 8px
+        +tablet
+          margin-right: 16px
+    +tablet
+      a
+        width: 190px
+      button
+        width: 220px
+  .button.is-hero-cta:hover,
+  .button.is-hero-cta:active,
+  .button.is-hero-cta:focus
+    svg
+      fill: $vibe-white
+  .image.is-hero
+    +mobile-full-width
+  .modal-content
+    overflow: hidden
+    +tablet
+      width: calc(100vw - 140px)
+    +desktop
+      width: calc(100vw - 200px)
+    +widescreen
+      width: calc(100vw - 320px)
+  .modal-background
+    background: rgba(136, 136, 136, 0.69)
+    backdrop-filter: blur(10px)
+  .glide-control
+    position: absolute
+    top: 50%
+    margin-top: -21px
+    cursor: pointer
+    &.is-left
+      left: 32px
+      +tablet
+        left: 16px
+      +widescreen
+        left: 64px
+      transform: rotate(180deg)
+    &.is-right
+      right: 32px
+      +tablet
+        right: 16px
+      +widescreen
+        right: 64px
+
+.section.is-canvas
+  +vertical-padding(120px)
+  background-color: #fff
+  .container
+    width: 100vw
+    margin: 0
+  .title.is-section-title
+    max-width: 633px
+    margin: 0 auto 18px
+    font-size: 48px
+    text-align: center
+  .content
+    max-width: 773px
+    margin: 0 auto
+    text-align: center
+  .is-canvas-img
+    width: 99vw
+    margin-top: 48px
+    margin-left: -1.5rem
+  .canvas-box 
+    width: 99vw
+    margin-left: -1.5rem
+    .main
+      max-width: 1102px
+      margin: -73px auto 0
+      padding: 48px 27px 32px
+      background: rgba(255, 255, 255, 0.8)
+      border: 1px solid #F1F1F1
+      box-sizing: border-box
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
+      backdrop-filter: blur(25px)
+      .columns
+        .column
+          display: flex
+          flex-direction: column
+          align-items: center
+          margin-right: 53px
+          margin-left: 53px
+          .title
+            font-size: 24px
+          .content
+            font-size: 18px
+            color: #000
+            text-align: left
+      .cta
+        margin-top: 44px
+        text-align: center
+        a
+          color: #6666CC
+
+
+.section.is-overview
+  +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    padding-top: 83px
+  &.is-lower
+    padding-bottom: 0
+  .title.is-section-title
+    max-width: 840px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+  .is-overall-image
+    margin: 0 auto 32px
+    max-width: 872px
+  .columns
+    flex-direction: row
+    justify-content: center
+  .column.is-text
+    max-width: 200px + 12px * 2
+    text-align: center
+    +lang-override(".lang-zh")
+      max-width: 569px
+    font-size: 18px
+    .title
+      margin-bottom: 0
+    +lang-override(".lang-zh")
+      .title
+        font-size: 50px
+        line-height: 68px
+        margin-bottom: 48px
+    +mobile
+      .title
+        font-size: 18px
+        line-height: 1.5
+        margin-bottom: 1rem
+  .columns.is-feature-3
+    flex-direction: row-reverse
+    .column.is-image
+      max-width: 680px
+  .columns.is-feature-4
+    .column.is-image
+      max-width: 708px
+
+.section.is-chromium-os
+  background: #FFC500
+  +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    padding-top: 83px
+  &.is-lower
+    padding-bottom: 0
+  .title.is-section-title
+    max-width: 874px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+  .content
+    max-width: 773px
+    margin: 0 auto
+    text-align: center
+  .more
+    text-align: center
+    a
+      color: #6666CC
+  .is-chromium-os-image
+    margin: 0 auto 32px
+    max-width: 872px
+  .columns
+    flex-direction: row
+    justify-content: center
+  .column.is-text
+    max-width: 200px + 12px * 2
+    text-align: center
+    +lang-override(".lang-zh")
+      max-width: 569px
+    font-size: 18px
+    .title
+      margin-bottom: 0
+    +lang-override(".lang-zh")
+      .title
+        font-size: 50px
+        line-height: 68px
+        margin-bottom: 48px
+    +mobile
+      .title
+        font-size: 18px
+        line-height: 1.5
+        margin-bottom: 1rem
+
+
+.section.is-apps
+  +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    padding-top: 83px
+  &.is-lower
+    padding-bottom: 0
+  .title.is-section-title
+    max-width: 847px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+  .content
+    max-width: 773px
+    margin: 0 auto
+    text-align: center
+  .more
+    text-align: center
+    a
+      color: #6666CC
+
+
+.section.is-security
+  +vertical-padding(120px)
+  position: relative
+  background-color: #111111
+  color: #FFFFFF
+  .image.is-security-bg
+    position: relative
+    img
+      max-width: 897px
+      width: 100%
+      height: 100%
+      margin: 0 auto 27px
+      +mobile
+        object-position: 48% 50%
+  .title.is-section-title
+    margin-bottom: 40px
+    line-height: 1.5
+    text-align: center
+    color: #FFFFFF
+    +mobile
+      margin-bottom: 42px
+    p
+      display: inline
+  .column
+    display: flex
+    flex-direction: column
+    align-items: center
+    .image
+      max-width: 40px
+      margin-bottom: 17px
+      +mobile
+        max-width: 27px
+        margin-bottom: 12px
+    .item-title
+      max-width: 284px
+      font-size: 30px
+      line-height: 38px
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      text-align: center
+      margin-bottom: 16px
+      +mobile
+        font-size: 20px
+        line-height: 1.5
+        margin-bottom: 12px
+    .content
+      max-width: 300px
+      text-align: center
+      color: #9E9E9E
+      +mobile
+        margin-bottom: 16px
+  .column:last-child
+    .image
+      +lang-override(".lang-zh")
+        +tablet
+          max-width: 260px
+  .cta
+    margin-top: 32px
+    text-align: center
+    +tablet
+      font-weight: $vibe-bold
+    .is-security-botton
+      color: #fff!important
+      border-color: #fff
+
+    a:not(:hover)
+      color: $vibe-purple
+
+.section.is-spec
+  +vertical-padding(26px, 16px, 16px, 16px)
+  background-color: #F4F4F4
+  .title
+    text-align: center
+  .level.is-overview
+    margin: 0 -1.5rem 32px -1.5rem
+    padding: 1.5rem 1.5rem
+    border-top: 1px solid $vibe-black
+    border-bottom: 1px solid $vibe-black
+    +mobile
+      align-items: flex-start
+      padding: 1.5rem 0
+    .level-item
+      text-align: center
+      width: 220px
+      +mobile
+        width: 100px
+        font-size: 12px
+      .title
+        font-size: 48px
+        margin-bottom: 16px
+        +mobile
+          font-size: 32px
+  .title.is-view-specs
+    font-size: 18px
+    text-align: center
+    margin-bottom: 8px
+  .button.is-specs-chevron
+    border: none
+    background: none
+    display: block
+    margin: auto
+    &.is-active
+      transform: rotate(180deg)
+  #specs
+    padding-bottom: 40px
+    +tablet
+      padding-top: 40px
+    +desktop
+      font-size: 18px
+    display: none
+    &.is-active
+      display: block
+    .columns
+      max-width: 1170px
+      margin-left: auto
+      margin-right: auto
+    .column
+      +mobile
+        padding-left: 0
+        padding-right: 0
+      +tablet
+        padding-left: 26px
+        padding-right: 26px
+    .title
+      margin-top: 24px
+      margin-bottom: 12px
+      +mobile
+        font-size: 16px
+      +tablet
+        font-size: 18px
+    .table
+      background: none
+      td, tr
+        border-color: rgba(0, 0, 0, 0.1)
+      td:first-child
+        +tablet
+          width: 140px
+        +desktop
+          width: 210px
+        padding-left: 0
+      td:not(:last-child)
+        border-right: 1px solid rgba(0, 0, 0, 0.1)
+      tr:first-child
+        border-top: 2px solid $vibe-black
+      tr:last-child
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+    .cta
+      text-align: center
+      .button
+        font-size: 24px
+        font-family: $vibe-family-heading
+        font-weight: $vibe-bold
+.hero
+  +mobile
+    +lang-override(".lang-zh")
+      .title-text 
+        .title p
+          font-size: 42px
+        p
+          font-size: 16px
+    .cta .button .icon
+      height: 0.7em
+      width: 0.7em
+      margin-left: 7px
+.section
+  +mobile
+    +lang-override(".lang-zh")
+      &.is-overview
+        padding-top: 60px
+      .container .column.is-text .title
+        font-size: 30px
+        line-height: 44px
+        margin-bottom: 20px
+      .container 
+        .content,.author
+          font-size: 14px
+          p
+            margin: 0
+      &.is-feature .container .subtitle
+        font-size: 32px
+      .video-launcher
+        margin-top: 30px
+      .content.is-footnote
+        margin-top: 12px 
+        font-size: 12px 
+      .cta
+        font-size: 14px
+
+.section.is-accessories
+  +vertical-padding(120px)
+  .title.is-section-title
+    margin-bottom: 40px
+    line-height: 1.5
+    text-align: center
+    +mobile
+      margin-bottom: 42px
+    p
+      display: inline
+  .column
+    display: flex
+    flex-direction: column
+    align-items: center
+    .image
+      width: 100%
+      height: auto
+      margin-bottom: 17px
+      +mobile
+        max-height: 70px
+        margin-bottom: 12px
+      img
+        width: 100%
+        height: 100%
+        +mobile
+          object-position: 48% 50%
+    .item-title
+      max-width: 284px
+      font-size: 30px
+      line-height: 38px
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      text-align: center
+      margin-bottom: 16px
+      +mobile
+        font-size: 20px
+        line-height: 1.5
+        margin-bottom: 12px
+    .content
+      max-width: 300px
+      text-align: center
+      +mobile
+        margin-bottom: 16px
+  .column:last-child
+    .image
+      +lang-override(".lang-zh")
+        +tablet
+          max-width: 260px
+  .cta
+    margin-top: 32px
+    text-align: center
+    color: #000
+    +tablet
+      font-weight: $vibe-bold
+
+    a:not(:hover)
+      color: $vibe-purple

@@ -1,0 +1,279 @@
+{{ define "stylesheets" }}
+<style>
+{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
+</style>
+{{ end }}
+
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="75">
+
+{{ with .Params.hero }}
+<section class="hero is-fullheight-with-navbar is-75">
+  <figure class="image is-hero-bg is-hidden-mobile">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/75/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+  </figure>
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h4 class="subtitle">
+          {{ T .subtitle | markdownify }}
+        </h4>
+        <h1 class="title">
+          {{ T .title | markdownify }}
+        </h1>
+        <p>
+        {{ T .body | markdownify }}
+        </p>
+      </div>
+
+      <div class="cta">
+        {{ with .cta }}
+        <a class="button is-hero-cta{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url | relLangURL }}"
+           {{ if .target }} target="_blank" {{ end }}
+           >
+          <span>{{ T .title }}</span>
+          {{ with .icon }}
+          <span class="icon">
+            {{ (resources.Get .).Content | safeHTML }}
+          </span>
+          {{ end }}
+        </a>
+        {{ end }}
+      </div>
+
+      <figure class="image is-hero is-hidden-tablet">
+        {{ $src := resources.Get "img/75/hero-mobile.jpg" | resources.Fingerprint }}
+        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+      </figure>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.canvas_section }}
+<section class="section is-canvas">
+  <div class="container">
+    {{ range .canvas }}
+      {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+      {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
+      <figure class="image is-canvas-img">
+        {{ $src := resources.Get .figure | resources.Fingerprint }}
+        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+      </figure>
+      <div class="canvas-box">
+        <div class="main">
+          <div class="columns">
+            {{ range .features }}
+            <div class="column">
+              {{ with .title }}<h1 class="title">{{ T . }}</h1>{{ end }}
+              {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ with .cta }}
+          <div class="cta">
+            <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_set_1 }}
+<section class="section is-overview is-upper">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    {{ range .animation }}
+      <figure class="image is-overall-image">
+        {{ if .animated }}
+        {{ $gif := resources.Get .figure | resources.Fingerprint }}
+        <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+        {{ else }}
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x" "options" "jpg #ffffff") }}
+        {{ end }}
+      </figure>
+    {{ end }}
+
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+    {{ range .features }}
+      <div class="column is-text">
+        <h2 class="title">{{ T .title | markdownify }}</h2>
+        <div class="content">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_set_2 }}
+<section class="section is-chromium-os is-upper">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
+    <div class="more">
+      {{ with .cta }}
+        <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
+      {{ end }}
+    </div>
+    <video autoplay muted playsinline>
+          {{ $src := resources.Get "video/75/chromium.mp4" | resources.Fingerprint }}
+          <source src="{{ $src.RelPermalink }}" type="video/mp4">
+        </video>
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+    {{ range .features }}
+      <div class="column is-text">
+        <h2 class="title">{{ T .title | markdownify }}</h2>
+        <div class="content last-hidden">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.apps }}
+<section class="section is-apps">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
+    <div class="more">
+      {{ with .cta }}
+        <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ with .Params.security }}
+<section class="section is-security">
+  <div class="container">
+    <h1 class="title is-section-title">{{ T .title | markdownify }}</h1>
+    <figure class="image is-security-bg is-hidden-mobile">
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/75/security.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+    </figure>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
+        </figure>
+        <h2 class="item-title">{{ T .title }}</h2>
+        <div class="content">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a class="button is-rounded is-black is-security-botton" href="{{ .url | relLangURL}}">{{ T .title }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+
+
+{{ with .Params.spec }}
+<section class="section is-spec">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+
+    <div id="specs">
+      <div class="columns">
+        {{ range .columns }}
+        <div class="column">
+          {{ range . }}
+          <div class="spec-table">
+            <h2 class="title">{{ T .title }}</h2>
+            <table class="table is-fullwidth">
+              <tbody>
+                {{ range .items }}
+                <tr>
+                  <td>{{ T .name }}</td>
+                  <td>{{ T .value | markdownify }}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ with .cta1 }}
+      <div class="cta">
+        <a class="button{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}"
+           target="_blank">
+          {{ T .title }}
+        </a>
+      </div>
+      {{ end }}
+
+    </div>
+    <div class="title is-view-specs">{{ T .title }}</div>
+    <button class="button is-specs-chevron toggle-specs" data-target="specs">
+      <span class="icon">
+        <svg width="100%" height="100%" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.3714 8.37137L11.6289 14.1138L5.88644 8.37137" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+    </button>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.accessories }}
+<section class="section is-accessories">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
+        </figure>
+        <h2 class="item-title">{{ T .title }}</h2>
+        <div class="content">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a class="button is-rounded is-black is-outlined" href="{{ .url | relLangURL}}">{{ T .title }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+{{ partial "faq" . }}
+{{ end }}
+
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
+{{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
+</main>{{ end }}
