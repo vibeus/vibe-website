@@ -5,14 +5,14 @@ author: Karen Belz
 date: '2021-06-11'
 tags:
 - Brainstorming
-- Meeting Techniques
+- Remote Collaboration
 - Whiteboard
 draft: false
 isfeatured: false
 description: Want to improve your next brainstorming session? Digital whiteboards offer plenty of solutions. Read on to learn
   how to brainstorm better.
 categories:
-- meeting-techniques
+- remote-collaboration
 industries:
 - business
 - professional-services
