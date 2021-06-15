@@ -7,7 +7,7 @@ tags:
 - Distance Learning
 - Education
 - Vibe Smart Board
-draft: true
+draft: false
 isfeatured: false
 description: Looking for fun smart board games to play with elementary students? Students can learn while having fun with
   this list of games.

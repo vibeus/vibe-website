@@ -167,8 +167,12 @@ book_demo:
   figure: img/order/book-demo-bg.png
   figure_background_color: '#66cccc'
 
-why_vibe:
+compare:
   title: Why Vibe?
+  note_in_footer: true
+  note:
+    "\\*Please note that all technical specifications are taken directly from SMART Technologies ULC education displays [comparison page](https://www.smarttech.com/en/products/education-displays/compare/), SMART Board 6000 series [product page](https://www.smarttech.com/en/products/education-displays/smart-board-6000/) and business [software page](https://www.smarttech.com/en/products/business-software/). In cases where\npricing isn\u2019t available, we include the quoted reseller price.\n\n
+    SMART Board is trademark or registered trademark of SMART Technologies ULC in the U.S. and/or other countries."
   cta:
     title: Order Now
     url: '#hero'

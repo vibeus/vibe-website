@@ -2698,47 +2698,45 @@ other = "Experience Vibe for yourself"
 other = "See a Demo"
 
 [i18n-content-comparison-smart-board-title]
-other = "Vibe vs SMART Board Review"
+other = "Vibe vs SMART Board® Review"
 
 [i18n-content-comparison-smart-board-hero-title]
-other = "Vibe vs SMART Board"
+other = "Vibe vs SMART Board®"
 
 [i18n-content-comparison-smart-board-hero-body]
-other = """## What is the SMART Board?
+other = """## What is the SMART Board®?
 
-Released by SMART Technology, SMART Board is an educational collaboration tool for classrooms and workplaces."""
+Released by SMART Technologies ULC, SMART Board is an educational collaboration tool for classrooms and workplaces."""
 
 [i18n-content-comparison-smart-board-difference-title]
-other = "What’s the difference between SMART Board and Vibe?"
+other = "What’s the difference between SMART Board® and Vibe?"
 
 [i18n-content-comparison-smart-board-difference-body]
 other = """## Key Takeaway
-SMART Boards have been a popular choice for school districts, but they offer tiered functionality that requires
+SMART Board has been a popular choice for school districts, but they offer tiered functionality that requires
 multiple subscriptions or licenses. Make sure that you have a full understanding of the functionality that you’re
 getting with the included software.
 
 ## How much does a SMART Board cost?
-SMART Board prices start at $4,999 for the 6000 series boards, with additional software costs.
+SMART Board prices start at $4,999 for the 6000 series boards, with additional software costs. Depending on whether you’re using
+the board in a business or education setting, users can select from the MX, 6000, or 7000 series, etc.
 
 ## SMART Board Highlights
-SMART boards are available in a range of sizes with varying functionalities. Depending on whether you’re using
-the board in a business or education setting, users can select from the MX, 6000, or 7000 series for boards with
-interactive touchscreen displays.
+SMART Board is available in a range of sizes with varying functionalities. SMART Board 6000 series includes
+SMART Notebook® basic version. Multiple people can work together directly on the board. SMART Board 6000 series
+responds to up to eight touchpoints and can detect whether the user is drawing with a stylus or erasing by hand.
+You can connect up to eight devices simultaneously for screen sharing. SMART Technologies ULC puts a lot of
+emphasis on the board as an educational tool, which makes the free one-year subscription to the SMART Learning
+Suite software with the purchase of a board a nice bonus for educators.
 
-Multiple people can work together directly on the board. SMART Technology’s 6000 series board responds to up to
-eight touchpoints and can detect whether the user is drawing with a stylus or erasing by hand. You can connect up
-to eight devices simultaneously for screen sharing. SMART Technology puts a lot of emphasis on the board as an
-educational tool, which makes the free one-year subscription to the SMART Learning Suite software with the
-purchase of a board a nice bonus for educators.
-
-Business users can make the most of their board’s capabilities with features like Meeting Pro and TeamWorks,
+Business users can make the most of their board’s capabilities with features like SMART Meeting Pro® and SMART TeamWorks™,
 which provide access to a limited number of apps, such as Microsoft 365 and most video conferencing apps.
 
 ## What’s Missing
 The SMART Board has many interesting and useful capabilities; however, nearly all of the best features that set
 the SMART Board apart from other digital whiteboards require several subscriptions or licenses.
 
-For businesses, the SMART TeamWorks software enables groups to meet and collaborate, but there are different
+For businesses, the SMART TeamWorks™ software enables groups to meet and collaborate, but there are different
 levels of access.
 
 - The Rooms edition allows you to work with people in the same room, and you can screen share with up to eight
@@ -2951,7 +2949,7 @@ other = "Samsung Flip"
 other = "Cisco WebEx Board"
 
 [i18n-content-comparison-_index-competitors-i_4-name]
-other = "SMART board"
+other = "SMART Board®"
 
 [i18n-content-comparison-_index-bottom_cta-title]
 other = "Experience Vibe for yourself"
