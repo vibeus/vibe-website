@@ -103,6 +103,7 @@ apps:
 
 security:
   title: i18n-content-75-_index-security-title
+  figure: img/75/security.png
   items:
     - title: i18n-content-75-_index-security-items-i_0-title
       body: i18n-content-75-_index-security-items-i_0-body
@@ -262,15 +263,6 @@ faq:
       body: i18n-content-75-_index-faq-items-i_4-body
     - title: i18n-content-75-_index-faq-items-i_5-title
       body: i18n-content-75-_index-faq-items-i_5-body
-video_section:
-  title: i18n-content-75-_index-video_section-title
-  body: i18n-content-75-_index-video_section-body
-  video:
-    id: Ccd4cVrtHTk
-    placeholder: img/shared/video.png
-  cta:
-    title: i18n-content-75-_index-video_section-cta-title
-    url: /75/
 bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title
   cta:

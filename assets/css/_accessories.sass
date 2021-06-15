@@ -1,0 +1,58 @@
+.section.is-accessories
+  +vertical-padding(120px)
+  .title.is-section-title
+    margin-bottom: 40px
+    line-height: 1.5
+    text-align: center
+    +mobile
+      margin-bottom: 42px
+    p
+      display: inline
+  .column
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: unset
+    .image
+      width: 100%
+      height: 370px
+      margin-bottom: 17px
+      +mobile
+        max-height: 70px
+        margin-bottom: 12px
+      img
+        width: 100%
+        height: 100%
+        +mobile
+          object-position: 48% 50%
+    .item-title
+      max-width: 338px
+      font-size: 24px
+      line-height: 38px
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      text-align: center
+      margin-bottom: 16px
+      +mobile
+        font-size: 20px
+        line-height: 1.5
+        margin-bottom: 12px
+    .content
+      max-width: 300px
+      text-align: center
+      +mobile
+        margin-bottom: 16px
+  .column:last-child
+    .image
+      +lang-override(".lang-zh")
+        +tablet
+          max-width: 260px
+  .cta
+    margin-top: 32px
+    text-align: center
+    color: #000
+    +tablet
+      font-weight: $vibe-bold
+
+    a:not(:hover)
+      color: $vibe-purple

@@ -159,32 +159,7 @@
 
 
 {{ with .Params.security }}
-<section class="section is-security">
-  <div class="container">
-    <h1 class="title is-section-title">{{ T .title | markdownify }}</h1>
-    <figure class="image is-security-bg is-hidden-mobile">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/75/security.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
-    </figure>
-    <div class="columns">
-      {{ range .items }}
-      <div class="column">
-        <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
-        </figure>
-        <h2 class="item-title">{{ T .title }}</h2>
-        <div class="content">
-          {{ T .body | markdownify }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    {{ with .cta }}
-    <div class="cta">
-      <a class="button is-rounded is-black is-security-botton" href="{{ .url | relLangURL}}">{{ T .title }}</a>
-    </div>
-    {{ end }}
-  </div>
-</section>
+{{ partial "security" .}}
 {{ end }}
 
 
@@ -240,29 +215,7 @@
 {{ end }}
 
 {{ with .Params.accessories }}
-<section class="section is-accessories">
-  <div class="container">
-    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
-    <div class="columns">
-      {{ range .items }}
-      <div class="column">
-        <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
-        </figure>
-        <h2 class="item-title">{{ T .title }}</h2>
-        <div class="content">
-          {{ T .body | markdownify }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    {{ with .cta }}
-    <div class="cta">
-      <a class="button is-rounded is-black is-outlined" href="{{ .url | relLangURL}}">{{ T .title }}</a>
-    </div>
-    {{ end }}
-  </div>
-</section>
+{{ partial "accessories" . }}
 {{ end }}
 
 {{ with .Params.faq }}

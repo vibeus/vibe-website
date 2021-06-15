@@ -1262,6 +1262,165 @@ other = "Fast adoption and low IT cost for any size business"
 [i18n-content-hardware-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
+[i18n-content-55-_index-apps-title]
+other = "Open ecosystem with all your favorite apps"
+
+[i18n-content-55-_index-apps-body]
+other = """Vibe helps companies effectively collaborate across expanding business and IT ecosystems, 
+including Google and Microsoft-based (among others). There's no need to make additional purchases. 
+With Vibe, you can stick to the apps that your team already knows and loves."""
+
+[i18n-content-55-_index-apps-cta-title]
+other = "See all app integrations →"
+
+[i18n-content-55-_index-security-title]
+other = "Easily secure your data and devices"
+
+[i18n-content-55-_index-security-items-i_0-title]
+other = "We are serious about security"
+
+[i18n-content-55-_index-security-items-i_0-body]
+other = """We take privacy and data security very seriously. We’ve taken a number
+ of steps to make sure that your information is always safe."""
+
+[i18n-content-55-_index-security-items-i_1-title]
+other = "Fleet Management"
+
+[i18n-content-55-_index-security-items-i_1-body]
+other = "Use the Vibe Admin Console to create and push device, user and app policies."
+
+[i18n-content-55-_index-security-cta-title]
+other = "Learn more about security"
+
+[i18n-content-55-_index-spec-title]
+other = "View Tech Specs"
+
+[i18n-content-55-_index-spec-banner-i_0-title]
+other = "2.4G/5G"
+
+[i18n-content-55-_index-spec-banner-i_0-body]
+other = "Wi-Fi"
+
+[i18n-content-55-_index-spec-banner-i_1-title]
+other = "HDMI"
+
+[i18n-content-55-_index-spec-banner-i_1-body]
+other = "In & Out"
+
+[i18n-content-55-_index-spec-banner-i_2-title]
+other = "USB"
+
+[i18n-content-55-_index-spec-banner-i_2-body]
+other = "2.0 & 3.0"
+
+[i18n-content-55-_index-spec-banner-i_3-title]
+other = "STEREO"
+
+[i18n-content-55-_index-spec-banner-i_3-body]
+other = "Speaker"
+
+[i18n-content-55-_index-spec-cta-title]
+other = "Download Tech Specs"
+
+[i18n-content-55-_index-accessories-title]
+other = "Accessories"
+
+[i18n-content-55-_index-accessories-items-i_0-title]
+other = "White portable stand for 55″"
+
+[i18n-content-55-_index-accessories-items-i_0-body]
+other = "Easily move around. Make any room a dynamic teamwork space."
+
+[i18n-content-55-_index-accessories-items-i_1-title]
+other = "Red portable stand for 55″"
+
+[i18n-content-55-_index-accessories-items-i_1-body]
+other = "Easily move around. Make any room a dynamic teamwork space."
+
+[i18n-content-55-_index-accessories-items-i_2-title]
+other = "Active stylus"
+
+[i18n-content-55-_index-accessories-items-i_2-body]
+other = "Vibe active stylus helps you easily sketch on the board and turn pages when presenting."
+
+[i18n-content-55-_index-accessories-cta-title]
+other = "Visit the Vibe store"
+
+[i18n-content-55-_index-faq-title]
+other = "75 FAQs"
+
+[i18n-content-55-_index-faq-items-i_0-title]
+other = "Is Vibe compatible with any wall mount?"
+
+[i18n-content-55-_index-faq-items-i_0-body]
+other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
+ wall mounts or stands which support at least 65 lbs."""
+
+[i18n-content-55-_index-faq-items-i_1-title]
+other = "Are there any HDMI input?"
+
+[i18n-content-55-_index-faq-items-i_1-body]
+other = "Yes. Vibe supports both HDMI input and output.\n"
+
+[i18n-content-55-_index-faq-items-i_2-title]
+other = "What are the product dimensions?"
+
+[i18n-content-55-_index-faq-items-i_2-body]
+other = """**Vibe board dimensions:**
+- Diagonal screen size: 55\"
+- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
+- Product weight: 54.1 lbs
+- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
+- VESA Mount: 200 x 200 mm
+
+**Vibe stand dimensions:**
+- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
+- Weight: 33.1 lbs"""
+
+[i18n-content-55-_index-faq-items-i_3-title]
+other = "Which cameras work with Vibe?"
+
+[i18n-content-55-_index-faq-items-i_3-body]
+other = """Vibe is compatible with most USB connected cameras.
+
+If you are in the market for a new camera that you would want to use with your Vibe board, our team has
+tested the following cameras and can confirm their compatibility with Vibe.
+- Logitech 920
+- Logitech 930
+- Logitech BRIO
+- Logitech Conference Cam Bcc950
+- Logitech Meetup
+- Owl camera
+- Polycom Studio
+
+If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
+please contact support at <support@vibe.us> to start a support ticket."""
+
+[i18n-content-55-_index-faq-items-i_4-title]
+other = "Are there any other accessories available with Vibe?"
+
+[i18n-content-55-_index-faq-items-i_4-body]
+other = "We currently only offer Vibe stands and additional styluses.\n"
+
+[i18n-content-55-_index-faq-items-i_5-title]
+other = "How is the Vibe board powered?"
+
+[i18n-content-55-_index-faq-items-i_5-body]
+other = """Vibe is powered through a detachable power cord that comes with your purchase.
+- Power Supply: AC100-240V - 50/60Hz
+
+We do not offer a battery option at this time."""
+
+[i18n-content-55-_index-bottom_cta-title]
+other = "Experience Vibe for yourself"
+
+[i18n-content-55-_index-bottom_cta-cta-title1]
+other = "Book a live demo"
+
+[i18n-content-55-_index-bottom_cta-cta-title2]
+other = "Order now"
+
+
 [i18n-content-75-_index-hero-subtitle]
 other = "Vibe Pro 75″ Digital Whiteboard"
 
@@ -1817,19 +1976,6 @@ other = """Vibe is powered through a detachable power cord that comes with your 
 
 We do not offer a battery option at this time."""
 
-[i18n-content-75-_index-video_section-title]
-other = "Vibe is more than 75"
-
-[i18n-content-75-_index-video_section-body]
-other = """Vibe is a complete collaboration solution, with 75 and software that work together to uplevel
-your meetings and presentations."""
-
-[i18n-content-75-_index-video_section-cta-title]
-other = "Check out the software →"
-
-[i18n-content-75-_index-bottom_cta-title]
-other = "Collaborate better together with Vibe"
-
 [i18n-content-75-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"
 
@@ -1848,6 +1994,9 @@ to the unique capabilities of the Vibe board. Revel in powerful performance of t
 
 [i18n-content-75-_index-feature_set_2-cta-title]
 other = "Read more about VibeOS →"
+
+[i18n-content-75-_index-bottom_cta-title]
+other = "Collaborate better together with Vibe"
 
 [i18n-content-75-_index-bottom_cta-cta-title1]
 other = "Pre-order now"

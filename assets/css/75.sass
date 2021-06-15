@@ -1,4 +1,5 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
+
 @import "_shared.sass"
 @import "_faq.sass"
 @import "_video-section.sass"
@@ -6,7 +7,8 @@
 @import "_testimonial-section.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
-
+@import "_accessories.sass"
+@import "_security.sass"
 .hero
   position: relative
   font-size: 18px
@@ -275,74 +277,6 @@
       color: #6666CC
 
 
-.section.is-security
-  +vertical-padding(120px)
-  position: relative
-  background-color: #111111
-  color: #FFFFFF
-  .image.is-security-bg
-    position: relative
-    img
-      max-width: 897px
-      width: 100%
-      height: 100%
-      margin: 0 auto 27px
-      +mobile
-        object-position: 48% 50%
-  .title.is-section-title
-    margin-bottom: 40px
-    line-height: 1.5
-    text-align: center
-    color: #FFFFFF
-    +mobile
-      margin-bottom: 42px
-    p
-      display: inline
-  .column
-    display: flex
-    flex-direction: column
-    align-items: center
-    .image
-      max-width: 40px
-      margin-bottom: 17px
-      +mobile
-        max-width: 27px
-        margin-bottom: 12px
-    .item-title
-      max-width: 284px
-      font-size: 30px
-      line-height: 38px
-      font-family: $vibe-family-heading
-      font-weight: $vibe-bold
-      text-align: center
-      margin-bottom: 16px
-      +mobile
-        font-size: 20px
-        line-height: 1.5
-        margin-bottom: 12px
-    .content
-      max-width: 300px
-      text-align: center
-      color: #9E9E9E
-      +mobile
-        margin-bottom: 16px
-  .column:last-child
-    .image
-      +lang-override(".lang-zh")
-        +tablet
-          max-width: 260px
-  .cta
-    margin-top: 32px
-    text-align: center
-    +tablet
-      font-weight: $vibe-bold
-    .is-security-botton
-      color: #fff!important
-      border-color: #fff
-
-    a:not(:hover)
-      color: $vibe-purple
-
 .section.is-spec
   +vertical-padding(26px, 16px, 16px, 16px)
   background-color: #F4F4F4
@@ -463,60 +397,3 @@
       .cta
         font-size: 14px
 
-.section.is-accessories
-  +vertical-padding(120px)
-  .title.is-section-title
-    margin-bottom: 40px
-    line-height: 1.5
-    text-align: center
-    +mobile
-      margin-bottom: 42px
-    p
-      display: inline
-  .column
-    display: flex
-    flex-direction: column
-    align-items: center
-    .image
-      width: 100%
-      height: auto
-      margin-bottom: 17px
-      +mobile
-        max-height: 70px
-        margin-bottom: 12px
-      img
-        width: 100%
-        height: 100%
-        +mobile
-          object-position: 48% 50%
-    .item-title
-      max-width: 284px
-      font-size: 30px
-      line-height: 38px
-      font-family: $vibe-family-heading
-      font-weight: $vibe-bold
-      text-align: center
-      margin-bottom: 16px
-      +mobile
-        font-size: 20px
-        line-height: 1.5
-        margin-bottom: 12px
-    .content
-      max-width: 300px
-      text-align: center
-      +mobile
-        margin-bottom: 16px
-  .column:last-child
-    .image
-      +lang-override(".lang-zh")
-        +tablet
-          max-width: 260px
-  .cta
-    margin-top: 32px
-    text-align: center
-    color: #000
-    +tablet
-      font-weight: $vibe-bold
-
-    a:not(:hover)
-      color: $vibe-purple

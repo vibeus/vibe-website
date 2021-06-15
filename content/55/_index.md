@@ -65,4 +65,192 @@ testimonial_section:
         logo: img/common/testimonials/csi.png
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body
+apps:
+  title: i18n-content-55-_index-apps-title
+  body: i18n-content-55-_index-apps-body
+  cta:
+    title: i18n-content-55-_index-apps-cta-title
+    url: /55/
+
+security:
+  title: i18n-content-55-_index-security-title
+  figure: img/55/security.png
+  items:
+    - title: i18n-content-55-_index-security-items-i_0-title
+      body: i18n-content-55-_index-security-items-i_0-body
+      figure: img/55/security-1.png
+      alt_text: Storage on Vibe Cloud
+    - title: i18n-content-55-_index-security-items-i_1-title
+      body: i18n-content-55-_index-security-items-i_1-body
+      figure: img/55/security-2.png
+      alt_text: Integrate popular applications
+  cta:
+    title: i18n-content-55-_index-security-cta-title
+    url: /security/
+
+spec:
+  title: i18n-content-55-_index-spec-title
+  banner:
+    - title: i18n-content-55-_index-spec-banner-i_0-title
+      body: i18n-content-55-_index-spec-banner-i_0-body
+    - title: i18n-content-55-_index-spec-banner-i_1-title
+      body: i18n-content-55-_index-spec-banner-i_1-body
+    - title: i18n-content-55-_index-spec-banner-i_2-title
+      body: i18n-content-55-_index-spec-banner-i_2-body
+    - title: i18n-content-55-_index-spec-banner-i_3-title
+      body: i18n-content-55-_index-spec-banner-i_3-body
+  columns:
+    - - title: i18n-content-hardware-_index-spec-columns-i_0-i_0-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_3-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_4-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_4-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_5-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_5-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_6-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_6-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_7-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_7-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_8-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_8-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_9-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_9-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_10-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_0-items-i_10-value
+      - title: i18n-content-hardware-_index-spec-columns-i_0-i_1-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_3-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_4-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_4-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_5-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_1-items-i_5-value
+      - title: i18n-content-hardware-_index-spec-columns-i_0-i_2-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_3-value
+          - name: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_4-name
+            value: i18n-content-hardware-_index-spec-columns-i_0-i_2-items-i_4-value
+    - - title: i18n-content-hardware-_index-spec-columns-i_1-i_0-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_3-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_4-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_4-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_5-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_0-items-i_5-value
+      - title: i18n-content-hardware-_index-spec-columns-i_1-i_1-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_1-items-i_2-value
+      - title: i18n-content-hardware-_index-spec-columns-i_1-i_2-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_2-items-i_3-value
+      - title: i18n-content-hardware-_index-spec-columns-i_1-i_3-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_3-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_4-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_4-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_5-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_3-items-i_5-value
+      - title: i18n-content-hardware-_index-spec-columns-i_1-i_4-title
+        items:
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_0-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_0-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_1-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_1-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_2-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_2-value
+          - name: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_3-name
+            value: i18n-content-hardware-_index-spec-columns-i_1-i_4-items-i_3-value
+  cta:
+    title: i18n-content-55-_index-spec-cta-title
+    class: is-black is-outlined is-rounded
+    url: /resources/Vibe_Tech_Specs.pdf
+  
+accessories:
+  title: i18n-content-55-_index-accessories-title
+  items:
+    - title: i18n-content-55-_index-accessories-items-i_0-title
+      body: i18n-content-55-_index-accessories-items-i_0-body
+      figure: img/55/accessories-1.png
+      alt_text: Storage on Vibe Cloud
+    - title: i18n-content-55-_index-accessories-items-i_1-title
+      body: i18n-content-55-_index-accessories-items-i_1-body
+      figure: img/55/accessories-2.png
+      alt_text: Integrate popular applications
+    - title: i18n-content-55-_index-accessories-items-i_2-title
+      body: i18n-content-55-_index-accessories-items-i_2-body
+      figure: img/55/accessories-3.png
+      alt_text: Integrate popular applications
+  cta:
+    title: i18n-content-55-_index-accessories-cta-title
+    url: /order/global-sales/
+
+faq:
+  title: i18n-content-55-_index-faq-title
+  items:
+    - title: i18n-content-55-_index-faq-items-i_0-title
+      body: i18n-content-55-_index-faq-items-i_0-body
+    - title: i18n-content-55-_index-faq-items-i_1-title
+      body: i18n-content-55-_index-faq-items-i_1-body
+    - title: i18n-content-55-_index-faq-items-i_2-title
+      body: i18n-content-55-_index-faq-items-i_2-body
+    - title: i18n-content-55-_index-faq-items-i_3-title
+      body: i18n-content-55-_index-faq-items-i_3-body
+    - title: i18n-content-55-_index-faq-items-i_4-title
+      body: i18n-content-55-_index-faq-items-i_4-body
+    - title: i18n-content-55-_index-faq-items-i_5-title
+      body: i18n-content-55-_index-faq-items-i_5-body
+      
+bottom_cta:
+  title: i18n-content-55-_index-bottom_cta-title
+  cta:
+    buttons:
+      - title: i18n-content-55-_index-bottom_cta-cta-title1
+        dark_to_light: true
+      - title: i18n-content-55-_index-bottom_cta-cta-title2
 ---
