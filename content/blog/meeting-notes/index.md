@@ -6,7 +6,7 @@ date: '2021-06-15'
 tags:
 - Meeting Techniques
 - Meetings
-draft: true
+draft: false
 isfeatured: false
 description: Want to be feel more professional during meetings? Vibe recommends how to take better meeting notes and improve
   team communication.
