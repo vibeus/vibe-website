@@ -12,7 +12,9 @@ description: "Every team benefits from one-on-one meetings, but they\u2019re esp
   \ how to get the most value from your one-on-ones."
 categories:
 - meeting-techniques
-industries: []
+industries:
+- business
+- engineering
 ---
 
 Do you know who your employees are beyond their job title? What are their goals, interests, and struggles — and how are you supporting them? The barrier of remote work certainly doesn’t help you answer these questions. But whether you share the same building or the same digital drive, you can have meaningful connections with your team with the help of one-on-one meetings.
