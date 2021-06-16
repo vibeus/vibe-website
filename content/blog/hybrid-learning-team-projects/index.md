@@ -7,7 +7,7 @@ tags:
 - Distance Learning
 - Education
 - Tech Tools
-draft: true
+draft: false
 isfeatured: false
 description: "It\u2019s possible for students to collaborate on team projects, even in hybrid learning environments. Use these\
   \ guidelines for your next class."
