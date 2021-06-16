@@ -1262,6 +1262,62 @@ other = "Fast adoption and low IT cost for any size business"
 [i18n-content-hardware-_index-bottom_cta-cta-title]
 other = "See a Demo"
 
+[i18n-content-55-_index-feature_section-title]
+other = "The all-in-one 55″ digital whiteboard for the modern workspace"
+
+[i18n-content-55-_index-feature_section-features-items-i_0-title]
+other = "4K UHD display"
+
+[i18n-content-55-_index-feature_section-features-items-i_0-body]
+other = "Everything looks stunningly sharp on the screen."
+
+[i18n-content-55-_index-feature_section-features-i_1-title]
+other = "Transform your office into a flexible collaborative space"
+
+[i18n-content-55-_index-feature_section-features-i_1-body]
+other = "Vibe takes less than 5 minutes to install. With Vibe's portable stand, any room becomes a dynamic huddle space."
+
+[i18n-content-55-_index-canvas_section-canvas-i_0-title]
+other = "Unleash your creativity on a shared Canvas"
+
+[i18n-content-55-_index-canvas_section-canvas-i_0-features-title]
+other = "True collaboration software for wherever you work"
+
+[i18n-content-55-_index-canvas_section-canvas-i_0-features-body1]
+other = "Capture your thoughts and express ideas naturally with visual elements."
+
+[i18n-content-55-_index-canvas_section-canvas-i_0-features-body2]
+other = "Seamlessly collaborate in real time on whichever devices work best for your team."
+
+[i18n-content-55-_index-canvas_section-canvas-i_1-title]
+other = "True collaboration software for wherever you work"
+
+[i18n-content-55-_index-canvas_section-canvas-i_1-features-title]
+other = "Turn video conferences into engaging conversations"
+
+[i18n-content-55-_index-canvas_section-canvas-i_1-features-body1]
+other = "Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps."
+
+[i18n-content-55-_index-canvas_section-canvas-i_1-features-body2]
+other = "Make your meetings more dynamic with split screens. You can be on a video call while taking notes on the board. "
+
+[i18n-content-55-_index-canvas_section-canvas-i_2-title]
+other = "True collaboration software for wherever you work"
+
+[i18n-content-55-_index-canvas_section-canvas-i_2-features-title]
+other = "Present, annotate, and wow your audience"
+
+[i18n-content-55-_index-canvas_section-canvas-i_2-features-body1]
+other = "Fluidly mirror your screen to Vibe via HDMI or wireless casting."
+
+[i18n-content-55-_index-canvas_section-canvas-i_2-features-body2]
+other = "Dynamically edit or annotate on any file type during your presentation."
+
+
+[i18n-content-55-_index-canvas-cta-title]
+other = "Learn more about Vibe Canvas →"
+
+
 [i18n-content-55-_index-apps-title]
 other = "Open ecosystem with all your favorite apps"
 
@@ -1347,25 +1403,28 @@ other = "Vibe active stylus helps you easily sketch on the board and turn pages 
 other = "Visit the Vibe store"
 
 [i18n-content-55-_index-faq-title]
-other = "75 FAQs"
+other = "Still have questions?"
 
-[i18n-content-55-_index-faq-items-i_0-title]
+[i18n-content-55-_index-faq-title1]
+other = "Hardware"
+
+[i18n-content-55-_index-faq-items1-i_0-title]
 other = "Is Vibe compatible with any wall mount?"
 
-[i18n-content-55-_index-faq-items-i_0-body]
+[i18n-content-55-_index-faq-items1-i_0-body]
 other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
  wall mounts or stands which support at least 65 lbs."""
 
-[i18n-content-55-_index-faq-items-i_1-title]
+[i18n-content-55-_index-faq-items1-i_1-title]
 other = "Are there any HDMI input?"
 
-[i18n-content-55-_index-faq-items-i_1-body]
+[i18n-content-55-_index-faq-items1-i_1-body]
 other = "Yes. Vibe supports both HDMI input and output.\n"
 
-[i18n-content-55-_index-faq-items-i_2-title]
+[i18n-content-55-_index-faq-items1-i_2-title]
 other = "What are the product dimensions?"
 
-[i18n-content-55-_index-faq-items-i_2-body]
+[i18n-content-55-_index-faq-items1-i_2-body]
 other = """**Vibe board dimensions:**
 - Diagonal screen size: 55\"
 - Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
@@ -1377,10 +1436,10 @@ other = """**Vibe board dimensions:**
 - Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
 - Weight: 33.1 lbs"""
 
-[i18n-content-55-_index-faq-items-i_3-title]
+[i18n-content-55-_index-faq-items1-i_3-title]
 other = "Which cameras work with Vibe?"
 
-[i18n-content-55-_index-faq-items-i_3-body]
+[i18n-content-55-_index-faq-items1-i_3-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1396,20 +1455,26 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-55-_index-faq-items-i_4-title]
+[i18n-content-55-_index-faq-items1-i_4-title]
 other = "Are there any other accessories available with Vibe?"
 
-[i18n-content-55-_index-faq-items-i_4-body]
+[i18n-content-55-_index-faq-items1-i_4-body]
 other = "We currently only offer Vibe stands and additional styluses.\n"
 
-[i18n-content-55-_index-faq-items-i_5-title]
+[i18n-content-55-_index-faq-items1-i_5-title]
 other = "How is the Vibe board powered?"
 
-[i18n-content-55-_index-faq-items-i_5-body]
+[i18n-content-55-_index-faq-items1-i_5-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
+
+[i18n-content-55-_index-faq-title2]
+other = "Software"
+
+[i18n-content-55-_index-faq-title3]
+other = "Shipping"
 
 [i18n-content-55-_index-bottom_cta-title]
 other = "Experience Vibe for yourself"
@@ -1911,41 +1976,10 @@ other = "One-click seamless experience to cast your screen onto Vibe board."
 [i18n-content-75-_index-accessories-cta-title]
 other = "Visit the Vibe store"
 
-[i18n-content-75-_index-faq-title]
-other = "75 FAQs"
-
-[i18n-content-75-_index-faq-items-i_0-title]
-other = "Is Vibe compatible with any wall mount?"
-
-[i18n-content-75-_index-faq-items-i_0-body]
-other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
- wall mounts or stands which support at least 65 lbs."""
-
-[i18n-content-75-_index-faq-items-i_1-title]
-other = "Are there any HDMI input?"
-
-[i18n-content-75-_index-faq-items-i_1-body]
-other = "Yes. Vibe supports both HDMI input and output.\n"
-
-[i18n-content-75-_index-faq-items-i_2-title]
-other = "What are the product dimensions?"
-
-[i18n-content-75-_index-faq-items-i_2-body]
-other = """**Vibe board dimensions:**
-- Diagonal screen size: 55\"
-- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
-- Product weight: 54.1 lbs
-- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
-- VESA Mount: 200 x 200 mm
-
-**Vibe stand dimensions:**
-- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
-- Weight: 33.1 lbs"""
-
-[i18n-content-75-_index-faq-items-i_3-title]
+[i18n-content-75-_index-faq-items1-i_3-title]
 other = "Which cameras work with Vibe?"
 
-[i18n-content-75-_index-faq-items-i_3-body]
+[i18n-content-75-_index-faq-items1-i_3-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1961,20 +1995,26 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-75-_index-faq-items-i_4-title]
+[i18n-content-75-_index-faq-items1-i_4-title]
 other = "Are there any other accessories available with Vibe?"
 
-[i18n-content-75-_index-faq-items-i_4-body]
+[i18n-content-75-_index-faq-items1-i_4-body]
 other = "We currently only offer Vibe stands and additional styluses.\n"
 
-[i18n-content-75-_index-faq-items-i_5-title]
+[i18n-content-75-_index-faq-items1-i_5-title]
 other = "How is the Vibe board powered?"
 
-[i18n-content-75-_index-faq-items-i_5-body]
+[i18n-content-75-_index-faq-items1-i_5-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
+
+[i18n-content-75-_index-faq-title2]
+other = "Software"
+
+[i18n-content-75-_index-faq-title3]
+other = "Shipping"
 
 [i18n-content-75-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"

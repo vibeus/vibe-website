@@ -1,0 +1,46 @@
+.section.is-three-faqs
+  +vertical-padding(120px)
+  background-color: #F4F4F4
+  .title.is-section-title
+    margin-bottom: 72px
+    text-align: center
+  .container
+    max-width: 1120px
+    +tablet
+      font-size: 18px
+  .faq-section-title
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .title
+      margin-bottom: 14px
+  .faq-items
+    border-top: 1px solid $vibe-black
+    border-bottom: 1px solid $vibe-black
+  .faq-item:not(:last-child)
+    border-bottom: 1px solid $vibe-black
+  .faq-item
+    overflow: hidden
+    padding: 32px 0
+    &.is-active
+      .icon.is-chevron
+        transform: rotate(180deg)
+      .faq-title
+        font-weight: 500
+      .content
+        display: block
+    .faq-title
+      font-size: 21px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      cursor: pointer
+      +mobile
+        font-size: 16px
+    .content
+      display: none
+      margin-top: 32px
+      +mobile
+        margin-top: 16px
+        p, ul
+          margin-bottom: 10px

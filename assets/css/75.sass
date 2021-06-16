@@ -1,13 +1,14 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 
 @import "_shared.sass"
-@import "_faq.sass"
+@import "_three-faqs.sass"
 @import "_video-section.sass"
 @import "_testimonial-glide.sass"
 @import "_testimonial-section.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
 @import "_accessories.sass"
+@import "_canvas.sass"
 @import "_security.sass"
 .hero
   position: relative
@@ -115,57 +116,6 @@
         right: 16px
       +widescreen
         right: 64px
-
-.section.is-canvas
-  +vertical-padding(120px)
-  background-color: #fff
-  .container
-    width: 100vw
-    margin: 0
-  .title.is-section-title
-    max-width: 633px
-    margin: 0 auto 18px
-    font-size: 48px
-    text-align: center
-  .content
-    max-width: 773px
-    margin: 0 auto
-    text-align: center
-  .is-canvas-img
-    width: 99vw
-    margin-top: 48px
-    margin-left: -1.5rem
-  .canvas-box 
-    width: 99vw
-    margin-left: -1.5rem
-    .main
-      max-width: 1102px
-      margin: -73px auto 0
-      padding: 48px 27px 32px
-      background: rgba(255, 255, 255, 0.8)
-      border: 1px solid #F1F1F1
-      box-sizing: border-box
-      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
-      backdrop-filter: blur(25px)
-      .columns
-        .column
-          display: flex
-          flex-direction: column
-          align-items: center
-          margin-right: 53px
-          margin-left: 53px
-          .title
-            font-size: 24px
-          .content
-            font-size: 18px
-            color: #000
-            text-align: left
-      .cta
-        margin-top: 44px
-        text-align: center
-        a
-          color: #6666CC
-
 
 .section.is-overview
   +vertical-padding(120px)

@@ -1,6 +1,6 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 @import "_shared.sass"
-@import "_faq.sass"
+@import "_three-faqs.sass"
 @import "_video-hero.sass"
 @import "_testimonial-glide.sass"
 @import "_testimonial-section.sass"
@@ -8,7 +8,7 @@
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
-
+@import "_canvas.sass"
 @import "_accessories.sass"
 @import "_security.sass"
 .hero
@@ -81,6 +81,53 @@
       margin-left: 18px
   .image.is-hero
     +mobile-full-width
+
+.section.is-overview
+  +vertical-padding(120px)
+  +lang-override(".lang-zh")
+    padding-top: 83px
+  &.is-lower
+    padding-bottom: 0
+  .title.is-section-title
+    max-width: 874px
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+  .columns
+    justify-content: center
+    .features-items 
+      display: flex
+      flex-direction: column
+  .column.is-text
+    max-width: 500px + 12px * 2
+    +lang-override(".lang-zh")
+      max-width: 569px
+    font-size: 18px
+    +lang-override(".lang-zh")
+      .title
+        font-size: 50px
+        line-height: 68px
+        margin-bottom: 48px
+    +mobile
+      .title
+        font-size: 18px
+        line-height: 1.5
+        margin-bottom: 1rem
+  .columns.is-feature-1
+    flex-direction: row-reverse
+    .column.is-image
+      max-width: 721px
+  .columns.is-feature-2
+    .column.is-image
+      max-width: 675px
+  .columns.is-feature-3
+    flex-direction: row-reverse
+    .column.is-image
+      max-width: 680px
+  .columns.is-feature-4
+    .column.is-image
+      max-width: 708px
+
 
 .section.is-apps
   +vertical-padding(120px)

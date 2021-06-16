@@ -26,20 +26,20 @@ as_seen_in:
   title_column_class: is-one-quarter-tablet
   references:
     - class: techcrunch-link
-      figure: img/home/logo-techcrunch-gray.png
-      figure_on_hover: img/home/logo-techcrunch.png
+      figure: img/55/logo/logo-techcrunch-gray.png
+      figure_on_hover: img/55/logo/logo-techcrunch.png
       link: https://techcrunch.com/2020/09/15/vibe-introduces-a-remote-collaboration-solution-that-works-with-your-favorite-apps/
     - class: forbes-link
-      figure: img/home/logo-forbes-gray.png
-      figure_on_hover: img/home/logo-forbes.png
+      figure: img/55/logo/logo-forbes-gray.png
+      figure_on_hover: img/55/logo/logo-forbes.png
       link: https://www.instagram.com/p/CLa-FgKlDSQ/?utm_source=ig_web_copy_link
     - class: cioreview-link
-      figure: img/home/logo-cioreview-gray.png
-      figure_on_hover: img/home/logo-cioreview.png
+      figure: img/55/logo/logo-cioreview-gray.png
+      figure_on_hover: img/55/logo/logo-cioreview.png
       link: https://remote-work-tech.cioreview.com/vendor/2020/vibe_inc
     - class: entrepreneur-link
-      figure: img/home/logo-entrepreneur-gray.png
-      figure_on_hover: img/home/logo-entrepreneur.png
+      figure: img/55/logo/logo-entrepreneur-gray.png
+      figure_on_hover: img/55/logo/logo-entrepreneur.png
       link: https://www.entrepreneur.com/article/366106
 testimonial_section:
   testimonials:
@@ -65,6 +65,57 @@ testimonial_section:
         logo: img/common/testimonials/csi.png
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body
+
+feature_section:
+  title: i18n-content-55-_index-feature_section-title
+  features:
+    - figure: img/55/feature-1.png
+      class: is-feature-1
+      items:
+        - title: i18n-content-55-_index-feature_section-features-items-i_0-title
+          body: i18n-content-55-_index-feature_section-features-items-i_0-body
+        - title: i18n-content-55-_index-feature_section-features-items-i_1-title
+          body: i18n-content-55-_index-feature_section-features-items-i_1-body
+        - title: i18n-content-55-_index-feature_section-features-items-i_2-title
+          body: i18n-content-55-_index-feature_section-features-items-i_2-body
+    - title: i18n-content-55-_index-feature_section-features-i_1-title
+      body: i18n-content-55-_index-feature_section-features-i_1-body
+      figure: img/55/feature-2.png
+      class: is-feature-2
+
+canvas_section:
+  class: is-canvas-bg
+  canvas:
+    - title: i18n-content-55-_index-canvas_section-canvas-i_0-title
+      figure: img/55/canvas-1.png
+      features2:
+        title: i18n-content-55-_index-canvas_section-canvas-i_0-features-title
+        body1: i18n-content-55-_index-canvas_section-canvas-i_0-features-body1
+        body2: i18n-content-55-_index-canvas_section-canvas-i_0-features-body2
+        cta:
+          title: i18n-content-55-_index-canvas-cta-title
+          url: /55/
+    - title: i18n-content-55-_index-canvas_section-canvas-i_1-title
+      body: i18n-content-55-_index-canvas_section-canvas-i_1-title
+      figure: img/55/canvas-2.png
+      features2:
+        title: i18n-content-55-_index-canvas_section-canvas-i_1-features-title
+        body1: i18n-content-55-_index-canvas_section-canvas-i_1-features-body1
+        body2: i18n-content-55-_index-canvas_section-canvas-i_1-features-body2
+        cta:
+          title: i18n-content-55-_index-canvas-cta-title
+          url: /55/
+    - title: i18n-content-55-_index-canvas_section-canvas-i_2-title
+      body: i18n-content-55-_index-canvas_section-canvas-i_2-title
+      figure: img/55/canvas-3.png
+      features2:
+        title: i18n-content-55-_index-canvas_section-canvas-i_2-features-title
+        body1: i18n-content-55-_index-canvas_section-canvas-i_2-features-body1
+        body2: i18n-content-55-_index-canvas_section-canvas-i_2-features-body2
+        cta:
+          title: i18n-content-55-_index-canvas-cta-title
+          url: /55/
+
 apps:
   title: i18n-content-55-_index-apps-title
   body: i18n-content-55-_index-apps-body
@@ -230,22 +281,51 @@ accessories:
     title: i18n-content-55-_index-accessories-cta-title
     url: /order/global-sales/
 
-faq:
+three_faqs:
   title: i18n-content-55-_index-faq-title
-  items:
-    - title: i18n-content-55-_index-faq-items-i_0-title
-      body: i18n-content-55-_index-faq-items-i_0-body
-    - title: i18n-content-55-_index-faq-items-i_1-title
-      body: i18n-content-55-_index-faq-items-i_1-body
-    - title: i18n-content-55-_index-faq-items-i_2-title
-      body: i18n-content-55-_index-faq-items-i_2-body
-    - title: i18n-content-55-_index-faq-items-i_3-title
-      body: i18n-content-55-_index-faq-items-i_3-body
-    - title: i18n-content-55-_index-faq-items-i_4-title
-      body: i18n-content-55-_index-faq-items-i_4-body
-    - title: i18n-content-55-_index-faq-items-i_5-title
-      body: i18n-content-55-_index-faq-items-i_5-body
-      
+  title1: i18n-content-55-_index-faq-title1
+  items1:
+    - title: i18n-content-55-_index-faq-items1-i_0-title
+      body: i18n-content-55-_index-faq-items1-i_0-body
+    - title: i18n-content-55-_index-faq-items1-i_1-title
+      body: i18n-content-55-_index-faq-items1-i_1-body
+    - title: i18n-content-55-_index-faq-items1-i_2-title
+      body: i18n-content-55-_index-faq-items1-i_2-body
+    - title: i18n-content-55-_index-faq-items1-i_3-title
+      body: i18n-content-55-_index-faq-items1-i_3-body
+    - title: i18n-content-55-_index-faq-items1-i_4-title
+      body: i18n-content-55-_index-faq-items1-i_4-body
+    - title: i18n-content-55-_index-faq-items1-i_5-title
+      body: i18n-content-55-_index-faq-items1-i_5-body
+  title2: i18n-content-55-_index-faq-title2
+  items2:
+    - title: i18n-content-55-_index-faq-items1-i_0-title
+      body: i18n-content-55-_index-faq-items1-i_0-body
+    - title: i18n-content-55-_index-faq-items1-i_1-title
+      body: i18n-content-55-_index-faq-items1-i_1-body
+    - title: i18n-content-55-_index-faq-items1-i_2-title
+      body: i18n-content-55-_index-faq-items1-i_2-body
+    - title: i18n-content-55-_index-faq-items1-i_3-title
+      body: i18n-content-55-_index-faq-items1-i_3-body
+    - title: i18n-content-55-_index-faq-items1-i_4-title
+      body: i18n-content-55-_index-faq-items1-i_4-body
+    - title: i18n-content-55-_index-faq-items1-i_5-title
+      body: i18n-content-55-_index-faq-items1-i_5-body
+  title3: i18n-content-55-_index-faq-title3
+  items3:
+    - title: i18n-content-55-_index-faq-items1-i_0-title
+      body: i18n-content-55-_index-faq-items1-i_0-body
+    - title: i18n-content-55-_index-faq-items1-i_1-title
+      body: i18n-content-55-_index-faq-items1-i_1-body
+    - title: i18n-content-55-_index-faq-items1-i_2-title
+      body: i18n-content-55-_index-faq-items1-i_2-body
+    - title: i18n-content-55-_index-faq-items1-i_3-title
+      body: i18n-content-55-_index-faq-items1-i_3-body
+    - title: i18n-content-55-_index-faq-items1-i_4-title
+      body: i18n-content-55-_index-faq-items1-i_4-body
+    - title: i18n-content-55-_index-faq-items1-i_5-title
+      body: i18n-content-55-_index-faq-items1-i_5-body
+  
 bottom_cta:
   title: i18n-content-55-_index-bottom_cta-title
   cta:

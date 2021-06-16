@@ -55,35 +55,7 @@
 {{ end }}
 
 {{ with .Params.canvas_section }}
-<section class="section is-canvas">
-  <div class="container">
-    {{ range .canvas }}
-      {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
-      {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
-      <figure class="image is-canvas-img">
-        {{ $src := resources.Get .figure | resources.Fingerprint }}
-        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
-      </figure>
-      <div class="canvas-box">
-        <div class="main">
-          <div class="columns">
-            {{ range .features }}
-            <div class="column">
-              {{ with .title }}<h1 class="title">{{ T . }}</h1>{{ end }}
-              {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
-            </div>
-            {{ end }}
-          </div>
-          {{ with .cta }}
-          <div class="cta">
-            <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
-  </div>
-</section>
+{{ partial "canvas" .}}
 {{ end }}
 
 {{ with .Params.feature_set_1 }}
@@ -218,8 +190,8 @@
 {{ partial "accessories" . }}
 {{ end }}
 
-{{ with .Params.faq }}
-{{ partial "faq" . }}
+{{ with .Params.three_faqs }}
+{{ partial "three-faqs" . }}
 {{ end }}
 
 

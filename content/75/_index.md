@@ -28,7 +28,7 @@ hero:
 canvas_section:
   canvas:
     - title: i18n-content-75-_index-canvas_section-canvas-i_0-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_0-title
+      body: i18n-content-75-_index-canvas_section-canvas-i_0-body
       figure: img/75/canvas-1.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-title
@@ -39,7 +39,7 @@ canvas_section:
         title: i18n-content-75-_index-canvas-cta-title
         url: /75/
     - title: i18n-content-75-_index-canvas_section-canvas-i_1-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_1-title
+      body: i18n-content-75-_index-canvas_section-canvas-i_1-body
       figure: img/75/canvas-2.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-title
@@ -50,7 +50,7 @@ canvas_section:
         title: i18n-content-75-_index-canvas-cta-title
         url: /75/
     - title: i18n-content-75-_index-canvas_section-canvas-i_2-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_2-title
+      body: i18n-content-75-_index-canvas_section-canvas-i_2-body
       figure: img/75/canvas-3.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-title
@@ -248,21 +248,49 @@ accessories:
   cta:
     title: i18n-content-75-_index-accessories-cta-title
     url: /order/global-sales/
-faq:
-  title: i18n-content-75-_index-faq-title
-  items:
-    - title: i18n-content-75-_index-faq-items-i_0-title
-      body: i18n-content-75-_index-faq-items-i_0-body
-    - title: i18n-content-75-_index-faq-items-i_1-title
-      body: i18n-content-75-_index-faq-items-i_1-body
-    - title: i18n-content-75-_index-faq-items-i_2-title
-      body: i18n-content-75-_index-faq-items-i_2-body
-    - title: i18n-content-75-_index-faq-items-i_3-title
-      body: i18n-content-75-_index-faq-items-i_3-body
-    - title: i18n-content-75-_index-faq-items-i_4-title
-      body: i18n-content-75-_index-faq-items-i_4-body
-    - title: i18n-content-75-_index-faq-items-i_5-title
-      body: i18n-content-75-_index-faq-items-i_5-body
+three_faqs:
+  title1: i18n-content-75-_index-faq-title1
+  items1:
+    - title: i18n-content-75-_index-faq-items1-i_0-title
+      body: i18n-content-75-_index-faq-items1-i_0-body
+    - title: i18n-content-75-_index-faq-items1-i_1-title
+      body: i18n-content-75-_index-faq-items1-i_1-body
+    - title: i18n-content-75-_index-faq-items1-i_2-title
+      body: i18n-content-75-_index-faq-items1-i_2-body
+    - title: i18n-content-75-_index-faq-items1-i_3-title
+      body: i18n-content-75-_index-faq-items1-i_3-body
+    - title: i18n-content-75-_index-faq-items1-i_4-title
+      body: i18n-content-75-_index-faq-items1-i_4-body
+    - title: i18n-content-75-_index-faq-items1-i_5-title
+      body: i18n-content-75-_index-faq-items1-i_5-body
+  title2: i18n-content-75-_index-faq-title2
+  items2:
+    - title: i18n-content-75-_index-faq-items1-i_0-title
+      body: i18n-content-75-_index-faq-items1-i_0-body
+    - title: i18n-content-75-_index-faq-items1-i_1-title
+      body: i18n-content-75-_index-faq-items1-i_1-body
+    - title: i18n-content-75-_index-faq-items1-i_2-title
+      body: i18n-content-75-_index-faq-items1-i_2-body
+    - title: i18n-content-75-_index-faq-items1-i_3-title
+      body: i18n-content-75-_index-faq-items1-i_3-body
+    - title: i18n-content-75-_index-faq-items1-i_4-title
+      body: i18n-content-75-_index-faq-items1-i_4-body
+    - title: i18n-content-75-_index-faq-items1-i_5-title
+      body: i18n-content-75-_index-faq-items1-i_5-body
+  title3: i18n-content-75-_index-faq-title3
+  items3:
+    - title: i18n-content-75-_index-faq-items1-i_0-title
+      body: i18n-content-75-_index-faq-items1-i_0-body
+    - title: i18n-content-75-_index-faq-items1-i_1-title
+      body: i18n-content-75-_index-faq-items1-i_1-body
+    - title: i18n-content-75-_index-faq-items1-i_2-title
+      body: i18n-content-75-_index-faq-items1-i_2-body
+    - title: i18n-content-75-_index-faq-items1-i_3-title
+      body: i18n-content-75-_index-faq-items1-i_3-body
+    - title: i18n-content-75-_index-faq-items1-i_4-title
+      body: i18n-content-75-_index-faq-items1-i_4-body
+    - title: i18n-content-75-_index-faq-items1-i_5-title
+      body: i18n-content-75-_index-faq-items1-i_5-body
 bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title
   cta:
