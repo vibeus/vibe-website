@@ -5,6 +5,9 @@ apps:
 - id: cards.boom.boom
   name: Boom Cards
   type: education
+- id: co.mangotechnologies.clickup
+  name: ClickUp
+  type: productivity
 - id: com.BuilderTREND.btMobileApp
   name: Buildertrend
   type: productivity
@@ -55,6 +58,9 @@ apps:
 - id: com.autodesk.autocadws
   name: AutoCAD
   type: productivity
+- id: com.blackboard.android.bbinstructor
+  name: Instructor
+  type: education
 - id: com.blackboard.android.bbstudent
   name: Blackboard
   type: education
@@ -78,7 +84,7 @@ apps:
   name: Canva
   type: design
 - id: com.cisco.webex.meetings
-  name: Webex
+  name: Webex Meet
   use_case: remote
   type: vc
 - id: com.citrix.Receiver
@@ -119,12 +125,18 @@ apps:
 - id: com.facebook.Origami
   name: Origami
   type: communication
+- id: com.fusionprojects.edmodo
+  name: Edmodo
+  type: education
 - id: com.garmin.android.apps.connectmobile
   name: Connect
   type: other
 - id: com.glip.mobile
   name: RingCentral
   type: productivity
+- id: com.google.android.apps.meetings
+  name: Meet
+  type: vc
 - id: com.google.android.apps.youtube.unplugged
   name: YouTube TV
   type: av
@@ -198,7 +210,7 @@ apps:
   type: file
   featured: true
 - id: com.microsoft.teams
-  name: Microsoft Teams
+  name: Teams
   use_case: remote
   type: communication
   featured: true
@@ -216,6 +228,9 @@ apps:
   name: Monday
   use_case: project
   type: project
+- id: com.mural
+  name: MURAL
+  type: productivity
 - id: com.my.mail
   name: myMail
   use_case: remote
@@ -336,6 +351,12 @@ apps:
 - id: com.zwift.android.prod
   name: Companion
   type: other
+- id: de.merck.pte
+  name: Merck PTE
+  type: education
+- id: gov.nasa
+  name: NASA
+  type: education
 - id: io.screencloud.player
   name: ScreenCloud Player
   type: productivity
@@ -343,6 +364,9 @@ apps:
   name: Blue Mail
   use_case: remote
   type: communication
+- id: org.khanacademy.android
+  name: Khan Academy
+  type: education
 - id: tv.fipe.fplayer
   name: FX player
   type: av
@@ -354,21 +378,3 @@ apps:
 - id: videoeditor.videorecorder.screenrecorder
   name: XRecorder
   type: av
-- id: co.mangotechnologies.clickup
-  name: ClickUp
-  type: productivity
-- id: com.fusionprojects.edmodo
-  name: Edmodo
-  type: education
-- id: com.google.android.apps.meetings
-  name: Meet
-  type: vc
-- id: de.merck.pte
-  name: Merck PTE
-  type: education
-- id: gov.nasa
-  name: NASA
-  type: education
-- id: org.khanacademy.android
-  name: Khan Academy
-  type: education
