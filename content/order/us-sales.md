@@ -51,21 +51,22 @@ products:
       figure: img/order/accessory-stand-w.png
       sold_out: false
       backorder:
-        item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
-        #item_notice: 'Expected to ship in 2 weeks from Shopify. Immediate shipping from [Amazon.](https://www.amazon.com/Vibe-Interactive-Touchscreen-Collaboration-Whiteboard/dp/B0829BYC5K)'
-        cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
+        false
+        # item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
+        # item_notice: 'Expected to ship in 2 weeks from Shopify. Immediate shipping from [Amazon.](https://www.amazon.com/Vibe-Interactive-Touchscreen-Collaboration-Whiteboard/dp/B0829BYC5K)'
+        # cart_notice: Shipping Delayed. Expected to ship in 2 weeks.
   - item: &id003
       product_name: red_stand
       title: i18n-content-order-_index-products-i_2-item-title
       product_id: '31815731609651'
       price: 500
       figure: img/order/accessory-stand-r.png
-      sold_out:
-        item_notice: |
-          Temporarily unavailable. Compatible 3rd party stand options are
-          listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
-        item_notice_text_align: center
-        cart_notice: Temporarily unavailable.
+      sold_out: false
+        # item_notice: |
+        #   Temporarily unavailable. Compatible 3rd party stand options are
+        #   listed [here.](https://knowledge.vibe.us/3rd-party-stand-options)
+        # item_notice_text_align: center
+        # cart_notice: Temporarily unavailable.
       backorder:
         false
         #item_notice: '**Shipping Delayed.** Expected to ship in 2 weeks.'
