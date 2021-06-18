@@ -7,7 +7,7 @@ tags:
 - Meeting Techniques
 - Tech Tools
 - Video Conferencing
-draft: true
+draft: false
 isfeatured: false
 description: Up your professional game and create a great virtual meeting experience with our guide to choosing the best video
   conferencing hardware.
