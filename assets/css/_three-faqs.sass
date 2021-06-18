@@ -12,9 +12,20 @@
     display: flex
     align-items: center
     justify-content: space-between
+    .faq-section-title-row
+      display: flex
+      justify-content: space-between
+      min-width: 520px
+      font-size: 16px
     .title
       margin-bottom: 14px
+      font-size: 22px
+      color: #828282
+      cursor: pointer
+    .faq-section.is-active
+      color: #000
   .faq-items
+    display: none
     border-top: 1px solid $vibe-black
     border-bottom: 1px solid $vibe-black
   .faq-item:not(:last-child)
@@ -44,3 +55,5 @@
         margin-top: 16px
         p, ul
           margin-bottom: 10px
+.display-block
+  display: block

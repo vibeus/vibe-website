@@ -1,0 +1,84 @@
+.testimonial
+  display: flex
+  max-width: 1080px
+  max-height: 403px
+  background: $vibe-yellow
+  .testimonial-left-image
+    img
+      width: 266px
+      height: 403px
+  .testimonial-content
+    max-width: 814px
+    max-height: 403px
+    .content
+      position: relative
+      height: 266px
+      +tablet
+        font-size: 30px
+      font-family: $vibe-family-heading
+      padding: 64px 96px 0 72px
+      +mobile
+        padding: 32px 0 32px 0
+      .content-title
+        font-size: 16px
+        line-height: 20px
+        margin-bottom: 16px
+      .content-body
+        font-size: 30px
+        font-weight: 600
+        line-height: 38px
+    .quote-mark
+      position: absolute
+      width: 62px
+      +mobile
+        width: 30px
+      &.is-left
+        top: 0
+        left: 0
+      &.is-right
+        right: 0
+        bottom: 0
+    .author
+      display: flex
+      +tablet
+        text-align: center
+      .logo-name
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        +mobile
+          display: block
+        +tablet
+          &.has-logo
+            .name
+              margin-left: 72px
+        .image
+          width: 140px
+          height: 64px
+          img
+            width: 100%
+            height: 100%
+            object-fit: contain
+            object-position: right
+          +mobile
+            width: 120px
+            height: 36px
+            margin-top: 32px
+            img
+              object-position: left
+        .name
+          font-family: $vibe-family-heading
+          span:first-child
+            font-weight: $vibe-bold
+            margin-bottom: 8px
+          +tablet
+            font-size: 18px
+            line-height: 32px
+    .more
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      margin-top: 42px
+      text-align: right
+      +tablet
+        font-size: 18px

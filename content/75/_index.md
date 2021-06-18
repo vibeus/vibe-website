@@ -26,7 +26,8 @@ hero:
       - img/75/gallery/gallery-9.png
       - img/75/gallery/gallery-10.png
 canvas_section:
-  canvas:
+  is_rectangle_dots: true
+  canvases:
     - title: i18n-content-75-_index-canvas_section-canvas-i_0-title
       body: i18n-content-75-_index-canvas_section-canvas-i_0-body
       figure: img/75/canvas-1.png
@@ -122,6 +123,7 @@ security:
     url: /security/
 spec:
   title: i18n-content-75-_index-spec-title
+  see_all: i18n-content-75-_index-spec-see_all
   columns:
     - - title: i18n-content-75-_index-spec-columns-i_0-i_0-title
         items:
@@ -147,6 +149,8 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_0-i_0-items-i_9-value
           - name: i18n-content-75-_index-spec-columns-i_0-i_0-items-i_10-name
             value: i18n-content-75-_index-spec-columns-i_0-i_0-items-i_10-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_0-items-i_11-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_0-items-i_11-value
       - title: i18n-content-75-_index-spec-columns-i_0-i_1-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_0-name
@@ -161,6 +165,14 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_4-value
           - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_5-name
             value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_5-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_6-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_6-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_7-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_7-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_8-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_8-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_9-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_1-items-i_9-value
       - title: i18n-content-75-_index-spec-columns-i_0-i_2-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_0-name
@@ -173,6 +185,12 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_3-value
           - name: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_4-name
             value: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_4-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_5-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_5-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_6-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_6-value
+          - name: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_7-name
+            value: i18n-content-75-_index-spec-columns-i_0-i_2-items-i_7-value
     - - title: i18n-content-75-_index-spec-columns-i_1-i_0-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_0-name
@@ -187,6 +205,16 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_4-value
           - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_5-name
             value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_5-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_6-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_6-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_7-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_7-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_8-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_8-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_9-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_9-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_10-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_0-items-i_10-value
       - title: i18n-content-75-_index-spec-columns-i_1-i_1-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_0-name
@@ -195,6 +223,8 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_1-value
           - name: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_2-name
             value: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_2-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_3-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_1-items-i_3-value
       - title: i18n-content-75-_index-spec-columns-i_1-i_2-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_0-name
@@ -205,92 +235,80 @@ spec:
             value: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_2-value
           - name: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_3-name
             value: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_3-value
+          - name: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_4-name
+            value: i18n-content-75-_index-spec-columns-i_1-i_2-items-i_4-value
       - title: i18n-content-75-_index-spec-columns-i_1-i_3-title
         items:
           - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_0-name
             value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_0-value
           - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_1-name
             value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_1-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_2-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_2-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_3-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_3-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_4-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_4-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_5-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_3-items-i_5-value
-      - title: i18n-content-75-_index-spec-columns-i_1-i_4-title
-        items:
-          - name: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_0-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_0-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_1-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_1-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_2-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_2-value
-          - name: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_3-name
-            value: i18n-content-75-_index-spec-columns-i_1-i_4-items-i_3-value
   cta:
     title: i18n-content-75-_index-spec-cta-title
     class: is-black is-outlined is-rounded
     url: /resources/Vibe_Tech_Specs.pdf
 
-accessories:
-  title: i18n-content-75-_index-accessories-title
-  items:
-    - title: i18n-content-75-_index-accessories-items-i_0-title
-      body: i18n-content-75-_index-accessories-items-i_0-body
-      figure: img/75/accessories-1.png
-      alt_text: Storage on Vibe Cloud
-    - title: i18n-content-75-_index-accessories-items-i_1-title
-      body: i18n-content-75-_index-accessories-items-i_1-body
-      figure: img/75/accessories-2.png
-      alt_text: Integrate popular applications
+feature_columns:
+  title: i18n-content-75-_index-feature_columns-title
+  features:
+    - title: i18n-content-75-_index-feature_columns-items-i_0-title
+      body: i18n-content-75-_index-feature_columns-items-i_0-body
+      figure: img/75/feature-columns-1.png
+    - title: i18n-content-75-_index-feature_columns-items-i_1-title
+      body: i18n-content-75-_index-feature_columns-items-i_1-body
+      figure: img/75/feature-columns-2.png
   cta:
-    title: i18n-content-75-_index-accessories-cta-title
+    title: i18n-content-75-_index-feature_columns-cta-title
     url: /order/global-sales/
 three_faqs:
-  title1: i18n-content-75-_index-faq-title1
-  items1:
-    - title: i18n-content-75-_index-faq-items1-i_0-title
-      body: i18n-content-75-_index-faq-items1-i_0-body
-    - title: i18n-content-75-_index-faq-items1-i_1-title
-      body: i18n-content-75-_index-faq-items1-i_1-body
-    - title: i18n-content-75-_index-faq-items1-i_2-title
-      body: i18n-content-75-_index-faq-items1-i_2-body
-    - title: i18n-content-75-_index-faq-items1-i_3-title
-      body: i18n-content-75-_index-faq-items1-i_3-body
-    - title: i18n-content-75-_index-faq-items1-i_4-title
-      body: i18n-content-75-_index-faq-items1-i_4-body
-    - title: i18n-content-75-_index-faq-items1-i_5-title
-      body: i18n-content-75-_index-faq-items1-i_5-body
-  title2: i18n-content-75-_index-faq-title2
-  items2:
-    - title: i18n-content-75-_index-faq-items1-i_0-title
-      body: i18n-content-75-_index-faq-items1-i_0-body
-    - title: i18n-content-75-_index-faq-items1-i_1-title
-      body: i18n-content-75-_index-faq-items1-i_1-body
-    - title: i18n-content-75-_index-faq-items1-i_2-title
-      body: i18n-content-75-_index-faq-items1-i_2-body
-    - title: i18n-content-75-_index-faq-items1-i_3-title
-      body: i18n-content-75-_index-faq-items1-i_3-body
-    - title: i18n-content-75-_index-faq-items1-i_4-title
-      body: i18n-content-75-_index-faq-items1-i_4-body
-    - title: i18n-content-75-_index-faq-items1-i_5-title
-      body: i18n-content-75-_index-faq-items1-i_5-body
-  title3: i18n-content-75-_index-faq-title3
-  items3:
-    - title: i18n-content-75-_index-faq-items1-i_0-title
-      body: i18n-content-75-_index-faq-items1-i_0-body
-    - title: i18n-content-75-_index-faq-items1-i_1-title
-      body: i18n-content-75-_index-faq-items1-i_1-body
-    - title: i18n-content-75-_index-faq-items1-i_2-title
-      body: i18n-content-75-_index-faq-items1-i_2-body
-    - title: i18n-content-75-_index-faq-items1-i_3-title
-      body: i18n-content-75-_index-faq-items1-i_3-body
-    - title: i18n-content-75-_index-faq-items1-i_4-title
-      body: i18n-content-75-_index-faq-items1-i_4-body
-    - title: i18n-content-75-_index-faq-items1-i_5-title
-      body: i18n-content-75-_index-faq-items1-i_5-body
+  title: i18n-content-55-_index-three_faqs-title
+  sections:
+    - title: i18n-content-55-_index-three_faqs-sections-i_0-title
+    - title: i18n-content-55-_index-three_faqs-sections-i_1-title
+    - title: i18n-content-55-_index-three_faqs-sections-i_2-title
+  items: 
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items0-i_0-title
+        body: i18n-content-55-_index-three_faqs-items0-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_1-title
+        body: i18n-content-55-_index-three_faqs-items0-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_2-title
+        body: i18n-content-55-_index-three_faqs-items0-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_3-title
+        body: i18n-content-55-_index-three_faqs-items0-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_4-title
+        body: i18n-content-55-_index-three_faqs-items0-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_5-title
+        body: i18n-content-55-_index-three_faqs-items0-i_5-body
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items1-i_0-title
+        body: i18n-content-55-_index-three_faqs-items1-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_1-title
+        body: i18n-content-55-_index-three_faqs-items1-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_2-title
+        body: i18n-content-55-_index-three_faqs-items1-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_3-title
+        body: i18n-content-55-_index-three_faqs-items1-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_4-title
+        body: i18n-content-55-_index-three_faqs-items1-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_5-title
+        body: i18n-content-55-_index-three_faqs-items1-i_5-body
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items2-i_0-title
+        body: i18n-content-55-_index-three_faqs-items2-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_1-title
+        body: i18n-content-55-_index-three_faqs-items2-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_2-title
+        body: i18n-content-55-_index-three_faqs-items2-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_3-title
+        body: i18n-content-55-_index-three_faqs-items2-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_4-title
+        body: i18n-content-55-_index-three_faqs-items2-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_5-title
+        body: i18n-content-55-_index-three_faqs-items2-i_5-body
+  see_all:
+    title: i18n-content-55-_index-three_faqs-see_all-title
+    url: /hardware
 bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title
   cta:

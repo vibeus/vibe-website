@@ -2,8 +2,7 @@
 @import "_shared.sass"
 @import "_three-faqs.sass"
 @import "_video-hero.sass"
-@import "_testimonial-glide.sass"
-@import "_testimonial-section.sass"
+@import "_glide.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
@@ -11,6 +10,7 @@
 @import "_canvas.sass"
 @import "_accessories.sass"
 @import "_security.sass"
+@import "_feature-columns.sass"
 .hero
   position: relative
   +mobile
@@ -82,10 +82,32 @@
   .image.is-hero
     +mobile-full-width
 
+.section.is-testimonial
+  padding-top: 120px
+  padding-bottom: 60px
+  background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#F4F4F4 51%,#F4F4F4 100%)
+  .testimonial-title
+    margin-bottom: 48px
+    font-family: Stratos
+    font-style: normal
+    font-weight: 600
+    font-size: 24px
+    line-height: 30px
+    color: #BDBDBD
+    text-align: center
+  .testimonial-logo-group
+    width: 878px
+    height: 64px
+    margin: 0 auto 64px
+  .container
+    max-width: 1080px
+  
+
 .section.is-overview
   +vertical-padding(120px)
   +lang-override(".lang-zh")
     padding-top: 83px
+  background: #F4F4F4
   &.is-lower
     padding-bottom: 0
   .title.is-section-title
@@ -231,3 +253,4 @@
         font-size: 24px
         font-family: $vibe-family-heading
         font-weight: $vibe-bold
+

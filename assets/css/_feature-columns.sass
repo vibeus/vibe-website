@@ -1,0 +1,74 @@
+.section.is-feature-columns
+  +vertical-padding(120px)
+  .header
+    line-height: 1.25
+    margin-bottom: 60px
+    +mobile
+      margin-bottom: 40px
+    .title.is-section-title
+      max-width: 850px
+      font-size: 50px
+      line-height: 1.25
+      text-align: center
+      margin: auto
+      +touch
+        font-size: 40px
+      +mobile
+        font-size: 30px
+    .body
+      max-width: 850px
+      font-size: 18px
+      line-height: 1.25
+      text-align: center
+      margin: 16px auto 0
+      +mobile
+        font-size: 16px
+  .column
+    +mobile
+      &:not(:first-child)
+        margin-top: 24px
+  a.is-feature-card
+    display: block
+    cursor: auto
+    height: 100%
+    &:hover
+      color: black
+    &[href]
+      cursor: pointer
+  .is-feature
+    margin: auto
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    .image
+      margin: auto
+      margin-bottom: 48px
+      +touch
+        margin-bottom: 24px
+      +mobile
+        margin-bottom: 16px
+    .title
+      text-align: center
+      font-size: 24px
+      line-height: 1.5
+      margin: 0 auto 16px
+      max-width: 335px
+      +touch
+        font-size: 22px
+      +mobile
+        font-size: 20px
+    .body
+      max-width: 340px
+      text-align: center
+      font-size: 18px
+      line-height: 1.5
+      margin: 0 auto
+      +mobile
+        font-size: 16px
+  .cta
+      margin-top: 40px
+      font-weight: $vibe-bold
+      text-align: center
+      .button
+        border-width: 2px

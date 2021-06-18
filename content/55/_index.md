@@ -21,50 +21,48 @@ hero:
       link:
         text: i18n-content-_index-hero-subcta-i_1-link-text
         url: https://app.vibe.us/
-as_seen_in:
-  title: i18n-content-_index-as_seen_in-title
-  title_column_class: is-one-quarter-tablet
-  references:
-    - class: techcrunch-link
-      figure: img/55/logo/logo-techcrunch-gray.png
-      figure_on_hover: img/55/logo/logo-techcrunch.png
-      link: https://techcrunch.com/2020/09/15/vibe-introduces-a-remote-collaboration-solution-that-works-with-your-favorite-apps/
-    - class: forbes-link
-      figure: img/55/logo/logo-forbes-gray.png
-      figure_on_hover: img/55/logo/logo-forbes.png
-      link: https://www.instagram.com/p/CLa-FgKlDSQ/?utm_source=ig_web_copy_link
-    - class: cioreview-link
-      figure: img/55/logo/logo-cioreview-gray.png
-      figure_on_hover: img/55/logo/logo-cioreview.png
-      link: https://remote-work-tech.cioreview.com/vendor/2020/vibe_inc
-    - class: entrepreneur-link
-      figure: img/55/logo/logo-entrepreneur-gray.png
-      figure_on_hover: img/55/logo/logo-entrepreneur.png
-      link: https://www.entrepreneur.com/article/366106
+
 testimonial_section:
+  title: i18n-content-_index-testimonial_section-title
+  figure: img/55/testimonials/testimonial-logo-group.png
   testimonials:
     - author:
+        logo: img/55/testimonials/testimonial-logo-1.png
+        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-bold_name
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name
+      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-title
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body
+      figure: img/55/testimonials/testimonial-left-1.png
     - author:
+        logo: img/55/testimonials/testimonial-logo-2.png
+        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-bold_name
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name
+      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-title
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body
+      figure: img/55/testimonials/testimonial-left-2.png
     - author:
-        logo: img/common/testimonials/kenmore.png
+        logo: img/55/testimonials/testimonial-logo-3.png
+        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-bold_name
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name
+      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-title
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body
+      figure: img/55/testimonials/testimonial-left-3.png
     - author:
-        logo: img/common/testimonials/azularc.png
+        logo: img/55/testimonials/testimonial-logo-4.png
+        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-bold_name
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-name
+      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-title
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-body
+      figure: img/55/testimonials/testimonial-left-4.png
     - author:
-        logo: img/common/testimonials/capgemini.png
+        logo: img/55/testimonials/testimonial-logo-5.png
+        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-bold_name
         name: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name
+      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-title
       body: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body
-    - author:
-        logo: img/common/testimonials/csi.png
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body
+      figure: img/55/testimonials/testimonial-left-5.png
+    
+
 
 feature_section:
   title: i18n-content-55-_index-feature_section-title
@@ -84,8 +82,8 @@ feature_section:
       class: is-feature-2
 
 canvas_section:
-  class: is-canvas-bg
-  canvas:
+  is_rectangle_dots: true
+  canvases:
     - title: i18n-content-55-_index-canvas_section-canvas-i_0-title
       figure: img/55/canvas-1.png
       features2:
@@ -96,7 +94,6 @@ canvas_section:
           title: i18n-content-55-_index-canvas-cta-title
           url: /55/
     - title: i18n-content-55-_index-canvas_section-canvas-i_1-title
-      body: i18n-content-55-_index-canvas_section-canvas-i_1-title
       figure: img/55/canvas-2.png
       features2:
         title: i18n-content-55-_index-canvas_section-canvas-i_1-features-title
@@ -106,7 +103,6 @@ canvas_section:
           title: i18n-content-55-_index-canvas-cta-title
           url: /55/
     - title: i18n-content-55-_index-canvas_section-canvas-i_2-title
-      body: i18n-content-55-_index-canvas_section-canvas-i_2-title
       figure: img/55/canvas-3.png
       features2:
         title: i18n-content-55-_index-canvas_section-canvas-i_2-features-title
@@ -261,70 +257,70 @@ spec:
     title: i18n-content-55-_index-spec-cta-title
     class: is-black is-outlined is-rounded
     url: /resources/Vibe_Tech_Specs.pdf
-  
-accessories:
-  title: i18n-content-55-_index-accessories-title
-  items:
-    - title: i18n-content-55-_index-accessories-items-i_0-title
-      body: i18n-content-55-_index-accessories-items-i_0-body
-      figure: img/55/accessories-1.png
-      alt_text: Storage on Vibe Cloud
-    - title: i18n-content-55-_index-accessories-items-i_1-title
-      body: i18n-content-55-_index-accessories-items-i_1-body
-      figure: img/55/accessories-2.png
-      alt_text: Integrate popular applications
-    - title: i18n-content-55-_index-accessories-items-i_2-title
-      body: i18n-content-55-_index-accessories-items-i_2-body
-      figure: img/55/accessories-3.png
-      alt_text: Integrate popular applications
+feature_columns:
+  title: i18n-content-55-_index-feature_columns-title
+  features:
+    - title: i18n-content-55-_index-feature_columns-items-i_0-title
+      body: i18n-content-55-_index-feature_columns-items-i_0-body
+      figure: img/55/feature-columns-1.png
+    - title: i18n-content-55-_index-feature_columns-items-i_1-title
+      body: i18n-content-55-_index-feature_columns-items-i_1-body
+      figure: img/55/feature-columns-2.png
+    - title: i18n-content-55-_index-feature_columns-items-i_2-title
+      body: i18n-content-55-_index-feature_columns-items-i_2-body
+      figure: img/55/feature-columns-3.png
   cta:
-    title: i18n-content-55-_index-accessories-cta-title
+    title: i18n-content-55-_index-feature_columns-cta-title
     url: /order/global-sales/
-
 three_faqs:
-  title: i18n-content-55-_index-faq-title
-  title1: i18n-content-55-_index-faq-title1
-  items1:
-    - title: i18n-content-55-_index-faq-items1-i_0-title
-      body: i18n-content-55-_index-faq-items1-i_0-body
-    - title: i18n-content-55-_index-faq-items1-i_1-title
-      body: i18n-content-55-_index-faq-items1-i_1-body
-    - title: i18n-content-55-_index-faq-items1-i_2-title
-      body: i18n-content-55-_index-faq-items1-i_2-body
-    - title: i18n-content-55-_index-faq-items1-i_3-title
-      body: i18n-content-55-_index-faq-items1-i_3-body
-    - title: i18n-content-55-_index-faq-items1-i_4-title
-      body: i18n-content-55-_index-faq-items1-i_4-body
-    - title: i18n-content-55-_index-faq-items1-i_5-title
-      body: i18n-content-55-_index-faq-items1-i_5-body
-  title2: i18n-content-55-_index-faq-title2
-  items2:
-    - title: i18n-content-55-_index-faq-items1-i_0-title
-      body: i18n-content-55-_index-faq-items1-i_0-body
-    - title: i18n-content-55-_index-faq-items1-i_1-title
-      body: i18n-content-55-_index-faq-items1-i_1-body
-    - title: i18n-content-55-_index-faq-items1-i_2-title
-      body: i18n-content-55-_index-faq-items1-i_2-body
-    - title: i18n-content-55-_index-faq-items1-i_3-title
-      body: i18n-content-55-_index-faq-items1-i_3-body
-    - title: i18n-content-55-_index-faq-items1-i_4-title
-      body: i18n-content-55-_index-faq-items1-i_4-body
-    - title: i18n-content-55-_index-faq-items1-i_5-title
-      body: i18n-content-55-_index-faq-items1-i_5-body
-  title3: i18n-content-55-_index-faq-title3
-  items3:
-    - title: i18n-content-55-_index-faq-items1-i_0-title
-      body: i18n-content-55-_index-faq-items1-i_0-body
-    - title: i18n-content-55-_index-faq-items1-i_1-title
-      body: i18n-content-55-_index-faq-items1-i_1-body
-    - title: i18n-content-55-_index-faq-items1-i_2-title
-      body: i18n-content-55-_index-faq-items1-i_2-body
-    - title: i18n-content-55-_index-faq-items1-i_3-title
-      body: i18n-content-55-_index-faq-items1-i_3-body
-    - title: i18n-content-55-_index-faq-items1-i_4-title
-      body: i18n-content-55-_index-faq-items1-i_4-body
-    - title: i18n-content-55-_index-faq-items1-i_5-title
-      body: i18n-content-55-_index-faq-items1-i_5-body
+  title: i18n-content-55-_index-three_faqs-title
+  sections:
+    - title: i18n-content-55-_index-three_faqs-sections-i_0-title
+    - title: i18n-content-55-_index-three_faqs-sections-i_1-title
+    - title: i18n-content-55-_index-three_faqs-sections-i_2-title
+  items: 
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items0-i_0-title
+        body: i18n-content-55-_index-three_faqs-items0-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_1-title
+        body: i18n-content-55-_index-three_faqs-items0-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_2-title
+        body: i18n-content-55-_index-three_faqs-items0-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_3-title
+        body: i18n-content-55-_index-three_faqs-items0-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_4-title
+        body: i18n-content-55-_index-three_faqs-items0-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items0-i_5-title
+        body: i18n-content-55-_index-three_faqs-items0-i_5-body
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items1-i_0-title
+        body: i18n-content-55-_index-three_faqs-items1-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_1-title
+        body: i18n-content-55-_index-three_faqs-items1-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_2-title
+        body: i18n-content-55-_index-three_faqs-items1-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_3-title
+        body: i18n-content-55-_index-three_faqs-items1-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_4-title
+        body: i18n-content-55-_index-three_faqs-items1-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items1-i_5-title
+        body: i18n-content-55-_index-three_faqs-items1-i_5-body
+    - item:
+      - title: i18n-content-55-_index-three_faqs-items2-i_0-title
+        body: i18n-content-55-_index-three_faqs-items2-i_0-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_1-title
+        body: i18n-content-55-_index-three_faqs-items2-i_1-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_2-title
+        body: i18n-content-55-_index-three_faqs-items2-i_2-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_3-title
+        body: i18n-content-55-_index-three_faqs-items2-i_3-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_4-title
+        body: i18n-content-55-_index-three_faqs-items2-i_4-body
+      - title: i18n-content-55-_index-three_faqs-items2-i_5-title
+        body: i18n-content-55-_index-three_faqs-items2-i_5-body
+  see_all:
+    title: i18n-content-55-_index-three_faqs-see_all-title
+    url: /hardware
   
 bottom_cta:
   title: i18n-content-55-_index-bottom_cta-title

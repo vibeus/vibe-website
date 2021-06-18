@@ -1,58 +1,54 @@
-<section class="section is-canvas {{ with .class }} {{ . }}{{ end }}">
-  <div class="container">
-    {{ range .canvas }}
-      {{ with .title }}<h1 class="title is-section-title">{{ default . (T .) | markdownify }}</h1>{{ end }}
-      {{ if .body }}
-        {{ with .body }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
-      {{ end }}
-      <figure class="image is-canvas-img">
-        {{ $src := resources.Get .figure | resources.Fingerprint }}
-        <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
-      </figure>
-      <div class="canvas-box">
-        <div class="main">
-          {{ if .features }}
-            <div class="columns is-canvas-1">
-              {{ range .features }}
-              <div class="column">
-                {{ with .title }}<h1 class="title">{{ default . (T .) | markdownify }}</h1>{{ end }}
-                {{ with .body }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
-              </div>
-              {{ end }}
-            </div>
-            {{ with .cta }}
-            <div class="cta">
-              <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
+<div class="canvas">
+    {{ with .title }}<h1 class="title is-section-title">{{ default . (T .) | markdownify }}</h1>{{ end }}
+    {{ if .body }}
+      {{ with .body }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
+    {{ end }}
+    <figure class="image is-canvas-img">
+      {{ $src := resources.Get .figure | resources.Fingerprint }}
+      <img src="{{ $src.RelPermalink }}" alt="Vibe board" />
+    </figure>
+    <div class="canvas-box">
+      <div class="main">
+        {{ if .features }}
+          <div class="columns is-canvas-1">
+            {{ range .features }}
+            <div class="column">
+              {{ with .title }}<h1 class="title">{{ default . (T .) | markdownify }}</h1>{{ end }}
+              {{ with .body }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
             </div>
             {{ end }}
+          </div>
+          {{ with .cta }}
+          <div class="cta">
+            <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
+          </div>
           {{ end }}
-          {{ if .features2 }}
-            <div class="columns">
-              {{ with .features2 }}
-              <div class="column is-canvas-2">
-                {{ with .title }}<h1 class="title">{{ default . (T .) | markdownify }}</h1>{{ end }}
-                {{ with .cta }}
-                  <div class="cta">
-                    <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
-                  </div>
-                {{ end }}
-              </div>
-              <div class="column">
-                <div class="column-row">
-                  {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/canvas-tick.png") "desktop" "50x" "mobile" "30x" "options" "png") }}
-                  {{ with .body1 }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
+        {{ end }}
+        {{ if .features2 }}
+          <div class="columns">
+            {{ with .features2 }}
+            <div class="column is-canvas-2">
+              {{ with .title }}<h1 class="title">{{ default . (T .) | markdownify }}</h1>{{ end }}
+              {{ with .cta }}
+                <div class="cta">
+                  <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
                 </div>
-                <div class="column-row">
-                  {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/canvas-tick.png") "desktop" "50x" "mobile" "30x" "options" "png") }}
-                  {{ with .body2 }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
-                </div>
-              </div>
               {{ end }}
             </div>
-            
-          {{ end }}
-        </div>
+            <div class="column">
+              <div class="column-row">
+                {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/canvas-tick.png") "desktop" "50x" "mobile" "30x" "options" "png") }}
+                {{ with .body1 }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
+              </div>
+              <div class="column-row">
+                {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/canvas-tick.png") "desktop" "50x" "mobile" "30x" "options" "png") }}
+                {{ with .body2 }}<p class="content">{{ default . (T .) | markdownify }}</p>{{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          
+        {{ end }}
       </div>
-    {{ end }}
-  </div>
-</section>
+    </div>
+</div>

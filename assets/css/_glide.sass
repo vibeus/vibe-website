@@ -1,0 +1,89 @@
+=absolute-fill
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+=clamp-lines($n)
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: $n
+  overflow: hidden
+
+=vertical-padding($top, $bottom: $top, $mtop: $top / 2, $mbottom: $bottom / 2)
+  padding-top: $top
+  padding-bottom: $bottom
+  @if $top != $mtop or $bottom != $mbottom
+    +mobile
+      @if $top != $mtop
+        padding-top: $mtop
+      @if $bottom != $mbottom
+        padding-bottom: $mbottom
+
+=horizontal-padding($left, $right: $left)
+  padding-left: $left
+  padding-right: $right
+
+=glide-dots-style
+  position: relative
+  z-index: 999
+  margin-top: 8px
+  margin-bottom: -60px
+  user-select: none
+  +mobile
+    margin-bottom: -30px
+  text-align: center
+  .icon
+    cursor: pointer
+    opacity: 0.2
+    &.is-active
+      opacity: 0.6
+    .dot
+      width: 8px
+      height: 0px
+      background: #000
+      border: 1.5px solid #000000
+    &.is-active .dot
+      width: 16px
+      border: 1.5px solid #000000
+
+=glide-nav-style
+  position: absolute
+  top: 40%
+  cursor: pointer
+  opacity: .1
+  &.is-left
+    left: 32px
+  &.is-right
+    right: 32px
+  img
+    cursor: pointer
+  +until-widescreen
+    display: none
+
+// add a hidden pseudo element that "push" element down make in-page anchor work (because we have fixed navbar)
+=offset-anchor-for-navbar($extra: 0rem)
+  &::before
+    content: ''
+    display: block
+    height: $navbar-height + $extra + 1rem
+    margin-top: -$navbar-height - $extra - 1rem
+    visibility: hidden
+
+.testimonials
+  position: relative
+
+.glide-dots
+  +glide-dots-style
+
+.rectangle-dots
+  margin-top: 20px
+  margin-bottom: -148px
+
+.glide-nav
+  +glide-nav-style
+
+.canvases
+  position: relative
+

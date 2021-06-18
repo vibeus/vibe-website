@@ -755,68 +755,73 @@ other = "Request a Demo"
 [i18n-content-hardware-_index-hero-gallery-cta]
 other = "Photo Gallery"
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name]
-other = """Shelly Starks
+[i18n-content-_index-testimonial_section-title]
+other = "Trusted by 900+ companies all over the world"
 
-Associate Partner at RC Howard & Associates, LLC., a certified Sandler Training Center"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-title]
+other = "Sports Training and Coaching"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body]
-other = """The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
-suggestions into the most recent software update. This type of co-collaboration makes working with Vibe
-a premier experience. Absolutely would recommend it to anyone in the market for a digital white-board!"""
+other = """\"Vibe has helped me better communicate with my audience, making me more effective 
+and valuable in my field.\""""
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name]
-other = """Karen L. Brady
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-bold_name]
+other = "Ian Westermann,"
 
-Estate Planning Attorney, Arvada, Colorado"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name]
+other = " Founder, Essential Tennis"
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-title]
+other = "Architecture and Construction"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body]
-other = """The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-I am a long-time user of electronic whiteboards, but the interactive and digital features of the Vibe board
-have exponentially increased both efficiency and the \"wow\" factor in client meetings."""
+other = """\"The Vibe board makes sure everyone's on the same page.\""""
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name]
-other = """Rob Karlinsey
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-bold_name]
+other = "Jonathan Wong,"
 
-City Manager at City of Kenmore, Washington"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name]
+other = " P.Eng, PMP, Project Manager, Smith Bros. & Wilson, Ltd."
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-title]
+other = "Professional Services"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body]
-other = """With Vibe, I can now just hit “send” after a meeting and share that board with whoever I want.
-Vibe will save each board automatically, so I can always pull a board back up during any meeting to show
-people what we’ve discussed. Even better, we like how you can invite remote coworkers in to collaborate
-on the board in real time from other devices. Vibe is a gamechanger."""
+other = """\"I think that tools like Vibe are definitely the future of events…creating
+ that true live interaction.\""""
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-bold_name]
+other = "Will Curran,"
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name]
+other = " Chief Event Einstein, Endless Events"
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-bold_name]
+other = "Dr. Henry Silverman,"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-name]
-other = """Kate Womick
+other = " Professor of Medicine, University of Maryland"
 
-Product Manager at Azul Arc"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_3-title]
+other = "Education"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-body]
-other = """Vibe’s collaboration factor has been huge. When juggling multiple clients, it’s incredibly helpful to have
-everything saved in one place so you can easily pick up where you left off.
-As a UX designer, I like how easy Vibe is to pick up a stylus and sketch on. And for big projects we can
-even have several people working on a single canvas at once - even from remote locations."""
+other = """\"I saw some real possibilities with Vibe, not only in enhancing engagement with
+ the students, but also in achieving a visual.\""""
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name]
-other = """Peter T. Maloof
-
-Vice President at Capgemini America"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-title]
+other = "Government"
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body]
-other = """We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
-and communication amongst our team. It also feels very seamless using the Vibe board and app across various
-devices."""
+other = """\"We like how you can invite remote coworkers in to collaborate on the board in real time 
+from other devices. Vibe is a gamechanger.\""""
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name]
-other = """Henry Sal, Jr.
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-bold_name]
+other = "Rob Karlinsey,"
 
-President of Computing System Innovations"""
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name]
+other = " City Manager, City of Kenmore, Washington"
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body]
-other = """Best collaboration device we have at our office for memorializing any and all types of
-meetings – administrative tasks to software design sessions.
-Incredible device, saves us time and money and allows us to build our AI software products faster!
-Great job VIBE team, congratulations on a game changer!"""
 
 [i18n-content-hardware-_index-feature_set_1-features-i_0-title]
 other = "Vibe’s all-in-one modern design transforms your office into a flexible collaborative space"
@@ -1378,53 +1383,59 @@ other = "Speaker"
 [i18n-content-55-_index-spec-cta-title]
 other = "Download Tech Specs"
 
-[i18n-content-55-_index-accessories-title]
+[i18n-content-55-_index-feature_columns-title]
 other = "Accessories"
 
-[i18n-content-55-_index-accessories-items-i_0-title]
+[i18n-content-55-_index-feature_columns-items-i_0-title]
 other = "White portable stand for 55″"
 
-[i18n-content-55-_index-accessories-items-i_0-body]
+[i18n-content-55-_index-feature_columns-items-i_0-body]
 other = "Easily move around. Make any room a dynamic teamwork space."
 
-[i18n-content-55-_index-accessories-items-i_1-title]
+[i18n-content-55-_index-feature_columns-items-i_1-title]
 other = "Red portable stand for 55″"
 
-[i18n-content-55-_index-accessories-items-i_1-body]
+[i18n-content-55-_index-feature_columns-items-i_1-body]
 other = "Easily move around. Make any room a dynamic teamwork space."
 
-[i18n-content-55-_index-accessories-items-i_2-title]
+[i18n-content-55-_index-feature_columns-items-i_2-title]
 other = "Active stylus"
 
-[i18n-content-55-_index-accessories-items-i_2-body]
+[i18n-content-55-_index-feature_columns-items-i_2-body]
 other = "Vibe active stylus helps you easily sketch on the board and turn pages when presenting."
 
-[i18n-content-55-_index-accessories-cta-title]
+[i18n-content-55-_index-feature_columns-cta-title]
 other = "Visit the Vibe store"
 
-[i18n-content-55-_index-faq-title]
+[i18n-content-55-_index-three_faqs-title]
 other = "Still have questions?"
 
-[i18n-content-55-_index-faq-title1]
+[i18n-content-55-_index-three_faqs-sections-i_0-title]
 other = "Hardware"
 
-[i18n-content-55-_index-faq-items1-i_0-title]
+[i18n-content-55-_index-three_faqs-sections-i_1-title]
+other = "Software"
+
+[i18n-content-55-_index-three_faqs-sections-i_2-title]
+other = "Shipping"
+
+[i18n-content-55-_index-three_faqs-items0-i_0-title]
 other = "Is Vibe compatible with any wall mount?"
 
-[i18n-content-55-_index-faq-items1-i_0-body]
+[i18n-content-55-_index-three_faqs-items0-i_0-body]
 other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
  wall mounts or stands which support at least 65 lbs."""
 
-[i18n-content-55-_index-faq-items1-i_1-title]
+[i18n-content-55-_index-three_faqs-items0-i_1-title]
 other = "Are there any HDMI input?"
 
-[i18n-content-55-_index-faq-items1-i_1-body]
+[i18n-content-55-_index-three_faqs-items0-i_1-body]
 other = "Yes. Vibe supports both HDMI input and output.\n"
 
-[i18n-content-55-_index-faq-items1-i_2-title]
+[i18n-content-55-_index-three_faqs-items0-i_2-title]
 other = "What are the product dimensions?"
 
-[i18n-content-55-_index-faq-items1-i_2-body]
+[i18n-content-55-_index-three_faqs-items0-i_2-body]
 other = """**Vibe board dimensions:**
 - Diagonal screen size: 55\"
 - Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
@@ -1436,10 +1447,10 @@ other = """**Vibe board dimensions:**
 - Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
 - Weight: 33.1 lbs"""
 
-[i18n-content-55-_index-faq-items1-i_3-title]
+[i18n-content-55-_index-three_faqs-items0-i_3-title]
 other = "Which cameras work with Vibe?"
 
-[i18n-content-55-_index-faq-items1-i_3-body]
+[i18n-content-55-_index-three_faqs-items0-i_3-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1455,26 +1466,147 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-55-_index-faq-items1-i_4-title]
+[i18n-content-55-_index-three_faqs-items0-i_4-title]
 other = "Are there any other accessories available with Vibe?"
 
-[i18n-content-55-_index-faq-items1-i_4-body]
+[i18n-content-55-_index-three_faqs-items0-i_4-body]
 other = "We currently only offer Vibe stands and additional styluses.\n"
 
-[i18n-content-55-_index-faq-items1-i_5-title]
+[i18n-content-55-_index-three_faqs-items0-i_5-title]
 other = "How is the Vibe board powered?"
 
-[i18n-content-55-_index-faq-items1-i_5-body]
+[i18n-content-55-_index-three_faqs-items0-i_5-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
 
-[i18n-content-55-_index-faq-title2]
-other = "Software"
+[i18n-content-55-_index-three_faqs-items1-i_0-title]
+other = "Is Vibe compatible with any wall mount?2"
 
-[i18n-content-55-_index-faq-title3]
-other = "Shipping"
+[i18n-content-55-_index-three_faqs-items1-i_0-body]
+other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
+ wall mounts or stands which support at least 65 lbs."""
+
+[i18n-content-55-_index-three_faqs-items1-i_1-title]
+other = "Are there any HDMI input?2"
+
+[i18n-content-55-_index-three_faqs-items1-i_1-body]
+other = "Yes. Vibe supports both HDMI input and output.\n"
+
+[i18n-content-55-_index-three_faqs-items1-i_2-title]
+other = "What are the product dimensions?2"
+
+[i18n-content-55-_index-three_faqs-items1-i_2-body]
+other = """**Vibe board dimensions:**
+- Diagonal screen size: 55\"
+- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
+- Product weight: 54.1 lbs
+- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
+- VESA Mount: 200 x 200 mm
+
+**Vibe stand dimensions:**
+- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
+- Weight: 33.1 lbs"""
+
+[i18n-content-55-_index-three_faqs-items1-i_3-title]
+other = "Which cameras work with Vibe?2"
+
+[i18n-content-55-_index-three_faqs-items1-i_3-body]
+other = """Vibe is compatible with most USB connected cameras.
+
+If you are in the market for a new camera that you would want to use with your Vibe board, our team has
+tested the following cameras and can confirm their compatibility with Vibe.
+- Logitech 920
+- Logitech 930
+- Logitech BRIO
+- Logitech Conference Cam Bcc950
+- Logitech Meetup
+- Owl camera
+- Polycom Studio
+
+If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
+please contact support at <support@vibe.us> to start a support ticket."""
+
+[i18n-content-55-_index-three_faqs-items1-i_4-title]
+other = "Are there any other accessories available with Vibe?2"
+
+[i18n-content-55-_index-three_faqs-items1-i_4-body]
+other = "We currently only offer Vibe stands and additional styluses.\n"
+
+[i18n-content-55-_index-three_faqs-items1-i_5-title]
+other = "How is the Vibe board powered?2"
+
+[i18n-content-55-_index-three_faqs-items1-i_5-body]
+other = """Vibe is powered through a detachable power cord that comes with your purchase.
+- Power Supply: AC100-240V - 50/60Hz
+
+We do not offer a battery option at this time."""
+
+[i18n-content-55-_index-three_faqs-items2-i_0-title]
+other = "Is Vibe compatible with any wall mount?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_0-body]
+other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
+ wall mounts or stands which support at least 65 lbs."""
+
+[i18n-content-55-_index-three_faqs-items2-i_1-title]
+other = "Are there any HDMI input?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_1-body]
+other = "Yes. Vibe supports both HDMI input and output.\n"
+
+[i18n-content-55-_index-three_faqs-items2-i_2-title]
+other = "What are the product dimensions?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_2-body]
+other = """**Vibe board dimensions:**
+- Diagonal screen size: 55\"
+- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
+- Product weight: 54.1 lbs
+- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
+- VESA Mount: 200 x 200 mm
+
+**Vibe stand dimensions:**
+- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
+- Weight: 33.1 lbs"""
+
+[i18n-content-55-_index-three_faqs-items2-i_3-title]
+other = "Which cameras work with Vibe?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_3-body]
+other = """Vibe is compatible with most USB connected cameras.
+
+If you are in the market for a new camera that you would want to use with your Vibe board, our team has
+tested the following cameras and can confirm their compatibility with Vibe.
+- Logitech 920
+- Logitech 930
+- Logitech BRIO
+- Logitech Conference Cam Bcc950
+- Logitech Meetup
+- Owl camera
+- Polycom Studio
+
+If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
+please contact support at <support@vibe.us> to start a support ticket."""
+
+[i18n-content-55-_index-three_faqs-items2-i_4-title]
+other = "Are there any other accessories available with Vibe?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_4-body]
+other = "We currently only offer Vibe stands and additional styluses.\n"
+
+[i18n-content-55-_index-three_faqs-items2-i_5-title]
+other = "How is the Vibe board powered?3"
+
+[i18n-content-55-_index-three_faqs-items2-i_5-body]
+other = """Vibe is powered through a detachable power cord that comes with your purchase.
+- Power Supply: AC100-240V - 50/60Hz
+
+We do not offer a battery option at this time."""
+
+[i18n-content-55-_index-three_faqs-see_all-title]
+other = "See more"
 
 [i18n-content-55-_index-bottom_cta-title]
 other = "Experience Vibe for yourself"
@@ -1655,331 +1787,435 @@ other = "Multi-Touchpoint"
 [i18n-content-75-_index-spec-title]
 other = "Specifications"
 
+[i18n-content-75-_index-spec-see_all]
+other = "See all specs ↓"
+
 [i18n-content-75-_index-spec-columns-i_0-i_0-title]
-other = "Panel"
+other = "Display"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_0-name]
-other = "Diagonal Screen Size"
+other = "Active Screen Size"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_0-value]
-other = "55”"
+other = "75″"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_1-name]
-other = "Optimum Resolution"
+other = "Backlight"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_1-value]
-other = "3840(H) X 2160 (V) @ 60Hz"
+other = "LED"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_2-name]
-other = "Brightness"
+other = "Display Area"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_2-value]
-other = "300-350 cd/m²"
+other = "1662.25 x 941.96mm"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_3-name]
-other = "Contrast Ratio(Typical)"
+other = "Display Ratio"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_3-value]
-other = "1200 : 1"
+other = "16:9"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_4-name]
-other = "Response Time(Typical)"
+other = "Resolution"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_4-value]
-other = "8ms"
+other = "3840 x 2160 (4K)"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_5-name]
-other = "Pixel Pitch"
+other = "Colors"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_5-value]
-other = "0.315 mm x 0.315 mm"
+other = "8bit"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_6-name]
-other = "Anti-Glare Coating"
+other = "Brightness"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_6-value]
-other = "Yes"
+other = "400 cd/m²"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_7-name]
-other = "Aspect Ratio"
+other = "Dynamic Contrast"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_7-value]
-other = "16 : 9"
+other = "4000:1"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_8-name]
-other = "Color Depth"
+other = "Response Time"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_8-value]
-other = "1.07G"
+other = "8ms"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_9-name]
 other = "Viewing Angle"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_9-value]
-other = "178(H) / 178(V)"
+other = "178°"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_10-name]
-other = "Analog"
+other = "Continuous Run Time"
 
 [i18n-content-75-_index-spec-columns-i_0-i_0-items-i_10-value]
-other = "Normal 72% NTSC"
+other = "24/7"
+
+[i18n-content-75-_index-spec-columns-i_0-i_0-items-i_11-name]
+other = "Lifetime Hours"
+
+[i18n-content-75-_index-spec-columns-i_0-i_0-items-i_11-value]
+other = "≥ 50,000 hours"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-title]
-other = "System"
+other = "Transportation/Storage"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_0-name]
-other = "System on Chip"
+other = "Storage Temperature"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_0-value]
-other = "Rockchip 3399"
+other = "14°F~113°F"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_1-name]
-other = "CPU"
+other = "Working Temperature"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_1-value]
-other = """Dual-core Cortex-A72 up to 1.8GHz
-
-Quad-core Cortex-A53 up to 1.4GHz"""
+other = "32°F~104°F"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_2-name]
-other = "GPU"
+other = "Storage Humidity"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_2-value]
-other = "Mali-T864 GPU"
+other = "20~90%RH (Non-condensing)"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_3-name]
-other = "RAM"
+other = "Working Humidity"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_3-value]
-other = "4GB DDR3"
+other = "20~80%RH (Non-condensing)"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_4-name]
-other = "Storage"
+other = "Installation Method"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_4-value]
-other = "32GB EMMC"
+other = "Wall-mounted or Mobile Stand"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_5-name]
-other = "Operating System"
+other = "VESA Mount Pattern"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_5-value]
-other = """VibeOS
+other = "800 x 400mm"
 
-Based on Android 7.1"""
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_6-name]
+other = "Outline Dimensions"
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_6-value]
+other = """68.1 x 39.8 x 3.4 in 
+
+(1731 x 1010 x 86 mm)"""
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_7-name]
+other = "Packing Dimensions"
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_7-value]
+other = """73.2 x 44.7 x 9.7 in 
+
+(1859 x 247 x 1136 mm)"""
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_8-name]
+other = "Net Weight"
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_8-value]
+other = "108 lbs (49 kg)"
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_9-name]
+other = "Gross Weight"
+
+[i18n-content-75-_index-spec-columns-i_0-i_1-items-i_9-value]
+other = "136.7 lbs (62 kg)"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-title]
-other = "Board"
+other = "Compute Module"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_0-name]
-other = "Product Size"
+other = "CPU"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_0-value]
-other = "50.6(W) x 29.1(H) x 2.9(D) in"
+other = """Quad-core 8th Generation Intel 
+
+Core i5 processor"""
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_1-name]
-other = "Package Size"
+other = "GPU"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_1-value]
-other = "56.7(W) x 37(H) x 9.1(D) in"
+other = "Intel UHD 620"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_2-name]
-other = "Product Weight"
+other = "RAM"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_2-value]
-other = "54.1 lb"
+other = "DDR4 8 GB "
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_3-name]
-other = "Accessories"
+other = "SSD"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_3-value]
-other = """Power Cord, Passive Stylus x 2
-
-Manual, Warranty Card, Wiping Cloth"""
+other = "128 GB"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_4-name]
-other = "VESA Mount"
+other = "Wireless"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_4-value]
-other = "200 X 200 mm"
+other = """Wi-Fi 6: IEEE 802.11 a/b/g/n/ac/ax
+ 
+Compatible 
+
+Bluetooth Version: 5.2"""
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_5-name]
+other = "Lan"
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_5-value]
+other = "1000 Mbps"
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_6-name]
+other = "Security Chip"
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_6-value]
+other = "Built-in"
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_7-name]
+other = "OS Version"
+
+[i18n-content-75-_index-spec-columns-i_0-i_2-items-i_7-value]
+other = "VibeOS (Based on Chromium OS)"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-title]
 other = "Touch"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_0-name]
-other = "Multi-Touch Technology"
+other = "Touch Sensor"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_0-value]
-other = "Infrared Touch"
+other = "Projective Capacitive"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_1-name]
-other = "Touch Points"
+other = "Touch Surface Material"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_1-value]
-other = "10 Simultaneous Touch Points"
+other = "Silver Nanowires"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_2-name]
-other = "Protection Glass"
+other = "Touch Surface Technology"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_2-value]
-other = "3 mm Tempered Glass"
+other = "Anti-glare"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_3-name]
-other = "Refresh Rate"
+other = "Transparency"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_3-value]
-other = "60 Hz"
+other = "88%±3"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_4-name]
-other = "Minimum Touch Object"
+other = "Haze"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_4-value]
-other = "2mm"
+other = "2%~5%"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_5-name]
-other = "Response Time"
+other = "Touch Surface Hardness"
 
 [i18n-content-75-_index-spec-columns-i_1-i_0-items-i_5-value]
-other = "< 7 ms"
+other = "8H"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_6-name]
+other = "HID Support"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_6-value]
+other = "Yes"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_7-name]
+other = "Touch Points"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_7-value]
+other = "20 Points"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_8-name]
+other = "Touch Screen Writing Tools"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_8-value]
+other = "Passive Pen"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_9-name]
+other = "Positioning Accuracy"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_9-value]
+other = "±2"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_10-name]
+other = "Touch Interface"
+
+[i18n-content-75-_index-spec-columns-i_1-i_0-items-i_10-value]
+other = "USB"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-title]
 other = "Power"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_0-name]
-other = "Power Source"
+other = "Working Voltage"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_0-value]
-other = "AC 100 - 240V, 50 - 60 Hz"
+other = "AC100-240V Max 4.0A"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_1-name]
-other = "Consumption (Typical)"
+other = "Max Power Consumption"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_1-value]
-other = "≤ 120 W"
+other = "≤400W"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_2-name]
-other = "Consumption (Standby)"
+other = "Eco Power Consumption"
 
 [i18n-content-75-_index-spec-columns-i_1-i_1-items-i_2-value]
-other = "≤ 15 W"
+other = "300W"
+
+[i18n-content-75-_index-spec-columns-i_1-i_1-items-i_3-name]
+other = "Standby Power Consumption"
+
+[i18n-content-75-_index-spec-columns-i_1-i_1-items-i_3-value]
+other = "<0.5W"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-title]
-other = "Connections"
+other = "Speakers"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_0-name]
-other = "HDMI"
+other = "Position"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_0-value]
-other = "IN & OUT"
+other = "Downward"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_1-name]
-other = "USB"
+other = "Rated Impedance"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_1-value]
-other = "2.0, 3.0, Debug"
+other = "8Ω"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_2-name]
-other = "Network"
+other = "Frequency Response"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_2-value]
-other = "2.4G/5G Wifi, Ethernet"
+other = "180Hz-20KHz when SPL is -10dB"
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_3-name]
-other = "Audio"
+other = "Output S.P.L."
 
 [i18n-content-75-_index-spec-columns-i_1-i_2-items-i_3-value]
-other = "3.5mm Audio out"
+other = "0dB~ -10dB"
+
+
+[i18n-content-75-_index-spec-columns-i_1-i_2-items-i_4-name]
+other = "Max Power Output"
+
+[i18n-content-75-_index-spec-columns-i_1-i_2-items-i_4-value]
+other = "15W x 2"
 
 [i18n-content-75-_index-spec-columns-i_1-i_3-title]
-other = "Speaker"
+other = "Connections"
 
 [i18n-content-75-_index-spec-columns-i_1-i_3-items-i_0-name]
-other = "Impedance"
+other = "Ports (TV)"
 
 [i18n-content-75-_index-spec-columns-i_1-i_3-items-i_0-value]
-other = "6Ω±15% (At 1000HZ, 1.0V with LMS)"
+other = """HDMI 1.4 b (in) x 1
+
+USB (Type-B) Touch x 1
+
+USB 2.0 (Debug) x 1 """
 
 [i18n-content-75-_index-spec-columns-i_1-i_3-items-i_1-name]
-other = "Resonant Frequency"
+other = "Ports (Compute Module)"
 
 [i18n-content-75-_index-spec-columns-i_1-i_3-items-i_1-value]
-other = "FB: 140Hz±20%"
+other = """HDMI 1.4 ( out ) x 1
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_2-name]
-other = "Sound Pressure Level"
+USB 3.0 ( Type-C ) x 1
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_2-value]
-other = "78±3dB"
+USB 3.0 x 2
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_3-name]
-other = "Effective Frequency Range"
+USB 2.0 x 2
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_3-value]
-other = "200~20KHz deviation -10dB Max"
+LAN x 1
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_4-name]
-other = "Distortion"
+3.5 mm Audio ( out ) x 1
 
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_4-value]
-other = "7% Max"
-
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_5-name]
-other = "THD@Rated power"
-
-[i18n-content-75-_index-spec-columns-i_1-i_3-items-i_5-value]
-other = "THD<7%"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-title]
-other = "Stand (optional)"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_0-name]
-other = "Product Size"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_0-value]
-other = "50.9(W) x 55.2(H) x 26(D) in"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_1-name]
-other = "Package Size"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_1-value]
-other = "57(W) x 29(H) x 10.2(D) in"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_2-name]
-other = "Product Weight"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_2-value]
-other = "33.1 lb"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_3-name]
-other = "Accessories"
-
-[i18n-content-75-_index-spec-columns-i_1-i_4-items-i_3-value]
-other = "Installation manual"
+3.5 mm Audio ( in ) x 1"""
 
 [i18n-content-75-_index-spec-cta-title]
 other = "Download Tech Specs"
 
-[i18n-content-75-_index-accessories-title]
+[i18n-content-75-_index-feature_columns-title]
 other = "Accessories"
 
-[i18n-content-75-_index-accessories-items-i_0-title]
+[i18n-content-75-_index-feature_columns-items-i_0-title]
 other = "Portable stand for Vibe Pro 75″"
 
-[i18n-content-75-_index-accessories-items-i_0-body]
+[i18n-content-75-_index-feature_columns-items-i_0-body]
 other = "Easily move around. Make any room a dynamic teamwork space."
 
-[i18n-content-75-_index-accessories-items-i_1-title]
+[i18n-content-75-_index-feature_columns-items-i_1-title]
 other = "Screencasting dongle"
 
-[i18n-content-75-_index-accessories-items-i_1-body]
+[i18n-content-75-_index-feature_columns-items-i_1-body]
 other = "One-click seamless experience to cast your screen onto Vibe board."
 
-[i18n-content-75-_index-accessories-cta-title]
+[i18n-content-75-_index-feature_columns-cta-title]
 other = "Visit the Vibe store"
 
-[i18n-content-75-_index-faq-items1-i_3-title]
+[i18n-content-75-_index-three_faqs-title]
+other = "Still have questions?"
+
+[i18n-content-75-_index-three_faqs-sections-i_0-title]
+other = "Hardware"
+
+[i18n-content-75-_index-three_faqs-sections-i_1-title]
+other = "Software"
+
+[i18n-content-75-_index-three_faqs-sections-i_2-title]
+other = "Shipping"
+
+
+[i18n-content-75-_index-three_faqs-items1-i_0-title]
+other = "Is Vibe compatible with any wall mount?"
+
+[i18n-content-75-_index-three_faqs-items1-i_0-body]
+other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
+ wall mounts or stands which support at least 65 lbs."""
+
+[i18n-content-75-_index-three_faqs-items1-i_1-title]
+other = "Are there any HDMI input?"
+
+[i18n-content-75-_index-three_faqs-items1-i_1-body]
+other = "Yes. Vibe supports both HDMI input and output.\n"
+
+[i18n-content-75-_index-three_faqs-items1-i_2-title]
+other = "What are the product dimensions?"
+
+[i18n-content-75-_index-three_faqs-items1-i_2-body]
+other = """**Vibe board dimensions:**
+- Diagonal screen size: 55\"
+- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
+- Product weight: 54.1 lbs
+- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
+- VESA Mount: 200 x 200 mm
+
+**Vibe stand dimensions:**
+- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
+- Weight: 33.1 lbs"""
+
+[i18n-content-75-_index-three_faqs-items1-i_3-title]
 other = "Which cameras work with Vibe?"
 
-[i18n-content-75-_index-faq-items1-i_3-body]
+[i18n-content-75-_index-three_faqs-items1-i_3-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1995,26 +2231,29 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-75-_index-faq-items1-i_4-title]
+[i18n-content-75-_index-three_faqs-items1-i_4-title]
 other = "Are there any other accessories available with Vibe?"
 
-[i18n-content-75-_index-faq-items1-i_4-body]
+[i18n-content-75-_index-three_faqs-items1-i_4-body]
 other = "We currently only offer Vibe stands and additional styluses.\n"
 
-[i18n-content-75-_index-faq-items1-i_5-title]
+[i18n-content-75-_index-three_faqs-items1-i_5-title]
 other = "How is the Vibe board powered?"
 
-[i18n-content-75-_index-faq-items1-i_5-body]
+[i18n-content-75-_index-three_faqs-items1-i_5-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
 
-[i18n-content-75-_index-faq-title2]
+[i18n-content-75-_index-three_faqs-title2]
 other = "Software"
 
-[i18n-content-75-_index-faq-title3]
+[i18n-content-75-_index-three_faqs-title3]
 other = "Shipping"
+
+[i18n-content-75-_index-three_faqs-see_all-title]
+other = "See more"
 
 [i18n-content-75-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"

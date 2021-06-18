@@ -69,12 +69,23 @@
 </section>
 {{ end }}
 
-{{ with .Params.as_seen_in }}
-{{ partial "common/as-seen-in-section" . }}
-{{ end }}
-
 {{ with .Params.testimonial_section }}
-{{ partial "common/testimonial-section" . }}
+<section class="section is-testimonial">
+  <div class="testimonial-title">{{ T .title | markdownify }}</div>
+  <figure class="image testimonial-logo-group">
+    {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #ffffff") }}
+  </figure>
+  <div class="container">
+    {{ $glide := gt (len .testimonials) 1 }}
+    {{ if $glide }}
+      {{ partial "glide" (dict "class" "testimonials" "partial" "testimonial" "context" .testimonials) }}
+    {{ else }}
+      {{ range .testimonials }}
+        {{ partial "testimonial" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
 {{ end }}
 
 {{ with .Params.feature_section }}
@@ -96,7 +107,7 @@
         </div>
         <div class="column is-image">
           <figure class="image">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #ffffff") }}
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
           </figure>
         </div>
       {{ else }}
@@ -108,7 +119,7 @@
       </div>
       <div class="column is-image">
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #ffffff") }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
         </figure>
       </div>
       {{ end }}
@@ -119,7 +130,16 @@
 {{ end }}
 
 {{ with .Params.canvas_section }}
-{{ partial "canvas" .}}
+<section class="section is-canvas {{ with .class }} {{ . }}{{ end }}">
+  {{ $glide := gt (len .canvases) 1 }}
+  {{ if $glide }}
+    {{ partial "glide" (dict "class" "canvases" "partial" "canvas" "context" .canvases "is_rectangle_dots" .is_rectangle_dots) }}
+  {{ else }}
+    {{ range .canvases }}
+      {{ partial "canvas" . }}
+    {{ end }}
+  {{ end }}
+</section>
 {{ end }}
 
 {{ with .Params.apps }}
@@ -200,12 +220,12 @@
 </section>
 {{ end }}
 
-{{ with .Params.accessories }}
-{{ partial "accessories" . }}
-{{ end }}
-
 {{ with .Params.three_faqs }}
 {{ partial "three-faqs" . }}
+{{ end }}
+
+{{ with .Params.feature_columns }}
+{{ partial "feature-columns" . }}
 {{ end }}
 
 {{ with .Params.bottom_cta }}
@@ -213,6 +233,8 @@
 {{ end }}
 
 {{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
+{{ partial "common/template-script" (dict "asset" "js/75&55.js") }}
 {{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
+{{ partial "common/template-script" (dict "asset" "js/canvas.js") }}
 {{ partial "common/template-script" (dict "asset" "js/customer-entry.js") }}
 </main>{{ end }}
