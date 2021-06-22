@@ -8,7 +8,7 @@ tags:
 - Higher Education
 - How I Vibe
 - Training
-draft: true
+draft: false
 isfeatured: false
 description: Learn how an anatomy and physiology professor is using the Vibe board to prepare his students for their future
   as healthcare professionals.
@@ -88,7 +88,7 @@ Alexander seamlessly combines both necessary instruction and critically importan
 
 “It’s not, ‘Here’s an assignment, do it and turn it in,’” Alexander said. “It’s an active learning process that gets students engaged and gets them actively thinking, not just passively listening to material.”
 
-{{< common/srcset "image-2.jpg" "Dr. Austin Alexander in his anatomy lab at Hardin-Simmons University" >}}
+{{< common/srcset "image-2.jpg" "Dr. Austin Alexander in the anatomy lab at Hardin-Simmons University" >}}
 
 ## Alexander’s favorite Vibe board features
 
