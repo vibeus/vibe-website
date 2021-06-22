@@ -2,7 +2,7 @@
 title: Best Practices for Distance Learning in 2021
 slug: distance-learning-best-practices
 author: Paige Smith
-date: '2021-06-21'
+date: '2021-06-22'
 tags:
 - Distance Learning
 - Education

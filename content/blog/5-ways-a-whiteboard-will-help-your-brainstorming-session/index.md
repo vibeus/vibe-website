@@ -1,5 +1,5 @@
 ---
-title: How A Whiteboard Can Help Your Brainstorming Session
+title: How a Whiteboard Can Spark a Great Brainstorming Session
 slug: 5-ways-a-whiteboard-will-help-your-brainstorming-session
 author: Karen Belz
 date: '2021-06-11'

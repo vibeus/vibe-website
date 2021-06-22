@@ -1,5 +1,5 @@
 ---
-title: Rules for Running an Efficient Daily Stand-up Meeting
+title: Easy Rules for Running a Better Daily Stand-up Meeting
 slug: 10-rules-for-running-an-efficient-daily-stand-up-meeting
 author: Megan Snyder
 date: '2021-06-11'
@@ -18,7 +18,7 @@ industries:
 - technology
 ---
 
-Do you feel like your daily meetings could be more efficient? If so, you’re not alone. 
+Do you feel like your team’s daily stand-up meeting could be better? If so, you’re not alone. 
 
 [The Harvard Business Review](https://hbr.org/2017/07/stop-the-meeting-madness) recently conducted a survey with nearly 200 senior-level managers across a variety of industries. The survey revealed that 65% of managers believe that meetings keep them from completing their work, and 71% of managers found meetings to be unproductive and inefficient. 
 
