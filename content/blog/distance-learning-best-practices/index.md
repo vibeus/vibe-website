@@ -7,7 +7,7 @@ tags:
 - Distance Learning
 - Education
 - Higher Education
-draft: true
+draft: false
 isfeatured: false
 description: Distance learning can have a positive impact on students, regardless of location. Design your next course with
   these distance learning best practices.
