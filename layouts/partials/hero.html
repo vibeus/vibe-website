@@ -1,0 +1,98 @@
+<section class="hero is-fullheight-with-navbar {{ with .class }} {{ . }} {{ end }}">
+  <figure class="image is-hero-bg is-hidden-mobile">
+    {{ with .bg }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png #F4F4F4") }}
+    {{ end }}
+  </figure>
+  <figure class="image is-hero-bg is-hidden-tablet">
+    {{ with .bg_mobile }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+    {{ end }}
+  </figure>
+  {{ if .gallery }}
+    <div class="hero-photo-gallery">
+      <figure class="hero-photo-gallery-img is-hidden-mobile">
+        {{ with .gallery_img }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+        {{ end }}
+      </figure>
+      <figure class="hero-photo-gallery-img-hover is-hidden-mobile">
+        {{ with .gallery_hover_img }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+        {{ end }}
+      </figure>
+    </div>
+  {{ end }}
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h4 class="subtitle">
+          {{ T .subtitle | markdownify }}
+        </h4>
+        <h1 class="title">
+          {{ T .title | markdownify }}
+        </h1>
+        <p>
+        {{ T .body | markdownify }}
+        </p>
+      </div>
+      <div class="cta-group">
+        {{ with .cta }}
+          <div class="cta">
+            <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
+              href="{{ .url | relLangURL }}">
+              {{ default .title (T .title) }}
+            </a>
+          </div>
+        {{ end }}
+        {{ if .subcta }}
+          {{ with .subcta }}
+            <div class="cta">
+              <a class="button is-hero-cta is-rounded is-black is-outlined"
+                href="{{ .url | relLangURL }}">
+                {{ default .title (T .title) }}
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+      {{ if .gallery }}
+        <div class="photo-gallery is-hidden-tablet">
+          <button class="button is-photo-gallery" data-target="gallery">
+            <span>{{ T .gallery.cta }}</span>
+            <span class="icon">
+              {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/icon-gallery.png")) }}
+            </span>
+          </button>
+        </div>
+        {{ with .gallery.items }}
+        <div class="modal is-gallery" id="gallery">
+          <div class="modal-background" data-target="gallery"></div>
+          <div class="modal-content">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  {{ range . }}
+                  <li class="glide__slide">
+                    <figure class="image">
+                      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2360x" "tablet" "1920x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                    </figure>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="glide-control is-left is-hidden-mobile" data-direction="<">
+            {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+          </div>
+          <div class="glide-control is-right is-hidden-mobile" data-direction=">">
+            {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+          </div>
+          <button class="modal-close is-large" aria-label="close" data-target="gallery"></button>
+        </div>
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>
+</section>

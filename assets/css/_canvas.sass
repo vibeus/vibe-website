@@ -1,25 +1,35 @@
-.section.is-canvas.is-canvas-bg 
-  background-color: #F4F4F4
-.section.is-canvas
+.section.is-canvases
   +vertical-padding(120px)
-  background-color: #fff
-  .container
+  background-color: #F4F4F4
+  .canvases
     width: 100vw
-    margin: 0
+    margin-left: -1.5rem
   .title.is-section-title
     max-width: 633px
     margin: 0 auto 18px
     font-size: 48px
     text-align: center
+    +mobile
+      width: 330px
+      font-weight: 600
+      font-size: 32px
+      line-height: 40px
   .content
     max-width: 773px
     margin: 0 auto
     text-align: center
+    +mobile
+      width: 331px
   .is-canvas-img
     margin-top: 48px
+    img
+      +mobile
+        height: 191px
   .canvas-box 
-    width: 99vw
-    margin-left: -1.5rem
+    margin-right: 1.5rem
+    +mobile
+      width: 359px
+      margin: 0 auto
     .main
       max-width: 1102px
       margin: -73px auto 0
@@ -60,5 +70,37 @@
       .is-canvas-2 .cta
         margin-top: 30px
         text-align: left
+    .main-mobile .column
+      width: 359px
+      margin: -2rem auto 0
+      padding: 1.5rem 2rem
+      background: rgba(255, 255, 255, 0.8)
+      border: 1px solid #F1F1F1
+      box-sizing: border-box
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
+      backdrop-filter: blur(25px)
+      +mobile
+        display: flex
+        flex-direction: column
+        .column-row
+          display: flex
+          margin-bottom: 1rem
+          img
+              width: 18px
+              height: 18px
+              margin-top: 5px
+              margin-right: 16px
+          .content
+            width: 233px
+            font-size: 14px
+            line-height: 144%
+            text-align: left
+      .cta
+        font-weight: 600
+        font-size: 18px
+        line-height: 144%
+        text-align: center
+        a
+          color: #6666CC
   .canvases:hover .glide-nav
     opacity: 1

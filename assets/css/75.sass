@@ -1,16 +1,16 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 
 @import "_shared.sass"
-@import "_three-faqs.sass"
+@import "_faq.sass"
 @import "_video-section.sass"
 @import "_glide.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
 @import "_accessories.sass"
+@import "_apps.sass"
 @import "_canvas.sass"
 @import "_security.sass"
 @import "_feature-columns.sass"
-
 .hero
   position: relative
   font-size: 18px
@@ -117,7 +117,7 @@
         right: 16px
       +widescreen
         right: 64px
-
+        
 .section.is-overview
   +vertical-padding(120px)
   +lang-override(".lang-zh")
@@ -207,29 +207,9 @@
         margin-bottom: 1rem
 
 
-.section.is-apps
-  +vertical-padding(120px)
-  +lang-override(".lang-zh")
-    padding-top: 83px
-  &.is-lower
-    padding-bottom: 0
-  .title.is-section-title
-    max-width: 847px
-    text-align: center
-    margin-left: auto
-    margin-right: auto
-  .content
-    max-width: 773px
-    margin: 0 auto
-    text-align: center
-  .more
-    text-align: center
-    a
-      color: #6666CC
-
 
 .section.is-spec
-  +vertical-padding(26px, 16px, 16px, 16px)
+  +vertical-padding(120px, 16px, 16px, 16px)
   background-color: #F4F4F4
   .title
     text-align: center
@@ -365,4 +345,7 @@
         font-size: 12px 
       .cta
         font-size: 14px
-
+.section.is-bottom-cta
+  .cta .button
+    +mobile
+      min-width: 319px

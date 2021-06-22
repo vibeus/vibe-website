@@ -7,15 +7,17 @@
           <li class="title faq-section{{ if eq $idx 0 }} is-active{{ end }}" id="faq-section-{{ $idx }}">{{ T .title }}</li>
         {{ end }}
       </ul>
-      {{ with .see_all }}
-        <a href="{{ .url }}" target="_blank">{{ T .title }}</a>
-      {{ end }}
+      <div class="more">
+        {{ with .see_all }}
+          <a href="{{ .url }}" target="_blank">{{ T .title }}</a>
+        {{ end }}
+      </div>
     </div>
     {{ range $idx, $it := .items }}
       <ul class="faq-items" id="faq-items-{{ $idx }}">
         {{ range $idx2, $it2 := .item }}
-        <li class="faq-item{{ if eq $idx2 0 }} is-active{{ end }}" id="faq-{{ $idx2 }}">
-          <h2 class="faq-title" data-target="faq-{{ $idx2 }}">
+        <li class="faq-item {{ if eq $idx2 0 }} is-active{{ end }}" id="faq-{{ $idx }}-{{ $idx2 }}">
+          <h2 class="faq-title" data-target="faq-{{ $idx }}-{{ $idx2 }}">
             <span>
               {{ T .title }}
             </span>

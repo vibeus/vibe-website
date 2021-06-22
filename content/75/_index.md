@@ -5,32 +5,25 @@ stylesPath: css/75.sass
 aliases:
   - /product/
 hero:
+  class: is-75
   subtitle: i18n-content-75-_index-hero-subtitle
   title: i18n-content-75-_index-hero-title
   body: i18n-content-75-_index-hero-body
+  bg: img/75/hero-bg.png
+  bg_mobile: img/75/hero-bg-mobile.png
   cta:
     title: i18n-content-75-_index-hero-cta-title
     class: is-primary is-rounded
-    url: /demo/
-  gallery:
-    cta: i18n-content-75-_index-hero-gallery-cta
-    items:
-      - img/75/gallery/gallery-1.png
-      - img/75/gallery/gallery-2.png
-      - img/75/gallery/gallery-3.png
-      - img/75/gallery/gallery-4.png
-      - img/75/gallery/gallery-5.png
-      - img/75/gallery/gallery-6.png
-      - img/75/gallery/gallery-7.png
-      - img/75/gallery/gallery-8.png
-      - img/75/gallery/gallery-9.png
-      - img/75/gallery/gallery-10.png
+    url: /order/pre-order/
+
 canvas_section:
   is_rectangle_dots: true
+  is_75_glide_dots: true
   canvases:
     - title: i18n-content-75-_index-canvas_section-canvas-i_0-title
       body: i18n-content-75-_index-canvas_section-canvas-i_0-body
       figure: img/75/canvas-1.png
+      figure_mobile: img/75/canvas-mobile-1.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-body
@@ -38,7 +31,7 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /75/
+        url: /software
     - title: i18n-content-75-_index-canvas_section-canvas-i_1-title
       body: i18n-content-75-_index-canvas_section-canvas-i_1-body
       figure: img/75/canvas-2.png
@@ -49,7 +42,7 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /75/
+        url: /software
     - title: i18n-content-75-_index-canvas_section-canvas-i_2-title
       body: i18n-content-75-_index-canvas_section-canvas-i_2-body
       figure: img/75/canvas-3.png
@@ -60,7 +53,7 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /75/
+        url: /software
 
 feature_set_1:
   title: i18n-content-75-_index-feature_set_1-title
@@ -92,19 +85,85 @@ feature_set_2:
       body: i18n-content-75-_index-feature_set_2-features-i_2-body
     - title: i18n-content-75-_index-feature_set_2-features-i_3-title
       body: i18n-content-75-_index-feature_set_2-features-i_3-body
-  cta:
-    title: i18n-content-75-_index-feature_set_2-cta-title
-    url: /75/
+
 apps:
   title: i18n-content-75-_index-apps-title
   body: i18n-content-75-_index-apps-body
   cta:
     title: i18n-content-75-_index-apps-cta-title
-    url: /75/
+    url: /android-app-store
+  groups:
+    - logos:
+      - logo: img/apps/logo-group/1.jpg
+      - logo: img/apps/logo-group/2.jpg
+      - logo: img/apps/logo-group/3.jpg
+      - logo: img/apps/logo-group/4.jpg
+      - logo: img/apps/logo-group/5.jpg
+      - logo: img/apps/logo-group/6.jpg
+      - logo: img/apps/logo-group/7.jpg
+      - logo: img/apps/logo-group/8.jpg
+      - logo: img/apps/logo-group/9.jpg
+      - logo: img/apps/logo-group/10.jpg          
+      - logo: img/apps/logo-group/11.jpg
+      - logo: img/apps/logo-group/12.jpg
+      - logo: img/apps/logo-group/13.jpg
+      - logo: img/apps/logo-group/14.jpg
+      - logo: img/apps/logo-group/15.jpg
+      - logo: img/apps/logo-group/16.jpg
+      - logo: img/apps/logo-group/17.jpg
+      - logo: img/apps/logo-group/18.jpg
+      - logo: img/apps/logo-group/19.jpg
+      - logo: img/apps/logo-group/20.jpg
+      - logo: img/apps/logo-group/21.jpg
+    - logos:
+      - logo: img/apps/logo-group/10.jpg
+      - logo: img/apps/logo-group/22.jpg
+      - logo: img/apps/logo-group/23.jpg
+      - logo: img/apps/logo-group/24.jpg
+      - logo: img/apps/logo-group/25.jpg
+      - logo: img/apps/logo-group/26.jpg
+      - logo: img/apps/logo-group/27.jpg
+      - logo: img/apps/logo-group/28.jpg
+      - logo: img/apps/logo-group/29.jpg
+      - logo: img/apps/logo-group/30.jpg
+      - logo: img/apps/logo-group/20.jpg
+      - logo: img/apps/logo-group/21.jpg
+      - logo: img/apps/logo-group/31.jpg
+      - logo: img/apps/logo-group/32.jpg
+      - logo: img/apps/logo-group/33.jpg
+      - logo: img/apps/logo-group/34.jpg
+      - logo: img/apps/logo-group/35.jpg
+      - logo: img/apps/logo-group/36.jpg
+      - logo: img/apps/logo-group/37.jpg
+      - logo: img/apps/logo-group/38.jpg
+      - logo: img/apps/logo-group/39.jpg
+    - logos:
+      - logo: img/apps/logo-group/30.jpg
+      - logo: img/apps/logo-group/40.jpg
+      - logo: img/apps/logo-group/41.jpg
+      - logo: img/apps/logo-group/42.jpg
+      - logo: img/apps/logo-group/43.jpg
+      - logo: img/apps/logo-group/44.jpg
+      - logo: img/apps/logo-group/45.jpg
+      - logo: img/apps/logo-group/46.jpg
+      - logo: img/apps/logo-group/47.jpg
+      - logo: img/apps/logo-group/48.jpg
+      - logo: img/apps/logo-group/38.jpg
+      - logo: img/apps/logo-group/39.jpg
+      - logo: img/apps/logo-group/49.jpg
+      - logo: img/apps/logo-group/50.jpg
+      - logo: img/apps/logo-group/51.jpg
+      - logo: img/apps/logo-group/52.jpg
+      - logo: img/apps/logo-group/53.jpg
+      - logo: img/apps/logo-group/54.jpg
+      - logo: img/apps/logo-group/55.jpg
+      - logo: img/apps/logo-group/56.jpg
+      - logo: img/apps/logo-group/57.jpg 
 
 security:
   title: i18n-content-75-_index-security-title
-  figure: img/75/security.png
+  figure: img/security/security.png
+  figure_mobile: img/security/security-mobile.png
   items:
     - title: i18n-content-75-_index-security-items-i_0-title
       body: i18n-content-75-_index-security-items-i_0-body
@@ -246,7 +305,7 @@ spec:
   cta:
     title: i18n-content-75-_index-spec-cta-title
     class: is-black is-outlined is-rounded
-    url: /resources/Vibe_Tech_Specs.pdf
+    url: /resources/75_inch_Tech_Specs.pdf
 
 feature_columns:
   title: i18n-content-75-_index-feature_columns-title
@@ -260,60 +319,30 @@ feature_columns:
   cta:
     title: i18n-content-75-_index-feature_columns-cta-title
     url: /order/global-sales/
-three_faqs:
-  title: i18n-content-55-_index-three_faqs-title
-  sections:
-    - title: i18n-content-55-_index-three_faqs-sections-i_0-title
-    - title: i18n-content-55-_index-three_faqs-sections-i_1-title
-    - title: i18n-content-55-_index-three_faqs-sections-i_2-title
+
+faq:
+  title: i18n-content-75-_index-faq-title
   items: 
-    - item:
-      - title: i18n-content-55-_index-three_faqs-items0-i_0-title
-        body: i18n-content-55-_index-three_faqs-items0-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_1-title
-        body: i18n-content-55-_index-three_faqs-items0-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_2-title
-        body: i18n-content-55-_index-three_faqs-items0-i_2-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_3-title
-        body: i18n-content-55-_index-three_faqs-items0-i_3-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_4-title
-        body: i18n-content-55-_index-three_faqs-items0-i_4-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_5-title
-        body: i18n-content-55-_index-three_faqs-items0-i_5-body
-    - item:
-      - title: i18n-content-55-_index-three_faqs-items1-i_0-title
-        body: i18n-content-55-_index-three_faqs-items1-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_1-title
-        body: i18n-content-55-_index-three_faqs-items1-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_2-title
-        body: i18n-content-55-_index-three_faqs-items1-i_2-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_3-title
-        body: i18n-content-55-_index-three_faqs-items1-i_3-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_4-title
-        body: i18n-content-55-_index-three_faqs-items1-i_4-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_5-title
-        body: i18n-content-55-_index-three_faqs-items1-i_5-body
-    - item:
-      - title: i18n-content-55-_index-three_faqs-items2-i_0-title
-        body: i18n-content-55-_index-three_faqs-items2-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_1-title
-        body: i18n-content-55-_index-three_faqs-items2-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_2-title
-        body: i18n-content-55-_index-three_faqs-items2-i_2-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_3-title
-        body: i18n-content-55-_index-three_faqs-items2-i_3-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_4-title
-        body: i18n-content-55-_index-three_faqs-items2-i_4-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_5-title
-        body: i18n-content-55-_index-three_faqs-items2-i_5-body
-  see_all:
-    title: i18n-content-55-_index-three_faqs-see_all-title
-    url: /hardware
+    - title: i18n-content-75-_index-faq-i_0-title
+      body: i18n-content-75-_index-faq-i_0-body
+    - title: i18n-content-75-_index-faq-i_1-title
+      body: i18n-content-75-_index-faq-i_1-body
+    - title: i18n-content-75-_index-faq-i_2-title
+      body: i18n-content-75-_index-faq-i_2-body
+    - title: i18n-content-75-_index-faq-i_3-title
+      body: i18n-content-75-_index-faq-i_3-body
+    - title: i18n-content-75-_index-faq-i_4-title
+      body: i18n-content-75-_index-faq-i_4-body
+    - title: i18n-content-75-_index-faq-i_5-title
+      body: i18n-content-75-_index-faq-i_5-body
+
 bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title
   cta:
     buttons:
       - title: i18n-content-75-_index-bottom_cta-cta-title1
         dark_to_light: true
+        url: /order/pre-order
       - title: i18n-content-75-_index-bottom_cta-cta-title2
+        url: /contact
 ---

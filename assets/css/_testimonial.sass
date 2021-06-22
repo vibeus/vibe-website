@@ -10,6 +10,9 @@
   .testimonial-content
     max-width: 814px
     max-height: 403px
+    +mobile
+      width: 290px
+      margin-left: 32px
     .content
       position: relative
       height: 266px
@@ -18,15 +21,22 @@
       font-family: $vibe-family-heading
       padding: 64px 96px 0 72px
       +mobile
-        padding: 32px 0 32px 0
+        padding: 32px 0
       .content-title
         font-size: 16px
         line-height: 20px
         margin-bottom: 16px
+        +mobile
+          font-size: 14px
+          line-height: 17px
       .content-body
         font-size: 30px
         font-weight: 600
         line-height: 38px
+        +mobile
+          width: 274px
+          font-size: 24px
+          line-height: 30px
     .quote-mark
       position: absolute
       width: 62px
@@ -48,7 +58,11 @@
         align-items: center
         width: 100%
         +mobile
-          display: block
+          margin-bottom: 32px
+          .name
+            width: 220px
+            font-size: 16px
+            line-height: 22px
         +tablet
           &.has-logo
             .name
@@ -62,11 +76,9 @@
             object-fit: contain
             object-position: right
           +mobile
-            width: 120px
-            height: 36px
-            margin-top: 32px
-            img
-              object-position: left
+            margin-right: -5px
+            width: 80px
+            height: 64px
         .name
           font-family: $vibe-family-heading
           span:first-child

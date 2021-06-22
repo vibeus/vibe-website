@@ -1,9 +1,3 @@
-{{ define "stylesheets" }}
-<style>
-{{ (resources.Get "css/common/video-js.min.css").Content | safeCSS }}
-</style>
-{{ end }}
-
 {{ define "scripts"}}
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
@@ -30,13 +24,37 @@
 {{ define "main" }}<main class="55">
 
 {{ with .Params.hero }}
-<section class="hero is-fullheight-with-navbar is-55">
+<section class="hero is-fullheight-with-navbar {{ with .class }} {{ . }} {{ end }}">
   <figure class="image is-hero-bg is-hidden-mobile">
-    {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+    {{ with .bg }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png #F4F4F4") }}
+    {{ end }}
   </figure>
+  <figure class="image is-hero-bg is-hidden-tablet">
+    {{ with .bg_mobile }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+    {{ end }}
+  </figure>
+  {{ if .gallery }}
+    <div class="hero-photo-gallery is-photo-gallery" data-target="gallery">
+      <figure class="hero-photo-gallery-img is-hidden-mobile">
+        {{ with .gallery_img }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+        {{ end }}
+      </figure>
+      <figure class="hero-photo-gallery-img-hover is-hidden-mobile">
+        {{ with .gallery_hover_img }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+        {{ end }}
+      </figure>
+    </div>
+  {{ end }}
   <div class="hero-body">
     <div class="container">
       <div class="title-text">
+        <h4 class="subtitle">
+          {{ T .subtitle | markdownify }}
+        </h4>
         <h1 class="title">
           {{ T .title | markdownify }}
         </h1>
@@ -44,26 +62,63 @@
         {{ T .body | markdownify }}
         </p>
       </div>
-      {{ with .cta }}
-      <div class="cta">
-        <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url | relLangURL }}">
-          {{ T .title }}
-        </a>
-      </div>
-      {{ end }}
-      {{ range .subcta }}
-      <div class="subcta{{ with .class }} {{ . }}{{ end }}">
-        <span>{{ T .title }}</span>
-        {{ with .link }}
-        <a href="{{ .url | relLangURL }}">{{ T .text }}</a>
+      <div class="cta-group">
+        {{ with .cta }}
+          <div class="cta">
+            <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
+              href="{{ .url | relLangURL }}">
+              {{ default .title (T .title) }}
+            </a>
+          </div>
+        {{ end }}
+        {{ if .subcta }}
+          {{ with .subcta }}
+            <div class="cta">
+              <a class="button is-hero-cta is-rounded is-black is-outlined"
+                href="{{ .url | relLangURL }}">
+                {{ default .title (T .title) }}
+              </a>
+            </div>
+          {{ end }}
         {{ end }}
       </div>
+      {{ if .gallery }}
+        <div class="photo-gallery is-hidden-tablet">
+          <button class="button is-photo-gallery" data-target="gallery">
+            <span>{{ T .gallery.cta }}</span>
+            <span class="icon">
+              {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/icon-gallery.png")) }}
+            </span>
+          </button>
+        </div>
+        {{ with .gallery.items }}
+          <div class="modal is-gallery" id="gallery">
+            <div class="modal-background" data-target="gallery"></div>
+            <div class="modal-content">
+              <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    {{ range . }}
+                    <li class="glide__slide">
+                      <figure class="image">
+                        {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2360x" "tablet" "1920x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+                      </figure>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="glide-control is-left is-hidden-mobile" data-direction="<">
+              {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+            </div>
+            <div class="glide-control is-right is-hidden-mobile" data-direction=">">
+              {{ (resources.Get "img/common/nav-icon.svg").Content | safeHTML }}
+            </div>
+            <button class="modal-close is-large" aria-label="close" data-target="gallery"></button>
+          </div>
+        {{ end }}
       {{ end }}
-
-      <figure class="image is-hero is-hidden-tablet">
-        {{ partial "common/srcset" (dict "resource" (resources.Get "img/55/hero-mobile.jpg") "desktop" "750x") }}
-      </figure>
     </div>
   </div>
 </section>
@@ -72,8 +127,13 @@
 {{ with .Params.testimonial_section }}
 <section class="section is-testimonial">
   <div class="testimonial-title">{{ T .title | markdownify }}</div>
-  <figure class="image testimonial-logo-group">
-    {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #ffffff") }}
+  <figure class="image testimonial-logo-group is-hidden-mobile">
+    {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x") }}
+  </figure>
+  <figure class="image testimonial-logo-group is-hidden-tablet">
+    {{ with .figure_mobile }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "png #ffffff 18%") }}
+    {{ end }}
   </figure>
   <div class="container">
     {{ $glide := gt (len .testimonials) 1 }}
@@ -95,6 +155,11 @@
     {{ range .features }}
     <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
       {{ if .items }}
+        <div class="column is-image">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
+          </figure>
+        </div>
         <div class="features-items">
           {{ range .items }}
             <div class="column is-text">
@@ -105,22 +170,17 @@
             </div>
           {{ end }}
         </div>
-        <div class="column is-image">
-          <figure class="image">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
-          </figure>
-        </div>
       {{ else }}
+      <div class="column is-image">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
+        </figure>
+      </div>
       <div class="column is-text">
         <h2 class="title">{{ T .title | markdownify }}</h2>
         <div class="content">
           {{ T .body | markdownify }}
         </div>
-      </div>
-      <div class="column is-image">
-        <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
-        </figure>
       </div>
       {{ end }}
     </div>
@@ -130,7 +190,7 @@
 {{ end }}
 
 {{ with .Params.canvas_section }}
-<section class="section is-canvas {{ with .class }} {{ . }}{{ end }}">
+<section class="section is-canvases {{ with .class }} {{ . }}{{ end }}">
   {{ $glide := gt (len .canvases) 1 }}
   {{ if $glide }}
     {{ partial "glide" (dict "class" "canvases" "partial" "canvas" "context" .canvases "is_rectangle_dots" .is_rectangle_dots) }}
@@ -147,11 +207,19 @@
   <div class="container">
     {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
     {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
-    <div class="more">
+    <div class="see-all">
       {{ with .cta }}
         <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
       {{ end }}
     </div>
+    {{ $glide := gt (len .groups) 1 }}
+    {{ if $glide }}
+      {{ partial "glide" (dict "class" "groups" "partial" "apps-groups" "context" .groups) }}
+    {{ else }}
+      {{ range .groups }}
+        {{ partial "apps-groups" . }}
+      {{ end }}
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -235,6 +303,7 @@
 {{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
 {{ partial "common/template-script" (dict "asset" "js/75&55.js") }}
 {{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
-{{ partial "common/template-script" (dict "asset" "js/canvas.js") }}
+{{ partial "common/template-script" (dict "asset" "js/apps-glide.js") }}
+{{ partial "common/template-script" (dict "asset" "js/canvas-glide.js") }}
 {{ partial "common/template-script" (dict "asset" "js/customer-entry.js") }}
 </main>{{ end }}

@@ -1,6 +1,6 @@
 <div class="{{ .class }}">
   {{ if .is_rectangle_dots }}
-  <div class="glide-dots rectangle-dots">
+  <div class="glide-dots rectangle-dots {{ if .is_75_glide_dots }} is-75-glide-dots {{ end }}">
     {{ range .context }}
       <span class="icon is-small">
         <div class="dot"></div>

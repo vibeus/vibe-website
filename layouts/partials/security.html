@@ -3,7 +3,7 @@
     {{ with .title }}
       <h1 class="title is-section-title">{{ default . (T .) | markdownify }}</h1>
     {{ end }}
-    <figure class="image is-security-bg is-hidden-mobile">
+    <figure class="image is-security-bg">
       {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
     </figure>
     <div class="columns">

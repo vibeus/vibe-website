@@ -8,85 +8,191 @@
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
 @import "_canvas.sass"
+@import "_apps.sass"
 @import "_accessories.sass"
 @import "_security.sass"
 @import "_feature-columns.sass"
 .hero
   position: relative
+  font-size: 18px
   +mobile
+    font-size: 16px
     .hero-body
+      display: unset !important
       padding-bottom: 0
   .image.is-hero-bg
     +absolute-fill
-    +tablet-only
-      right: -80px
     img
       width: 100%
-      height: 100%
+      height: 1185px
       object-fit: cover
       +mobile
-        object-position: 62% 50%
+        +absolute-fill
   .container
     +fullhd
       max-width: 1100px
-  .title-text
+    margin-left: 6.5rem
     +mobile
-      margin-bottom: 32px
-    +tablet
-      max-width: 480px
+      margin-left: 0
+  .title-text
+    max-width: 584px
+    margin-top: 102px
+    margin-bottom: 88px
+    +mobile
+      max-width: 311px
+      margin: 0 auto 40px
+    .subtitle
+      margin-bottom: 18px
+      font-size: 28px
       +lang-override(".lang-zh")
-        max-width: 400px
-      margin-bottom: 72px
-    +desktop
-      max-width: 500px
+        font-size: 16px
+      line-height: 36px
+      +mobile
+        max-width: 285px
+        margin-bottom: 1rem
+        font-size: 20px
+        line-height: 25px
     .title
-      font-size: 38px
-      line-height: 48px
+      font-size: 56px
+      margin-top: 0
+      margin-bottom: 48px
+      line-height: 118%
+      +lang-override(".lang-zh")
+        font-size: 48px
+      +mobile
+        margin-top: 0
+        margin-bottom: 32px
+        font-size: 36px
+        line-height: 116%
+    p
+      max-width: 516px
+      +lang-override(".lang-zh")
+        font-size: 18px
+    .title p
       +lang-override(".lang-zh")
         font-size: 50px
       +mobile
-        font-size: 32px
-        line-height: 40px
-      +tablet-only
-        font-size: 36px
-        line-height: 36px
-    p
-      max-width: 435px
-      +lang-override(".lang-zh")
-        display: none
-    .title p
-      display: flex
-  .cta
+        font-size: 16px
+        line-height: 144%
+  .cta-group
+    display: flex
     +mobile
-      text-align: center
-    .button.is-hero-cta
+      flex-direction: column
+    .cta
+      margin-right: 16px
       +mobile
-        min-width: 270px
-      +tablet
-        width: 234px
-        height: 58px
-        font-size: 20px
-      font-weight: $vibe-bold
-      &:not(:last-child)
-        margin-right: 20px
-  .subcta
-    margin-top: 20px
-    &.is-logged-in
-      display: none
-    +mobile
-      display: none
-    a
-      font-weight: 500
-      color: $primary
-      margin-left: 18px
+        margin: 0 auto
+        text-align: center
+      .button.is-hero-cta
+        +mobile
+          min-width: 319px
+          margin-bottom: 16px
+        +tablet
+          width: 175pxpx
+          height: 58px
+          font-size: 20px
+        font-weight: $vibe-bold
+        &:not(:last-child)
+          margin-right: 20px
+    +tablet
+      a
+        width: 190px
+      button
+        width: 220px
+  .button.is-hero-cta:hover,
+  .button.is-hero-cta:active,
+  .button.is-hero-cta:focus
+    svg
+      fill: $vibe-white
   .image.is-hero
     +mobile-full-width
+  .modal-content
+    overflow: hidden
+    +tablet
+      width: calc(100vw - 140px)
+    +desktop
+      width: calc(100vw - 200px)
+    +widescreen
+      width: calc(100vw - 320px)
+  .modal-background
+    background: rgba(136, 136, 136, 0.69)
+    backdrop-filter: blur(10px)
+  .glide-control
+    position: absolute
+    top: 50%
+    margin-top: -21px
+    cursor: pointer
+    &.is-left
+      left: 32px
+      +tablet
+        left: 16px
+      +widescreen
+        left: 64px
+      transform: rotate(180deg)
+    &.is-right
+      right: 32px
+      +tablet
+        right: 16px
+      +widescreen
+        right: 64px
+.hero.is-55
+  min-height: 1446px
+  +tablet
+    .hero-photo-gallery
+      position: absolute
+      z-index: 39
+      top: 0
+      right: 0
+      width: 780px
+      margin-top: -60px
+      cursor: pointer
+      .hero-photo-gallery-img-hover
+        display: none
+    .hero-photo-gallery:hover
+      .hero-photo-gallery-img
+        display: none
+      .hero-photo-gallery-img-hover
+        display: unset
+    
+  .image.is-hero-bg
+    img
+      +mobile
+        width: 375px
+        height: 1446px
+
+  .photo-gallery
+    +mobile
+      margin-top: 521px
+      text-align: center
+    .button.is-photo-gallery
+      margin: 0 auto
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      background-color: unset
+      border: 0
+      .icon
+        border: 2px solid #000
+        border-radius: 50%
+        svg
+          width: 12px
+          height: 12px
+          margin-left: 8px
+      .button:active, .button.is-active
+        border: 0
+.hero.is-fullheight-with-navbar .hero-body
+  +tablet
+    align-items: unset
 
 .section.is-testimonial
-  padding-top: 120px
+  margin-top: -620px
   padding-bottom: 60px
-  background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#F4F4F4 51%,#F4F4F4 100%)
+  background: #F4F4F4
+  +mobile
+    margin-top: -363px
+    padding-top: 0
   .testimonial-title
+    position: relative
     margin-bottom: 48px
     font-family: Stratos
     font-style: normal
@@ -95,10 +201,16 @@
     line-height: 30px
     color: #BDBDBD
     text-align: center
+    +mobile
+      margin-bottom:: 36px
   .testimonial-logo-group
     width: 878px
     height: 64px
     margin: 0 auto 64px
+    +mobile
+      width: 305px
+      height: 40px
+      margin-bottom: 40px
   .container
     max-width: 1080px
   
@@ -107,6 +219,9 @@
   +vertical-padding(120px)
   +lang-override(".lang-zh")
     padding-top: 83px
+  +mobile
+    padding-left: 0
+    padding-right: 0
   background: #F4F4F4
   &.is-lower
     padding-bottom: 0
@@ -115,8 +230,13 @@
     text-align: center
     margin-left: auto
     margin-right: auto
+    +mobile
+      width: 355px
   .columns
     justify-content: center
+    +mobile
+      width: 311px
+      margin: 0 auto
     .features-items 
       display: flex
       flex-direction: column
@@ -124,7 +244,19 @@
     max-width: 500px + 12px * 2
     +lang-override(".lang-zh")
       max-width: 569px
-    font-size: 18px
+    .title
+      font-size: 32px
+      font-weight: 600
+      line-height: 38px
+      +mobile
+        font-size: 18px
+        line-height: 23x
+    .content
+      font-size: 18px
+      line-height: 26px
+      +mobile
+        font-size: 14px
+        line-height: 20px
     +lang-override(".lang-zh")
       .title
         font-size: 50px
@@ -136,12 +268,15 @@
         line-height: 1.5
         margin-bottom: 1rem
   .columns.is-feature-1
-    flex-direction: row-reverse
     .column.is-image
       max-width: 721px
   .columns.is-feature-2
+    flex-direction: row-reverse
+    .column.is-text
+      max-width: 433px
     .column.is-image
-      max-width: 675px
+      max-width: 543px
+
   .columns.is-feature-3
     flex-direction: row-reverse
     .column.is-image
@@ -166,7 +301,7 @@
     max-width: 773px
     margin: 0 auto
     text-align: center
-  .more
+  .see-all
     text-align: center
     a
       color: #6666CC
@@ -186,13 +321,14 @@
       text-align: center
       width: 220px
       +mobile
-        width: 100px
+        width: 70px
+        margin-right: 0
         font-size: 12px
       .title
         font-size: 48px
         margin-bottom: 16px
         +mobile
-          font-size: 32px
+          font-size: 24px
   .title.is-view-specs
     font-size: 18px
     text-align: center
@@ -254,3 +390,7 @@
         font-family: $vibe-family-heading
         font-weight: $vibe-bold
 
+.section.is-bottom-cta
+  .cta .button
+    +mobile
+      min-width: 319px
