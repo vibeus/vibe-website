@@ -57,9 +57,9 @@ canvas_section:
 feature_set_1:
   title: i18n-content-75-_index-feature_set_1-title
   animation:
-    - figure: img/smartboard-pro-75/uhd.gif
-      class: is-feature-1
-      animated: true
+    figure: img/smartboard-pro-75/uhd.gif
+    class: is-feature-1
+    animated: true
   features_mobile:
     - figure: img/smartboard-pro-75/feature-set1-1.png
       title: i18n-content-75-_index-feature_set_1-features_mobile-i_0-title
@@ -82,9 +82,9 @@ feature_set_2:
   title: i18n-content-75-_index-feature_set_2-title
   body: i18n-content-75-_index-feature_set_2-body
   animation:
-    - figure: img/smartboard-pro-75/chromium.gif
-      class: is-feature-1
-      animated: true
+    figure: img/smartboard-pro-75/feature-1.gif
+    class: is-feature-1
+    animated: true
   features:
     - title: i18n-content-75-_index-feature_set_2-features-i_0-title
       body: i18n-content-75-_index-feature_set_2-features-i_0-body
