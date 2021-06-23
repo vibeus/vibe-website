@@ -31,11 +31,23 @@
         {{ $gif := resources.Get .figure | resources.Fingerprint }}
         <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
         {{ else }}
-        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x" "options" "jpg #ffffff") }}
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
         {{ end }}
       </figure>
     {{ end }}
-
+    <div class="features-mobile is-hidden-tablet">
+      {{ range .features_mobile }}
+      <div class="columns">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
+        <div class="column is-text">
+          <h2 class="title">{{ T .title | markdownify }}</h2>
+          <div class="content">
+            {{ T .body | markdownify }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
     <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
     {{ range .features }}
       <div class="column is-text">
@@ -55,11 +67,6 @@
   <div class="container">
     {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
     {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
-    <div class="more">
-      {{ with .cta }}
-        <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
-      {{ end }}
-    </div>
     <video autoplay muted playsinline>
           {{ $src := resources.Get "video/75/chromium.mp4" | resources.Fingerprint }}
           <source src="{{ $src.RelPermalink }}" type="video/mp4">
@@ -151,7 +158,7 @@
 
 {{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
 {{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
-{{ partial "common/template-script" (dict "asset" "js/smartboard-75.js") }}
+{{ partial "common/template-script" (dict "asset" "js/smartboard-pro-75.js") }}
 {{ partial "common/template-script" (dict "asset" "js/apps-glide.js") }}
 {{ partial "common/template-script" (dict "asset" "js/canvas-glide.js") }}
 </main>{{ end }}

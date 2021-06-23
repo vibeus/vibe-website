@@ -60,7 +60,7 @@
       {{ if .items }}
         <div class="column is-image">
           <figure class="image">
-            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x") }}
           </figure>
         </div>
         <div class="features-items">
@@ -76,7 +76,7 @@
       {{ else }}
       <div class="column is-image">
         <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x" "options" "jpg #F4F4F4") }}
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1440x" "mobile" "420x") }}
         </figure>
       </div>
       <div class="column is-text">
@@ -135,7 +135,7 @@
 <section class="section is-spec">
   <div class="container">
     <figure class="image">
-      {{ partial "common/srcset" (dict "resource" (resources.Get "img/vibe-smartboard-55/explode.png") "desktop" "2070x" "tablet" "1440x" "mobile" "750x" "options" "jpg #66cccc") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get "img/smartboard-55/explode.png") "desktop" "2070x" "tablet" "1440x" "mobile" "750x" "options" "jpg #66cccc") }}
     </figure>
     <div class="level is-overview is-mobile">
       {{ range .banner }}

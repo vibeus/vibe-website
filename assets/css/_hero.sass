@@ -1,4 +1,4 @@
-.hero
+.section.hero
   position: relative
   font-size: 18px
   +mobile
@@ -22,11 +22,10 @@
       margin-left: 0
   .title-text
     max-width: 584px
-    margin-top: 102px
-    margin-bottom: 88px
+    margin-top: 45px
+    margin-bottom: 70px
     +mobile
-      max-width: 311px
-      margin: 0 auto 40px
+      margin: 0 .5rem 40px
     .subtitle
       margin-bottom: 18px
       font-size: 28px
@@ -34,8 +33,7 @@
         font-size: 16px
       line-height: 36px
       +mobile
-        max-width: 285px
-        margin-bottom: 1rem
+        margin: 0 .5rem 1rem
         font-size: 20px
         line-height: 25px
     .title
@@ -72,10 +70,11 @@
       .button.is-hero-cta
         +mobile
           min-width: 319px
+          height: 42px
           margin-bottom: 16px
         +tablet
-          width: 175pxpx
-          height: 58px
+          width: 175px
+          height: 55px
           font-size: 20px
         font-weight: $vibe-bold
         &:not(:last-child)
@@ -124,6 +123,8 @@
 .hero.is-fullheight-with-navbar .hero-body
   +tablet
     align-items: unset
+  +mobile
+    padding: 0
 
 
 

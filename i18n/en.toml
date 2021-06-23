@@ -1282,6 +1282,9 @@ other = "See a demo"
 [i18n-content-55-_index-hero-subcta-title]
 other = "Order a Vibe"
 
+[i18n-content-55-_index-hero-gallery-cta]
+other = "Photo gallery"
+
 [i18n-content-55-_index-feature_section-title]
 other = "The all-in-one 55″ digital whiteboard for the modern workspace"
 
@@ -1643,6 +1646,23 @@ other = "Dynamically edit or annotate on any file type during your presentation.
 [i18n-content-75-_index-canvas-cta-title]
 other = "Learn more →"
 
+[i18n-content-75-_index-feature_set_1-features_mobile-i_0-title]
+other = "20 Touchpoints"
+
+[i18n-content-75-_index-feature_set_1-features_mobile-i_0-body]
+other = "for mutilple team members draw at the same time"
+
+[i18n-content-75-_index-feature_set_1-features_mobile-i_1-title]
+other = "Passive Stylus "
+
+[i18n-content-75-_index-feature_set_1-features_mobile-i_1-body]
+other = "enjoy the smooth pen-to-paper feel"
+
+[i18n-content-75-_index-feature_set_1-features_mobile-i_2-title]
+other = "Hand Erase"
+
+[i18n-content-75-_index-feature_set_1-features_mobile-i_2-body]
+other = "erase with a simple swipe of your palm"
 
 [i18n-content-75-_index-feature_set_1-features-i_0-title]
 other = "PCAP"

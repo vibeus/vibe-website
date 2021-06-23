@@ -1,4 +1,4 @@
-<div class="group">
+<div class="group is-hidden-mobile">
   <div class="apps-mask apps-mask-left"></div>
   <div class="logos-group logos-group-1">
     {{ range first 10 .logos }}
@@ -16,7 +16,7 @@
   </div>
   <div class="apps-mask apps-mask-right"></div>
 </div>
-<div class="group-mobile">
+<div class="group-mobile is-hidden-tablet">
   <div class="apps-mask apps-mask-left"></div>
   <div class="logos-group logos-group-1">
     {{ range first 6 .logos }}
@@ -39,6 +39,6 @@
       </figure>
     {{ end }}
     </div>
-    <div class="apps-mask apps-mask-right"></div>
+  <div class="apps-mask apps-mask-right"></div>
 </div>
 

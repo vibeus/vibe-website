@@ -13,15 +13,21 @@
 @import "_security.sass"
 @import "_feature-columns.sass"
 .hero.is-75
+  background-color: #F4F4F4
   +mobile
     min-height: 920px
 .hero.is-75 .image.is-hero-bg img
   +mobile
     height: 920px
+
+.section.is-canvases
+  background-color: #fff
+
 .section.is-overview
   +vertical-padding(120px)
   +lang-override(".lang-zh")
     padding-top: 83px
+  background: linear-gradient(180deg, #FFFFFF -22.14%, rgba(255, 255, 255, 0) 108.91%), #F4F4F4
   &.is-lower
     padding-bottom: 0
   .title.is-section-title
@@ -32,6 +38,8 @@
   .is-overall-image
     margin: 0 auto 32px
     max-width: 872px
+    +mobile
+      margin: 0 -1rem 10px
   .columns
     flex-direction: row
     justify-content: center
@@ -55,13 +63,37 @@
     +mobile
       .title
         max-width: 120px
-        font-weight: 600
+        font-weight: $vibe-bold
         font-size: 26px
         line-height: 33px
         margin-bottom: 1rem
       .content 
         font-size: 14px
         line-height: 18px
+  +mobile
+    .features-mobile
+      .columns
+        display: flex
+        margin: 0 .5rem 3rem
+        img
+          width: 120px
+        .column
+          display: flex
+          flex-direction: column
+          justify-content: center
+          width: 180px
+          margin-left: 1rem
+          text-align: left
+          .title
+            max-width: 150px
+            margin-bottom: .5rem
+            font-weight: $vibe-bold
+            font-size: 18px
+            line-height: 23px
+          .content
+            max-width: 177px
+            font-size: 14px
+            line-height: 144%
 
 .section.is-chromium-os
   background: #FFC500
@@ -75,7 +107,7 @@
     text-align: center
     margin-left: auto
     margin-right: auto
-    font-weight: 600
+    font-weight: $vibe-bold
     +mobile
       font-size: 31px
       line-height: 38px
@@ -86,12 +118,6 @@
     +mobile
       font-size: 15px
       line-height: 140%
-  .more
-    margin-top: 16px
-    margin-bottom: 10px
-    text-align: center
-    a
-      color: #6666CC
   .is-chromium-os-image
     margin: 0 auto 32px
     max-width: 872px
@@ -171,7 +197,7 @@
     display: block
     margin: 40px auto 60px
     .see-all
-      font-weight: 600;
+      font-weight: $vibe-bold;
       font-size: 18px;
       line-height: 144%;
       color: #6666CC
@@ -259,7 +285,19 @@
         font-size: 12px 
       .cta
         font-size: 14px
+
+.section.is-faq
+  background: #F4F4F4
+
+.section.is-feature-columns
+  .is-feature .image img
+    max-height: 601px
 .section.is-bottom-cta
   .cta .button
+    height: 55px
     +mobile
       min-width: 319px
+      height: 42px
+  .title.section-title
+    +tablet
+      margin-bottom: 36px

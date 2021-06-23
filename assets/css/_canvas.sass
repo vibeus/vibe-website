@@ -2,8 +2,12 @@
   +vertical-padding(120px)
   background-color: #F4F4F4
   .canvases
-    width: 100vw
-    margin-left: -1.5rem
+    max-width: 1440px
+    margin: 0 auto
+    +tablet
+      .is-large
+        width: 5rem
+        height: 5rem
   .title.is-section-title
     max-width: 633px
     margin: 0 auto 18px
@@ -11,7 +15,7 @@
     text-align: center
     +mobile
       width: 330px
-      font-weight: 600
+      font-weight: $vibe-bold
       font-size: 32px
       line-height: 40px
   .content
@@ -24,11 +28,10 @@
     margin-top: 48px
     img
       +mobile
-        height: 191px
+        min-height: 240px
   .canvas-box 
-    margin-right: 1.5rem
     +mobile
-      width: 359px
+      width: 300px
       margin: 0 auto
     .main
       max-width: 1102px
@@ -71,7 +74,7 @@
         margin-top: 30px
         text-align: left
     .main-mobile .column
-      width: 359px
+      width: 300px
       margin: -2rem auto 0
       padding: 1.5rem 2rem
       background: rgba(255, 255, 255, 0.8)
@@ -96,7 +99,7 @@
             line-height: 144%
             text-align: left
       .cta
-        font-weight: 600
+        font-weight: $vibe-bold
         font-size: 18px
         line-height: 144%
         text-align: center

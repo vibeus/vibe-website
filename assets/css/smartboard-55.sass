@@ -40,12 +40,12 @@
     +mobile
       position: absolute
       z-index: 28
-      width: 100%
-      margin-top: 1000px
+      width: calc(100% - 3rem)
+      margin-top: 950px
       text-align: center
     .button.is-photo-gallery
       margin: 0 auto
-      font-weight: 600;
+      font-weight: $vibe-bold;
       font-size: 16px;
       line-height: 20px;
       background-color: unset
@@ -75,7 +75,7 @@
     margin-bottom: 48px
     font-family: Stratos
     font-style: normal
-    font-weight: 600
+    font-weight: $vibe-bold
     font-size: 24px
     line-height: 30px
     color: #BDBDBD
@@ -101,7 +101,7 @@
   +mobile
     padding-left: 0
     padding-right: 0
-  background: #F4F4F4
+  background: linear-gradient(360deg, #FFFFFF 14.75%, rgba(255, 255, 255, 0) 78.09%), #F4F4F4
   &.is-lower
     padding-bottom: 0
   .title.is-section-title
@@ -125,7 +125,7 @@
       max-width: 569px
     .title
       font-size: 32px
-      font-weight: 600
+      font-weight: $vibe-bold
       line-height: 38px
       +mobile
         font-size: 18px
@@ -155,26 +155,6 @@
       max-width: 433px
     .column.is-image
       max-width: 543px
-
-.section.is-apps
-  +vertical-padding(120px)
-  +lang-override(".lang-zh")
-    padding-top: 83px
-  &.is-lower
-    padding-bottom: 0
-  .title.is-section-title
-    max-width: 847px
-    text-align: center
-    margin-left: auto
-    margin-right: auto
-  .content
-    max-width: 773px
-    margin: 0 auto
-    text-align: center
-  .see-all
-    text-align: center
-    a
-      color: #6666CC
 
 .section.is-spec
   +vertical-padding(26px, 16px, 16px, 16px)
@@ -240,7 +220,9 @@
     .table
       background: none
       td, tr
+        padding: 1rem .75rem
         border-color: rgba(0, 0, 0, 0.1)
+        font-size: 16px
       td:first-child
         +tablet
           width: 140px
@@ -262,5 +244,11 @@
 
 .section.is-bottom-cta
   .cta .button
+    height: 55px
     +mobile
       min-width: 319px
+      height: 42px
+  .title.section-title
+    +tablet
+      margin-bottom: 36px
+      
