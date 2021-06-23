@@ -19,6 +19,8 @@
   +mobile
     min-height: 1446px
   +tablet
+    .hero-body
+      max-width: 1440px
     .hero-gallery-bg
       position: absolute
       z-index: 29
@@ -36,6 +38,12 @@
         display: none
       .hero-gallery-img-hover
         display: unset
+  .hero-gallery-bg
+    @media screen and (min-width: 1580px)
+      width: 820px
+      margin-right: 10%
+      img
+        margin-top: -3.5rem
   .photo-gallery
     +mobile
       position: absolute
@@ -157,7 +165,7 @@
       max-width: 543px
 
 .section.is-spec
-  +vertical-padding(26px, 16px, 16px, 16px)
+  +vertical-padding(120px)
   background-color: $vibe-teal
   .level.is-overview
     margin: 0 -1.5rem 32px -1.5rem

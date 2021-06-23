@@ -1,7 +1,7 @@
 /*
 {{ $src := resources.Get "js/common/common.js" | resources.Minify | resources.Fingerprint }}
 */
-import { activateOneOf, toggleActive } from '{{ $src.RelPermalink }}';
+import { bindScrollTo } from '{{ $src.RelPermalink }}';
 
 /**
  * section spec
@@ -23,7 +23,7 @@ const callback2 = function(mutationsList) {
       console.log('specSeeAll.innerText: ', specSeeAll.innerText);
       specSpecMask.style.display = 'none'
     } else {
-      specSpecs.scrollIntoView()
+      // specSpecs.scrollIntoView()
       specSeeAll.innerText = "See all specs ↓"
       specSpecMask.style.display = 'unset'
     }
@@ -36,3 +36,8 @@ const seeAllobserver = new MutationObserver(callback2);
 
 // 开始观察已配置突变的目标节点
 seeAllobserver.observe(specSpecs, config)
+
+
+const navbar = document.querySelector('.navbar');
+const navbarHeight = navbar ? navbar.clientHeight : 0;
+bindScrollTo('.toggle-specs', -navbarHeight);
