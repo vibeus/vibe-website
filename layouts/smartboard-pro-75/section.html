@@ -75,7 +75,7 @@
       <figure class="image is-overall-image">
         {{ if .animated }}
         {{ $gif := resources.Get .figure | resources.Fingerprint }}
-        <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+        <img class="overlay is-chromium-os-image" src="{{ $gif.RelPermalink }}" alt="animation" />
         {{ else }}
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
         {{ end }}
