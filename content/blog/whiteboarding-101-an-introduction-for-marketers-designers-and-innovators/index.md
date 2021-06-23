@@ -1,5 +1,5 @@
 ---
-title: 'Digital Whiteboarding 101: An Intro for Marketers, Designers, and Innovators'
+title: 'Digital Whiteboarding 101: An Intro for Creative Teams'
 slug: whiteboarding-101-an-introduction-for-marketers-designers-and-innovators
 author: Vibe Team
 date: '2021-04-09'
@@ -17,9 +17,9 @@ categories:
 industries: []
 ---
 
-The whiteboard has been a popular medium for problem solving since its early introduction to the workplace in the 1990s. So popular, in fact, that whole modes of collaboration have sprung up around it.
+The whiteboard has been a popular medium for problem solving since its early introduction to the workplace in the 1990s. So popular, in fact, that whole modes of collaboration — collectively referred to as “whiteboarding” — have sprung up around it.
 
-Whiteboarding has always been around in some form or another. Chalkboards are the most obvious predecessor to the whiteboard, but so are plans written on the back of cocktail napkins and envelopes, or little diagrams and doodles that eventually develop into incredible products. The digital whiteboard is only the latest, greatest way to bring your vision to life.
+Whiteboarding has always been around in some form or another. Chalkboards are the most obvious predecessor to the whiteboard, but so are handwritten plans on cocktail napkins and envelopes, or little diagrams and doodles that eventually develop into incredible products. The digital whiteboard is only the latest, greatest way to bring your vision to life.
 
 Whiteboarding helps us solve problems, visualize ideas, and define workflows. This process allows teams to structure their thoughts in a public setting where they can generate actionable feedback. The whiteboard is much more than just a place to scribble out notes — it’s a critical element in the session, a place for mapping and brainstorming.
 
@@ -43,7 +43,7 @@ The whiteboard is as much a source of inspiration as it is a place for tracking 
 
 Whiteboarding can create a valuable [competitive advantage for sales teams](https://corporatevisions.com/why-you-should-be-whiteboarding/). The ability to illustrate pain points and follow them to resolution gives prospective clients something visual to grasp onto during a presentation. Rather than simply saying, “Our product does X,” you can guide your prospect through the process, highlighting value and empowering them to participate in your presentation.
 
-For your account managers and customer-facing teams, whiteboards can lead to more productive meetings, organize recaps, drive collaboration, and much more. Having a place to organize everyone’s thoughts can keep meetings on track and ensure that key touchpoints are addressed.
+For your account managers and customer-facing teams, whiteboards can lead to more productive meetings, organize recaps, drive collaboration, and much more. Organizing everyone’s thoughts in one place can keep meetings on track and ensure that you’re addressing key touchpoints.
 
 ### Visualizing complex problems
 
@@ -73,13 +73,13 @@ Here are a few instances where whiteboarding can become a hazard, along with eas
 
 [A study](https://meeting-report.com/personal-impact-of-meetings/0) found that 43% of participants felt meetings became ineffective when there were unclear actions, which lead to confusion. Productive meetings [focus on a specific purpose](https://hbr.org/2017/07/stop-the-meeting-madness) with an agenda that defines and drills into key specifics relating to the meeting’s purpose.
 
-Without a clear and defined focus, your team may end up trying to solve several different problems at the same time. That’s why whiteboarding sessions need a prepared facilitator to guide everyone toward an established goal. Before you start brainstorming and problem solving, your facilitator should define what problem is being resolved during the session and set an itinerary for the meetup.
+Without a clear and defined focus, your team may end up trying to solve several different problems at the same time. That’s why whiteboarding sessions need a prepared facilitator to guide everyone toward an established goal. Before you start brainstorming and problem solving, your facilitator should define what problem you’re resolving during the session and set an itinerary for the meetup.
 
 Use the interactive whiteboard to keep the team on task by writing the meeting’s purpose at the top of the canvas as a reminder. You can also create separate spaces on the board for capturing ideas and solutions. When everyone can maintain a clear focus, they’ll contribute more constructively.
 
-One way that we love to assign organized spaces on the board? Divide the whiteboard into a problem space, where the problem is defined and analyzed, and a solution space, where it’s solved.
+One way that we love to assign organized spaces on the board? Divide the whiteboard into a problem space (where the your team can define and analyze the problem) and a solution space (where you solve the problem).
 
-Another valuable way to keep everyone on track is to set up a “[parking lot](https://officeninjas.com/6-tips-for-rocking-a-whiteboard-in-your-next-meeting/)” on your whiteboard. This space is where valuable ideas that are outside the scope of the current session can wait for later discussion. That way, people feel like they are being heard — and their ideas don’t get lost in the mix — while everyone stays focused and on task.
+Another valuable way to keep everyone on track is to set up a “[parking lot](https://officeninjas.com/6-tips-for-rocking-a-whiteboard-in-your-next-meeting/)” on your whiteboard. This space is where valuable ideas that are outside the scope of the current session can wait for later discussion. That way, people feel like they are heard — and their ideas don’t get lost in the mix — while everyone stays focused and on task.
 
 {{< common/srcset "image-3.png" "Boards for different fields saved in Vibe" >}}
 
@@ -93,15 +93,15 @@ You can take an idea from one board and create a new board around the idea to dr
 
 When people can’t read what you write on the whiteboard, the power of the exercise is lost. This can present a problem — what if the best facilitator you have can’t write on the whiteboard? You can always assign someone to write for them. Or you could use a digital whiteboard that translates handwritten notes into text so everyone can read along.
 
-Often, bad handwriting is the result of poor spacing. Whiteboards can quickly get filled up with ideas and diagrams, which limits the amount of space available for new ideas. With Vibe, you don’t have to worry about this. Pinch and zoom to create more [endless space on the canvas](https://vibe.us/product/), or start an entirely new board and share with your team without losing any work.
+Often, bad handwriting is the result of poor spacing. Whiteboards can quickly fill up with ideas and diagrams, which limits the amount of space available for new ideas. With Vibe, you don’t have to worry about this. Pinch and zoom to create more [endless space on the canvas](https://vibe.us/product/), or start an entirely new board and share with your team without losing any work.
 
-When you’re working on a Vibe board, your ideation isn’t confined by physical limitations. Think outside the frame!
+When you’re working on a Vibe board, ideation isn’t confined by physical limitations. Think outside the frame!
 
 {{< common/srcset "image-4.png" "Brainstorming session in front of a Vibe interactive whiteboard" >}}
 
 ## Key tips for better whiteboarding
 
-There’s a lot to whiteboarding — much more than we can cover in one blog post. To get you started, here are some rules for the road:
+There’s a lot to whiteboarding — much more than we can cover in one blog post. Before you start, here are some rules for the road:
 
 ### Don’t fear the eraser
 
@@ -111,7 +111,7 @@ A digital whiteboarding session is no different. At the end of the meeting, eras
 
 ### Save continually
 
-Whiteboarding in a shared space comes with some degree of risk. When you leave for a lunch break, things may get erased by your colleagues. When using traditional whiteboards, use your phone camera to document progress before stepping away. If you have a digital smart board like Vibe, that’s not necessary. Everything you do is being saved in the cloud, all the time. You’ll never lose a session to the dreaded eraser again.
+Whiteboarding in a shared space comes with some degree of risk. When you leave for a lunch break, things may get erased by your colleagues. When using traditional whiteboards, use your phone camera to document progress before stepping away. If you have a digital smart board like Vibe, that’s not necessary. Everything you do is saved in the cloud, all the time. You’ll never lose a session to the dreaded eraser again.
 
 A digital whiteboard can also track iterations and progression on specific topics or problems. You can save each board to a categorized index for further evaluation, analysis, or prototyping — creating a layered repository of innovation and problem-solving.
 

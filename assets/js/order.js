@@ -370,11 +370,11 @@ function processCheckout() {
   const clientConfig =
     shopifyHost === 'order.vibe.us'
       ? {
-          domain: 'vibeus.myshopify.com',
+          domain: 'order.vibe.us',
           storefrontAccessToken: '2e480faa3881c252c2f1e41f2c63225c',
         }
       : {
-          domain: 'toyond.myshopify.com',
+          domain: 'vibe.toyond.de',
           storefrontAccessToken: '59ed50ec21cff74d3a509f4ad142bffb',
         };
 

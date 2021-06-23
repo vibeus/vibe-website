@@ -7,7 +7,7 @@ tags:
 - Home Office
 - Remote Collaboration
 - Tech Tools
-draft: true
+draft: false
 isfeatured: false
 description: Want to save money on new tech for your home office? Learn the best time to buy laptops, monitors, and other
   office essentials.
