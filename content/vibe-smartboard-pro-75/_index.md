@@ -1,7 +1,7 @@
 ---
 title: 75 Specs for Vibe, a digital touchscreen whiteboard
 description: Vibe digital whiteboard is a 75" 4k touchscreen display built for real-time remote collaboration. Vibe's large touch screen tablet has built-in whiteboarding.
-stylesPath: css/75.sass
+stylesPath: css/vibe-smartboard-pro-75.sass
 aliases:
   - /product/
 hero:
@@ -9,8 +9,8 @@ hero:
   subtitle: i18n-content-75-_index-hero-subtitle
   title: i18n-content-75-_index-hero-title
   body: i18n-content-75-_index-hero-body
-  bg: img/75/hero-bg.png
-  bg_mobile: img/75/hero-bg-mobile.png
+  bg: img/vibe-smartboard-pro-75/hero-bg.png
+  bg_mobile: img/vibe-smartboard-pro-75/hero-bg-mobile.png
   cta:
     title: i18n-content-75-_index-hero-cta-title
     class: is-primary is-rounded
@@ -22,8 +22,8 @@ canvas_section:
   canvases:
     - title: i18n-content-75-_index-canvas_section-canvas-i_0-title
       body: i18n-content-75-_index-canvas_section-canvas-i_0-body
-      figure: img/75/canvas-1.png
-      figure_mobile: img/75/canvas-mobile-1.png
+      figure: img/vibe-smartboard-pro-75/canvas-1.png
+      figure_mobile: img/vibe-smartboard-pro-75/canvas-mobile-1.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-body
@@ -31,10 +31,10 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /software
+        url: /software/
     - title: i18n-content-75-_index-canvas_section-canvas-i_1-title
       body: i18n-content-75-_index-canvas_section-canvas-i_1-body
-      figure: img/75/canvas-2.png
+      figure: img/vibe-smartboard-pro-75/canvas-2.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-body
@@ -42,10 +42,10 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /software
+        url: /software/
     - title: i18n-content-75-_index-canvas_section-canvas-i_2-title
       body: i18n-content-75-_index-canvas_section-canvas-i_2-body
-      figure: img/75/canvas-3.png
+      figure: img/vibe-smartboard-pro-75/canvas-3.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-body
@@ -53,12 +53,12 @@ canvas_section:
           body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_1-body
       cta:
         title: i18n-content-75-_index-canvas-cta-title
-        url: /software
+        url: /software/
 
 feature_set_1:
   title: i18n-content-75-_index-feature_set_1-title
   animation:
-    - figure: img/75/uhd.gif
+    - figure: img/vibe-smartboard-pro-75/uhd.gif
       class: is-feature-1
       animated: true
   features:
@@ -73,7 +73,7 @@ feature_set_2:
   title: i18n-content-75-_index-feature_set_2-title
   body: i18n-content-75-_index-feature_set_2-body
   animation:
-    - figure: img/75/chromium.gif
+    - figure: img/vibe-smartboard-pro-75/chromium.gif
       class: is-feature-1
       animated: true
   features:
@@ -85,13 +85,15 @@ feature_set_2:
       body: i18n-content-75-_index-feature_set_2-features-i_2-body
     - title: i18n-content-75-_index-feature_set_2-features-i_3-title
       body: i18n-content-75-_index-feature_set_2-features-i_3-body
-
+  cta:
+    title: i18n-content-75-_index-feature_set_2-cta-title
+    url: /software/
 apps:
   title: i18n-content-75-_index-apps-title
   body: i18n-content-75-_index-apps-body
   cta:
     title: i18n-content-75-_index-apps-cta-title
-    url: /android-app-store
+    url: /android-app-store/
   groups:
     - logos:
       - logo: img/apps/logo-group/1.jpg
@@ -167,15 +169,15 @@ security:
   items:
     - title: i18n-content-75-_index-security-items-i_0-title
       body: i18n-content-75-_index-security-items-i_0-body
-      figure: img/75/security-1.png
+      figure: img/vibe-smartboard-pro-75/security-1.png
       alt_text: Storage on Vibe Cloud
     - title: i18n-content-75-_index-security-items-i_1-title
       body: i18n-content-75-_index-security-items-i_1-body
-      figure: img/75/security-2.png
+      figure: img/vibe-smartboard-pro-75/security-2.png
       alt_text: Integrate popular applications
     - title: i18n-content-75-_index-security-items-i_2-title
       body: i18n-content-75-_index-security-items-i_2-body
-      figure: img/75/security-3.png
+      figure: img/vibe-smartboard-pro-75/security-3.png
       alt_text: Videoconference with Zoom, Skype, WebEx
   cta:
     title: i18n-content-75-_index-security-cta-title
@@ -312,10 +314,10 @@ feature_columns:
   features:
     - title: i18n-content-75-_index-feature_columns-items-i_0-title
       body: i18n-content-75-_index-feature_columns-items-i_0-body
-      figure: img/75/feature-columns-1.png
+      figure: img/vibe-smartboard-pro-75/feature-columns-1.png
     - title: i18n-content-75-_index-feature_columns-items-i_1-title
       body: i18n-content-75-_index-feature_columns-items-i_1-body
-      figure: img/75/feature-columns-2.png
+      figure: img/vibe-smartboard-pro-75/feature-columns-2.png
   cta:
     title: i18n-content-75-_index-feature_columns-cta-title
     url: /order/global-sales/
@@ -342,7 +344,7 @@ bottom_cta:
     buttons:
       - title: i18n-content-75-_index-bottom_cta-cta-title1
         dark_to_light: true
-        url: /order/pre-order
+        url: /order/pre-order/
       - title: i18n-content-75-_index-bottom_cta-cta-title2
-        url: /contact
+        url: /contact/
 ---

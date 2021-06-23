@@ -1,5 +1,7 @@
 .section.is-apps
   +vertical-padding(120px)
+  +mobile
+    padding: 60px .5rem
   +lang-override(".lang-zh")
     padding-top: 83px
   &.is-lower
@@ -13,6 +15,9 @@
     max-width: 773px
     margin: 0 auto
     text-align: center
+    +mobile
+      font-size: 16px
+      line-height: 23px
   .see-all
     margin-top: 16px
     margin-bottom: 90px

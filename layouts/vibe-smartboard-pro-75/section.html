@@ -5,53 +5,7 @@
 {{ define "main" }}<main class="75">
 
 {{ with .Params.hero }}
-<section class="hero is-fullheight-with-navbar {{ with .class }} {{ . }} {{ end }}">
-  <figure class="image is-hero-bg is-hidden-mobile">
-    {{ with .bg }}
-      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png #F4F4F4") }}
-    {{ end }}
-  </figure>
-  <figure class="image is-hero-bg is-hidden-tablet">
-    {{ with .bg_mobile }}
-      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
-    {{ end }}
-  </figure>
-  <div class="hero-body">
-    <div class="container">
-      <div class="title-text">
-        <h4 class="subtitle">
-          {{ T .subtitle | markdownify }}
-        </h4>
-        <h1 class="title">
-          {{ T .title | markdownify }}
-        </h1>
-        <p>
-        {{ T .body | markdownify }}
-        </p>
-      </div>
-      <div class="cta-group">
-        {{ with .cta }}
-          <div class="cta">
-            <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
-              href="{{ .url | relLangURL }}">
-              {{ default .title (T .title) }}
-            </a>
-          </div>
-        {{ end }}
-        {{ if .subcta }}
-          {{ with .subcta }}
-            <div class="cta">
-              <a class="button is-hero-cta is-rounded is-black is-outlined"
-                href="{{ .url | relLangURL }}">
-                {{ default .title (T .title) }}
-              </a>
-            </div>
-          {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "hero" . }}
 {{ end }}
 
 {{ with .Params.canvas_section }}
@@ -114,7 +68,7 @@
     {{ range .features }}
       <div class="column is-text">
         <h2 class="title">{{ T .title | markdownify }}</h2>
-        <div class="content last-hidden">
+        <div class="content">
           {{ T .body | markdownify }}
         </div>
       </div>
@@ -197,7 +151,7 @@
 
 {{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
 {{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
-{{ partial "common/template-script" (dict "asset" "js/75&55.js") }}
+{{ partial "common/template-script" (dict "asset" "js/smartboard-75.js") }}
 {{ partial "common/template-script" (dict "asset" "js/apps-glide.js") }}
 {{ partial "common/template-script" (dict "asset" "js/canvas-glide.js") }}
 </main>{{ end }}

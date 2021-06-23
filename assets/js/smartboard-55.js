@@ -40,37 +40,9 @@ const callback1 = function(mutationsList) {
   });
 };
 
-// 初始化显示第一个faq items
-faqItems0.style.display = 'block'
 // 创建一个链接到回调函数的观察者实例
 const faqObserver = new MutationObserver(callback1);
 // 开始观察已配置突变的目标节点
 faqObserver.observe(faqSection0, config)
 faqObserver.observe(faqSection1, config)
 faqObserver.observe(faqSection2, config)
-
-/**
- * section spec
- */
-const specSeeAll = document.getElementById("feature-see-all")
-const specSpecs = document.getElementById("specs")
-const specSpecMask = document.getElementById("spec-mask")
-
-const callback2 = function(mutationsList) {
-  mutationsList.forEach(function(item,index){
-    if (item.target.classList[0] === "is-active") {
-      specSeeAll.innerText = "Hide all specs ↑"
-      specSpecMask.style.display = 'none'
-    } else {
-      specSeeAll.innerText = "See all specs ↓"
-      specSpecMask.style.display = 'unset'
-    }
-  });
-};
-
-
-// 创建一个链接到回调函数的观察者实例
-const seeAllobserver = new MutationObserver(callback2);
-
-// 开始观察已配置突变的目标节点
-seeAllobserver.observe(specSpecs, config)

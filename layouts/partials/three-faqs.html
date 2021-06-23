@@ -14,7 +14,7 @@
       </div>
     </div>
     {{ range $idx, $it := .items }}
-      <ul class="faq-items" id="faq-items-{{ $idx }}">
+      <ul class="faq-items faq-items-{{ $idx }}" id="faq-items-{{ $idx }}">
         {{ range $idx2, $it2 := .item }}
         <li class="faq-item {{ if eq $idx2 0 }} is-active{{ end }}" id="faq-{{ $idx }}-{{ $idx2 }}">
           <h2 class="faq-title" data-target="faq-{{ $idx }}-{{ $idx2 }}">

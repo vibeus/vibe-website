@@ -9,115 +9,15 @@
 @import "_accessories.sass"
 @import "_apps.sass"
 @import "_canvas.sass"
+@import "_hero.sass"
 @import "_security.sass"
 @import "_feature-columns.sass"
-.hero
-  position: relative
-  font-size: 18px
+.hero.is-75
   +mobile
-    font-size: 16px
-  .image.is-hero-bg
-    +absolute-fill
-    img
-      width: 100%
-      height: 100%
-      object-fit: cover
-      +mobile
-        object-position: 48% 50%
+    min-height: 920px
+.hero.is-75 .image.is-hero-bg img
   +mobile
-    .hero-body
-      padding-bottom: 0
-  .container
-    +fullhd
-      max-width: 1100px
-    margin-left: 6.5rem
-  .title-text
-    max-width: 520px
-    margin-bottom: 88px
-    +mobile
-      margin-bottom: 32px
-    .subtitle
-      font-size: 28px
-      +lang-override(".lang-zh")
-        font-size: 16px
-      line-height: 36px
-      +mobile
-        font-size: 12px
-        line-height: 14px
-    .title
-      font-size: 56px
-      +lang-override(".lang-zh")
-        font-size: 48px
-      line-height: 73px
-      +mobile
-        font-size: 48px
-        line-height: 60px
-    p
-      max-width: 516px
-      +lang-override(".lang-zh")
-        font-size: 18px
-    .title p
-      +lang-override(".lang-zh")
-        font-size: 50px
-  .cta
-    +mobile
-      display: flex
-      flex-direction: column
-      margin-bottom: 24px
-    +tablet
-      margin-left: -8px
-    .button.is-hero-cta
-      +tablet
-        font-size: 20px
-        height: 58px
-      font-weight: $vibe-bold
-      &:not(:last-child)
-        +mobile
-          margin-bottom: 8px
-        +tablet
-          margin-right: 16px
-    +tablet
-      a
-        width: 190px
-      button
-        width: 220px
-  .button.is-hero-cta:hover,
-  .button.is-hero-cta:active,
-  .button.is-hero-cta:focus
-    svg
-      fill: $vibe-white
-  .image.is-hero
-    +mobile-full-width
-  .modal-content
-    overflow: hidden
-    +tablet
-      width: calc(100vw - 140px)
-    +desktop
-      width: calc(100vw - 200px)
-    +widescreen
-      width: calc(100vw - 320px)
-  .modal-background
-    background: rgba(136, 136, 136, 0.69)
-    backdrop-filter: blur(10px)
-  .glide-control
-    position: absolute
-    top: 50%
-    margin-top: -21px
-    cursor: pointer
-    &.is-left
-      left: 32px
-      +tablet
-        left: 16px
-      +widescreen
-        left: 64px
-      transform: rotate(180deg)
-    &.is-right
-      right: 32px
-      +tablet
-        right: 16px
-      +widescreen
-        right: 64px
-        
+    height: 920px
 .section.is-overview
   +vertical-padding(120px)
   +lang-override(".lang-zh")
@@ -135,12 +35,16 @@
   .columns
     flex-direction: row
     justify-content: center
+    +mobile
+      display: flex
+      .column
+        padding: 0
   .column.is-text
     max-width: 200px + 12px * 2
     text-align: center
+    font-size: 18px
     +lang-override(".lang-zh")
       max-width: 569px
-    font-size: 18px
     .title
       margin-bottom: 0
     +lang-override(".lang-zh")
@@ -150,16 +54,14 @@
         margin-bottom: 48px
     +mobile
       .title
-        font-size: 18px
-        line-height: 1.5
+        max-width: 120px
+        font-weight: 600
+        font-size: 26px
+        line-height: 33px
         margin-bottom: 1rem
-  .columns.is-feature-3
-    flex-direction: row-reverse
-    .column.is-image
-      max-width: 680px
-  .columns.is-feature-4
-    .column.is-image
-      max-width: 708px
+      .content 
+        font-size: 14px
+        line-height: 18px
 
 .section.is-chromium-os
   background: #FFC500
@@ -173,11 +75,20 @@
     text-align: center
     margin-left: auto
     margin-right: auto
+    font-weight: 600
+    +mobile
+      font-size: 31px
+      line-height: 38px
   .content
     max-width: 773px
     margin: 0 auto
     text-align: center
+    +mobile
+      font-size: 15px
+      line-height: 140%
   .more
+    margin-top: 16px
+    margin-bottom: 10px
     text-align: center
     a
       color: #6666CC
@@ -187,26 +98,29 @@
   .columns
     flex-direction: row
     justify-content: center
+    .column.is-text:last-child .content
+      visibility: hidden
+    +mobile
+      display: flex
+      flex-wrap: wrap
+      .column
+        margin-top: 40px
+        padding: 0
   .column.is-text
     max-width: 200px + 12px * 2
     text-align: center
-    +lang-override(".lang-zh")
-      max-width: 569px
     font-size: 18px
     .title
       margin-bottom: 0
-    +lang-override(".lang-zh")
-      .title
-        font-size: 50px
-        line-height: 68px
-        margin-bottom: 48px
     +mobile
+      width: 150px
       .title
         font-size: 18px
         line-height: 1.5
-        margin-bottom: 1rem
-
-
+        font-size: 26px
+        line-height: 33px
+      .content
+        width: 130px
 
 .section.is-spec
   +vertical-padding(120px, 16px, 16px, 16px)
@@ -269,7 +183,7 @@
     max-height: 422px  
     overflow: hidden
     &.is-active
-      max-height: 1590px
+      max-height: 1600px
     .columns
       max-width: 1170px
       margin-left: auto

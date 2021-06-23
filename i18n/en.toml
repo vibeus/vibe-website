@@ -1354,9 +1354,8 @@ other = "Learn more →"
 other = "Open ecosystem with all your favorite apps"
 
 [i18n-content-55-_index-apps-body]
-other = """Vibe helps companies effectively collaborate across expanding business and IT ecosystems, 
-including Google and Microsoft-based (among others). There's no need to make additional purchases. 
-With Vibe, you can stick to the apps that your team already knows and loves."""
+other = """Vibe helps companies effectively collaborate across expanding Google and Microsoft-based ecosystems (among others). 
+Stick to the apps that your team already knows and loves."""
 
 [i18n-content-55-_index-apps-cta-title]
 other = "See all app integrations →"
@@ -1688,12 +1687,11 @@ other = "Wi-Fi 6"
 other = "0"
 
 [i18n-content-75-_index-apps-title]
-other = "Robust platform-agnostic workspace with the best productivity tools"
+other = "Robust and open ecosystem with the best productivity tools"
 
 [i18n-content-75-_index-apps-body]
-other = """Vibe helps companies effectively collaborate across expanding business and IT ecosystems, including 
-Google and Microsoft-based (among others). There's no need to make additional purchases. With Vibe, you can 
-stick to the apps that your team already knows and loves."""
+other = """Vibe helps companies effectively collaborate across expanding Google and Microsoft-based 
+ecosystems (among others). Stick to the apps that your team already knows and loves."""
 
 [i18n-content-75-_index-apps-cta-title]
 other = "See all app integrations →"
@@ -2206,8 +2204,11 @@ other = "75″ 4K UHD interactive whiteboard with ultra-smooth touch experience"
 other = "The first big touchscreen powered by Chromium OS"
 
 [i18n-content-75-_index-feature_set_2-body]
-other = """VibeOS builds on the powerful foundation of Chromium OS while offering exclusive experiences tailored 
-to the unique capabilities of the Vibe board. Revel in powerful performance of the most demanding softwares."""
+other = """VibeOS builds on the powerful foundation of Chromium OS. Revel in powerful 
+performance of the most demanding softwares."""
+
+[i18n-content-75-_index-feature_set_2-cta-title]
+other = "Leran more"
 
 [i18n-content-75-_index-bottom_cta-title]
 other = "Collaborate better together with Vibe"
