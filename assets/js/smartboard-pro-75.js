@@ -23,6 +23,7 @@ const callback2 = function(mutationsList) {
       console.log('specSeeAll.innerText: ', specSeeAll.innerText);
       specSpecMask.style.display = 'none'
     } else {
+      specSpecs.scrollIntoView()
       specSeeAll.innerText = "See all specs ↓"
       specSpecMask.style.display = 'unset'
     }
@@ -35,4 +36,3 @@ const seeAllobserver = new MutationObserver(callback2);
 
 // 开始观察已配置突变的目标节点
 seeAllobserver.observe(specSpecs, config)
-
