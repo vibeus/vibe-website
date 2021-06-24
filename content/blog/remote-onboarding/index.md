@@ -70,8 +70,6 @@ Here’s how you can create a remote onboarding plan that works best for employe
 
 **Provide resources and empower managers:** Your managers are the people who will see the onboarding process through once you have a plan in place. That’s why it’s important that they have resources to make your new hires feel comfortable and give them the best chance at success.Empower your managers to personalize the onboarding process to your new hire’s individuality.
 
-#### Ask for feedback
-
 **Ask for feedback:** Since it’s a new process, asking your new hires for feedback about your remote onboarding plan is the best way to improve it. Allow them to fill out surveys anonymously and focus on impactful questions rather than likes and dislikes and simple yes or no questions.
 
 ***Related*: [10 Remote Collaboration Tools for Your Business Needs](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/)**
