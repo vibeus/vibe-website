@@ -7,7 +7,7 @@ tags:
 - Leadership and Management
 - Remote Team Management
 - WFH
-draft: true
+draft: false
 isfeatured: false
 description: It takes different tactics to successfully lead a remote team. Learn more about different management styles and
   techniques to improve your leadership.
