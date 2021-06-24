@@ -24,37 +24,37 @@
       margin-bottom: 42px
     p
       display: inline
-  .column
-    display: flex
-    flex-direction: column
-    align-items: center
-    text-align: center
-    +mobile
-      align-items: unset
-      text-align: left
-    .image
-      max-width: 60px
-      margin-bottom: 17px
-    .item-title
-      max-width: 342px
-      font-size: 24px
-      line-height: 38px
-      font-family: $vibe-family-heading
-      font-weight: $vibe-bold
-      margin-bottom: 16px
+  .columns
+    .column
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: center
       +mobile
-        margin-bottom: 12px
+        align-items: unset
+        text-align: left
+      .image
+        max-width: 60px
+        margin-bottom: 17px
+      .item-title
+        max-width: 342px
         font-size: 24px
-    .content
-      min-width: 342px
-      max-width: 392px
-      font-size: 18px
-      color: #9E9E9E
-      +mobile
-        min-width: unset
-        width: 293px
+        line-height: 38px
+        font-family: $vibe-family-heading
+        font-weight: $vibe-bold
         margin-bottom: 16px
-        font-size: 16px
+        +mobile
+          margin-bottom: 12px
+          font-size: 24px
+      .content
+        max-width: 392px
+        font-size: 18px
+        color: #9E9E9E
+        +mobile
+          min-width: unset
+          width: 293px
+          margin-bottom: 16px
+          font-size: 16px
   .column:last-child
     .image
       +lang-override(".lang-zh")

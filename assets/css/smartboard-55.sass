@@ -20,10 +20,11 @@
     min-height: 1446px
   +tablet
     .hero-body
+      z-index: 29
       max-width: 1440px
     .hero-gallery-bg
       position: absolute
-      z-index: 29
+      z-index: 28
       top: 0
       right: 0
       width: 780px
@@ -39,6 +40,11 @@
       .hero-gallery-img-hover
         display: unset
   .hero-gallery-bg
+    @media screen and (max-width: 1200px)
+      width: 680px
+      margin-right: -3.5rem
+      img
+        margin-top: 3.5rem
     @media screen and (min-width: 1580px)
       width: 820px
       margin-right: 10%

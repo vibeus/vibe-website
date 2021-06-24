@@ -5,8 +5,11 @@
   background: $vibe-yellow
   .testimonial-left-image
     img
+      min-width: 266px
       width: 266px
       height: 403px
+      @media screen and (max-width: 980px)
+        display: none
   .testimonial-content
     max-width: 814px
     max-height: 403px
@@ -57,6 +60,7 @@
         justify-content: space-between
         align-items: center
         width: 100%
+        margin-bottom: 3rem
         +mobile
           margin-bottom: 32px
           .name
