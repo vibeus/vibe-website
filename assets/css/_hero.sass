@@ -18,28 +18,36 @@
         object-position: 48% 50%
   .container
     +tablet
+      margin-left: 0
+
+    +desktop
       margin-left: 2rem
+
     +fullhd
       max-width: 1100px
       margin-left: 6.5rem
-    @media screen and (max-width: 1200px)
-      margin-left: 0
+
   .title-text
     max-width: 584px
     margin-top: 45px
     margin-bottom: 70px
     +mobile
       margin: 0 .5rem 40px
+    +until-fullhd
+      max-width: 500px
     .subtitle
       margin-bottom: 18px
       font-size: 28px
+      line-height: 36px
       +lang-override(".lang-zh")
         font-size: 16px
-      line-height: 36px
       +mobile
         margin: 0 .5rem 1rem
         font-size: 20px
         line-height: 25px
+      +until-fullhd
+        font-size: 24px
+        line-height: 30px
     .title
       font-size: 56px
       margin-top: 0
@@ -52,10 +60,15 @@
         margin-bottom: 32px
         font-size: 36px
         line-height: 116%
+      +until-fullhd
+        font-size: 48px
+        line-height: 118%
     p
       max-width: 516px
       +lang-override(".lang-zh")
         font-size: 18px
+      +until-fullhd
+        max-width: 400px
     .title p
       +lang-override(".lang-zh")
         font-size: 50px

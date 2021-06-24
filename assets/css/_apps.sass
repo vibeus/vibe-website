@@ -27,23 +27,40 @@
     a
       color: #6666CC
   .group
-    width: 1440px
+    @media screen and ( min-width: 767px )
+      width: 768px
+    +desktop
+      width: 1024px
+    +fullhd
+      width: 1440px
     .logos-group
       display: flex
-      width: 1440px
-      height: 90px
+      @media screen and ( min-width: 767px )
+        width: 768px
+      +desktop
+        width: 1024px
+      +fullhd
+        width: 1440px
+        height: 90px
       .image
-        width: 84px
-        margin: 0 18px 30px
         cursor: pointer
         img
           width: auto
-        @media screen and (max-width: 770px)
+        +mobile
           width: 35px
           margin: 0 5px 20px
+        @media screen and ( min-width: 767px )
+          width: 48px
+          margin: 0 8px 20px
+        +desktop
+          width: 65px
+          margin: 0 10px 25px
+        +fullhd
+          width: 84px
+          margin: 0 18px 30px
     .logos-group.logos-group-1
       margin-left: 60px
-      @media screen and (max-width: 770px)
+      @media screen and ( max-width: 700px )
         margin-left: 25px
   .group-mobile
     display: flex
@@ -75,11 +92,20 @@
     background: linear-gradient(270deg, #FFFFFF -20%, rgba(255, 255, 255, 0) 100%)
   .group .apps-mask-left
     width: 210px
+    +touch
+      width: 150px
   .group .apps-mask-right
     width: 190px
-    margin-left: 1100px
-    @media screen and (max-width: 770px)
+    +touch
+      width: 140px
+    +mobile
       margin-left: 320px
+    @media screen and ( min-width: 767px )
+      margin-left: 600px
+    +desktop
+      margin-left: 740px
+    +fullhd
+      margin-left: 1100px
   .group-mobile .apps-mask-left
     width: 70px
     margin-left: -267px
