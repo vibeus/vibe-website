@@ -20,8 +20,9 @@
     min-height: 1446px
   +tablet
     .hero-body
-      z-index: 29
       max-width: 1440px
+      +until-fullhd
+        z-index: 29
     .hero-gallery-bg
       position: absolute
       z-index: 28
@@ -106,7 +107,8 @@
       margin-bottom: 40px
   .container
     max-width: 1080px
-  
+  .testimonials .icon.glide-nav
+    display: none
 
 .section.is-overview
   +vertical-padding(120px)
@@ -172,18 +174,27 @@
 
 .section.is-spec
   +vertical-padding(120px)
+  padding-left: 0
+  padding-right: 0
   background-color: $vibe-teal
+  max-width: 1440px
+  .container
+    max-width: 1440px
+  .image
+    max-width: 80%  
+    margin: 0 auto
   .level.is-overview
-    margin: 0 -1.5rem 32px -1.5rem
-    padding: 1.5rem 1.5rem
+    width: 100%  
+    margin: 0 auto 2rem
+    padding: 1.5rem 15%
     border-top: 1px solid $vibe-black
     border-bottom: 1px solid $vibe-black
     +mobile
       align-items: flex-start
-      padding: 1.5rem 0
+      padding: 1.5rem 1rem
     .level-item
       text-align: center
-      width: 220px
+      width: 20%
       +touch
         width: 150px
       +mobile
@@ -192,7 +203,6 @@
         font-size: 12px
       .title
         font-size: 48px
-        margin-bottom: 16px
         +mobile
           font-size: 24px
   .title.is-view-specs

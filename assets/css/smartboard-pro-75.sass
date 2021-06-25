@@ -115,6 +115,7 @@
     text-align: center
     font-weight: $vibe-bold
     +mobile
+      margin: 0 -1rem 1.5rem
       font-size: 32px
       line-height: 40px
   .content
@@ -124,10 +125,11 @@
     line-height: 26px
     text-align: center
     +mobile
+      margin-bottom: 1rem
       font-size: 16px
       line-height: 23px
   .is-chromium-os-image
-    margin: 0 auto 32px
+    margin: 0 auto
     max-width: 872px
   .columns
     flex-direction: row
@@ -143,18 +145,26 @@
   .column.is-text
     max-width: 200px + 12px * 2
     text-align: center
-    font-size: 18px
-    .title
-      margin-bottom: 0
+    font-family: Stratos;
     +mobile
       width: 150px
-      .title
-        font-size: 18px
-        line-height: 1.5
+    .title
+      margin-bottom: 0
+      font-weight: $vibe-bold
+      font-size: 48px
+      line-height: 60px
+      +mobile
         font-size: 26px
         line-height: 33px
-      .content
+    .content
+      font-size: 18px
+      line-height: 23px
+      +mobile
         width: 130px
+        margin-bottom: 0
+        font-size: 14px
+        line-height: 18px
+
 
 .section.is-spec
   +vertical-padding(120px)

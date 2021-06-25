@@ -25,7 +25,7 @@
       {{ end }}
     </div>
     {{ with .cta }}
-    <div class="cta">
+    <div class="cta is-hidden-mobile">
       <a class="button is-rounded is-black is-security-botton" href="{{ .url | relLangURL}}">{{ default .title (T .title) }}</a>
     </div>
     {{ end }}
