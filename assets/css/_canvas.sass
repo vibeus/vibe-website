@@ -43,28 +43,25 @@
     .main
       max-width: 1102px
       margin: -73px auto 0
-      padding: 48px 27px 32px
+      padding: 48px 27px 0
       background: rgba(255, 255, 255, 0.8)
       border: 2px solid #F1F1F1
       box-sizing: border-box
       box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
       backdrop-filter: blur(25px)
       .columns
-        +tablet
-          margin-bottom: 2rem
         .column
           display: flex
           flex-direction: column
+          margin-bottom: 2rem
           +fullhd
             margin-right: 53px
             margin-left: 53px
           .title
-            height: 76px
             margin-bottom: 0
             font-size: 24px
             line-height: 30px
           .content
-            margin-bottom: 1rem
             font-size: 18px
             line-height: 144%
             color: #000
@@ -72,6 +69,9 @@
           .column-row
             display: flex
             flex-direction: row
+            margin-bottom: 1rem
+            &:last-child
+              margin-bottom: 0
             img
               width: 18px
               height: 18px
@@ -84,7 +84,7 @@
         a
           color: #6666CC
       .is-canvas-2 .cta
-        margin-top: 30px
+        margin-top: 3rem
         text-align: left
     .main-mobile .column
       width: 94vw
