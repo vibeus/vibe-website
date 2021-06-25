@@ -6,7 +6,6 @@
 @import "_glide.sass"
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
-@import "_accessories.sass"
 @import "_apps.sass"
 @import "_canvas.sass"
 @import "_hero.sass"
@@ -22,6 +21,10 @@
 
 .section.is-canvases
   background-color: #fff
+  .glide-nav
+    +mobile
+      display: unset
+      opacity: 1
 
 .section.is-overview
   +vertical-padding(120px)
@@ -36,13 +39,15 @@
     margin-left: auto
     margin-right: auto
   .is-overall-image
-    margin: 0 auto 32px
+    margin: 0 auto
     max-width: 872px
     +mobile
       margin: 0 -1rem 10px
   .columns
     flex-direction: row
-    justify-content: center
+    justify-content: space-between
+    max-width: 872px
+    margin: 0 auto
     +mobile
       display: flex
       .column
@@ -107,7 +112,7 @@
   &.is-lower
     padding-bottom: 0
   .title.is-section-title
-    max-width: 575px
+    max-width: 723px
     margin-left: auto
     margin-right: auto
     font-size: 48px
@@ -129,7 +134,7 @@
       font-size: 16px
       line-height: 23px
   .is-chromium-os-image
-    margin: 0 auto
+    margin: 0 auto 1rem
     max-width: 872px
   .columns
     flex-direction: row
@@ -165,6 +170,10 @@
         font-size: 14px
         line-height: 18px
 
+
+.section.is-security
+  .columns .column .content
+    max-width: 342px
 
 .section.is-spec
   +vertical-padding(120px)
@@ -315,9 +324,13 @@
 .section.is-bottom-cta
   .cta .button
     height: 55px
+    font-size: 18px
+    line-height: 23px
     +mobile
       min-width: 319px
       height: 42px
+      font-size: 16px
+      line-height: 20px
   .title.section-title
     +tablet
       margin-bottom: 36px

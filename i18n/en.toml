@@ -755,73 +755,63 @@ other = "Request a Demo"
 [i18n-content-hardware-_index-hero-gallery-cta]
 other = "Photo Gallery"
 
-[i18n-content-_index-testimonial_section-title]
-other = "Trusted by 900+ companies all over the world"
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-title]
-other = "Sports Training and Coaching"
-
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body]
-other = """\"Vibe has helped me better communicate with my audience, making me more effective 
-and valuable in my field.\""""
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-bold_name]
-other = "Ian Westermann,"
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name]
-other = " Founder, Essential Tennis"
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-title]
-other = "Architecture and Construction"
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body]
-other = """\"The Vibe board makes sure everyone's on the same page.\""""
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-bold_name]
-other = "Jonathan Wong,"
+other = """The Vibe team has been incredibly open to new ideas to improve the product and even implemented a few
+suggestions into the most recent software update. This type of co-collaboration makes working with Vibe
+a premier experience. Absolutely would recommend it to anyone in the market for a digital white-board!"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name]
-other = " P.Eng, PMP, Project Manager, Smith Bros. & Wilson, Ltd."
+other = """Karen L. Brady
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-title]
-other = "Professional Services"
+Estate Planning Attorney, Arvada, Colorado"""
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body]
-other = """\"I think that tools like Vibe are definitely the future of events…creating
- that true live interaction.\""""
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-bold_name]
-other = "Will Curran,"
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body]
+other = """The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
+I am a long-time user of electronic whiteboards, but the interactive and digital features of the Vibe board
+have exponentially increased both efficiency and the \"wow\" factor in client meetings."""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name]
-other = " Chief Event Einstein, Endless Events"
+other = """Rob Karlinsey
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-bold_name]
-other = "Dr. Henry Silverman,"
+City Manager at City of Kenmore, Washington"""
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body]
+other = """With Vibe, I can now just hit “send” after a meeting and share that board with whoever I want.
+Vibe will save each board automatically, so I can always pull a board back up during any meeting to show
+people what we’ve discussed. Even better, we like how you can invite remote coworkers in to collaborate
+on the board in real time from other devices. Vibe is a gamechanger."""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-name]
-other = " Professor of Medicine, University of Maryland"
+other = """Kate Womick
 
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_3-title]
-other = "Education"
+Product Manager at Azul Arc"""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_3-body]
-other = """\"I saw some real possibilities with Vibe, not only in enhancing engagement with
- the students, but also in achieving a visual.\""""
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-title]
-other = "Government"
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body]
-other = """\"We like how you can invite remote coworkers in to collaborate on the board in real time 
-from other devices. Vibe is a gamechanger.\""""
-
-[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-bold_name]
-other = "Rob Karlinsey,"
+other = """Vibe’s collaboration factor has been huge. When juggling multiple clients, it’s incredibly helpful to have
+everything saved in one place so you can easily pick up where you left off.
+As a UX designer, I like how easy Vibe is to pick up a stylus and sketch on. And for big projects we can
+even have several people working on a single canvas at once - even from remote locations."""
 
 [i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name]
-other = " City Manager, City of Kenmore, Washington"
+other = """Peter T. Maloof
 
+Vice President at Capgemini America"""
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body]
+other = """We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
+and communication amongst our team. It also feels very seamless using the Vibe board and app across various
+devices."""
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_5-author-name]
+other = """Henry Sal, Jr.
+
+President of Computing System Innovations"""
+
+[i18n-content-hardware-_index-testimonial_section-testimonials-i_5-body]
+other = """Best collaboration device we have at our office for memorializing any and all types of
+meetings – administrative tasks to software design sessions.
+Incredible device, saves us time and money and allows us to build our AI software products faster!
+Great job VIBE team, congratulations on a game changer!"""
 
 [i18n-content-hardware-_index-feature_set_1-features-i_0-title]
 other = "Vibe’s all-in-one modern design transforms your office into a flexible collaborative space"
@@ -1274,7 +1264,8 @@ other = "Vibe 55″ Digital Whiteboard"
 other = "Take Your Team Huddle to the Next Level"
 
 [i18n-content-55-_index-hero-body]
-other = "With the Vibe 55″ interactive digital whiteboard, teams can innovate, ideate, and collaborate like never before."
+other = """With the Vibe 55” interactive whiteboard, any conference room, classroom, or spontaneous
+ huddle is transformed into a dynamic collaborative space. """
 
 [i18n-content-55-_index-hero-cta-title]
 other = "See a demo"
@@ -1589,6 +1580,68 @@ A powerful interactive whiteboard with smart software for your next big meeting 
 [i18n-content-75-_index-hero-cta-title]
 other = "Pre-order now"
 
+[i18n-content-55-_index-testimonial_section-title]
+other = "Trusted by 900+ companies all over the world"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_0-title]
+other = "Sports Training and Coaching"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_0-body]
+other = """\"Vibe has helped me better communicate with my audience, making me more effective 
+and valuable in my field.\""""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_0-author-name]
+other = """Ian Westermann,
+
+ Founder, Essential Tennis"""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_1-title]
+other = "Architecture and Construction"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_1-body]
+other = """\"The Vibe board makes sure everyone's on the same page.\""""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_1-author-name]
+other = """Jonathan Wong, 
+
+P.Eng, PMP, Project Manager, Smith Bros. & Wilson, Ltd."""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_2-title]
+other = "Professional Services"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_2-body]
+other = """\"I think that tools like Vibe are definitely the future of events…creating
+ that true live interaction.\""""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_2-author-name]
+other = """Will Curran, 
+
+Chief Event Einstein, Endless Events"""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_3-title]
+other = "Education"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_3-body]
+other = """\"I saw some real possibilities with Vibe, not only in enhancing engagement with
+ the students, but also in achieving a visual.\""""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_3-author-name]
+other = """Dr. Henry Silverman,
+
+ Professor of Medicine, University of Maryland"""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_4-title]
+other = "Government"
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_4-body]
+other = """\"We like how you can invite remote coworkers in to collaborate on the board in real time 
+from other devices. Vibe is a gamechanger.\""""
+
+[i18n-content-55-_index-testimonial_section-testimonials-i_4-author-name]
+other = """Rob Karlinsey,
+
+ City Manager, City of Kenmore, Washington"""
+
 [i18n-content-75-_index-canvas_section-canvas-i_0-title]
 other = "Unleash your creativity on a shared Canvas"
 
@@ -1707,7 +1760,7 @@ other = "Wi-Fi 6"
 other = "0"
 
 [i18n-content-75-_index-apps-title]
-other = "Robust and open ecosystem with the best productivity tools"
+other = "Work with the best productivity tools"
 
 [i18n-content-75-_index-apps-body]
 other = """Vibe helps companies effectively collaborate across expanding Google and Microsoft-based 
@@ -2150,66 +2203,42 @@ other = "Still have questions?"
 
 
 [i18n-content-75-_index-faq-i_0-title]
-other = "Is Vibe compatible with any wall mount?"
+other = "Does Vibe come with a warranty or maintenance support?"
 
 [i18n-content-75-_index-faq-i_0-body]
-other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible
- wall mounts or stands which support at least 65 lbs."""
+other = """Yes.
+
+Vibe boards purchased through our website come with a one-year warranty. See the warranty card in your Vibe package for more information."""
 
 [i18n-content-75-_index-faq-i_1-title]
-other = "Are there any HDMI input?"
+other = "How long does shipping usually take?"
 
 [i18n-content-75-_index-faq-i_1-body]
-other = "Yes. Vibe supports both HDMI input and output.\n"
+other = """Shipping for Vibe Pro 75″ smart boards begins in August 2021. Depending on where you are located, shipping can take 
+anywhere from 3-5 business days. (Our warehouses are located in Southern California)"""
 
 [i18n-content-75-_index-faq-i_2-title]
-other = "What are the product dimensions?"
+other = "Are Vibe Pro 75″ smart boards compatible with any wall mount?"
 
 [i18n-content-75-_index-faq-i_2-body]
-other = """**Vibe board dimensions:**
-- Diagonal screen size: 55\"
-- Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
-- Product weight: 54.1 lbs
-- Package size: 56.7\" (width) x 37\"(height) x 9.1\" (depth)
-- VESA Mount: 200 x 200 mm
-
-**Vibe stand dimensions:**
-- Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
-- Weight: 33.1 lbs"""
+other = """The 75-inch Vibe Board Pro supports standard VESA 600 x 400mm mount. Complimentary wall 
+mount accessories are included with your board."""
 
 [i18n-content-75-_index-faq-i_3-title]
-other = "Which cameras work with Vibe?"
+other = "What are the product dimensions?"
 
 [i18n-content-75-_index-faq-i_3-body]
-other = """Vibe is compatible with most USB connected cameras.
+other = """Vibe board dimensions:
 
-If you are in the market for a new camera that you would want to use with your Vibe board, our team has
-tested the following cameras and can confirm their compatibility with Vibe.
-- Logitech 920
-- Logitech 930
-- Logitech BRIO
-- Logitech Conference Cam Bcc950
-- Logitech Meetup
-- Owl camera
-- Polycom Studio
+- Diagonal screen size: 75″
+- Product dimensions: 68.1″ (width) x 39.8″ (height) x 3.4″ (depth) 
+- Product weight: 108 lbs
+- Package size: 73.2″ (width) x 44.7″ (height) x 9.7″ (depth)
+- VESA Mount: 800 x 400 mm
 
-If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
-please contact support at <support@vibe.us> to start a support ticket."""
-
-[i18n-content-75-_index-faq-i_4-title]
-other = "Are there any other accessories available with Vibe?"
-
-[i18n-content-75-_index-faq-i_4-body]
-other = "We currently only offer Vibe stands and additional styluses.\n"
-
-[i18n-content-75-_index-faq-i_5-title]
-other = "How is the Vibe board powered?"
-
-[i18n-content-75-_index-faq-i_5-body]
-other = """Vibe is powered through a detachable power cord that comes with your purchase.
-- Power Supply: AC100-240V - 50/60Hz
-
-We do not offer a battery option at this time."""
+Vibe stand dimensions:
+- Stand size: 45.7″ (width) x 26.1″ (height) x 62.9″ (depth) 
+- Weight: 40 lbs"""
 
 [i18n-content-75-_index-zh-bottom_cta-cta-buttons-i_0-title]
 other = "演示视频"
@@ -2221,11 +2250,10 @@ other = "立即购买"
 other = "75″ 4K UHD interactive whiteboard with ultra-smooth touch experience"
 
 [i18n-content-75-_index-feature_set_2-title]
-other = "The first big touchscreen powered by Chromium OS"
+other = "The first interactive whiteboard powered by Chromium OS"
 
 [i18n-content-75-_index-feature_set_2-body]
-other = """VibeOS builds on the powerful foundation of Chromium OS while offering exclusive experiences 
-tailored to the unique capabilities of the Vibe board. Revel in powerful performance of the most demanding softwares."""
+other = "VibeOS builds on the powerful foundation of Chromium, while offering exclusive experiences tailored to the unique capabilities of Vibe."
 
 [i18n-content-75-_index-feature_set_2-cta-title]
 other = "Leran more"

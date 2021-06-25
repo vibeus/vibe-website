@@ -10,7 +10,7 @@
   <div class="logos-group logos-group-2">
   {{ range last 11 .logos }}
     <figure class="image">
-      {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "98x" "mobile" "98x") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .logo)) }}
     </figure>
   {{ end }}
   </div>
@@ -28,14 +28,14 @@
   <div class="logos-group logos-group-2">
   {{ range first 6 (after 6 .logos) }}
     <figure class="image">
-      {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "98x" "mobile" "98x") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .logo)) }}
     </figure>
   {{ end }}
   </div>
   <div class="logos-group logos-group-3">
     {{ range last 6 .logos }}
       <figure class="image">
-        {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "98x" "mobile" "98x") }}
+        {{ partial "common/srcset" (dict "resource" (resources.Get .logo)) }}
       </figure>
     {{ end }}
     </div>

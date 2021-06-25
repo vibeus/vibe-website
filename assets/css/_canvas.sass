@@ -1,10 +1,15 @@
 .section.is-canvases
   +vertical-padding(120px)
+  +mobile
+    padding-left: 0
+    padding-right: 0
   background-color: #F4F4F4
   .canvases
-    max-width: 1440px
     margin: 0 auto
+    +mobile
+      width: 100vw
     +tablet
+      max-width: 80vw
       .is-large
         width: 5rem
         height: 5rem
@@ -34,7 +39,7 @@
     +tablet
       margin: 0 2rem
     +mobile
-      width: 300px
+      width: 321px
       margin: 0 auto
     .main
       max-width: 1102px
@@ -49,8 +54,9 @@
         .column
           display: flex
           flex-direction: column
-          margin-right: 53px
-          margin-left: 53px
+          +fullhd
+            margin-right: 53px
+            margin-left: 53px
           .title
             font-size: 24px
           .content
@@ -77,9 +83,9 @@
         margin-top: 30px
         text-align: left
     .main-mobile .column
-      width: 300px
+      width: 321px
       margin: -2rem auto 0
-      padding: 1.5rem 2rem
+      padding: 1.5rem 1.5rem
       background: rgba(255, 255, 255, 0.8)
       border: 1px solid #F1F1F1
       box-sizing: border-box
@@ -97,7 +103,7 @@
               margin-top: 5px
               margin-right: 16px
           .content
-            width: 233px
+            width: 234px
             font-size: 14px
             line-height: 144%
             text-align: left

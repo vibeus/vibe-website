@@ -191,12 +191,12 @@
 </section>
 {{ end }}
 
-{{ with .Params.three_faqs }}
-{{ partial "three-faqs" . }}
-{{ end }}
-
 {{ with .Params.feature_columns }}
 {{ partial "feature-columns" . }}
+{{ end }}
+
+{{ with .Params.three_faqs }}
+{{ partial "three-faqs" . }}
 {{ end }}
 
 {{ with .Params.bottom_cta }}

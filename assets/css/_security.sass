@@ -25,6 +25,8 @@
     p
       display: inline
   .columns
+    +fullhd
+      margin: 0 2%
     .column
       display: flex
       flex-direction: column
@@ -32,17 +34,16 @@
       text-align: center
       +mobile
         align-items: unset
-        text-align: left
       .image
         max-width: 60px
-        margin-bottom: 17px
+        margin: 0 auto 1rem
       .item-title
         max-width: 342px
+        margin-bottom: 1rem
         font-size: 24px
         line-height: 38px
         font-family: $vibe-family-heading
         font-weight: $vibe-bold
-        margin-bottom: 16px
         +mobile
           margin-bottom: 12px
           font-size: 24px
@@ -70,6 +71,7 @@
       height: 55px
       color: #fff!important
       border-color: #fff
-
-    a:not(:hover)
-      color: $vibe-purple
+      +mobile
+        height: 42px
+        font-size: 16px
+        line-height: 30px

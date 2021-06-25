@@ -34,44 +34,44 @@ hero:
       - img/hardware/gallery/gallery-9.png
       - img/hardware/gallery/gallery-10.png
 testimonial_section:
-  title: i18n-content-_index-testimonial_section-title
+  title: i18n-content-55-_index-testimonial_section-title
   figure: img/smartboard-55/testimonials/testimonial-logo-group.png
   figure_mobile: img/smartboard-55/testimonials/testimonial-logo-group-mobile.png
   testimonials:
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-1.png
-        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-bold_name
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-author-name
-      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-title
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_0-body
+        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_0-author-bold_name
+        name: i18n-content-55-_index-testimonial_section-testimonials-i_0-author-name
+      title: i18n-content-55-_index-testimonial_section-testimonials-i_0-title
+      body: i18n-content-55-_index-testimonial_section-testimonials-i_0-body
       figure: img/smartboard-55/testimonials/testimonial-left-1.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-2.png
-        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-bold_name
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-author-name
-      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-title
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_1-body
+        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_1-author-bold_name
+        name: i18n-content-55-_index-testimonial_section-testimonials-i_1-author-name
+      title: i18n-content-55-_index-testimonial_section-testimonials-i_1-title
+      body: i18n-content-55-_index-testimonial_section-testimonials-i_1-body
       figure: img/smartboard-55/testimonials/testimonial-left-2.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-3.png
-        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-bold_name
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-author-name
-      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-title
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_2-body
+        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_2-author-bold_name
+        name: i18n-content-55-_index-testimonial_section-testimonials-i_2-author-name
+      title: i18n-content-55-_index-testimonial_section-testimonials-i_2-title
+      body: i18n-content-55-_index-testimonial_section-testimonials-i_2-body
       figure: img/smartboard-55/testimonials/testimonial-left-3.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-4.png
-        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-bold_name
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-author-name
-      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-title
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_3-body
+        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_3-author-bold_name
+        name: i18n-content-55-_index-testimonial_section-testimonials-i_3-author-name
+      title: i18n-content-55-_index-testimonial_section-testimonials-i_3-title
+      body: i18n-content-55-_index-testimonial_section-testimonials-i_3-body
       figure: img/smartboard-55/testimonials/testimonial-left-4.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-5.png
-        bold_name: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-bold_name
-        name: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-author-name
-      title: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-title
-      body: i18n-content-hardware-_index-testimonial_section-testimonials-i_4-body
+        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_4-author-bold_name
+        name: i18n-content-55-_index-testimonial_section-testimonials-i_4-author-name
+      title: i18n-content-55-_index-testimonial_section-testimonials-i_4-title
+      body: i18n-content-55-_index-testimonial_section-testimonials-i_4-body
       figure: img/smartboard-55/testimonials/testimonial-left-5.png
     
 feature_section:
@@ -338,13 +338,10 @@ feature_columns:
   title: i18n-content-55-_index-feature_columns-title
   features:
     - title: i18n-content-55-_index-feature_columns-items-i_0-title
-      body: i18n-content-55-_index-feature_columns-items-i_0-body
       figure: img/smartboard-55/feature-columns-1.png
     - title: i18n-content-55-_index-feature_columns-items-i_1-title
-      body: i18n-content-55-_index-feature_columns-items-i_1-body
       figure: img/smartboard-55/feature-columns-2.png
     - title: i18n-content-55-_index-feature_columns-items-i_2-title
-      body: i18n-content-55-_index-feature_columns-items-i_2-body
       figure: img/smartboard-55/feature-columns-3.png
   cta:
     title: i18n-content-55-_index-feature_columns-cta-title

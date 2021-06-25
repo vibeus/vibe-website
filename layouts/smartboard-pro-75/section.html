@@ -26,13 +26,16 @@
   <div class="container">
     {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
     {{ with .animation }}
-      <figure class="image is-overall-image">
+      <figure class="image is-overall-image is-hidden-mobile">
         {{ if .animated }}
         {{ $gif := resources.Get .figure | resources.Fingerprint }}
-        <img class="overlay" src="{{ $gif.RelPermalink }}" alt="animation" />
+        <img class="overlay" id="gif1" src="{{ $gif.RelPermalink }}" alt="animation" />
         {{ else }}
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
         {{ end }}
+      </figure>
+      <figure class="image is-hidden-tablet">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile) "desktop" "1300x" "mobile" "750x") }}
       </figure>
     {{ end }}
     <div class="features-mobile is-hidden-tablet">
@@ -72,13 +75,16 @@
       <source src="{{ $src.RelPermalink }}" type="video/mp4">
     </video> -->
     {{ with .animation }}
-      <figure class="image is-overall-image">
+      <figure class="image is-overall-image is-hidden-mobile">
         {{ if .animated }}
         {{ $gif := resources.Get .figure | resources.Fingerprint }}
-        <img class="overlay is-chromium-os-image" src="{{ $gif.RelPermalink }}" alt="animation" />
+        <img class="overlay is-chromium-os-image" id="gif2" src="{{ $gif.RelPermalink }}" alt="animation" />
         {{ else }}
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
         {{ end }}
+      </figure>
+      <figure class="image is-hidden-tablet">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile) "desktop" "1300x" "mobile" "750x") }}
       </figure>
     {{ end }}
     <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">

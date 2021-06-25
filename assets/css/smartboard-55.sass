@@ -9,7 +9,6 @@
 @import "_as-seen-in.sass"
 @import "_canvas.sass"
 @import "_apps.sass"
-@import "_accessories.sass"
 @import "_hero.sass"
 @import "_security.sass"
 @import "_feature-columns.sass"
@@ -172,6 +171,14 @@
     .column.is-image
       max-width: 543px
 
+.section.is-canvases
+  .glide-nav
+    +mobile
+      display: unset
+      top: 29%
+      opacity: 1
+
+
 .section.is-spec
   +vertical-padding(120px)
   padding-left: 0
@@ -271,9 +278,13 @@
 .section.is-bottom-cta
   .cta .button
     height: 55px
+    font-size: 18px
+    line-height: 23px
     +mobile
       min-width: 319px
       height: 42px
+      font-size: 16px
+      line-height: 20px
   .title.section-title
     +tablet
       margin-bottom: 36px

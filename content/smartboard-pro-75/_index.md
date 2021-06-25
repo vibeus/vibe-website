@@ -58,6 +58,7 @@ feature_set_1:
   title: i18n-content-75-_index-feature_set_1-title
   animation:
     figure: img/smartboard-pro-75/uhd.gif
+    figure_mobile: img/smartboard-pro-75/uhd.png
     class: is-feature-1
     animated: true
   features_mobile:
@@ -82,7 +83,8 @@ feature_set_2:
   title: i18n-content-75-_index-feature_set_2-title
   body: i18n-content-75-_index-feature_set_2-body
   animation:
-    figure: img/smartboard-pro-75/feature-1.gif
+    figure: img/smartboard-pro-75/chromium.gif
+    figure_mobile: img/smartboard-pro-75/chromium.png
     class: is-feature-1
     animated: true
   features:
@@ -322,10 +324,8 @@ feature_columns:
   title: i18n-content-75-_index-feature_columns-title
   features:
     - title: i18n-content-75-_index-feature_columns-items-i_0-title
-      body: i18n-content-75-_index-feature_columns-items-i_0-body
       figure: img/smartboard-pro-75/feature-columns-1.png
     - title: i18n-content-75-_index-feature_columns-items-i_1-title
-      body: i18n-content-75-_index-feature_columns-items-i_1-body
       figure: img/smartboard-pro-75/feature-columns-2.png
   cta:
     title: i18n-content-75-_index-feature_columns-cta-title
@@ -342,10 +342,6 @@ faq:
       body: i18n-content-75-_index-faq-i_2-body
     - title: i18n-content-75-_index-faq-i_3-title
       body: i18n-content-75-_index-faq-i_3-body
-    - title: i18n-content-75-_index-faq-i_4-title
-      body: i18n-content-75-_index-faq-i_4-body
-    - title: i18n-content-75-_index-faq-i_5-title
-      body: i18n-content-75-_index-faq-i_5-body
 
 bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title

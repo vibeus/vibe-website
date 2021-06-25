@@ -13,8 +13,7 @@
       <div class="logo-name{{ if .name }} has-name{{ end }}{{ if .logo }} has-logo{{ end }}">
         {{ if .name }}
         <div class="name">
-          <span>{{ default .bold_name (T .bold_name) | markdownify }}</span>
-          <span>{{ default .name (T .name) | markdownify }}</span>
+          {{ default .name (T .name) | markdownify }}
         </div>
         {{ end }}
         {{ if .logo }}

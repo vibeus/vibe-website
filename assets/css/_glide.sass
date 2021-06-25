@@ -52,15 +52,20 @@
   position: absolute
   top: 40%
   cursor: pointer
-  opacity: .1
+  display: none
+  +desktop
+    opacity: .1
   &.is-left
-    left: 32px
+    left: 2rem
+    +mobile
+      left: 0
   &.is-right
-    right: 32px
+    right: 2rem
+    +mobile
+      right: 0
   img
     cursor: pointer
-  +until-widescreen
-    display: none
+
 
 // add a hidden pseudo element that "push" element down make in-page anchor work (because we have fixed navbar)
 =offset-anchor-for-navbar($extra: 0rem)
@@ -79,11 +84,11 @@
 
 .rectangle-dots
   margin-top: 140px
-  margin-bottom: -145px
+  margin-bottom: -187px
   +mobile
     margin-top: 185px
 
-.rectangle-dots.is-75-glide-dots
+.rectangle-dots.is-55-glide-dots
   margin-bottom: -186px
   +mobile
     margin-bottom: -218px
@@ -96,4 +101,3 @@
 
 .groups
   position: relative
-
