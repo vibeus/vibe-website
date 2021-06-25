@@ -28,7 +28,9 @@
       opacity: 1
   .glide-dots
     top: 145px
-  .canvas .content
+    @media screen and ( min-width: 413px ) and ( max-width: 767px )
+      top: 183px
+  .canvas > .content
     margin: 0 auto
     text-align: center
 
@@ -92,6 +94,7 @@
         margin: 0 .5rem 3rem
         img
           width: 120px
+          height: 96px
         .column
           display: flex
           flex-direction: column
