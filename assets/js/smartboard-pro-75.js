@@ -47,7 +47,7 @@ const resetGif1Url = function() {
 }
 
 const resetGif2Url = function() {
-  document.getElementById('gif2').src = "/img/smartboard-pro-75/feature-1.ee3f1db20108af415d34d60da364e633f1bcf7195ce52f62d48e11772d29c728.gif"
+  document.getElementById('gif2').src = "/img/smartboard-pro-75/chromium.ee3f1db20108af415d34d60da364e633f1bcf7195ce52f62d48e11772d29c728.gif"
 }
 
 setInterval(resetGif1Url, 13000)
