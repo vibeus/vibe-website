@@ -5,7 +5,8 @@
   <div class="testimonial-content">
     <div class="content">
       <div class="content-title">{{ default .title (T .title) | markdownify }} </div>
-      <div class="content-body">{{ default .body (T .body) | markdownify }} </div>
+      <div class="content-body is-hidden-mobile">{{ default .body (T .body) | markdownify }} </div>
+      <div class="content-body is-hidden-tablet">{{ default .body_mobile (T .body_mobile) | markdownify }} </div>
     </div>
   
     {{ with .author }}

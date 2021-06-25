@@ -44,6 +44,7 @@ testimonial_section:
         name: i18n-content-55-_index-testimonial_section-testimonials-i_0-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_0-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_0-body
+      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_0-body_mobile
       figure: img/smartboard-55/testimonials/testimonial-left-1.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-2.png
@@ -51,6 +52,7 @@ testimonial_section:
         name: i18n-content-55-_index-testimonial_section-testimonials-i_1-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_1-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_1-body
+      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_1-body_mobile
       figure: img/smartboard-55/testimonials/testimonial-left-2.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-3.png
@@ -58,6 +60,7 @@ testimonial_section:
         name: i18n-content-55-_index-testimonial_section-testimonials-i_2-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_2-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_2-body
+      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_2-body_mobile
       figure: img/smartboard-55/testimonials/testimonial-left-3.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-4.png
@@ -65,6 +68,7 @@ testimonial_section:
         name: i18n-content-55-_index-testimonial_section-testimonials-i_3-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_3-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_3-body
+      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_3-body_mobile
       figure: img/smartboard-55/testimonials/testimonial-left-4.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-5.png
@@ -72,6 +76,7 @@ testimonial_section:
         name: i18n-content-55-_index-testimonial_section-testimonials-i_4-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_4-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_4-body
+      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_4-body_mobile
       figure: img/smartboard-55/testimonials/testimonial-left-5.png
     
 feature_section:

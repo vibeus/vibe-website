@@ -31,14 +31,22 @@
       width: 768px
     +desktop
       width: 1024px
+    +until-widescreen
+      width: 1280px
     +fullhd
       width: 1440px
     .logos-group
       display: flex
+      +mobile
+        width: 375px
+      @media screen and ( min-width: 413px ) and ( max-width: 767px )
+          width: 414px
       @media screen and ( min-width: 767px )
         width: 768px
       +desktop
         width: 1024px
+      @media screen and ( min-width: 1279px )
+        width: 1280px
       +fullhd
         width: 1440px
         height: 90px
@@ -47,37 +55,44 @@
         cursor: pointer
         img
           width: auto
-        +mobile
-          width: 35px
-          margin: 0 5px 20px
         @media screen and ( min-width: 767px )
           width: 48px
-          margin: 0 8px 20px
+          margin: 0 8px 1.5rem
         +desktop
           width: 65px
-          margin: 0 10px 25px
+          margin: 0 10px 2rem
+        @media screen and ( min-width: 1279px )
+          width: 76px
+          margin: 0 15px 2.5rem
         +fullhd
           width: 84px
-          margin: 0 18px 30px
+          margin: 0 18px 3rem
     .logos-group.logos-group-1
       margin-left: 60px
       @media screen and ( min-width: 767px )
         margin-left: 32px
-      @media screen and ( max-width: 700px )
+      +mobile
         margin-left: 25px
+      @media screen and ( min-width: 1279px )
+        margin-left: 53px
   .group-mobile
     display: flex
     flex-direction: column
     align-items: center
     width: 100%
+    margin: 0 -.5rem
     .logos-group
       display: flex
       height: 37px
       margin-bottom: 25px
       .image
-        width: 37px
-        margin-right: 15px
         cursor: pointer
+        +mobile
+          width: 36px
+          margin: 0 10px 20px
+        @media screen and ( min-width: 413px ) and ( max-width: 767px )
+          width: 40px
+          margin: 0 12px 20px
         img
           width: auto
     .logos-group.logos-group-1
@@ -107,13 +122,21 @@
       margin-left: 600px
     +desktop
       margin-left: 740px
+    @media screen and ( min-width: 1279px )
+      margin-left: 955px
     +fullhd
       margin-left: 1100px
   .group-mobile .apps-mask-left
-    width: 70px
-    margin-left: -267px
+    width: 90px
+    margin-left: -255px
+    @media screen and ( min-width: 413px )
+      width: 110px
+      margin-left: -257px
   .group-mobile .apps-mask-right
-    width: 70px
-    margin-left: 267px
+    width: 90px
+    margin-left: 255px
+    @media screen and ( min-width: 413px )
+      width: 110px
+      margin-left: 274px
 
 
