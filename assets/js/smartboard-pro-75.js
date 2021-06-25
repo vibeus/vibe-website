@@ -41,14 +41,3 @@ seeAllobserver.observe(specSpecs, config)
 const navbar = document.querySelector('.navbar');
 const navbarHeight = navbar ? navbar.clientHeight : 0;
 bindScrollTo('.toggle-specs', -navbarHeight);
-
-const resetGif1Url = function() {
-  document.getElementById('gif1').src = "/img/smartboard-pro-75/uhd.6b6d9df2578cb985a234b4a15728f2f349137b42c6833c2014b23adadf53c5e3.gif"
-}
-
-const resetGif2Url = function() {
-  document.getElementById('gif2').src = "/img/smartboard-pro-75/chromium.ee3f1db20108af415d34d60da364e633f1bcf7195ce52f62d48e11772d29c728.gif"
-}
-
-setInterval(resetGif1Url, 13000)
-setInterval(resetGif2Url, 12000)
