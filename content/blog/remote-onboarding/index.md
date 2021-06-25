@@ -3,8 +3,11 @@ title: How to Write a Remote Onboarding Plan
 slug: remote-onboarding
 author: Vibe Team
 date: '2021-06-25'
-tags: []
-draft: true
+tags:
+- Leadership and Management
+- Remote Onboarding
+- Remote Training
+draft: false
 isfeatured: false
 description: "With many companies hiring through virtual interviews, it\u2019s essential to have a remote onboarding process\
   \ as well. Update your plan with these tips."
