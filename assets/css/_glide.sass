@@ -35,17 +35,20 @@
     margin-bottom: -30px
   text-align: center
   .icon
+    width: auto
     cursor: pointer
     opacity: 0.2
     &.is-active
       opacity: 0.6
+    &:not(:last-child)
+      margin-right: .25rem
     .dot
-      width: 8px
+      width: .75rem
       height: 0px
       background: #000
       border: 1.5px solid #000000
     &.is-active .dot
-      width: 16px
+      width: 2rem
       border: 1.5px solid #000000
 
 =glide-nav-style
