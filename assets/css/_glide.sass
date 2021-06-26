@@ -15,7 +15,7 @@
   padding-top: $top
   padding-bottom: $bottom
   @if $top != $mtop or $bottom != $mbottom
-    +mobile
+    +touch
       @if $top != $mtop
         padding-top: $mtop
       @if $bottom != $mbottom
@@ -31,7 +31,7 @@
   margin-top: 16px
   margin-bottom: -60px
   user-select: none
-  +mobile
+  +touch
     margin-bottom: -30px
   text-align: center
   .icon
@@ -60,11 +60,11 @@
     opacity: .1
   &.is-left
     left: 2rem
-    +mobile
+    +touch
       left: 0
   &.is-right
     right: 2rem
-    +mobile
+    +touch
       right: 0
   img
     cursor: pointer

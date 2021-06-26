@@ -1,11 +1,11 @@
 .section.is-canvases
-  +vertical-padding(120px)
-  +mobile
-    padding: 60px 0 0
+  padding-top: 120px
+  +touch
+    padding: 60px 0 20px
   background-color: #F4F4F4
   .canvases
     margin: 0 auto
-    +mobile
+    +touch
       width: 100vw
     +tablet
       max-width: 100vw
@@ -17,7 +17,7 @@
     margin: 0 auto 1rem
     font-size: 48px
     text-align: center
-    +mobile
+    +touch
       width: 330px
       font-weight: $vibe-bold
       font-size: 32px
@@ -25,18 +25,15 @@
   .content
     max-width: 773px
     text-align: left
-    +mobile
+    +touch
       width: 331px
   .is-canvas-img
     z-index: -1
     margin-top: 4rem
-    img
-      +mobile
-        height: 240px
   .canvas-box
     +tablet
       margin: 0 2rem
-    +mobile
+    +touch
       width: 100vw
       margin: 0 auto
     .main
@@ -89,16 +86,16 @@
       .is-canvas-2 .cta
         margin-top: 2.5rem
         text-align: left
-    .main-mobile .column
-      width: 94vw
-      margin: -2rem auto 0
-      padding: 1.5rem 1.5rem
+    .main-mobile
+      width: 86vw
+      margin: -1.5rem auto 0
+      padding: .75rem .75rem
       background: rgba(255, 255, 255, 0.8)
       border: 2px solid #F1F1F1
       box-sizing: border-box
       box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
       backdrop-filter: blur(25px)
-      +mobile
+      +touch
         display: flex
         flex-direction: column
         .column-row

@@ -189,7 +189,10 @@
   .glide-nav
     display: unset
     top: 45%
+    +touch
+      top: 42%
     +mobile
+      top: 41%
       opacity: 1
   .glide-dots
     top: 106px
@@ -295,10 +298,18 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.1)
     .cta
       text-align: center
+      font-weight: $vibe-bold
+      +mobile
+        height: 40px
       .button
-        font-size: 24px
-        font-family: $vibe-family-heading
-        font-weight: $vibe-bold
+        height: 55px
+        font-size: 18px
+        line-height: 23px
+        border-width: 2px
+        +mobile
+          height: 40px
+          font-size: 16px
+          line-height: 30px
 
 .section.is-bottom-cta
   .cta .button

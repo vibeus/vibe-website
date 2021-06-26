@@ -101,6 +101,7 @@ canvas_section:
   canvases:
     - title: i18n-content-55-_index-canvas_section-canvas-i_0-title
       figure: img/smartboard-55/canvas-1.png
+      figure_mobile: img/smartboard-55/canvas-mobile-1.png
       features2:
         title: i18n-content-55-_index-canvas_section-canvas-i_0-features-title
         body1: i18n-content-55-_index-canvas_section-canvas-i_0-features-body1
@@ -110,6 +111,7 @@ canvas_section:
           url: /software/
     - title: i18n-content-55-_index-canvas_section-canvas-i_1-title
       figure: img/smartboard-55/canvas-2.png
+      figure_mobile: img/smartboard-55/canvas-mobile-2.png
       features2:
         title: i18n-content-55-_index-canvas_section-canvas-i_1-features-title
         body1: i18n-content-55-_index-canvas_section-canvas-i_1-features-body1
@@ -119,6 +121,7 @@ canvas_section:
           url: /software/
     - title: i18n-content-55-_index-canvas_section-canvas-i_2-title
       figure: img/smartboard-55/canvas-3.png
+      figure_mobile: img/smartboard-55/canvas-mobile-3.png
       features2:
         title: i18n-content-55-_index-canvas_section-canvas-i_2-features-title
         body1: i18n-content-55-_index-canvas_section-canvas-i_2-features-body1

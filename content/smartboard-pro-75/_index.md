@@ -34,6 +34,7 @@ canvas_section:
     - title: i18n-content-75-_index-canvas_section-canvas-i_1-title
       body: i18n-content-75-_index-canvas_section-canvas-i_1-body
       figure: img/smartboard-pro-75/canvas-2.png
+      figure_mobile: img/smartboard-pro-75/canvas-mobile-2.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-body
@@ -45,6 +46,7 @@ canvas_section:
     - title: i18n-content-75-_index-canvas_section-canvas-i_2-title
       body: i18n-content-75-_index-canvas_section-canvas-i_2-body
       figure: img/smartboard-pro-75/canvas-3.png
+      figure_mobile: img/smartboard-pro-75/canvas-mobile-3.png
       features:
         - title: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-title
           body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-body
