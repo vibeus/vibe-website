@@ -8,6 +8,8 @@
     .hero-body
       display: unset !important
       padding-bottom: 0
+  +tablet
+    min-height: unset
   .image.is-hero-bg
     +absolute-fill
     img
@@ -40,6 +42,8 @@
       margin: 0 .5rem 40px
     +until-fullhd
       max-width: 500px
+    @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+      max-width: 320px
     .subtitle
       margin-bottom: 18px
       font-size: 28px
@@ -53,10 +57,13 @@
       +until-fullhd
         font-size: 24px
         line-height: 30px
+      @media screen and ( min-width: 767px ) and ( max-width: 1023px ) 
+        font-size: 18px
+        line-height: 23px
     .title
       font-size: 56px
       margin-top: 0
-      margin-bottom: 48px
+      margin-bottom: 3rem
       line-height: 118%
       +lang-override(".lang-zh")
         font-size: 48px
@@ -65,6 +72,10 @@
         margin-bottom: 32px
         font-size: 36px
         line-height: 116%
+      @media screen and ( min-width: 767px ) and ( max-width: 1023px ) 
+        margin-bottom: 1rem
+        font-size: 24px
+        line-height: 144%
       +desktop
         font-size: 48px
         line-height: 118%
@@ -81,6 +92,9 @@
       +mobile
         font-size: 16px
         line-height: 144%
+      @media screen and ( min-width: 767px ) and ( max-width: 1023px ) 
+        font-size: 14px
+        line-height: 18px
   .cta-group
     display: flex
     +mobile

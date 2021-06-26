@@ -7,7 +7,7 @@
 @import "_testimonial.sass"
 @import "_bottom-cta.sass"
 @import "_apps.sass"
-@import "_canvas.sass"
+@import "_carousel.sass"
 @import "_hero.sass"
 @import "_security.sass"
 @import "_feature-columns.sass"
@@ -19,19 +19,27 @@
   +mobile
     height: 920px
 
-.section.is-canvases
+.section.is-carouseles
   background-color: #fff
   .glide-nav
     display: unset
     top: 43%
+    +touch
+      top: 50%
+      opacity: 1
     +mobile
-      top: 51%
+      top: 53%
       opacity: 1
   .glide-dots
-    top: 145px
+    +mobile
+      top: 180px
     @media screen and ( min-width: 413px ) and ( max-width: 767px )
       top: 183px
-  .canvas > .content
+    +touch
+      top: 185px
+    +desktop
+      top: 145px
+  .carousel > .content
     margin: 0 auto
     text-align: center
   .cta

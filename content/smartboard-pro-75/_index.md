@@ -15,45 +15,45 @@ hero:
     class: is-primary is-rounded
     url: /order/pre-order/
 
-canvas_section:
+carousel_section:
   is_rectangle_dots: true
   is_75_glide_dots: true
-  canvases:
-    - title: i18n-content-75-_index-canvas_section-canvas-i_0-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_0-body
-      figure: img/smartboard-pro-75/canvas-1.png
-      figure_mobile: img/smartboard-pro-75/canvas-mobile-1.png
+  carouseles:
+    - title: i18n-content-75-_index-carousel_section-carousel-i_0-title
+      body: i18n-content-75-_index-carousel_section-carousel-i_0-body
+      figure: img/smartboard-pro-75/carousel-1.png
+      figure_mobile: img/smartboard-pro-75/carousel-mobile-1.png
       features:
-        - title: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_0-body
-        - title: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_1-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_0-features-i_1-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_0-features-i_0-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_0-features-i_0-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_0-features-i_1-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_0-features-i_1-body
       cta:
-        title: i18n-content-75-_index-canvas-cta-title
+        title: i18n-content-75-_index-carousel-cta-title
         url: /software/
-    - title: i18n-content-75-_index-canvas_section-canvas-i_1-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_1-body
-      figure: img/smartboard-pro-75/canvas-2.png
-      figure_mobile: img/smartboard-pro-75/canvas-mobile-2.png
+    - title: i18n-content-75-_index-carousel_section-carousel-i_1-title
+      body: i18n-content-75-_index-carousel_section-carousel-i_1-body
+      figure: img/smartboard-pro-75/carousel-2.png
+      figure_mobile: img/smartboard-pro-75/carousel-mobile-2.png
       features:
-        - title: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_0-body
-        - title: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_1-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_1-features-i_1-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_1-features-i_0-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_1-features-i_0-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-body
       cta:
-        title: i18n-content-75-_index-canvas-cta-title
+        title: i18n-content-75-_index-carousel-cta-title
         url: /software/
-    - title: i18n-content-75-_index-canvas_section-canvas-i_2-title
-      body: i18n-content-75-_index-canvas_section-canvas-i_2-body
-      figure: img/smartboard-pro-75/canvas-3.png
-      figure_mobile: img/smartboard-pro-75/canvas-mobile-3.png
+    - title: i18n-content-75-_index-carousel_section-carousel-i_2-title
+      body: i18n-content-75-_index-carousel_section-carousel-i_2-body
+      figure: img/smartboard-pro-75/carousel-3.png
+      figure_mobile: img/smartboard-pro-75/carousel-mobile-3.png
       features:
-        - title: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_0-body
-        - title: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_1-title
-          body: i18n-content-75-_index-canvas_section-canvas-i_2-features-i_1-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_2-features-i_0-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_2-features-i_0-body
+        - title: i18n-content-75-_index-carousel_section-carousel-i_2-features-i_1-title
+          body: i18n-content-75-_index-carousel_section-carousel-i_2-features-i_1-body
       cta:
-        title: i18n-content-75-_index-canvas-cta-title
+        title: i18n-content-75-_index-carousel-cta-title
         url: /software/
 
 feature_set_1:

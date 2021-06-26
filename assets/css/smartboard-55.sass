@@ -7,7 +7,7 @@
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
-@import "_canvas.sass"
+@import "_carousel.sass"
 @import "_apps.sass"
 @import "_hero.sass"
 @import "_security.sass"
@@ -47,6 +47,11 @@
       margin-right: -7rem
       img
         margin-top: 3.5rem
+    +until-widescreen
+      width: 460px
+      margin-right: -3rem
+    img
+      margin-top: 1rem
     +widescreen
       margin-right: -6rem 
     @media screen and (min-width: 1580px)
@@ -68,9 +73,9 @@
       margin-top: 1000px
     .button.is-photo-gallery
       margin: 0 auto
-      font-weight: $vibe-bold;
-      font-size: 16px;
-      line-height: 20px;
+      font-weight: $vibe-bold
+      font-size: 16px
+      line-height: 20px
       background-color: unset
       border: 0
       .icon
@@ -95,6 +100,8 @@
     padding-top: 0
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
     margin-top: -285px
+  @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+    margin-top: -591px
   .testimonial-title
     position: relative
     margin-bottom: 48px
@@ -137,6 +144,8 @@
     margin-right: auto
     +mobile
       width: 355px
+    +tablet
+      margin-bottom: 3rem
   .columns
     justify-content: center
     +mobile
@@ -152,6 +161,8 @@
     +mobile
       padding-left: .5rem
       padding-right: .5rem
+    +touch
+      max-width: 350px
     .title
       font-size: 32px
       font-weight: $vibe-bold
@@ -185,20 +196,21 @@
     .column.is-image
       max-width: 543px
 
-.section.is-canvases
+.section.is-carouseles
   .glide-nav
     display: unset
     top: 45%
     +touch
       top: 42%
     +mobile
-      top: 41%
+      top: 43%
       opacity: 1
   .glide-dots
-    top: 106px
     +mobile
       top: 116px
-  .canvas-box
+    +tablet
+      top: 106px
+  .carousel-box
     .main
       padding-top: 48px
       .column
@@ -227,11 +239,13 @@
     +mobile
       align-items: flex-start
       padding: 1.5rem 1rem
+    +touch
+      padding: 1.5rem 5%
     .level-item
       text-align: center
       width: 20%
       +touch
-        width: 150px
+        width: 170px
       +mobile
         width: 70px
         margin-right: 0
