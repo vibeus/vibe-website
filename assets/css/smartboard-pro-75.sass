@@ -179,7 +179,7 @@
       font-size: 18px
       line-height: 23px
       +mobile
-        width: 130px
+        width: 132px
         margin-bottom: 0
         font-size: 14px
         line-height: 18px
@@ -288,10 +288,16 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.1)
     .cta
       text-align: center
+      font-weight: $vibe-bold
       .button
-        font-size: 24px
-        font-family: $vibe-family-heading
-        font-weight: $vibe-bold
+        height: 55px
+        font-size: 18px
+        line-height: 23px
+        border-width: 2px
+        +mobile
+          height: 40px
+          font-size: 16px
+          line-height: 30px
 .hero
   +mobile
     +lang-override(".lang-zh")

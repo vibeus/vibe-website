@@ -4,7 +4,7 @@
     line-height: 1.25
     margin-bottom: 60px
     +mobile
-      margin-bottom: 40px
+      margin-bottom: 1rem
     .title.is-section-title
       max-width: 850px
       font-size: 50px
@@ -23,10 +23,9 @@
       margin: 16px auto 0
       +mobile
         font-size: 16px
-  .column
+  .columns .column
     +mobile
-      &:not(:first-child)
-        margin-top: 24px
+      margin-bottom: 1rem
   a.is-feature-card
     display: block
     cursor: auto
@@ -43,16 +42,16 @@
     justify-content: space-between
     .image
       margin: auto
-      margin-bottom: 48px
+      margin-bottom: 2rem
       +touch
         margin-bottom: 24px
       +mobile
-        margin-bottom: 16px
+        margin-bottom: 0
     .title
       text-align: center
       font-size: 24px
       line-height: 1.5
-      margin: 0 auto 16px
+      margin: 0 auto
       max-width: 340px
       +touch
         font-size: 22px
