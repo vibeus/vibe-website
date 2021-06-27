@@ -1,0 +1,207 @@
+{{ $consentToCommunicate := site.Data.common.GDPR.legal_consent_options.consent_to_communicate }}
+{{ $consentToProcess := site.Data.common.GDPR.legal_consent_options.consent_to_process }}
+{{ $subscriptionTypeId := site.Data.common.GDPR.legal_consent_options.subscription_type_id }}
+{{ $privacyPolicyNotice := "For more details, review our Privacy Policy." }}
+
+<h1 class="title is-form-title">{{ default .title (T .title) | markdownify }}</h1>
+{{ $method := default "POST" .method }}
+<form class="form is-vibe-form{{ with .class }} {{ . }}{{ end }}" method="{{ $method }}" action="{{ .action }}">
+  {{ range .controls }}
+  <div class="columns">
+    {{ range . }}
+    <div class="column{{ with .column_class }} {{ . }}{{ end }}">
+      <div class="control{{ if .annotation }} annotated{{ end }}">
+        {{ if .dropdown }}
+        <div class="select is-fullwidth">
+          <select name="{{ .name }}"
+                  class="placeholder"
+                  {{ if .required }}required{{ end }}
+                  {{ if .multiple }}multiple{{ end }}
+                  >
+            {{ if not .multiple }}<option value="" style="display: none;" selected></option>{{ end }}
+            {{ $dropdown := .dropdown }}
+            {{ if .sortDropdown }}
+              {{ $dropdown = sort .dropdown (cond (reflect.IsMap (index .dropdown 0)) "text" "") }}
+            {{ end }}
+            {{ $hasOthers := false }}
+            {{ range $dropdown }}
+              {{ if reflect.IsMap . }}
+                {{ if ne .text "Others" }}
+                <option value="{{ .value }}">{{ .text }}</option>
+                {{ else }}
+                {{ $hasOthers = true }}
+                {{ end }}
+              {{ else }}
+                {{ if ne . "Others" }}
+                <option>{{ . }}</option>
+                {{ else }}
+                {{ $hasOthers = true }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ if $hasOthers }}<option>Others</option>{{ end }}
+          </select>
+          <label class="form-label select-label">{{ default .placeholder (T .placeholder) }}</label>
+        </div>
+        {{ else if eq .type "textarea" }}
+        <div class="form-outline">
+          <textarea name="{{ .name }}"
+                    class="textarea form-control{{ with .class }} {{ . }}{{ end }}"
+                    {{ if .required }}required{{ end }}
+                    ></textarea>
+          <label class="form-label">{{ default .placeholder (T .placeholder) }}</label>
+        </div>
+        {{ else }}
+        {{ $type := default "input" .type }}
+        {{ $class := default "input" .class }}
+        <div class="form-outline">
+          <input name="{{ .name }}"
+                 class="form-control {{ $class }}"
+                 type="{{ $type }}"
+                 value="{{ .value }}"
+                 {{ if .required }}required{{ end }}
+                 />
+          <label class="form-label">{{ default .placeholder (T .placeholder) }}</label>
+        </div>
+
+        {{ end }}
+
+        {{ with .annotation }}
+          <div class="annotation-icon">
+            {{ (resources.Get .icon).Content | safeHTML }}
+          </div>
+          <div class="annotation-content">
+            {{ range .content }}
+            {{ if .text }}
+            <div class="annotation-text">
+              {{ .text }}
+            </div>
+            {{else if .figure}}
+            <div class="annotation-figure">
+              <figure class="image">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1280x" "tablet" "960x" "mobile" "750x" "options" "jpg") }}
+              </figure>
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ with .privacy }}
+  <div class="privacy non-eu-privacy left-align">
+    {{ . | markdownify }}
+  </div>
+  {{ else }}
+  <div class="privacy non-eu-privacy is-hidden">
+    Read our <a href="/privacy/" target="_blank">Privacy Policy</a>
+  </div>
+  {{ end }}
+  <div class="privacy eu-privacy left-align">
+    <div class="consent-to-communicate" data-text="{{ $consentToCommunicate }}" data-subscription-type-id="{{ $subscriptionTypeId }}">
+      <input name="consent-to-communicate-checkbox" type="checkbox" class="consent-to-communicate-checkbox" required>
+      <label class="consent-to-communicate-checkbox-label">
+        {{ $consentToCommunicate }}
+      </label>
+    </div>
+    <div class="consent-to-process" data-text="{{ $consentToProcess }} {{ $privacyPolicyNotice }}">
+      {{ $consentToProcess }}
+      For more details, review our <a href="/privacy/" target="_blank">privacy policy</a>.
+    </div>
+  </div>
+
+  <div class="columns is-buttons">
+    {{ range .buttons }}
+    <div class="column{{ with .column_class }} {{ . }}{{ end }}">
+      {{ $type := default "input" .type }}
+      {{ $class := default "input" .class }}
+      <div class="control">
+        <button class="{{ $class }}"
+                type="{{ $type }}"
+                {{ with .id }}id="{{ . }}"{{ end }}
+                placeholder="{{ default .placeholder (T .placeholder) }}"
+                data-name="{{ .name }}"
+                {{ with .target_action }}data-target-action="{{ . }}"{{ end }}
+                >
+          {{ default .title (T .title) }}
+        </button>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ with .submitted }}
+  <div class="submitted">
+    {{ if .choices }}
+      {{ range .choices }}
+      <div class="submitted-choice{{ with .class }} {{ . }}{{ end }}">
+        {{ with .title }}
+        <h2 class="title">{{ default . (T .) }}</h2>
+        {{ end }}
+        <div class="content">
+          {{ default .body (T .body) | markdownify }}
+        </div>
+        {{ with .cta }}
+        <div class="cta">
+          {{ if .title }}
+          <a class="button is-rounded {{ default "is-primary is-outlined" .class }}" href="{{ .url | relLangURL }}"
+            {{ with .target }}target="{{ . }}" {{ end }}>
+            {{ default .title (T .title) }}
+          </a>
+          {{ end }}
+          {{ range .buttons }}
+          <a class="button is-rounded {{ default "is-primary is-outlined" .class }}" href="{{ .url | relLangURL }}"
+            target="_blank">
+            {{ default .title (T .title) }}
+          </a>
+          {{ end }}
+          {{ with .subcta }}
+          <div class="subcta{{ with .class }} {{ . }}{{ end }}">
+            {{ default .body (T .body) | markdownify }}
+            {{ with .link }}<a class="is-subcta-link{{ with .class }} {{ . }}{{ end }}" href="{{ .url }}">{{ default .body (T .body) }}</a>{{ end }}
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ else }}
+    {{ with .title }}
+    <h2 class="title">{{ default . (T .) }}</h2>
+    {{ end }}
+    <div class="content">
+      {{ default .body (T .body) | markdownify }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      {{ if .title }}
+      <a class="button is-rounded {{ default "is-primary is-outlined" .class }}" href="{{ .url | relLangURL }}"
+        {{ with .target }}target="{{ . }}" {{ end }}>
+        {{ default .title (T .title) }}
+      </a>
+      {{ end }}
+      {{ range .buttons }}
+      <a class="button is-rounded {{ default "is-primary is-outlined" .class }}" href="{{ .url | relLangURL }}"
+        target="_blank">
+        {{ default .title (T .title) }}
+      </a>
+      {{ end }}
+      {{ with .subcta }}
+      <div class="subcta">
+        {{ with .body }}{{ default . (T .) }}{{ end }}
+        {{ with .link }}<a class="is-subcta-link{{ with .class }} {{ . }}{{ end }}" href="{{ .url }}">{{ default .body (T .body) }}</a>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ range $key, $value := .hidden_values }}
+  <input type="hidden" name="{{ $key }}" value="{{ $value }}"></input>
+  {{ end }}
+</form>

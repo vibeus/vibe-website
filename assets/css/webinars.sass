@@ -1,0 +1,234 @@
+@import "_shared.sass"
+
+.hero
+  position: relative
+  background-color: #F0F0F0
+  padding: 30px 1.5rem 3.8vw
+  overflow: hidden
+  .hero-body
+    +vertical-padding(0)
+  .container
+    max-width: 1323px + 24px
+    +widescreen
+      max-height: 477px
+    > .columns.is-vcentered
+      +mobile
+        display: flex
+        flex-direction: column-reverse
+  .column.is-text
+    +widescreen
+      max-width: 543px
+    +tablet
+      margin-top: -3vw
+    .title
+      font-size: 48px
+      line-height: 60px
+      color: #4A4A4A
+      margin-bottom: 1.2vw
+      +mobile
+        font-size: 32px
+        line-height: 40px
+      +tablet
+        font-size: 28px
+        line-height: 124%
+      +desktop
+        font-size: 32px
+        line-height: 124%
+      +widescreen
+        font-size: 36px
+        line-height: 124%
+
+    .content
+      font-weight: $vibe-bold
+      +mobile
+        font-size: 24px
+      +tablet
+        font-size: 28px
+        line-height: 118%
+      +desktop
+        font-size: 36px
+        line-height: 124%
+      +widescreen
+        font-size: 55px
+        line-height: 130%
+  .column.is-image
+    max-width: 757px + 24px
+    img
+      +widescreen
+        width: 757px
+  .bg-banner
+    position: absolute
+    bottom: 0
+    margin: 0 -1.5rem
+    transform: translateY(60%)
+
+.section.is-webinars
+  padding: 0 4.1vw
+  background-color: $vibe-white
+  +touch
+    padding-top: 3rem
+  .container
+    +desktop
+      max-width: 1320px
+
+  .columns
+    margin: 0
+    @media screen and ( min-width: 415px ) and ( max-width: 769px  )
+      > .column
+        margin: 0 auto
+  ul.icon-list
+    span svg
+      fill: $vibe-teal
+    li
+      margin-left: 36px
+      &:not(:last-child)
+        margin-bottom: 16px
+  ul.icon-list, .content
+    +desktop
+      max-width: 520px
+  ul.icon-list:not(:last-child)
+    margin-bottom: 96px
+  .title
+    font-size: 30px
+    +mobile
+      font-size: 24px
+  .is-detail
+    +touch
+      max-width: 617px
+    +desktop
+      padding: 50px 0
+    +widescreen
+      padding: 50px 50px
+    +fullhd
+      padding: 70px 101px
+    .detail-row
+      max-width: 520px
+      &:not(last-child)
+        margin-bottom: 3rem
+      .title
+        font-weight: $vibe-bold
+        font-size: 30px
+        line-height: 38px
+        color: #111111
+      .body
+        color: #111111
+    .detail-row.speaker
+      +mobile
+        .columns
+          display: flex
+      .title
+        +desktop
+          margin-bottom: 1.5rem
+      .image
+        width: 99px
+        img
+          width: 100%
+      .body
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 44px
+        font-size: 20px
+        line-height: 144%
+    .detail-row.agenda
+      .column
+        padding: 0
+        &:first-child
+          margin-right: 4.2vw
+        .content
+          min-width: 220px
+          font-size: 18px
+          line-height: 180%
+          color: #111111
+          ul
+            margin-left: 1em
+            margin-top: 0
+    .detail-row.time
+      .title
+        margin-bottom: 7px
+      .body
+        +tablet
+          font-size: 18px
+          line-height: 164%
+
+
+      
+  .column.is-form
+    display: flex
+    flex-direction: column
+    justify-content: center
+    max-width: 617px
+    +fullhd
+      padding: 0 60px 0 70px 
+    +desktop
+      background-color: white
+      margin-left: 30px
+      padding: 0 40px 0 50px
+    .column
+      margin-left: -.75rem
+      padding: 0 .75rem 2rem
+    .title
+      font-size: 36px
+      line-height: 50px
+      +mobile
+        font-size: 24px
+        line-height: 40px
+      +desktop
+        margin-bottom: 3.5rem
+      max-width: 468px
+    .submitted
+      bottom: 80px
+      align-items: center
+      justify-content: center
+      .submitted-choice
+        display: none
+        text-align: center
+        font-size: 24px
+      .content
+        max-width: 550px
+        h1
+          font-size: 28px
+        p
+          font-size: 22px
+        a
+          text-decoration: underline
+          font-weight: $vibe-bold
+    &.is-submitted
+      > .title
+        visibility: hidden
+      .form
+        .columns, .privacy
+          visibility: hidden
+          opacity: 0 // mdb hack
+      .submitted
+        display: flex
+    &.is-submitted.is-video-webinars
+      .form.is-vibe-form
+        .columns, .privacy, .button[data-name='request-video']
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-video-webinars
+            display: block
+    &.is-submitted.is-live-webinars
+      .form.is-vibe-form
+        .columns, .privacy
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-live-webinars
+            display: block
+    &.is-submitted.is-contact-sales
+      .form.is-vibe-form
+        .columns, .privacy
+          visibility: hidden
+        .columns.is-buttons
+          visibility: hidden
+        .submitted
+          display: flex
+          .submitted-choice.is-contact-sales
+            display: block

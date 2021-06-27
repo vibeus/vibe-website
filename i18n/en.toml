@@ -235,6 +235,56 @@ other = "Why Vibe?"
 [i18n-content-demo-request-video-landing-compare-cta-title]
 other = "Order Now"
 
+[i18n-content-webinars-_index-hero-title]
+other = "Topics"
+
+[i18n-content-webinars-_index-hero-body]
+other = "The Vibe board: Hyrbid learning that actually works!"
+
+[i18n-content-webinars-_index-webinars-speaker-title]
+other = "Speaker"
+
+[i18n-content-webinars-_index-webinars-speaker-body]
+other = """**Jedrik Viray**
+
+Head of Sales at Vibe"""
+
+[i18n-content-webinars-_index-webinars-agenda-title]
+other = "Agenda"
+
+[i18n-content-webinars-_index-webinars-time-title]
+other = "Time"
+
+[i18n-content-webinars-_index-webinars-time-body]
+other = "July 7, 2021, 10AM PST"
+
+[i18n-content-webinars-_index-webinars-form-title]
+other = "Save my spot"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_0-i_0-placeholder]
+other = "First Name"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_0-i_1-placeholder]
+other = "Last Name"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_1-i_0-placeholder]
+other = "Email Address"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_2-i_0-placeholder]
+other = "Industry"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_3-i_0-placeholder]
+other = "Use case"
+
+[i18n-content-webinars-_index-webinars-form-controls-i_4-i_0-placeholder]
+other = "Anything else we should know?"
+
+[i18n-content-webinars-_index-webinars-form-buttons-i_0-title]
+other = "Submit"
+
+[i18n-content-webinars-_index-webinars-form-submitted-body]
+other = "# We've sent you an email with the video link. Enjoy!"
+
 [i18n-content-demo-_index-title]
 other = "See Vibe for Yourself"
 
