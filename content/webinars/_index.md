@@ -69,44 +69,18 @@ webinars:
             - Project management
     buttons:
       - type: submit
-        title: i18n-content-webinars-_index-webinars-form-buttons-i_0-title
-        class: button is-rounded is-primary schedule-webinars is-fullwidth
+        title: Submit
+        class: button is-rounded is-primary is-outlined watch-demo is-fullwidth
         column_class: is-hidden-eu
         name: request-webinars
-        target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
     submitted:
       choices:
-        - class: is-live-webinars
+        - class: is-live-demo
           body: |
-            # We’ve sent you an email with a link to schedule your webinars. Talk to you soon!
+            # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
           cta:
-            title: Watch webinars Video First
+            title: Watch Demo Video First
             target: _blank
-            class: is-primary is-video-webinars-link
-            url: https://vibe.us/webinars/video-webinars/
-        - class: is-video-webinars
-          body: |
-            # We've sent you an email with the video link. Enjoy!
-          cta:
-            title: Watch Now
-            target: _blank
-            class: is-primary is-video-webinars-link
-            url: https://vibe.us/webinars/video-webinars/
-            subcta:
-              class: is-hidden-eu
-              body: Still want to talk to an expert?
-              link:
-                class: is-live-webinars-meeting-link
-                body: Schedule a live webinars
-                url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
-        - class: is-contact-sales
-          body: |
-            # Thanks!
-
-            We will get back to you as soon as we can.
-          cta:
-            title: Watch webinars Video Now
-            target: _blank
-            class: is-primary is-video-webinars-link
-            url: https://vibe.us/webinars/video-webinars/
+            class: is-primary is-video-demo-link
+            url: https://vibe.us/demo/video-demo/
 ---

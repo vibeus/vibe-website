@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="column is-form">
-        {{ partial "form" (merge site.Data.webinars_form.form (default (dict) .form)) }}
+        {{ partial "common/form" (merge site.Data.webinars_form.form (default (dict) .form)) }}
       </div>
     </div>
   </div>
@@ -79,5 +79,5 @@
   <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
 </div>
 
-{{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
+{{ partial "common/template-script" (dict "asset" "js/webinars.template.js") }}
 </main>{{ end }}
