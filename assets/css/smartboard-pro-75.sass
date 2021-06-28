@@ -15,15 +15,14 @@
   background-color: #F4F4F4
   +mobile
     min-height: 920px
-  .hero-body
-    padding: 0 1.5rem
-  .container
-    +desktop
-      transform: translateY(-2.5vw)
+  @media screen and ( min-width: 413px ) and ( max-width: 767px )
+    min-height: 880px
 .hero.is-75 .image.is-hero-bg img
   +mobile
+    object-position: 48% 80%
     height: 920px
-
+  @media screen and ( min-width: 413px ) and ( max-width: 767px )
+    height: 880px
 .section.is-carouseles
   background-color: #fff
   .glide-nav

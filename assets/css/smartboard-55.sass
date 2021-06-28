@@ -15,16 +15,20 @@
 
 .hero.is-55
   min-height: 1185px
-  padding: 0 1.5rem
   +until-widescreen
-    min-height: 830px
+    min-height: 920px
+  +touch
+    min-height: 1020px
   +mobile
-    min-height: 1446px
+    min-height: 1546px
   +tablet
+    padding: 0 1.5rem
     .hero-body
       max-width: 1440px
       +until-fullhd
         z-index: 29
+      @media screen and ( min-width: 1441px )
+        transform: translateY(-3.5vw)
     .hero-gallery-bg
       position: absolute
       z-index: 28
@@ -48,16 +52,16 @@
     +widescreen
       margin-top: 9vw
   .hero-gallery-bg
-    @media screen and (max-width: 1200px)
-      width: 680px
-      margin-right: -7rem
-      img
-        margin-top: 3.5rem
-    +until-widescreen
-      width: 460px
-      margin-right: -3rem
     img
       margin-top: 1rem
+    @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
+      width: 580px
+      margin-right: -5rem
+      img
+        margin-top: -1.5rem
+    +touch
+      width: 460px
+      margin-right: -3rem
     +widescreen
       margin-right: -6rem 
     @media screen and (min-width: 1580px)
@@ -73,10 +77,10 @@
       position: absolute
       z-index: 28
       width: calc(100% - 3rem)
-      margin-top: 925px
+      margin-top: 950px
       text-align: center
-    @media screen and (min-width: 413px)
-      margin-top: 1000px
+    @media screen and (min-width: 413px) and (max-width: 767px)
+      margin-top: 960px
     .button.is-photo-gallery
       margin: 0 auto
       font-weight: $vibe-bold
@@ -93,24 +97,18 @@
         border: 0
 .hero.is-55 .image.is-hero-bg img
   +mobile
-    height: 1290px
-  @media screen and ( min-width: 413px ) and ( max-width: 767px )
-    height: 1346px
+    height: 1446px
 
 
 .section.is-testimonial
   margin-top: -418px
   padding-bottom: 60px
   background: #F4F4F4
-  +until-widescreen
-    margin-top: -360px
-  +touch
-    margin-top: -400px
   +mobile
     margin-top: -421px
     padding-top: 0
-  @media screen and ( min-width: 413px ) and ( max-width: 767px )
-    margin-top: -341px
+  @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+    margin-top: -591px
   .testimonial-title
     position: relative
     margin-bottom: 48px

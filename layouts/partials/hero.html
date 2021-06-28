@@ -19,7 +19,7 @@
     <div class="container">
       <div class="title-text">
         <h4 class="subtitle">
-          {{ T .subtitle | markdownify }}
+          {{ default .subtitle ( T .subtitle ) | markdownify }}
         </h4>
         <h1 class="title">
           {{ T .title | markdownify }}

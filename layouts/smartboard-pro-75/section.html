@@ -152,7 +152,7 @@
     <div class="spec-mask" id="spec-mask"></div>
     <button class="button is-specs-chevron toggle-specs" data-target="specs">
       <a class="see-all" id="feature-see-all">
-        {{ T .see_all }}
+        {{ default .see_all ( T .see_all ) }}
       </a>
     </button>
   </div>
