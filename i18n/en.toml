@@ -1261,7 +1261,7 @@ other = "See a Demo"
 other = "Take Your Teamwork to the Next Level"
 
 [i18n-content-55-_index-hero-body]
-other = """With the Vibe 55” interactive whiteboard, any conference room, classroom, or spontaneous
+other = """With the Vibe 55″ interactive whiteboard, any conference room, classroom, or spontaneous
  huddle is transformed into a dynamic collaborative space. """
 
 [i18n-content-55-_index-hero-cta-title]
@@ -1326,8 +1326,9 @@ other = "Learn more →"
 other = "Work with the best productivity tools"
 
 [i18n-content-55-_index-apps-body]
-other = """Vibe helps companies effectively collaborate across expanding Google and Microsoft-based ecosystems (among others). 
-Stick to the apps that your team already knows and loves."""
+other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to 
+ helping companies effectively collaborate across expanding business and IT ecosystems, 
+ from Microsoft to Google and beyond."""
 
 [i18n-content-55-_index-apps-cta-title]
 other = "See all app integrations →"

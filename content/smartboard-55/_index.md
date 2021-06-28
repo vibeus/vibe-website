@@ -1,7 +1,7 @@
 ---
 title: 55 Specs for Vibe, a digital touchscreen whiteboard
 description: Vibe digital whiteboard is a 55" 4k touchscreen display built for real-time remote collaboration. Vibe's large touch screen tablet has built-in whiteboarding.
-url: /vibe-smartboard-55
+url: /product/vibe-smartboard-55
 stylesPath: css/smartboard-55.sass
 hero:
   class: is-55
@@ -99,8 +99,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-1.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_0-features-title
-        body1: "\"Capture your thoughts and express ideas naturally with visual elements.\""
-        body2: "\"Seamlessly collaborate in real time on whichever devices work best for your team.\""
+        body1: "Capture your thoughts and express ideas naturally with visual elements."
+        body2: "Seamlessly collaborate in real time on whichever devices work best for your team."
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
@@ -109,8 +109,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-2.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_1-features-title
-        body1: "\"Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps.\""
-        body2: "\"Make your meetings more dynamic with split screens. You can be on a video call while taking notes on the board.\""
+        body1: "Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps."
+        body2: "Make your meetings more dynamic with split screens. You can be on a video call while taking notes on the board."
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
@@ -119,8 +119,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-3.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_2-features-title
-        body1: "\"Fluidly mirror your screen to Vibe via HDMI or wireless casting.\""
-        body2: "\"Dynamically edit or annotate on any file type during your presentation.\""
+        body1: "Fluidly mirror your screen to Vibe via HDMI or wireless casting."
+        body2: "Dynamically edit or annotate on any file type during your presentation."
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
