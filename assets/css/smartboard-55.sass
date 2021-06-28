@@ -52,8 +52,9 @@
     +widescreen
       margin-top: 9vw
   .hero-gallery-bg
-    img
-      margin-top: 1rem
+    @media screen and ( max-width: 1441px )
+      img
+        margin-top: 1rem
     @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
       width: 580px
       margin-right: -5rem
@@ -64,12 +65,13 @@
       margin-right: -3rem
     +widescreen
       margin-right: -6rem 
-    @media screen and (min-width: 1580px)
+    @media screen and ( min-width: 1600px )
       width: 820px
-      margin-right: 8%
+    @media screen and ( min-width: 1921px )
+      margin-right: 6%
       img
-        margin-top: -3.5rem
-    @media screen and (min-width: 2879px)
+        margin-top: -2.5rem
+    @media screen and ( min-width: 2879px )
       width: 820px
       margin-right: 21%
   .photo-gallery
