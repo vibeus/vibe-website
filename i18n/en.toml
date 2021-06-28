@@ -1274,25 +1274,25 @@ other = "Order a Vibe"
 other = "Photo gallery"
 
 [i18n-content-55-_index-feature_section-title]
-other = "The all-in-one 55″ digital whiteboard for the modern workspace"
+other = "A more immersive and productive way to work"
 
 [i18n-content-55-_index-feature_section-features-items-i_0-title]
 other = "4K UHD display"
 
 [i18n-content-55-_index-feature_section-features-items-i_0-body]
-other = "Everything looks stunningly sharp on the screen."
+other = "Stunning sharpness and clarity."
 
 [i18n-content-55-_index-feature_section-features-items-i_1-title]
-other = "10 Multi-touch points"
+other = "10 simultaneous touchpoints"
 
 [i18n-content-55-_index-feature_section-features-items-i_1-body]
-other = "Multiple team members can interact with the screen simultaneously via touch or stylus."
+other = "Multiple team members can work together using touch or stylus."
 
 [i18n-content-55-_index-feature_section-features-items-i_2-title]
 other = "8ms response time"
 
 [i18n-content-55-_index-feature_section-features-items-i_2-body]
-other = "Brings you a fluent and instantaneous writing experience."
+other = "The writing process feels fluid and completely natural."
 
 [i18n-content-55-_index-feature_section-features-i_1-title]
 other = "Transform your office into a flexible collaborative space"
@@ -1301,19 +1301,19 @@ other = "Transform your office into a flexible collaborative space"
 other = "Vibe takes less than 5 minutes to install. With Vibe's portable stand, any room becomes a dynamic huddle space."
 
 [i18n-content-55-_index-carousel_section-carousel-i_0-title]
-other = "Unleash your creativity on a shared Canvas"
+other = "Unleash your creativity"
 
 [i18n-content-55-_index-carousel_section-carousel-i_0-features-title]
 other = "True collaboration software for wherever you work"
 
 [i18n-content-55-_index-carousel_section-carousel-i_1-title]
-other = "True collaboration software for wherever you work"
+other = "Collaborate better, wherever you work"
 
 [i18n-content-55-_index-carousel_section-carousel-i_1-features-title]
 other = "Turn video conferences into engaging conversations"
 
 [i18n-content-55-_index-carousel_section-carousel-i_2-title]
-other = "True collaboration software for wherever you work"
+other = "Activate your presentations"
 
 [i18n-content-55-_index-carousel_section-carousel-i_2-features-title]
 other = "Present, annotate, and wow your audience"
@@ -1544,16 +1544,6 @@ other = "See a demo"
 [i18n-content-55-_index-bottom_cta-cta-buttons-i_1-title]
 other = "Order now"
 
-[i18n-content-75-_index-hero-title]
-other = "The Center of Your Hybrid Workspace"
-
-[i18n-content-75-_index-hero-body]
-other = """Remote collaboration made real with our latest digital whiteboard, the Vibe Pro 75″. 
-A powerful interactive whiteboard with smart software for your next big meeting and beyond."""
-
-[i18n-content-75-_index-hero-cta-title]
-other = "Pre-order now"
-
 [i18n-content-55-_index-testimonial_section-title]
 other = "Trusted by 900+ companies all over the world"
 
@@ -1616,8 +1606,18 @@ other = """Rob Karlinsey,
 
  City Manager, City of Kenmore, Washington"""
 
+[i18n-content-75-_index-hero-title]
+other = "The Center of Your Hybrid Workspace"
+
+[i18n-content-75-_index-hero-body]
+other = """Remote collaboration made real with our latest digital whiteboard, the Vibe Pro 75″. 
+A powerful interactive whiteboard with smart software for your next big meeting and beyond."""
+
+[i18n-content-75-_index-hero-cta-title]
+other = "Pre-order now"
+
 [i18n-content-75-_index-carousel_section-carousel-i_0-title]
-other = "Unleash your creativity on a shared Canvas"
+other = "Turn inspiration into reality"
 
 [i18n-content-75-_index-carousel_section-carousel-i_0-body]
 other = "Comfortably allows 2-4 people to write on the board at the same time"
@@ -1635,7 +1635,7 @@ other = "Effortlessly save your session to the Cloud"
 other = "Don't worry about losing a great idea. Save your Canvas as a static PDF to cloud drives."
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-title]
-other = "Expansive digital display for conference rooms"
+other = "Better collaboration from anywhere"
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-body]
 other = "Powerful display for 10+ people in medium to large conference room settings"
@@ -1653,7 +1653,7 @@ other = "Share the whiteboard with your remote team"
 other = "Simultaneously share the whiteboard with your team and join the board from phones, tablets and PCs."
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-title]
-other = "Engage your large audience with WOW presentations"
+other = "Presentations with a wow factor"
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-body]
 other = "Clear views from everyone, even from across the room"
@@ -1737,8 +1737,9 @@ other = "0"
 other = "Work with the best productivity tools"
 
 [i18n-content-75-_index-apps-body]
-other = """Vibe helps companies effectively collaborate across expanding Google and Microsoft-based 
-ecosystems (among others). Stick to the apps that your team already knows and loves."""
+other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to 
+ helping companies effectively collaborate across expanding business and IT ecosystems, 
+ from Microsoft to Google and beyond."""
 
 [i18n-content-75-_index-apps-cta-title]
 other = "See all app integrations →"

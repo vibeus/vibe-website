@@ -15,6 +15,11 @@
   background-color: #F4F4F4
   +mobile
     min-height: 920px
+  .hero-body
+    padding: 0 1.5rem
+  .container
+    +desktop
+      transform: translateY(-2.5vw)
 .hero.is-75 .image.is-hero-bg img
   +mobile
     height: 920px
@@ -31,14 +36,12 @@
       top: 53%
       opacity: 1
   .glide-dots
-    +mobile
-      top: 180px
-    @media screen and ( min-width: 413px ) and ( max-width: 767px )
-      top: 183px
     +touch
-      top: 185px
+      top: 105px
+    +mobile
+      top: 140px
     +desktop
-      top: 145px
+      top: 93px
   .carousel > .content
     margin: 0 auto
     text-align: center

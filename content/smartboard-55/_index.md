@@ -128,6 +128,7 @@ carousel_section:
 apps:
   title: i18n-content-55-_index-apps-title
   body: i18n-content-55-_index-apps-body
+  body_mobile : "No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. "
   cta:
     title: i18n-content-55-_index-apps-cta-title
     url: /android-app-store

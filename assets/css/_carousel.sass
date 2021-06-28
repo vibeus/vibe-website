@@ -13,20 +13,22 @@
         width: 5rem
         height: 5rem
   .title.is-section-title
-    max-width: 633px
+    max-width: 846px
     margin: 0 auto 1rem
     font-size: 48px
     text-align: center
     +touch
-      width: 330px
+      max-width: 540px
       font-weight: $vibe-bold
       font-size: 32px
       line-height: 40px
+    +mobile
+      max-width: 340px
   .content
     max-width: 773px
     text-align: left
     +touch
-      width: 331px
+      max-width: 361px
   .is-carousel-img
     z-index: -1
     margin-top: 4rem
@@ -45,6 +47,8 @@
         width: 90vw
         margin: 0 auto
       .main
+        &:hover
+          transform: translateY(-1rem)
         max-width: 1102px
         margin: 0 auto
         padding: 40px 27px 0
