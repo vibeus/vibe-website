@@ -5,7 +5,7 @@ url: /vibe-smartboard-55
 stylesPath: css/smartboard-55.sass
 hero:
   class: is-55
-  subtitle: i18n-content-55-_index-hero-subtitle
+  subtitle: "Vibe 55″ Digital Whiteboard"
   title: i18n-content-55-_index-hero-title
   body: i18n-content-55-_index-hero-body
   bg: img/smartboard-55/hero-bg.png
@@ -40,43 +40,38 @@ testimonial_section:
   testimonials:
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-1.png
-        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_0-author-bold_name
         name: i18n-content-55-_index-testimonial_section-testimonials-i_0-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_0-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_0-body
-      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_0-body_mobile
+      body_mobile: "\"Vibe has enabled me to communicate in more ways, making me more effective and valuable.\""
       figure: img/smartboard-55/testimonials/testimonial-left-1.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-2.png
-        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_1-author-bold_name
         name: i18n-content-55-_index-testimonial_section-testimonials-i_1-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_1-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_1-body
-      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_1-body_mobile
+      body_mobile: "\"The Vibe board makes sure everyone's on the same page.\""
       figure: img/smartboard-55/testimonials/testimonial-left-2.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-3.png
-        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_2-author-bold_name
         name: i18n-content-55-_index-testimonial_section-testimonials-i_2-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_2-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_2-body
-      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_2-body_mobile
+      body_mobile: "\"Tools like Vibe are definitely the future of events…creating that true live interaction.\""
       figure: img/smartboard-55/testimonials/testimonial-left-3.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-4.png
-        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_3-author-bold_name
         name: i18n-content-55-_index-testimonial_section-testimonials-i_3-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_3-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_3-body
-      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_3-body_mobile
+      body_mobile: "\"Now it’s just second nature, running the Vibe board. I felt like it was a face-to-face lecture.\""
       figure: img/smartboard-55/testimonials/testimonial-left-4.png
     - author:
         logo: img/smartboard-55/testimonials/testimonial-logo-5.png
-        bold_name: i18n-content-55-_index-testimonial_section-testimonials-i_4-author-bold_name
         name: i18n-content-55-_index-testimonial_section-testimonials-i_4-author-name
       title: i18n-content-55-_index-testimonial_section-testimonials-i_4-title
       body: i18n-content-55-_index-testimonial_section-testimonials-i_4-body
-      body_mobile: i18n-content-55-_index-testimonial_section-testimonials-i_4-body_mobile
+      body_mobile: "\"You can invite remote coworkers to collaborate on the board in real time. Vibe is a gamechanger.\""
       figure: img/smartboard-55/testimonials/testimonial-left-5.png
     
 feature_section:
@@ -104,8 +99,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-1.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_0-features-title
-        body1: i18n-content-55-_index-carousel_section-carousel-i_0-features-body1
-        body2: i18n-content-55-_index-carousel_section-carousel-i_0-features-body2
+        body1: "\"Capture your thoughts and express ideas naturally with visual elements.\""
+        body2: "\"Seamlessly collaborate in real time on whichever devices work best for your team.\""
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
@@ -114,8 +109,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-2.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_1-features-title
-        body1: i18n-content-55-_index-carousel_section-carousel-i_1-features-body1
-        body2: i18n-content-55-_index-carousel_section-carousel-i_1-features-body2
+        body1: "\"Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps.\""
+        body2: "\"Make your meetings more dynamic with split screens. You can be on a video call while taking notes on the board.\""
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
@@ -124,8 +119,8 @@ carousel_section:
       figure_mobile: img/smartboard-55/carousel-mobile-3.png
       features2:
         title: i18n-content-55-_index-carousel_section-carousel-i_2-features-title
-        body1: i18n-content-55-_index-carousel_section-carousel-i_2-features-body1
-        body2: i18n-content-55-_index-carousel_section-carousel-i_2-features-body2
+        body1: "\"Fluidly mirror your screen to Vibe via HDMI or wireless casting.\""
+        body2: "\"Dynamically edit or annotate on any file type during your presentation.\""
         cta:
           title: i18n-content-55-_index-carousel-cta-title
           url: /software/
@@ -391,9 +386,9 @@ bottom_cta:
   title: i18n-content-55-_index-bottom_cta-title
   cta:
     buttons:
-      - title: i18n-content-55-_index-bottom_cta-cta-title1
+      - title: i18n-content-55-_index-bottom_cta-cta-buttons-i_0-title
         dark_to_light: true
         url: /demo/
-      - title: i18n-content-55-_index-bottom_cta-cta-title2
+      - title: i18n-content-55-_index-bottom_cta-cta-buttons-i_1-title
         url: /order/global-sales/
 ---

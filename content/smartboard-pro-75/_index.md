@@ -5,7 +5,7 @@ url: /vibe-smartboard-pro-75
 stylesPath: css/smartboard-pro-75.sass
 hero:
   class: is-75
-  subtitle: i18n-content-75-_index-hero-subtitle
+  subtitle: "Vibe Pro 75″ Digital Whiteboard"
   title: i18n-content-75-_index-hero-title
   body: i18n-content-75-_index-hero-body
   bg: img/smartboard-pro-75/hero-bg.png
@@ -197,7 +197,7 @@ security:
     url: /security/
 spec:
   title: i18n-content-75-_index-spec-title
-  see_all: i18n-content-75-_index-spec-see_all
+  see_all: "See all specs ↓"
   columns:
     - - title: i18n-content-75-_index-spec-columns-i_0-i_0-title
         items:
@@ -349,9 +349,9 @@ bottom_cta:
   title: i18n-content-75-_index-bottom_cta-title
   cta:
     buttons:
-      - title: i18n-content-75-_index-bottom_cta-cta-title1
+      - title: i18n-content-75-_index-bottom_cta-cta-buttons-i_0-title
         dark_to_light: true
         url: /order/pre-order/
-      - title: i18n-content-75-_index-bottom_cta-cta-title2
+      - title: i18n-content-75-_index-bottom_cta-cta-buttons-i_1-title
         url: /contact/
 ---
