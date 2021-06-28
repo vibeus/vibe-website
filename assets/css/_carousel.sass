@@ -47,8 +47,13 @@
         width: 90vw
         margin: 0 auto
       .main
+        transition: all .6s ease .1s
         &:hover
           transform: translateY(-1rem)
+          transition: transform .6s ease .1s
+          -moz-transition: transform .6s ease .1s
+          -webkit-transition: transform .6s ease .1s
+          -o-transition: transform .6s ease .1s
         max-width: 1102px
         margin: 0 auto
         padding: 40px 27px 0

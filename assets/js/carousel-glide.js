@@ -2,7 +2,7 @@ const glides = document.querySelectorAll('.carouseles .glide');
 glides.forEach((el) => {
   const glide = new Glide(el, {
     type: 'carousel',
-    autoplay: 500000,
+    autoplay: 3000,
   });
 
   const dots = Array.from(
