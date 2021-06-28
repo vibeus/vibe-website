@@ -96,7 +96,7 @@
 <section class="section is-carouseles {{ with .class }} {{ . }}{{ end }}">
   {{ $glide := gt (len .carouseles) 1 }}
   {{ if $glide }}
-    {{ partial "glide" (dict "class" "carouseles" "partial" "carousel" "context" .carouseles "is_rectangle_dots" .is_rectangle_dots) }}
+    {{ partial "glide" (dict "class" "carouseles" "partial" "carousel" "context" .carouseles "is_rectangle_dots" .is_rectangle_dots "is_75_glide_dots" .is_75_glide_dots) }}
   {{ else }}
     {{ range .carouseles }}
       {{ partial "carousel" . }}
@@ -106,25 +106,7 @@
 {{ end }}
 
 {{ with .Params.apps }}
-<section class="section is-apps">
-  <div class="container">
-    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
-    {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
-    <div class="see-all">
-      {{ with .cta }}
-        <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
-      {{ end }}
-    </div>
-    {{ $glide := gt (len .groups) 1 }}
-    {{ if $glide }}
-      {{ partial "glide" (dict "class" "groups" "partial" "apps-groups" "context" .groups) }}
-    {{ else }}
-      {{ range .groups }}
-        {{ partial "apps-groups" . }}
-      {{ end }}
-    {{ end }}
-  </div>
-</section>
+{{ partial "apps" .}}
 {{ end }}
 
 {{ with .Params.security }}
