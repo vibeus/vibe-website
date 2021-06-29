@@ -37,7 +37,7 @@ When implementing a hybrid learning model in the classroom, having a high-speed 
 
 ### Video collaboration technology
 
-Video collaboration technology is a core piece for hybrid learning strategies that focus on student-centered learning. Students who can’t see each other will have a difficult time engaging and interacting. The [video collaboration hardware](https://vibe.us/lp/scenario-remote/) and software that you choose should offer more than simply recording video; it should **encourage active, synchronous collaboration.**
+Video collaboration technology is a core piece for hybrid learning strategies that focus on student-centered learning. Students who can’t see each other will have a difficult time engaging and interacting. The [video collaboration hardware](https://vibe.us/lp/scenario-remote/) and software that you choose should offer more than simply recording video. It should **encourage active, synchronous collaboration.**
 
 ### Cameras
 
@@ -83,7 +83,7 @@ Touch monitors are great for encouraging interactivity in a hybrid learning clas
 
 ### Tablets
 
-Tablets may be more limited than a computer, but they are still highly functional and extremely portable. You shouldn’t rely on tablets as a primary teaching source in the classroom, but they are great for note-taking, reading, and other non-intensive activities.
+Tablets may be more limited than a computer, but they are still highly functional and extremely portable. While you shouldn’t necessarily rely on tablets as a primary teaching source in the classroom, they are a great option for note-taking, reading, and other non-intensive activities.
 
 ### Smartphones
 
