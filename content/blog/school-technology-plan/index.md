@@ -1,5 +1,5 @@
 ---
-title: Help Your School Rollout New Tech With These Essential Steps
+title: Help Your School Roll Out New Tech With These Essential Steps
 slug: school-technology-plan
 author: Paige Smith
 date: '2021-06-30'

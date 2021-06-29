@@ -8,7 +8,7 @@ tags:
 - Education
 - Hybrid Learning
 - Tech Tools
-draft: true
+draft: false
 isfeatured: false
 description: Exactly what kind of hybrid learning technology does your classroom need? Learn what your students can benefit
   from with this guide.
@@ -105,7 +105,7 @@ Using a learning management system (LMS) offers numerous advantages in hybrid le
 
 There is a variety of learning management systems to choose from, all offering various levels of collaboration and interactivity. Make sure that your school’s preferred LMS is compatible with any new hardware or accessories you choose for your classroom.
 
-***Related*: [Simplify Hybrid Learning With Our Favorite Apps and Tools](https://vibe.us/blog/hybrid-learning-tools)**
+***Related*: [Simplify Hybrid Learning With Our Favorite Apps and Tools](https://vibe.us/blog/hybrid-learning-tools/)**
 
 ## Invest in tech to design your hybrid learning environment
 
