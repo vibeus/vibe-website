@@ -97,33 +97,30 @@ carousel_section:
     - title: i18n-content-55-_index-carousel_section-carousel-i_0-title
       figure: img/smartboard-55/carousel-1.png
       figure_mobile: img/smartboard-55/carousel-mobile-1.png
-      features2:
-        title: i18n-content-55-_index-carousel_section-carousel-i_0-features-title
-        body1: "Capture your thoughts and express ideas naturally with visual elements."
-        body2: "Seamlessly collaborate in real time on whichever devices work best for your team."
-        cta:
-          title: i18n-content-55-_index-carousel-cta-title
-          url: /software/
+      features:
+        - body: "Capture your thoughts and express ideas naturally with visual elements."
+        - body: "Seamlessly collaborate in real time on whichever devices work best for your team."
+      cta:
+        title: i18n-content-55-_index-carousel-cta-title
+        url: /software/
     - title: i18n-content-55-_index-carousel_section-carousel-i_1-title
       figure: img/smartboard-55/carousel-2.png
       figure_mobile: img/smartboard-55/carousel-mobile-2.png
-      features2:
-        title: i18n-content-55-_index-carousel_section-carousel-i_1-features-title
-        body1: "Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps."
-        body2: "Make your meetings more dynamic with split screens. You can be on a video call while taking notes."
-        cta:
-          title: i18n-content-55-_index-carousel-cta-title
-          url: /software/
+      features:
+        - body: "Seamless 1-click meeting experience invites you to join with your favorite video conferencing apps."
+        - body: "Make your meetings more dynamic with split screens. You can be on a video call while taking notes."
+      cta:
+        title: i18n-content-55-_index-carousel-cta-title
+        url: /software/
     - title: i18n-content-55-_index-carousel_section-carousel-i_2-title
       figure: img/smartboard-55/carousel-3.png
       figure_mobile: img/smartboard-55/carousel-mobile-3.png
-      features2:
-        title: i18n-content-55-_index-carousel_section-carousel-i_2-features-title
-        body1: "Fluidly mirror your screen to Vibe via HDMI or wireless casting."
-        body2: "Dynamically edit or annotate on any file type during your presentation."
-        cta:
-          title: i18n-content-55-_index-carousel-cta-title
-          url: /software/
+      features:
+        - body: "Fluidly mirror your screen to Vibe via HDMI or wireless casting."
+        - body: "Dynamically edit or annotate on any file type during your presentation."
+      cta:
+        title: i18n-content-55-_index-carousel-cta-title
+        url: /software/
 
 apps:
   title: i18n-content-55-_index-apps-title
@@ -199,19 +196,12 @@ apps:
       - logo: img/apps/logo-group/55.jpg
       - logo: img/apps/logo-group/56.jpg
       - logo: img/apps/logo-group/57.jpg 
+      
 security:
   title: i18n-content-55-_index-security-title
-  figure: img/security/security-bg.png
-  figure_mobile: img/security/security-bg-mobile.png
-  items:
-    - title: i18n-content-55-_index-security-items-i_0-title
-      body: i18n-content-55-_index-security-items-i_0-body
-      figure: img/smartboard-55/security-1.png
-      alt_text: Storage on Vibe Cloud
-    - title: i18n-content-55-_index-security-items-i_1-title
-      body: i18n-content-55-_index-security-items-i_1-body
-      figure: img/smartboard-55/security-2.png
-      alt_text: Integrate popular applications
+  body: i18n-content-55-_index-security-body
+  figure: img/software/security.png
+  alt_text: Data protection for software security
   cta:
     title: i18n-content-55-_index-security-cta-title
     url: /security/
@@ -338,6 +328,7 @@ spec:
     title: i18n-content-55-_index-spec-cta-title
     class: is-black is-outlined is-rounded
     url: /resources/Vibe_Tech_Specs.pdf
+
 feature_columns:
   title: i18n-content-55-_index-feature_columns-title
   features:

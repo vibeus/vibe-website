@@ -17,30 +17,58 @@
     min-height: 920px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
     min-height: 880px
+  @media screen and ( min-width: 767px ) and ( max-width: 1279px )
+    .image
+      margin: 0 -10%
+      img
+        margin: 0 -10%
+  .hero-body
+    @media screen and ( min-width: 767px ) and ( max-width: 1279px )
+      padding: 3rem 0
+    +mobile
+      +lang-override(".lang-zh")
+        .title-text 
+          .title p
+            font-size: 42px
+          p
+            font-size: 16px
+      .cta .button .icon
+        height: 0.7em
+        width: 0.7em
+        margin-left: 7px
+    +fullhd
+      .container .title-text p
+        max-width: 420px 
+  .container
+    margin: 0 auto
 .hero.is-75 .image.is-hero-bg img
   +mobile
     object-position: 48% 80%
     height: 920px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
     height: 880px
+  +fullhd
+    object-fit: contain
+
+
 .section.is-carouseles
   background-color: #fff
   .glide-nav
     display: unset
-    top: 43%
+    top: 40%
     +touch
-      top: 50%
+      top: 34%
       opacity: 1
     +mobile
-      top: 53%
+      top: 47%
       opacity: 1
   .glide-dots
     +touch
-      top: 105px
+      top: 38px
     +mobile
-      top: 140px
+      top: 80px
     +desktop
-      top: 93px
+      top: 54px
   .carousel > .content
     margin: 0 auto
     text-align: center
@@ -50,7 +78,7 @@
 
 
 .section.is-overview
-  +vertical-padding(120px)
+  +vertical-padding(104px)
   +lang-override(".lang-zh")
     padding-top: 83px
   background: linear-gradient(180deg, #FFFFFF -22.14%, rgba(255, 255, 255, 0) 108.91%), #F4F4F4
@@ -130,7 +158,7 @@
 
 .section.is-chromium-os
   background: #FFCC00
-  +vertical-padding(120px)
+  +vertical-padding(104px)
   +lang-override(".lang-zh")
     padding-top: 83px
   &.is-lower
@@ -200,7 +228,7 @@
     max-width: 342px
 
 .section.is-spec
-  +vertical-padding(120px)
+  +vertical-padding(104px)
   background-color: #F4F4F4
   .title
     text-align: center
@@ -308,18 +336,7 @@
           height: 40px
           font-size: 16px
           line-height: 30px
-.hero
-  +mobile
-    +lang-override(".lang-zh")
-      .title-text 
-        .title p
-          font-size: 42px
-        p
-          font-size: 16px
-    .cta .button .icon
-      height: 0.7em
-      width: 0.7em
-      margin-left: 7px
+
 .section
   +mobile
     +lang-override(".lang-zh")

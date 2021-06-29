@@ -10,7 +10,7 @@
     {{ end }}
     <div class="columns">
       {{ range $idx, $val := .features }}
-      <div class="column{{ with .column_class }} {{ . }}{{ end }}">
+      <div class="column{{ with .column_class }} {{ . }}{{ end }} is-hidden-mobile ">
         <a class="is-feature-card"{{ with .url }} href="{{ . }}"{{ end }}
            {{ with .target }}target="{{ . }}"{{ end }}>
           <div class="is-feature is-feature-{{ $idx }}"
@@ -27,17 +27,13 @@
               </figure>
               <h2 class="title">{{ T .title | markdownify }}</h2>
             </div>
-            {{ with .cta }}
-            <div class="cta">
-              <span class="button{{ with .class }} {{ . }}{{ end }}">
-                {{ default .title (T .title) }}
-              </span>
-            </div>
-            {{ end }}
           </div>
         </a>
       </div>
       {{ end }}
+      <div class="is-hidden-tablet">
+        {{ partial "glide" (dict "class" "features" "partial" "feature-columns-column" "context" .features) }}
+      </div>
     </div>
 
     {{ with .cta }}

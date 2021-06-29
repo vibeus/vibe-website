@@ -20,7 +20,6 @@ carousel_section:
   is_75_glide_dots: true
   carouseles:
     - title: i18n-content-75-_index-carousel_section-carousel-i_0-title
-      body: i18n-content-75-_index-carousel_section-carousel-i_0-body
       figure: img/smartboard-pro-75/carousel-1.png
       figure_mobile: img/smartboard-pro-75/carousel-mobile-1.png
       features:
@@ -32,7 +31,6 @@ carousel_section:
         title: i18n-content-75-_index-carousel-cta-title
         url: /software/
     - title: i18n-content-75-_index-carousel_section-carousel-i_1-title
-      body: i18n-content-75-_index-carousel_section-carousel-i_1-body
       figure: img/smartboard-pro-75/carousel-2.png
       figure_mobile: img/smartboard-pro-75/carousel-mobile-2.png
       features:
@@ -44,7 +42,6 @@ carousel_section:
         title: i18n-content-75-_index-carousel-cta-title
         url: /software/
     - title: i18n-content-75-_index-carousel_section-carousel-i_2-title
-      body: i18n-content-75-_index-carousel_section-carousel-i_2-body
       figure: img/smartboard-pro-75/carousel-3.png
       figure_mobile: img/smartboard-pro-75/carousel-mobile-3.png
       features:

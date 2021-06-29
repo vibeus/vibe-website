@@ -1339,23 +1339,14 @@ other = """No need to break the bank on compatible apps. You can stick with the 
 other = "See all app integrations →"
 
 [i18n-content-55-_index-security-title]
-other = "Easily secure your data and devices"
-
-[i18n-content-55-_index-security-items-i_0-title]
 other = "We are serious about security"
 
-[i18n-content-55-_index-security-items-i_0-body]
-other = """We take privacy and data security very seriously. We’ve taken a number
- of steps to make sure that your information is always safe."""
-
-[i18n-content-55-_index-security-items-i_1-title]
-other = "Fleet Management"
-
-[i18n-content-55-_index-security-items-i_1-body]
-other = "Use the Vibe Admin Console to create and push device, user and app policies."
+[i18n-content-55-_index-security-body]
+other = """Carefully vetted security apps, remotely-stored personal information, trusted identity providers,
+AES-256 encryption and AWS S3 storage work together to keep your intellectual property safe and secure."""
 
 [i18n-content-55-_index-security-cta-title]
-other = "Learn more about security"
+other = "Learn more →"
 
 [i18n-content-55-_index-spec-title]
 other = "View Tech Specs"
@@ -1637,8 +1628,9 @@ other = """Rob Karlinsey,
 other = "The Center of Your Hybrid Workspace"
 
 [i18n-content-75-_index-hero-body]
-other = """Remote collaboration made real with our latest digital whiteboard, the Vibe Pro 75″. 
-A powerful interactive whiteboard with smart software for your next big meeting and beyond."""
+other = """With an expansive 75” touchscreen and the power of an Intel i5 processor, the 
+Vibe Pro 75” brings big ideas to life. Connect remote teams, collaborate in real time, 
+and take presentations to a new level. """
 
 [i18n-content-75-_index-hero-cta-title]
 other = "Pre-order now"
@@ -1653,13 +1645,12 @@ other = "Comfortably allows 2-4 people to write on the board at the same time"
 other = "Visual collaboration in real time from any device"
 
 [i18n-content-75-_index-carousel_section-carousel-i_0-features-i_0-body]
-other = "Vibe Canvas software designed specifically for Vibe board to ensure optimal integration."
-
+other = "Capture your thoughts and express ideas naturally with smart drawings."
 [i18n-content-75-_index-carousel_section-carousel-i_0-features-i_1-title]
 other = "Effortlessly save your session to the Cloud"
 
 [i18n-content-75-_index-carousel_section-carousel-i_0-features-i_1-body]
-other = "Don't worry about losing a great idea. Save your Canvas as a static PDF to cloud drives."
+other = "Keep all your ideas easily accessible. Jump back into a saved session to keep the ideas flowing."
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-title]
 other = "Better collaboration from anywhere"
@@ -1671,13 +1662,12 @@ other = "Powerful display for 10+ people in medium to large conference room sett
 other = "Seamless 1-click meeting experience"
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_0-body]
-other = "Click to join. You meeting seamlessly begins with your favorite video conferencing apps."
-
+other = "Make your meetings more dynamic. Annotate, take notes, and create together during calls."
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-title]
 other = "Share the whiteboard with your remote team"
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-body]
-other = "Simultaneously share the whiteboard with your team and join the board from phones, tablets and PCs."
+other = "Seamless video conferencing allows you to annotate, take notes, and create together during remote meetings."
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-title]
 other = "Presentations with a wow factor"
@@ -1689,13 +1679,12 @@ other = "Clear views from everyone, even from across the room"
 other = "One-click to present, share, and educate"
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-features-i_0-body]
-other = "Seamlessly share and present by casting your screen in an instant."
-
+other = "Sizable enough to seize the attention of a large audience, even from across the room."
 [i18n-content-75-_index-carousel_section-carousel-i_2-features-i_1-title]
 other = "Emphasize and illustrate with easy-to-use annotation"
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-features-i_1-body]
-other = "Dynamically edit or annotate on any file type during your presentation."
+other = "Fluidly mirror your screen and dynamically annotate any file type while you present."
 
 [i18n-content-75-_index-carousel-cta-title]
 other = "Learn more →"

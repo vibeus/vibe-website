@@ -5,20 +5,20 @@
   background-color: #F4F4F4
   .carouseles
     margin: 0 auto
-    +touch
-      width: 100vw
     +tablet
-      max-width: 100vw
+      max-width: 80vw
       .is-large
         width: 5rem
         height: 5rem
+    +fullhd
+      max-width: 1158px
   .title.is-section-title
     max-width: 846px
     margin: 0 auto 1rem
     font-size: 48px
     text-align: center
     +touch
-      max-width: 540px
+      max-width: 565px
       font-weight: $vibe-bold
       font-size: 32px
       line-height: 40px
@@ -44,8 +44,11 @@
         margin: 0 2rem
         transform: translateY(-50%)
       +touch
+        width: 70vw
+        margin: -2rem auto 0
+      +mobile
         width: 90vw
-        margin: 0 auto
+
       .main
         transition: all .6s ease .1s
         &:hover
@@ -69,11 +72,10 @@
             flex-direction: column
             margin-bottom: 2rem
             padding: 0
-            +desktop
-              margin-right: 53px
-              margin-left: 53px
             +widescreen
               max-width: 410px
+              margin-right: 53px
+              margin-left: 53px
             .title
               font-size: 24px
               line-height: 30px

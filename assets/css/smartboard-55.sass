@@ -10,37 +10,53 @@
 @import "_product-apps.sass"
 @import "_product-carousel.sass"
 @import "_product-hero.sass"
-@import "_product-security.sass"
 @import "_product-feature-columns.sass"
 
 .hero.is-55
-  min-height: 1185px
-  +until-widescreen
-    min-height: 920px
-  +touch
-    min-height: 1020px
   +mobile
     min-height: 1546px
   +tablet
+    min-height: 82vw
     padding: 0 1.5rem
     .hero-body
-      max-width: 1440px
+      margin: 0 auto
+      max-width: 600px
       +until-fullhd
         z-index: 27
-      @media screen and ( min-width: 1441px )
-        transform: translateY(-3.5vw)
+    .container
+      max-width: 600px
+      margin-left: -34vw
+      +touch
+        margin-left: -35%
+      +widescreen
+        margin-top: 3vw
+      @media screen and ( min-width: 1500px )
+        margin-top: 30px
+        margin-left: -522px
+    .title-text
+      +tablet
+        margin-top: 2vw
+      +desktop
+        margin-top: 3vw
+      @media screen and ( min-width: 1500px )
+        margin-top: 50px
     .hero-gallery-bg
       position: absolute
       z-index: 28
       top: 0
       right: 0
-      width: 780px
-      margin-top: -60px
-      margin-right: -3%
+      margin-top: -4.1vw
+      width: 54vw
       cursor: pointer
-
+      +fullhd
+        right: 3vw
+        margin-top: -60px
+      @media screen and ( min-width: 1920px )
+        right: 13vw
+      @media screen and ( min-width: 2400px )
+        right: 15vw
       .hero-gallery-img
-        height: 720px
+        min-height: 50vw
       .hero-gallery-img-hover
         display: none
     .hero-gallery-bg:hover
@@ -48,35 +64,22 @@
         display: none
       .hero-gallery-img-hover
         display: unset
-  .container .title-text
-    +widescreen
-      margin-top: 9vw
+  +fullhd
+    min-height: 1146px
   .hero-gallery-bg
-    @media screen and ( max-width: 1441px )
-      img
-        margin-top: 1rem
-    @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
-      width: 580px
-      margin-right: -5rem
-      img
-        margin-top: -1.5rem
     +touch
       width: 460px
       margin-right: -3rem
     +widescreen
       margin-right: -6rem 
-    @media screen and ( min-width: 1441px )
-      margin-right: -1rem
+    +fullhd
+      width: 720px
     @media screen and ( min-width: 1600px )
-      margin-right: 2%
-      width: 820px
-    @media screen and ( min-width: 1920px )
-      margin-right: 6%
-      img
-        margin-top: -2.5rem
-    @media screen and ( min-width: 2879px )
-      width: 820px
-      margin-right: 21%
+      margin-right: -1rem
+    @media screen and ( min-width: 2399px )
+      margin-right: 8rem
+    @media screen and ( min-width: 2879px ) 
+      margin-right: 18rem
   .photo-gallery
     +mobile
       position: absolute
@@ -106,14 +109,16 @@
 
 
 .section.is-testimonial
-  margin-top: -418px
   padding-bottom: 60px
   background: #F4F4F4
   +mobile
     margin-top: -421px
     padding-top: 0
-  @media screen and ( min-width: 767px ) and ( max-width: 1023px )
-    margin-top: -591px
+  +tablet
+    margin-top: -29vw
+  +fullhd
+    margin-top: -459px
+
   .testimonial-title
     position: relative
     margin-bottom: 48px
@@ -140,7 +145,7 @@
     display: none
 
 .section.is-overview
-  +vertical-padding(120px)
+  +vertical-padding(104px)
   +lang-override(".lang-zh")
     padding-top: 83px
   +mobile
@@ -210,13 +215,16 @@
 
 .section.is-carouseles
   .title.is-section-title
+    @media screen and ( min-width: 769px ) and ( max-width: 1025px ) 
+      font-size: 42px
     +mobile
       max-width: 328px
+    
   .glide-nav
     display: unset
-    top: 45%
+    top: 41%
     +touch
-      top: 42%
+      top: 36%
     +mobile
       top: 43%
       opacity: 1
@@ -236,11 +244,41 @@
           font-size: 30px
           line-height: 38px
           margin-bottom: 0
+  .cta
+    +tablet
+      margin-bottom: 2rem
+
+.section.is-security
+  position: relative
+  +vertical-padding(120px, 48px, 60px, 48px)
+  background-color: $vibe-black
+  *
+    color: white
+  .title.is-section-title
+    text-align: left
+    padding-right: 20px
+  .title.is-section-title, .content, .cta
+    +tablet
+      max-width: 500px
+      margin-left: auto
+  .content
+    margin-bottom: 3rem
+  .cta a
+    font-weight: $vibe-bold
+    &:hover
+      color: $primary
+    &:not(:hover)
+      color: $vibe-teal
+  .column.is-image
+    align-self: flex-end
+  .image
+    max-width: 690px
+    margin-right: -1.5rem
+    margin-bottom: -3rem
+
 
 .section.is-spec
-  +vertical-padding(120px)
-  padding-left: 0
-  padding-right: 0
+  padding: 64px 0 0
   background-color: $vibe-teal
   .container
     max-width: 1440px

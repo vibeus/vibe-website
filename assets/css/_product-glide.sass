@@ -59,12 +59,12 @@
   +desktop
     opacity: .1
   &.is-left
-    left: 2rem
-    +touch
+    left: -2rem
+    +mobile
       left: 0
   &.is-right
-    right: 2rem
-    +touch
+    right: -2rem
+    +mobile
       right: 0
   img
     cursor: pointer
@@ -98,7 +98,12 @@
   position: relative
   .glide-dots .icon:not(:last-child)
     margin-right: .25rem
-    
+
+.features
+  .glide-dots
+    margin-top: -14px
+    margin-bottom: -21px
+
 .groups
   position: relative
 

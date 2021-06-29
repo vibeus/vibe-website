@@ -110,7 +110,26 @@
 {{ end }}
 
 {{ with .Params.security }}
-{{ partial "security" .}}
+<section class="section is-security">
+  <div class="columns is-vcentered">
+    <div class="column">
+      <h1 class="title is-section-title">{{ T .title }}</h1>
+      <div class="content">
+        {{ T .body | markdownify }}
+      </div>
+      {{ with .cta }}
+      <div class="cta">
+        <a href="{{ .url | relLangURL }}">{{ T .title }}</a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="column is-image">
+      <figure class="image">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1380x" "mobile" "750x" "options" "jpg #111111") }}
+      </figure>
+    </div>
+  </div>
+</section>
 {{ end }}
 
 {{ with .Params.spec }}
@@ -188,7 +207,6 @@
 {{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
 {{ partial "common/template-script" (dict "asset" "js/smartboard-55.js") }}
 {{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
-{{ partial "common/template-script" (dict "asset" "js/apps-glide.js") }}
-{{ partial "common/template-script" (dict "asset" "js/carousel-glide.js") }}
+{{ partial "common/template-script" (dict "asset" "js/glide.js") }}
 {{ partial "common/template-script" (dict "asset" "js/customer-entry.js") }}
 </main>{{ end }}
