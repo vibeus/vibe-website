@@ -1491,9 +1491,8 @@ Vibe account from a Vibe board, computer browser, tablet or mobile phone (view o
 other = "Does Vibe shipping within the U.S.?"
 
 [i18n-content-55-_index-three_faqs-items2-i_0-body]
-other = """Shipping is free within the continental U.S. Depending on where you are located, shipping can take anywhere from 3-5 business days*.
-
-- *Due to COVID, shipping time is taking longer than usual - please expect 5-8 business days for shipping within the US."""
+other = """Shipping is free within the continental U.S. Due to COVID, shipping time is taking 
+longer than usual - please expect 5-8 business days for shipping within the US."""
 
 [i18n-content-55-_index-three_faqs-items2-i_1-title]
 other = "Does Vibe shipping to Canada?"
@@ -1501,7 +1500,7 @@ other = "Does Vibe shipping to Canada?"
 [i18n-content-55-_index-three_faqs-items2-i_1-body]
 other = """Vibe regularly ships to Canada. Shipping time is approximately 3-6 business days depending on your location in Canada.
 
-Shipping costs will be dependent on which product(s) and your location, so please use our **Request a Quote form** to get the most update 
+Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to get the most update 
 information on shipping costs for your province."""
 
 [i18n-content-55-_index-three_faqs-items2-i_2-title]
@@ -1511,7 +1510,7 @@ other = "Does Vibe offer shipping outside of the U.S. and Canada?"
 other = """Yes, Vibe boards can be shipped to most countries. Unfortunately, due to the impact of COVID, Vibe cannot 
 support shipping to India at this time.
 
-Shipping costs will be dependent on which product(s) and your location, so please use our **Request a Quote form** to 
+Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to 
 get the most update information on shipping costs for your province.
 
 You can also arrange your own shipping from your preferred carrier, with pick up from our warehouse in Southern California."""
