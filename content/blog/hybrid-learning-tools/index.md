@@ -3,8 +3,12 @@ title: Simplify Hybrid Learning With Our Favorite Apps and Tools
 slug: hybrid-learning-tools
 author: Paige Smith
 date: '2021-06-28'
-tags: []
-draft: true
+tags:
+- Distance Learning
+- Education
+- Hybrid Learning
+- Tech Tools
+draft: false
 isfeatured: false
 description: Whether students are in the classroom or online, educators can find the right hybrid learning tools for their
   class in this guide.
