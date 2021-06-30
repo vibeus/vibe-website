@@ -14,20 +14,19 @@
 .hero.is-75
   background-color: #F4F4F4
   +mobile
-    min-height: 867px
+    min-height: 860px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
-    min-height: 910px
+    min-height: 895px
   +tablet
-    min-height: 700px
     padding: 0 1.5rem
+    +widescreen
+      min-height: 700px
     .hero-body
       margin: 0 auto
       max-width: 600px
     .container
       max-width: 600px
       margin-left: -37vw
-      +touch
-        margin-left: -35%
       +fullhd
         margin-left: -562px
     .title-text
@@ -48,30 +47,27 @@
         margin-top: 40px
         margin-bottom: 40px
         right: 3vw
-      @media screen and ( min-width: 1920px )
-        right: 13vw
-      @media screen and ( min-width: 2400px )
-        right: 15vw
-  .hero-gallery-bg
-    +touch
-      width: 460px
-    +tablet
-      width: 631px
-    @media screen and ( min-width: 1600px )
-      margin-right: 4rem
-    @media screen and ( min-width: 2399px )
-      margin-right: 8rem
-    @media screen and ( min-width: 2879px ) 
-      margin-right: 18rem
+      +until-widescreen
+        width: 560px
+      +touch
+        width: 460px
+        margin-right: -4rem
+      +widescreen
+        width: 631px
+      @media screen and ( min-width: 1600px )
+        margin-right: 4rem
+      @media screen and ( min-width: 2399px )
+        margin-right: 8rem
+      @media screen and ( min-width: 2879px ) 
+        margin-right: 18rem
   .photo-gallery
     display: none
 .hero.is-75 .image.is-hero-bg img
   +mobile
-    object-position: 48% 50%
-    height: 820px
+    object-position: 48% 100%
+    height: 861px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
-    object-position: 48% 80%
-    height: 890px
+    height: 895px
 
 .section.is-carouseles
   background-color: #fff
