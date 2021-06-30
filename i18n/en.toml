@@ -1266,8 +1266,9 @@ other = "See a Demo"
 other = "Take Your Teamwork to the Next Level"
 
 [i18n-content-55-_index-hero-body]
-other = """With the Vibe 55″ interactive whiteboard, any conference room, classroom, or spontaneous
- huddle is transformed into a dynamic collaborative space. """
+other = """In person, remote, or hybrid—Vibe brings teams together. With the Vibe 55″ interactive 
+whiteboard, any conference room, classroom, or spontaneous huddle is transformed 
+into a dynamic collaborative space."""
 
 [i18n-content-55-_index-hero-cta-title]
 other = "See a demo"
@@ -1562,7 +1563,7 @@ other = "See a demo"
 other = "Order now"
 
 [i18n-content-55-_index-testimonial_section-title]
-other = "Trusted by 900+ companies all over the world"
+other = "Trusted by 1000+ companies all over the world"
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_0-title]
 other = "Sports Training and Coaching"
@@ -1649,7 +1650,7 @@ other = "Capture your thoughts and express ideas naturally with smart drawings."
 other = "Effortlessly save your session to the Cloud"
 
 [i18n-content-75-_index-carousel_section-carousel-i_0-features-i_1-body]
-other = "Keep all your ideas easily accessible. Jump back into a saved session to keep the ideas flowing."
+other = "Seamlessly collaborate in real time on any device, from anywhere in the world."
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-title]
 other = "Better collaboration from anywhere"
@@ -1661,12 +1662,13 @@ other = "Powerful display for 10+ people in medium to large conference room sett
 other = "Seamless 1-click meeting experience"
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_0-body]
-other = "Make your meetings more dynamic. Annotate, take notes, and create together during calls."
+other = "Seamless video conferencing allows you to annotate, take notes, and create together during remote meetings."
+
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-title]
 other = "Share the whiteboard with your remote team"
 
 [i18n-content-75-_index-carousel_section-carousel-i_1-features-i_1-body]
-other = "Seamless video conferencing allows you to annotate, take notes, and create together during remote meetings."
+other = "Keep all your ideas easily accessible. Jump back into a saved session to keep the ideas flowing."
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-title]
 other = "Presentations with a wow factor"
@@ -1679,6 +1681,7 @@ other = "One-click to present, share, and educate"
 
 [i18n-content-75-_index-carousel_section-carousel-i_2-features-i_0-body]
 other = "Sizable enough to seize the attention of a large audience, even from across the room."
+
 [i18n-content-75-_index-carousel_section-carousel-i_2-features-i_1-title]
 other = "Emphasize and illustrate with easy-to-use annotation"
 

@@ -2,9 +2,9 @@
   <div class="container">
     {{ if .title }}
     <div class="header">
-      <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
+      <h1 class="title is-section-title">{{ default .title (T .title) | markdownify }}</h1>
       {{ with .body }}
-      <div class="body">{{ default . (T .) }}</div>
+      <div class="body">{{ default . (T .) | markdownify }}</div>
       {{ end }}
     </div>
     {{ end }}
@@ -25,7 +25,7 @@
                 {{ end }}
                 {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
               </figure>
-              <h2 class="title">{{ T .title | markdownify }}</h2>
+              <h2 class="title">{{ default .title ( T .title ) | markdownify }}</h2>
             </div>
           </div>
         </a>
