@@ -124,7 +124,10 @@
       {{ end }}
     </div>
     <div class="column is-image">
-      <figure class="image">
+      <figure class="image is-hidden-ge1920">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure_cutted) "desktop" "1380x" "mobile" "750x" "options" "jpg #111111") }}
+      </figure>
+      <figure class="image is-hidden-le1919">
         {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1380x" "mobile" "750x" "options" "jpg #111111") }}
       </figure>
     </div>

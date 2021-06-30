@@ -277,8 +277,12 @@
     margin-bottom: -3rem
     @media screen and ( max-width: 1919px )
       margin-left: auto
-
-
+  .image.is-hidden-le1919
+    @media screen and ( max-width: 1919px )
+      display: none
+  .image.is-hidden-ge1920
+    @media screen and ( min-width: 1920px )
+      display: none
 .section.is-spec
   padding: 64px 0 0
   background-color: $vibe-teal

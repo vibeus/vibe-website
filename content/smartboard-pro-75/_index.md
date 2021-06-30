@@ -329,7 +329,7 @@ feature_columns:
       figure: img/smartboard-pro-75/feature-columns-2.png
   cta:
     title: i18n-content-75-_index-feature_columns-cta-title
-    url: /order/global-sales/
+    url: /order/pre-order/
 
 faq:
   title: i18n-content-75-_index-faq-title

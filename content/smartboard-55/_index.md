@@ -200,7 +200,8 @@ apps:
 security:
   title: i18n-content-55-_index-security-title
   body: i18n-content-55-_index-security-body
-  figure: img/software/security.png
+  figure: img/smartboard-55/security.png
+  figure_cutted: img/smartboard-55/security-cutted.png
   alt_text: Data protection for software security
   cta:
     title: i18n-content-55-_index-security-cta-title
