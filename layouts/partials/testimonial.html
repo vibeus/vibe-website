@@ -1,0 +1,38 @@
+<div class="testimonial">
+  <figure class="testimonial-left-image is-hidden-mobile">
+    {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "420x" "mobile" "420x") }}
+  </figure>
+  <div class="testimonial-content">
+    <div class="content">
+      <div class="content-title">{{ default .title (T .title) | markdownify }} </div>
+      <div class="content-body is-hidden-mobile">{{ default .body (T .body) | markdownify }} </div>
+      <div class="content-body is-hidden-tablet">{{ default .body_mobile (T .body_mobile) | markdownify }} </div>
+    </div>
+  
+    {{ with .author }}
+    <div class="author">
+      <div class="logo-name{{ if .name }} has-name{{ end }}{{ if .logo }} has-logo{{ end }}">
+        {{ if .name }}
+        <div class="name">
+          {{ default .name (T .name) | markdownify }}
+        </div>
+        {{ end }}
+        {{ if .logo }}
+        <div class="logo">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .logo) "desktop" "420x" "mobile" "420x") }}
+          </figure>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  
+    {{ with .url }}
+    <div class="more">
+      <a href="{{ . | relLangURL }}">Read more →</a>
+    </div>
+    {{ end }}
+  </div>
+
+</div>

@@ -1,0 +1,179 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+{{ define "main" }}<main class="75">
+
+{{ with .Params.hero }}
+{{ partial "hero" . }}
+{{ end }}
+
+{{ with .Params.carousel_section }}
+<section class="section is-carouseles {{ with .class }} {{ . }}{{ end }}">
+  {{ $glide := gt (len .carouseles) 1 }}
+  {{ if $glide }}
+    {{ partial "glide" (dict "class" "carouseles" "partial" "carousel" "context" .carouseles "is_rectangle_dots" .is_rectangle_dots "is_75_glide_dots" .is_75_glide_dots) }}
+  {{ else }}
+    {{ range .carouseles }}
+      {{ partial "carousel" . }}
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.feature_set_1 }}
+<section class="section is-overview is-upper">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    {{ with .animation }}
+      <figure class="image is-overall-image is-hidden-mobile">
+        {{ if .animated }}
+        {{ $gif := resources.Get .figure | resources.Fingerprint }}
+        <img class="overlay" id="gif1" src="{{ $gif.RelPermalink }}" alt="animation" />
+        {{ else }}
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
+        {{ end }}
+      </figure>
+      <figure class="image is-hidden-tablet">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile) "desktop" "1300x" "mobile" "750x") }}
+      </figure>
+    {{ end }}
+    <div class="features-mobile is-hidden-tablet">
+      {{ range .features_mobile }}
+      <div class="columns">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
+        <div class="column is-text">
+          <h2 class="title">{{ T .title | markdownify }}</h2>
+          <div class="content">
+            {{ T .body | markdownify }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+    {{ range .features }}
+      <div class="column is-text">
+        <h2 class="title">{{ T .title | markdownify }}</h2>
+        <div class="content">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_set_2 }}
+<section class="section is-chromium-os is-upper">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+    {{ with .body }}<p class="content">{{ T . }}</p>{{ end }}
+    <!-- <video autoplay muted playsinline>
+      {{ $src := resources.Get "video/75/chromium.mp4" | resources.Fingerprint }}
+      <source src="{{ $src.RelPermalink }}" type="video/mp4">
+    </video> -->
+    {{ with .animation }}
+      <figure class="image is-overall-image is-hidden-mobile">
+        {{ if .animated }}
+        {{ $gif := resources.Get .figure | resources.Fingerprint }}
+        <img class="overlay is-chromium-os-image" id="gif2" src="{{ $gif.RelPermalink }}" alt="animation" />
+        {{ else }}
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1300x" "mobile" "750x") }}
+        {{ end }}
+      </figure>
+      <figure class="image is-hidden-tablet">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile) "desktop" "1300x" "mobile" "750x") }}
+      </figure>
+    {{ end }}
+    <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+    {{ range .features }}
+      <div class="column is-text">
+        <h2 class="title">{{ T .title | markdownify }}</h2>
+        <div class="content">
+          {{ T .body | markdownify }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.apps }}
+{{ partial "apps" .}}
+{{ end }}
+
+{{ with .Params.security }}
+{{ partial "security" . }}
+{{ end }}
+
+
+
+{{ with .Params.spec }}
+<section class="section is-spec">
+  <div class="container">
+    {{ with .title }}<h1 class="title is-section-title">{{ T . }}</h1>{{ end }}
+
+    <div id="specs">
+      <div class="columns">
+        {{ range .columns }}
+        <div class="column">
+          {{ range . }}
+          <div class="spec-table">
+            <h2 class="title">{{ T .title }}</h2>
+            <table class="table is-fullwidth">
+              <tbody>
+                {{ range .items }}
+                <tr>
+                  <td>{{ T .name }}</td>
+                  <td>{{ T .value | markdownify }}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ with .cta }}
+      <div class="cta">
+        <a class="button{{ with .class }} {{ . }}{{ end }}"
+           href="{{ .url }}"
+           target="_blank">
+          {{ T .title }}
+        </a>
+      </div>
+      {{ end }}
+
+    </div>
+    <div class="spec-mask" id="spec-mask"></div>
+    <button class="button is-specs-chevron toggle-specs" data-target="specs">
+      <a class="see-all" id="feature-see-all">
+        {{ default .see_all ( T .see_all ) }}
+      </a>
+    </button>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.feature_columns }}
+{{ partial "feature-columns" . }}
+{{ end }}
+
+{{ with .Params.faq }}
+{{ partial "faq" . }}
+{{ end }}
+
+
+{{ with .Params.bottom_cta }}
+{{ partial "bottom-cta" . }}
+{{ end }}
+
+{{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
+{{ partial "common/template-script" (dict "asset" "js/hardware.js") }}
+{{ partial "common/template-script" (dict "asset" "js/smartboard-pro-75.js") }}
+{{ partial "common/template-script" (dict "asset" "js/glide.js") }}
+</main>{{ end }}

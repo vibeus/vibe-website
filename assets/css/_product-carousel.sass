@@ -1,0 +1,151 @@
+.section.is-carouseles
+  padding: 120px 1.5rem 0
+  +touch
+    padding: 60px 0 20px
+  background-color: #F4F4F4
+  .carouseles
+    margin: 0 auto
+    +tablet
+      max-width: 80vw
+      .is-large
+        width: 5rem
+        height: 5rem
+    +fullhd
+      max-width: 1158px
+  .title.is-section-title
+    max-width: 846px
+    margin: 0 auto 1rem
+    font-size: 48px
+    text-align: center
+    +touch
+      max-width: 565px
+      font-weight: $vibe-bold
+      font-size: 32px
+      line-height: 40px
+    +mobile
+      max-width: 340px
+  .content
+    max-width: 773px
+    text-align: left
+    +touch
+      max-width: 361px
+  .is-carousel-img
+    z-index: -1
+    margin-top: 4rem
+  .carousel
+    +desktop
+      position: relative
+      margin-bottom: 180px
+    .carousel-box
+      left: 0
+      right: 0
+      +touch
+        width: 70vw
+        margin: -2rem auto 0
+      +mobile
+        width: 90vw
+      +desktop
+        position: absolute
+        margin: 0 8vw
+        transform: translateY(-40%)
+      +fullhd
+        margin: 0 121px
+
+      .main
+        transition: all .6s ease .1s
+        &:hover
+          transform: translateY(-1rem)
+          transition: transform .6s ease .1s
+          -moz-transition: transform .6s ease .1s
+          -webkit-transition: transform .6s ease .1s
+          -o-transition: transform .6s ease .1s
+        max-width: 1102px
+        margin: 0 auto
+        padding: 3rem 3.8vw 0
+        background: rgba(255, 255, 255, 0.9)
+        border: 2px solid #F1F1F1
+        box-sizing: border-box
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
+        backdrop-filter: blur(25px)
+        +fullhd
+          padding: 40px 56px 0
+        .columns
+          margin: 0 auto
+          .column
+            display: flex
+            flex-direction: column
+            margin-bottom: 2rem
+            padding: 0
+            &:first-child
+              margin-right: 2.2vw
+              +fullhd
+                margin-right: 2rem
+            +widescreen
+              max-width: 410px
+            .title
+              font-size: 24px
+              line-height: 30px
+            .content
+              font-size: 18px
+              line-height: 144%
+              color: #111111
+              text-align: left
+              max-width: 355px
+
+            .column-row
+              display: flex
+              flex-direction: row
+              margin-bottom: 1.75rem
+              &:last-child
+                margin-bottom: 0
+              img
+                width: 16px
+                height: 16px
+                margin-top: 4px
+                margin-right: 12px
+          .column.is-carousel-1
+            align-items: center
+        .cta
+          text-align: center
+          a
+            color: #6666CC
+        .is-carousel-2 .cta
+          margin-top: 2.5rem
+          text-align: left
+      .main-mobile
+        width: 86vw
+        margin: -1.5rem auto 0
+        padding: .75rem .75rem
+        background: rgba(255, 255, 255, 0.9)
+        border: 2px solid #F1F1F1
+        box-sizing: border-box
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06)
+        backdrop-filter: blur(25px)
+        +touch
+          display: flex
+          flex-direction: column
+          .column-row
+            display: flex
+            justify-content: center
+            margin-bottom: 1rem
+            img
+                width: 18px
+                height: 18px
+                margin-top: 2px
+                margin-right: 16px
+            .content
+              width: 234px
+              font-size: 14px
+              line-height: 20px
+              text-align: left
+        @media screen and ( min-width: 413px)
+          width: 80vw
+        .cta
+          font-weight: $vibe-bold
+          font-size: 18px
+          line-height: 144%
+          text-align: center
+          a
+            color: #6666CC
+  .carouseles:hover .glide-nav
+    opacity: 1
