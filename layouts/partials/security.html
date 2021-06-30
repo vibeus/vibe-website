@@ -1,0 +1,33 @@
+<section class="section is-security">
+  <div class="container">
+    {{ with .title }}
+      <h1 class="title is-section-title">{{ default . (T .) | markdownify }}</h1>
+    {{ end }}
+    <figure class="image is-security-bg is-hidden-mobile">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+    </figure>
+    <figure class="image is-security-bg is-hidden-tablet">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile)) }}
+    </figure>
+    <div class="columns">
+      {{ range .items }}
+      <div class="column">
+        <figure class="image">
+          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "540x" "mobile" "420x") }}
+        </figure>
+        <h2 class="item-title">{{ default .title (T .title) }}</h2>
+        {{ with .body }}
+        <div class="content">
+          {{ default . (T .) | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <div class="cta">
+      <a class="button is-rounded is-black is-security-botton" href="{{ .url | relLangURL}}">{{ default .title (T .title) }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
