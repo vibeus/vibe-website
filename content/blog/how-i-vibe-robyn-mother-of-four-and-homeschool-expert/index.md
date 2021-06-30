@@ -31,7 +31,7 @@ The Vibe board has enough integration to apps and programs to be seamlessly inco
 
 Let’s take a look at how the family uses the board on a typical school day.
 
-***Related:* [How I Vibe: Hannah Brown, Kindergarten Teacher](https://vibe.us/blog/how-i-vibe-hannah-brown-kindergarten-teacher/)**
+***Related:* [Fun Smart Board Games for Elementary Students](https://vibe.us/blog/smartboard-games/)**
 
 ## Handwriting tips using the template
 
@@ -46,6 +46,8 @@ She explained that her family’s style of homeschooling focuses on building upo
 In addition to templates, Vibe’s infinite canvas is another useful tool for building on earlier lessons. Users can draw, write, add images, and change the board without ever running out of space. This feature is ideal for Robyn’s family when they create and add to historical timelines.
 
 “We use the Vibe to build a history timeline. The board is useful because you can move pictures and text, so if the timeline is expanding or shrinking, you can zoom in and out, and the timeline can go on and on. We keep adding characters, events, locations, and geography to that board.”
+
+{{< blog/cta-1 "Learn more about the Vibe digital whiteboard for education" "https://vibe.us/lp/scenario-education" >}}
 
 ## Getting creative with cursive and sticky notes
 

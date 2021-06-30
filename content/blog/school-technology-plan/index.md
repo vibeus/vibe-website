@@ -8,7 +8,7 @@ tags:
 - Education
 - Hybrid Learning
 - Tech Tools
-draft: true
+draft: false
 isfeatured: false
 description: "Educational tools are getting an upgrade. Is your district ready? We\u2019ll provide the guidance you need to\
   \ develop a school technology plan."
