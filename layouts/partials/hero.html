@@ -1,13 +1,11 @@
 
 <section class="section hero is-fullheight-with-navbar {{ with .class }} {{ . }} {{ end }}">
-  {{ if .gallery }}
-    {{ with .gallery }}
-      {{ partial "hero-gallery" . }}
-    {{ end }}
+  {{ with .hero_image }}
+    {{ partial "hero-gallery" . }}
   {{ end }}
   <figure class="image is-hero-bg is-hidden-mobile">
     {{ with .bg }}
-      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "png #F4F4F4") }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x") }}
     {{ end }}
   </figure>
   <figure class="image is-hero-bg is-hidden-tablet">

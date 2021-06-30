@@ -14,6 +14,8 @@ hero:
     title: i18n-content-75-_index-hero-cta-title
     class: is-primary is-rounded
     url: /order/pre-order/
+  hero_image:
+    right_img: img/smartboard-pro-75/hero-image.png
 
 carousel_section:
   is_rectangle_dots: true

@@ -18,10 +18,10 @@ hero:
     title: i18n-content-55-_index-hero-subcta-title
     class: is-primary is-rounded
     url: /order/global-sales/
-  gallery:
+  hero_image:
     cta: i18n-content-55-_index-hero-gallery-cta
-    gallery_img: img/smartboard-55/hero-gallery.png
-    gallery_hover_img: img/smartboard-55/hero-gallery-hover.png
+    right_img: img/smartboard-55/hero-gallery.png
+    right_hover_img: img/smartboard-55/hero-gallery-hover.png
     items:
       - img/smartboard-55/gallery/gallery-1.png
       - img/smartboard-55/gallery/gallery-2.png

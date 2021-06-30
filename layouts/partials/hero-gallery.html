@@ -1,12 +1,12 @@
 <div class="hero-gallery-bg is-photo-gallery" data-target="gallery">
   <figure class="hero-gallery-img is-hidden-mobile">
-    {{ with .gallery_img }}
+    {{ with .right_img }}
       {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
     {{ end }}
   </figure>
   <figure class="hero-gallery-img-hover is-hidden-mobile">
-    {{ with .gallery_hover_img }}
-      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+    {{ if .right_hover_img }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .right_hover_img) "options" "jpg #F4F4F4" ) }}
     {{ end }}
   </figure>
 </div>
