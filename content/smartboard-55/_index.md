@@ -98,7 +98,7 @@ carousel_section:
       figure: img/smartboard-55/carousel-1.png
       figure_mobile: img/smartboard-55/carousel-mobile-1.png
       features:
-        - body: "Capture your thoughts and express ideas naturally with smart drawing and dynamic editing."
+        - body: "Capture your thoughts and express ideas naturally with smart drawings."
         - body: "Seamlessly collaborate in real time on any device, from anywhere in the world."
       cta:
         title: i18n-content-55-_index-carousel-cta-title
@@ -107,8 +107,8 @@ carousel_section:
       figure: img/smartboard-55/carousel-2.png
       figure_mobile: img/smartboard-55/carousel-mobile-2.png
       features:
-        - body: "In person, remote, or hybrid—Vibe brings teams together."
-        - body: "Make your meetings more dynamic with 1-click video conferencing that allows you to annotate, take notes, and create together during calls. "
+        - body: "Connect your remote team with seamless 1-click video conferencing."
+        - body: "Make your meetings more dynamic. Edit, annotate, and create together during calls."
       cta:
         title: i18n-content-55-_index-carousel-cta-title
         url: /software/
@@ -116,7 +116,7 @@ carousel_section:
       figure: img/smartboard-55/carousel-3.png
       figure_mobile: img/smartboard-55/carousel-mobile-3.png
       features:
-        - body: "Fluidly mirror your screen and dynamically edit or annotate any file type while you present."
+        - body: "Fluidly mirror your screen and dynamically annotate any file type while you present."
         - body: "Spark new ideas and develop them together in real time."
       cta:
         title: i18n-content-55-_index-carousel-cta-title
