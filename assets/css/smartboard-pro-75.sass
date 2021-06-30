@@ -13,6 +13,10 @@
 @import "_product-feature-columns.sass"
 .hero.is-75
   background-color: #F4F4F4
+  +mobile
+    min-height: 867px
+  @media screen and ( min-width: 413px ) and ( max-width: 767px )
+    min-height: 910px
   +tablet
     min-height: 700px
     padding: 0 1.5rem
@@ -60,34 +64,14 @@
     @media screen and ( min-width: 2879px ) 
       margin-right: 18rem
   .photo-gallery
-    +mobile
-      position: absolute
-      z-index: 28
-      width: calc(100% - 3rem)
-      margin-top: 950px
-      text-align: center
-    @media screen and (min-width: 413px) and (max-width: 767px)
-      margin-top: 960px
-    .button.is-photo-gallery
-      margin: 0 auto
-      font-weight: $vibe-bold
-      font-size: 16px
-      line-height: 20px
-      background-color: unset
-      border: 0
-      .icon
-        svg
-          width: 12px
-          height: 12px
-          margin-left: 8px
-      .button:active, .button.is-active
-        border: 0
+    display: none
 .hero.is-75 .image.is-hero-bg img
   +mobile
-    object-position: 48% 80%
-    height: 920px
+    object-position: 48% 50%
+    height: 820px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
-    height: 880px
+    object-position: 48% 80%
+    height: 890px
 
 .section.is-carouseles
   background-color: #fff
@@ -260,6 +244,12 @@
         font-size: 14px
         line-height: 18px
 
+
+.section.is-apps
+  .see-all
+    display: none
+  .group
+    margin-top: 74px
 
 .section.is-security
   .columns .column .content

@@ -25,8 +25,8 @@
         z-index: 27
     .container
       max-width: 600px
-      +touch
-        margin-left: -35%
+      +until-fullhd
+        margin-left: -41vw
       +widescreen
         margin-top: 3vw
       +fullhd
@@ -83,7 +83,7 @@
       position: absolute
       z-index: 28
       width: calc(100% - 3rem)
-      margin-top: 950px
+      margin-top: 1030px
       text-align: center
     @media screen and (min-width: 413px) and (max-width: 767px)
       margin-top: 960px
@@ -103,7 +103,9 @@
         border: 0
 .hero.is-55 .image.is-hero-bg img
   +mobile
-    height: 1446px
+    height: 1584px
+  @media screen and (min-width: 413px) and (max-width: 767px)
+    height: 1456px
 
 
 .section.is-testimonial
@@ -111,6 +113,7 @@
   background: #F4F4F4
   +mobile
     margin-top: -421px
+  @media screen and (min-width: 413px) and (max-width: 767px)
     padding-top: 0
   +tablet
     margin-top: -29vw
