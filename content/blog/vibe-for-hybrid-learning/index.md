@@ -8,7 +8,7 @@ tags:
 - Education
 - Hybrid Learning
 - Vibe Smart Board
-draft: true
+draft: false
 isfeatured: false
 description: The Vibe interactive whiteboard transforms traditional classrooms into engaging hybrid classrooms. Learn how
   teachers can use Vibe for hybrid learning.
