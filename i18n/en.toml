@@ -1316,8 +1316,8 @@ other = "See a Demo"
 other = "Take your teamwork to the next level"
 
 [i18n-content-55-_index-hero-body]
-other = """In person, remote, or hybrid—Vibe brings teams together. With the Vibe 55″ interactive 
-whiteboard, any conference room, classroom, or spontaneous huddle is transformed 
+other = """In person, remote, or hybrid—Vibe brings teams together. With the Vibe 55″ interactive
+whiteboard, any conference room, classroom, or spontaneous huddle is transformed
 into a dynamic collaborative space."""
 
 [i18n-content-55-_index-hero-cta-title]
@@ -1382,8 +1382,8 @@ other = "Learn more →"
 other = "Work with the best productivity tools"
 
 [i18n-content-55-_index-apps-body]
-other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to 
- helping companies effectively collaborate across expanding business and IT ecosystems, 
+other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to
+ helping companies effectively collaborate across expanding business and IT ecosystems,
  from Microsoft to Google and beyond."""
 
 [i18n-content-55-_index-apps-cta-title]
@@ -1525,24 +1525,24 @@ other = "Yes, Vibe supports two popular forms of SSO: OAuth SSO and SAML based."
 other = "Which apps integrate with Vibe?"
 
 [i18n-content-55-_index-three_faqs-items1-i_1-body]
-other = """Most 3rd-party apps work well on Vibe. Vibe Inc has our own App store with a number of 3rd party Android applications 
+other = """Most 3rd-party apps work well on Vibe. Vibe Inc has our own App store with a number of 3rd party Android applications
 available for you to download onto your device.
 
-Vibe runs the mobile Android versions of these 3rd party applications. Some 3rd party mobile applications may not include identical 
+Vibe runs the mobile Android versions of these 3rd party applications. Some 3rd party mobile applications may not include identical
 functionality to the desktop version. There is no special licensing required beyond what you’re currently using to access your account."""
 
 [i18n-content-55-_index-three_faqs-items1-i_2-title]
 other = "Does Vibe have a subscription fee?"
 
 [i18n-content-55-_index-three_faqs-items1-i_2-body]
-other = """At this point in time, Vibe software is included free of charge with your hardware purchase. You can access your 
+other = """At this point in time, Vibe software is included free of charge with your hardware purchase. You can access your
 Vibe account from a Vibe board, computer browser, tablet or mobile phone (view only)."""
 
 [i18n-content-55-_index-three_faqs-items2-i_0-title]
 other = "Does Vibe shipping within the U.S.?"
 
 [i18n-content-55-_index-three_faqs-items2-i_0-body]
-other = """Shipping is free within the continental U.S. Due to COVID, shipping time is taking 
+other = """Shipping is free within the continental U.S. Due to COVID, shipping time is taking
 longer than usual - please expect 5-8 business days for shipping within the US."""
 
 [i18n-content-55-_index-three_faqs-items2-i_1-title]
@@ -1551,17 +1551,17 @@ other = "Does Vibe shipping to Canada?"
 [i18n-content-55-_index-three_faqs-items2-i_1-body]
 other = """Vibe regularly ships to Canada. Shipping time is approximately 3-6 business days depending on your location in Canada.
 
-Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to get the most update 
+Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to get the most update
 information on shipping costs for your province."""
 
 [i18n-content-55-_index-three_faqs-items2-i_2-title]
 other = "Does Vibe offer shipping outside of the U.S. and Canada?"
 
 [i18n-content-55-_index-three_faqs-items2-i_2-body]
-other = """Yes, Vibe boards can be shipped to most countries. Unfortunately, due to the impact of COVID, Vibe cannot 
+other = """Yes, Vibe boards can be shipped to most countries. Unfortunately, due to the impact of COVID, Vibe cannot
 support shipping to India at this time.
 
-Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to 
+Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to
 get the most update information on shipping costs for your province.
 
 You can also arrange your own shipping from your preferred carrier, with pick up from our warehouse in Southern California."""
@@ -1619,7 +1619,7 @@ other = "Trusted by 1000+ companies all over the world"
 other = "Sports Training and Coaching"
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_0-body]
-other = """\"Vibe has helped me better communicate with my audience, making me more effective 
+other = """\"Vibe has helped me better communicate with my audience, making me more effective
 and valuable in my field.\""""
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_0-author-name]
@@ -1634,7 +1634,7 @@ other = "Architecture and Construction"
 other = "\"The Vibe board makes sure everyone's on the same page.\""
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_1-author-name]
-other = """Jonathan Wong, 
+other = """Jonathan Wong,
 
 P.Eng, PMP, Project Manager, Smith Bros. & Wilson, Ltd."""
 
@@ -1646,7 +1646,7 @@ other = """\"I think that tools like Vibe are definitely the future of events…
  that true live interaction.\""""
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_2-author-name]
-other = """Will Curran, 
+other = """Will Curran,
 
 Chief Event Einstein, Endless Events"""
 
@@ -1654,7 +1654,7 @@ Chief Event Einstein, Endless Events"""
 other = "Education"
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_3-body]
-other = """\"Now it’s just second nature, running the Vibe board. I felt like it was 
+other = """\"Now it’s just second nature, running the Vibe board. I felt like it was
 a face-to-face lecture.\""""
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_3-author-name]
@@ -1666,7 +1666,7 @@ other = """Dr. Henry Silverman,
 other = "Government"
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_4-body]
-other = """\"We like how you can invite remote coworkers in to collaborate on the board in real time 
+other = """\"We like how you can invite remote coworkers in to collaborate on the board in real time
 from other devices. Vibe is a gamechanger.\""""
 
 [i18n-content-55-_index-testimonial_section-testimonials-i_4-author-name]
@@ -1678,8 +1678,8 @@ other = """Rob Karlinsey,
 other = "The center of your hybrid workspace"
 
 [i18n-content-75-_index-hero-body]
-other = """With an expansive 75″ touchscreen and the power of an Intel i5 processor, the 
-Vibe Pro 75″ brings big ideas to life. Connect remote teams, collaborate in real time, 
+other = """With an expansive 75″ touchscreen and the power of an Intel i5 processor, the
+Vibe Pro 75″ brings big ideas to life. Connect remote teams, collaborate in real time,
 and take presentations to a new level. """
 
 [i18n-content-75-_index-hero-cta-title]
@@ -1805,8 +1805,8 @@ other = "0"
 other = "Work with the best productivity tools"
 
 [i18n-content-75-_index-apps-body]
-other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to 
- helping companies effectively collaborate across expanding business and IT ecosystems, 
+other = """No need to break the bank on compatible apps. You can stick with the tools your team already knows and loves. We’re dedicated to
+ helping companies effectively collaborate across expanding business and IT ecosystems,
  from Microsoft to Google and beyond."""
 
 [i18n-content-75-_index-apps-cta-title]
@@ -1975,7 +1975,7 @@ other = "800 x 400mm"
 other = "Outline Dimensions"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_6-value]
-other = """68.1 x 39.8 x 3.4 in 
+other = """68.1 x 39.8 x 3.4 in
 
 (1731 x 1010 x 86 mm)"""
 
@@ -1983,7 +1983,7 @@ other = """68.1 x 39.8 x 3.4 in
 other = "Packing Dimensions"
 
 [i18n-content-75-_index-spec-columns-i_0-i_1-items-i_7-value]
-other = """73.2 x 44.7 x 9.7 in 
+other = """73.2 x 44.7 x 9.7 in
 
 (1859 x 247 x 1136 mm)"""
 
@@ -2006,7 +2006,7 @@ other = "Compute Module"
 other = "CPU"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_0-value]
-other = """Quad-core 8th Generation Intel 
+other = """Quad-core 8th Generation Intel
 
 Core i5 processor"""
 
@@ -2033,8 +2033,8 @@ other = "Wireless"
 
 [i18n-content-75-_index-spec-columns-i_0-i_2-items-i_4-value]
 other = """Wi-Fi 6: IEEE 802.11 a/b/g/n/ac/ax
- 
-Compatible 
+
+Compatible
 
 Bluetooth Version: 5.2"""
 
@@ -2254,14 +2254,14 @@ Vibe boards purchased through our website come with a one-year warranty. See the
 other = "How long does shipping usually take?"
 
 [i18n-content-75-_index-faq-i_1-body]
-other = """Shipping for Vibe Pro 75″ smart boards begins in August 2021. Depending on where you are located, shipping can take 
+other = """Shipping for Vibe Pro 75″ smart boards begins in August 2021. Depending on where you are located, shipping can take
 anywhere from 3-5 business days. (Our warehouses are located in Southern California)"""
 
 [i18n-content-75-_index-faq-i_2-title]
 other = "Are Vibe Pro 75″ smart boards compatible with any wall mount?"
 
 [i18n-content-75-_index-faq-i_2-body]
-other = """The 75-inch Vibe Board Pro supports standard VESA 800 x 400mm mount. Complimentary wall 
+other = """The 75-inch Vibe Board Pro supports standard VESA 800 x 400mm mount. Complimentary wall
 mount accessories are included with your board."""
 
 [i18n-content-75-_index-faq-i_3-title]
@@ -2271,13 +2271,13 @@ other = "What are the product dimensions?"
 other = """Vibe board dimensions:
 
 - Diagonal screen size: 75″
-- Product dimensions: 68.1″ (width) x 39.8″ (height) x 3.4″ (depth) 
+- Product dimensions: 68.1″ (width) x 39.8″ (height) x 3.4″ (depth)
 - Product weight: 108 lbs
 - Package size: 73.2″ (width) x 44.7″ (height) x 9.7″ (depth)
 - VESA Mount: 800 x 400 mm
 
 Vibe stand dimensions:
-- Stand size: 45.7″ (width) x 26.1″ (height) x 62.9″ (depth) 
+- Stand size: 45.7″ (width) x 26.1″ (height) x 62.9″ (depth)
 - Weight: 40 lbs"""
 
 [i18n-content-75-_index-zh-bottom_cta-cta-buttons-i_0-title]
@@ -2296,7 +2296,7 @@ other = "The first interactive whiteboard powered by Chromium OS"
 other = "VibeOS builds on the powerful foundation of Chromium OS, while offering exclusive experiences tailored to the unique capabilities of Vibe."
 
 [i18n-content-75-_index-feature_set_2-cta-title]
-other = "Leran more"
+other = "Learn more"
 
 [i18n-content-75-_index-bottom_cta-title]
 other = "Experience Vibe for yourself"
