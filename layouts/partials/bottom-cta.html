@@ -19,15 +19,27 @@
       </a>
       {{ end }}
       {{ range .buttons }}
-      <a class="button is-rounded {{ default "is-black is-outlined" .class }}"
-         href="{{ .url | relLangURL }}"
-         target="_blank"
-         {{ range .data }}
-         data-{{ .key }}="{{ .value }}"
-         {{ end }}
-      >
-        {{ default .title (T .title) }}
-      </a>
+        {{ if .dark_to_light }}
+          <a class="button is-rounded {{ default "is-black" .class }}"
+            href="{{ .url | relLangURL }}"
+            target="_blank"
+            {{ range .data }}
+            data-{{ .key }}="{{ .value }}"
+            {{ end }}
+          >
+            {{ default .title (T .title) }}
+          </a>
+        {{ else }}
+          <a class="button is-rounded {{ default "is-black is-outlined" .class }}"
+            href="{{ .url | relLangURL }}"
+            target="_blank"
+            {{ range .data }}
+            data-{{ .key }}="{{ .value }}"
+            {{ end }}
+          >
+            {{ default .title (T .title) }}
+          </a>
+        {{ end }}
       {{ end }}
     </div>
     {{ end }}

@@ -8,7 +8,7 @@ tags:
 - Education
 - Hybrid Learning
 - Tech Tools
-draft: true
+draft: false
 isfeatured: false
 description: Exactly what kind of hybrid learning technology does your classroom need? Learn what your students can benefit
   from with this guide.
@@ -37,7 +37,7 @@ When implementing a hybrid learning model in the classroom, having a high-speed 
 
 ### Video collaboration technology
 
-Video collaboration technology is a core piece for hybrid learning strategies that focus on student-centered learning. Students who can’t see each other will have a difficult time engaging and interacting. The [video collaboration hardware](https://vibe.us/lp/scenario-remote/) and software that you choose should offer more than simply recording video; it should **encourage active, synchronous collaboration.**
+Video collaboration technology is a core piece for hybrid learning strategies that focus on student-centered learning. Students who can’t see each other will have a difficult time engaging and interacting. The [video collaboration hardware](https://vibe.us/lp/scenario-remote/) and software that you choose should offer more than simply recording video. It should **encourage active, synchronous collaboration.**
 
 ### Cameras
 
@@ -83,7 +83,7 @@ Touch monitors are great for encouraging interactivity in a hybrid learning clas
 
 ### Tablets
 
-Tablets may be more limited than a computer, but they are still highly functional and extremely portable. You shouldn’t rely on tablets as a primary teaching source in the classroom, but they are great for note-taking, reading, and other non-intensive activities.
+Tablets may be more limited than a computer, but they are still highly functional and extremely portable. While you shouldn’t necessarily rely on tablets as a primary teaching source in the classroom, they are a great option for note-taking, reading, and other non-intensive activities.
 
 ### Smartphones
 
@@ -105,7 +105,7 @@ Using a learning management system (LMS) offers numerous advantages in hybrid le
 
 There is a variety of learning management systems to choose from, all offering various levels of collaboration and interactivity. Make sure that your school’s preferred LMS is compatible with any new hardware or accessories you choose for your classroom.
 
-***Related*: [Simplify Hybrid Learning With Our Favorite Apps and Tools](https://vibe.us/blog/hybrid-learning-tools)**
+***Related*: [Simplify Hybrid Learning With Our Favorite Apps and Tools](https://vibe.us/blog/hybrid-learning-tools/)**
 
 ## Invest in tech to design your hybrid learning environment
 

@@ -1,0 +1,102 @@
+.testimonial
+  display: flex
+  max-width: 1080px
+  max-height: 403px
+  background: $vibe-yellow
+  .testimonial-left-image
+    img
+      min-width: 348px
+      width: 348px
+      height: 403px
+      @media screen and (max-width: 980px)
+        display: none
+  .testimonial-content
+    max-width: 814px
+    max-height: 403px
+    +mobile
+      width: 290px
+      margin-left: 2rem
+    .content
+      position: relative
+      height: 266px
+      +tablet
+        font-size: 30px
+      font-family: $vibe-family-heading
+      padding: 64px 96px 0 80px
+      +mobile
+        padding: 32px 0
+      .content-title
+        font-size: 16px
+        line-height: 20px
+        margin-bottom: 16px
+        +mobile
+          font-size: 14px
+          line-height: 17px
+      .content-body
+        font-size: 30px
+        font-weight: $vibe-bold
+        line-height: 38px
+        +mobile
+          width: 274px
+          font-size: 24px
+          line-height: 30px
+    .quote-mark
+      position: absolute
+      width: 62px
+      +mobile
+        width: 30px
+      &.is-left
+        top: 0
+        left: 0
+      &.is-right
+        right: 0
+        bottom: 0
+    .author
+      display: flex
+      +tablet
+        text-align: center
+      .logo-name
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        margin-bottom: 3rem
+        +mobile
+          margin-bottom: 32px
+          .name
+            width: 220px
+            font-size: 16px
+            line-height: 22px
+        +tablet
+          &.has-logo
+            .name
+              margin-left: 80px
+        .image
+          width: 140px
+          height: 64px
+          img
+            width: 100%
+            height: 100%
+            object-fit: contain
+            object-position: right
+          +mobile
+            margin-right: -5px
+            width: 80px
+            height: 64px
+            @media screen and ( min-width: 413px ) and ( max-width: 767px )
+              margin-right: -44px
+        .name
+          font-family: $vibe-family-heading
+          text-align: left
+          p:first-child
+            font-weight: $vibe-bold
+          +tablet
+            font-size: 18px
+            line-height: 32px
+    .more
+      font-family: $vibe-family-heading
+      font-weight: $vibe-bold
+      margin-top: 42px
+      text-align: right
+      +tablet
+        font-size: 18px

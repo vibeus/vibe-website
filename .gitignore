@@ -2,3 +2,9 @@
 /node_modules
 /public
 /resources
+
+# Compiler generated #
+/.idea
+
+# Virtual environment #
+/venv

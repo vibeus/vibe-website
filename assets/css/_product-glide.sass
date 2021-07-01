@@ -1,0 +1,109 @@
+=absolute-fill
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+=clamp-lines($n)
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: $n
+  overflow: hidden
+
+=vertical-padding($top, $bottom: $top, $mtop: $top / 2, $mbottom: $bottom / 2)
+  padding-top: $top
+  padding-bottom: $bottom
+  @if $top != $mtop or $bottom != $mbottom
+    +touch
+      @if $top != $mtop
+        padding-top: $mtop
+      @if $bottom != $mbottom
+        padding-bottom: $mbottom
+
+=horizontal-padding($left, $right: $left)
+  padding-left: $left
+  padding-right: $right
+
+=glide-dots-style
+  position: relative
+  z-index: 29
+  margin-top: 16px
+  margin-bottom: -60px
+  user-select: none
+  +touch
+    margin-bottom: -30px
+  text-align: center
+  .icon
+    width: auto
+    cursor: pointer
+    opacity: 0.2
+    &.is-active
+      opacity: 0.6
+    &:not(:last-child)
+      margin-right: .5rem
+    .dot
+      width: .75rem
+      height: 0px
+      background: #000
+      border: 1.5px solid #000000
+    &.is-active .dot
+      width: 2rem
+      border: 1.5px solid #000000
+
+=glide-nav-style
+  position: absolute
+  top: 40%
+  cursor: pointer
+  display: none
+  +desktop
+    opacity: .1
+  &.is-left
+    left: -3rem
+    +mobile
+      left: 0
+  &.is-right
+    right: -3rem
+    +mobile
+      right: 0
+  img
+    cursor: pointer
+
+
+// add a hidden pseudo element that "push" element down make in-page anchor work (because we have fixed navbar)
+=offset-anchor-for-navbar($extra: 0rem)
+  &::before
+    content: ''
+    display: block
+    height: $navbar-height + $extra + 1rem
+    margin-top: -$navbar-height - $extra - 1rem
+    visibility: hidden
+
+.testimonials
+  position: relative
+
+.glide-dots
+  +glide-dots-style
+
+.rectangle-dots
+    position: absolute
+    width: 100%
+    text-align: center
+
+
+.glide-nav
+  +glide-nav-style
+
+.carouseles
+  position: relative
+  .glide-dots .icon:not(:last-child)
+    margin-right: .25rem
+
+.features
+  .glide-dots
+    margin-top: -14px
+    margin-bottom: -21px
+
+.groups
+  position: relative
+
