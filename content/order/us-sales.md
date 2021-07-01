@@ -30,7 +30,7 @@ product_notices:
     cart_notice: Temporarily unavailable.
 products:
   - item: &id001
-      product_name: vibe_board
+      product_name: Vibe Smartboard 55″
       title: i18n-content-order-_index-products-i_0-item-title
       body: i18n-content-order-_index-products-i_0-item-body
       product_id: '31815758250035'

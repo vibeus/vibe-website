@@ -1,0 +1,51 @@
+
+<section class="section hero is-fullheight-with-navbar {{ with .class }} {{ . }} {{ end }}">
+  {{ with .hero_image }}
+    {{ partial "hero-gallery" . }}
+  {{ end }}
+  <figure class="image is-hero-bg is-hidden-mobile">
+    {{ with .bg }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "desktop" "2880x" "tablet" "2048x" "mobile" "750x") }}
+    {{ end }}
+  </figure>
+  <figure class="image is-hero-bg is-hidden-tablet">
+    {{ with .bg_mobile }}
+      {{ partial "common/srcset" (dict "resource" (resources.Get .) "options" "jpg #F4F4F4" ) }}
+    {{ end }}
+  </figure>
+  <div class="hero-body">
+    <div class="container">
+      <div class="title-text">
+        <h4 class="subtitle">
+          {{ default .subtitle ( T .subtitle ) | markdownify }}
+        </h4>
+        <h1 class="title">
+          {{ T .title | markdownify }}
+        </h1>
+        <p>
+        {{ T .body | markdownify }}
+        </p>
+      </div>
+      <div class="cta-group">
+        {{ with .cta }}
+          <div class="cta">
+            <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
+              href="{{ .url | relLangURL }}">
+              {{ default .title (T .title) }}
+            </a>
+          </div>
+        {{ end }}
+        {{ if .subcta }}
+          {{ with .subcta }}
+            <div class="cta">
+              <a class="button is-hero-cta is-rounded is-black is-outlined"
+                href="{{ .url | relLangURL }}">
+                {{ default .title (T .title) }}
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
