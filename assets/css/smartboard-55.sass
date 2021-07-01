@@ -246,6 +246,7 @@
           line-height: 38px
           margin-bottom: 0
   .cta
+    font-weight: $vibe-bold
     +tablet
       margin-bottom: 2rem
 
@@ -294,10 +295,8 @@
     margin: 0 auto
   .level.is-overview
     width: 100%  
-    margin: 0 auto 2rem
-    padding: 1.5rem 15%
-    border-top: 1px solid $vibe-black
-    border-bottom: 1px solid $vibe-black
+    margin: -.5rem auto 0
+    padding: 0 15% 56px
     +mobile
       align-items: flex-start
       padding: 1.5rem 1rem
@@ -396,8 +395,10 @@
 .section.is-bottom-cta
   .cta .button
     height: 55px
+    font-weight: $vibe-bold
     font-size: 18px
     line-height: 23px
+    border-width: 2px
     +mobile
       min-width: 319px
       height: 42px
@@ -407,3 +408,5 @@
     +tablet
       margin-bottom: 36px
       
+.cta .button
+  border-width: 2px

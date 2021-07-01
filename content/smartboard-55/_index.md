@@ -3,9 +3,6 @@ title: Vibe Smartboard 55″, a digital touchscreen whiteboard
 description: Vibe digital whiteboard is a 55" 4k touchscreen display built for real-time remote collaboration. Vibe's large touch screen tablet has built-in whiteboarding.
 url: /products/vibe-smartboard-55
 stylesPath: css/smartboard-55.sass
-aliases:
-  - /product/
-  - /products/
 hero:
   class: is-55
   subtitle: "Vibe Smartboard 55″"
@@ -20,7 +17,7 @@ hero:
   subcta:
     title: i18n-content-55-_index-hero-subcta-title
     class: is-primary is-rounded
-    url: /order/global-sales/
+    url: /order/
   hero_image:
     cta: i18n-content-55-_index-hero-gallery-cta
     right_img: img/smartboard-55/hero-gallery.png
@@ -344,7 +341,7 @@ feature_columns:
       figure: img/smartboard-55/feature-columns-3.png
   cta:
     title: i18n-content-55-_index-feature_columns-cta-title
-    url: /order/global-sales/
+    url: /order/
 three_faqs:
   title: i18n-content-55-_index-three_faqs-title
   sections:
@@ -388,5 +385,5 @@ bottom_cta:
         dark_to_light: true
         url: /demo/
       - title: i18n-content-55-_index-bottom_cta-cta-buttons-i_1-title
-        url: /order/global-sales/
+        url: /order/
 ---
