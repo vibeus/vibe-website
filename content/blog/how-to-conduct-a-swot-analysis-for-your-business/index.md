@@ -32,6 +32,8 @@ The **opportunities** and **threats** to a company are influenced by external fa
 
 Each item on the list should be based on facts and actual data. Your team’s customer retention percentage might seem like a strength based on day-to-day activity, but confirming that hunch with data makes the analysis truly beneficial. Otherwise you’re potentially missing out on a chance to strengthen that part of your business.
 
+***Related:* [The Biggest Threat to Productivity is Work About Work. Here’s How to Fix It](https://vibe.us/blog/the-biggest-threat-to-productivity-is-work-about-work-heres-how-to-fix-it/)**
+
 ## When is this kind of analysis helpful?
 
 Any business decision that affects a majority of the company would benefit from a S.W.O.T. analysis. Some scenarios to consider:
@@ -44,6 +46,8 @@ Any business decision that affects a majority of the company would benefit from 
 
 A full-scale S.W.O.T. analysis isn’t necessary for every single decision you make. But it’s worth going through a quick rundown of the basic principles on a regular basis.
 
+{{< blog/cta-2 "Learn how Vibe can strengthen your team’s remote collaboration" "https://vibe.us/lp/scenario-remote" >}}
+
 ## Who should complete the S.W.O.T. analysis?
 
 While each section’s list should be data-driven, it’s helpful to have different points of view contributing to the project. Your sales and IT teams could have totally different lists of the company’s strengths, and the marketing team might think of more opportunities than customer service does. So, depending on the size of the company, get as many people as possible to participate in the analysis.
@@ -54,7 +58,7 @@ If you’re making a decision that will directly impact customers—like opening
 
 ***Related:* [What to Know About Synchronous and Asynchronous Communication](https://vibe.us/blog/what-you-need-to-know-about-synchronous-and-asynchronous-communication/)**
 
-## How do I complete a S.W.O.T. analysis?
+## How to conduct a S.W.O.T. analysis
 
 Once you’ve decided on the participants, give your team a point of focus for the analysis. It can be tempting to keep adding to the scope of the project. But maintaining a tight focus will help your team zero in on details.
 
@@ -62,7 +66,7 @@ Then, have each person make a list of the project’s strengths, weaknesses, opp
 
 Once everyone’s had their say, you’ll hopefully see a few patterns. Notice where your team agrees, where they bring up ideas you hadn’t considered, and where you all seem to diverge. Seeing everything in one space can help your team distill what’s most important and create a roadmap for the future.
 
-### Example: A Local Shoe Store
+### Example: a local shoe store
 
 Let’s take a look at how a small business might use a S.W.O.T. analysis. This locally owned shoe store has a well-established customer base. In general, things are going well and the company is able to cover their costs, but with the ongoing popularity of online shopping, it’s time to think of new ways to attract and retain customers.
 
@@ -78,6 +82,6 @@ Learn how you can use Vibe to get the the most out of your next S.W.O.T. analysi
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. **Collaborate today with Vibe.**
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

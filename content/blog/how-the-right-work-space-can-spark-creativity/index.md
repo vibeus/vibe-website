@@ -1,5 +1,5 @@
 ---
-title: How the Right Work Space Can Spark Creativity
+title: How the Right Workspace Can Spark Creativity
 slug: how-the-right-work-space-can-spark-creativity
 author: Paige Smith
 date: '2021-03-31'
@@ -9,15 +9,16 @@ tags:
 - Remote Collaboration
 draft: false
 isfeatured: false
-description: Learn how the right design can encourage creative thinking and collaboration at school or at work.
+description: The right design can encourage creative thinking and collaboration at school or at work. Get started on your
+  creative workspace today.
 categories:
 - distance-learning
 industries: []
 ---
 
-Have you ever noticed that you’re more productive in a certain room or building? Maybe you’re drawn to the configuration of furniture, the technology available, or even the general culture of the space. Whatever the reason, the way we think, feel, and act has a lot to do with the environment we’re in.
+Have you ever noticed that you’re more productive in a certain room or building? Maybe you’re drawn to the configuration of furniture, the technology available, or even the general culture of the space. Whatever the reason, the way we think, feel, and act has a lot to do with the environment we’re in. A creative workspace can inspire some of your best work.
 
-Schools and organizations have come to recognize the value of collaborative spaces and have turned to professionals to help improve their workspaces. Ryne Anthony, Director of Innovation at [Fluxspace](https://fluxspace.io/), is an expert at creating innovative spaces that take learning and collaboration to the next level. In this post, Anthony shares the proven practices educators and professionals need to build an environment where enriching experiences can flourish.
+Schools and organizations have come to recognize the value of collaborative spaces and have turned to professionals to help improve their workspaces. [Ryne Anthony](https://vibe.us/blog/how-i-vibe-fluxspace/), Director of Innovation at [Fluxspace](https://fluxspace.io/), is an expert at creating innovative spaces that take learning and collaboration to the next level. In this post, Anthony shares the proven practices educators and professionals need to build an environment where enriching experiences can flourish.
 
 ## The 3 pillars of every successful collaborative space
 
@@ -25,15 +26,15 @@ Group activities shouldn’t be complicated, and neither should the components o
 
 ### The physical space
 
-When redesigning a classroom or workspace, flexibility is the name of the game. A flexible environment allows users to quickly reconfigure the space to accommodate a wide range of group activities and learning experiences. Rooms should be equipped with mobile furniture and technology that can be reconfigured for easy collaboration.
+When redesigning a classroom or creative workspace, flexibility is the name of the game. A flexible environment allows users to reconfigure the space to accommodate a wide range of group activities and learning experiences. Rooms should be equipped with mobile furniture and technology that can be reconfigured for easy collaboration.
 
-Of course, the actual size of a room could be a barrier to change. But before you jump to the conclusion that your space is unfit for this kind of flexibility, first consider how your real estate is being utilized (and by whom).
+Of course, the actual size of a room could be a barrier to change. But before you jump to the conclusion that your space is unfit for this kind of flexibility, consider how your real estate is being utilized (and by whom).
 
-“The teacher’s desk and space in the classroom occupy nearly a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is made possible.
+“The teacher’s desk and space in the classroom occupy nearly a third of the learning space,” says Anthony. A well-designed collaborative space shouldn’t feel like there’s an established “front” of the classroom or workspace. “By cutting down on that space, you can dedicate more space to the people who need it the most.” Give students an environment where elevated hands-on learning is possible.
 
 ### The right technology and tools
 
-Technology that’s bolted to a wall tends to, consequently, keep students bolted to their seats. Experiential learning environments require free movement and adaptability, so mobile technology is the best fit. Virtual whiteboards have become an integral part of a collaborative space.
+Technology bolted to a wall, consequently, keeps students bolted to their seats. Experiential learning environments require free movement and adaptability, so mobile technology is the best fit. Virtual whiteboards have become an integral part of a collaborative space.
 
 “Now, with the innovation of the [Vibe board](https://vibe.us/hardware/), the front of the classroom could be anywhere,” explains Anthony. With Vibe’s portable stand and real-time editing capabilities on the board, or a laptop or tablet, education can take place wherever it’s best for the student.
 
@@ -43,7 +44,7 @@ The programs you use in a classroom are just as important as the technology. Tha
 
 {{<blog/cta-1 "Vibe Interactive Whiteboard for Distance Learning" "https://vibe.us/lp/scenario-education/" >}}
 
-### A change in focus
+### A creative workspace requires a change in focus
 
 You can have all the right furniture, tools, and technology needed for a collaborative environment, but it will amount to nothing if you don’t have the right approach and mindset to collaboration. In an educational space, the focus should be on the students and their learning.
 
@@ -67,7 +68,7 @@ There is so much good that comes from an environment where its inhabitants can f
 
 ### Maximize brain power and overall happiness
 
-[Educational studies](https://www.byf.org/news-item/is-hands-on-learning-better/) show that hands-on learning improves retention, attentiveness, and helps students take greater pride in their work. Having a space where this kind of learning is the norm for students will help them better absorb and enjoy the curriculum being taught.
+[Educational studies](https://www.byf.org/news-item/is-hands-on-learning-better/) show that hands-on learning improves retention, attentiveness, and helps students take greater pride in their work. Having a space where this kind of learning is the norm for students will help them better absorb and enjoy the curriculum.
 
 Just as a space’s activities improve students’ capacity to learn, studies also indicate that the overall design and layout of a workspace plays an important role in [employee health and well-being](https://www.forbes.com/sites/alankohll/2019/01/24/how-your-office-space-impacts-employee-wellbeing/?sh=3f6cab9664f3). When you build a space that has the right flexibility, tools, and focus, you build better students and employees.
 
@@ -91,20 +92,20 @@ Fluxspace has helped students experience this by introducing innovative tools li
 
 “Students want to give back to their community. They just need to see some products, programs, and options for that to happen,” says Anthony.
 
-***Related**:* [Interactive Whiteboarding for Distance Learning Lessons](https://vibe.us/blog/interactive-whiteboarding-for-distance-learning-lessons/)**
+***Related:* [How to Set Up a Hybrid Classroom](https://vibe.us/blog/hybrid-classroom/)**
 
-## Optimizing your space for remote and in-person collaboration
+## Optimizing your creative workspace for collaboration
 
 Social distancing doesn’t mean that we need to give up our right to be social. Although no learning or work experience looks the same these days, there are many ways to incorporate healthy collaboration with others into our experiences.
 
 **At school:**  
 “I think we’re starting to value when a student is physically sitting in a space and recognize the need to be more intentional about how we’re using that time,” says Anthony.
 
-Schools have rolled out a hybrid approach to education that combines remote and in-person learning. In this case, it’s essential that educators make the most of in-person learning time by ensuring that it’s hands-on (in a socially distant way). Remote days, then, are reserved for notetaking and the more lecture-based curriculum.
+Schools have rolled out a hybrid approach to education that combines remote and in-person learning. In this case, it’s essential that educators make the most of in-person learning time by ensuring that it’s hands-on (in a socially distant way). Reserve remote days for notetaking and more lecture-based curriculum.
 
 Anthony invites educators to consider, “How can we be a little bit more intentional about not just giving kids busy work after the pandemic, but more of an opportunity to collaborate and be creative when they’re in the seats working together?”
 
-{{< common/srcset "image-2.jpg" "Anthony and his team using Vibe to design collaborative spaces." >}}
+{{< common/srcset "image-2.jpg" "Ryne and his team at their own creative workspace, Fluxspace." >}}
 
 **In the workplace:**  
 Since the pandemic, workers have learned several strategies to [work from home more effectively](https://www.nytimes.com/2020/06/21/business/work-home-coronavirus.html). But group collaboration is still an area where there is room for improvement.
@@ -115,8 +116,16 @@ To take advantage of your resources, Anthony recommends reviewing things like, �
 
 As employees tap into the many [remote collaboration tools](https://vibe.us/blog/remote-collaboration-tools-for-your-business-needs/) now available, the experiences they share with colleagues through a virtual space can be more productive and meaningful.
 
-***Related**:* [Ways to Inspire Your Remote Team to Get More Creative](https://vibe.us/blog/ways-to-inspire-your-remote-team-to-get-more-creative/)**
+***Related:* [How to Build a Collaborative Workspace (And Why You Should)](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)**
 
 ## A collaborative space that goes where you go
 
 Whether you’re in a classroom, office, or at home, you have the power to join forces with others successfully. When you have a flexible space, the right technology, and a collaborative culture, creativity is ready to flow. [Vibe](https://vibe.us/) has the tools and resources you need to bring remote collaboration to life while enhancing in-person discussions. Learn how [over 900 companies](https://vibe.us/customer/) are using Vibe’s interactive whiteboards and software to make powerful connections worldwide.
+
+
+
+---
+
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
