@@ -1,0 +1,87 @@
+{{ define "scripts"}}
+{{ $src := resources.Get "js/common/sha1.min.js" | resources.Fingerprint }}
+<script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
+{{ end }}
+
+{{ define "nav" }}
+{{ partial "common/nav" . }}
+{{ end }}
+
+{{ define "main" }}<main class="webinars">
+
+{{ with .Params.hero }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-image">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get "img/webinars/hero-bg.png")) }}
+          </figure>
+        </div>
+        <div class="column is-text">
+          <h1 class="title">{{ T .title }}</h1>
+          <div class="content">{{ T .body | markdownify }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figure class="image bg-banner">
+    {{ partial "common/srcset" (dict "resource" (resources.Get "img/webinars/hero-banner.png")) }}
+  </figure>
+</section>
+{{ end }}
+
+{{ with .Params.webinars }}
+<section class="section is-webinars">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-detail">
+        <div class="detail-row speaker">
+          {{ with.speaker }}
+            <h2 class="title">{{ T .title }}</h2>
+            <div class="columns">
+              <figure class="image bg-banner">
+                {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+              </figure>
+              <div class="body">{{ default .body ( T .body ) | markdownify }}</div>
+            </div>
+          {{ end }}
+        </div>
+        {{ with .agenda }}
+          <div class="detail-row agenda">
+            <div class="title">{{ default .title ( T .title )}}</div>
+            <div class="columns">
+              {{ range .items }}
+                <div class="column">
+                  <div class="content">{{ default .item ( T .item ) | markdownify }}</div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{end}}
+        <div class="detail-row time">
+          {{ with.time }}
+            <h2 class="title">{{ default .title ( T .title ) }}</h2>
+            <h2 class="content">{{ default .body ( T .body ) }}</h2>
+          {{ end }}
+        </div>
+      </div>
+      <div class="column is-form">
+        {{ partial "common/form" .form }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ $modalId := "schedule-demo-modal" }}
+
+<div class="modal is-iframe-modal" id="{{ $modalId }}">
+  <div class="modal-background" data-target="{{ $modalId }}"></div>
+  <div class="modal-content" id="{{ $modalId }}-iframe"></div>
+  <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
+</div>
+
+{{ partial "common/template-script" (dict "asset" "js/webinars.js") }}
+</main>{{ end }}

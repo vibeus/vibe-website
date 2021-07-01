@@ -1,0 +1,111 @@
+form:
+  action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/1270333f-4cc2-4450-901d-d4f9b29fed58'
+  class: is-demo-form
+  controls:
+    - - name: firstname
+        placeholder: First Name*
+        required: true
+      - name: lastname
+        placeholder: Last Name*
+        required: true
+    - - name: email
+        placeholder: Email Address*
+        type: email
+        required: true
+    - - name: industry_category
+        placeholder: Industry*
+        required: true
+        sortDropdown: true
+        dropdown:
+          - Arts and Design
+          - Architecture and Construction
+          - Coaching and Training
+          - Consulting
+          - Education
+          - Engineering
+          - Financial Services
+          - Government and Organizations
+          - Health Care
+          - IT Services
+          - Legal
+          - Manufacturing
+          - Marketing and Advertising
+          - Real Estate
+          - Retail and Consumer Goods
+          - Technology
+          - Others
+    - - name: use_case
+        placeholder: Use case*
+        required: true
+        dropdown:
+          - Remote collaboration
+          - Presentation
+          - Project management
+    - - name: anything_else_we_should_know_
+        placeholder: Message (optional)
+        type: textarea
+        column_class: is-hidden-non-eu
+        class: small-size-gdpr
+  hidden_values:
+    vibe_from_education_landing_page: 'false'
+    vibe_lp_live_demo_request: 'false'
+    demo_page_url: 'https://vibe.us/demo/video-demo/'
+  buttons:
+    - type: submit
+      title: Watch Demo Video
+      class: button is-rounded is-black is-outlined watch-demo is-fullwidth
+      column_class: is-hidden-eu
+      name: request-video
+    - type: submit
+      title: Watch Demo Video
+      class: button is-rounded is-black is-outlined watch-demo is-fullwidth
+      column_class: is-hidden-non-eu
+      name: request-video
+      target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/83454bfb-2634-4bb9-b4c2-94b0c244ab5c'
+    - type: submit
+      title: Schedule a Live Demo
+      class: button is-rounded is-black schedule-demo is-fullwidth
+      column_class: is-hidden-eu
+      name: request-demo
+      target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/f46de797-344a-4c92-b0d3-3555e229394f'
+    - type: submit
+      title: Contact Sales
+      class: button is-rounded is-black is-fullwidth
+      column_class: is-hidden-non-eu
+      name: contact-sales
+      target_action: 'https://api.hsforms.com/submissions/v3/integration/submit/5698963/89a0d8cc-cde8-409f-a1e3-c82cd2a5e0f3'
+  submitted:
+    choices:
+      - class: is-live-demo
+        body: |
+          # We’ve sent you an email with a link to schedule your demo. Talk to you soon!
+        cta:
+          title: Watch Demo Video First
+          target: _blank
+          class: is-primary is-video-demo-link
+          url: https://vibe.us/demo/video-demo/
+      - class: is-video-demo
+        body: |
+          # We've sent you an email with the video link. Enjoy!
+        cta:
+          title: Watch Now
+          target: _blank
+          class: is-primary is-video-demo-link
+          url: https://vibe.us/demo/video-demo/
+          subcta:
+            class: is-hidden-eu
+            body: Still want to talk to an expert?
+            link:
+              class: is-live-demo-meeting-link
+              body: Schedule a live demo
+              url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+      - class: is-contact-sales
+        body: |
+          # Thanks!
+
+          We will get back to you as soon as we can.
+        cta:
+          title: Watch Demo Video Now
+          target: _blank
+          class: is-primary is-video-demo-link
+          url: https://vibe.us/demo/video-demo/
