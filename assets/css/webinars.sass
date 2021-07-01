@@ -152,14 +152,14 @@
           line-height: 164%
 
 
-      
+
   .column.is-form
     display: flex
     flex-direction: column
     justify-content: center
     max-width: 617px
     +fullhd
-      padding: 0 60px 0 70px 
+      padding: 0 60px 0 70px
     +desktop
       background-color: white
       margin-left: 30px
@@ -176,6 +176,10 @@
       +desktop
         margin-bottom: 3.5rem
       max-width: 468px
+    .control .button
+      margin: auto
+      margin-top: 36px
+      max-width: 270px
     .submitted
       bottom: 80px
       align-items: center
@@ -202,33 +206,3 @@
           opacity: 0 // mdb hack
       .submitted
         display: flex
-    &.is-submitted.is-video-webinars
-      .form.is-vibe-form
-        .columns, .privacy, .button[data-name='request-video']
-          visibility: hidden
-        .columns.is-buttons
-          visibility: hidden
-        .submitted
-          display: flex
-          .submitted-choice.is-video-webinars
-            display: block
-    &.is-submitted.is-live-webinars
-      .form.is-vibe-form
-        .columns, .privacy
-          visibility: hidden
-        .columns.is-buttons
-          visibility: hidden
-        .submitted
-          display: flex
-          .submitted-choice.is-live-webinars
-            display: block
-    &.is-submitted.is-contact-sales
-      .form.is-vibe-form
-        .columns, .privacy
-          visibility: hidden
-        .columns.is-buttons
-          visibility: hidden
-        .submitted
-          display: flex
-          .submitted-choice.is-contact-sales
-            display: block

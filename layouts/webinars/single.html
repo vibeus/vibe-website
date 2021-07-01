@@ -3,6 +3,10 @@
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
+{{ define "nav" }}
+{{ partial "common/nav" . }}
+{{ end }}
+
 {{ define "main" }}<main class="webinars">
 
 {{ with .Params.hero }}
@@ -64,7 +68,7 @@
         </div>
       </div>
       <div class="column is-form">
-        {{ partial "common/form" (merge site.Data.webinars_form.form (default (dict) .form)) }}
+        {{ partial "common/form" .form }}
       </div>
     </div>
   </div>
@@ -79,5 +83,5 @@
   <button class="modal-close is-large" aria-label="close" data-target="{{ $modalId }}"></button>
 </div>
 
-{{ partial "common/template-script" (dict "asset" "js/webinars.template.js") }}
+{{ partial "common/template-script" (dict "asset" "js/webinars.js") }}
 </main>{{ end }}
