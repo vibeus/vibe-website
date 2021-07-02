@@ -1,10 +1,10 @@
 ---
-title: Vibe Term of Use
-url: /term-of-use/
-description: Terms of Use for Vibe Inc. Products and Services
+title: Vibe Terms of Service
+url: /terms-of-service/
+description: Terms of Service for Vibe Inc. Products and Services
 aliases:
-  - /term/
-  - /documents/term-of-use/
+  - /terms/
+  - /documents/terms-of-service/
 noIndex: true
 noSitemap: true
 ---

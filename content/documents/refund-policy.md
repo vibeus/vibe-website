@@ -9,9 +9,13 @@ hero:
   title: *title
 ---
 
+# Cancel the order
+
+We accept order cancellation before the product is shipped. If you cancel the order, you will get a full refund. If the product has already been shipped, you will not be able to cancel the order.
+
 # Returns
 
-If you purchased a Vibe board or Vibe mobile stand directly from Vibe, you can request a return within the first 30 days after you have received delivery of your product. (For Amazon purchases, please contact us through Amazon).
+If you purchased a Vibe board or Vibe mobile stand directly from Vibe, you can request a return within the first 30 days after you have received delivery of your product. (For Amazon purchases, please contact us through Amazon). However, you need to pay the return delivery fee.
 
 **If 30 days have gone by since you received your purchase, unfortunately we cannot offer you a refund or exchange**.
 
@@ -26,6 +30,18 @@ To request a return or exchange, please fill out the [Return Merchandise Authori
 There are certain situations where only partial refunds are granted:
 
 - Any item not in its original condition, is damaged or missing parts for reasons not due to our error.
+
+# Return address
+
+HOYU US LOGISTICS INC
+
+2130 E. DEL AMO BLVD.,
+
+COMPTON, CA, 90220
+
+ATTN: Rocio Avila
+
+Contact: 310-605-5141 ext. 101
 
 # Refunds
 
