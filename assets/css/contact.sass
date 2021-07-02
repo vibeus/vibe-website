@@ -41,6 +41,40 @@
           text-align: left
     &.is-support
       margin-top: 40px
+      a
+        font-weight: $vibe-bold
+        text-decoration: underline
+    &.is-get-in-touch
+      margin-top: 48px
+      max-width: 680px
+      width: 100%
+      padding-top: 16px
+      border-top: 0.5px solid #B4B4B4
+      .contact
+        display: flex
+        flex-direction: column-reverse
+        +tablet
+          flex-direction: row-reverse
+          justify-content: space-between
+          align-items: center
+      .icon
+        margin-right: 4px
+      .content
+        font-size: 12px
+        display: flex
+        align-items: center
+        margin: 0
+        +tablet
+          margin: 0 6px
+          font-size: 13px
+        &:not(:first-of-type)
+          +mobile
+            margin-bottom: 8px
+        &:first-of-type
+          p:first-of-type
+            margin-bottom: 0
+            &::after
+              content: ',\00a0'
   .columns.is-buttons .control
     text-align: center
     .button
@@ -49,10 +83,6 @@
     font-size: 24px
   .title, .subtitle, .content
     text-align: center
-  .container.is-support
-    a
-      font-weight: $vibe-bold
-      text-decoration: underline
   .is-form.is-submitted .form
     .columns, .privacy
       visibility: hidden
