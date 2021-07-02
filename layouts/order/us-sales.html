@@ -351,5 +351,10 @@
 </main>{{ end }}
 
 {{ define "foot" }}
-{{ partial "common/foot-with-compare-note" . }}
+{{ $foot := merge .Site.Data.common.foot.base (default (dict) (index .Site.Data.common.foot .Site.Language.Lang)) }}
+{{ $foot_in_lp := .Params.is_lp }}
+{{ partial "common/compare-note" . }}
+{{ partial "common/foot-main-body" (dict "foot" $foot "foot_in_lp" $foot_in_lp) }}
+{{ partial "accepted-payments" . }}
+{{ partial "common/foot-contact" (dict "foot" $foot "foot_in_lp" $foot_in_lp) }}
 {{ end }}

@@ -1,0 +1,13 @@
+{{ with site.Data.accepted_payments.payments }}
+<div class="section is-vibe-accepted-payments">
+  <div class="container">
+    <div class="image-gallery">
+      {{ range . }}
+      <figure class="image is-logo">
+        {{ partial "common/srcset" (dict "resource" (resources.Get .icon) "desktop" "1400x" "tablet" "700x") }}
+      </figure>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

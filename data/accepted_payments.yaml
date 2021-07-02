@@ -1,0 +1,14 @@
+payments:
+  - icon: img/order/accepted-payments/Visa.png
+  - icon: img/order/accepted-payments/mastercard.png
+  - icon: img/order/accepted-payments/American-express.png
+  - icon: img/order/accepted-payments/discover.png
+  - icon: img/order/accepted-payments/jcb.png
+  - icon: img/order/accepted-payments/PayPal.png
+  - icon: img/order/accepted-payments/apple-pay.png
+  - icon: img/order/accepted-payments/google-pay.png
+  - icon: img/order/accepted-payments/amazon-pay.png
+  - icon: img/order/accepted-payments/affirm.png
+  - icon: img/order/accepted-payments/diners-club.png
+  - icon: img/order/accepted-payments/elo.png
+  - icon: img/order/accepted-payments/shop-pay.png

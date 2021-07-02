@@ -107,6 +107,7 @@ contact:
     title: i18n-content-contact-_index-contact-support-title
     subtitle: We’re here to help!
     body: i18n-content-contact-_index-contact-support-body
+  get_in_touch: true
 bottom_cta:
   title: i18n-content-contact-_index-bottom_cta-title
   cta:

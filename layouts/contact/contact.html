@@ -39,15 +39,33 @@
     {{ end }}
   </div>
 
+  {{ with .support }}
   <div class="container is-support">
-    {{ with .support }}
     <h2 class="title">{{ default .title (T .title) }}</h2>
     <h2 class="subtitle">{{ default .subtitle (T .subtitle) }}</h2>
     <div class="content">
       {{ default .body (T .body) | markdownify }}
     </div>
-    {{ end }}
   </div>
+  {{ end }}
+
+  {{ with .get_in_touch }}
+  {{ $data := merge $.Site.Data.get_in_touch.base (default (dict) (index $.Site.Data.get_in_touch $.Site.Language.Lang)) }}
+  {{ with $data }}
+  <div class="container is-get-in-touch">
+    <div class="contact">
+      {{ range .city.items }}
+      <div class="content">
+        <span class="icon">
+          {{ partial "common/mdi" (print .icon ":20") }}
+        </span>
+        {{ default .text (T .text) | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
 </section>
 {{ end }}
 
