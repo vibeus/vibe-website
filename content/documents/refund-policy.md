@@ -1,5 +1,5 @@
 ---
-title: &title Vibe board Return & Refund Policy
+title: &title Vibe Board Return & Refund Policy
 description: Buy safely and securely with the Vibe board return policy. Return your Vibe board within 30 days to be eligible for a full refund.
 url: /refund/
 aliases:
