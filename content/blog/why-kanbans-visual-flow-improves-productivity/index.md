@@ -9,7 +9,8 @@ tags:
 - Remote Collaboration
 draft: false
 isfeatured: false
-description: The kanban system for project management could be the visual workflow your team has been looking for.
+description: The kanban system for project management could be the visual workflow your team has been looking for. See how
+  to use this system to your advantage.
 categories:
 - remote-collaboration
 industries: []
@@ -21,9 +22,9 @@ How do you rise above productivity struggles and manage projects like a boss? We
 
 ## What is kanban?
 
-In the 1950s, Toyota director, [Taiichi Ōno](https://www.leansixsigmadefinition.com/glossary/taiichi-ohno/), harnessed the strategies used in American grocery stores to restock products, and created the kanban system to effectively produce their cars. This visual project management system utilizes a board and cards to track the flow of tasks in a process — which explains why the name “kanban” combines the Japanese words, “kan” [看](https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=%E7%9C%8B) meaning sign, and “ban” [板](https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=%E6%9D%BF) meaning a board. Focusing on where you’re at in the process rather than the end date, [“The Toyota Way” by Liker](https://www.google.com/books/edition/The_Toyota_Way/eZutzPww02EC?hl=en&gbpv=0) describes the kanban system as, “Simple, effective, and highly visual.”
+In the 1950s, Toyota director, [Taiichi Ōno](https://www.leansixsigmadefinition.com/glossary/taiichi-ohno/), harnessed the strategies used in American grocery stores to restock products, and created the kanban system to effectively produce their cars. This visual project management system utilizes a board and cards to track the flow of tasks in a process. This explains why the name “kanban” combines the Japanese words, “kan” [看](https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=%E7%9C%8B) meaning sign, and “ban” [板](https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=%E6%9D%BF) meaning a board. Focusing on where you’re at in the process rather than the end date, [“The Toyota Way” by Liker](https://www.google.com/books/edition/The_Toyota_Way/eZutzPww02EC?hl=en&gbpv=0) describes the kanban system as, “Simple, effective, and highly visual.”
 
-Toyota primarily uses the kanban system to improve efficiency and eliminate waste. Although [“waste” takes on different forms](https://goleansixsigma.com/the-8-wastes-checksheet/) from business to business, we all seek a way to prevent valuable time, money, and other resources from being lost. Businesses today are doing this with kanban boards.
+Toyota primarily uses the kanban system to improve efficiency and eliminate waste. Although [“waste” takes on different forms](https://goleansixsigma.com/the-8-wastes-checksheet/) from business to business, we all seek a way to prevent losing valuable time, money, and other resources. Businesses today are doing this with kanban boards.
 
 ## 3 simple elements of a kanban board
 
@@ -46,7 +47,7 @@ Cards are the tasks that need to be accomplished. A card could simply contain th
 
 ## The perks of a virtual kanban system
 
-Generally, a kanban board is a pretty basic system for managing projects that could result in millions of dollars in revenue, or billions in the case of successful kanban users [Pixar, Spotify, and Zara](https://theleadershipnetwork.com/article/kanban) — just to name a few. Other than the potential for increased revenue, there are so many reasons to start using the kanban system. Here are some benefits to consider as you begin your kanban journey:
+Generally, a kanban board is a pretty basic system for managing projects that could result in millions of dollars in revenue. (Or billions in the case of successful kanban users [Pixar, Spotify, and Zara](https://theleadershipnetwork.com/article/kanban), just to name a few.) Other than the potential for increased revenue, there are so many reasons to start using the kanban system. Here are some benefits to consider as you begin your kanban journey:
 
 ### See the whole process in one view
 
@@ -54,29 +55,29 @@ Generally, a kanban board is a pretty basic system for managing projects that co
 
 ### Eliminate the bottlenecks and increase accountability
 
-When there are multiple steps and contributors involved in a process, it’s not uncommon for a holdup to occur. The transparent nature of a Kanban system allows you to easily see the task’s status and who is responsible for it at that stage, giving you power to nudge away the root of the bottleneck and keep the process flowing.
+When there are multiple steps and contributors involved in a process, it’s not uncommon for a holdup to occur. The transparent nature of a Kanban system allows you to easily see the task’s status and who is responsible for it at that stage. This transparency gives you power to nudge away the root of the bottleneck and keep the process flowing.
 
 ### Keep your team in the know
 
-Rather than hassling teammates about the status of a project, stay in-the-know by simply following a task’s progress on a kanban board. Intuitive apps like Trello even have the option to notify teammates when a change has been made to a task, helping you maximize your time and resources.
+Rather than hassling teammates for status updates, stay in-the-know by simply following a task’s progress on a kanban board. Apps like Trello even have the option to notify teammates when changes are made to a task, helping you maximize time and resources.
 
 ### Prevent employees from being overloaded
 
-Though it’s ultimately up to each company [how to divvy up assignments](https://www.americanexpress.com/en-us/business/trends-and-insights/articles/5-mistakes-managers-may-want-to-avoid-when-distributing-a-workload/), the kanban approach makes it easier to see who’s working on what, preventing individuals from being overburdened with too many tasks at once. Many kanban apps even let you set a WIP (work in progress) limit for how many tasks a team member can take on at a time.
+Though it’s ultimately up to each company [how to divvy up assignments](https://www.americanexpress.com/en-us/business/trends-and-insights/articles/5-mistakes-managers-may-want-to-avoid-when-distributing-a-workload/), the kanban approach makes it easier to see who’s working on what, preventing individuals from being overburdened with too many tasks at once. Many kanban apps even let you set work-in-progress limits for how many tasks a team member can take on at a time.
 
 {{< common/srcset "image-2.jpg" "Organize your next big project with Vibe’s kanban template." >}}
 
 ### Maximize the brain’s ability to focus
 
-You may have several cards assigned to you, but that doesn’t mean you should do them all at once. A balancing act of tasks may seem efficient, but [multitasking can reduce productivity by 40%](https://www.verywellmind.com/multitasking-2795003). The kanban approach stresses the importance of working on one specific task at a time, helping you tune out distractions and harness your brain’s focus power. Plus, that satisfaction from checking off one task gives you a boost to keep doing more.
+You may have several cards assigned to you, but that doesn’t mean you should do them all at once. A balancing act of tasks may seem efficient, but [multitasking can reduce productivity by 40%](https://www.verywellmind.com/multitasking-2795003). The kanban approach stresses the importance of working on one specific task at a time. This helps you tune out distractions and harness your brain’s focus power. Plus, that satisfaction from checking off one task gives you a boost to keep doing more.
 
 ### Improve employee and customer satisfaction
 
-Everyone is happier when deadlines are met and a service or product holds up to the standards promised by the brand. A streamlined workflow keeps everything in check to reach those goals, leaving you with a satisfied team and even happier customers.
+Everyone is happier when deadlines are met and a service or product holds up to the standards promised by the brand. A streamlined workflow keeps everything in check to reach those goals, leaving you with a satisfied team and happy customers.
 
 ### Let your ideas flow freely
 
-There are certainly [pros and cons to using a digital or physical kanban board](https://www.shmula.com/digital-vs-physical-kanban-boards/22755/#:~:text=Unlike%20their%20online%20counterparts%2C%20a,not%20require%20an%20internet%20connection.&text=Physical%20Kanban%20boards%20utilize%20items,do%2C%20doing%2C%20or%20done.). But a primary consideration is that a paper card or post-it can only hold so much information. When your kanban board lives in the digital world, you can include pertinent links, hold discussions with your team, and write notes to your heart’s content.
+There are certainly [pros and cons to using a digital or physical kanban board](https://www.shmula.com/digital-vs-physical-kanban-boards/22755/#:~:text=Unlike%20their%20online%20counterparts%2C%20a,not%20require%20an%20internet%20connection.&text=Physical%20Kanban%20boards%20utilize%20items,do%2C%20doing%2C%20or%20done.). But a primary consideration is that a paper card or post-it can only hold so much information. With a digital kanban board, you can include pertinent links, hold discussions with your team, and write notes to your heart’s content.
 
 ### Stay adaptable when priorities change
 
@@ -88,7 +89,7 @@ You may not be in the car or grocery business, but you should always be in the b
 
 ### Education
 
-COVID-19 changed our way of life — especially in the realm of education. Nearly [93% of households with school-age children reported some form of distance learning](https://www.census.gov/library/stories/2020/08/schooling-during-the-covid-19-pandemic.html) during 2020. A challenge for educators and students alike, remote learning has required the proper tools and practices to bring order to the chaos. Kanban boards have delivered an effective system for keeping the whole class organized.
+COVID-19 changed our way of life — especially in the realm of education. Nearly [93% of households with school-age children reported some form of distance learning](https://www.census.gov/library/stories/2020/08/schooling-during-the-covid-19-pandemic.html) during 2020. A challenge for educators and students alike, remote learning requires proper tools and practices to bring order to the chaos. Kanban boards have delivered an effective system for keeping the whole class organized.
 
 A shared kanban board for a class is mutually beneficial for the teacher and students. From the student perspective, they can keep up on deadlines, stay productive with checklists and individual tasks, and easily submit assignments all in one place. Plus, collaborating with other students on group projects or discussion boards is a breeze.
 
@@ -116,7 +117,7 @@ A $1.9 trillion industry, [the tech sector is the third largest sector in the U.
 
 Many specialists have a hand in developing products for this adapting industry. Coordinating the tasks of coders, web developers, engineers, product designers, and many others would not be possible without a system that allows teams to view one another’s progress. By setting up a kanban board with swimlanes for each specialty within a tech business or IT department, the team members who specialize in a particular area can focus their attention on their own tasks but still have the ability to stay in-tune with others’ developments.
 
-### Professional Services
+### Professional services
 
 The people in the business of serving others need a strategy for keeping up with the needs of clients. Consultants or those involved in leadership training can assign each of their clients to a kanban card. These cards can flow through the kanban board as professionals track their clients’ progress and goals.
 
@@ -128,6 +129,6 @@ Regardless of the unique demands of your field, every business seeking to join t
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas! Collaborate today with Vibe.
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

@@ -22,7 +22,7 @@ But the challenge for each organization is making these meetings effective while
 
 Whether your collaborative meetings are in person or virtual, it’s essential to structure the meeting to get the most out of them. Read on for the best tips for designing an effective collaborative meeting.
 
-## Make the meeting convenient for everyone
+## Make collaborative meetings convenient
 
 Schedule the meeting at a time that works for everyone. This can be challenging when you need to be mindful of:
 
@@ -33,9 +33,9 @@ Schedule the meeting at a time that works for everyone. This can be challenging 
 
 To coordinate an ideal time for all meeting members, use an effective meeting scheduler application for the entire company.
 
-***Related:* [The Biggest Threat to Productivity is Work About Work](https://vibe.us/blog/the-biggest-threat-to-productivity-is-work-about-work-heres-how-to-fix-it/)**
+{{< blog/cta-1 "Collaborate at your next meeting with Vibe" "https://vibe.us/lp/scenario-meeting/" >}}
 
-## Have a clear purpose for your meeting
+## Define a purpose for collaborative meetings
 
 Before scheduling anything, you should have a clear goal for the meeting. Identify the purpose beforehand to determine if it’s necessary to bring everyone together. For example, you don’t want to take up your team’s time if the meeting is only to share information, motivate, or socialize.
 
@@ -63,19 +63,17 @@ A smaller number of people also encourages everyone to contribute because they r
 
 Your meeting participants should feel like they can be innovative and think creatively. So, create a warm and inviting environment that doesn’t feel rigid or formal. Set the tone by engaging with team members in a friendly, encouraging tone.
 
+To lead effective collaborative meetings, you need tools and applications that encourage interaction. Think about ways to boost collaboration among participants where they can offer their expertise and add value to the discussions.
+
 Using an interactive whiteboard makes it easy to share, contribute, and brainstorm. Create that napkin idea on an interactive whiteboard to capture ideas more effectively and inspire innovation.
 
 ***Related:* [Why Brainwriting Produces the Best Team Ideas](https://vibe.us/blog/why-brainwriting-produces-the-best-team-ideas/)**
 
-## Encourage interaction among your audience
+## Take notes during the meeting
 
-To lead effective collaborative meetings, you need tools and applications that encourage interaction. Think about ways to boost collaboration among participants where they can offer their expertise and add value to the discussions.
+An effective collaborative meeting requires [taking vigilant notes](https://vibe.us/blog/meeting-notes/) to capture everyone’s ideas and input. These notes will not only keep track of decisions, vision, and solutions, they’ll also create a reference for future meetings and determining measurable tasks. Using an interactive whiteboard is an easy solution for taking notes.
 
-## Take notes
-
-An effective collaborative meeting requires taking vigilant notes to capture everyone’s ideas and input. These notes will not only keep track of decisions, vision, and solutions, they’ll also create a reference for future meetings and determining measurable tasks. Using an interactive whiteboard is an easy solution for taking notes.
-
-{{< common/srcset "image-2.jpg" "The Vibe digital whiteboard creates opportunities for team collaboration." >}}
+{{< common/srcset "image-2.jpg" "The Vibe digital whiteboard creates opportunities for teamwork during collaborative meetings." >}}
 
 ## Use a digital whiteboard at collaborative meetings
 
@@ -119,6 +117,6 @@ These safeguards are essential in today’s marketplace. By integrating these ti
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

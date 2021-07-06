@@ -40,7 +40,7 @@ The Surface Hub costs nearly $3,000 more than its closest competitor, coming in 
 
 Jamboard was launched by Google as a direct competitor to Surface Hub. It’s been successful in mimicking much of that device’s functionality, but with some downsides.
 
-On the plus side, the Jamboard features a vibrant 4K display with touchscreen capabilities for easy whiteboarding. Whiteboard content can be accessed using Android and iOS apps on a range of personal devices. Jamboard has also become popular with educators, thanks to its intuitive design.
+On the plus side, the Jamboard features a vibrant 4K display with touchscreen capabilities for easy whiteboarding. Using Android and iOS apps, users can access whiteboard content on a range of personal devices. Jamboard has also become popular with educators, thanks to its intuitive design.
 
 However, the Jamboard doesn’t support simultaneous app usage. This severely limits versatility for ideation sessions with multiple people using the board at the same time. Jamboard also has a limited suite of integrations, which for many offices could mean having to adjust workflows to work with it. Additionally, some reviewers have reported [glitches in the software](https://www.pcmag.com/review/348995/google-jamboard).
 

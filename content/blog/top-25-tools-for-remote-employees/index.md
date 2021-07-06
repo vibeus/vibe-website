@@ -56,7 +56,7 @@ Browser-based project management and issue tracking platform [YouTrack](https://
 
 ## 9. Notion
 
-[Notion](http://notion.com/) is an **all-in-one workspace** bringing everything together in one place that employees need for managing their projects. Notion offers a diverse array of tools: a calendar, a task board with a flexible drag-and-drop editor, a knowledge base, a personal weekly checklist, and a tool for taking notes. All of these tools can be used to discuss and plan projects, keep track of all your ideas, and efficiently share information with colleagues.
+[Notion](http://notion.com/) is an **all-in-one workspace** bringing everything together in one place that employees need for managing their projects. This workspace offers a diverse array of tools: a calendar, a task board with a flexible drag-and-drop editor, a knowledge base, a personal weekly checklist, and a tool for taking notes. All of these tools can be used to discuss and plan projects, keep track of all your ideas, and efficiently share information with colleagues.
 
 ## 10. Slack
 
@@ -92,7 +92,7 @@ One of the most feature-rich document [collaboration tools](https://vibe.us/blog
 
 ## 18. Basecamp
 
-[Basecamp](https://basecamp.com/) is a project management software that helps you set meeting schedules, arrange your calendars, track assignments, and store documents. Basecamp offers a **digestible birds-eye-view of all project activity**, as all project management happens on one organized dashboard.
+[Basecamp](https://basecamp.com/) is a project management software that helps you set meeting schedules, arrange your calendars, track assignments, and store documents. It offers a **digestible birds-eye-view of all project activity**, as all project management happens on one organized dashboard.
 
 ## 19. Monday.com
 
@@ -132,6 +132,6 @@ Everybody works a little differently, and everybody faces their own unique set o
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)

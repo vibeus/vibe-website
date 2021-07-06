@@ -17,7 +17,7 @@ industries:
 - business
 ---
 
-Work from home is here to stay, and although it brings with it many benefits, it also comes with a unique set of challenges. From keeping productivity up to boosting employee morale, it’s more important than ever to know how to manage a remote team.
+Work from home is here to stay, and although it brings with it many benefits, it also comes with a unique set of challenges. From maintaining productivity to boosting morale, it’s more important than ever to know how to manage a team and promote remote employee engagement.
 
 According to a [productivity study from Statista](https://www.statista.com/statistics/1140732/work-from-home-productivity-employees-us/), 44.9% of workers felt more productive at home, 34.5% felt less productive, and 20.6% felt no change as of June 2020. Additionally, [Blog Otter](https://blog.otter.ai/work-from-home-statistics/) found that 47% of workers struggle to work from home due to distractions, 20% find it challenging to collaborate and communicate with their team, and 35% feel isolated and disconnected.
 
@@ -31,7 +31,7 @@ This is ideal for keeping your team on track and productive. It’s easy to let 
 
 ***Related:* [Find the Right Remote Work Model for Your Team](https://vibe.us/blog/find-the-right-remote-work-model-for-your-team/)**
 
-{{< common/srcset "image-1.jpg" "" >}}
+{{< common/srcset "image-1.jpg" "The ability to work on any device can help boost remote employee engagement." >}}
 
 ## Vibe
 
@@ -39,7 +39,7 @@ Remember that at least 20% of your team is finding it challenging to collaborate
 
 The [Vibe](https://vibe.us/hardware/) board allows you to combine video conferencing and your favorite tools with an infinite writing canvas built for brainstorming and working together. Vibe ensures you enhance creativity and productivity by allowing your team to jot down ideas and sketch out their thoughts. With technology like this, your remote team can feel like they’re together at the office.
 
-Further, Vibe seamlessly integrates with all your favorite tools to ensure nothing and no one is left behind.
+Further, Vibe integrates with tons of your favorite tools to ensure nothing and no one is left behind.
 
 ***Related:* [Video Conferencing Apps You Can Use with the Vibe Whiteboard](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)**
 
@@ -61,7 +61,7 @@ With the workload management tool, you can help prevent burnout and stress in yo
 
 [Notion](https://www.notion.so/) offers a comprehensive workspace for notes, tasks, wikis, and databases. This tool allows you to embed over 500 applications into a central hub for collaboration within the organization. Its primary functionality creates company wikis for easy-to-find answers, manages projects and tasks, and organizes notes and docs.
 
-Built to accommodate every department including engineering, accounting, sales, and marketing, Notion centralizes all your tools for improved productivity, efficiency, and transparency.
+Built to accommodate every department including engineering, accounting, sales, and marketing, Notion centralizes all your tools for improved remote employee engagement.
 
 ***Related:*** [**How Will Your Company Define WFH Guidelines**?](https://vibe.us/blog/how-will-your-company-define-wfh-guidelines/)
 
@@ -95,7 +95,7 @@ You can also help organize your team’s email since Teams enables employees to 
 
 You can interact while recording, including drawing on your screen, highlighting with various colors, or changing your webcam’s location and size.
 
-After recording, Fluvid enables you to manage, edit, and share videos from your dashboard. Screen recording has never been more interactive or customized. Fluvid is perfect for managing remote employees by increasing creativity, collaboration, and productivity.
+After recording, Fluvid enables you to manage, edit, and share videos from your dashboard. Screen recording has never been more interactive or customized. Fluvid is perfect for increasing remote employee engagement by promoting creativity, collaboration, and productivity.
 
 {{< common/srcset "image-3.jpg" "Remote employees have freedom to work where their focus is better." >}}
 

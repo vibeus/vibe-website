@@ -8,7 +8,7 @@ tags:
 - Meeting Techniques
 - Meetings
 - Video Conference
-draft: true
+draft: false
 isfeatured: false
 description: "Is your conference room ready for your next big meeting? Here\u2019s your conference room checklist to ensure\
   \ everything goes perfectly!"

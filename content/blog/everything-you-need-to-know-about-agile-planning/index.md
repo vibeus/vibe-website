@@ -19,7 +19,7 @@ industries:
 
 Are you looking for a better product development process that can **adapt to an ever-evolving competitive market** and satisfy growing customer expectations? Then Agile planning could be right for you. Agile is a popular development methodology that focuses on end-user satisfaction and prioritizes project requirements based on customer feedback.
 
-Sounds great, but not sure where to get started? Don’t worry. This article will explain everything you need to know about Agile planning and determining if Agile is right for your enterprise.
+Sounds great, but not sure where to start? Don’t worry. This article will explain everything you need to know about Agile planning and determining if Agile is right for your enterprise.
 
 ## **What is the Agile Methodology?**
 
@@ -121,7 +121,7 @@ Vibe’s Whiteboard is an **excellent collaboration tool that can enhance the de
 
 ***Related:* [Why Companies Look to Flowcharts for Process Improvement Help](https://vibe.us/blog/flowcharts-for-process-improvement/)**
 
-## **Agile planning is focused on end-user satisfaction**
+## **Agile planning f**ocuses **on end-user satisfaction**
 
 Agile planning is a very productive process that focuses on product design and development based on end-user satisfaction. By gathering, analyzing, and changing development based on customer feedback in each sprint cycle, your products will enhance the user’s experience and adapt to a changing competitive market.
 

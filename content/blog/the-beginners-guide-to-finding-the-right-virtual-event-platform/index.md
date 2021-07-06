@@ -17,13 +17,13 @@ industries:
 - professional-services
 ---
 
-Think back to just a couple of years ago. How many of your organization’s events were in-person? Most organizations relied on in-person expos, conventions, conferences, lunch and learns, and workshops. Online events were often relegated to webinars and content streaming.
+Think back to just a couple of years ago. How many of your organization’s events were in-person? Most organizations relied on in-person expos, conventions, conferences, lunch and learns, and workshops. Online events were often relegated to webinars and content streaming. Then, all of a sudden, the virtual event format was made a necessity by the pandemic due to restrictions and social distancing.
 
-Virtual events were made a necessity by the pandemic due to restrictions and social distancing. We can expect to see this event format stick around as ordinances are lifted and the pandemic subsides. More people understand the value of virtual events and the opportunities they create to connect more people across larger spaces.
+We can expect to see virtual events stick around as ordinances are lifted and the pandemic subsides. More people understand the value of virtual events and the opportunities they create to connect more people across larger spaces.
 
 To facilitate these events, you may be considering using a virtual event platform. You’ll find the information you need to choose the ideal solution with the right features below.
 
-## Beyond the pandemic: Why virtual events are here to stay
+## Beyond the pandemic: Why the virtual event is here to stay
 
 When the pandemic began, the primary benefit of virtual events was that they were remote. There was no need to worry about in-person contact and contributing to a superspreader event. However, the benefits of virtual events aren’t just limited to the needs of a pandemic.
 
@@ -81,6 +81,8 @@ Consider whether you’ll allow attendees to register to specific sessions of yo
 
 Social sharing is a quick and easy way to promote your event. After attendees register, you can invite them to share the event on their social networks. This feature is typically referred to as social sharing or social incentives. Depending on your goals, you may choose to have registrants simply share the event or receive a unique discount code for their followers to earn a discount or other reward.
 
+{{< common/srcset "image-1.jpg" "Email marketing is a key part of the virtual event planning process." >}}
+
 ### Email marketing
 
 We have many options for communication at our fingertips, but email marketing remains one of the most direct and effective ways to connect with target audiences. Your event platform should include email marketing capabilities or integrate with your preferred email marketing solution. If you choose a platform that offers email marketing, make sure the look and feel is customizable to represent your brand.
@@ -92,6 +94,8 @@ As you review the email marketing capabilities, take a look at features around t
 Post-event, you’ll want to analyze data around attendees, their engagement, feedback, and the success of related campaigns. A good virtual event platform will present these analytics in a clear, easily digestible manner. You can use the insights to refine your events and [nurture leads through account based marketing](https://www.banzai.io/blog/abm-and-virtual-events) as well.
 
 ***Related:* [What’s an Interactive Whiteboard, and What Does It Do?](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/)**
+
+## Start planning a virtual event today
 
 The landscape of event marketing and management is changing to reflect the way we live and work today. With a forward-thinking, scalable event platform, you can set your organization up to deliver amazing experiences to attendees in any format.
 
