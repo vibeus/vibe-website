@@ -1,3 +1,4 @@
 appURL: https://app.vibe-beta.com/
 apiURL: https://api.vibe-beta.com/v1/
 allowIndex: false
+betaTest: true
