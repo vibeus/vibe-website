@@ -22,8 +22,6 @@ hero:
         text: i18n-content-_index-hero-subcta-i_1-link-text
         url: https://app.vibe.us/
 as_seen_in:
-  title: i18n-content-_index-as_seen_in-title
-  title_column_class: is-one-quarter-tablet
   references:
     - class: techcrunch-link
       figure: img/home/logo-techcrunch-gray.png
@@ -41,6 +39,67 @@ as_seen_in:
       figure: img/home/logo-entrepreneur-gray.png
       figure_on_hover: img/home/logo-entrepreneur.png
       link: https://www.entrepreneur.com/article/366106
+values:
+  - figure: img/home/values-cre.png
+    title: i18n-content-_index-values-i_0-title
+    body: i18n-content-_index-hero-i_0-body
+  - figure: img/home/values-col.png
+    title: i18n-content-_index-values-i_1-title
+    body:  i18n-content-_index-values-i_1-body
+  - figure: img/home/values-eng.png
+    title: i18n-content-_index-values-i_2-title
+    body: i18n-content-_index-values-i_2-body
+description_section:
+  descriptions:
+    - sub_title: Vibe Smartboard 55″
+      title: i18n-content-_index-description_section-descriptions-i_0-title
+      body: i18n-content-_index-description_section-descriptions-i_0-body
+      class: is-feature-1
+      figure: img/home/description-55.png
+      figure_mobile: img/home/description-55-mobile.png
+      cta_links:
+        - title: Learn more →
+          url: /products/smartboard-55/
+        - title: Buy →
+          url: /order/
+    - sub_title: Vibe Smartboard Pro 75″ 
+      title: i18n-content-_index-description_section-descriptions-i_1-title
+      body: i18n-content-_index-description_section-descriptions-i_1-body
+      class: is-feature-2
+      figure: img/home/description-75.png
+      figure_mobile: img/home/description-75-mobile.png
+      cta_links:
+        - title: Learn more →
+          url: /products/smartboard-pro-75/
+        - title: Buy →
+          url: /order/pre-order/
+    - sub_title: Vibe Canvas
+      title: i18n-content-_index-description_section-descriptions-i_2-title
+      body: i18n-content-_index-description_section-descriptions-i_2-body
+      class: is-feature-1
+      figure: img/home/description-canvas.png
+      figure_mobile: img/home/description-canvas-mobile.png
+      cta_links:
+        - title: Try Canvas free →
+          url: https://app.vibe.us/login
+scenario_section:
+  scenarios: 
+    - figure: img/home/scenario-bus.png
+      figure_mobile: img/home/scenario-bus-mobile.png
+      class: is-scenario-1
+      title: i18n-content-_index-scenario_section-scenarios-i_0-title
+      body: i18n-content-_index-scenario_section-scenarios-i_0-body
+      cta:
+        title: Learn more →
+        url: /lp/scenario-business/
+    - figure: img/home/scenario-edu.png
+      figure_mobile: img/home/scenario-edu-mobile.png
+      class: is-scenario-2
+      title: i18n-content-_index-scenario_section-scenarios-i_1-title
+      body: i18n-content-_index-scenario_section-scenarios-i_1-body
+      cta:
+        title: Learn more →
+        url: /lp/scenario-education/
 what_is_vibe:
   title: i18n-content-_index-what_is_vibe-title
   subtitle: i18n-content-_index-what_is_vibe-subtitle
@@ -48,226 +107,103 @@ what_is_vibe:
   video:
     id: Ccd4cVrtHTk
     preview: video/common/vibe-intro.mp4
-testimonial_section:
-  testimonials:
-    - author:
-        logo: img/common/testimonials/capgemini.png
-      body: i18n-content-_index-testimonial_section-testimonials-i_0-body
-features:
-  - title: i18n-content-_index-features-i_0-title
-    subtitle: i18n-content-_index-features-i_0-subtitle
-    body: i18n-content-_index-features-i_0-body
-    figure: img/home/feature-col.png
-    class: is-feature-1
-  - title: i18n-content-_index-features-i_1-title
-    subtitle: i18n-content-_index-features-i_1-subtitle
-    body: i18n-content-_index-features-i_1-body
-    figure: img/home/feature-cre.png
-    class: is-create is-feature-2
-  - title: i18n-content-_index-features-i_2-title
-    subtitle: i18n-content-_index-features-i_2-subtitle
-    body: i18n-content-_index-features-i_2-body
-    figure: img/home/feature-eng.png
-    jpg_background: '#66cccc'
-    class: is-feature-3
-  - title: i18n-content-_index-features-i_3-title
-    subtitle: i18n-content-_index-features-i_3-subtitle
-    body: i18n-content-_index-features-i_3-body
-    figure: img/home/feature-cus.png
-    cta:
-      title: i18n-content-_index-features-i_3-cta-title
-      url: /android-app-store/
-    class: is-feature-4
-  - title: i18n-content-_index-features-i_4-title
-    subtitle: i18n-content-_index-features-i_4-subtitle
-    body: i18n-content-_index-features-i_4-body
-    figure: img/home/feature-sim.png
-    cta:
-      title: i18n-content-_index-features-i_4-cta-title
-      video: //dl.vibe.us/assets/video/vibe-install.mp4
-    class: is-feature-5
 
-trust:
+customer_story:
   title_part1: Trusted by
   title_part2: 900+
   title_part3: companies all over the world.
   content: Read more customer stories →
   url: /customer/
+  logo_group_figure: img/home/customer-story/customer-logo-group.png
+  logo_group_figure_mobile: img/home/customer-story/customer-logo-group-mobile.png
   testimonials:
-    - item: &id01
+    - item: &id09
         title: Sports Training
         name: Ian Westermann,
         content: Founder of Essential Tenniscon
         content_for_mobile: Founder of Essential Tenniscon
+        blog_testimonial: Investing in a Vibe board is worthwhile.
         figure:
-          - url: img/home/customer-entry/img1.png
+          - url: img/home/customer-story/img9.png
             class: figure-for-desktop
-          - url: img/home/customer-entry/mobile-img1.png
+          - url: img/home/customer-story/mobile-img9.png
             class: figure-for-mobile
-          - url: img/home/customer-entry/tablet-img1.png
+          - url: img/home/customer-story/img9.png
             class: figure-for-tablet
         video:
           Id: OXzhLPXXj14
         logo:
-          - url: img/home/customer-entry/logo1.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/logo1.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo1.png
+          - url: img/home/customer-story/mobile-logo9.png
             class: figure-for-mobile
-        partial: 'common/customer-story-card'
-    - item: &id02
-        title: Marketing Agency
-        name: Adam Elbendary,
-        content: CEO of Cleverman, Inc.
-        content_for_mobile: CEO of Cleverman, Inc.
-        logo:
-          - url: img/home/customer-entry/logo2.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/logo2.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo2.png
-            class: figure-for-mobile
+        partial: "common/customer-story-card"
+    - item: &id10
+        title: Architecture and Construction
+        name: Jonathan Wong,
+        content: Smith Bros. & Wilson, Ltd.
+        content_for_mobile: Smith Bros. & Wilson, Ltd.
+        blog_testimonial: The Vibe board makes sure everyone's on the same page.
         figure:
-          - url: img/home/customer-entry/img2.png
+          - url: img/home/customer-story/img10.png
             class: figure-for-desktop
-          - url: img/home/customer-entry/mobile-img2.png
+          - url: img/home/customer-story/mobile-img10.png
             class: figure-for-mobile
-          - url: img/home/customer-entry/tablet-img2.png
+          - url: img/home/customer-story/img10.png
             class: figure-for-tablet
-        url: 'https://vibe.us/blog/how-i-vibe-adam-elbendary/'
-        partial: 'common/customer-story-card'
-    - item: &id03
-        testimonials:
-          - author:
-              name: |
-                Sean Foster
-
-                eFocus
-            body: Amazing tool for small businesses! As a Digital Marketing Agency, I'm wondering where you have been all my life Vibe! Business daily operations is not only more effective but also a lot more fun!
-        partial: 'common/testimonial-section'
-    - item: &id04
-        title: Education
-        name: Henry Silverman,
-        content: Professor of Medicine
         logo:
-          - url: img/home/customer-entry/logo4.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/logo4.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo4.png
+          - url: img/home/customer-story/mobile-logo10.png
             class: figure-for-mobile
+        video:
+          Id: nNTwK6mEU_4
+        partial: "common/customer-story-card"
+    - item: &id11
+        title: Professional Services
+        name: Will Curran,
+        content: Endless Events
+        content_for_mobile: Endless Events
+        blog_testimonial: To enhance collaboration, you gotta get Vibe.
         figure:
-          - url: img/home/customer-entry/img4.png
+          - url: img/home/customer-story/img11.png
             class: figure-for-desktop
-          - url: img/home/customer-entry/tablet-img4.png
+          - url: img/home/customer-story/mobile-img11.png
+            class: figure-for-mobile
+          - url: img/home/customer-story/img11.png
             class: figure-for-tablet
-        url: 'https://vibe.us/blog/how-i-vibe-henry-silverman-professor-of-medicine/'
-        partial: 'common/customer-story-card'
-    - item: &id05
-        title: Education
-        name: Arek Puzia,
-        content: Professor of Diablo Valley College
-        content_for_mobile: Professor of Diablo Valley College
         logo:
-          - url: img/home/customer-entry/logo5.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/logo5.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo5.png
+          - url: img/home/customer-story/mobile-logo11.png
             class: figure-for-mobile
+        video:
+          Id: OqGKaAsXNDY
+        partial: "common/customer-story-card"
+    - item: &id12
+        title: Education Center
+        name: Ryne Anthony,
+        content: director of innovation at Fluxspace
+        content_for_mobile: Fluxspace
+        blog_testimonial: I’m most excited about having Vibe be used around the whole learning environment.
         figure:
-          - url: img/home/customer-entry/img5.png
+          - url: img/home/customer-story/img12.png
             class: figure-for-desktop
-          - url: img/home/customer-entry/mobile-img3.png
+          - url: img/home/customer-story/mobile-img12.png
             class: figure-for-mobile
-          - url: img/home/customer-entry/tablet-img5.png
+          - url: img/home/customer-story/img12.png
             class: figure-for-tablet
-        url: 'https://vibe.us/blog/how-i-vibe-arek-puzia-professor-and-cpa/'
-        partial: 'common/customer-story-card'
-    - item: &id06
-        title: Consulting
-        name: Peter Parker,
-        content: Advanced Analytics Practice Director at Redapt
-        content_for_mobile: Advanced Analytics Practice
         logo:
-          - url: img/home/customer-entry/logo6.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/tablet-logo6.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo6.png
+          - url: img/home/customer-story/mobile-logo12.png
             class: figure-for-mobile
-        figure:
-          - url: img/home/customer-entry/img6.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/mobile-img4.png
-            class: figure-for-mobile
-          - url: img/home/customer-entry/tablet-img6.png
-            class: figure-for-tablet
-        url: 'https://vibe.us/blog/how-i-vibe-peter-parker-advanced-analytics-practice-director/'
-        partial: 'common/customer-story-card'
-    - item: &id07
-        testimonials:
-          - author:
-              name: |
-                Karen L. Brady
-
-                Estate Planning Attorney, Arvada, Colorado
-            body: The Vibe board has been a game changer in how we communicate with clients, both in-person and virtually.
-        partial: 'common/testimonial-section'
-    - item: &id08
-        title: Business Coaching
-        name: Mark Smith,
-        content: CEO of Leadership Resourse Institute
-        content_for_mobile: CEO of LRI
-        logo:
-          - url: img/home/customer-entry/logo8.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/tablet-logo8.png
-            class: figure-for-tablet
-          - url: img/home/customer-entry/mobile-logo8.png
-            class: figure-for-mobile
-        figure:
-          - url: img/home/customer-entry/img8.png
-            class: figure-for-desktop
-          - url: img/home/customer-entry/mobile-img5.png
-            class: figure-for-mobile
-          - url: img/home/customer-entry/tablet-img8.png
-            class: figure-for-tablet
-        url: 'https://vibe.us/blog/how-i-vibe-mark-smith-ceo-of-leadership-resource-institute/'
-        partial: 'common/customer-story-card'
-  testimonials_for_desktop:
-    - - - item: *id01
+        video:
+          Id: A_wB90fMQEk
+        partial: "common/customer-story-card"
+  testimonials_for_desktop: &home_video_testimonials
+    - - - item: *id09
           class: is-reversed
-      - - item: *id02
-      - - item: *id03
-        - item: *id04
+    - - - item: *id10
           class: is-reversed
-    - - - item: *id05
-      - - item: *id06
+    - - - item: *id11
           class: is-reversed
-        - item: *id07
-      - - item: *id08
-  testimonials_for_tablet:
-    - - - item: *id01
+    - - - item: *id12
           class: is-reversed
-      - - item: *id02
-    - - - item: *id03
-          class: for_testimonial
-        - item: *id04
-          class: is-reversed
-      - - item: *id05
-    - - - item: *id06
-          class: is-reversed
-        - item: *id07
-          class: for_testimonial
-      - - item: *id08
-  testimonials_for_mobile:
-    - - - item: *id01
-    - - - item: *id02
-    - - - item: *id05
-    - - - item: *id06
-    - - - item: *id08
+  testimonials_for_tablet: *home_video_testimonials
+  testimonials_for_mobile: *home_video_testimonials
 
 bottom_cta:
   title: i18n-content-_index-bottom_cta-title

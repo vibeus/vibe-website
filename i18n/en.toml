@@ -28,6 +28,59 @@ other = "Open your boards →"
 [i18n-content-_index-as_seen_in-title]
 other = "As seen in"
 
+[i18n-content-_index-values-i_0-title]
+other = "Create"
+
+[i18n-content-_index-hero-i_0-body]
+other = "Create without limits. Fluidly sketch, design, and conceptualize on an infinite canvas."
+
+[i18n-content-_index-values-i_1-title]
+other = "Collaborate"
+
+[i18n-content-_index-values-i_1-body]
+other = "Make live sessions more interactive, while keeping hybrid employees immersed in every project."
+
+[i18n-content-_index-values-i_2-title]
+other = "Engage"
+
+[i18n-content-_index-values-i_2-body]
+other = "Think beyond one-way presenting. Connect with your audience with interactive sessions."
+
+[i18n-content-_index-description_section-descriptions-i_0-title]
+other = "Transform any room into a teamwork space"
+
+[i18n-content-_index-description_section-descriptions-i_0-body]
+other = """Portable and versatile, the Vibe 55” is there whenever and 
+wherever you need it, turning any space into a place built for teamwork."""
+
+[i18n-content-_index-description_section-descriptions-i_1-title]
+other = "The perfect place for every big idea"
+
+[i18n-content-_index-description_section-descriptions-i_1-body]
+other = """No job is too large for the Vibe Pro 75”. From powerful presentations
+ to big-time teamwork, its expansive surface makes room for everyone."""
+
+[i18n-content-_index-description_section-descriptions-i_2-title]
+other = "The ultimate toolbox for visual collaboration"
+
+[i18n-content-_index-description_section-descriptions-i_2-body]
+other = """Vibe Canvas is our online collaboration platform, empowering hybrid teams 
+to do their best work together (no matter where they are)."""
+
+[i18n-content-_index-scenario_section-scenarios-i_0-title]
+other = "Business"
+
+[i18n-content-_index-scenario_section-scenarios-i_0-body]
+other = """From initial brainstorms to final presentation, Vibe makes teamwork 
+more interactive and presentations more engaging."""
+
+[i18n-content-_index-scenario_section-scenarios-i_1-title]
+other = "Education"
+
+[i18n-content-_index-scenario_section-scenarios-i_1-body]
+other = """Vibe helps educators spark curiosity, enabling exciting new ways to 
+collaborate and reimagine the classroom experience."""
+
 [i18n-content-_index-what_is_vibe-title]
 other = "What is Vibe?"
 
@@ -44,11 +97,6 @@ Get engaged user participation from any device. It's truly an all in one collabo
 
 [i18n-content-_index-what_is_vibe-footnote]
 other = " \\* Vibe 为本产品在美国的品牌名，国内为 Vize"
-
-[i18n-content-_index-testimonial_section-testimonials-i_0-body]
-other = """We love using the Vibe board for meetings and brainstorming sessions. It has enhanced productivity, creativity
-and communication amongst our team. It also feels very seamless using the Vibe board and app across various
-devices."""
 
 [i18n-content-_index-features-i_0-title]
 other = "Collaborate"

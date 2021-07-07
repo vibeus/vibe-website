@@ -1,0 +1,21 @@
+<section class="section is-values">
+  <div class="container">
+    <div class="columns">
+      {{ range . }}
+      <div class="column">
+        <div class="title-row">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+          </figure>
+          <h2 class="title">{{ default .title (T .title) }}</h2>
+        </div>
+        {{ with .body }}
+        <div class="content">
+          {{ default . (T .) | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

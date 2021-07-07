@@ -28,11 +28,7 @@ what_is_vibe:
     isVideoJS: true
   footnote:
     text: i18n-content-_index-what_is_vibe-footnote
-testimonial_section:
-  testimonials:
-    - author:
-        logo: img/common/testimonials/capgemini.png
-      body: i18n-content-_index-testimonial_section-testimonials-i_0-body
+
 features:
   - title: i18n-content-_index-features-i_0-title
     subtitle: i18n-content-_index-features-i_0-subtitle

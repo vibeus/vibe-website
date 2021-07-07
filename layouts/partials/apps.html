@@ -5,7 +5,7 @@
     {{ if .body_mobile }}
       {{ with .body_mobile }}<p class="content is-hidden-tablet">{{ default . ( T . ) }}</p>{{ end }}
     {{ end }}
-    <div class="see-all">
+    <div class="see-all purple-link">
       {{ with .cta }}
         <a href="{{ .url | relLangURL }}">{{ default .title (T .title) }}</a>
       {{ end }}

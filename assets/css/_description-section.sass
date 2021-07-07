@@ -1,0 +1,81 @@
+.section.is-description-section
+  padding-top: 70px
+  padding-bottom: 120px
+  +touch
+    padding: 0
+    .is-feature-2
+      background: rgba(244, 244, 244, .6)
+  .container
+    max-width: 1100px
+  .columns 
+    @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+      .column.is-text
+        padding-left: 130px
+      .column.is-image
+        max-width: 660px
+        margin: 0 auto
+    +touch
+      display: block
+      padding-top: 40px
+      padding-bottom: 40px
+    +desktop
+      &:not(:last-child)
+        margin-bottom: 88px
+    .column.is-text
+      +mobile
+        max-width: 294px
+        margin: 0 auto
+        padding: 0
+    .sub-title
+      font-family: Stratos
+      font-weight: $vibe-bold
+      font-size: 34px
+      line-height: 43px
+      color: #030202
+      +mobile
+        font-size: 20px
+        line-height: 25px
+    .title
+      max-width: 533px
+      margin-top: 16px
+      margin-bottom: 40px
+      font-size: 50px
+      line-height: 120%
+      color: #000000
+      +mobile
+        max-width: 292px
+        margin-top: 8px
+        margin-bottom: 32px
+        font-size: 32px
+        line-height: 40px
+    .content
+      max-width: 490px
+      margin-bottom: 24px
+      font-size: 18px
+      line-height: 144%
+      color: #000000
+      +mobile
+        max-width: 294px
+        margin-bottom: 8px
+        font-size: 14px
+    .cta
+      +touch
+        margin-bottom: 12px
+      a
+        font-size: 18px
+        &:first-child
+          margin-right: 2.5rem
+        +mobile
+          font-size: 14px
+    .column.is-image
+      .image
+        +mobile
+          max-width: 330px
+          margin: 0 auto
+  .columns.is-feature-2
+    flex-direction: row-reverse
+    +widescreen
+      .image
+        width: 622px
+        img
+          margin-left: -4rem

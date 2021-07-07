@@ -1,0 +1,27 @@
+<section class="section is-scenario-section">
+  <div class="container">
+    {{ range .scenarios }}
+      <div class="scenario-box {{ .class }}">
+        <div class="is-image">
+          <figure class="image is-hidden-touch">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+          </figure>
+          <figure class="image is-hidden-desktop">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile)) }}
+          </figure>
+        </div>
+        <div class="is-text">
+          <div class="is-text-container">
+            <h2 class="title">{{ default .title (T .title) }}</h2>
+            <div class="content">{{ default .body (T .body) }}</div>
+            {{ with .cta }}
+              <div class="cta">
+                <a href="{{ .url | relLangURL }}">{{ default .title ( T .title ) }}</a>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>

@@ -73,60 +73,56 @@
 {{ partial "common/as-seen-in-section" . }}
 {{ end }}
 
-{{ with .Params.what_is_vibe }}
-{{ partial "common/video-hero" . }}
+{{ with .Params.values }}
+{{ partial "value-section" . }}
 {{ end }}
 
-{{ with .Params.testimonial_section }}
-{{ partial "common/testimonial-section" . }}
+{{ with .Params.description_section }}
+{{ partial "description-section" . }}
 {{ end }}
 
-{{ range .Params.features }}
-<section class="section is-feature{{ with .class }} {{ . }}{{ end }}">
+{{ with .Params.scenario_section }}
+{{ partial "scenario-section" . }}
+{{ end }}
+
+{{ with .Params.customer_story }}
+<section class="section is-customer-story-section">
   <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-text">
-        <h1 class="title is-section-title">{{ T .title }}</h1>
-        <h2 class="subtitle is-section-title">{{ T .subtitle }}</h2>
-        <div class="content">
-          {{ T .body | markdownify }}
-        </div>
-        {{ with .cta }}
-        <div class="cta">
-          {{ if .url }}
-          <a href="{{ .url | relLangURL }}">{{ T .title }}</a>
-          {{ end }}
-          {{ if .video }}
-          <a href="{{ .video }}" class="video-launcher-popup" target="_blank" data-target="demo-video-popup">
-            {{ T .title }}
-            <span class="icon">
-              {{ (resources.Get "img/shared/play-icon.svg").Content | safeHTML }}
-            </span>
-          </a>
-          {{ partial "common/video-player" (dict "playerId" "demo-video-popup" "videoUrl" .video "triggerClass" ".video-launcher-popup" "isInplace" false "isVideoJS" true) }}
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
-      <div class="column is-image">
-        <figure class="image">
-          {{ partial "common/srcset" (dict "resource" (resources.Get .figure) "desktop" "1920x" "tablet" "1280x" "mobile" "750x" "options" (print "jpg " (default "#ffffff" .jpg_background))) }}
-          <div class="overlay"></div>
-        </figure>
-      </div>
+    <div class="title is-section-title">{{ .title_part1 }} <span class="underline"> {{ .title_part2 }} </span>
+      {{ .title_part3 }}</div>
+    {{ if .content }}
+    <div class="is-section-content">
+      {{ if .url }}
+      <a href="{{ .url | relLangURL }}">{{ .content }}</a>
+      {{ else }}
+      <div class="content">{{ .content }}</div>
+      {{ end }}
     </div>
+    {{ end }}
+    <div class="glide_desktop">{{ partial "common/customer-story-glide" .testimonials_for_desktop }}</div>
+    <div class="glide_tablet">{{ partial "common/customer-story-glide" .testimonials_for_tablet }}</div>
+    <div class="glide_mobile">{{ partial "common/customer-story-glide" .testimonials_for_mobile }}</div>
+    {{ partial "common/video-player" (dict "playerId" "video-popup-player" "triggerClass" ".video-popup" "isInplace" false) }}
+    <figure class="image customer-logo-group is-hidden-mobile">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .logo_group_figure)) }}
+    </figure>
+    <figure class="image customer-logo-group is-hidden-tablet">
+      {{ partial "common/srcset" (dict "resource" (resources.Get .logo_group_figure_mobile)) }}
+    </figure>
   </div>
 </section>
+
+
+{{ partial "common/template-script" (dict "asset" "js/common/customer-story-section.js") }}
 {{ end }}
 
-{{ with .Params.trust }}
-{{ partial "common/customer-story-section" . }}
+{{ with .Params.what_is_vibe }}
+{{ partial "common/video-hero" . }}
 {{ end }}
 
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}
 {{ end }}
 
-{{ partial "common/template-script" (dict "asset" "js/common/testimonials.js") }}
-{{ partial "common/template-script" (dict "asset" "js/customer-entry.js") }}
+{{ partial "common/template-script" (dict "asset" "js/common/customer-story-section.js") }}
 </main>{{ end }}
