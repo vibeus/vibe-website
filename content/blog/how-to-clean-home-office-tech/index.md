@@ -28,11 +28,11 @@ Crumbs, dust, hair, and other nasty particles can wreak havoc on the sensitive c
 
 ### How often should you clean a laptop?
 
-The type of environment that your laptop is exposed to will ultimately determine how frequently it needs to be cleaned. Laptops that live in a home office around pet hair, poor ventilation, smoke, or other harmful factors may need to be cleaned every 3-6 months. However, if your environment is free of these things, aim to give your laptop a detailed cleaning once a year.
+The type of environment that your laptop is exposed to will ultimately determine how frequently it needs to be cleaned. Laptops that live in a home office around pet hair, poor ventilation, smoke, or other harmful factors may need cleanings every 3-6 months. However, if your environment is free of these things, aim to give your laptop a detailed cleaning once a year.
 
 ### How to clean a laptop
 
-**The interior:** Accessing a laptop’s interior could potentially void your warranty. However, you can still dislodge some of the dust and grime without going under the hood. Simply grab a can of compressed air (or a more eco-friendly [electric air duster](https://www.amazon.com/XPOWER-Airrow-Multi-Use-Electric-Computer/dp/B01BI4UQK0/ref=sxin_10?ascsubtag=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&creativeASIN=B01BI4UQK0&cv_ct_cx=canless+air&cv_ct_id=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=canless+air&linkCode=oas&pd_rd_i=B01BI4UQK0&pd_rd_r=36047ace-1312-4114-9bbd-136217aa8388&pd_rd_w=kWLkg&pd_rd_wg=dasC2&pf_rd_p=e666d5aa-04ca-46aa-86b0-07ac28e037d4&pf_rd_r=2J8NHZKHZS2MSJ24NPND&qid=1617853097&s=electronics&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=mashcontent-20)) and direct the air at any vents and ports on the bottom or sides of your laptop. This process may result in a flurry of dust so make sure to work in a place that you don’t mind getting dirty from whatever particles come flying out of your laptop (like a garage or outside).
+**The interior:** Accessing a laptop’s interior could potentially void your warranty. However, you can still dislodge some of the dust and grime without going under the hood. Simply grab a can of compressed air (or a more eco-friendly [electric air duster](https://www.amazon.com/XPOWER-Airrow-Multi-Use-Electric-Computer/dp/B01BI4UQK0/ref=sxin_10?ascsubtag=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&creativeASIN=B01BI4UQK0&cv_ct_cx=canless+air&cv_ct_id=amzn1.osa.7bfecd5f-9bb8-4ad7-8a08-482085877eb6.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=canless+air&linkCode=oas&pd_rd_i=B01BI4UQK0&pd_rd_r=36047ace-1312-4114-9bbd-136217aa8388&pd_rd_w=kWLkg&pd_rd_wg=dasC2&pf_rd_p=e666d5aa-04ca-46aa-86b0-07ac28e037d4&pf_rd_r=2J8NHZKHZS2MSJ24NPND&qid=1617853097&s=electronics&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=mashcontent-20)) and direct the air at any vents and ports on the bottom or sides of your laptop. This process may result in a flurry of dust, so make sure to work in a place that you don’t mind getting dirty (like a garage or outside). You never know what particles will fly out of your laptop.
 
 {{< common/srcset "image-1.jpg" "Snack at your desk every now and then? Then it’s time to clean the keyboard." >}}
 
@@ -56,7 +56,7 @@ Cleaning a digital whiteboard isn’t like cleaning a typical whiteboard. Thankf
 
 ### Why a digital whiteboard needs to be cleaned
 
-Dust, dirt, and greasy, germ-ridden fingerprints linger on digital whiteboards. Typically used by more than one person, these devices need to be cleaned regularly to keep germs and grime under control.
+Dust, dirt, and greasy, germ-ridden fingerprints linger on digital whiteboards. These devices are typically used by more than one person and need regular cleanings to keep germs and grime under control.
 
 ### How often should you clean a digital whiteboard?
 
@@ -66,7 +66,7 @@ The timetable for cleaning a digital whiteboard depends on how many users share 
 
 First, turn off the board and unplug the power cord. Use a dry microfiber cloth to remove dust. For a more thorough clean, slightly dampen a second cloth with water, or a [safe screen cleaner](https://www.amazon.com/Screen-Cleaner-Kit-Computer-Microfiber/dp/B01054S5FM/ref=sr_1_3?crid=2YD1J62HU96HS&dchild=1&keywords=screen+spray+cleaner&qid=1597935381&sprefix=screen+spray%2Caps%2C212&sr=8-3) (that doesn’t contain alcohol or ammonia), and gently rub the damp cloth on the screen’s surface. Don’t turn on the board until completely dry.
 
-Depending on the type of digital whiteboard, it may include a [passive or active stylus](https://www.pens.com/blog/what-is-a-stylus/) to use with the board. A passive stylus (which is included with the Vibe board) does not contain any electronic components and can be cleaned with any standard cleaning products. This is super handy for thoroughly disinfecting styluses that are shared. But an active stylus, which does include sensitive electrical parts, should really only receive cleaning on its rubber tip with a damp cloth and mild soap.
+Depending on the type of digital whiteboard, it may include a [passive or active stylus](https://www.pens.com/blog/what-is-a-stylus/) to use with the board. A passive stylus (which comes with the Vibe board) does not contain any electronic components and can be cleaned with any standard cleaning products. This is super handy for thoroughly disinfecting shared styluses. But an active stylus, which does include sensitive electrical parts, should really only receive cleaning on its rubber tip with a damp cloth and mild soap.
 
 ### Helpful hints
 
@@ -82,11 +82,11 @@ Phones, tablets, [laptops](https://vibe.us/blog/laptops-touch-screen-vs-non-touc
 
 ### Why a touchscreen device needs to be cleaned
 
-A screen that can respond to the touch of your fingers involves pretty sensitive technology — technology that needs to be properly cleaned to keep working. Smudges and grime from your fingers can inhibit the sensitivity of the device and make it harder to use. However, improper cleaning can damage the oleophobic and hydrophobic coatings found on touchscreens that keep oil and water from destroying your devices. Luckily, cleaning these devices is a breeze with the following tips.
+A screen that responds to the touch of your fingers involves pretty sensitive technology — technology that needs to be properly cleaned to keep working. Smudges and grime from your fingers can inhibit the sensitivity of the device and make it harder to use. However, improper cleaning can damage the oleophobic and hydrophobic coatings found on touchscreens that keep oil and water from destroying your devices. Luckily, cleaning these devices is a breeze with the following tips.
 
 ### How often should you clean a touchscreen device?
 
-Studies have found that our [phones are ten times dirtier than most toilet seats](https://www.rd.com/article/germs-on-your-phone/). With this in mind, phones and other touchscreen devices should be cleaned as often as possible. Use your best judgment for less-used devices like printers or cameras, but for phones and tablets — cleaning should probably happen every day.
+Studies have found that our [phones are ten times dirtier than most toilet seats](https://www.rd.com/article/germs-on-your-phone/). With this in mind, clean phones and other touchscreen devices as often as possible. Use your best judgment for less-used devices like printers or cameras, but for phones and tablets — cleaning should probably happen every day.
 
 ### How to clean a touchscreen device
 

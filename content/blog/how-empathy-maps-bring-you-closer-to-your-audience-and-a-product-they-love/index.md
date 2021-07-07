@@ -1,5 +1,5 @@
 ---
-title: "How Empathy Maps Bring You Closer to Your Audience and a Product That They\u2019ll Love"
+title: "How Empathy Maps Bring You Closer to Your Audience and a Product They\u2019ll Love"
 slug: how-empathy-maps-bring-you-closer-to-your-audience-and-a-product-they-love
 author: Paige Smith
 date: '2021-04-07'

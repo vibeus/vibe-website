@@ -1,5 +1,5 @@
 ---
-title: The Tool Every Tech Company Needs for Smart Product Design
+title: 'Decision Matrix: What Every Team Needs for Smart Product Design'
 slug: the-tool-every-tech-company-needs-for-smart-product-design
 author: Paige Smith
 date: '2021-03-19'
@@ -9,7 +9,8 @@ tags:
 - Vibe Template
 draft: false
 isfeatured: false
-description: Learn how a decision matrix can help your design team determine their priorities in a logical way.
+description: A successful product starts with smart design. Learn how a decision matrix can help your design team determine
+  their priorities in a logical way.
 categories:
 - remote-collaboration
 industries:
@@ -29,13 +30,13 @@ Many designers struggle with an overabundance of tasks, each competing for their
 
 (x) Effort = The energy/resources required by the organization
 
-As your tasks are weighed against these attributes, they will find their place in one of the four quadrants of the decision matrix: do, decide, delegate, or delete.
+As you weigh your tasks against these attributes, you’ll find their place in one of the four quadrants of the decision matrix: do, decide, delegate, or delete.
 
 {{< common/srcset "image-1.jpg" "Create an easily shareable decision matrix for your team." >}}
 
 ## The defining quadrants of a decision matrix
 
-The fate of a task is determined by its location on the matrix. Once a task is placed within a quadrant, your team will know which action to take regarding a task’s completion. Here’s what you need to know about the following four quadrants:
+A task’s fate is determined by its location on the matrix. Once a task is placed within a quadrant, your team will know which action to take regarding a task’s completion. Here’s what you need to know about the following four quadrants:
 
 ### Do (High Value, Low Effort)
 
@@ -47,7 +48,7 @@ Often, the most valuable things in life require the most effort. These important
 
 ### Delegate (Low Value, Low Effort)
 
-The tasks that are not worth your time or may not fit your particular expertise should be delegated out. Alternatively, when you have that extra bit of time on your hands that you might normally spend on browsing social media or organizing your desk, consider knocking off a few tasks from this quadrant.
+There will always be tasks that are not worth your time or may not fit your particular expertise. Delegate these tasks to someone with either more time or more capabilities related to the task. Alternatively, when you have that extra bit of time on your hands that you might normally spend on browsing social media or organizing your desk, consider knocking off a few items from this quadrant.
 
 ### Delete (Low Value, High Effort)
 
@@ -57,17 +58,17 @@ These tasks simply don’t hold a flame against their moneymaking, satisfaction-
 
 In a few simple steps, product designers can use a decision matrix to lighten the burden of decision-making and start giving users what they need. Here are the steps to get started:
 
-- **Determine what you’re prioritizing.**
+### Determine what you’re prioritizing
 
 That mile-long to-do list may include tasks with varying timeframes and categories. First, decide which items you would like to include in your decision matrix (e.g., features to implement, projects, needs of buyer personas, or research ideas). Then, consider the general timeline you’re focused on (e.g., the next month, quarter, or year).
 
-- **Design the matrix according to your needs and specifications.**
+### Design the matrix according to your needs and specifications
 
 This matrix is meant to work for YOU. Choose the criteria and scale that best fits your needs. Although value and effort are common attributes to assign, you may wish to substitute them with criteria like: ease of implementation, effect on other systems, customer pain from problem, or return on investment (ROI).
 
 Some items may be more number-based, such as the ROI of a certain product launch or the time taken to implement an item. These matrices aren’t meant to be a perfect science — especially when you’re not certain of how a new feature or product will be received by users. Estimates and guesses are perfectly acceptable. You may opt to leave numbers aside and simply place items based on their perceived value and effort levels.
 
-- **Research.**
+### Research
 
 When dollars and customer satisfaction are on the line, it pays to do your homework. Before placing items on the matrix, conduct some brief research. Get a feel for an item’s value and effort levels by viewing the results of similar tasks or features that were previously rolled out. We can learn a lot about the future from our past. You may also want to ask the following questions about each item to guide your thought process:
 
@@ -79,17 +80,17 @@ When dollars and customer satisfaction are on the line, it pays to do your homew
 
 {{< blog/cta-1 "Vibe Interactive Whiteboard for Remote Collaboration" >}}
 
-- **Let the group cast votes.**
+### Let the group cast votes
 
 The life of a product, from inception to delivery, involves a lot of different individuals. Developers, designers, marketing specialists, and other skilled minds work together to make things happen. With that said, their opinions matter, and they need to be heard.
 
 Give your team an opportunity to provide input by letting them mark items they believe should take priority. Keep things anonymous by numbering the items (in no particular order) and letting team members share a ballot with their top numbers. Or use a [digital poll](https://www.surveymonkey.com/mp/online-polls/) to compile the responses.
 
-- **Place items on the matrix.**
+### Place items on the matrix
 
-When your research and team discussion is complete, plotting items on the matrix should be the easiest step. Once all the items are placed, you can make a plan for accomplishing the items based on their location on the matrix. Does your gut tell you that an item isn’t quite where it needs to be? Revisit the matrix to see if the needle has moved for certain items.
+When your research and team discussion is complete, plotting items on the matrix should be the easiest step. Once you’ve put every item in place, make a plan for completing them based on their location on the matrix. Does your gut tell you that an item isn’t quite where it needs to be? Revisit the matrix to see if the needle has moved for certain items.
 
-- **Plan and prioritize.**
+### Plan and prioritize
 
 There is no set way that a team needs to prioritize. Tech companies with so many unique skills may find that it’s best to assign items from each quadrant among their team members. Whereas, a group of product designers may decide that each taking a high priority item and then working their way through the lower priority items may make the most sense.
 
@@ -109,7 +110,7 @@ A decision matrix is really an organizational tool that allows teams to share fe
 
 ### Support visual thinkers with a visual guide
 
-When [65% of the population are visual learners](https://www.inc.com/molly-reynolds/how-to-spot-visual-auditory-and-kinesthetic-learni.html), a nice mental map like a decision matrix is a welcome sight. Being able to move items on a physical, or digital, chart allows for better visualization of what needs to be accomplished compared to a standard checklist.
+When [65% of the population are visual learners](https://www.inc.com/molly-reynolds/how-to-spot-visual-auditory-and-kinesthetic-learni.html), a nice mental map like a decision matrix is a welcome sight. The ability to move items on a physical, or digital, chart allows for better visualization of what needs to be accomplished compared to a standard checklist.
 
 ### Offer support for decisions
 
@@ -129,7 +130,7 @@ Using a decision matrix in a remote setting allows team members to take the time
 
 ### Establish rules for voting
 
-Any time opinions are voiced, there’s a risk for conflict to arise. Combine this struggle with the challenge of sharing through a virtual platform, and the potential for disharmony escalates. Prior to any discussions through [Zoom](https://zoom.us/), or collaborating on a [Vibe whiteboard](https://vibe.us/lp/interactive-whiteboard/?utm_term=vibe%20board&utm_campaign=Brand+-+Vibe&utm_source=google&utm_medium=ppc&hsa_acc=2542539992&hsa_cam=10558454286&hsa_grp=105189422157&hsa_ad=451599631914&hsa_src=g&hsa_tgt=aud-992185767336:kwd-298663880377&hsa_kw=vibe%20board&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiA4rGCBhAQEiwAelVti_ACySPAzlwccO0M7GxbKT4NzZKfM6DvHGLxoAYwEXn2BX-4r75ifhoChnUQAvD_BwE), lay out the expectations of each team member in voicing their opinions and casting votes on the items.
+Any time people voice their opinions, there’s a risk for conflict to arise. Combine this struggle with the challenge of sharing through a virtual platform, and the potential for disharmony escalates. Prior to any discussions through [Zoom](https://zoom.us/), or collaborating on a [Vibe whiteboard](https://vibe.us/lp/interactive-whiteboard/?utm_term=vibe%20board&utm_campaign=Brand+-+Vibe&utm_source=google&utm_medium=ppc&hsa_acc=2542539992&hsa_cam=10558454286&hsa_grp=105189422157&hsa_ad=451599631914&hsa_src=g&hsa_tgt=aud-992185767336:kwd-298663880377&hsa_kw=vibe%20board&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiA4rGCBhAQEiwAelVti_ACySPAzlwccO0M7GxbKT4NzZKfM6DvHGLxoAYwEXn2BX-4r75ifhoChnUQAvD_BwE), lay out the expectations of each team member in voicing their opinions and casting votes on the items.
 
 ### Make the plan visible to everyone
 

@@ -68,27 +68,27 @@ A decision tree is a chart that breaks down possible scenarios and results to he
 
 Regardless of the type of flowchart you choose to create, there are just a few simple steps required to make your flowchart a reality.
 
-1. **Determine your end goal**
+### 1. Determine your end goal
 
 What are you trying to achieve by creating a flowchart? Do you want to improve a process? Better utilize team talent? Make your purpose known to those involved in the mapping process to keep everyone on the same page.
 
-2. **Study the process**
+### 2. Study the process
 
 Review the process from start to finish. This might require interviewing the people involved, physically watching a process, or reading supporting documents and data (or all of the above). Take note of who, or which system, was involved at each step, how long a step took, and if there were issues along the way. When applicable, you may want to watch a process multiple times to see if certain actions caused a change in the workflow.
 
-3. **Consider possible changes in flow**
+### 3. Consider possible changes in flow
 
 Flowcharts are a great tool for those who want to prepare for any possibility. Conduct research by analyzing issues that your company, or competitors, dealt with in the past. If a process primarily involves customers, get to know their flow of actions with focus groups, surveys, or customer observations. Include the possible situations or actions you gathered on your flowchart to address how your company would respond.
 
-4. **Choose a flowchart format and start mapping**
+### 4. Choose a flowchart format and start mapping
 
 Whether you design a chart using markers and sticky notes or go digital with an [interactive whiteboard](https://vibe.us/software/) or template, create a visual record of the process. Some teams may choose to assign standard [flowchart symbols](https://sixsigmastudyguide.com/process-map-and-flow-chart-symbols/) to chart item categories (like decisions, process steps, outputs, etc.) or simply distinguish them with certain colors or shapes. Whichever route you choose, stay consistent with your visuals.
 
-5. **Identify problems, wastes, and opportunities**
+### 5. Identify problems, wastes, and opportunities
 
 Review your flowchart as a team and pinpoint areas that need attention. Do you see recurring issues that need to be addressed? Do you find signs of waste throughout the process (e.g., time, talent, over-processing)? On the other hand, you may see opportunities for growth or improving marketing efforts. If efficiency is what you’re after, you can make a list of whether or not an action is necessary or positive using a [habits scorecard](https://jamesclear.com/habits-scorecard). There’s a lot you can learn about your company’s present and future by reviewing a flowchart.
 
-6. **Bonus step: Design a best-case scenario flowchart**
+### 6. Bonus step: Design a best-case scenario flowchart
 
 Help your team understand what a perfect process should look like. Redesign your initial flowchart with the steps and decisions that would yield the best outcomes. Once this chart is complete, design company protocols and procedures around the expectations present in your flowchart. Obviously, this may not apply to every scenario as change happens rapidly. But a lot of good comes from mutually sharing an understanding of the “who,” “what,” and “when” involved in a process.
 
@@ -131,4 +131,12 @@ Every industry has decisions to make and processes to capture and improve. Here 
 - Record your personal habits to help you create an identity that brings you joy and meaning
 - Create a step-by-step strategy for becoming debt-free
 
-Let Vibe’s innovative tools help you design the most effective processes. With all the bells and whistles for those working in remote or in-person settings, the **Vibe whiteboard is the perfect addition to your team**. [Check out a Vibe demo](https://vibe.us/demo/) and explore the ways that Vibe can help you today.
+Let Vibe’s innovative tools help you design the most effective processes. With all the bells and whistles for those working in remote or in-person settings, the Vibe whiteboard is the perfect addition to your team. [Check out a Vibe demo](https://vibe.us/demo/) and explore the ways that Vibe can help you today.
+
+
+
+---
+
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+
+**Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
