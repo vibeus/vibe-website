@@ -8,12 +8,12 @@ tags:
 - Remote Collaboration
 - Remote Team
 - Synchronous Communication
-draft: true
+draft: false
 isfeatured: false
 description: "Many of us switched to remote work in 2020. And as a result, 2021 is the year more of us fully embrace a more\
   \ flexible, hybrid work style. The key to a successful hybrid system lies in implementing new hybrid communication strategies\
   \ to balance the in-person and remote workflows in an efficient manner. Read on \u2026 \n\n\n[Continue reading \u201CSave\
-  \ Time and Streamline Workflows with Hybrid Communication Strategies\u201D](https://cms.vibe.dev/?p=1086)"
+  \ Time and Streamline Workflows with Hybrid Communication Strategies\u201D](https://cms.vibe.dev/2021/07/07/hybrid-communication-strategies/)"
 categories:
 - remote-collaboration
 industries:
@@ -41,7 +41,7 @@ By implementing a hybrid communication strategy in the workplace, you give emplo
 
 Uneven dispersal of key information and ineffective communication makes employees feel left out, especially when their direct managers fail to communicate that information. A strong hybrid communication strategy ensures that information is shared regularly and equally across your organization. This c**reate**s **a sense of transparency and increases employee trust in the company**.
 
-{{< blog/cta-2 "Make remote collaboration work for your team with Vibe" "https://vibe.us/lp/scenario-remote" >}}
+{{< blog/cta-2 "Make remote collaboration work with Vibe" "https://vibe.us/lp/scenario-remote" >}}
 
 ## Create an effective hybrid communication strategy
 
@@ -89,7 +89,7 @@ Implementing and adjusting to a new hybrid communication strategy means that eve
 - **Video conferencing cameras** in-office and in your remote workers’ home offices give everyone a way to meet face-to-face no matter where they are. Most laptops come standard with a webcam, and there are many affordable plug-and-play options for remote workers without a webcam-enabled computer.
 - **Asynchronous communication tools** like interactive whiteboards allow teams to collaborate, innovate, and ideate from anywhere in the world in real-time using powerful, intuitive technology. [Vibe](https://vibe.us/) is an all-in-one collaboration hub designed for hybrid workplaces.
 
-{{< common/srcset "image-1.jpg" "Asynchronous communication plays a big role in developing and maintaining a hybrid communication strategy." >}}
+{{< common/srcset "image-1.jpg" "Asynchronous communication plays a big role in maintaining a hybrid communication strategy." >}}
 
 ### Implement your new hybrid communication strategy
 
