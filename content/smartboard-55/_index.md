@@ -142,7 +142,7 @@ apps:
       - logo: img/apps/logo-group/9.jpg
       - logo: img/apps/logo-group/10.jpg          
       - logo: img/apps/logo-group/11.jpg
-      - logo: img/apps/logo-group/12.jpg
+      - logo: img/apps/logo-group/12-55.jpg
       - logo: img/apps/logo-group/13.jpg
       - logo: img/apps/logo-group/14.jpg
       - logo: img/apps/logo-group/15.jpg
@@ -162,35 +162,35 @@ apps:
       - logo: img/apps/logo-group/27.jpg
       - logo: img/apps/logo-group/28.jpg
       - logo: img/apps/logo-group/29.jpg
-      - logo: img/apps/logo-group/30.jpg
+      - logo: img/apps/logo-group/30-55.jpg
       - logo: img/apps/logo-group/20.jpg
       - logo: img/apps/logo-group/21.jpg
       - logo: img/apps/logo-group/31.jpg
       - logo: img/apps/logo-group/32.jpg
-      - logo: img/apps/logo-group/33.jpg
+      - logo: img/apps/logo-group/33-55.jpg
       - logo: img/apps/logo-group/34.jpg
       - logo: img/apps/logo-group/35.jpg
       - logo: img/apps/logo-group/36.jpg
       - logo: img/apps/logo-group/37.jpg
       - logo: img/apps/logo-group/38.jpg
-      - logo: img/apps/logo-group/39.jpg
+      - logo: img/apps/logo-group/39-55.jpg
     - logos:
-      - logo: img/apps/logo-group/30.jpg
+      - logo: img/apps/logo-group/30-55.jpg
       - logo: img/apps/logo-group/40.jpg
       - logo: img/apps/logo-group/41.jpg
       - logo: img/apps/logo-group/42.jpg
       - logo: img/apps/logo-group/43.jpg
       - logo: img/apps/logo-group/44.jpg
       - logo: img/apps/logo-group/45.jpg
-      - logo: img/apps/logo-group/46.jpg
+      - logo: img/apps/logo-group/46-55.jpg
       - logo: img/apps/logo-group/47.jpg
       - logo: img/apps/logo-group/48.jpg
       - logo: img/apps/logo-group/38.jpg
-      - logo: img/apps/logo-group/39.jpg
+      - logo: img/apps/logo-group/39-55.jpg
       - logo: img/apps/logo-group/49.jpg
       - logo: img/apps/logo-group/50.jpg
       - logo: img/apps/logo-group/51.jpg
-      - logo: img/apps/logo-group/52.jpg
+      - logo: img/apps/logo-group/52-55.jpg
       - logo: img/apps/logo-group/53.jpg
       - logo: img/apps/logo-group/54.jpg
       - logo: img/apps/logo-group/55.jpg
