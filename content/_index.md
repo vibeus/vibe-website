@@ -115,7 +115,7 @@ what_is_vibe:
 
 customer_story:
   title_part1: Trusted by
-  title_part2: 900+
+  title_part2: 1000+
   title_part3: companies all over the world.
   content: Read more customer stories →
   url: /customer/

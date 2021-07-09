@@ -14,7 +14,7 @@
     min-height: 463px
   +tablet
     min-height: 47.2vw
-  @media screen and ( min-width: 1600px )
+  @media screen and ( min-width: 1920px )
     min-height: 680px
   .image.is-video-close
     display: none
@@ -45,15 +45,15 @@
     width: 100vw
     *:focus
       outline: none
-    @media screen and ( min-width: 1600px )
-      width: 1600px
+    @media screen and ( min-width: 1920px )
+      width: 1920px
       margin: auto
     .image
       line-height: 0
       video
         width: 100vw
-        @media screen and ( min-width: 1600px )
-          width: 1600px
+        @media screen and ( min-width: 1920px )
+          width: 1920px
       iframe, .video-js
         +absolute-fill
     .preview
@@ -61,9 +61,6 @@
       .mask
         +absolute-fill
         background-color: rgba(0,0,0,0.4)
-        display: flex
-        align-items: center
-        justify-content: center
   .title-text
     color: #FFFFFF
     text-shadow: 0px 1px 4px rgba(17, 17, 17, 0.25)
@@ -155,6 +152,7 @@
         line-height: 23px
         color: $vibe-white
         
+// 点击播放后的动画样式调整
 @-webkit-keyframes fadeInContainer
   0%
     opacity: 0
@@ -171,7 +169,7 @@
     opacity: 0
     visibility: none
   50%
-    opacity: .6
+    opacity: .3
   100%
     opacity: 1
 
@@ -188,7 +186,6 @@
   &.is-active
     display: none
 
-// 点击播放后的动画样式调整
 .hero.is-home
   transition: all .6s ease .1s
   &:not(.is-active)
@@ -201,7 +198,7 @@
         @media screen and ( min-width: 413px )
           margin-left: -30%
   &.is-active
-    transition: all .6s ease .1s
+    transition: all .2s ease .1s
     +mobile
       min-height: 210px
       transition: min-height .6s ease .1s
@@ -209,7 +206,7 @@
       .container
         display: none
     +tablet
-      min-height: calc( 55.5vw * 1.05 )
+      min-height: 55.5vw
       overflow: unset
     .image.is-video-close
       display: block
@@ -220,9 +217,9 @@
       transition: transform .6s ease .1s
       -webkit-transition: transform .6s ease .1s
     .video-launcher .image .normal-video video
-      transform: scale(1, 1.05)
-      transition: transform .6s ease .1s
-      -webkit-transition: transform .6s ease .1s
+      // transform: scale(1, 1.05)
+      // transition: transform .6s ease .1s
+      // -webkit-transition: transform .6s ease .1s
     .normal-video
       display: block
       animation: fadeInHome 1.6s forwards linear
@@ -240,6 +237,8 @@
     &.is-active
       animation: fadeInContainer .6s forwards linear
       -webkit-animation: fadeInContainer .6s forwards linear
+      .video-launcher .normal-video
+        display: none
 
 .section.is-as-seen-in
   .container
@@ -280,7 +279,7 @@
         .title
           font-size: 30px
           line-height: 38px
-          color: #4A4A4A
+          color: #000
           +touch
             margin-top: .5rem
             margin-bottom: .5rem
@@ -324,13 +323,13 @@
       +mobile
         margin: 0 1rem
     .glide__slide .column.is-single-column
-      .blog-content
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1)
+      .is-story-card
+        box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.1)
         +mobile
           box-shadow: 0px 2.5px 4px rgba(0, 0, 0, 0.1)
       @media screen and (min-width: 1200px)
         .figure-for-desktop img
-            width: 749px
+            width: 756px
             height: 470px
         .blog-content
           width: 352px
