@@ -35,31 +35,31 @@
   <figure class="image is-video-close" id="hero-video-close">
     {{ (resources.Get "img/home/close.svg").Content | safeHTML }}
   </figure>
-  {{ with .video }}
-    <div class="video-launcher">
-      <figure class="image">
-        {{ if .preview }}
-          <div class="preview">
-            <video autoplay loop muted playsinline>
-              {{ $src := resources.Get .preview | resources.Fingerprint }}
-              <source src="{{ $src.RelPermalink }}" type="video/mp4">
-            </video>
-            <div class="mask">
-            </div>
-          </div>
-        {{ end }}
-        {{ if .url }}
-          <div class="normal-video">
-            <video autoplay loop controls playsinline>
-              {{ $src := resources.Get .url | resources.Fingerprint }}
-              <source src="{{ $src.RelPermalink }}" type="video/mp4">
-            </video>
-          </div>
-        {{ end }}
-      </figure>
-    </div>
-  {{ end }}
   <div class="hero-body">
+    {{ with .video }}
+      <div class="video-launcher">
+        <figure class="image">
+          {{ if .preview }}
+            <div class="preview">
+              <video autoplay loop muted playsinline>
+                {{ $src := resources.Get .preview | resources.Fingerprint }}
+                <source src="{{ $src.RelPermalink }}" type="video/mp4">
+              </video>
+              <div class="mask">
+              </div>
+            </div>
+          {{ end }}
+          {{ if .url }}
+            <div class="normal-video">
+              <video autoplay loop controls playsinline id="hero-normal-video">
+                {{ $src := resources.Get .url | resources.Fingerprint }}
+                <source src="{{ $src.RelPermalink }}" type="video/mp4">
+              </video>
+            </div>
+          {{ end }}
+        </figure>
+      </div>
+    {{ end }}
     <div class="container" id = "fade-container">
       <div class="title-text">
         <h1 class="title">
@@ -96,6 +96,7 @@
           <p>{{ default .video_text ( T .video_text ) }}</p>
         </div>
       </div>
+
     </div>
   </div>
 </section>

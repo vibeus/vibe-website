@@ -13,15 +13,14 @@
   +mobile
     min-height: 463px
   +tablet
-    min-height: 47.2vw
-  @media screen and ( min-width: 1920px )
-    min-height: 680px
+    min-height: 88vh
   .image.is-video-close
     display: none
     position: absolute
     z-index: 10
     top: 4.1vw
     right: 4.1vw
+    cursor: pointer
     svg
       +tablet
         width: 38px
@@ -45,15 +44,10 @@
     width: 100vw
     *:focus
       outline: none
-    @media screen and ( min-width: 1920px )
-      width: 1920px
-      margin: auto
     .image
       line-height: 0
       video
         width: 100vw
-        @media screen and ( min-width: 1920px )
-          width: 1920px
       iframe, .video-js
         +absolute-fill
     .preview
@@ -202,7 +196,7 @@
       .container
         display: none
     +tablet
-      min-height: 55.5vw
+      min-height: 95vh
       overflow: unset
     .image.is-video-close
       display: block
@@ -221,6 +215,7 @@
       animation: fadeInHome 1.6s forwards linear
       -webkit-animation: fadeInHome 1.6s forwards linear
       video
+        height: 95vh
         +mobile
           height: auto
           transition: height .6s ease .1s
@@ -229,6 +224,7 @@
       display: none
   .normal-video
     display: none
+    background: #000
   .container
     &.is-active
       animation: fadeInContainer .6s forwards linear
