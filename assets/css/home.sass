@@ -8,50 +8,14 @@
 @import "_as-seen-in.sass"
 @import "_customer-story-section.sass"
 
-@-webkit-keyframes fadeIn
-  0%
-    opacity: 1
-  50%
-    opacity: .3
-  100%
-    opacity: 0
-    visibility: none
-
-.navbar
-  &.is-active
-    display: none
-
-.hero.is-home
-  transition: all .6s ease .1s
-  .normal-video
-    display: none
-  &.is-active
-    +tablet
-      min-height: calc( 54.5vw * 1.02 )
-      overflow: unset
-    .image.is-video-close
-      display: block
-    .container
-      animation: fadeIn .6s forwards linear
-      -webkit-animation: fadeIn .6s forwards linear
-      transform: translateX(-3rem)
-      transition: transform .6s ease .1s
-      -webkit-transition: transform .6s ease .1s
-    .video-launcher .image .normal-video video
-      transform: scale(1, 1.05)
-      transition: transform .6s ease .1s
-      -webkit-transition: transform .6s ease .1s
-    .normal-video
-      display: block
-    .preview
-      display: none
-
 .hero.is-home
   position: relative
+  +mobile
+    min-height: 463px
   +tablet
-    min-height: 54.5vw
+    min-height: 47.2vw
   @media screen and ( min-width: 1600px )
-    min-height: 860px
+    min-height: 680px
   .image.is-video-close
     display: none
     position: absolute
@@ -67,11 +31,14 @@
     +mobile
       padding-bottom: 0
   .container
+    +mobile
+      width: 290px
+      margin-top: 2rem
     +tablet
       max-width: 76.3vw
-      margin-top: 9.5vw
+      margin-top: 2vw
     +fullhd
-      margin-top: 146px
+      margin-top: 76px
       max-width: 1100px
   .video-launcher
     +absolute-fill
@@ -93,15 +60,15 @@
       position: relative
       .mask
         +absolute-fill
-        background-color: rgba(0,0,0,0.25)
+        background-color: rgba(0,0,0,0.4)
         display: flex
         align-items: center
         justify-content: center
   .title-text
     color: #FFFFFF
-    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25)
+    text-shadow: 0px 1px 4px rgba(17, 17, 17, 0.25)
     +mobile
-      margin-bottom: 32px
+      margin-bottom: 48px
     +tablet
       max-width: 480px
       margin-bottom: 3.5rem
@@ -113,6 +80,7 @@
       line-height: 130%
       color: inherit
       +mobile
+        margin-bottom: 1rem
         font-size: 40px
         line-height: 116%
       +tablet-only
@@ -122,24 +90,26 @@
       max-width: 453px
       font-size: 18px
       line-height: 150%
-      +lang-override(".lang-zh")
-        display: none
+      +mobile
+        max-width: 290px
+        font-size: 16px
+        line-height: 144%
     .title .content
       display: flex
   .cta
-    +mobile
-      text-align: center
     .button.is-hero-cta
+      font-weight: $vibe-bold
       +mobile
-        min-width: 270px
+        min-width: 143px
+        height: 42px
+        font-size: 16px
+        line-height: 20px
       +tablet
         width: 234px
         height: 58px
         font-size: 20px
-      font-weight: $vibe-bold
       &:not(:last-child)
         margin-right: 1.25rem
-
   .subcta-row
     display: flex
     justify-content: space-between
@@ -151,7 +121,8 @@
       &.is-logged-in
         display: none
       +mobile
-        display: none
+        font-size: 14px
+        line-height: 17px
       span
         color: $light
         text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25)
@@ -164,31 +135,111 @@
       display: flex
       align-items: center
       cursor: pointer
+      +mobile
+        position: absolute
+        top: -2rem
+        left: 0
       .image.is-video-play
         height: 31px
+        +mobile
+          height: 22px
         svg
           width: 31px
           height: 31px
+          +mobile
+            width: 22px
+            height: 22px
       p
         margin-left: 1rem 
         font-size: 19px
         line-height: 23px
         color: $vibe-white
         
+@-webkit-keyframes fadeInContainer
+  0%
+    opacity: 0
+    visibility: none
+    transform: translateX(-3rem)
+  50%
+    opacity: .6
+    transform: translateX(-1.5rem)
+  100%
+    opacity: 1
 
-.section.is-video-hero
-  a
-    color: $vibe-purple
-    &:hover
-      color: $vibe-pink
-  +lang-override(".lang-zh")
-    .is-footnote
-      font-size: 16px
-      margin-top: 32px
-    .title
-      margin-bottom: 40px
-    .content
-      line-height: 1.6
+@-webkit-keyframes fadeInHome
+  0%
+    opacity: 0
+    visibility: none
+  50%
+    opacity: .6
+  100%
+    opacity: 1
+
+@-webkit-keyframes fadeOutHome
+  0%
+    opacity: 1
+  50%
+    opacity: .3
+  100%
+    opacity: 0
+    visibility: none
+
+.navbar
+  &.is-active
+    display: none
+
+// 点击播放后的动画样式调整
+.hero.is-home
+  transition: all .6s ease .1s
+  &:not(.is-active)
+    .video-launcher video
+      +mobile
+        max-width: unset
+        width: 251%
+        height: 463px
+        margin-left: -22%
+        @media screen and ( min-width: 413px )
+          margin-left: -30%
+  &.is-active
+    transition: all .6s ease .1s
+    +mobile
+      min-height: 210px
+      transition: min-height .6s ease .1s
+      -webkit-transition: min-height .6s ease .1s
+      .container
+        display: none
+    +tablet
+      min-height: calc( 55.5vw * 1.05 )
+      overflow: unset
+    .image.is-video-close
+      display: block
+    .container
+      animation: fadeOutHome .6s forwards linear
+      -webkit-animation: fadeOutHome .6s forwards linear
+      transform: translateX(-3rem)
+      transition: transform .6s ease .1s
+      -webkit-transition: transform .6s ease .1s
+    .video-launcher .image .normal-video video
+      transform: scale(1, 1.05)
+      transition: transform .6s ease .1s
+      -webkit-transition: transform .6s ease .1s
+    .normal-video
+      display: block
+      animation: fadeInHome 1.6s forwards linear
+      -webkit-animation: fadeInHome 1.6s forwards linear
+      video
+        +mobile
+          height: auto
+          transition: height .6s ease .1s
+          -webkit-transition: height .6s ease .1s
+    .preview
+      display: none
+  .normal-video
+    display: none
+  .container
+    &.is-active
+      animation: fadeInContainer .6s forwards linear
+      -webkit-animation: fadeInContainer .6s forwards linear
 
 .section.is-as-seen-in
   .container

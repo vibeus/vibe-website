@@ -7,8 +7,9 @@ aliases:
 hero:
   title: i18n-content-_index-hero-title
   body: i18n-content-_index-hero-body
+  body_mobile: With Vibe’s interactive smart boards and collaboration softwares, teams can.
   video:
-    preview: video/common/vibe-intro.mp4
+    preview: video/home/Vibe-introduction-preview.mp4
     url: video/home/Vibe-introduction-new.mp4
   cta:
     title: i18n-content-_index-hero-cta-title
@@ -81,8 +82,8 @@ description_section:
       title: i18n-content-_index-description_section-descriptions-i_2-title
       body: i18n-content-_index-description_section-descriptions-i_2-body
       class: is-feature-1
-      figure: img/home/description-canvas.png
-      figure_mobile: img/home/description-canvas-mobile.png
+      figure: img/home/description-canvas.gif
+      figure_mobile: img/home/description-canvas.gif
       cta_links:
         - title: Try Canvas free →
           url: https://app.vibe.us/login

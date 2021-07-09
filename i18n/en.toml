@@ -12,7 +12,7 @@ other = """With Vibe’s interactive smart boards and collaboration softwares, t
 innovate, ideate, and collaborate in real-time from anywhere in the world."""
 
 [i18n-content-_index-hero-cta-title]
-other = "See a Demo"
+other = "See a demo"
 
 [i18n-content-_index-hero-subcta-i_0-title]
 other = "Already using Vibe?"
@@ -249,7 +249,7 @@ other = "立即购买"
 other = "An all-in-one collaboration hub"
 
 [i18n-content-_index-bottom_cta-cta-title]
-other = "See a Demo"
+other = "See a demo"
 
 [i18n-content-demo-request-video-landing-title]
 other = "Thanks for requesting our demo video."

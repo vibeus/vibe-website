@@ -63,24 +63,27 @@
     <div class="container" id = "fade-container">
       <div class="title-text">
         <h1 class="title">
-          {{ T .title | markdownify }}
+          {{ default .title ( T .title ) | markdownify }}
         </h1>
-        <p class="content">
-        {{ T .body | markdownify }}
+        <p class="content is-hidden-mobile">
+          {{ default .body ( T .body ) | markdownify }}
+        </p>
+        <p class="content is-hidden-tablet">
+          {{ default .body_mobile ( T .body_mobile ) | markdownify }}
         </p>
       </div>
       {{ with .cta }}
       <div class="cta">
         <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
            href="{{ .url | relLangURL }}">
-          {{ T .title }}
+          {{ default .title ( T .title ) }}
         </a>
       </div>
       {{ end }}
       <div class="subcta-row">
         {{ range .subcta }}
           <div class="subcta{{ with .class }} {{ . }}{{ end }}">
-            <span>{{ T .title }}</span>
+            <span>{{ default .title ( T .title ) }}</span>
             {{ with .link }}
             <a href="{{ .url | relLangURL }}">{{ T .text }}</a>
             {{ end }}

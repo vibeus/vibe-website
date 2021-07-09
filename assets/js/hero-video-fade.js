@@ -9,13 +9,13 @@ const navDom = document.getElementsByClassName("navbar")[0]
 
 heroVideoPlay.onclick = function () {
   homeDom.classList.add("is-active")
-  fadeContainer.classList.add("is-active")
+  fadeContainer.classList.remove("is-active")
   navDom.classList.add("is-active")
 }
 
 heroVideoClose.onclick = function () {
   homeDom.classList.remove("is-active")
-  fadeContainer.classList.remove("is-active")
+  fadeContainer.classList.add("is-active")
   navDom.classList.remove("is-active")
 }
 
