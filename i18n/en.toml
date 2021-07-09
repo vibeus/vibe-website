@@ -5,10 +5,11 @@ other = "The State of Remote Collaboration 2021"
 other = "Vibe Interactive Whiteboard for Remote Collaboration"
 
 [i18n-content-_index-hero-title]
-other = "Vibe Interactive Whiteboard, for Remote Collaboration."
+other = "What true collaboration feels like"
 
 [i18n-content-_index-hero-body]
-other = "With Vibe’s powerful & intuitive technology, teams can innovate, ideate, and collaborate in real-time from anywhere in the world."
+other = """With Vibe’s interactive smart boards and collaboration softwares, teams can 
+innovate, ideate, and collaborate in real-time from anywhere in the world."""
 
 [i18n-content-_index-hero-cta-title]
 other = "See a Demo"

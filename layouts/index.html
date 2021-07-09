@@ -6,6 +6,7 @@
 
 {{ define "scripts"}}
 {{ $src := resources.Get "js/common/glide.min.js" | resources.Fingerprint }}
+
 <script type="text/javascript" src="{{ $src.RelPermalink }}" integrity="{{ $src.Data.Integrity }}"></script>
 {{ end }}
 
@@ -30,17 +31,41 @@
 {{ define "main" }}<main class="home">
 
 {{ with .Params.hero }}
-<section class="hero is-fullheight-with-navbar is-home">
-  <figure class="image is-hero-bg is-hidden-mobile">
-    {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero.png") "desktop" "2880x" "tablet" "2048x" "mobile" "750x" "options" "jpg #FFFFFF") }}
+<section class="hero is-home" id="home">
+  <figure class="image is-video-close" id="hero-video-close">
+    {{ (resources.Get "img/home/close.svg").Content | safeHTML }}
   </figure>
+  {{ with .video }}
+    <div class="video-launcher">
+      <figure class="image">
+        {{ if .preview }}
+          <div class="preview">
+            <video autoplay loop muted playsinline>
+              {{ $src := resources.Get .preview | resources.Fingerprint }}
+              <source src="{{ $src.RelPermalink }}" type="video/mp4">
+            </video>
+            <div class="mask">
+            </div>
+          </div>
+        {{ end }}
+        {{ if .url }}
+          <div class="normal-video">
+            <video autoplay loop muted controls playsinline>
+              {{ $src := resources.Get .url | resources.Fingerprint }}
+              <source src="{{ $src.RelPermalink }}" type="video/mp4">
+            </video>
+          </div>
+        {{ end }}
+      </figure>
+    </div>
+  {{ end }}
   <div class="hero-body">
-    <div class="container">
+    <div class="container" id = "fade-container">
       <div class="title-text">
         <h1 class="title">
           {{ T .title | markdownify }}
         </h1>
-        <p>
+        <p class="content">
         {{ T .body | markdownify }}
         </p>
       </div>
@@ -52,18 +77,22 @@
         </a>
       </div>
       {{ end }}
-      {{ range .subcta }}
-      <div class="subcta{{ with .class }} {{ . }}{{ end }}">
-        <span>{{ T .title }}</span>
-        {{ with .link }}
-        <a href="{{ .url | relLangURL }}">{{ T .text }}</a>
+      <div class="subcta-row">
+        {{ range .subcta }}
+          <div class="subcta{{ with .class }} {{ . }}{{ end }}">
+            <span>{{ T .title }}</span>
+            {{ with .link }}
+            <a href="{{ .url | relLangURL }}">{{ T .text }}</a>
+            {{ end }}
+          </div>
         {{ end }}
+        <div class="video-play" id = "hero-video-play">
+          <figure class="image is-video-play">
+            {{ (resources.Get "img/common/video-preview-play.svg").Content | safeHTML }}
+          </figure>
+          <p>{{ default .video_text ( T .video_text ) }}</p>
+        </div>
       </div>
-      {{ end }}
-
-      <figure class="image is-hero is-hidden-tablet">
-        {{ partial "common/srcset" (dict "resource" (resources.Get "img/home/hero-mobile.jpg") "desktop" "750x") }}
-      </figure>
     </div>
   </div>
 </section>
@@ -111,18 +140,12 @@
     </figure>
   </div>
 </section>
-
-
-{{ partial "common/template-script" (dict "asset" "js/common/customer-story-section.js") }}
-{{ end }}
-
-{{ with .Params.what_is_vibe }}
-{{ partial "common/video-hero" . }}
 {{ end }}
 
 {{ with .Params.bottom_cta }}
 {{ partial "bottom-cta" . }}
 {{ end }}
 
+{{ partial "common/template-script" (dict "asset" "js/hero-video-fade.js") }}
 {{ partial "common/template-script" (dict "asset" "js/common/customer-story-section.js") }}
 </main>{{ end }}

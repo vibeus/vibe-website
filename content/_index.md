@@ -7,6 +7,9 @@ aliases:
 hero:
   title: i18n-content-_index-hero-title
   body: i18n-content-_index-hero-body
+  video:
+    preview: video/common/vibe-intro.mp4
+    url: video/home/Vibe-introduction-new.mp4
   cta:
     title: i18n-content-_index-hero-cta-title
     class: is-primary is-rounded
@@ -21,6 +24,7 @@ hero:
       link:
         text: i18n-content-_index-hero-subcta-i_1-link-text
         url: https://app.vibe.us/
+  video_text: See the full video
 as_seen_in:
   references:
     - class: techcrunch-link

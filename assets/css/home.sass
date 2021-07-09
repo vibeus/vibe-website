@@ -2,57 +2,129 @@
 @import "_shared.sass"
 @import "_customers.sass"
 @import "_description-section.sass"
-@import "_video-hero.sass"
 @import "_scenario-section.sass"
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
 @import "_customer-story-section.sass"
 
-.hero
+@-webkit-keyframes fadeIn
+  0%
+    opacity: 1
+  50%
+    opacity: .3
+  100%
+    opacity: 0
+    visibility: none
+
+.navbar
+  &.is-active
+    display: none
+
+.hero.is-home
+  transition: all .6s ease .1s
+  .normal-video
+    display: none
+  &.is-active
+    +tablet
+      min-height: calc( 54.5vw * 1.02 )
+      overflow: unset
+    .image.is-video-close
+      display: block
+    .container
+      animation: fadeIn .6s forwards linear
+      -webkit-animation: fadeIn .6s forwards linear
+      transform: translateX(-3rem)
+      transition: transform .6s ease .1s
+      -webkit-transition: transform .6s ease .1s
+    .video-launcher .image .normal-video video
+      transform: scale(1, 1.05)
+      transition: transform .6s ease .1s
+      -webkit-transition: transform .6s ease .1s
+    .normal-video
+      display: block
+    .preview
+      display: none
+
+.hero.is-home
   position: relative
-  +mobile
-    .hero-body
+  +tablet
+    min-height: 54.5vw
+  @media screen and ( min-width: 1600px )
+    min-height: 860px
+  .image.is-video-close
+    display: none
+    position: absolute
+    z-index: 10
+    top: 4.1vw
+    right: 4.1vw
+    svg
+      +tablet
+        width: 38px
+        height: 38px
+  .hero-body
+    align-items: unset
+    +mobile
       padding-bottom: 0
-  .image.is-hero-bg
-    +absolute-fill
-    +tablet-only
-      right: -80px
-    img
-      width: 100%
-      height: 100%
-      object-fit: cover
-      +mobile
-        object-position: 62% 50%
   .container
+    +tablet
+      max-width: 76.3vw
+      margin-top: 9.5vw
     +fullhd
+      margin-top: 146px
       max-width: 1100px
+  .video-launcher
+    +absolute-fill
+    width: 100vw
+    *:focus
+      outline: none
+    @media screen and ( min-width: 1600px )
+      width: 1600px
+      margin: auto
+    .image
+      line-height: 0
+      video
+        width: 100vw
+        @media screen and ( min-width: 1600px )
+          width: 1600px
+      iframe, .video-js
+        +absolute-fill
+    .preview
+      position: relative
+      .mask
+        +absolute-fill
+        background-color: rgba(0,0,0,0.25)
+        display: flex
+        align-items: center
+        justify-content: center
   .title-text
+    color: #FFFFFF
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25)
     +mobile
       margin-bottom: 32px
     +tablet
       max-width: 480px
-      +lang-override(".lang-zh")
-        max-width: 400px
-      margin-bottom: 72px
+      margin-bottom: 3.5rem
     +desktop
-      max-width: 500px
+      max-width: 801px
     .title
-      font-size: 38px
-      line-height: 48px
-      +lang-override(".lang-zh")
-        font-size: 50px
+      margin-bottom: 1rem
+      font-size: 72px
+      line-height: 130%
+      color: inherit
       +mobile
-        font-size: 32px
-        line-height: 40px
+        font-size: 40px
+        line-height: 116%
       +tablet-only
         font-size: 36px
         line-height: 36px
-    p
-      max-width: 435px
+    .content
+      max-width: 453px
+      font-size: 18px
+      line-height: 150%
       +lang-override(".lang-zh")
         display: none
-    .title p
+    .title .content
       display: flex
   .cta
     +mobile
@@ -66,19 +138,43 @@
         font-size: 20px
       font-weight: $vibe-bold
       &:not(:last-child)
-        margin-right: 20px
-  .subcta
-    margin-top: 20px
-    &.is-logged-in
-      display: none
-    +mobile
-      display: none
-    a
-      font-weight: 500
-      color: $primary
-      margin-left: 18px
-  .image.is-hero
-    +mobile-full-width
+        margin-right: 1.25rem
+
+  .subcta-row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 1.5rem
+    .subcta
+      font-size: 19px
+      line-height: 23px
+      &.is-logged-in
+        display: none
+      +mobile
+        display: none
+      span
+        color: $light
+        text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25)
+      a
+        margin-left: 18px
+        font-weight: $vibe-bold
+        color: $primary
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+    .video-play
+      display: flex
+      align-items: center
+      cursor: pointer
+      .image.is-video-play
+        height: 31px
+        svg
+          width: 31px
+          height: 31px
+      p
+        margin-left: 1rem 
+        font-size: 19px
+        line-height: 23px
+        color: $vibe-white
+        
 
 .section.is-video-hero
   a
@@ -93,135 +189,6 @@
       margin-bottom: 40px
     .content
       line-height: 1.6
-.section.is-feature
-  padding: 3rem 1.5rem
-  &.is-feature-1
-    padding-top: 120px
-    +mobile
-      padding-top: 64px
-  &.is-feature-2
-    padding-bottom: 90px
-  &.is-feature-3
-    +mobile
-      padding-bottom: 0
-  &.is-feature-4
-    +tablet
-      padding-top: 108px
-  &.is-feature-1, &.is-feature-3, &.is-feature-5
-    .columns
-      flex-direction: row-reverse
-  +tablet
-    &.is-feature-2, &.is-feature-4
-      .column.is-text
-        margin-left: 64px
-  font-size: 18px
-  +mobile
-    font-size: 16px
-  .container
-    max-width: 1224px
-    .subtitle
-      +desktop
-        +lang-override(".lang-zh")
-          font-size: 50px
-          line-height: 70px
-          margin-bottom: 44px
-  .column.is-text
-    max-width: 500px
-  .column.is-image
-    position: relative
-    +tablet
-      .image
-        position: absolute
-      .overlay
-        +absolute-fill
-  .cta
-    font-weight: $vibe-bold
-    a
-      display: flex
-      align-items: center
-      color: $vibe-purple
-      &:hover
-        color: $primary
-      &:hover svg
-        fill: $primary
-      span.icon
-        margin-left: 12px
-  &.is-feature-3
-    background-color: $vibe-teal
-  +tablet
-    &.is-feature-1
-      .column.is-image
-        height: 473px
-      .image
-        width: 774px
-        right: 0
-        +widescreen
-          right: 120px
-    &.is-feature-2
-      .column.is-image
-        height: 492px
-      .image
-        width: 782px
-        left: 0
-        +widescreen
-          left: 160px
-    &.is-feature-3
-      position: relative
-      padding-top: 120px - 12px
-      min-height: 810px
-      +lang-override(".lang-zh")
-        padding-top: 120px
-        min-height: 743px
-        .content
-          margin-top: 48px
-      .container, .column.is-image
-        position: static
-      .column.is-text
-        z-index: 1
-      .image
-        width: 993px
-        bottom: 0
-        left: -300px
-        +from(1024px)
-          left: -150px
-        +from(1480px)
-          left: 0
-        +from(1920px)
-          left: auto
-          right: 50%
-        .overlay
-          +tablet
-            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 50%,rgba(102, 204, 204, 0.9) 75%)
-          +from(1100px)
-            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 55%,rgba(102, 204, 204, 0.9) 80%)
-          +from(1230px)
-            background: none
-    &.is-feature-4
-      .column.is-image
-        height: 566px
-      .image
-        width: 820px
-        left: 0
-        +widescreen
-          left: 160px
-      +lang-override(".lang-zh")
-        p
-          margin: 0
-    &.is-feature-5
-      padding-bottom: 0
-      .column.is-image
-        height: 659px
-      .image
-        width: 707px
-        right: 0
-        +widescreen
-          right: 120px
-  +mobile
-    &.is-feature-5
-      padding-bottom: 0
-  +lang-override(".lang-zh")
-    .column.is-text .content
-      max-width: 436px
 
 .section.is-as-seen-in
   .container
@@ -234,7 +201,6 @@
   background: rgba(244, 244, 244, 0.4)
   .container
     max-width: 1140px
-    margin: 0 auto
     +desktop
       padding-left: 1.25rem
     +widescreen
