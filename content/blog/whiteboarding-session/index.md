@@ -20,7 +20,7 @@ industries:
 
 With the increase in e-learning, digital classrooms, gamification, and remote work, more individuals must lead online whiteboarding meetings. But running a successful whiteboarding session can feel a bit daunting. We’ll give you our best tips for running this type of session to help you prepare.
 
-## **What is whiteboarding?**
+## **What is a whiteboarding session?**
 
 Whiteboarding is when a **group of contributors write, sketch, and brainstorm ideas on a whiteboard.** A whiteboard application allows users to collaborate remotely through technology as though they’re participating in an in-person whiteboarding session.
 
