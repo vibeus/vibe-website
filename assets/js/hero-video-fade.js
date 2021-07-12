@@ -23,6 +23,7 @@ heroVideoPlay.onclick = function () {
 heroVideoClose.onclick = function () {
   homeDom.classList.remove("is-active")
   fadeContainer.classList.add("is-active")
+  setTimeout(()=>{fadeContainer.classList.remove("is-active")},1000) // 消除样式冲突
   navDom.style.display = "unset"
   heroNormalVideo.style.display = "none"
   heroNormalVideo.pause()
