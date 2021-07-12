@@ -10,7 +10,6 @@ hero:
   body_mobile: With Vibe’s interactive smart boards and collaboration softwares, teams can.
   video:
     preview: video/home/Vibe-introduction-preview.mp4
-    url: video/home/Vibe-introduction-new.mp4
   cta:
     title: i18n-content-_index-hero-cta-title
     class: is-primary is-rounded
