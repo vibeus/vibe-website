@@ -13,6 +13,8 @@
   +mobile
     min-height: 463px
   +tablet
+    min-height: 85vh
+  @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
     min-height: 80vh
   .image.is-video-close
     display: none
@@ -39,9 +41,11 @@
     +tablet
       max-width: 76.3vw
       margin-top: 2vw
-    +fullhd
-      margin-top: 126px
       max-width: 1100px
+    @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
+      margin-top: 126px
+    @media screen and ( min-width: 1441px )
+      margin-top: 96px
   .video-launcher
     +absolute-fill
     width: 100vw
@@ -296,11 +300,12 @@
   .container
     .is-story-card.video-popup
       +mobile
-        margin: 0 1rem .25rem
+        margin: 0 1.25rem .25rem
     .is-section-title
       max-width: 657px
       line-height: 63px
       +mobile
+        max-width: 276px
         font-size: 32px
         line-height: 40px
     .glide-dots
