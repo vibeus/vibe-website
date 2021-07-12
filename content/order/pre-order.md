@@ -31,7 +31,7 @@ products:
   - item: &id002
       product_name: vibe_stand_75
       title: Portable Stand for Vibe Smartboard Pro 75″
-      body: Compatible with Vibe Smartboard Pro 75″. All metal design, simple and durable. Easily to move. Make any room a dynamic teamwork space.
+      body: Compatible with Vibe Smartboard Pro 75″. All metal design, simple and durable. Easy to move. Make any room a dynamic teamwork space.
       product_id: '39384958238771'
       price: 899
       deposit_price: 90
