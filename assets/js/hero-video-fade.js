@@ -25,4 +25,5 @@ heroVideoClose.onclick = function () {
   fadeContainer.classList.add("is-active")
   navDom.style.display = "unset"
   heroNormalVideo.style.display = "none"
+  heroNormalVideo.pause()
 }
