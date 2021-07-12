@@ -2,7 +2,7 @@
 title: The Benefits of Dual Monitors and Why You Should Invest
 slug: 7-reasons-to-invest-in-dual-monitors
 author: Vibe Team
-date: '2020-11-19'
+date: '2021-07-12'
 tags:
 - Home Office
 - Tech Tools
@@ -26,7 +26,9 @@ We’ll cover the benefits of dual monitors, ways that you can incorporate them 
 
 Dual monitor setups allow you to use two screens that operate from a single computer. Think of it as [a visual extension of your workspace](https://vibe.us/blog/interactive-whiteboard-what-is-it-and-what-does-it-do/). There are many applications where having a dual monitor setup offers practically unlimited advantages, and almost all computers are capable of handling two monitors.
 
-## How a dual monitor setup affects productivity
+***Related:* [Top 25 Tools for Remote Employees](https://vibe.us/blog/top-25-tools-for-remote-employees/)**
+
+## How dual monitors affect productivity
 
 Many things can help improve performance, and having a dual monitors is one such way. It offers more screen space and dual pages to be shown. This type of setup is perfect for increasing productivity in learning applications, office work, graphic manipulation, and many other types of work.
 
@@ -51,7 +53,7 @@ Other than increasing productivity, there are a few other benefits of having dua
 
 You might think that having two screens in front of you would provide more distractions than only having one. However, the opposite is true. With a dual monitor setup, you no longer have to switch between tabs while you are working and can view everything at once without interrupting your workflow.
 
-***Related:* [Top 25 Tools for Remote Employees](https://vibe.us/blog/top-25-tools-for-remote-employees/)**
+{{< blog/cta-1 "Learn how engineering teams are using Vibe" "https://vibe.us/lp/scenario-engineering" >}}
 
 ## Benefits of dual monitors
 
