@@ -119,12 +119,9 @@ what_is_vibe:
       videoId: A1HIFoPZIEM
   cta:
     buttons:
-      - title: See a Demo
-        url: /demo/
-        class: is-hero-cta is-black is-outlined is-rounded is-request-demo
-        data:
-          - key: target
-            value: section-book-demo
+      - title: See Full Demo Video
+        url: /demo/video-demo/
+        class: is-hero-cta is-black is-outlined is-rounded
 
 hardware_features:
   title: A touchscreen whiteboard built for the modern workspace
@@ -142,10 +139,9 @@ hardware_features:
     - title: Portable stand
       body: With Vibe’s portable stand, any room becomes a dynamic meeting space. Red or white.
   cta:
-    title: Tech Specs
-    url: /resources/Vibe_Tech_Specs.pdf
+    title: Learn More
+    url: /products/vibe-smartboard-55/
     class: is-black is-outlined is-rounded
-    target: _blank
 
 feature_columns:
   title: Collaboration software for however, wherever, you work
@@ -160,6 +156,10 @@ feature_columns:
       figure: img/order/feature-columns-3.png
       title: Screencast enhanced with touch
       body: Fluidly bring content to Vibe by wirelessly casting your screen to Vibe and you can annotate as needed.
+  cta:
+    title: Learn More
+    url: /software/
+    class: is-black is-outlined is-rounded
 
 book_demo:
   title: Ready to see Vibe in action?
@@ -174,12 +174,9 @@ compare:
     "\\*Please note that all technical specifications are taken directly from SMART Technologies ULC education displays [comparison page](https://www.smarttech.com/en/products/education-displays/compare/), SMART Board 6000 series [product page](https://www.smarttech.com/en/products/education-displays/smart-board-6000/) and business [software page](https://www.smarttech.com/en/products/business-software/). In cases where\npricing isn\u2019t available, we include the quoted reseller price.\n\n
     SMART Board is trademark or registered trademark of SMART Technologies ULC in the U.S. and/or other countries."
   cta:
-    title: Order Now
-    url: '#hero'
-    class: is-hero-cta is-black is-outlined is-rounded is-order-now
-    data:
-      - key: target
-        value: hero
+    title: See All Comparisons
+    url: /comparison/
+    class: is-hero-cta is-black is-outlined is-rounded
 
 faq:
   title: i18n-content-order-_index-faq-title

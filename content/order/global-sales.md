@@ -45,7 +45,7 @@ hero:
             target: _self
             # url: https://www.amazon.es/dp/B081LPL772?ref=myi_title_dp
           - name: United Kingdom
-            url: /order/eu-sales/
+            url: /order/uk-sales/
             target: _self
             # url: https://www.amazon.co.uk/Vibe-Interactive-Stand-Collaboration-Whiteboard/dp/B081LMQZGF/ref=sr_1_1?dchild=1&keywords=vibe%2Binteractive%2Bwhiteboard&qid=1612856284&sr=8-1&th=1
       - region: NORTH AMERICA
