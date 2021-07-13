@@ -10,9 +10,11 @@
 
 .hero.is-home
   position: relative
+  +touch
+    min-height: 450px
   +mobile
     min-height: 463px
-  +tablet
+  +widescreen
     min-height: 85vh
   @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
     min-height: 80vh
@@ -41,7 +43,6 @@
     +tablet
       max-width: 76.3vw
       margin-top: 2vw
-      max-width: 1100px
     @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
       margin-top: 126px
     @media screen and ( min-width: 1441px )
@@ -202,7 +203,7 @@
       -webkit-transition: min-height .6s ease .1s
       .container
         display: none
-    +tablet
+    +widescreen
       min-height: 95vh
       overflow: unset
     .image.is-video-close
@@ -237,6 +238,8 @@
 
 .section.is-as-seen-in
   .container
+    +desktop-only
+      padding: 0 80px
     .title
       display: none
   .references-wrapper
@@ -247,7 +250,7 @@
   .container
     max-width: 1140px
     +desktop
-      padding-left: 1.25rem
+      padding: 0 1.25rem 0 2.5rem
     +widescreen
       padding-left: 3rem
     .columns
@@ -317,11 +320,17 @@
       @media screen and ( min-width: 413px ) and ( max-width: 767px )
         margin-top: 16px
     .customer-logo-group
+      +desktop-only
+        margin: 0 4rem
+      +touch
+        margin: 0 1.5rem
       +mobile
         margin: 0 1rem
     .glide__slide .column.is-single-column
       .is-story-card
         box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.1)
+        @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+          margin: 0 1rem 1rem
         +mobile
           box-shadow: 0px 2.5px 4px rgba(0, 0, 0, 0.1)
       @media screen and (min-width: 1200px)

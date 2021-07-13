@@ -11,9 +11,13 @@
       margin: 0 auto
       border-radius: 8px 
       &:not(:last-child)
-        margin-bottom: 80px
+        margin-bottom: 5rem
+        +mobile
+          margin-bottom: 2rem
       +touch
         flex-direction: column
+      +desktop-only
+        margin: 0 1rem
       .is-image .image
         +widescreen
           width: 772px
@@ -23,7 +27,7 @@
         +touch
           margin-top: -10px
           border-radius: 0 0 8px 8px
-        +widescreen
+        +desktop
           width: 425px
           margin-left: -10px
           border-radius: 0 8px 8px 0
@@ -32,8 +36,8 @@
           +touch
             padding: 0 7.8vw
           @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
-            max-width: 242px
-            margin-left: 58px
+            max-width: 275px
+            margin-left: 36px
           +widescreen
             max-width: 289px
             margin-left: 78px
