@@ -24,10 +24,9 @@
       display: block
       padding-top: 40px
       padding-bottom: 40px
-    +tablet
+    +desktop
       &:last-child .is-image
         margin-left: 40px
-    +desktop
       &:not(:last-child)
         margin-bottom: 88px
     .column.is-text
@@ -77,9 +76,11 @@
           font-size: 14px
     .column.is-image
       .image
-        +mobile
-          max-width: 330px
+        +touch
+          max-width: 550px
           margin: 0 auto
+        +mobile
+          max-width: 300px
   .columns.is-feature-2
     flex-direction: row-reverse
     +widescreen
