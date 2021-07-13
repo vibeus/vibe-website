@@ -130,7 +130,7 @@ For any teams that use a variety of different tools, this saves you busy work. W
 
 ## **Toggl for planning, hiring, and more**
 
-## Toggl includes three products: Plan, Track, and Hire.
+[Toggl](https://toggl.com/) includes three products: Plan, Track, and Hire.
 
 Need a seamless project planner? **Toggl Plan** allows teams to visually see who’s working on what. It helps teams be aware of what’s coming down the pipeline. Used by Netflix, Amazon, Spotify, and other major tech companies, Toggl streamlines project planning.
 

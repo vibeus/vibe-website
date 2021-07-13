@@ -18,15 +18,17 @@ industries:
 - education
 ---
 
-One of the main challenges of video conferencing is the inability for side or one-on-one conversations in a good setting. In an in-person meeting, you’re able to easily engage with multiple people at a time and return to the main group as necessary. The nature of video meetings makes doing so seem nearly impossible, but breakout rooms help to address this issue. 
+One of the main challenges of video conferencing is the inability for side or one-on-one conversations in a good setting. In an in-person meeting, you’re able to easily engage with multiple people at a time and return to the main group as necessary. The nature of video meetings makes doing so seem nearly impossible, but Zoom breakout rooms help to address this issue. 
 
-Breakout rooms are most often associated with the video communication platform Zoom. However, Microsoft Teams and BlueJeans also offer these sessions. This model of collaboration is popular in the academic world, but is also finding purpose in the professional realm. If you’re new to Zoom’s breakout rooms, you’ll learn how to enable them and best practices for using them in team meetings and conferences. 
+Although breakout rooms are most often associated with the video communication platform Zoom, Microsoft Teams and BlueJeans also offer these sessions. This model of collaboration is popular in the academic world, but is also finding purpose in the professional realm. If you’re new to Zoom’s breakout rooms, you’ll learn how to enable them and best practices for using them in team meetings and conferences. 
 
-## How do I set up breakout rooms on Zoom?
+## What is a breakout room?
 
 With a breakout room, you can separate your Zoom meeting into multiple sessions (up to 50 with 200 participants in each breakout room). These sessions are the “breakout rooms,” and can later be united in the wider meeting. Participants have the full audio, video, and screen share capabilities. The meeting host controls the placement of participants in each session automatically or on manual basis.
 
 Alternatively, hosts can allow participants to choose their own room prior to launching the breakout rooms. Hosts can pop into each breakout room to interact with the participants. Participants can also request that the host enter the breakout room for help or conversation. 
+
+## How to create breakout rooms in Zoom
 
 To set up breakout rooms in your Zoom account, follow these steps:
 
@@ -37,7 +39,7 @@ To set up breakout rooms in your Zoom account, follow these steps:
 
 Once you enable the breakout room feature, there are a few more features to be aware of. If you select “move all participants to breakout rooms,” you can move all of participants automatically to their rooms. If you want to control the amount of time people are in the rooms, you can set a timer. You may consider also applying a countdown timer after closing the room so participants can see how much time they have left. Finally, you may also choose to allow participants to head back to the main session at any time.
 
-## When should I use a Zoom breakout room?
+## When should I use a breakout room?
 
 These sessions are often used in education for group projects and focused work. In professional settings, you can leverage breakout sessions for team training, exploring business problems, or [remote collaboration](https://vibe.us/blog/remote-training-tips/). These rooms are also great for more intimate discussions during a conference or seminar. Facilitators can also answer questions from participants by traveling to different rooms. 
 
@@ -55,6 +57,6 @@ For more ideas on remote interaction and brainstorming, stay tuned to [the Vibe 
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
