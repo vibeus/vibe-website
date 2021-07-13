@@ -15,7 +15,7 @@ heroVideoPlay.onclick = function () {
   navDom.style.display = "none"
   // 用户点击播放再加载视频资源，不然太消耗流量
   heroNormalVideo.style.display = "unset"
-  heroNormalVideo.firstElementChild.src = "/resources/Vibe-introduction-new.mp4"
+  heroNormalVideo.firstElementChild.src = "/video/home/Vibe-introduction-new.3ec9bfe3933aa2ef56f552d8711f346c2d5d8c4f0cc31ffd138f85362c4a28a6.mp4"
   heroNormalVideo.load()
   heroNormalVideo.play()
 }
