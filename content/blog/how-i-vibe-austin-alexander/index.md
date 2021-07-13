@@ -14,7 +14,6 @@ description: Learn how an anatomy and physiology professor is using the Vibe boa
   as healthcare professionals.
 categories:
 - how-i-vibe
-- uncategorized
 industries:
 - customer-case-study
 - education

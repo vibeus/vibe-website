@@ -5,7 +5,8 @@ author: Megan Snyder
 date: '2020-04-20'
 tags:
 - Huddle
-- Meetings
+- Meeting Techniques
+- Remote Meetings
 - Stand-up
 draft: false
 isfeatured: false
@@ -13,12 +14,15 @@ description: "Need to run your first stand-up meeting? We\u2019re here to help w
   \ remote stand-up meetings."
 categories:
 - meeting-techniques
-industries: []
+industries:
+- business
+- engineering
+- technology
 ---
 
 You already know how [beneficial stand-up meetings](https://vibe.us/blog/8-benefits-of-daily-stand-up-meetings/) can be for your team, so making them part of the daily office routine is a no-brainer. But what if your team is distributed across multiple offices, or if all of your employees are 100 percent work-from-home? It’s still possible to run a remote stand-up that gets the team focused for the day. You’ll just need a plan.
 
-## 1. Use a reliable video conferencing platform
+## Use a reliable video conferencing platform
 
 Scheduling a conference call is fine for many other business situations. But managing a team of remote workers requires paying more attention to building connections. A standard phone call just doesn’t have the same impact as being able to actually put names to faces.
 
@@ -26,13 +30,13 @@ So if your team can’t be in the same room for your daily standup, then video c
 
 ***Related:* [Video Conferencing Apps You Can Use with the Vibe Whiteboard](https://vibe.us/blog/video-conferencing-apps-with-whiteboard/)**
 
-## 2. Draw and write on a shared whiteboard
+## Draw and write on a shared whiteboard
 
 {{< common/srcset "image-1.png" "Remote SWOT analysis on an interactive digital whiteboard." >}}
 
 You want to keep the remote stand-up short. Using a collaborative visual aid can help get your point across quickly without wasting valuable time with over-explaining. Digital whiteboards like Vibe make it easy to write and draw your ideas for the whole team to see. You can even add in the video conference alongside the canvas so people can comment and contribute in real time. Plus, you can share this work with colleagues after the meeting.
 
-## 3. Create a document for meeting notes
+## Create a document for meeting notes
 
 Even short meetings benefit from some organization, so assign one of your team members the job of keeping meeting notes. This doesn’t have to be anything elaborate. The main points you’ll need from everyone attending are:
 
@@ -42,11 +46,11 @@ Even short meetings benefit from some organization, so assign one of your team m
 
 Everyone should be paying attention to these points during the meeting, but having a copy as a reminder makes it easier to keep track of the team’s work. The note-taker can create a shared Google Doc or add to a company-wide Slack thread with the day’s updates.
 
-## 4. Encourage people to prepare for the meeting
+## Encourage people to prepare for the meeting
 
 Few things stall progress more than a lack of preparedness. To keep your daily sync moving along, have each person write their daily accomplishments, goals, and potential hold-ups beforehand. Then, remind them that every person in the meeting will get one or two minutes to deliver their list. Giving your team a clear task will keep them focused instead of scrambling to remember their work on the spot (and possibly forgetting key information).
 
-## 5. List each day’s action items
+## List each day’s action items
 
 {{< common/srcset "image-2.jpg" "" >}}
 
@@ -54,23 +58,23 @@ You want your team to be prepared, and you need to be, too. Create a list of act
 
 Remember that the remote stand-up is meant to be brief, though, so limit this list to items that directly affect the whole team. You can address other details with individual team members another time.
 
-## 6. Sync with absent workers
+## Sync with absent workers
 
 The stand-up should always start on time with extremely limited wiggle room for exceptions. The point is to be quick and efficient, and waiting for people to show up runs counter to that. So make sure the meeting notes are sent to whoever couldn’t make it. Then, follow up with that person so you can run through an abbreviated standup with them.
 
 This brings up an important point about remote teams: there’s a good chance your employees are working across several time zones. Additionally, the flexibility of working from home means that some employees are working during what might be off-hours for others. If you’re encountering too many absences because of a rigid daily stand-up schedule, consider meeting fewer times per week, though try to maintain consistency with time of day. A good leader knows when to compromise; this might be one of those times.
 
-## 7. Encourage people to speak up
+## Encourage people to speak up
 
 Nothing defeats the purpose of a team standup more than people not speaking up. But if some of your team members are working remotely, they might fall into the habit of staying silent and watching the team discussion instead of engaging. Stick to the plan of having every single person list their accomplishments, goals, and obstacles. If they continue to be quiet, check in with them at a later time to see how to make participating easier.
 
-## 8. Continue to meet face-to-face
+## Continue to meet face-to-face
 
 {{< common/srcset "image-3.jpg" "Video conferencing makes remote meetings face-to-face." >}}
 
 One of the [principles of Agile](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/) is, “The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.” So remote workers need to keep their cameras turned on. This helps their team communicate more openly because they can better interpret body language and facial expressions with a video chat.
 
-## 9. Follow up in time
+## Follow up in time
 
 After the stand-up meeting, you need to follow up with employees who mentioned needing additional help or had more questions to discuss. Get in touch with your remote workers first since they don’t have the ability to meet with you in the office right away. If your entire team works remotely, prioritize by project and start your conversations from there.
 
@@ -82,6 +86,6 @@ By adapting your daily stand-up to successfully include remote workers, you show
 
 ---
 
-[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software. **Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions** by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. **Collaborate today with Vibe.**
+**[Vibe](https://vibe.us/) offers a collaborative solution combining an interactive digital whiteboard and innovative smart software.** Increase engagement and efficiency at your brainstorming sessions, virtual training, and classroom sessions by integrating your favorite applications with video conferencing and an infinite, mess-free writing canvas. Collaborate today with Vibe.
 
 **Looking for the latest in interactive whiteboard technology?** [Check out Vibe today!](https://vibe.us/order/)
