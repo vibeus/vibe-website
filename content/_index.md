@@ -63,7 +63,7 @@ description_section:
       figure_mobile: img/home/description-55-mobile.png
       cta_links:
         - title: Learn more →
-          url: /products/smartboard-55/
+          url: /products/vibe-smartboard-55/
         - title: Buy →
           url: /order/
     - sub_title: Vibe Smartboard Pro 75″ 
@@ -74,7 +74,7 @@ description_section:
       figure_mobile: img/home/description-75-mobile.png
       cta_links:
         - title: Learn more →
-          url: /products/smartboard-pro-75/
+          url: /products/vibe-smartboard-pro-75/
         - title: Buy →
           url: /order/pre-order/
     - sub_title: Vibe Canvas
