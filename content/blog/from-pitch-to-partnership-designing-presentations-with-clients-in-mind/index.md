@@ -29,7 +29,7 @@ The right presentation can help your company establish familiarity with potentia
 
 Knowing this, it’s easy to see why a standard, by-the-book presentation won’t help you win over new clients. So how do you make the pitch memorable? How do you show that your company is so knowledgeable that working with anyone else is simply out of the question? Like all good projects, it starts with doing some research.
 
-## Design in the Details
+## Design in the details
 
 
 > “In order to be irreplaceable one must always be different.”
@@ -52,7 +52,7 @@ Beyond the website, there’s another great way to get to know your client bette
 
 For example, if your prospective client is active on Instagram and Pinterest, your presentation should include high-quality photos. If they have a YouTube channel, go ahead and use a video in your pitch. Knowing how the company presents itself to the world can keep you a step ahead of the competition.
 
-## Setting the Tone
+## Setting the tone
 
 
 > “Imagination is everything. It is the preview of life’s coming attractions.”

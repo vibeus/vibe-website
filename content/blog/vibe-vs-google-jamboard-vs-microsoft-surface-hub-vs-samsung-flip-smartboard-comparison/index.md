@@ -15,7 +15,8 @@ description: Check out our smart board comparison for Microsoft Surface Hub, Goo
   the best decision for you.
 categories:
 - leadership-and-management
-industries: []
+industries:
+- technology
 ---
 
 Digital whiteboards, or smart boards, were invented to bring the tried-and-true dry erase whiteboard into the digital age.

@@ -13,7 +13,10 @@ description: Need to boost the effectiveness of your collaborative meetings? Vib
   engaging participants.
 categories:
 - meeting-techniques
-industries: []
+industries:
+- business
+- construction
+- professional-services
 ---
 
 Collaborative meetings are an excellent way to get different expertise, perspectives, and ideas from various organizational teams. This kind of meeting is certainly catching on: a [recent Harvard study](https://hbr.org/2016/01/collaborative-overload) found that employees spend 50% or more of their day in collaborative activities.

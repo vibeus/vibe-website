@@ -12,7 +12,8 @@ description: "Have you been wondering what Vibe is all about? Discover how Vibe 
   \ to collaboration."
 categories:
 - leadership-and-management
-industries: []
+industries:
+- technology
 ---
 
 ## Why are we called Vibe?

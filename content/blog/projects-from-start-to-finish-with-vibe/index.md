@@ -10,7 +10,9 @@ isfeatured: false
 description: Project management is more collaborative and engaging with a Vibe interactive whiteboard.
 categories:
 - remote-collaboration
-industries: []
+industries:
+- business
+- professional-services
 ---
 
 Thanks to innovative technology, workspaces are becoming more flexible and [collaborative](https://medium.com/vibe-team/how-to-build-a-collaborative-workspace-and-why-you-should-e3eaebbf799e) in order to foster teamwork and engagement, sparking [positive results](https://hbr.org/2014/10/workspaces-that-move-people) for both companies and employees. Even if you’re not ready to redesign the entire office, you can still create this collaborative atmosphere by adding an interactive whiteboard to your workspace.
