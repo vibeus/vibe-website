@@ -10,21 +10,13 @@ hero:
   body_mobile: With Vibe’s interactive smart boards and collaboration softwares, teams can.
   video:
     preview: video/home/Vibe-introduction-preview.mp4
-  cta:
-    title: i18n-content-_index-hero-cta-title
-    class: is-primary is-rounded
-    url: /demo/
-
-  subcta:
-    - title: i18n-content-_index-hero-subcta-i_0-title
-      link:
-        text: i18n-content-_index-hero-subcta-i_0-link-text
-        url: https://app.vibe.us/login
-    - title: i18n-content-_index-hero-subcta-i_1-title
-      class: is-logged-in
-      link:
-        text: i18n-content-_index-hero-subcta-i_1-link-text
-        url: https://app.vibe.us/
+  ctas:
+    - title: Order a Vibe
+      class: is-primary is-rounded
+      url: /order/
+    - title: Request a demo
+      class: is-rounded is-outlined
+      url: /demo/
   video_text: See the full video
 as_seen_in:
   references:
@@ -94,6 +86,7 @@ scenario_section:
       class: is-scenario-1
       title: i18n-content-_index-scenario_section-scenarios-i_0-title
       body: i18n-content-_index-scenario_section-scenarios-i_0-body
+      url: /lp/scenario-business/
       cta:
         title: Learn more →
         url: /lp/scenario-business/
@@ -102,6 +95,7 @@ scenario_section:
       class: is-scenario-2
       title: i18n-content-_index-scenario_section-scenarios-i_1-title
       body: i18n-content-_index-scenario_section-scenarios-i_1-body
+      url: /lp/scenario-business/
       cta:
         title: Learn more →
         url: /lp/scenario-education/

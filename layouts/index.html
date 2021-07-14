@@ -69,22 +69,14 @@
           {{ default .body_mobile ( T .body_mobile ) | markdownify }}
         </p>
       </div>
-      {{ with .cta }}
-      <div class="cta">
-        <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
-           href="{{ .url | relLangURL }}">
-          {{ default .title ( T .title ) }}
-        </a>
-      </div>
-      {{ end }}
-      <div class="subcta-row">
-        {{ range .subcta }}
-          <div class="subcta{{ with .class }} {{ . }}{{ end }}">
-            <span>{{ default .title ( T .title ) }}</span>
-            {{ with .link }}
-            <a href="{{ .url | relLangURL }}">{{ T .text }}</a>
-            {{ end }}
-          </div>
+      <div class="cta-row">
+        {{ range .ctas }}
+          <div class="cta">
+            <a class="button is-hero-cta {{ with .class }} {{ . }}{{ end }}"
+              href="{{ .url | relLangURL }}">
+              {{ default .title ( T .title ) }}
+            </a>
+            </div>
         {{ end }}
         <div class="video-play" id = "hero-video-play">
           <figure class="image is-video-play">
@@ -93,7 +85,6 @@
           <p>{{ default .video_text ( T .video_text ) }}</p>
         </div>
       </div>
-
     </div>
   </div>
 </section>

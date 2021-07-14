@@ -62,10 +62,10 @@
     color: #FFFFFF
     text-shadow: 0px 1px 4px rgba(17, 17, 17, 0.25)
     +mobile
-      margin-bottom: 48px
+      margin-bottom: 40px
     +tablet
       max-width: 480px
-      margin-bottom: 3.5rem
+      margin-bottom: 4.75rem
     +desktop
       max-width: 801px
     .title
@@ -74,6 +74,7 @@
       line-height: 130%
       color: inherit
       +mobile
+        max-width: 327px
         margin-bottom: 1rem
         font-size: 40px
         line-height: 116%
@@ -85,46 +86,33 @@
       font-size: 18px
       line-height: 150%
       +mobile
-        max-width: 290px
+        max-width: 221px
         font-size: 16px
         line-height: 144%
     .title .content
       display: flex
-  .cta
-    .button.is-hero-cta
-      font-weight: $vibe-bold
-      +mobile
-        min-width: 143px
-        height: 42px
-        font-size: 16px
-        line-height: 20px
-      +tablet
-        width: 234px
-        height: 58px
-        font-size: 20px
-      &:not(:last-child)
-        margin-right: 1.25rem
-  .subcta-row
+  .cta-row
     display: flex
-    justify-content: space-between
-    align-items: center
-    margin-top: 1.5rem
-    .subcta
-      font-size: 19px
-      line-height: 23px
-      &.is-logged-in
-        display: none
-      +mobile
-        font-size: 14px
-        line-height: 17px
-      span
-        color: $light
-        text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25)
-      a
-        margin-left: 18px
+    .cta
+      &:nth-child(2) .button
+        background-color: transparent
+        color: $vibe-white
+        border: 2px solid $vibe-white
+      &:not(:first-child)
+        margin-left: 1rem
+      .button
         font-weight: $vibe-bold
-        color: #f89
-        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
+        &:not(:last-child)
+          background-color: unset
+          margin-right: 1.25rem
+        +mobile
+          min-width: 143px
+          height: 42px
+          font-size: 16px
+          line-height: 20px
+        +tablet
+          height: 60px
+          font-size: 20px
     .video-play
       display: flex
       align-items: center
@@ -133,6 +121,12 @@
         position: absolute
         top: -2rem
         left: 0
+      @media screen and ( min-width: 767px ) and ( max-width: 769px )
+        margin: 20px 0 0 4vw
+      +desktop-only
+        margin: 20px 0 0 14vw
+      +widescreen
+        margin: 20px 0 0 24vw
       .image.is-video-play
         height: 31px
         +mobile
@@ -145,6 +139,7 @@
             height: 22px
       p
         margin-left: 1rem 
+        margin-right: -2rem
         font-size: 19px
         line-height: 23px
         color: $vibe-white
