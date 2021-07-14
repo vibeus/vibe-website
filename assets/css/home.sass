@@ -198,9 +198,11 @@
   &.is-active
     transition: all .001s ease .0011s
     +mobile
-      min-height: 210px
+      min-height: 233px
       transition: min-height .6s ease .1s
       -webkit-transition: min-height .6s ease .1s
+      @media screen and ( max-width: 376px )
+        min-height: 211px
       .container
         display: none
     +widescreen
@@ -237,6 +239,7 @@
         display: none
 
 .section.is-as-seen-in
+  +vertical-padding(48px)
   .container
     +desktop-only
       padding: 0 80px
