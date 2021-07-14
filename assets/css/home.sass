@@ -33,20 +33,15 @@
       width: 38px
       height: 38px
   .hero-body
-    align-items: unset
+    display: flex
+    align-items: center
     +mobile
       padding-bottom: 0
   .container
     +mobile
       width: 290px
-      margin-top: 2rem
     +tablet
       max-width: 76.3vw
-      margin-top: 2vw
-    @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
-      margin-top: 126px
-    @media screen and ( min-width: 1441px )
-      margin-top: 96px
   .video-launcher
     +absolute-fill
     width: 100vw
@@ -252,10 +247,8 @@
   background: rgba(244, 244, 244, 0.4)
   .container
     max-width: 1140px
-    +desktop
-      padding: 0 1.25rem 0 2.5rem
-    +widescreen
-      padding-left: 3rem
+    padding-left: 1.25rem
+
     .columns
       +touch
         display: block

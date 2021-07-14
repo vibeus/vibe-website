@@ -14,6 +14,7 @@ hero:
     title: i18n-content-_index-hero-cta-title
     class: is-primary is-rounded
     url: /demo/
+
   subcta:
     - title: i18n-content-_index-hero-subcta-i_0-title
       link:
