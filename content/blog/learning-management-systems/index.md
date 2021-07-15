@@ -61,7 +61,7 @@ Let users easily flow between different applications and systems without enterin
 
 Users may find themselves overwhelmed with the many files, links, and discussion boards that live in a learning management system. Users need a spot to review upcoming assignments and events quickly. Some systems display this in the form of daily, weekly, or monthly checklists or calendars that feature links directing users straight to the assignment or relevant information.
 
-{{< blog/cta-1 "Learn more about Vibe in our next Zoom webinar" "https://us02web.zoom.us/webinar/register/WN\_XEJkamEGQhSeiCEv4ZwuZg" >}}
+{{< blog/cta-1 "Discover the Vibe smartboard for education" "https://vibe.us/products/vibe-smartboard-55" >}}
 
 ### Email notifications
 
