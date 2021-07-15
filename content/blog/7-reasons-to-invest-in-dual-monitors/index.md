@@ -28,6 +28,23 @@ Dual monitor setups allow you to use two screens that operate from a single comp
 
 ***Related:* [Top 25 Tools for Remote Employees](https://vibe.us/blog/top-25-tools-for-remote-employees/)**
 
+## How to install a dual monitor setup
+
+**There’s not much that you need to install dual monitors other than a computer and the two monitors** that you want to use. Monitors and computers have multiple ways to connect to each other, and there are a few different types of cables you may need. Your monitors will connect with one (or more) of these:
+
+- HDMI
+- VGA
+- DVI
+- DisplayPort
+
+### Set up dual monitors in a few easy steps
+
+1. Connect the second monitor to a power source and your computer.
+2. In your computer’s display settings, choose “Extend these displays” in the multiple displays window.
+3. Choose the monitor order and primary display.
+
+That’s it–you’re ready to use your dual monitor setup!
+
 ## How dual monitors affect productivity
 
 Many things can help improve performance, and having a dual monitors is one such way. It offers more screen space and dual pages to be shown. This type of setup is perfect for increasing productivity in learning applications, office work, graphic manipulation, and many other types of work.
@@ -77,6 +94,8 @@ One massive advantage of dual monitors is that they are **compatible with laptop
 
 Dual monitors essentially **give you double the desktop space**, which reduces the cluttering on your screen. Is your desktop full of pinned apps and documents? You can move some of them to the second screen and free up some of the space that they take up. It’s easier to [stay orga](https://vibe.us/blog/6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting/)[n](https://vibe.us/blog/6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting/)[ized](https://vibe.us/blog/6-great-methods-to-help-you-organize-your-ideas-prior-to-your-meeting/) when you have all of that extra room.
 
+***Related:* [How to Build a Collaborative Workspace (And Why You Should)](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)**
+
 ## What can I do with dual monitors?
 
 Having a dual monitor setup opens up a whole new world of possibilities. And anything you can do with one monitor, you can still do with a dual setup. However, the real benefit comes from some cool features that having a second monitor allows for. Here are some things you can do with a dual monitor setup.
@@ -118,25 +137,6 @@ You can minimize this by ensuring that both monitors are set to the same color f
 There can be many good reasons to invest in a second monitor, and many people agree that adding the extra screen can be helpful for school work. Even at jobs, it can [help increase productivity by 42%](https://www.rollingstone.com/product-recommendations/electronics/best-dual-computer-monitor-setup-productivity-hack-1138404/). **Rather than switching between open tabs, having study material on one screen and your current project on your main** can help speed up tasks.
 
 ***Related:*** **[The Best Time to Buy a Laptop and Other Office Essentials](https://vibe.us/blog/best-time-to-buy-office-essentials/)**
-
-## How to install a dual monitor setup
-
-**There’s not much that you need to** [install dual monitors](https://www.cedarville.edu/insights/blog/monitor-dual-screen-setup-for-desktop-computers.aspx) **other than a computer and the two monitors** that you want to use. Monitors and computers have multiple ways to connect to each other, and there are a few different types of cables you may need. Your monitors will connect with one (or more) of these:
-
-- HDMI
-- VGA
-- DVI
-- DisplayPort
-
-### Set up dual monitors in a few easy steps
-
-1. Connect the second monitor to a power source and your computer.
-2. In your computer’s display settings, choose “Extend these displays” in the multiple displays window.
-3. Choose the monitor order and primary display.
-
-That’s it–you’re ready to use your dual monitor setup!
-
-***Related:*** **[How to Build a Collaborative Workspace (And Why You Should)](https://vibe.us/blog/how-to-build-a-collaborative-workspace-and-why-you-should/)**
 
 ## Should you invest in dual monitors?
 

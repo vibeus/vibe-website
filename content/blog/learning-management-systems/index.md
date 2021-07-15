@@ -61,7 +61,7 @@ Let users easily flow between different applications and systems without enterin
 
 Users may find themselves overwhelmed with the many files, links, and discussion boards that live in a learning management system. Users need a spot to review upcoming assignments and events quickly. Some systems display this in the form of daily, weekly, or monthly checklists or calendars that feature links directing users straight to the assignment or relevant information.
 
-{{< blog/cta-1 "See what the Vibe smart board can do for you" "https://vibe.us/products/vibe-smartboard-55" >}}
+{{< blog/cta-1 "Learn more about Vibe in our next Zoom webinar" "https://us02web.zoom.us/webinar/register/WN\_XEJkamEGQhSeiCEv4ZwuZg" >}}
 
 ### Email notifications
 
@@ -99,7 +99,7 @@ If you share the same LMS as other teachers within your school, try to have a un
 
 Gone are the days of waiting weeks or months before a paper report card showed up in the mail. Instead, LMS software allows students to see their performance and progress in real-time. But there’s a catch–teachers need to actually grade the assignments and give feedback for students to know where they stand. So help students succeed and avoid facing a full inbox of ungraded assignments by sticking to a regular grading schedule. You give students deadlines, so why not give yourself a set timeframe to deliver the feedback students need. 
 
-Complete your school’s tech update with a virtual whiteboard that [integrates with hundreds of apps](https://vibe.us/android-app-store/) (including LMS software) allows for seamless collaboration and creates engaging opportunities for in-person and [remote learners](https://vibe.us/lp/scenario-distance-learning/). Check out a [free demo](https://vibe.us/demo/) to learn more about Vibe’s role in today’s classroom.
+Complete your school’s tech update with a virtual whiteboard that [integrates with hundreds of apps](https://vibe.us/android-app-store/) (including LMS software) allows for seamless collaboration and creates engaging opportunities for in-person and [remote learners](https://vibe.us/lp/scenario-distance-learning/). Check out a [free demo](https://vibe.us/demo/) to learn more about Vibe’s role in today’s classroom, or attend our [next education webinar via Zoom](https://us02web.zoom.us/webinar/register/WN_XEJkamEGQhSeiCEv4ZwuZg).
 
 
 
