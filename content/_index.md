@@ -7,7 +7,7 @@ aliases:
 hero:
   title: i18n-content-_index-hero-title
   body: i18n-content-_index-hero-body
-  body_mobile: With Vibe’s interactive smart boards and collaboration softwares, teams can.
+  body_mobile: With Vibe’s interactive smart boards, teams can innovate, ideate, and collaborate in real-time from anywhere in the world.
   video:
     preview: video/home/Vibe-introduction-preview.mp4
   ctas:

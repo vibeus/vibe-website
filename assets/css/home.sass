@@ -88,8 +88,8 @@
       font-size: 18px
       line-height: 150%
       +mobile
-        max-width: 221px
-        font-size: 16px
+        max-width: 283px
+        font-size: 14px
         line-height: 144%
     .title .content
       display: flex
@@ -243,16 +243,23 @@
   +vertical-padding(88px)
   background: rgba(244, 244, 244, 0.4)
   .container
-    max-width: 1140px
+    max-width: 1220px
     padding-left: 1.25rem
-
+    +widescreen
+      padding-left: 3.75rem
     .columns
       +touch
         display: block
-        text-align: center
       .column
         &:not(:last-child)
           margin-bottom: 2rem
+        +touch
+          display: flex
+          align-items: center
+          .title-row
+            margin-right: 1.25rem
+          .title
+            margin-bottom: .25rem
       .title-row
         display: flex
         align-items: center

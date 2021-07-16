@@ -14,6 +14,8 @@
       .column.is-image .image
         +mobile
           max-width: 276px
+    &:last-child .image
+      max-width: 448px
     @media screen and ( min-width: 767px ) and ( max-width: 1023px )
       .column.is-text
         padding-left: 130px
@@ -26,7 +28,8 @@
       padding-bottom: 40px
     +desktop
       &:last-child .is-image
-        margin-right: -65px
+        max-width: 478px
+        margin-left: 65px
       &:not(:last-child)
         margin-bottom: 88px
     .column.is-text
@@ -76,13 +79,19 @@
           font-size: 14px
     .column.is-image
       .image
-        max-width: 448px
         +touch
           margin: 0 auto
         +mobile
           max-width: 300px
         img
           margin-top: 15px
+
+  .columns.is-feature-1
+    &:first-child
+      +widescreen
+        .is-image
+          width: 568px
+          margin-right: -70px
   .columns.is-feature-2
     flex-direction: row-reverse
     +widescreen
