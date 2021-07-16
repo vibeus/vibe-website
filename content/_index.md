@@ -210,7 +210,7 @@ bottom_cta:
     buttons:
       - title: Order a Vibe
         dark_to_light: true
-        url: /demo/
-      - title: Request a demo
         url: /order/
+      - title: Request a demo
+        url: /demo/
 ---
