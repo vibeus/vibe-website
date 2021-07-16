@@ -8,7 +8,7 @@ tags:
 - Education
 - Video Conferencing
 - Virtual Meeting
-draft: true
+draft: false
 isfeatured: false
 description: Using Zoom in the classroom or in your next big meeting? Here are the best Zoom features that every teacher and
   meeting facilitator should use.
@@ -113,6 +113,8 @@ This Zoom feature is an amazing improvement over the platform’s unmuting proce
 ## Use Zoom features to improve meetings
 
 Whether teaching a class or running a corporate meeting, it’s good to have a few go-to engagement strategies on hand. By practicing and using some of these features, you can turn your next Zoom video conference into a collaborative and energizing session.
+
+Another Zoom feature we love? Webinars. Learn how Vibe can make a big difference in your classroom at our upcoming education webinar. [Register today](https://us02web.zoom.us/webinar/register/WN_XEJkamEGQhSeiCEv4ZwuZg) and get ready to start the school year with the ultimate tech toolkit.
 
 
 
