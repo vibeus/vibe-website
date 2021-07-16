@@ -207,5 +207,10 @@ customer_story:
 bottom_cta:
   title: i18n-content-_index-bottom_cta-title
   cta:
-    title: i18n-content-_index-bottom_cta-cta-title
+    buttons:
+      - title: Order a Vibe
+        dark_to_light: true
+        url: /demo/
+      - title: Request a demo
+        url: /order/
 ---
