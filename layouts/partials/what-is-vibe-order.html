@@ -1,0 +1,32 @@
+<section class="vb-section is-what-is-vibe">
+  <div class="vb-container">
+    <div class="vb-columns">
+      <div class="vb-column is-text">
+        <h1 class="title is-section-title">{{ default .title (T .title) }}</h1>
+        <div class="body{{ if .mobile_body }} is-hidden-mobile{{ end }}">{{ default .body (T .body) }}</div>
+        {{ with .mobile_body }}
+        <div class="body is-hidden-tablet">{{ . }}</div>
+        {{ end }}
+      </div>
+
+      <div class="vb-column is-video">
+        {{ with .video }}
+          <video loop muted playsinline controls>
+            {{ $src := resources.Get .normal | resources.Fingerprint }}
+            <source src="{{ $src.RelPermalink }}" type="video/mp4">
+          </video>
+        {{ end }}
+      </div>
+    </div>
+
+    
+
+
+
+    {{ with .cta }}
+    {{ partial "common/section-cta" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "common/template-script" (dict "asset" "js/common/what-is-vibe-video-setup.js") }}
+</section>

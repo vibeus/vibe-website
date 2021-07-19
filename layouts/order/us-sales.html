@@ -225,7 +225,7 @@
 {{ end }}
 
 {{ with .Params.what_is_vibe }}
-{{ partial "common/what-is-vibe" . }}
+{{ partial "what-is-vibe-order" . }}
 {{ end }}
 
 {{ with .Params.hardware_features }}
@@ -236,16 +236,20 @@
 {{ partial "common/feature-columns" . }}
 {{ end }}
 
-{{ with .Params.book_demo }}
-{{ partial "common/book-demo" . }}
+{{ with .Params.book_demo_section }}
+{{ partial "common/book-demo-new" . }}
 {{ end }}
 
 {{ with .Params.compare }}
 {{ partial "common/compare-in-brief" (merge (dict "Site" $.Site) .) }}
 {{ end }}
 
-{{ with .Params.faq }}
-{{ partial "faq" . }}
+{{ with .Params.three_faqs }}
+{{ partial "three-faqs" . }}
+{{ end }}
+
+{{ with .Params.hardware_features }}
+{{ partial "accessary-order" . }}
 {{ end }}
 
 {{ with .Params.reviews }}
@@ -348,6 +352,7 @@
 {{ partial "common/template-script" (dict "asset" "js/order.js" "products" .Params.products) }}
 {{ end }}
 {{ partial "common/template-script" (dict "asset" "js/common/demo.template.js") }}
+{{ partial "common/template-script" (dict "asset" "js/three-faqs.js") }}
 </main>{{ end }}
 
 {{ define "foot" }}

@@ -343,38 +343,38 @@ feature_columns:
     title: i18n-content-55-_index-feature_columns-cta-title
     url: /order/
 three_faqs:
-  title: i18n-content-55-_index-three_faqs-title
+  title: i18n-content-common-_index-three_faqs-title
   sections:
-    - title: i18n-content-55-_index-three_faqs-sections-i_0-title
-    - title: i18n-content-55-_index-three_faqs-sections-i_1-title
-    - title: i18n-content-55-_index-three_faqs-sections-i_2-title
+    - title: i18n-content-common-_index-three_faqs-sections-i_0-title
+    - title: i18n-content-common-_index-three_faqs-sections-i_1-title
+    - title: i18n-content-common-_index-three_faqs-sections-i_2-title
   items: 
     - item:
-      - title: i18n-content-55-_index-three_faqs-items0-i_0-title
-        body: i18n-content-55-_index-three_faqs-items0-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_1-title
-        body: i18n-content-55-_index-three_faqs-items0-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_2-title
-        body: i18n-content-55-_index-three_faqs-items0-i_2-body
-      - title: i18n-content-55-_index-three_faqs-items0-i_3-title
-        body: i18n-content-55-_index-three_faqs-items0-i_3-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_0-title
+        body: i18n-content-common-_index-three_faqs-items0-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_1-title
+        body: i18n-content-common-_index-three_faqs-items0-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_2-title
+        body: i18n-content-common-_index-three_faqs-items0-i_2-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_3-title
+        body: i18n-content-common-_index-three_faqs-items0-i_3-body
     - item:
-      - title: i18n-content-55-_index-three_faqs-items1-i_0-title
-        body: i18n-content-55-_index-three_faqs-items1-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_1-title
-        body: i18n-content-55-_index-three_faqs-items1-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items1-i_2-title
-        body: i18n-content-55-_index-three_faqs-items1-i_2-body
+      - title: i18n-content-common-_index-three_faqs-items1-i_0-title
+        body: i18n-content-common-_index-three_faqs-items1-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items1-i_1-title
+        body: i18n-content-common-_index-three_faqs-items1-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items1-i_2-title
+        body: i18n-content-common-_index-three_faqs-items1-i_2-body
     - item:
-      - title: i18n-content-55-_index-three_faqs-items2-i_0-title
-        body: i18n-content-55-_index-three_faqs-items2-i_0-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_1-title
-        body: i18n-content-55-_index-three_faqs-items2-i_1-body
-      - title: i18n-content-55-_index-three_faqs-items2-i_2-title
-        body: i18n-content-55-_index-three_faqs-items2-i_2-body
+      - title: i18n-content-common-_index-three_faqs-items2-i_0-title
+        body: i18n-content-common-_index-three_faqs-items2-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items2-i_1-title
+        body: i18n-content-common-_index-three_faqs-items2-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items2-i_2-title
+        body: i18n-content-common-_index-three_faqs-items2-i_2-body
 
   see_all:
-    title: i18n-content-55-_index-three_faqs-see_all-title
+    title: i18n-content-common-_index-three_faqs-see_all-title
     url: /buyer-faq/
   
 bottom_cta:

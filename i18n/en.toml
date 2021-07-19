@@ -1453,29 +1453,29 @@ other = "Vibe active stylus helps you easily sketch on the board and turn pages 
 [i18n-content-55-_index-feature_columns-cta-title]
 other = "Visit the Vibe store"
 
-[i18n-content-55-_index-three_faqs-title]
+[i18n-content-common-_index-three_faqs-title]
 other = "Still have questions?"
 
-[i18n-content-55-_index-three_faqs-sections-i_0-title]
+[i18n-content-common-_index-three_faqs-sections-i_0-title]
 other = "Hardware"
 
-[i18n-content-55-_index-three_faqs-sections-i_1-title]
+[i18n-content-common-_index-three_faqs-sections-i_1-title]
 other = "Software"
 
-[i18n-content-55-_index-three_faqs-sections-i_2-title]
+[i18n-content-common-_index-three_faqs-sections-i_2-title]
 other = "Shipping"
 
-[i18n-content-55-_index-three_faqs-items0-i_0-title]
+[i18n-content-common-_index-three_faqs-items0-i_0-title]
 other = "Is Vibe compatible with any wall mount?"
 
-[i18n-content-55-_index-three_faqs-items0-i_0-body]
+[i18n-content-common-_index-three_faqs-items0-i_0-body]
 other = """Vibe supports standard VESA 200 x 200 mount so the Vibe board can be installed on any compatible wall mounts
 or stands which support at least 65 lbs."""
 
-[i18n-content-55-_index-three_faqs-items0-i_1-title]
+[i18n-content-common-_index-three_faqs-items0-i_1-title]
 other = "What are the product dimensions?"
 
-[i18n-content-55-_index-three_faqs-items0-i_1-body]
+[i18n-content-common-_index-three_faqs-items0-i_1-body]
 other = """**Vibe board dimensions:**
 - Diagonal screen size: 55\"
 - Product dimensions: 50.6\" (width) x 29.1\"(height) x 2.9\" (depth)
@@ -1487,10 +1487,10 @@ other = """**Vibe board dimensions:**
 - Stand size: 50.9\" (width) x 55.2\" (height) x 26\" (depth)
 - Weight: 33.1 lbs"""
 
-[i18n-content-55-_index-three_faqs-items0-i_2-title]
+[i18n-content-common-_index-three_faqs-items0-i_2-title]
 other = "Which cameras work with Vibe?"
 
-[i18n-content-55-_index-three_faqs-items0-i_2-body]
+[i18n-content-common-_index-three_faqs-items0-i_2-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1506,58 +1506,58 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-55-_index-three_faqs-items0-i_3-title]
+[i18n-content-common-_index-three_faqs-items0-i_3-title]
 other = "How is the Vibe board powered?"
 
-[i18n-content-55-_index-three_faqs-items0-i_3-body]
+[i18n-content-common-_index-three_faqs-items0-i_3-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
 
-[i18n-content-55-_index-three_faqs-items1-i_0-title]
+[i18n-content-common-_index-three_faqs-items1-i_0-title]
 other = "Does Vibe support Single Sign On (SSO)?"
 
-[i18n-content-55-_index-three_faqs-items1-i_0-body]
+[i18n-content-common-_index-three_faqs-items1-i_0-body]
 other = "Yes, Vibe supports two popular forms of SSO: OAuth SSO and SAML based."
 
-[i18n-content-55-_index-three_faqs-items1-i_1-title]
+[i18n-content-common-_index-three_faqs-items1-i_1-title]
 other = "Which apps integrate with Vibe?"
 
-[i18n-content-55-_index-three_faqs-items1-i_1-body]
+[i18n-content-common-_index-three_faqs-items1-i_1-body]
 other = """Most 3rd-party apps work well on Vibe. Vibe Inc has our own App store with a number of 3rd party Android applications
 available for you to download onto your device.
 
 Vibe runs the mobile Android versions of these 3rd party applications. Some 3rd party mobile applications may not include identical
 functionality to the desktop version. There is no special licensing required beyond what you’re currently using to access your account."""
 
-[i18n-content-55-_index-three_faqs-items1-i_2-title]
+[i18n-content-common-_index-three_faqs-items1-i_2-title]
 other = "Does Vibe have a subscription fee?"
 
-[i18n-content-55-_index-three_faqs-items1-i_2-body]
+[i18n-content-common-_index-three_faqs-items1-i_2-body]
 other = """At this point in time, Vibe software is included free of charge with your hardware purchase. You can access your
 Vibe account from a Vibe board, computer browser, tablet or mobile phone (view only)."""
 
-[i18n-content-55-_index-three_faqs-items2-i_0-title]
+[i18n-content-common-_index-three_faqs-items2-i_0-title]
 other = "Does Vibe shipping within the U.S.?"
 
-[i18n-content-55-_index-three_faqs-items2-i_0-body]
+[i18n-content-common-_index-three_faqs-items2-i_0-body]
 other = """Shipping is free within the continental U.S. Due to COVID, shipping time is taking
 longer than usual - please expect 5-8 business days for shipping within the US."""
 
-[i18n-content-55-_index-three_faqs-items2-i_1-title]
+[i18n-content-common-_index-three_faqs-items2-i_1-title]
 other = "Does Vibe shipping to Canada?"
 
-[i18n-content-55-_index-three_faqs-items2-i_1-body]
+[i18n-content-common-_index-three_faqs-items2-i_1-body]
 other = """Vibe regularly ships to Canada. Shipping time is approximately 3-6 business days depending on your location in Canada.
 
 Shipping costs will be dependent on which product(s) and your location, so please use our [**Request a Quote form**](/contact/request-a-quote/) to get the most update
 information on shipping costs for your province."""
 
-[i18n-content-55-_index-three_faqs-items2-i_2-title]
+[i18n-content-common-_index-three_faqs-items2-i_2-title]
 other = "Does Vibe offer shipping outside of the U.S. and Canada?"
 
-[i18n-content-55-_index-three_faqs-items2-i_2-body]
+[i18n-content-common-_index-three_faqs-items2-i_2-body]
 other = """Yes, Vibe boards can be shipped to most countries. Unfortunately, due to the impact of COVID, Vibe cannot
 support shipping to India at this time.
 
@@ -1566,10 +1566,10 @@ get the most update information on shipping costs for your province.
 
 You can also arrange your own shipping from your preferred carrier, with pick up from our warehouse in Southern California."""
 
-[i18n-content-55-_index-three_faqs-items2-i_3-title]
+[i18n-content-common-_index-three_faqs-items2-i_3-title]
 other = "Which cameras work with Vibe?3"
 
-[i18n-content-55-_index-three_faqs-items2-i_3-body]
+[i18n-content-common-_index-three_faqs-items2-i_3-body]
 other = """Vibe is compatible with most USB connected cameras.
 
 If you are in the market for a new camera that you would want to use with your Vibe board, our team has
@@ -1585,22 +1585,22 @@ tested the following cameras and can confirm their compatibility with Vibe.
 If for any reason you are experiencing issues with connecting a camera or webcam to your Vibe board,
 please contact support at <support@vibe.us> to start a support ticket."""
 
-[i18n-content-55-_index-three_faqs-items2-i_4-title]
+[i18n-content-common-_index-three_faqs-items2-i_4-title]
 other = "Are there any other accessories available with Vibe?3"
 
-[i18n-content-55-_index-three_faqs-items2-i_4-body]
+[i18n-content-common-_index-three_faqs-items2-i_4-body]
 other = "We currently only offer Vibe stands and additional styluses.\n"
 
-[i18n-content-55-_index-three_faqs-items2-i_5-title]
+[i18n-content-common-_index-three_faqs-items2-i_5-title]
 other = "How is the Vibe board powered?3"
 
-[i18n-content-55-_index-three_faqs-items2-i_5-body]
+[i18n-content-common-_index-three_faqs-items2-i_5-body]
 other = """Vibe is powered through a detachable power cord that comes with your purchase.
 - Power Supply: AC100-240V - 50/60Hz
 
 We do not offer a battery option at this time."""
 
-[i18n-content-55-_index-three_faqs-see_all-title]
+[i18n-content-common-_index-three_faqs-see_all-title]
 other = "See more"
 
 [i18n-content-55-_index-bottom_cta-title]

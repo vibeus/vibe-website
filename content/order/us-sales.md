@@ -117,26 +117,12 @@ trust:
   glide: true
 
 what_is_vibe:
-  title: What is Vibe?
-  body: Vibe is a collaboration solution that combines an interactive digital whiteboard and smart software. Activate your brainstorming sessions, client presentations, and virtual trainings by combining video conferencing and your favorite applications with an infinite writing canvas.
+  title: Take your teamwork to the next level
+  body: With the Vibe 55″ interactive whiteboard, any conference room, classroom, or spontaneous huddle is transformed into a dynamic collaborative space.
   mobile_body: Vibe is a collaboration solution that combines an interactive digital whiteboard and smart software.
-  player:
-    playlistClass: switch-video
-    triggerClass: player-trigger
-    thumbnail: true
-    thumbnailPlaceholderId: thumbnail-placeholder
-    thumbnailPlaceholderClass: thumbnail-placeholder
-    thumbnailImageClass: thumbnail-image
-  playlist:
-    - title: Collaborate
-      body: Bring remote teams closer with video conferencing and real-time digital whiteboard.
-      videoId: 4L2LLp1Mais
-    - title: Create
-      body: Sketching on Vibe feels like second nature. Keep the ideas flowing from any device, anywhere in the world.
-      videoId: 2fYKegdx-Gg
-    - title: Engage
-      body: Activate your meetings with sharable content from any source, building trust through mutual feedback.
-      videoId: A1HIFoPZIEM
+  video:
+    id: Ccd4cVrtHTk
+    normal: video/home/Vibe-intro-new.mp4
   cta:
     buttons:
       - title: See Full Demo Video
@@ -183,11 +169,22 @@ feature_columns:
     class: is-black is-outlined is-rounded
 
 
-book_demo:
-  title: Ready to see Vibe in action?
-  body: Book a demo to see a product overview.
-  figure: img/order/book-demo-bg.png
-  figure_background_color: '#66cccc'
+book_demo_section:
+  date: "**Webinar** – July 28th, 2021, 10AM PST"
+  title: Product Overview of Vibe Smartboard 55″
+  body: Join us and see how Vibe elevates your business and team collaboration.
+  background_color: "#66cccc"
+  figure: img/common/book-demo-new-webinar-cyan.png
+  bg: img/common/book-demo-new-bg.jpg
+  text:
+    title: Can’t make a live webinar? 
+    content: Book a time with our sales team to see a product overview.
+    cta:
+      class: is-vibe-link is-open-live-demo-scheduler
+      title: Book a live demo →
+      url: https://meetings.hubspot.com/jian-zhao/vibe-follow-up
+  form:
+    action: https://api.hsforms.com/submissions/v3/integration/submit/5698963/51ee84a3-44d7-4371-a486-a4787edd9b66
 
 compare:
   title: Why Vibe?
@@ -201,22 +198,36 @@ compare:
     class: is-hero-cta is-black is-outlined is-rounded
 
 
-faq:
-  title: i18n-content-order-_index-faq-title
-  see_all:
-    title: i18n-content-order-_index-faq-see_all-title
-    url: /buyer-faq
-  items:
-    - title: i18n-content-order-_index-faq-items-i_0-title
-      body: i18n-content-order-_index-faq-items-i_0-body
-    - title: i18n-content-order-_index-faq-items-i_1-title
-      body: i18n-content-order-_index-faq-items-i_1-body
-    - title: i18n-content-order-_index-faq-items-i_2-title
-      body: i18n-content-order-_index-faq-items-i_2-body
-    - title: i18n-content-order-_index-faq-items-i_3-title
-      body: i18n-content-order-_index-faq-items-i_3-body
-    - title: i18n-content-order-_index-faq-items-i_4-title
-      body: i18n-content-order-_index-faq-items-i_4-body
+three_faqs:
+  title: i18n-content-common-_index-three_faqs-title
+  sections:
+    - title: i18n-content-common-_index-three_faqs-sections-i_0-title
+    - title: i18n-content-common-_index-three_faqs-sections-i_1-title
+    - title: i18n-content-common-_index-three_faqs-sections-i_2-title
+  items: 
+    - item:
+      - title: i18n-content-common-_index-three_faqs-items0-i_0-title
+        body: i18n-content-common-_index-three_faqs-items0-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_1-title
+        body: i18n-content-common-_index-three_faqs-items0-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_2-title
+        body: i18n-content-common-_index-three_faqs-items0-i_2-body
+      - title: i18n-content-common-_index-three_faqs-items0-i_3-title
+        body: i18n-content-common-_index-three_faqs-items0-i_3-body
+    - item:
+      - title: i18n-content-common-_index-three_faqs-items1-i_0-title
+        body: i18n-content-common-_index-three_faqs-items1-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items1-i_1-title
+        body: i18n-content-common-_index-three_faqs-items1-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items1-i_2-title
+        body: i18n-content-common-_index-three_faqs-items1-i_2-body
+    - item:
+      - title: i18n-content-common-_index-three_faqs-items2-i_0-title
+        body: i18n-content-common-_index-three_faqs-items2-i_0-body
+      - title: i18n-content-common-_index-three_faqs-items2-i_1-title
+        body: i18n-content-common-_index-three_faqs-items2-i_1-body
+      - title: i18n-content-common-_index-three_faqs-items2-i_2-title
+        body: i18n-content-common-_index-three_faqs-items2-i_2-body
 
 reviews:
   title: i18n-content-order-_index-reviews-title
