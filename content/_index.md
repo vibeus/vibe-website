@@ -95,7 +95,7 @@ scenario_section:
       class: is-scenario-2
       title: i18n-content-_index-scenario_section-scenarios-i_1-title
       body: i18n-content-_index-scenario_section-scenarios-i_1-body
-      url: /lp/scenario-business/
+      url: /lp/scenario-education/
       cta:
         title: Learn more →
         url: /lp/scenario-education/
