@@ -39,7 +39,7 @@
       padding-bottom: 0
   .container
     +mobile
-      width: 290px
+      max-width: 327px
     +tablet
       max-width: 76.3vw
     +fullhd
@@ -128,7 +128,9 @@
       +desktop-only
         margin: 20px 0 0 14vw
       +widescreen
-        margin: 20px 0 0 24vw
+        margin-left: 24vw
+      +fullhd
+        margin-left: 345px
       .image.is-video-play
         height: 31px
         +mobile
@@ -245,6 +247,10 @@
   .container
     max-width: 1220px
     padding-left: 1.25rem
+    @media screen and ( min-width: 376px ) and ( max-width: 415px)
+      padding-left: 2.25rem
+    @media screen and ( min-width: 767px ) and ( max-width: 1023px)
+      padding-left: 5.75rem
     +widescreen
       padding-left: 3.75rem
     .columns

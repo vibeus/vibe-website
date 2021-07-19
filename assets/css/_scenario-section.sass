@@ -10,10 +10,15 @@
       max-width: 1196px
       margin: 0 auto
       border-radius: 8px 
-      &:hover .cta a
-        color: #111
-        text-decoration: none
-        border-bottom: 2px solid #111
+      .image-link:hover + .is-text
+        .cta a
+          color: #111
+          text-decoration: none
+          border-bottom: 2px solid #111
+      .cta a:hover
+          color: #111
+          text-decoration: none
+          border-bottom: 2px solid #111
       &:not(:last-child)
         margin-bottom: 5rem
         +mobile
