@@ -11,18 +11,18 @@
               {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile)) }}
             </figure>
           </div>
-          <div class="is-text">
-            <div class="is-text-container">
-              <h2 class="title">{{ default .title (T .title) }}</h2>
-              <div class="content">{{ default .body (T .body) }}</div>
-              {{ with .cta }}
-                <div class="cta">
-                  <a href="{{ .url | relLangURL }}">{{ default .title ( T .title ) }}</a>
-                </div>
-              {{ end }}
-            </div>
-          </div>
         </a>
+        <div class="is-text">
+          <div class="is-text-container">
+            <h2 class="title">{{ default .title (T .title) }}</h2>
+            <div class="content">{{ default .body (T .body) }}</div>
+            {{ with .cta }}
+              <div class="cta">
+                <a href="{{ .url | relLangURL }}">{{ default .title ( T .title ) }}</a>
+              </div>
+            {{ end }}
+          </div>
+        </div>
       </div>
     {{ end }}
   </div>
