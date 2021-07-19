@@ -137,6 +137,9 @@ apps:
 - id: com.glip.mobile
   name: RingCentral
   type: productivity
+- id: com.gohunt
+  name: goHunt
+  type: other
 - id: com.google.android.apps.meetings
   name: Meet
   type: vc
@@ -224,6 +227,9 @@ apps:
 - id: com.microsoft.windowsintune.companyportal
   name: Company Portal
   type: productivity
+- id: com.mirial.lifesizecloud
+  name: Lifesize
+  type: vc
 - id: com.mitel.teamwork
   name: Teamwork
   type: communication
@@ -370,6 +376,9 @@ apps:
 - id: org.khanacademy.android
   name: Khan Academy
   type: education
+- id: org.lds.ldssa
+  name: Gospel Library
+  type: other
 - id: tv.fipe.fplayer
   name: FX player
   type: av
