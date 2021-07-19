@@ -12,7 +12,7 @@
 @import "_product-security.sass"
 @import "_product-feature-columns.sass"
 .hero.is-75
-  background-color: #F4F4F4
+  background-color: $vibe-white
   +mobile
     min-height: 860px
   @media screen and ( min-width: 413px ) and ( max-width: 767px )
@@ -244,10 +244,7 @@
     margin-bottom: 2rem
     font-weight: $vibe-bold
     text-align: center
-    a
-      font-size: 18px
-      line-height: 144%
-      color: #6666CC
+
 .section.is-apps
   .see-all
     display: none
@@ -260,7 +257,7 @@
 
 .section.is-spec
   +vertical-padding(104px)
-  background-color: #F4F4F4
+  background-color: $vibe-white
   .title
     text-align: center
   .spec-table
@@ -292,25 +289,22 @@
     margin-bottom: 8px
   .spec-mask
     position: absolute;
-    width: 100%;
-    height: 80px;
-    margin-top: -75px;
-    background-color: #F4F4F4;
-    background: -webkit-linear-gradient(rgba(244,244,244,.3), #f4f4f4);
-    background: -moz-linear-gradient(top, rgba(244,244,244,.3) 0%, #f4f4f4 100%);
-    background: -o-linear-gradient(top, rgba(244,244,244,.3) 0%, #f4f4f4 100%);
-    background: -ms-linear-gradient(rgba(244,244,244,.3), #f4f4f4);
+    width: 100%
+    height: 80px
+    margin-top: -75px
+    background-color: $vibe-white
+    background: -webkit-linear-gradient(rgba(244,244,244,.3), #f4f4f4)
+    background: -moz-linear-gradient(top, rgba(244,244,244,.3) 0%, #f4f4f4 100%)
+    background: -o-linear-gradient(top, rgba(244,244,244,.3) 0%, #f4f4f4 100%)
+    background: -ms-linear-gradient(rgba(244,244,244,.3), #f4f4f4)
     opacity: .9;
   .button.is-specs-chevron
     border: none
     background: none
     display: block
     margin: 40px auto 0
-    .see-all
-      font-weight: $vibe-bold
+    a
       font-size: 18px
-      line-height: 144%
-      color: #6666CC
   #specs
     +tablet
       padding-top: 40px
@@ -393,7 +387,7 @@
         font-size: 14px
 
 .section.is-faq
-  background: #F4F4F4
+  background: $vibe-white
 
 .section.is-feature-columns
   .is-feature .image img

@@ -1,0 +1,88 @@
+.section.is-scenario-section
+  +vertical-padding(120px)
+  background: rgba(244, 244, 244, .6)
+  +touch
+    padding-left: 44px
+    padding-right: 44px
+  .container
+    .scenario-box
+      display: flex
+      max-width: 1196px
+      margin: 0 auto
+      border-radius: 8px 
+      .image-link:hover + .is-text
+        .cta a
+          color: #111
+          text-decoration: none
+          border-bottom: 2px solid #111
+      .cta a:hover
+          color: #111
+          text-decoration: none
+          border-bottom: 2px solid #111
+      &:not(:last-child)
+        margin-bottom: 5rem
+        +mobile
+          margin-bottom: 2rem
+      +touch
+        flex-direction: column
+      +desktop-only
+        margin: 0 1rem
+      .is-image .image
+        +widescreen
+          width: 772px
+        @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
+          width: 650px
+      .is-text
+        +touch
+          margin-top: -10px
+          border-radius: 0 0 20px 20px
+        +mobile
+          border-radius: 0 0 8px 8px
+        +desktop
+          width: 425px
+          margin-left: -10px
+          border-radius: 0 8px 8px 0
+        .is-text-container
+          color: #000000
+          +touch
+            padding: 0 7.8vw
+          @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
+            max-width: 275px
+            margin-left: 36px
+          +widescreen
+            max-width: 289px
+            margin-left: 78px
+          .title
+            font-size: 40px
+            line-height: 118.5%
+            +touch
+              margin: 32px 0 16px
+            +mobile
+              font-size: 20px
+            @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
+              margin: 36px 0 32px
+            +widescreen
+              margin: 56px 0 32px
+          .content
+            font-size: 18px
+            line-height: 144%
+            +touch
+              margin-bottom: 16px
+            +mobile
+              font-size: 14px
+            @media screen and ( min-width: 1023px ) and ( max-width: 1279px )
+              margin-bottom: 58px
+            +widescreen
+              margin-bottom: 98px
+          .cta
+            font-weight: $vibe-bold
+            font-size: 18px
+            line-height: 144%
+            +touch
+              margin-bottom: 32px
+            +mobile
+              font-size: 14px
+    .is-scenario-1 .is-text
+        background: $vibe-teal
+    .is-scenario-2 .is-text
+        background: $vibe-yellow

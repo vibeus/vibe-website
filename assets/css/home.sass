@@ -1,421 +1,375 @@
 @import "@glidejs/glide/src/assets/sass/glide.core"
 @import "_shared.sass"
 @import "_customers.sass"
-@import "_video-hero.sass"
-@import "_testimonial-glide.sass"
-@import "_testimonial-section.sass"
-@import "_testimonial.sass"
+@import "_description-section.sass"
+@import "_scenario-section.sass"
 @import "_bottom-cta.sass"
 @import "_before-nav.sass"
 @import "_as-seen-in.sass"
 @import "_customer-story-section.sass"
 
-.hero
+.hero.is-home
   position: relative
+  +touch
+    min-height: 433px
   +mobile
-    .hero-body
+    min-height: 463px
+  +widescreen
+    min-height: 85vh
+  @media screen and ( min-width: 1439px ) and ( max-width: 1441px )
+    min-height: 80vh
+  .image.is-video-close
+    display: none
+    position: absolute
+    z-index: 10
+    cursor: pointer
+    +mobile
+      top: 4.1vw
+      right: 4.1vw
+    +tablet
+      top: 2vw
+      right: 4vw
+    svg
+      width: 38px
+      height: 38px
+  .hero-body
+    display: flex
+    align-items: center
+    +mobile
       padding-bottom: 0
-  .image.is-hero-bg
-    +absolute-fill
-    +tablet-only
-      right: -80px
-    img
-      width: 100%
-      height: 100%
-      object-fit: cover
-      +mobile
-        object-position: 62% 50%
   .container
+    +mobile
+      max-width: 296px
+    +tablet
+      max-width: 76.3vw
+    +desktop-only
+      max-width: 77.3vw
     +fullhd
       max-width: 1100px
+  .video-launcher
+    +absolute-fill
+    width: 100vw
+    *:focus
+      outline: none
+    .image
+      line-height: 0
+      video
+        width: 100vw
+      iframe, .video-js
+        +absolute-fill
+    .preview
+      position: relative
+      .mask
+        +absolute-fill
+        background-color: rgba(0,0,0,0.45)
   .title-text
+    color: #FFFFFF
+    text-shadow: 0px 1px 4px rgba(17, 17, 17, 0.25)
     +mobile
-      margin-bottom: 32px
+      margin-bottom: 40px
     +tablet
       max-width: 480px
-      +lang-override(".lang-zh")
-        max-width: 400px
-      margin-bottom: 72px
+      margin-bottom: 4.75rem
     +desktop
-      max-width: 500px
+      max-width: 801px
     .title
-      font-size: 38px
-      line-height: 48px
-      +lang-override(".lang-zh")
-        font-size: 50px
+      margin-bottom: 1rem
+      font-size: 72px
+      line-height: 130%
+      color: inherit
       +mobile
-        font-size: 32px
-        line-height: 40px
+        max-width: 313px
+        margin-bottom: 1rem
+        font-size: 40px
+        line-height: 116%
       +tablet-only
         font-size: 36px
         line-height: 36px
-    p
-      max-width: 435px
-      +lang-override(".lang-zh")
-        display: none
-    .title p
-      display: flex
-  .cta
-    +mobile
-      text-align: center
-    .button.is-hero-cta
-      +mobile
-        min-width: 270px
-      +tablet
-        width: 234px
-        height: 58px
-        font-size: 20px
-      font-weight: $vibe-bold
-      &:not(:last-child)
-        margin-right: 20px
-  .subcta
-    margin-top: 20px
-    &.is-logged-in
-      display: none
-    +mobile
-      display: none
-    a
-      font-weight: 500
-      color: $primary
-      margin-left: 18px
-  .image.is-hero
-    +mobile-full-width
-
-.section.is-video-hero
-  a
-    color: $vibe-purple
-    &:hover
-      color: $vibe-pink
-  +lang-override(".lang-zh")
-    .is-footnote
-      font-size: 16px
-      margin-top: 32px
-    .title
-      margin-bottom: 40px
     .content
-      line-height: 1.6
-.section.is-feature
-  padding: 3rem 1.5rem
-  &.is-feature-1
-    padding-top: 120px
-    +mobile
-      padding-top: 64px
-  &.is-feature-2
-    padding-bottom: 90px
-  &.is-feature-3
-    +mobile
-      padding-bottom: 0
-  &.is-feature-4
-    +tablet
-      padding-top: 108px
-  &.is-feature-1, &.is-feature-3, &.is-feature-5
-    .columns
-      flex-direction: row-reverse
-  +tablet
-    &.is-feature-2, &.is-feature-4
-      .column.is-text
-        margin-left: 64px
-  font-size: 18px
-  +mobile
-    font-size: 16px
-  .container
-    max-width: 1224px
-    .subtitle
-      +desktop
-        +lang-override(".lang-zh")
-          font-size: 50px
-          line-height: 70px
-          margin-bottom: 44px
-  .column.is-text
-    max-width: 500px
-  .column.is-image
-    position: relative
-    +tablet
-      .image
-        position: absolute
-      .overlay
-        +absolute-fill
-  .cta
-    font-weight: $vibe-bold
-    a
+      max-width: 453px
+      font-size: 18px
+      line-height: 150%
+      +mobile
+        max-width: 283px
+        font-size: 14px
+        line-height: 144%
+    .title .content
+      display: flex
+  .cta-row
+    display: flex
+    .cta
+      &:nth-child(2) .button
+        background-color: transparent
+        color: $vibe-white
+        border: 2px solid $vibe-white
+      &:not(:first-child)
+        margin-left: 1rem
+      .button
+        font-weight: $vibe-bold
+        &:not(:last-child)
+          background-color: unset
+          margin-right: 1.25rem
+        +mobile
+          padding-left: 18px
+          padding-right: 18px
+          height: 42px
+          font-size: 16px
+          line-height: 20px
+        +tablet
+          height: 60px
+          font-size: 20px
+    .video-play
       display: flex
       align-items: center
-      color: $vibe-purple
-      &:hover
-        color: $primary
-      &:hover svg
-        fill: $primary
-      span.icon
-        margin-left: 12px
-  &.is-feature-3
-    background-color: $vibe-teal
-  +tablet
-    &.is-feature-1
-      .column.is-image
-        height: 473px
-      .image
-        width: 774px
-        right: 0
-        +widescreen
-          right: 120px
-    &.is-feature-2
-      .column.is-image
-        height: 492px
-      .image
-        width: 782px
-        left: 0
-        +widescreen
-          left: 160px
-    &.is-feature-3
-      position: relative
-      padding-top: 120px - 12px
-      min-height: 810px
-      +lang-override(".lang-zh")
-        padding-top: 120px
-        min-height: 743px
-        .content
-          margin-top: 48px
-      .container, .column.is-image
-        position: static
-      .column.is-text
-        z-index: 1
-      .image
-        width: 993px
-        bottom: 0
-        left: -300px
-        +from(1024px)
-          left: -150px
-        +from(1480px)
-          left: 0
-        +from(1920px)
-          left: auto
-          right: 50%
-        .overlay
-          +tablet
-            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 50%,rgba(102, 204, 204, 0.9) 75%)
-          +from(1100px)
-            background: linear-gradient(90deg,rgba(102, 204, 204, 0.1) 55%,rgba(102, 204, 204, 0.9) 80%)
-          +from(1230px)
-            background: none
-    &.is-feature-4
-      .column.is-image
-        height: 566px
-      .image
-        width: 820px
-        left: 0
-        +widescreen
-          left: 160px
-      +lang-override(".lang-zh")
-        p
-          margin: 0
-    &.is-feature-5
-      padding-bottom: 0
-      .column.is-image
-        height: 659px
-      .image
-        width: 707px
-        right: 0
-        +widescreen
-          right: 120px
-  +mobile
-    &.is-feature-5
-      padding-bottom: 0
-  +lang-override(".lang-zh")
-    .column.is-text .content
-      max-width: 436px
-
-.section.is-trust .container
-  @media screen and (min-width: 1200px) // 3 columns
-    width: calc(1100px + 2 * 0.75rem)
-    .column
-      padding: 0.5rem
-    .figure-for-desktop
-      display: block
-    .glide_desktop
-      display: block
-      .glide-slide-0
-        .column-0
-          width: 40%
-        .column-1
-          width: 26.5%
-        .column-2
-          width: 33.5%
-          .content
-            font-size: 14px
-    .figure-for-desktop
-      display: block
-    .glide-slide-1
-      .column-0
-        width: 39%
-      .column-1
-        width: 35%
-        .content
-          font-size: 16px
-      .column-2
-        width: 26%
-  @media screen and (max-width: 1199px) and (min-width: 900px) // 2 columns
-    .glide_tablet
-      display: block
-      .columns
-        margin: auto
-        max-width: 864px
-        height: 690px
-        .column
-          width: calc(420px + 2 * 0.75rem)
-    .figure-for-tablet
-      display: block
-  @media screen and (max-width: 899px) // 1 column
-    .glide_mobile
-      display: block
-    .figure-for-mobile
-      display: block
-    .column
-      padding: 0
-
-  .glide
-    width: 100%
-    margin: auto
-    margin-top: 40px
-    .glide__slides
-      .glide__slide
-        .columns
-          width: 100%
-          margin: auto
-          .column
-            flex: none
-            overflow: hidden
-  .glide-dots
-    margin-top: 8px
-    margin-bottom: 20px
-    text-align: center
-    .icon
       cursor: pointer
-      opacity: 0.2
-      &.is-active
-        opacity: 0.6
-
-  .is-story-card
-    display: flex
-    flex-direction: column
-    @media screen and (max-width: 1199px) and (min-width: 900px)
-      &.for_testimonial
-        height: 272px
-    &.video-popup
-      cursor: pointer
-    &.is-reversed
-      flex-direction: column-reverse
-    &:not(:first-child)
-      margin-top: 16px
-    @media screen and (max-width: 899px)
-      flex-direction: column-reverse
-    @media screen and ( min-width: 900px )
-      .is-testimonial
-        padding-top: 15%
-        padding-bottom: 9%
-        .container
-          width: 100%
-        .testimonial
-          display: flex
-          flex-direction: column
-          justify-content: space-between
-        .content
-          color: black
-          position: relative
-          font-weight: 400
-          padding: 0 5%
-          @media screen and (max-width: 1199px) and (min-width: 900px)
-            font-size: 14px
-        .quote-mark
-          width: 30px
-          &.is-left
-            top: -35px
-            left: 0
-          &.is-right
-            right: 0
-            bottom: -25px
-        .author
-          display: flex
-          justify-content: flex-start
-          margin-top: 5%
-          padding: 0 0 20px 5%
-          @media screen and ( min-width: 1200px )
-            padding-bottom: 0
-          .name
-            font-family: $vibe-family-heading
-            font-size: 14px
-            line-height: 1rem
-    .blog-content
-      position: relative
-      background-color: white
-      flex-direction: row
-      display: flex
-      padding-bottom: 15px
-      padding-top: 15px
-      justify-content: space-between
-      .is-content
-        margin-left: 20px
-        font-size: 14px
-        @media screen and (max-width: 1199px) and (min-width: 900px)
-          padding-right: 10%
-        .is-blog-title
-          font-family: $vibe-family-heading
-          font-size: 12px
-          font-weight: 500
-          color: grey
-          margin-bottom: 5px
-        .is-blog-name
-          font-family: $vibe-family-heading
-          font-size: 14px
-          color: black
-          font-weight: 500
-          @media screen and ( min-width: 1200px )
-            display: block
-        .is-blog-content
-          font-family: $vibe-family-heading
-          font-weight: 400
-          color: black
-          position: relative
-          @media screen and (max-width: 899px)
-            display: none
-        .content-for-mobile
-          display: none
-          color: black
-          font-weight: 400
-          @media screen and (max-width: 899px)
-            display: inline-block
-      .is-blog-logo
-        margin-right: 3%
-        margin-left: 5%
+      +mobile
         position: absolute
-        top: 15px
-        right: 0px
-        margin-left: 5px
-        margin-right: 15px
-    .blog-figure
-      font-size: 0
+        top: -2rem
+        left: 0
+      @media screen and ( min-width: 767px ) and ( max-width: 769px )
+        margin: 20px 0 0 4vw
+      +desktop-only
+        margin: 20px 0 0 14vw
+      +widescreen
+        margin-left: 24vw
+      +fullhd
+        margin-left: 345px
+      .image.is-video-play
+        height: 31px
+        +mobile
+          height: 22px
+        svg
+          width: 31px
+          height: 31px
+          +mobile
+            width: 22px
+            height: 22px
+      p
+        margin-left: 1rem 
+        margin-right: -2rem
+        font-size: 19px
+        line-height: 23px
+        color: $vibe-white
+        
+// 点击播放后的动画样式调整
+@-webkit-keyframes fadeInContainer
+  0%
+    opacity: 0
+    visibility: none
+    transform: translateX(-3rem)
+  50%
+    opacity: .6
+    transform: translateX(-1.5rem)
+  100%
+    opacity: 1
 
-// customers logo
-.section.is-trust
-  .is-customers .column
-    @media screen and (min-width: 1200px)
-      width: 12.5%
-    @media screen and (max-width: 1199px) and (min-width: 780px)
-      width: 25%
-  .is-customers
-    max-width: 1280px
-    margin: auto
+@-webkit-keyframes fadeInHome
+  0%
+    opacity: 0
+    visibility: none
+  50%
+    opacity: .7
+  100%
+    opacity: 1
 
-.hero
-  +mobile
-    +lang-override(".lang-zh")
-      .title-text .title
-        p
+@-webkit-keyframes fadeOutHome
+  0%
+    opacity: 1
+  50%
+    opacity: .3
+  100%
+    opacity: 0
+    visibility: none
+
+.hero.is-home
+  transition: all .6s ease .1s
+  &:not(.is-active)
+    .video-launcher video
+      +mobile
+        max-width: unset
+        width: 251%
+        height: 463px
+        margin-left: -22%
+        @media screen and ( min-width: 413px )
+          margin-left: -30%
+  &.is-active
+    transition: all .001s ease .0011s
+    +mobile
+      min-height: 233px
+      transition: min-height .6s ease .1s
+      -webkit-transition: min-height .6s ease .1s
+      @media screen and ( max-width: 376px )
+        min-height: 211px
+      .container
+        display: none
+    +widescreen
+      min-height: 95vh
+      overflow: unset
+    .image.is-video-close
+      display: block
+    .container , .container.is-active
+      animation: fadeOutHome .6s forwards linear
+      -webkit-animation: fadeOutHome .6s forwards linear
+      transform: translateX(-3rem)
+      transition: transform .6s ease .1s
+      -webkit-transition: transform .6s ease .1s
+    .normal-video
+      display: block
+      animation: fadeInHome 1.6s forwards linear
+      -webkit-animation: fadeInHome 1.6s forwards linear
+      video
+        height: 95vh
+        +mobile
+          height: auto
+          transition: height .6s ease .1s
+          -webkit-transition: height .6s ease .1s
+    .preview
+      display: none
+  .normal-video
+    display: none
+    background: #000
+  .container
+    &.is-active
+      animation: fadeInContainer .6s forwards linear
+      -webkit-animation: fadeInContainer .6s forwards linear
+      .video-launcher .normal-video
+        display: none
+
+.section.is-as-seen-in
+  +vertical-padding(48px)
+  .container
+    +desktop-only
+      padding: 0 80px
+    .title
+      display: none
+  .references-wrapper
+    padding-left: 0
+.section.is-values
+  +vertical-padding(88px)
+  background: rgba(244, 244, 244, 0.4)
+  .container
+    max-width: 1220px
+    padding-left: 1.25rem
+    @media screen and ( min-width: 376px ) and ( max-width: 415px)
+      padding-left: 2.25rem
+    @media screen and ( min-width: 767px ) and ( max-width: 1023px)
+      padding-left: 5.75rem
+    +desktop-only
+      max-width: 838px
+      padding-left: 0
+      .column:nth-child(5)
+        padding-left: 2rem
+    +widescreen
+      padding-left: 3.75rem
+    .columns
+      +touch
+        display: block
+      .column
+        &:not(:last-child)
+          margin-bottom: 2rem
+        +touch
+          display: flex
+          align-items: center
+          .title-row
+            margin-right: 1.25rem
+          .title
+            margin-bottom: .25rem
+      .title-row
+        display: flex
+        align-items: center
+        +touch
           display: block
-          &:first-child
-            font-size: 28px
-        font-size: 42px
-        text-align: center
+        .image
+          img
+            width: 72px
+            height: 72px
+            +touch
+              margin: 0 auto
+            +mobile
+              width: 50px
+              height: 50px
+      .title
+        font-size: 30px
+        line-height: 38px
+        color: #000
+        +touch
+          margin-top: .5rem
+          margin-bottom: .5rem
+        +mobile
+          font-size: 18px
+          line-height: 23px
+        +desktop
+          margin-left: 14px
+      .content
+        max-width: 324px
+        margin-top: 22px
+        font-size: 18px
+        line-height: 144%
+        color: #000000
+        +touch
+          margin: 0 auto
+        +mobile
+          max-width: 242px
+          font-size: 14px
 
+.section.is-customer-story-section
+  background-color: #fff
+  .container
+    .is-story-card.video-popup
+      +mobile
+        margin: 0 1.25rem .25rem
+    .is-section-title
+      max-width: 657px
+      line-height: 63px
+      +mobile
+        max-width: 276px
+        font-size: 32px
+        line-height: 40px
+    .glide-dots
+      +mobile
+        margin-bottom: 40px
+      +tablet
+        margin-top: 20px
+        margin-bottom: 62px
+      @media screen and ( min-width: 413px ) and ( max-width: 767px )
+        margin-top: 16px
+    .customer-logo-group
+      +desktop-only
+        margin: 0 4rem
+      +touch
+        margin: 0 1.5rem
+      +mobile
+        margin: 0 1rem
+    .glide__slide .column.is-single-column
+      .is-story-card
+        box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.1)
+        @media screen and ( min-width: 767px ) and ( max-width: 1023px )
+          margin: 0 1rem 1rem
+        +mobile
+          box-shadow: 0px 2.5px 4px rgba(0, 0, 0, 0.1)
+      @media screen and (min-width: 1200px)
+        .figure-for-desktop img
+            width: 756px
+            height: 470px
+        .blog-content
+          width: 352px
+          height: 470px
+          padding-top: 50px
+          padding-bottom: 32px
+          .is-content
+            padding-right: 36px
+            margin-left: 39px
+            .is-blog-testimonial
+              font-size: 24px
+              line-height: 30px
+              color: #000000
+            .is-blog-title
+              margin-bottom: 9px
+              line-height: 15px
+              color: #BDBDBD
+            .is-blog-name, .is-blog-content
+              font-size: 16px
+              line-height: 135%
 .section
   +mobile
     +lang-override(".lang-zh")
@@ -446,3 +400,9 @@
         margin-top: 16px
         font-size: 12px
         margin-bottom: 36px
+
+.section.is-bottom-cta
+  .cta .button
+    +mobile
+      min-width: 270px
+      

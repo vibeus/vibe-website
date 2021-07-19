@@ -1,0 +1,36 @@
+<section class="section is-values">
+  <div class="container">
+    <div class="columns">
+      {{ range . }}
+      <div class="column is-hidden-touch">
+        <div class="title-row">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+          </figure>
+          <h2 class="title">{{ default .title (T .title) }}</h2>
+        </div>
+        {{ with .body }}
+        <div class="content">
+          {{ default . (T .) | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="column is-hidden-desktop">
+        <div class="title-row">
+          <figure class="image">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+          </figure>
+        </div>
+        <div>
+          <h2 class="title">{{ default .title (T .title) }}</h2>
+          {{ with .body }}
+          <div class="content">
+            {{ default . (T .) | markdownify }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

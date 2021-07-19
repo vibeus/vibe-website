@@ -1,0 +1,31 @@
+<section class="section is-description-section">
+  <div class="container">
+    {{ if .title }}
+      {{ with .title }}<h1 class="title is-section-title">{{ default . ( T . ) }}</h1>{{ end }}
+    {{ end }}
+    {{ range .descriptions }}
+      <div class="columns is-vcentered{{ with .class }} {{ . }}{{ end }}">
+        <div class="column is-text">
+          <h2 class="sub-title">{{ default .sub_title ( T .sub_title ) | markdownify }}</h2>
+          <h2 class="title">{{ default .title ( T .title ) | markdownify }}</h2>
+          <div class="content">
+            {{ default .body ( T .body ) | markdownify }}
+          </div>
+          <div class="cta purple-link">
+            {{ range .cta_links }}
+              <a href="{{ .url | relLangURL }}">{{ default .title ( T .title ) }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <div class="column is-image">
+          <figure class="image is-hidden-mobile">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
+          </figure>
+          <figure class="image is-hidden-tablet">
+            {{ partial "common/srcset" (dict "resource" (resources.Get .figure_mobile)) }}
+          </figure>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
