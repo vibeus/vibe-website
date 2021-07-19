@@ -2,7 +2,7 @@
   <div class="container">
     {{ range .scenarios }}
       <div class="scenario-box {{ .class }}">
-        <a href="{{ .url | relLangURL }}">
+        <a class="image-link" href="{{ .url | relLangURL }}">
           <div class="is-image">
             <figure class="image is-hidden-touch">
               {{ partial "common/srcset" (dict "resource" (resources.Get .figure)) }}
