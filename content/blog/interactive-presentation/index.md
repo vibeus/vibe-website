@@ -115,7 +115,7 @@ Pausing also gives your audience the opportunity to contribute and ask questions
 
 An additional suggestion: don’t over do it. It is possible to be overly interactive—the purpose is asking questions or using polls to keep your audience engaged. If you use these tricks too much, you’ll risk irritating your listeners and breaking up the flow of the pitch.
 
-{{< blog/cta-1 "Check out the new Vibe Pro, perfect for conference rooms" "https://vibe.us/product/vibe-smartboard-pro-75" >}}
+{{< blog/cta-1 "Check out the new Vibe Pro, perfect for conference rooms" "https://vibe.us/products/vibe-smartboard-pro-75" >}}
 
 ## Can’t-miss apps for interactive pitches
 
