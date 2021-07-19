@@ -11,7 +11,7 @@
 .hero.is-home
   position: relative
   +touch
-    min-height: 450px
+    min-height: 433px
   +mobile
     min-height: 463px
   +widescreen
@@ -39,9 +39,11 @@
       padding-bottom: 0
   .container
     +mobile
-      max-width: 327px
+      max-width: 296px
     +tablet
       max-width: 76.3vw
+    +desktop-only
+      max-width: 77.3vw
     +fullhd
       max-width: 1100px
   .video-launcher
@@ -76,7 +78,7 @@
       line-height: 130%
       color: inherit
       +mobile
-        max-width: 327px
+        max-width: 313px
         margin-bottom: 1rem
         font-size: 40px
         line-height: 116%
@@ -108,7 +110,8 @@
           background-color: unset
           margin-right: 1.25rem
         +mobile
-          min-width: 143px
+          padding-left: 18px
+          padding-right: 18px
           height: 42px
           font-size: 16px
           line-height: 20px
