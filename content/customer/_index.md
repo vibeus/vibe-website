@@ -8,7 +8,7 @@ layout: customer
 
 hero:
   title: The digital whiteboard trusted by
-  title1: 900+
+  title1: 1000+
   title2: companies all over the world.
   body: Teams collaborate better with Vibe. Read customer reviews of Vibe digital whiteboard and see how customers unleashed creativity and maximized their organizations’ productivity and effectiveness.
 
