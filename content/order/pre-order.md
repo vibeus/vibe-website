@@ -21,9 +21,8 @@ products:
       product_name: vibe_board_75
       title: Vibe Smartboard Pro 75″
       body: An all-in-one solution that combines an interactive digital whiteboard and smart software on a 75″ 4K Ultra HD display.
-      product_id: '39333799329843'
+      product_id: '39355861598259'
       price: 6999
-      deposit_price: 700
       figure: img/order/pre-order/product-gallery-1.png
       backorder:
         item_notice: Shipping begins August 2021
@@ -32,9 +31,8 @@ products:
       product_name: vibe_stand_75
       title: Portable Stand for Vibe Smartboard Pro 75″
       body: Compatible with Vibe Smartboard Pro 75″. All metal design, simple and durable. Easy to move. Make any room a dynamic teamwork space.
-      product_id: '39384958238771'
+      product_id: '39402732945459'
       price: 899
-      deposit_price: 90
       figure: img/order/pre-order/stand-gallery-1.png
       backorder:
         item_notice: Shipping begins August 2021
@@ -59,7 +57,7 @@ hero:
 contact:
   title: Get a Quote
   body: |
-    Not ready to pre-order yet? Need a PO? Have a bulk order?
+    Not ready to order yet? Need a PO? Have a bulk order?
 
     Use this form to let us know how we can best help.
   form:
