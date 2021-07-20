@@ -57,7 +57,7 @@ hero:
 contact:
   title: Get a Quote
   body: |
-    Not ready to pre-order yet? Need a PO? Have a bulk order?
+    Not ready to order yet? Need a PO? Have a bulk order?
 
     Use this form to let us know how we can best help.
   form:
